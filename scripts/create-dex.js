@@ -1,7 +1,7 @@
 #!node
 
-import pokedex from './pokedex.json' with { type: 'json' }
-import learnsets from './learnsets.json' with { type: 'json' }
+import pokedex from '../vendor/showdown/pokedex.json' with { type: 'json' }
+import learnsets from '../vendor/showdown/learnsets.json' with { type: 'json' }
 
 // Learnset
 for (const mon in pokedex) {
