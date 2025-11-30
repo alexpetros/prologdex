@@ -6,11 +6,16 @@ import learnsets from '../vendor/showdown/learnsets.json' with { type: 'json' }
 // Print module declaration
 console.log(':- module(dex, [learns/2, type/2]).')
 
+// Mons
+for (const mon in pokedex) {
+  console.log(`pokemon(${mon}).`)
+}
+
 // Learnset
 for (const mon in pokedex) {
   const learnset = learnsets[mon]?.learnset
   for (const move in learnset) {
-    console.log(`learns('${mon}', '${move}').`)
+    console.log(`learns(${mon}, ${move}).`)
   }
 }
 
@@ -19,7 +24,7 @@ for (const mon in pokedex) {
   const types = pokedex[mon]?.types
   if (!types) { continue }
   for (const type of types) {
-    console.log(`type('${mon}', ${type.toLowerCase()}).`)
+    console.log(`type(${mon}, ${type.toLowerCase()}).`)
   }
 }
 
