@@ -1,0 +1,546 @@
+19
+Great Tusk
+Iron Valiant
+Mega Gallade
+
+18
+Deoxys-Speed
+Garchomp
+Kyurem
+Landorus-Therian
+Mega Diancie
+Mega Mawile
+Mega Scizor
+Meowscarada
+Tapu Koko
+
+17
+Darkrai
+Gouging Fire
+Greninja
+Iron Bundle
+Mega Latios
+Mega Medicham
+Palafin
+Tornadus-Therian
+Zeraora
+
+16
+Galarian Slowking
+Gholdengo
+Iron Treads
+Kartana
+Landorus-Incarnate
+Mew
+Necrozma
+Roaring Moon
+Sneasler
+Terapagos
+Ting-Lu
+Zapdos
+
+15
+Baxcalibur
+Chi-Yu
+Dragonite
+Enamorus-Incarnate
+Hisuian Samurott
+Latios
+Mega Aerodactyl
+Mega Charizard X
+Mega Garchomp
+Mega Lopunny
+Melmetal
+Ogerpon-Wellspring
+Slowbro
+Tapu Fini
+Urshifu-Single-Strike
+Victini
+
+14
+Aegislash
+Annihilape
+Celesteela
+Cinderace
+Excadrill
+Gliscor
+Hydreigon
+Iron Hands
+Iron Moth
+Mega Gardevoir
+Raging Bolt
+Rillaboom
+Rotom-Wash
+Scizor
+Tapu Lele
+Ursaluna-Bloodmoon
+Urshifu-Rapid-Strike
+Walking Wake
+Weavile
+
+13
+Clefable
+Dracovish
+Ferrothorn
+Glimmora
+Heatran
+Jirachi
+Keldeo
+Kingambit
+Latias
+Mega Charizard Y
+Nidoking
+Nidoqueen
+Quaquaval
+Zarude
+Zygarde
+
+12
+Archaludon
+Blacephalon
+Blaziken
+Buzzwole
+Galarian Darmanitan
+Hawlucha
+Iron Boulder
+Krookodile
+Manaphy
+Mega Heracross
+Mega Tyranitar
+Metagross
+Nihilego
+Ogerpon-Cornerstone
+Pecharunt
+Primarina
+Thundurus-Incarnate
+Thundurus-Therian
+Togekiss
+Tyranitar
+Ursaluna
+
+11
+Azelf
+Azumarill
+Ceruledge
+Gothitelle
+Hatterene
+Hisuian Arcanine
+Hisuian Lilligant
+Iron Crown
+Klefki
+Mega Altaria
+Mega Beedrill
+Mega Gyarados
+Mega Pidgeot
+Mega Swampert
+Mega Venusaur
+Ogerpon
+Ogerpon-Hearthflame
+Pelipper
+Sandy Shocks
+Scolipede
+Scream Tail
+Slowking
+Torkoal
+Uxie
+
+10
+Blastoise
+Cobalion
+Corviknight
+Cresselia
+Crobat
+Deoxys-Defense
+Donphan
+Empoleon
+Galarian Moltres
+Galarian Weezing
+Lycanroc-Dusk
+Mega Sableye
+Mega Sharpedo
+Mega Slowbro
+Mienshao
+Raikou
+Roserade
+Salamence
+Silvally
+Skarmory
+Swampert
+Tapu Bulu
+Terrakion
+Tinkaton
+Volcarona
+
+9
+Alolan Muk
+Barraskewda
+Basculegion
+Bronzong
+Diggersby
+Dugtrio
+Entei
+Galarian Zapdos
+Gardevoir
+Gengar
+Hisuian Goodra
+Hisuian Zoroark
+Hoopa-Unbound
+Hydrapple
+Infernape
+Iron Jugulis
+Kommo-o
+Mamoswine
+Mandibuzz
+Mesprit
+Moltres
+Overqwil
+Porygon2
+Rotom-Heat
+Slither Wing
+Starmie
+Talonflame
+Tentacruel
+Toxapex
+Volcanion
+
+8
+Alakazam
+Alolan Ninetales
+Alomomola
+Arcanine
+Clodsire
+Conkeldurr
+Cyclizar
+Drapion
+Garganacl
+Haxorus
+Mega Aggron
+Mega Pinsir
+Milotic
+Ninetales
+Noivern
+Pawmot
+Revavroom
+Seismitoad
+Shaymin
+Sinistcha
+Skeledirge
+Suicune
+Sylveon
+Tangrowth
+
+7
+Amoonguss
+Armarouge
+Breloom
+Comfey
+Diancie
+Dondozo
+Dracozolt
+Dragalge
+Dudunsparce
+Enamorus-Therian
+Fezandipiti
+Florges
+Gallade
+Gigalith
+Goodra
+Grimmsnarl
+Gyarados
+Heracross
+Hippowdon
+Hisuian Braviary
+Kilowattrel
+Mega Steelix
+Meloetta
+Mimikyu
+Obstagoon
+Okidogi
+Paldean Tauros Aqua
+Regieleki
+Registeel
+Reuniclus
+Rhyperior
+Rotom-Mow
+Serperior
+Snorlax
+Steelix
+Toxtricity
+Tsareena
+Vaporeon
+Venusaur
+Whimsicott
+Xurkitree
+
+6
+Abomasnow
+Aerodactyl
+Araquanid
+Arctozolt
+Bellibolt
+Bewear
+Blissey
+Braviary
+Celebi
+Cloyster
+Darmanitan
+Espathra
+Forretress
+Galarian Slowbro
+Gastrodon
+Hisuian Qwilfish
+Incineroar
+Iron Leaves
+Jellicent
+Kingdra
+Lokix
+Lucario
+Magnezone
+Mega Sceptile
+Miltank
+Mismagius
+Munkidori
+Paldean Tauros Blaze
+Porygon-Z
+Qwilfish
+Ribombee
+Rotom-Frost
+Salazzle
+Scrafty
+Stakataka
+Swellow
+Tornadus-Incarnate
+Umbreon
+Zygarde-10%
+
+5
+Bisharp
+Brambleghast
+Cetitan
+Chandelure
+Chesnaught
+Cofagrigus
+Decidueye
+Delphox
+Dhelmise
+Eelektross
+Feraligatr
+Flygon
+Gligar
+Hariyama
+Hisuian Electrode
+Hitmonlee
+Inteleon
+Kleavor
+Lanturn
+Lickilicky
+Mudsdale
+Muk
+Piloswine
+Politoed
+Quagsire
+Regidrago
+Rotom
+Sableye
+Sharpedo
+Slurpuff
+Tyrantrum
+Ursaring
+Venomoth
+Vikavolt
+Vileplume
+Weezing
+Yanmega
+Zoroark
+
+4
+Accelgor
+Alolan Marowak
+Alolan Persian
+Alolan Raichu
+Arboliva
+Aromatisse
+Brute Bonnet
+Chansey
+Cinccino
+Crawdaunt
+Drednaw
+Drifblim
+Druddigon
+Emboar
+Escavalier
+Espeon
+Floatzel
+Froslass
+Galvantula
+Garbodor
+Glastrier
+Golurk
+Gothorita
+Gourgeist
+Granbull
+Heliolisk
+Hitmontop
+Iron Thorns
+Jolteon
+Machamp
+Maushold
+Medicham
+Mega Houndoom
+Oricorio
+Palossand
+Pangoro
+Passimian
+Polteageist
+Rotom-Fan
+Sigilyph
+Skuntank
+Staraptor
+Stunfisk
+Tangela
+Toedscruel
+Torterra
+Vanilluxe
+Wo-Chien
+Xatu
+
+3
+Ambipom
+Appletun
+Archeops
+Arctovish
+Audino
+Bouffalant
+Charizard
+Claydol
+Copperajah
+Crustle
+Cryogonal
+Ditto
+Doublade
+Drampa
+Duraludon
+Durant
+Dusknoir
+Eldegoss
+Exploud
+Flamigo
+Galarian Articuno
+Golisopod
+Grafaiai
+Guzzlord
+Hisuian Decidueye
+Hisuian Typhlosion
+Hitmonchan
+Hoopa
+Houndstone
+Indeedee-Female
+Ludicolo
+Lycanroc-Midday
+Magneton
+Mega Abomasnow
+Mega Banette
+Mega Glalie
+Mega Manectric
+Pincurchin
+Raichu
+Roselia
+Runerigus
+Sandaconda
+Sceptile
+Scyther
+Smeargle
+Spiritomb
+Tatsugiri
+Tauros
+Type: Null
+Victreebel
+Virizion
+
+2
+Aggron
+Alolan Exeggutor
+Alolan Raticate
+Alolan Sandslash
+Altaria
+Armaldo
+Articuno
+Avalugg
+Barbaracle
+Boltund
+Bruxish
+Carracosta
+Centiskorch
+Coalossal
+Cursola
+Dachsbun
+Dunsparce
+Dusclops
+Electrode
+Farigiraf
+Flapple
+Flareon
+Frosmoth
+Galarian Corsola
+Golbat
+Gorebyss
+Gurdurr
+Haunter
+Hisuian Sneasel
+Houndoom
+Huntail
+Illumise
+Kabutops
+Kangaskhan
+Kecleon
+Kingler
+Klawf
+Klinklang
+Lapras
+Leafeon
+Leavanny
+Linoone
+Lurantis
+Mabosstiff
+Magmortar
+Manectric
+Mantine
+Masquerain
+Mega Absol
+Mega Ampharos
+Mega Audino
+Mega Camerupt
+Meganium
+Meowstic
+Minior
+Misdreavus
+Omastar
+Orbeetle
+Orthworm
+Paldean Tauros
+Poliwrath
+Primeape
+Regice
+Regigigas
+Regirock
+Rhydon
+Sandslash
+Sawk
+Shiftry
+Shuckle
+Simipour
+Simisage
+Simisear
+Sirfetch'd
+Sneasel
+Stoutland
+Throh
+Thwackey
+Togedemaru
+Toxicroak
+Trevenant
+Turtonator
+Typhlosion
+Veluza
+Wishiwashi
+Zangoose
