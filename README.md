@@ -1,6 +1,5 @@
 # Prologdex
 
-
 ## Other resources
 
 https://github.com/mthom/scryer-prolog/

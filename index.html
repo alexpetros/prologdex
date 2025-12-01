@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<meta charset="utf-8" />
+
+<title>Prologdex</title>
+
+<style>
+body {
+  max-width: 800px;
+  margin: 0 auto;
+}
+</style>
+
+<h1>Prologdex</h1>
+
+<p>Interactive Pokemon Draft Tool</p>
+
+<script type="module">
+import init, { add } from "./pkg/prologdex.js"
+await init()
+
+const result = add(1, 2)
+console.log(`1 + 2 = ${result}`)
+if (result !== 3) throw new Error("wasm addition doesn't work!")
+</script>
+</html>
