@@ -1,5 +1,8 @@
-run:
-  scryer-prolog ./db/prologdex.pro
+serve:
+  python3 -m http.server
+
+dex:
+  scryer-prolog ./dex/prologdex.pro
 
 generate-dex:
-  ./scripts/create-dex.js > ./db/dex.pro
+  ./scripts/create-dex.js > ./dex/dex.pro

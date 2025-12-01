@@ -1,4 +1,5 @@
 :- module(dex, [pokemon/1, learns/2, type/2]).
+
 pokemon(bulbasaur).
 pokemon(ivysaur).
 pokemon(venusaur).

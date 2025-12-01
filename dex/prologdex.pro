@@ -2,8 +2,13 @@
 :- use_module(library(debug)).
 :- use_module('dex.pro').
 :- use_module('draft.pro').
+:- use_module('s6-board.pro').
+:- use_module('s6-draft.pro').
 
-in_draft(Mon) :- draft(Mon, Points), Points > 1.
+in_draft(Mon) :-
+  points(Mon, Points),
+  Points > 1,
+  s6_available(Mon).
 
 has_move([], _) :- fail.
 has_move(Team, Move) :-
@@ -18,7 +23,7 @@ has_type(Team, Type) :-
 point_value([], 0).
 point_value(Team, Value) :-
   [Mon|Tail] = Team,
-  draft(Mon, MonValue),
+  points(Mon, MonValue),
   point_value(Tail, TailValue),
   Value is MonValue + TailValue.
 
