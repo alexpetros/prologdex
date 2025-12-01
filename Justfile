@@ -1,5 +1,5 @@
 build:
-  wasm-pack build --target web
+  wasm-pack build --target web --no-default-features
 
 serve:
   python3 -m http.server

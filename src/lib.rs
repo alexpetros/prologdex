@@ -6,6 +6,7 @@ use wasm_bindgen::prelude::*;
 // }
 
 // https://wasm-bindgen.github.io/wasm-bindgen/examples/without-a-bundler.html
+#[wasm_bindgen(start)]
 fn main() -> Result<(), JsValue> {
     // Use `web_sys`'s global `window` function to get a handle on the global
     // window object.
