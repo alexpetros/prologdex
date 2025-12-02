@@ -1,15 +1,20 @@
 :- module('s6-draft', [s6_available/1, s6_taken/1]).
 
 george(garchomp).
+george(tyranitar).
+george(zoroarkhisui).
 
 nic(tapukoko).
 nic(ironbundle).
+nic(gliscor).
 
 bird(greattusk).
 bird(latiosmega).
+bird(ragingbolt).
 
 pat(ironvaliant).
 pat(irontreads).
+pat(rotomwash).
 
 justin(charizardmegay).
 justin(terapagos).

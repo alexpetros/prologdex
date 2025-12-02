@@ -2,7 +2,7 @@
 
 # Development
 
-On MacOS, had to update llvm and add "/opt/homebrew/opt/llvm/bin" to the path.
+On MacOS, had to update llvm and add `/opt/homebrew/opt/llvm/bin` to the path.
 
 `cargo install wasm-pack scryer-prolog`
 
