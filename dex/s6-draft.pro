@@ -21,15 +21,19 @@ justin(terapagos).
 
 zack(dianciemega).
 zack(ogerponhearthflame).
+zack(latias).
 
 alex(meowscarada).
 alex(nidoking).
+alex(silvally).
 
 mason(landorustherian).
 mason(melmetal).
+mason(slowking).
 
 kirk(gholdengo).
 kirk(tapulele).
+kirk(kingambit).
 
 kevin(toxapex).
 kevin(tinglu).
