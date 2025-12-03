@@ -26,23 +26,32 @@ zack(latias).
 alex(meowscarada).
 alex(nidoking).
 alex(silvally).
+alex(latios).
 
 mason(landorustherian).
 mason(melmetal).
 mason(slowking).
+mason(pidgeotmega).
 
 kirk(gholdengo).
 kirk(tapulele).
 kirk(kingambit).
+kirk(lopunnymega).
 
 kevin(toxapex).
 kevin(tinglu).
+kevin(blacephalon).
+kevin(garganacl).
 
 andrew(scizormega).
 andrew(landorustherian).
+andrew(kyurem).
+andrew(slowkinggalar).
 
 morry(mawilemega).
 morry(walkingwake).
+morry(zapdos).
+morry(ursaluna).
 
 s6_available(Mon) :- \+ s6_taken(Mon).
 

@@ -15,12 +15,4 @@ body {
 
 <p>Interactive Pokemon Draft Tool</p>
 
-<script type="module">
-import init, { add } from "./pkg/prologdex.js"
-await init()
 
-const result = add(1, 2)
-console.log(`1 + 2 = ${result}`)
-if (result !== 3) throw new Error("wasm addition doesn't work!")
-</script>
-</html>
