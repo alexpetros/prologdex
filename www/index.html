@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<meta charset="utf-8" />
+<script type=module src="./components.js"></script>
+
+<title>Prologdex</title>
+
+<style>
+body {
+  max-width: 800px;
+  margin: 0 auto;
+}
+</style>
+
+<h1>Prologdex</h1>
+
+<p>Interactive Pokemon Draft Tool</p>
+
+<h2>Current Team</h2>
+<label>Add Pokemon <input type=text list="mons" onkeydown="monSelectListener()"></label>
+
+<datalist id="mons">
+  <option value="bulbasaur">Bulbasaur</option>
+  <option value="ivysaur">Ivysaur</option>
+  <option value="venusaur">Venusaur</option>
+</datalist>
+
+<team-list></team-list>
+
