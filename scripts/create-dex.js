@@ -4,7 +4,7 @@ import pokedex from '../vendor/showdown/pokedex.json' with { type: 'json' }
 import learnsets from '../vendor/showdown/learnsets.json' with { type: 'json' }
 
 // Print module declaration
-console.log(':- module(dex, [learns/2, type/2]).')
+console.log(':- module(dex, [learns/2, type/2]).\n')
 
 // Mons
 for (const mon in pokedex) {

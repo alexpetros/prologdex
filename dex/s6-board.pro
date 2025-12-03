@@ -2,15 +2,15 @@
 
 points('greattusk', 19).
 points('ironvaliant', 19).
-points('megagallade', 19).
+points('gallademega', 19).
 
 points('deoxysspeed', 18).
 points('garchomp', 18).
 points('kyurem', 18).
 points('landorustherian', 18).
-points('megadiancie', 18).
-points('megamawile', 18).
-points('megascizor', 18).
+points('dianciemega', 18).
+points('mawilemega', 18).
+points('scizormega', 18).
 points('meowscarada', 18).
 points('tapukoko', 18).
 
@@ -18,8 +18,8 @@ points('darkrai', 17).
 points('gougingfire', 17).
 points('greninja', 17).
 points('ironbundle', 17).
-points('megalatios', 17).
-points('megamedicham', 17).
+points('latiosmega', 17).
+points('medichammega', 17).
 points('palafin', 17).
 points('tornadustherian', 17).
 points('zeraora', 17).
@@ -43,10 +43,10 @@ points('dragonite', 15).
 points('enamorusincarnate', 15).
 points('hisuiansamurott', 15).
 points('latios', 15).
-points('megaaerodactyl', 15).
-points('megacharizardx', 15).
-points('megagarchomp', 15).
-points('megalopunny', 15).
+points('aerodactylmega', 15).
+points('charizardxmega', 15).
+points('garchompmega', 15).
+points('lopunnymega', 15).
 points('melmetal', 15).
 points('ogerponwellspring', 15).
 points('slowbro', 15).
@@ -63,7 +63,7 @@ points('gliscor', 14).
 points('hydreigon', 14).
 points('ironhands', 14).
 points('ironmoth', 14).
-points('megagardevoir', 14).
+points('gardevoirmega', 14).
 points('ragingbolt', 14).
 points('rillaboom', 14).
 points('rotomwash', 14).
@@ -83,7 +83,7 @@ points('jirachi', 13).
 points('keldeo', 13).
 points('kingambit', 13).
 points('latias', 13).
-points('megacharizardy', 13).
+points('charizardymega', 13).
 points('nidoking', 13).
 points('nidoqueen', 13).
 points('quaquaval', 13).
@@ -99,8 +99,8 @@ points('hawlucha', 12).
 points('ironboulder', 12).
 points('krookodile', 12).
 points('manaphy', 12).
-points('megaheracross', 12).
-points('megatyranitar', 12).
+points('heracrossmega', 12).
+points('tyranitarmega', 12).
 points('metagross', 12).
 points('nihilego', 12).
 points('ogerponcornerstone', 12).
@@ -121,12 +121,12 @@ points('hisuianarcanine', 11).
 points('hisuianlilligant', 11).
 points('ironcrown', 11).
 points('klefki', 11).
-points('megaaltaria', 11).
-points('megabeedrill', 11).
-points('megagyarados', 11).
-points('megapidgeot', 11).
-points('megaswampert', 11).
-points('megavenusaur', 11).
+points('altariamega', 11).
+points('beedrillmega', 11).
+points('gyaradosmega', 11).
+points('pidgeotmega', 11).
+points('swampertmega', 11).
+points('venusaurmega', 11).
 points('ogerpon', 11).
 points('ogerponhearthflame', 11).
 points('pelipper', 11).
@@ -148,9 +148,9 @@ points('empoleon', 10).
 points('galarianmoltres', 10).
 points('galarianweezing', 10).
 points('lycanrocdusk', 10).
-points('megasableye', 10).
-points('megasharpedo', 10).
-points('megaslowbro', 10).
+points('sableyemega', 10).
+points('sharpedomega', 10).
+points('slowbromega', 10).
 points('mienshao', 10).
 points('raikou', 10).
 points('roserade', 10).
@@ -204,8 +204,8 @@ points('cyclizar', 8).
 points('drapion', 8).
 points('garganacl', 8).
 points('haxorus', 8).
-points('megaaggron', 8).
-points('megapinsir', 8).
+points('aggronmega', 8).
+points('pinsirmega', 8).
 points('milotic', 8).
 points('ninetales', 8).
 points('noivern', 8).
@@ -240,7 +240,7 @@ points('heracross', 7).
 points('hippowdon', 7).
 points('hisuianbraviary', 7).
 points('kilowattrel', 7).
-points('megasteelix', 7).
+points('steelixmega', 7).
 points('meloetta', 7).
 points('mimikyu', 7).
 points('obstagoon', 7).
@@ -284,7 +284,7 @@ points('kingdra', 6).
 points('lokix', 6).
 points('lucario', 6).
 points('magnezone', 6).
-points('megasceptile', 6).
+points('sceptilemega', 6).
 points('miltank', 6).
 points('mismagius', 6).
 points('munkidori', 6).
@@ -372,7 +372,7 @@ points('jolteon', 4).
 points('machamp', 4).
 points('maushold', 4).
 points('medicham', 4).
-points('megahoundoom', 4).
+points('houndoommega', 4).
 points('oricorio', 4).
 points('palossand', 4).
 points('pangoro', 4).
@@ -423,10 +423,10 @@ points('indeedeefemale', 3).
 points('ludicolo', 3).
 points('lycanrocmidday', 3).
 points('magneton', 3).
-points('megaabomasnow', 3).
-points('megabanette', 3).
-points('megaglalie', 3).
-points('megamanectric', 3).
+points('abomasnowmega', 3).
+points('banettemega', 3).
+points('glaliemega', 3).
+points('manectricmega', 3).
 points('pincurchin', 3).
 points('raichu', 3).
 points('roselia', 3).
@@ -490,10 +490,10 @@ points('magmortar', 2).
 points('manectric', 2).
 points('mantine', 2).
 points('masquerain', 2).
-points('megaabsol', 2).
-points('megaampharos', 2).
-points('megaaudino', 2).
-points('megacamerupt', 2).
+points('absolmega', 2).
+points('ampharosmega', 2).
+points('audinomega', 2).
+points('cameruptmega', 2).
 points('meganium', 2).
 points('meowstic', 2).
 points('minior', 2).
