@@ -8,7 +8,7 @@ Right now it mostly lets me query facts about my current draft league.
 
 ## Installation
 
-1. Install the [rust toolchain]
+1. Install the [rust toolchain](https://rust-lang.org/learn/get-started/)
 2. Run `rust install scryer-prolog just`
 
 ## Usage
