@@ -2,8 +2,7 @@
 :- use_module(library(debug)).
 :- use_module('dex.pro').
 :- use_module('draft.pro').
-:- use_module('s6-board.pro').
-:- use_module('s6-draft.pro').
+:- use_module('s6').
 
 in_draft(Mon) :-
   points(Mon, Points),

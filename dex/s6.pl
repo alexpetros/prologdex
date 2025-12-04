@@ -1,4 +1,128 @@
-:- module('s6-board', [points/2]).
+:- module('s6', [points/2,
+                 print_remaining/1,
+                 remaining_points/2,
+                 total_points/2,
+                 players/1,
+                 team/2,
+                 s6_status/0,
+                 s6_status/1,
+                 s6_available/1,
+                 s6_taken/1,
+                 george/1,
+                 nic/1,
+                 bird/1,
+                 pat/1,
+                 justin/1,
+                 zack/1,
+                 alex/1,
+                 alex/1,
+                 mason/1
+                 ]).
+
+:- use_module(library(format)).
+:- use_module(library(lists)).
+
+s6_available(Mon) :- \+ s6_taken(Mon).
+s6_taken(Mon) :- george(Mon); nic(Mon); bird(Mon); pat(Mon); justin(Mon); zack(Mon); alex(Mon);
+  mason(Mon); kirk(Mon); kevin(Mon); andrew(Mon); morry(Mon).
+
+players([
+  george, nic, bird, pat, justin, zack, alex, mason, kirk, kevin, morry
+]).
+
+s6_status([]).
+s6_status([Head|Tail]) :- print_remaining(Head), s6_status(Tail).
+s6_status :- players(Names), s6_status(Names).
+
+print_remaining(Name) :-
+  remaining_points(Name, Points),
+  format("~a: ~d", [Name, Points]),
+  nl.
+
+% print_remaining(Name) :-
+%   format("~a: d", [Name]),
+%   nl.
+
+remaining_points(Name, Points) :-
+  total_points(Name, Total),
+  Points is 90 - Total.
+
+total_points(Name, Total) :-
+  team(Name, Team),
+  maplist(points, Team, Points),
+  sum_list(Points, Total).
+
+team(Name, Team) :-
+  findall(Mon, call(Name, Mon), Team).
+
+george(garchomp).
+george(tyranitar).
+george(zoroarkhisui).
+george(rotomheat).
+george(ferrothorn).
+
+nic(tapukoko).
+nic(ironbundle).
+nic(gliscor).
+nic(ironhands).
+nic(slowbromega).
+
+bird(greattusk).
+bird(latiosmega).
+bird(ragingbolt).
+bird(amoonguss).
+bird(quagsire).
+
+pat(ironvaliant).
+pat(irontreads).
+pat(rotomwash).
+pat(hydrapple).
+pat(talonflame).
+
+justin(charizardmegay).
+justin(terapagos).
+justin(alomomola).
+justin(gougingfire).
+justin(scizor).
+
+zack(dianciemega).
+zack(ogerponhearthflame).
+zack(latias).
+zack(ursalunabloodmoon).
+zack(araquanid).
+
+alex(meowscarada).
+alex(nidoking).
+alex(silvally).
+alex(latios).
+alex(ribombee).
+
+mason(landorustherian).
+mason(melmetal).
+mason(slowking).
+mason(pidgeotmega).
+mason(infernape).
+
+kirk(gholdengo).
+kirk(tapulele).
+kirk(kingambit).
+kirk(lopunnymega).
+
+kevin(toxapex).
+kevin(tinglu).
+kevin(blacephalon).
+kevin(garganacl).
+
+andrew(scizormega).
+andrew(landorustherian).
+andrew(kyurem).
+andrew(slowkinggalar).
+
+morry(mawilemega).
+morry(walkingwake).
+morry(zapdos).
+morry(ursaluna).
+
 
 points('greattusk', 19).
 points('ironvaliant', 19).
@@ -44,7 +168,7 @@ points('enamorusincarnate', 15).
 points('hisuiansamurott', 15).
 points('latios', 15).
 points('aerodactylmega', 15).
-points('charizardxmega', 15).
+points('charizardmegax', 15).
 points('garchompmega', 15).
 points('lopunnymega', 15).
 points('melmetal', 15).
@@ -83,7 +207,7 @@ points('jirachi', 13).
 points('keldeo', 13).
 points('kingambit', 13).
 points('latias', 13).
-points('charizardymega', 13).
+points('charizardmegay', 13).
 points('nidoking', 13).
 points('nidoqueen', 13).
 points('quaquaval', 13).
@@ -174,7 +298,7 @@ points('galarianzapdos', 9).
 points('gardevoir', 9).
 points('gengar', 9).
 points('hisuiangoodra', 9).
-points('hisuianzoroark', 9).
+points('zoroarkhisui', 9).
 points('hoopaunbound', 9).
 points('hydrapple', 9).
 points('infernape', 9).
