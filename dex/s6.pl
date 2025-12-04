@@ -1,34 +1,16 @@
-:- module('s6', [points/2,
-                 print_remaining/1,
-                 remaining_points/2,
-                 total_points/2,
-                 players/1,
-                 team/2,
-                 s6_status/0,
-                 s6_status/1,
-                 s6_available/1,
-                 s6_taken/1,
-                 george/1,
-                 nic/1,
-                 bird/1,
-                 pat/1,
-                 justin/1,
-                 zack/1,
-                 alex/1,
-                 andrew/1,
-                 mason/1
-                 ]).
+:- module('s6', [points/2, print_remaining/1, remaining_points/2, total_points/2,
+                 players/1, team/2, s6_status/0, s6_status/1, s6_available/1,
+                 s6_taken/1, george/1, nic/1, bird/1, pat/1, justin/1, zack/1,
+                 alex/1, andrew/1, mason/1]).
 
 :- use_module(library(format)).
 :- use_module(library(lists)).
 
 s6_available(Mon) :- \+ s6_taken(Mon).
-s6_taken(Mon) :- george(Mon); nic(Mon); bird(Mon); pat(Mon); justin(Mon); zack(Mon); alex(Mon);
-  mason(Mon); kirk(Mon); kevin(Mon); andrew(Mon); morry(Mon).
+s6_taken(Mon) :- george(Mon); nic(Mon); bird(Mon); pat(Mon); justin(Mon); zack(Mon);
+  alex(Mon); mason(Mon); kirk(Mon); kevin(Mon); andrew(Mon); morry(Mon).
 
-players([
-  george, nic, bird, pat, justin, zack, alex, mason, kirk, kevin, andrew, morry
-]).
+players([george, nic, bird, pat, justin, zack, alex, mason, kirk, kevin, andrew, morry]).
 
 s6_status([]).
 s6_status([Head|Tail]) :- print_remaining(Head), s6_status(Tail).
@@ -124,6 +106,7 @@ morry(zapdos).
 morry(ursaluna).
 
 
+% Nat Dex Draft Board
 points('greattusk', 19).
 points('ironvaliant', 19).
 points('gallademega', 19).
@@ -165,7 +148,7 @@ points('baxcalibur', 15).
 points('chiyu', 15).
 points('dragonite', 15).
 points('enamorusincarnate', 15).
-points('hisuiansamurott', 15).
+points('samurotthisui', 15).
 points('latios', 15).
 points('aerodactylmega', 15).
 points('charizardmegax', 15).
@@ -218,7 +201,7 @@ points('archaludon', 12).
 points('blacephalon', 12).
 points('blaziken', 12).
 points('buzzwole', 12).
-points('galariandarmanitan', 12).
+points('darmanitangalar', 12).
 points('hawlucha', 12).
 points('ironboulder', 12).
 points('krookodile', 12).
@@ -241,8 +224,8 @@ points('azumarill', 11).
 points('ceruledge', 11).
 points('gothitelle', 11).
 points('hatterene', 11).
-points('hisuianarcanine', 11).
-points('hisuianlilligant', 11).
+points('arcaninehisui', 11).
+points('lilliganthisui', 11).
 points('ironcrown', 11).
 points('klefki', 11).
 points('altariamega', 11).
@@ -269,8 +252,8 @@ points('crobat', 10).
 points('deoxysdefense', 10).
 points('donphan', 10).
 points('empoleon', 10).
-points('galarianmoltres', 10).
-points('galarianweezing', 10).
+points('moltresgalar', 10).
+points('weezinggalar', 10).
 points('lycanrocdusk', 10).
 points('sableyemega', 10).
 points('sharpedomega', 10).
@@ -294,10 +277,10 @@ points('bronzong', 9).
 points('diggersby', 9).
 points('dugtrio', 9).
 points('entei', 9).
-points('galarianzapdos', 9).
+points('zapdosgalar', 9).
 points('gardevoir', 9).
 points('gengar', 9).
-points('hisuiangoodra', 9).
+points('goodrahisui', 9).
 points('zoroarkhisui', 9).
 points('hoopaunbound', 9).
 points('hydrapple', 9).
@@ -362,7 +345,7 @@ points('grimmsnarl', 7).
 points('gyarados', 7).
 points('heracross', 7).
 points('hippowdon', 7).
-points('hisuianbraviary', 7).
+points('braviaryhisui', 7).
 points('kilowattrel', 7).
 points('steelixmega', 7).
 points('meloetta', 7).
@@ -398,9 +381,9 @@ points('cloyster', 6).
 points('darmanitan', 6).
 points('espathra', 6).
 points('forretress', 6).
-points('galarianslowbro', 6).
+points('slowbrogalar', 6).
 points('gastrodon', 6).
-points('hisuianqwilfish', 6).
+points('qwilfishhisui', 6).
 points('incineroar', 6).
 points('ironleaves', 6).
 points('jellicent', 6).
@@ -439,7 +422,7 @@ points('feraligatr', 5).
 points('flygon', 5).
 points('gligar', 5).
 points('hariyama', 5).
-points('hisuianelectrode', 5).
+points('electrodehisui', 5).
 points('hitmonlee', 5).
 points('inteleon', 5).
 points('kleavor', 5).
@@ -534,12 +517,12 @@ points('dusknoir', 3).
 points('eldegoss', 3).
 points('exploud', 3).
 points('flamigo', 3).
-points('galarianarticuno', 3).
+points('articunogalar', 3).
 points('golisopod', 3).
 points('grafaiai', 3).
 points('guzzlord', 3).
-points('hisuiandecidueye', 3).
-points('hisuiantyphlosion', 3).
+points('decidueyehisui', 3).
+points('typhlosionhisui', 3).
 points('hitmonchan', 3).
 points('hoopa', 3).
 points('houndstone', 3).
@@ -589,12 +572,12 @@ points('farigiraf', 2).
 points('flapple', 2).
 points('flareon', 2).
 points('frosmoth', 2).
-points('galariancorsola', 2).
+points('corsolagalar', 2).
 points('golbat', 2).
 points('gorebyss', 2).
 points('gurdurr', 2).
 points('haunter', 2).
-points('hisuiansneasel', 2).
+points('sneaselhisui', 2).
 points('houndoom', 2).
 points('huntail', 2).
 points('illumise', 2).
