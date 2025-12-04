@@ -1,13 +1,8 @@
 :- use_module(library(lists)).
 :- use_module(library(debug)).
-:- use_module('dex.pro').
-:- use_module('draft.pro').
-:- use_module('s6').
-
-in_draft(Mon) :-
-  points(Mon, Points),
-  Points > 1,
-  s6_available(Mon).
+:- use_module('dex.pl').
+:- use_module('draft.pl').
+:- use_module('s6.pl').
 
 has_move([], _) :- fail.
 has_move(Team, Move) :-
@@ -34,7 +29,7 @@ is_sorted([First|[Second | Rest]]) :-
   is_sorted(Rest).
 
 only_mons([]).
-only_mons([Head|Tail]) :- in_draft(Head), only_mons(Tail).
+only_mons([Head|Tail]) :- viable(Head), only_mons(Tail).
 
 draft_team(Team, MaxPoints) :-
   point_value(Team, Value),

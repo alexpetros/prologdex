@@ -1,4 +1,4 @@
-:- use_module('dex.pro').
+:- use_module('dex.pl').
 
 learns_removal(Mon) :-
   learns(Mon, rapidspin);
