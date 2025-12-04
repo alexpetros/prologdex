@@ -15,7 +15,7 @@
                  justin/1,
                  zack/1,
                  alex/1,
-                 alex/1,
+                 andrew/1,
                  mason/1
                  ]).
 
@@ -27,7 +27,7 @@ s6_taken(Mon) :- george(Mon); nic(Mon); bird(Mon); pat(Mon); justin(Mon); zack(M
   mason(Mon); kirk(Mon); kevin(Mon); andrew(Mon); morry(Mon).
 
 players([
-  george, nic, bird, pat, justin, zack, alex, mason, kirk, kevin, morry
+  george, nic, bird, pat, justin, zack, alex, mason, kirk, kevin, andrew, morry
 ]).
 
 s6_status([]).
@@ -114,7 +114,7 @@ kevin(blacephalon).
 kevin(garganacl).
 
 andrew(scizormega).
-andrew(landorustherian).
+andrew(landorusincarnate).
 andrew(kyurem).
 andrew(slowkinggalar).
 
@@ -148,7 +148,7 @@ points('palafin', 17).
 points('tornadustherian', 17).
 points('zeraora', 17).
 
-points('galarianslowking', 16).
+points('slowkinggalar', 16).
 points('gholdengo', 16).
 points('irontreads', 16).
 points('kartana', 16).
