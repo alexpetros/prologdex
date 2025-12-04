@@ -81,6 +81,8 @@ total_points(morry, Points), Remaining is 90 - Points.
 total_points(Player, Points), Remaining is 90 - Points.
 ```
 
+The structure is still messy, but most of the season 6 draft facts, such as the draft board and people's teams, can be found in [s6.pl](./dex/s6.pl).
+
 ## Other resources
 
 * https://github.com/mthom/scryer-prolog/
