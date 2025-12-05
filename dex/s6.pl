@@ -88,11 +88,13 @@ kirk(gholdengo).
 kirk(tapulele).
 kirk(kingambit).
 kirk(lopunnymega).
+kirk(hippowdon).
 
 kevin(toxapex).
 kevin(tinglu).
 kevin(blacephalon).
 kevin(garganacl).
+kevin(kartana).
 
 andrew(scizormega).
 andrew(landorusincarnate).

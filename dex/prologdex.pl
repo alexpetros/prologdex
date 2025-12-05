@@ -1,6 +1,7 @@
 :- use_module(library(lists)).
 :- use_module(library(debug)).
 :- use_module('dex.pl').
+:- use_module('type-chart.pl').
 :- use_module('draft.pl').
 :- use_module('s6.pl').
 
