@@ -1,133 +1,135 @@
-:- module('type-chart', [normal_against/2, normal_to/2, weak_against/2, weak_to/2,
-                         strong_against/2, strong_to/2, no_damage_against/2, no_damage_to/2]).
+:- module('type-chart', [super_effective/2, not_very_effective/2, no_damage/2,
+                         weak_to/2, strong_against/2, immune/2, normal_damage/2]).
 
 :- use_module('dex.pl').
 
-normal_against(attacking, defending) :-
-  \+ strong(attacking, defending),
-  \+ weak(attacking, defending).
-normal_to(defending, attacking) :- normal_against(attacking, defending).
-weak_to(defending, attacking) :- strong_against(attacking, defending).
-strong_to(defending, attacking) :- weak_against(attacking, defending).
-no_damage_to(defending, attacking) :- no_damage_against(attacking, defending).
+normal_damage(Attacking, Defending) :-
+  \+ strong(Attacking, Defending),
+  \+ weak(Attacking, Defending).
 
-strong_against(fighting, normal).
-strong_against(fighting, rock).
-strong_against(fighting, steel).
-strong_against(fighting, ice).
-strong_against(fighting, dark).
-strong_against(flying, fighting).
-strong_against(flying, bug).
-strong_against(flying, grass).
-strong_against(poison, grass).
-strong_against(poison, fairy).
-strong_against(ground, poison).
-strong_against(ground, rock).
-strong_against(ground, steel).
-strong_against(ground, fire).
-strong_against(ground, electric).
-strong_against(rock, flying).
-strong_against(rock, bug).
-strong_against(rock, fire).
-strong_against(rock, ice).
-strong_against(bug, grass).
-strong_against(bug, psychic).
-strong_against(bug, dark).
-strong_against(ghost, ghost).
-strong_against(ghost, psychic).
-strong_against(steel, rock).
-strong_against(steel, ice).
-strong_against(steel, fairy).
-strong_against(fire, bug).
-strong_against(fire, steel).
-strong_against(fire, grass).
-strong_against(fire, ice).
-strong_against(water, ground).
-strong_against(water, rock).
-strong_against(water, fire).
-strong_against(grass, ground).
-strong_against(grass, rock).
-strong_against(grass, water).
-strong_against(electric, flying).
-strong_against(electric, water).
-strong_against(psychic, fighting).
-strong_against(psychic, poison).
-strong_against(ice, flying).
-strong_against(ice, ground).
-strong_against(ice, grass).
-strong_against(ice, dragon).
-strong_against(dragon, dragon).
-strong_against(dark, ghost).
-strong_against(dark, psychic).
-strong_against(fairy, fighting).
-strong_against(fairy, dragon).
-strong_against(fairy, dark).
+% normal_to(defending, attacking) :- normal_against(attacking, defending).
 
-weak_against(normal, rock).
-weak_against(normal, steel).
-weak_against(fighting, flying).
-weak_against(fighting, poison).
-weak_against(fighting, bug).
-weak_against(fighting, psychic).
-weak_against(fighting, fairy).
-weak_against(flying, rock).
-weak_against(flying, steel).
-weak_against(flying, electric).
-weak_against(poison, poison).
-weak_against(poison, ground).
-weak_against(poison, rock).
-weak_against(poison, ghost).
-weak_against(ground, bug).
-weak_against(ground, grass).
-weak_against(rock, fighting).
-weak_against(rock, ground).
-weak_against(rock, steel).
-weak_against(bug, fighting).
-weak_against(bug, flying).
-weak_against(bug, poison).
-weak_against(bug, ghost).
-weak_against(bug, steel).
-weak_against(bug, fire).
-weak_against(bug, fairy).
-weak_against(ghost, dark).
-weak_against(steel, steel).
-weak_against(steel, fire).
-weak_against(steel, water).
-weak_against(steel, electric).
-weak_against(fire, rock).
-weak_against(fire, fire).
-weak_against(fire, water).
-weak_against(fire, dragon).
-weak_against(water, water).
-weak_against(water, grass).
-weak_against(water, dragon).
-weak_against(grass, flying).
-weak_against(grass, poison).
-weak_against(grass, steel).
-weak_against(grass, fire).
-weak_against(grass, grass).
-weak_against(grass, dragon).
-weak_against(electric, grass).
-weak_against(electric, electric).
-weak_against(electric, dragon).
-weak_against(psychic, steel).
-weak_against(psychic, psychic).
-weak_against(ice, steel).
-weak_against(ice, fire).
-weak_against(ice, water).
-weak_against(ice, ice).
-weak_against(dragon, steel).
-weak_against(dark, fighting).
-weak_against(dark, dark).
-weak_against(dark, fairy).
-weak_against(fairy, poison).
-weak_against(fairy, steel).
-weak_against(fairy, fire).
+weak_to(Defending, Attacking) :- super_effective(Attacking, Defending).
+strong_against(Defending, Attacking) :- not_very_effective(Attacking, Defending).
+immune(Defending, Attacking) :- no_damage(Attacking, Defending).
 
-no_damage_against(normal, ghost).
-no_damage_against(poison, steel).
-no_damage_against(ground, flying).
-no_damage_against(ghost, normal).
-no_damage_against(electric, ground).
-no_damage_against(psychic, dark).
-no_damage_against(dragon, fairy).
+super_effective(fighting, normal).
+super_effective(fighting, rock).
+super_effective(fighting, steel).
+super_effective(fighting, ice).
+super_effective(fighting, dark).
+super_effective(flying, fighting).
+super_effective(flying, bug).
+super_effective(flying, grass).
+super_effective(poison, grass).
+super_effective(poison, fairy).
+super_effective(ground, poison).
+super_effective(ground, rock).
+super_effective(ground, steel).
+super_effective(ground, fire).
+super_effective(ground, electric).
+super_effective(rock, flying).
+super_effective(rock, bug).
+super_effective(rock, fire).
+super_effective(rock, ice).
+super_effective(bug, grass).
+super_effective(bug, psychic).
+super_effective(bug, dark).
+super_effective(ghost, ghost).
+super_effective(ghost, psychic).
+super_effective(steel, rock).
+super_effective(steel, ice).
+super_effective(steel, fairy).
+super_effective(fire, bug).
+super_effective(fire, steel).
+super_effective(fire, grass).
+super_effective(fire, ice).
+super_effective(water, ground).
+super_effective(water, rock).
+super_effective(water, fire).
+super_effective(grass, ground).
+super_effective(grass, rock).
+super_effective(grass, water).
+super_effective(electric, flying).
+super_effective(electric, water).
+super_effective(psychic, fighting).
+super_effective(psychic, poison).
+super_effective(ice, flying).
+super_effective(ice, ground).
+super_effective(ice, grass).
+super_effective(ice, dragon).
+super_effective(dragon, dragon).
+super_effective(dark, ghost).
+super_effective(dark, psychic).
+super_effective(fairy, fighting).
+super_effective(fairy, dragon).
+super_effective(fairy, dark).
+
+not_very_effective(normal, rock).
+not_very_effective(normal, steel).
+not_very_effective(fighting, flying).
+not_very_effective(fighting, poison).
+not_very_effective(fighting, bug).
+not_very_effective(fighting, psychic).
+not_very_effective(fighting, fairy).
+not_very_effective(flying, rock).
+not_very_effective(flying, steel).
+not_very_effective(flying, electric).
+not_very_effective(poison, poison).
+not_very_effective(poison, ground).
+not_very_effective(poison, rock).
+not_very_effective(poison, ghost).
+not_very_effective(ground, bug).
+not_very_effective(ground, grass).
+not_very_effective(rock, fighting).
+not_very_effective(rock, ground).
+not_very_effective(rock, steel).
+not_very_effective(bug, fighting).
+not_very_effective(bug, flying).
+not_very_effective(bug, poison).
+not_very_effective(bug, ghost).
+not_very_effective(bug, steel).
+not_very_effective(bug, fire).
+not_very_effective(bug, fairy).
+not_very_effective(ghost, dark).
+not_very_effective(steel, steel).
+not_very_effective(steel, fire).
+not_very_effective(steel, water).
+not_very_effective(steel, electric).
+not_very_effective(fire, rock).
+not_very_effective(fire, fire).
+not_very_effective(fire, water).
+not_very_effective(fire, dragon).
+not_very_effective(water, water).
+not_very_effective(water, grass).
+not_very_effective(water, dragon).
+not_very_effective(grass, flying).
+not_very_effective(grass, poison).
+not_very_effective(grass, steel).
+not_very_effective(grass, fire).
+not_very_effective(grass, grass).
+not_very_effective(grass, dragon).
+not_very_effective(electric, grass).
+not_very_effective(electric, electric).
+not_very_effective(electric, dragon).
+not_very_effective(psychic, steel).
+not_very_effective(psychic, psychic).
+not_very_effective(ice, steel).
+not_very_effective(ice, fire).
+not_very_effective(ice, water).
+not_very_effective(ice, ice).
+not_very_effective(dragon, steel).
+not_very_effective(dark, fighting).
+not_very_effective(dark, dark).
+not_very_effective(dark, fairy).
+not_very_effective(fairy, poison).
+not_very_effective(fairy, steel).
+not_very_effective(fairy, fire).
+
+no_damage(normal, ghost).
+no_damage(poison, steel).
+no_damage(ground, flying).
+no_damage(ghost, normal).
+no_damage(electric, ground).
+no_damage(psychic, dark).
+no_damage(dragon, fairy).
