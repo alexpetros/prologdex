@@ -1,17 +1,85 @@
 :- module('type-chart', [super_effective/2, not_very_effective/2, no_damage/2,
-                         weak_to/2, strong_against/2, immune/2, normal_damage/2]).
+                         weak_to/2, strong_against/2, immune/2, normal_damage/2,
+                         weak/2, very_weak/2, strong/2, very_strong/2, normal/2,
+                         type_matchup/7
+                         ]).
 
 :- use_module('dex.pl').
+:- use_module(library(lists)).
+
+% type_matchup(Mon) :-
+%   type_matchup(Mon, Immune, VeryStrong, Strong, _, Weak, VeryWeak),
+%   format("Mon: ~q\n", [Mon]),
+%   format("Immune: ~q\n", [Immune]),
+%   format("Very Strong: ~q\n", [VeryStrong]),
+%   format("Strong: ~q\n", [Strong]),
+%   format("Weak: ~q\n", [Weak]),
+%   format("Very Weak: ~q\n", [VeryWeak]),
+%   nl.
+
+type_matchup(Mon, Immune, VeryStrong, Strong, Normal, Weak, VeryWeak) :-
+  pokemon(Mon),
+  immune(Mon, Immune),
+  very_strong(Mon, VeryStrong),
+  strong(Mon, Strong),
+  normal(Mon, Normal),
+  weak(Mon, Weak),
+  very_weak(Mon, VeryWeak).
+
+immune(Mon, Types) :- find_type_matchup(Mon, 0, Types).
+very_strong(Mon, Types) :- find_type_matchup(Mon, 0.25, Types).
+strong(Mon, Types) :- find_type_matchup(Mon, 0.5, Types).
+normal(Mon, Types) :- find_type_matchup(Mon, 1, Types).
+weak(Mon, Types) :- find_type_matchup(Mon, 2, Types).
+very_weak(Mon, Types) :- find_type_matchup(Mon, 4, Types).
+
+find_type_matchup(Mon, Modifier, Types) :-
+  findall(Type, type(Mon, Type), MonTypes),
+  findall(Attacker, (calc_modifier(MonTypes, Attacker, Modifier)), Types).
+
+mult(L, S0, S) :- S is L * S0.
+calc_modifier(Types, Attacker, Modifier) :-
+  type(Attacker),
+  maplist(type_modifier(Attacker), Types, AttackerModifiers),
+  foldl(mult, AttackerModifiers, 1, Modifier).
+
+type_modifier(Attacker, Defender, Modifier) :- super_effective(Attacker, Defender), Modifier is 2.
+type_modifier(Attacker, Defender, Modifier) :- not_very_effective(Attacker, Defender), Modifier is 0.5.
+type_modifier(Attacker, Defender, Modifier) :- no_damage(Attacker, Defender), Modifier is 0.
+type_modifier(Attacker, Defender, Modifier) :- normal_damage(Attacker, Defender), Modifier is 1.
+
+% strong(Mon) :- super_effective.
+% very_strong(Mon) super_effective.
 
 normal_damage(Attacking, Defending) :-
-  \+ strong(Attacking, Defending),
-  \+ weak(Attacking, Defending).
+  \+ super_effective(Attacking, Defending),
+  \+ not_very_effective(Attacking, Defending),
+  \+ no_damage(Attacking, Defending).
 
 % normal_to(defending, attacking) :- normal_against(attacking, defending).
 
 weak_to(Defending, Attacking) :- super_effective(Attacking, Defending).
 strong_against(Defending, Attacking) :- not_very_effective(Attacking, Defending).
-immune(Defending, Attacking) :- no_damage(Attacking, Defending).
+immune_to(Defending, Attacking) :- no_damage(Attacking, Defending).
+
+type(normal).
+type(fighting).
+type(flying).
+type(poison).
+type(ground).
+type(rock).
+type(bug).
+type(ghost).
+type(steel).
+type(fire).
+type(water).
+type(grass).
+type(electric).
+type(psychic).
+type(ice).
+type(dragon).
+type(dark).
+type(fairy).
 
 super_effective(fighting, normal).
 super_effective(fighting, rock).
