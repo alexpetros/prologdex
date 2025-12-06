@@ -12,6 +12,7 @@
 print_type_chart_line(Line) :- format("~s", [Line]), nl.
 print_type_chart(Team) :-
   findall(Str, weakness_count(Team, _, Str), Strs),
+  format("~t ~10| 0x 1/4 1/2 1x  2x  4x~n", []),
   maplist(print_type_chart_line, Strs),
   !,
   fail
@@ -26,7 +27,7 @@ weakness_count(Team, Type, Str) :-
   matchup_count(Team, Type, normal, N),
   matchup_count(Team, Type, weak, W),
   matchup_count(Team, Type, very_weak, VW),
-  phrase(format_("~a: ~d ~d ~d ~d ~d ~d", [Type, I, VS, S, N, W, VW]), Str).
+  phrase(format_("~a~t~10| ~d  ~d   ~d   ~d   ~d   ~d", [Type, I, VS, S, N, W, VW]), Str).
 
 matchup_count(Team, Type, Matchup, Num) :-
   type(Type),
