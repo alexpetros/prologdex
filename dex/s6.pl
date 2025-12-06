@@ -89,22 +89,28 @@ kirk(tapulele).
 kirk(kingambit).
 kirk(lopunnymega).
 kirk(hippowdon).
+kirk(tornadustherian).
 
 kevin(toxapex).
 kevin(tinglu).
 kevin(blacephalon).
 kevin(garganacl).
 kevin(kartana).
+kevin(venusaurmega).
 
 andrew(scizormega).
-andrew(landorusincarnate).
+andrew(landorus).
 andrew(kyurem).
 andrew(slowkinggalar).
+andrew(taurospaldeaaqua).
+andrew(grimmsnarl).
 
 morry(mawilemega).
 morry(walkingwake).
 morry(zapdos).
 morry(ursaluna).
+morry(lokix).
+morry(alakazam).
 
 % Nat Dex Draft Board
 points('greattusk', 19).
@@ -135,7 +141,7 @@ points('slowkinggalar', 16).
 points('gholdengo', 16).
 points('irontreads', 16).
 points('kartana', 16).
-points('landorusincarnate', 16).
+points('landorus', 16).
 points('mew', 16).
 points('necrozma', 16).
 points('roaringmoon', 16).
@@ -147,7 +153,7 @@ points('zapdos', 16).
 points('baxcalibur', 15).
 points('chiyu', 15).
 points('dragonite', 15).
-points('enamorusincarnate', 15).
+points('enamorus', 15).
 points('samurotthisui', 15).
 points('latios', 15).
 points('aerodactylmega', 15).
@@ -213,7 +219,7 @@ points('nihilego', 12).
 points('ogerponcornerstone', 12).
 points('pecharunt', 12).
 points('primarina', 12).
-points('thundurusincarnate', 12).
+points('thundurus', 12).
 points('thundurustherian', 12).
 points('togekiss', 12).
 points('tyranitar', 12).
@@ -352,7 +358,7 @@ points('meloetta', 7).
 points('mimikyu', 7).
 points('obstagoon', 7).
 points('okidogi', 7).
-points('paldeantaurosaqua', 7).
+points('taurospaldeaaqua', 7).
 points('regieleki', 7).
 points('registeel', 7).
 points('reuniclus', 7).
@@ -395,7 +401,7 @@ points('sceptilemega', 6).
 points('miltank', 6).
 points('mismagius', 6).
 points('munkidori', 6).
-points('paldeantaurosblaze', 6).
+points('taurospaldeablaze', 6).
 points('porygonz', 6).
 points('qwilfish', 6).
 points('ribombee', 6).
@@ -404,7 +410,7 @@ points('salazzle', 6).
 points('scrafty', 6).
 points('stakataka', 6).
 points('swellow', 6).
-points('tornadusincarnate', 6).
+points('tornadus', 6).
 points('umbreon', 6).
 points('zygarde10', 6).
 
@@ -608,7 +614,7 @@ points('misdreavus', 2).
 points('omastar', 2).
 points('orbeetle', 2).
 points('orthworm', 2).
-points('paldeantauros', 2).
+points('taurospaldeacombat', 2).
 points('poliwrath', 2).
 points('primeape', 2).
 points('regice', 2).
