@@ -2,7 +2,7 @@
                          weak_to/2, strong_against/2, immune/2, normal_damage/2,
                          weak/2, very_weak/2, strong/2, very_strong/2, normal/2,
                          weakness_count/3, find_type_matchup/3, matchup_count/4,
-                         print_type_chart/1
+                         print_type_chart/1, resists/2
                          ]).
 
 :- use_module('dex.pl').
@@ -41,6 +41,9 @@ strong(Mon, Type) :- find_type_matchup(Mon, Type, 0.5).
 normal(Mon, Type) :- find_type_matchup(Mon, Type, 1).
 weak(Mon, Type) :- find_type_matchup(Mon, Type, 2).
 very_weak(Mon, Type) :- find_type_matchup(Mon, Type, 4).
+
+resists(Mon, Type) :- immune(Mon, Type); very_strong(Mon, Type); strong(Mon, Type).
+
 
 find_type_matchup(Mon, Type, Modifier) :-
   pokemon(Mon),

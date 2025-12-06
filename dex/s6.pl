@@ -7,7 +7,7 @@
 :- use_module(library(lists)).
 
 
-draft_status :- players(Names), maplist(print_remaining, Names).
+draft_status :- players(Names), maplist(print_remaining, Names), !.
 % Obviously some 1-pt mons are viable, but this is a pretty good heuristic
 viable(Mon) :- points(Mon, Points), Points > 1.
 
@@ -41,48 +41,64 @@ george(tyranitar).
 george(zoroarkhisui).
 george(rotomheat).
 george(ferrothorn).
+george(noivern).
+george(beedrillmega).
 
 nic(tapukoko).
 nic(ironbundle).
 nic(gliscor).
 nic(ironhands).
 nic(slowbromega).
+nic(corviknight).
+nic(blissey).
 
 bird(greattusk).
 bird(latiosmega).
 bird(ragingbolt).
 bird(amoonguss).
 bird(quagsire).
+bird(heatran).
+bird(ninetales).
 
 pat(ironvaliant).
 pat(irontreads).
 pat(rotomwash).
 pat(hydrapple).
 pat(talonflame).
+pat(banettemega).
+pat(obstagoon).
 
 justin(charizardmegay).
 justin(terapagos).
 justin(alomomola).
 justin(gougingfire).
 justin(scizor).
+justin(regieleki).
+justin(runerigus).
 
 zack(dianciemega).
 zack(ogerponhearthflame).
 zack(latias).
 zack(ursalunabloodmoon).
 zack(araquanid).
+zack(forretress).
+zack(bisharp).
 
 alex(meowscarada).
 alex(nidoking).
 alex(silvally).
 alex(latios).
 alex(ribombee).
+alex(tornadus).
+alex(politoed).
 
 mason(landorustherian).
 mason(melmetal).
 mason(slowking).
 mason(pidgeotmega).
 mason(infernape).
+mason(basculegion).
+mason(comfey).
 
 kirk(gholdengo).
 kirk(tapulele).
@@ -90,6 +106,7 @@ kirk(kingambit).
 kirk(lopunnymega).
 kirk(hippowdon).
 kirk(tornadustherian).
+kirk(goodra).
 
 kevin(toxapex).
 kevin(tinglu).
@@ -97,6 +114,7 @@ kevin(blacephalon).
 kevin(garganacl).
 kevin(kartana).
 kevin(venusaurmega).
+kevin(articunogalar).
 
 andrew(scizormega).
 andrew(landorus).
