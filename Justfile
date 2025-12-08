@@ -8,4 +8,4 @@ dex:
   scryer-prolog ./dex/prologdex.pl
 
 generate-dex:
-  ./scripts/create-dex.js > ./dex/dex.pl
+  node ./scripts/create-dex.js > ./dex/dex.pl

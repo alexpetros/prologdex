@@ -5,6 +5,8 @@
 
 :- use_module(library(format)).
 :- use_module(library(lists)).
+:- use_module(library(dif)).
+:- use_module('dex.pl').
 
 
 draft_status :- players(Names), maplist(print_remaining, Names), !.
@@ -34,7 +36,7 @@ team(Player, Team) :-
   member(Player, Players),
   findall(Mon, call(Player, Mon), Team).
 
-players([george, nic, bird, pat, justin, zack, alex, mason, kirk, kevin, andrew, morry]).
+players([george, nic, bird, pat, justin, zack, alex, mason, kirk, kevin, andrew, morry, alex1]).
 
 george(garchomp).
 george(tyranitar).
@@ -94,6 +96,16 @@ alex(ribombee).
 alex(tornadus).
 alex(politoed).
 alex(archaludon).
+
+alex1(meowscarada).
+alex1(weezinggalar).
+alex1(silvally).
+alex1(archaludon).
+alex1(politoed).
+alex1(swampertmega).
+alex1(ribombee).
+alex1(latios).
+alex1(beartic).
 
 mason(landorustherian).
 mason(melmetal).

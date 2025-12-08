@@ -1,0 +1,11 @@
+{
+  "name": "scripts",
+  "type": "module",
+  "main": "create-dex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "pokemon-showdown": "^0.11.10"
+  }
+}
