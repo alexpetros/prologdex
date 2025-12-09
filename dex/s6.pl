@@ -36,7 +36,7 @@ team(Player, Team) :-
   member(Player, Players),
   findall(Mon, call(Player, Mon), Team).
 
-players([george, nic, bird, pat, justin, zack, alex, mason, kirk, kevin, andrew, morry, alex1]).
+players([george, nic, bird, pat, justin, zack, alex, mason, kirk, kevin, andrew, morry]).
 
 george(garchomp).
 george(tyranitar).
@@ -45,6 +45,8 @@ george(rotomheat).
 george(ferrothorn).
 george(noivern).
 george(beedrillmega).
+george(gastrodon).
+george(passimian).
 
 nic(tapukoko).
 nic(ironbundle).
@@ -53,6 +55,7 @@ nic(ironhands).
 nic(slowbromega).
 nic(corviknight).
 nic(blissey).
+nic(shedinja).
 
 bird(greattusk).
 bird(latiosmega).
@@ -61,6 +64,7 @@ bird(amoonguss).
 bird(quagsire).
 bird(heatran).
 bird(ninetales).
+bird(enamorustherian).
 
 pat(ironvaliant).
 pat(irontreads).
@@ -69,6 +73,7 @@ pat(hydrapple).
 pat(talonflame).
 pat(banettemega).
 pat(obstagoon).
+pat(glimmora).
 
 justin(charizardmegay).
 justin(terapagos).
@@ -78,6 +83,7 @@ justin(scizor).
 justin(regieleki).
 justin(runerigus).
 justin(screamtail).
+justin(rampardos).
 
 zack(dianciemega).
 zack(ogerponhearthflame).
@@ -87,25 +93,19 @@ zack(araquanid).
 zack(forretress).
 zack(bisharp).
 zack(annihilape).
+zack(wyrdeer).
+zack(boltund).
 
 alex(meowscarada).
 alex(nidoking).
-alex(silvally).
+alex(swampertmega).
 alex(latios).
 alex(ribombee).
 alex(tornadus).
 alex(politoed).
 alex(archaludon).
-
-alex1(meowscarada).
-alex1(weezinggalar).
-alex1(silvally).
-alex1(archaludon).
-alex1(politoed).
-alex1(swampertmega).
-alex1(ribombee).
-alex1(latios).
-alex1(beartic).
+alex(beartic).
+alex(dusclops).
 
 mason(landorustherian).
 mason(melmetal).
@@ -115,6 +115,7 @@ mason(infernape).
 mason(basculegion).
 mason(comfey).
 mason(dragalge).
+mason(raichu).
 
 kirk(gholdengo).
 kirk(tapulele).
@@ -133,6 +134,8 @@ kevin(kartana).
 kevin(venusaurmega).
 kevin(articunogalar).
 kevin(dondozo).
+kevin(rotomfan).
+kevin(glastrier).
 
 andrew(scizormega).
 andrew(landorus).
@@ -142,6 +145,7 @@ andrew(taurospaldeaaqua).
 andrew(grimmsnarl).
 andrew(salazzle).
 andrew(togetic).
+andrew(aurorus).
 
 morry(mawilemega).
 morry(walkingwake).
@@ -151,9 +155,14 @@ morry(lokix).
 morry(alakazam).
 morry(skarmory).
 morry(froslass).
+morry(carbink).
+morry(dipplin).
 
 points(Mon, Points) :- natdexdraft(Mon, Points).
-points(Mon, 1) :- \+ natdexdraft(Mon, _).
+points(Mon, 1) :-
+  pokemon(Mon),
+  findall(BoardMon, natdexdraft(BoardMon, _), BoardMons),
+  maplist(dif(Mon), BoardMons).
 
 % Nat Dex Draft Board
 natdexdraft('greattusk', 19).
