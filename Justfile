@@ -8,4 +8,4 @@ db:
   scryer-prolog ./db/prologdex.pl
 
 generate-dex:
-  node ./scripts/create-dex.js
+  node ./scripts/generate-dex.js
