@@ -1492,7 +1492,6 @@ pokemon('pokestarblackdoor').
 pokemon('pokestarwhitedoor').
 pokemon('pokestarblackbelt').
 pokemon('pokestarufopropu2').
-
 type('bulbasaur', 'grass').
 type('bulbasaur', 'poison').
 type('ivysaur', 'grass').

@@ -1,36 +1,48 @@
+import fs from 'node:fs'
 import showdown from 'pokemon-showdown'
 import pokedex from '../vendor/showdown/pokedex.json' with { type: 'json' }
 
 const { Dex } = showdown
-const log = console.log
 
+// const POKEMON_PL_FILE = "./dex/pokemon.pl"
+// const LEARNESET_PL_FILE = "./dex/learnsets.pl"
 
-log(":- module(dex, [pokemon/1, learns/2, type/2]).\n")
+// fs.rmSync(POKEMON_PL_FILE, { force: true })
+// fs.rmSync(LEARNESET_PL_FILE, { force: true })
 
+const DEX_FILE = "./dex/dex.pl"
+fs.rmSync(DEX_FILE, { force: true })
+
+const pokemonStream = fs.createWriteStream(DEX_FILE)
+pokemonStream.on('error', (e) => console.error(e))
+pokemonStream.write(":- module(dex, [pokemon/1, learns/2, type/2]).\n\n")
 // Mons
 for (const id in pokedex) {
   const mon = Dex.species.get(id)
-  log(`pokemon('${mon.id}').`)
+  pokemonStream.write(`pokemon('${mon.id}').\n`)
   // const hasMega = mon.otherFormes.some(name => name.endsWith("-Mega"))
   // if (hasMega) log(`pokemon(${mon.id}mega)`)
 }
-log()
+
 
 // Types
 for (const id in pokedex) {
   const mon = Dex.species.get(id)
   for (const type of mon.types) {
-    log(`type('${mon.id}', '${type.toLowerCase()}').`)
+    pokemonStream.write(`type('${mon.id}', '${type.toLowerCase()}').\n`)
   }
 }
-log()
+pokemonStream.write('\n')
 
 // Learnset
+// const learnsetStream = fs.createWriteStream(DEX_FILE)
+// learnsetStream.on('error', (e) => console.error(e))
+
 for (const id in pokedex) {
   const mon = Dex.species.get(id)
   const moves = Dex.species.getMovePool(mon, true)
   for (const move of moves) {
-    log(`learns('${mon.id}', '${move}').`)
+    pokemonStream.write(`learns('${mon.id}', '${move}').\n`)
   }
 }
-
+pokemonStream.close()
