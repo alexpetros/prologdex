@@ -4,8 +4,8 @@ build:
 serve:
   python3 -m http.server -d www
 
-dex:
-  scryer-prolog ./dex/prologdex.pl
+db:
+  scryer-prolog ./db/prologdex.pl
 
 generate-dex:
   node ./scripts/create-dex.js

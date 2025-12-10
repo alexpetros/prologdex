@@ -5,9 +5,8 @@
                          print_type_chart/1, resists/2
                          ]).
 
-:- use_module('pokemon.pl').
+:- use_module('dex/pokemon.pl').
 :- use_module(library(lists)).
-
 
 print_type_chart_line(Line) :- format("~s", [Line]), nl.
 print_type_chart(Team) :-
@@ -17,7 +16,6 @@ print_type_chart(Team) :-
   !,
   fail
   .
-
 
 weakness_count(Team, Type, Str) :-
   type(Type),

@@ -4,8 +4,8 @@ import pokedex from '../vendor/showdown/pokedex.json' with { type: 'json' }
 
 const { Dex } = showdown
 
-const POKEMON_PL_FILE = "./dex/pokemon.pl"
-const LEARNESET_PL_FILE = "./dex/learnsets.pl"
+const POKEMON_PL_FILE = "./db/dex/pokemon.pl"
+const LEARNESET_PL_FILE = "./db/dex/learnsets.pl"
 
 fs.rmSync(POKEMON_PL_FILE, { force: true })
 fs.rmSync(LEARNESET_PL_FILE, { force: true })

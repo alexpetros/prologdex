@@ -6,7 +6,7 @@
 :- use_module(library(format)).
 :- use_module(library(lists)).
 :- use_module(library(dif)).
-:- use_module('pokemon.pl').
+:- use_module('dex/pokemon.pl').
 
 draft_status :- players(Names), maplist(print_remaining, Names), !.
 % Obviously some 1-pt mons are viable, but this is a pretty good heuristic
