@@ -25,7 +25,6 @@ class ModuleFile {
   }
 }
 
-
 // Pokemon and their types
 const pokemonStream = new ModuleFile(POKEMON_PL_FILE)
 pokemonStream.writeln(":- module(dex, [pokemon/1, type/2]).\n")
@@ -33,10 +32,19 @@ for (const id in pokedex) {
   const mon = Dex.species.get(id)
   pokemonStream.writeln(`pokemon('${mon.id}').`)
 }
+
 for (const id in pokedex) {
   const mon = Dex.species.get(id)
   for (const type of mon.types) {
     pokemonStream.writeln(`type('${mon.id}', '${type.toLowerCase()}').`)
+  }
+}
+
+for (const id in pokedex) {
+  const mon = Dex.species.get(id)
+  const abilities = Object.values(mon.abilities)
+  for (const ability of abilities) {
+    pokemonStream.writeln(`pokemon_ability('${mon.id}', '${ability.toLowerCase()}').`)
   }
 }
 pokemonStream.close()
@@ -63,8 +71,7 @@ for (const move of moves) {
   const id = move.id
   if (id !== 'hiddenpower') movesStream.writeln(`move('${id}').`)
 }
-movesStream.writeln("move('hiddenpower').")
-movesStream.writeln()
+movesStream.writeln("move('hiddenpower').\n")
 
 for (const move of moves) {
   const id = move.id
@@ -78,8 +85,7 @@ for (const move of moves) {
   const power = move.basePower
   if (id !== 'hiddenpower') movesStream.writeln(`move_power('${id}', ${power}).`)
 }
-movesStream.writeln(`move_power('hiddenpower', ${hiddenpower.basePower}).`)
-movesStream.writeln()
+movesStream.writeln(`move_power('hiddenpower', ${hiddenpower.basePower}).\n`)
 
 for (const move of moves) {
   const id = move.id
