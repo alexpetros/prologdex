@@ -3800,4 +3800,3 @@ type('pokestarwhitedoor', 'fire').
 type('pokestarblackbelt', 'fighting').
 type('pokestarufopropu2', 'psychic').
 type('pokestarufopropu2', 'electric').
-

@@ -10,41 +10,57 @@ const LEARNESET_PL_FILE = "./db/dex/learnsets.pl"
 fs.rmSync(POKEMON_PL_FILE, { force: true })
 fs.rmSync(LEARNESET_PL_FILE, { force: true })
 
-const pokemonStream = fs.createWriteStream(POKEMON_PL_FILE)
-pokemonStream.on('error', (e) => console.error(e))
-pokemonStream.write("% GENERATED FILE - do not modify directly\n")
-pokemonStream.write("% see create-dex.js\n")
-pokemonStream.write(":- module(dex, [pokemon/1, type/2]).\n\n")
+class File {
+  constructor(path) {
+    this.stream = fs.createWriteStream(path)
+    this.stream.on('error', (e) => console.error(e))
+  }
 
-// Mons
+  writeln(string) {
+    this.stream.write(string + '\n')
+  }
+
+  close() {
+    this.stream.close()
+  }
+}
+
+
+// Pomeon and their types
+const pokemonStream = new File(POKEMON_PL_FILE)
+pokemonStream.writeln("% GENERATED FILE - do not modify directly\n% see create-dex.js")
+pokemonStream.writeln(":- module(dex, [pokemon/1, type/2]).\n")
+
 for (const id in pokedex) {
   const mon = Dex.species.get(id)
-  pokemonStream.write(`pokemon('${mon.id}').\n`)
+  pokemonStream.writeln(`pokemon('${mon.id}').`)
   // const hasMega = mon.otherFormes.some(name => name.endsWith("-Mega"))
   // if (hasMega) log(`pokemon(${mon.id}mega)`)
 }
-
-// Types
 for (const id in pokedex) {
   const mon = Dex.species.get(id)
   for (const type of mon.types) {
-    pokemonStream.write(`type('${mon.id}', '${type.toLowerCase()}').\n`)
+    pokemonStream.writeln(`type('${mon.id}', '${type.toLowerCase()}').`)
   }
 }
-pokemonStream.write('\n')
 pokemonStream.close()
 
-// Learnset
-const learnsetStream = fs.createWriteStream(LEARNESET_PL_FILE)
-learnsetStream.on('error', (e) => console.error(e))
-learnsetStream.write("% GENERATED FILE - do not modify directly\n")
-learnsetStream.write("% see create-dex.js\n")
-learnsetStream.write(":- module(learnsets, [learns/2]).\n\n")
+// Learnsets
+const learnsetsStream = new File(LEARNESET_PL_FILE)
+learnsetsStream.writeln("% GENERATED FILE - do not modify directly\n% see create-dex.js")
+learnsetsStream.writeln(":- module(learnsets, [learns/2]).\n")
 for (const id in pokedex) {
   const mon = Dex.species.get(id)
   const moves = Dex.species.getMovePool(mon, true)
   for (const move of moves) {
-    learnsetStream.write(`learns('${mon.id}', '${move}').\n`)
+    learnsetsStream.writeln(`learns('${mon.id}', '${move}').`)
   }
 }
-learnsetStream.close()
+learnsetsStream.close()
+
+// // Moves
+// for (const move of Dex.moves.all()) {
+//   const id = move.id
+//   const type = move.type.toLowerCase()
+//   console.log(move)
+// }
