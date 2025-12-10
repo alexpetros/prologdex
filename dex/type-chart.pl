@@ -5,7 +5,7 @@
                          print_type_chart/1, resists/2
                          ]).
 
-:- use_module('dex.pl').
+:- use_module('pokemon.pl').
 :- use_module(library(lists)).
 
 

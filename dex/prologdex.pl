@@ -1,7 +1,8 @@
 :- use_module(library(lists)).
 :- use_module(library(debug)).
 :- use_module('type-chart.pl').
-:- use_module('draft.pl').
+:- use_module('pokemon.pl').
+:- use_module('learnsets.pl').
 :- use_module('s6.pl').
 
 has_move([], _) :- fail.
@@ -35,3 +36,9 @@ draft_team(Team, MaxPoints) :-
   point_value(Team, Value),
   Value =< MaxPoints,
   only_mons(Team).
+
+learns_removal(Mon) :-
+  learns(Mon, rapidspin);
+  learns(Mon, defog);
+  learns(Mon, courtchange);
+  learns(Mon, tidyup).

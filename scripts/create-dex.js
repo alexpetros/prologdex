@@ -4,18 +4,18 @@ import pokedex from '../vendor/showdown/pokedex.json' with { type: 'json' }
 
 const { Dex } = showdown
 
-// const POKEMON_PL_FILE = "./dex/pokemon.pl"
-// const LEARNESET_PL_FILE = "./dex/learnsets.pl"
+const POKEMON_PL_FILE = "./dex/pokemon.pl"
+const LEARNESET_PL_FILE = "./dex/learnsets.pl"
 
-// fs.rmSync(POKEMON_PL_FILE, { force: true })
-// fs.rmSync(LEARNESET_PL_FILE, { force: true })
+fs.rmSync(POKEMON_PL_FILE, { force: true })
+fs.rmSync(LEARNESET_PL_FILE, { force: true })
 
-const DEX_FILE = "./dex/dex.pl"
-fs.rmSync(DEX_FILE, { force: true })
-
-const pokemonStream = fs.createWriteStream(DEX_FILE)
+const pokemonStream = fs.createWriteStream(POKEMON_PL_FILE)
 pokemonStream.on('error', (e) => console.error(e))
-pokemonStream.write(":- module(dex, [pokemon/1, learns/2, type/2]).\n\n")
+pokemonStream.write("% GENERATED FILE - do not modify directly\n")
+pokemonStream.write("% see create-dex.js\n")
+pokemonStream.write(":- module(dex, [pokemon/1, type/2]).\n\n")
+
 // Mons
 for (const id in pokedex) {
   const mon = Dex.species.get(id)
@@ -23,7 +23,6 @@ for (const id in pokedex) {
   // const hasMega = mon.otherFormes.some(name => name.endsWith("-Mega"))
   // if (hasMega) log(`pokemon(${mon.id}mega)`)
 }
-
 
 // Types
 for (const id in pokedex) {
@@ -33,16 +32,19 @@ for (const id in pokedex) {
   }
 }
 pokemonStream.write('\n')
+pokemonStream.close()
 
 // Learnset
-// const learnsetStream = fs.createWriteStream(DEX_FILE)
-// learnsetStream.on('error', (e) => console.error(e))
-
+const learnsetStream = fs.createWriteStream(LEARNESET_PL_FILE)
+learnsetStream.on('error', (e) => console.error(e))
+learnsetStream.write("% GENERATED FILE - do not modify directly\n")
+learnsetStream.write("% see create-dex.js\n")
+learnsetStream.write(":- module(learnsets, [learns/2]).\n\n")
 for (const id in pokedex) {
   const mon = Dex.species.get(id)
   const moves = Dex.species.getMovePool(mon, true)
   for (const move of moves) {
-    pokemonStream.write(`learns('${mon.id}', '${move}').\n`)
+    learnsetStream.write(`learns('${mon.id}', '${move}').\n`)
   }
 }
-pokemonStream.close()
+learnsetStream.close()
