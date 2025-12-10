@@ -3,6 +3,7 @@
 :- use_module('type-chart.pl').
 :- use_module('dex/pokemon.pl').
 :- use_module('dex/learnsets.pl').
+:- use_module('dex/moves.pl').
 :- use_module('s6.pl').
 
 has_move([], _) :- fail.
