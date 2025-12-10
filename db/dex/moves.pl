@@ -1,6 +1,6 @@
 % GENERATED FILE - do not modify directly
 % see create-dex.js
-:- module(moves, [move/1, move_type/2, move_accuracy/2]).
+:- module(moves, [move/1, move_type/2, move_power/2, move_accuracy/2]).
 
 move('10000000voltthunderbolt').
 move('absorb').
@@ -385,23 +385,6 @@ move('heatwave').
 move('heavyslam').
 move('helpinghand').
 move('hex').
-move('hiddenpower').
-move('hiddenpower').
-move('hiddenpower').
-move('hiddenpower').
-move('hiddenpower').
-move('hiddenpower').
-move('hiddenpower').
-move('hiddenpower').
-move('hiddenpower').
-move('hiddenpower').
-move('hiddenpower').
-move('hiddenpower').
-move('hiddenpower').
-move('hiddenpower').
-move('hiddenpower').
-move('hiddenpower').
-move('hiddenpower').
 move('highhorsepower').
 move('highjumpkick').
 move('holdback').
@@ -954,6 +937,7 @@ move('zingzap').
 move('zippyzap').
 move('paleowave').
 move('shadowstrike').
+move('hiddenpower').
 
 move_type('10000000voltthunderbolt', 'electric').
 move_type('absorb', 'grass').
@@ -2291,23 +2275,6 @@ move_power('heatwave', 95).
 move_power('heavyslam', 0).
 move_power('helpinghand', 0).
 move_power('hex', 65).
-move_power('hiddenpower', 60).
-move_power('hiddenpower', 60).
-move_power('hiddenpower', 60).
-move_power('hiddenpower', 60).
-move_power('hiddenpower', 60).
-move_power('hiddenpower', 60).
-move_power('hiddenpower', 60).
-move_power('hiddenpower', 60).
-move_power('hiddenpower', 60).
-move_power('hiddenpower', 60).
-move_power('hiddenpower', 60).
-move_power('hiddenpower', 60).
-move_power('hiddenpower', 60).
-move_power('hiddenpower', 60).
-move_power('hiddenpower', 60).
-move_power('hiddenpower', 60).
-move_power('hiddenpower', 60).
 move_power('highhorsepower', 95).
 move_power('highjumpkick', 130).
 move_power('holdback', 40).
@@ -2860,6 +2827,7 @@ move_power('zingzap', 80).
 move_power('zippyzap', 80).
 move_power('paleowave', 85).
 move_power('shadowstrike', 80).
+move_power('hiddenpower', 60).
 
 move_accuracy('10000000voltthunderbolt', true).
 move_accuracy('absorb', 100).
@@ -3244,23 +3212,6 @@ move_accuracy('heatwave', 90).
 move_accuracy('heavyslam', 100).
 move_accuracy('helpinghand', true).
 move_accuracy('hex', 100).
-move_accuracy('hiddenpower', 100).
-move_accuracy('hiddenpower', 100).
-move_accuracy('hiddenpower', 100).
-move_accuracy('hiddenpower', 100).
-move_accuracy('hiddenpower', 100).
-move_accuracy('hiddenpower', 100).
-move_accuracy('hiddenpower', 100).
-move_accuracy('hiddenpower', 100).
-move_accuracy('hiddenpower', 100).
-move_accuracy('hiddenpower', 100).
-move_accuracy('hiddenpower', 100).
-move_accuracy('hiddenpower', 100).
-move_accuracy('hiddenpower', 100).
-move_accuracy('hiddenpower', 100).
-move_accuracy('hiddenpower', 100).
-move_accuracy('hiddenpower', 100).
-move_accuracy('hiddenpower', 100).
 move_accuracy('highhorsepower', 95).
 move_accuracy('highjumpkick', 90).
 move_accuracy('holdback', 100).
@@ -3813,3 +3764,4 @@ move_accuracy('zingzap', 100).
 move_accuracy('zippyzap', 100).
 move_accuracy('paleowave', 100).
 move_accuracy('shadowstrike', 95).
+move_accuracy('hiddenpower', 100).

@@ -57,27 +57,34 @@ learnsetsStream.close()
 const movesStream = new ModuleFile(MOVES_PL_FILE)
 movesStream.writeln(":- module(moves, [move/1, move_type/2, move_power/2, move_accuracy/2]).\n")
 const moves = Dex.moves.all()
+const hiddenpower = moves.find(move => move.id === 'hiddenpower')
+
 for (const move of moves) {
   const id = move.id
-  movesStream.writeln(`move('${id}').`)
+  if (id !== 'hiddenpower') movesStream.writeln(`move('${id}').`)
 }
+movesStream.writeln("move('hiddenpower').")
 movesStream.writeln()
+
 for (const move of moves) {
   const id = move.id
   const type = move.type.toLowerCase()
   movesStream.writeln(`move_type('${id}', '${type}').`)
 }
 movesStream.writeln()
+
 for (const move of moves) {
   const id = move.id
   const power = move.basePower
-  movesStream.writeln(`move_power('${id}', ${power}).`)
+  if (id !== 'hiddenpower') movesStream.writeln(`move_power('${id}', ${power}).`)
 }
+movesStream.writeln(`move_power('hiddenpower', ${hiddenpower.basePower}).`)
 movesStream.writeln()
+
 for (const move of moves) {
   const id = move.id
   const accuracy = move.accuracy === true ? 'true' : move.accuracy
-
-  movesStream.writeln(`move_accuracy('${id}', ${accuracy}).`)
+  if (id !== 'hiddenpower') movesStream.writeln(`move_accuracy('${id}', ${accuracy}).`)
 }
+movesStream.writeln(`move_accuracy('hiddenpower', ${hiddenpower.accuracy}).`)
 movesStream.close()
