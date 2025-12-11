@@ -27,10 +27,44 @@ class ModuleFile {
 
 // Pokemon and their types
 const pokemonStream = new ModuleFile(POKEMON_PL_FILE)
-pokemonStream.writeln(":- module(dex, [pokemon/1, type/2, pokemon_ability/2]).\n")
+pokemonStream.writeln(`:- module(dex, [pokemon/1, type/2, pokemon_ability/2,
+  pokemon_hp/2, pokemon_atk/2, pokemon_def/2, pokemon_spa/2, pokemon_spd/2, pokemon_spe/2
+]).
+`)
+
 for (const id in pokedex) {
   const mon = Dex.species.get(id)
   pokemonStream.writeln(`pokemon('${mon.id}').`)
+}
+
+for (const id in pokedex) {
+  const mon = Dex.species.get(id)
+  pokemonStream.writeln(`pokemon_hp('${mon.id}', ${mon.baseStats.hp}).`)
+}
+
+for (const id in pokedex) {
+  const mon = Dex.species.get(id)
+  pokemonStream.writeln(`pokemon_atk('${mon.id}', ${mon.baseStats.atk}).`)
+}
+
+for (const id in pokedex) {
+  const mon = Dex.species.get(id)
+  pokemonStream.writeln(`pokemon_def('${mon.id}', ${mon.baseStats.def}).`)
+}
+
+for (const id in pokedex) {
+  const mon = Dex.species.get(id)
+  pokemonStream.writeln(`pokemon_spa('${mon.id}', ${mon.baseStats.spa}).`)
+}
+
+for (const id in pokedex) {
+  const mon = Dex.species.get(id)
+  pokemonStream.writeln(`pokemon_spd('${mon.id}', ${mon.baseStats.spd}).`)
+}
+
+for (const id in pokedex) {
+  const mon = Dex.species.get(id)
+  pokemonStream.writeln(`pokemon_spe('${mon.id}', ${mon.baseStats.spe}).`)
 }
 
 for (const id in pokedex) {

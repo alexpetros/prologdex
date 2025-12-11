@@ -1,7 +1,7 @@
 :- module('type-chart', [super_effective/2, not_very_effective/2, no_damage/2,
                          weak_to/2, strong_against/2, immune/2, normal_damage/2,
                          weak/2, very_weak/2, strong/2, very_strong/2, normal/2,
-                         weakness_count/8, find_type_matchup/3, matchup_count/4,
+                         weakness_count/9, find_type_matchup/3, matchup_count/4,
                          print_type_chart/1, resists/2, calc_modifier/3
                          ]).
 
