@@ -3806,186 +3806,186 @@ pokemon_ability('ivysaur', 'overgrow').
 pokemon_ability('ivysaur', 'chlorophyll').
 pokemon_ability('venusaur', 'overgrow').
 pokemon_ability('venusaur', 'chlorophyll').
-pokemon_ability('venusaurmega', 'thick fat').
+pokemon_ability('venusaurmega', 'thickfat').
 pokemon_ability('venusaurgmax', 'overgrow').
 pokemon_ability('venusaurgmax', 'chlorophyll').
 pokemon_ability('charmander', 'blaze').
-pokemon_ability('charmander', 'solar power').
+pokemon_ability('charmander', 'solarpower').
 pokemon_ability('charmeleon', 'blaze').
-pokemon_ability('charmeleon', 'solar power').
+pokemon_ability('charmeleon', 'solarpower').
 pokemon_ability('charizard', 'blaze').
-pokemon_ability('charizard', 'solar power').
-pokemon_ability('charizardmegax', 'tough claws').
+pokemon_ability('charizard', 'solarpower').
+pokemon_ability('charizardmegax', 'toughclaws').
 pokemon_ability('charizardmegay', 'drought').
 pokemon_ability('charizardgmax', 'blaze').
-pokemon_ability('charizardgmax', 'solar power').
+pokemon_ability('charizardgmax', 'solarpower').
 pokemon_ability('squirtle', 'torrent').
-pokemon_ability('squirtle', 'rain dish').
+pokemon_ability('squirtle', 'raindish').
 pokemon_ability('wartortle', 'torrent').
-pokemon_ability('wartortle', 'rain dish').
+pokemon_ability('wartortle', 'raindish').
 pokemon_ability('blastoise', 'torrent').
-pokemon_ability('blastoise', 'rain dish').
-pokemon_ability('blastoisemega', 'mega launcher').
+pokemon_ability('blastoise', 'raindish').
+pokemon_ability('blastoisemega', 'megalauncher').
 pokemon_ability('blastoisegmax', 'torrent').
-pokemon_ability('blastoisegmax', 'rain dish').
-pokemon_ability('caterpie', 'shield dust').
-pokemon_ability('caterpie', 'run away').
-pokemon_ability('metapod', 'shed skin').
-pokemon_ability('butterfree', 'compound eyes').
-pokemon_ability('butterfree', 'tinted lens').
-pokemon_ability('butterfreegmax', 'compound eyes').
-pokemon_ability('butterfreegmax', 'tinted lens').
-pokemon_ability('weedle', 'shield dust').
-pokemon_ability('weedle', 'run away').
-pokemon_ability('kakuna', 'shed skin').
+pokemon_ability('blastoisegmax', 'raindish').
+pokemon_ability('caterpie', 'shielddust').
+pokemon_ability('caterpie', 'runaway').
+pokemon_ability('metapod', 'shedskin').
+pokemon_ability('butterfree', 'compoundeyes').
+pokemon_ability('butterfree', 'tintedlens').
+pokemon_ability('butterfreegmax', 'compoundeyes').
+pokemon_ability('butterfreegmax', 'tintedlens').
+pokemon_ability('weedle', 'shielddust').
+pokemon_ability('weedle', 'runaway').
+pokemon_ability('kakuna', 'shedskin').
 pokemon_ability('beedrill', 'swarm').
 pokemon_ability('beedrill', 'sniper').
 pokemon_ability('beedrillmega', 'adaptability').
-pokemon_ability('pidgey', 'keen eye').
-pokemon_ability('pidgey', 'tangled feet').
-pokemon_ability('pidgey', 'big pecks').
-pokemon_ability('pidgeotto', 'keen eye').
-pokemon_ability('pidgeotto', 'tangled feet').
-pokemon_ability('pidgeotto', 'big pecks').
-pokemon_ability('pidgeot', 'keen eye').
-pokemon_ability('pidgeot', 'tangled feet').
-pokemon_ability('pidgeot', 'big pecks').
-pokemon_ability('pidgeotmega', 'no guard').
-pokemon_ability('rattata', 'run away').
+pokemon_ability('pidgey', 'keeneye').
+pokemon_ability('pidgey', 'tangledfeet').
+pokemon_ability('pidgey', 'bigpecks').
+pokemon_ability('pidgeotto', 'keeneye').
+pokemon_ability('pidgeotto', 'tangledfeet').
+pokemon_ability('pidgeotto', 'bigpecks').
+pokemon_ability('pidgeot', 'keeneye').
+pokemon_ability('pidgeot', 'tangledfeet').
+pokemon_ability('pidgeot', 'bigpecks').
+pokemon_ability('pidgeotmega', 'noguard').
+pokemon_ability('rattata', 'runaway').
 pokemon_ability('rattata', 'guts').
 pokemon_ability('rattata', 'hustle').
 pokemon_ability('rattataalola', 'gluttony').
 pokemon_ability('rattataalola', 'hustle').
-pokemon_ability('rattataalola', 'thick fat').
-pokemon_ability('raticate', 'run away').
+pokemon_ability('rattataalola', 'thickfat').
+pokemon_ability('raticate', 'runaway').
 pokemon_ability('raticate', 'guts').
 pokemon_ability('raticate', 'hustle').
 pokemon_ability('raticatealola', 'gluttony').
 pokemon_ability('raticatealola', 'hustle').
-pokemon_ability('raticatealola', 'thick fat').
-pokemon_ability('raticatealolatotem', 'thick fat').
-pokemon_ability('spearow', 'keen eye').
+pokemon_ability('raticatealola', 'thickfat').
+pokemon_ability('raticatealolatotem', 'thickfat').
+pokemon_ability('spearow', 'keeneye').
 pokemon_ability('spearow', 'sniper').
-pokemon_ability('fearow', 'keen eye').
+pokemon_ability('fearow', 'keeneye').
 pokemon_ability('fearow', 'sniper').
 pokemon_ability('ekans', 'intimidate').
-pokemon_ability('ekans', 'shed skin').
+pokemon_ability('ekans', 'shedskin').
 pokemon_ability('ekans', 'unnerve').
 pokemon_ability('arbok', 'intimidate').
-pokemon_ability('arbok', 'shed skin').
+pokemon_ability('arbok', 'shedskin').
 pokemon_ability('arbok', 'unnerve').
 pokemon_ability('pikachu', 'static').
-pokemon_ability('pikachu', 'lightning rod').
-pokemon_ability('pikachucosplay', 'lightning rod').
-pokemon_ability('pikachurockstar', 'lightning rod').
-pokemon_ability('pikachubelle', 'lightning rod').
-pokemon_ability('pikachupopstar', 'lightning rod').
-pokemon_ability('pikachuphd', 'lightning rod').
-pokemon_ability('pikachulibre', 'lightning rod').
+pokemon_ability('pikachu', 'lightningrod').
+pokemon_ability('pikachucosplay', 'lightningrod').
+pokemon_ability('pikachurockstar', 'lightningrod').
+pokemon_ability('pikachubelle', 'lightningrod').
+pokemon_ability('pikachupopstar', 'lightningrod').
+pokemon_ability('pikachuphd', 'lightningrod').
+pokemon_ability('pikachulibre', 'lightningrod').
 pokemon_ability('pikachuoriginal', 'static').
-pokemon_ability('pikachuoriginal', 'lightning rod').
+pokemon_ability('pikachuoriginal', 'lightningrod').
 pokemon_ability('pikachuhoenn', 'static').
-pokemon_ability('pikachuhoenn', 'lightning rod').
+pokemon_ability('pikachuhoenn', 'lightningrod').
 pokemon_ability('pikachusinnoh', 'static').
-pokemon_ability('pikachusinnoh', 'lightning rod').
+pokemon_ability('pikachusinnoh', 'lightningrod').
 pokemon_ability('pikachuunova', 'static').
-pokemon_ability('pikachuunova', 'lightning rod').
+pokemon_ability('pikachuunova', 'lightningrod').
 pokemon_ability('pikachukalos', 'static').
-pokemon_ability('pikachukalos', 'lightning rod').
+pokemon_ability('pikachukalos', 'lightningrod').
 pokemon_ability('pikachualola', 'static').
-pokemon_ability('pikachualola', 'lightning rod').
+pokemon_ability('pikachualola', 'lightningrod').
 pokemon_ability('pikachupartner', 'static').
-pokemon_ability('pikachupartner', 'lightning rod').
+pokemon_ability('pikachupartner', 'lightningrod').
 pokemon_ability('pikachustarter', 'static').
-pokemon_ability('pikachustarter', 'lightning rod').
+pokemon_ability('pikachustarter', 'lightningrod').
 pokemon_ability('pikachugmax', 'static').
-pokemon_ability('pikachugmax', 'lightning rod').
+pokemon_ability('pikachugmax', 'lightningrod').
 pokemon_ability('pikachuworld', 'static').
-pokemon_ability('pikachuworld', 'lightning rod').
+pokemon_ability('pikachuworld', 'lightningrod').
 pokemon_ability('raichu', 'static').
-pokemon_ability('raichu', 'lightning rod').
-pokemon_ability('raichualola', 'surge surfer').
-pokemon_ability('sandshrew', 'sand veil').
-pokemon_ability('sandshrew', 'sand rush').
-pokemon_ability('sandshrewalola', 'snow cloak').
-pokemon_ability('sandshrewalola', 'slush rush').
-pokemon_ability('sandslash', 'sand veil').
-pokemon_ability('sandslash', 'sand rush').
-pokemon_ability('sandslashalola', 'snow cloak').
-pokemon_ability('sandslashalola', 'slush rush').
-pokemon_ability('nidoranf', 'poison point').
+pokemon_ability('raichu', 'lightningrod').
+pokemon_ability('raichualola', 'surgesurfer').
+pokemon_ability('sandshrew', 'sandveil').
+pokemon_ability('sandshrew', 'sandrush').
+pokemon_ability('sandshrewalola', 'snowcloak').
+pokemon_ability('sandshrewalola', 'slushrush').
+pokemon_ability('sandslash', 'sandveil').
+pokemon_ability('sandslash', 'sandrush').
+pokemon_ability('sandslashalola', 'snowcloak').
+pokemon_ability('sandslashalola', 'slushrush').
+pokemon_ability('nidoranf', 'poisonpoint').
 pokemon_ability('nidoranf', 'rivalry').
 pokemon_ability('nidoranf', 'hustle').
-pokemon_ability('nidorina', 'poison point').
+pokemon_ability('nidorina', 'poisonpoint').
 pokemon_ability('nidorina', 'rivalry').
 pokemon_ability('nidorina', 'hustle').
-pokemon_ability('nidoqueen', 'poison point').
+pokemon_ability('nidoqueen', 'poisonpoint').
 pokemon_ability('nidoqueen', 'rivalry').
-pokemon_ability('nidoqueen', 'sheer force').
-pokemon_ability('nidoranm', 'poison point').
+pokemon_ability('nidoqueen', 'sheerforce').
+pokemon_ability('nidoranm', 'poisonpoint').
 pokemon_ability('nidoranm', 'rivalry').
 pokemon_ability('nidoranm', 'hustle').
-pokemon_ability('nidorino', 'poison point').
+pokemon_ability('nidorino', 'poisonpoint').
 pokemon_ability('nidorino', 'rivalry').
 pokemon_ability('nidorino', 'hustle').
-pokemon_ability('nidoking', 'poison point').
+pokemon_ability('nidoking', 'poisonpoint').
 pokemon_ability('nidoking', 'rivalry').
-pokemon_ability('nidoking', 'sheer force').
-pokemon_ability('clefairy', 'cute charm').
-pokemon_ability('clefairy', 'magic guard').
-pokemon_ability('clefairy', 'friend guard').
-pokemon_ability('clefable', 'cute charm').
-pokemon_ability('clefable', 'magic guard').
+pokemon_ability('nidoking', 'sheerforce').
+pokemon_ability('clefairy', 'cutecharm').
+pokemon_ability('clefairy', 'magicguard').
+pokemon_ability('clefairy', 'friendguard').
+pokemon_ability('clefable', 'cutecharm').
+pokemon_ability('clefable', 'magicguard').
 pokemon_ability('clefable', 'unaware').
 pokemon_ability('clefablemega', '').
-pokemon_ability('vulpix', 'flash fire').
+pokemon_ability('vulpix', 'flashfire').
 pokemon_ability('vulpix', 'drought').
-pokemon_ability('vulpixalola', 'snow cloak').
-pokemon_ability('vulpixalola', 'snow warning').
-pokemon_ability('ninetales', 'flash fire').
+pokemon_ability('vulpixalola', 'snowcloak').
+pokemon_ability('vulpixalola', 'snowwarning').
+pokemon_ability('ninetales', 'flashfire').
 pokemon_ability('ninetales', 'drought').
-pokemon_ability('ninetalesalola', 'snow cloak').
-pokemon_ability('ninetalesalola', 'snow warning').
-pokemon_ability('jigglypuff', 'cute charm').
+pokemon_ability('ninetalesalola', 'snowcloak').
+pokemon_ability('ninetalesalola', 'snowwarning').
+pokemon_ability('jigglypuff', 'cutecharm').
 pokemon_ability('jigglypuff', 'competitive').
-pokemon_ability('jigglypuff', 'friend guard').
-pokemon_ability('wigglytuff', 'cute charm').
+pokemon_ability('jigglypuff', 'friendguard').
+pokemon_ability('wigglytuff', 'cutecharm').
 pokemon_ability('wigglytuff', 'competitive').
 pokemon_ability('wigglytuff', 'frisk').
-pokemon_ability('zubat', 'inner focus').
+pokemon_ability('zubat', 'innerfocus').
 pokemon_ability('zubat', 'infiltrator').
-pokemon_ability('golbat', 'inner focus').
+pokemon_ability('golbat', 'innerfocus').
 pokemon_ability('golbat', 'infiltrator').
 pokemon_ability('oddish', 'chlorophyll').
-pokemon_ability('oddish', 'run away').
+pokemon_ability('oddish', 'runaway').
 pokemon_ability('gloom', 'chlorophyll').
 pokemon_ability('gloom', 'stench').
 pokemon_ability('vileplume', 'chlorophyll').
-pokemon_ability('vileplume', 'effect spore').
-pokemon_ability('paras', 'effect spore').
-pokemon_ability('paras', 'dry skin').
+pokemon_ability('vileplume', 'effectspore').
+pokemon_ability('paras', 'effectspore').
+pokemon_ability('paras', 'dryskin').
 pokemon_ability('paras', 'damp').
-pokemon_ability('parasect', 'effect spore').
-pokemon_ability('parasect', 'dry skin').
+pokemon_ability('parasect', 'effectspore').
+pokemon_ability('parasect', 'dryskin').
 pokemon_ability('parasect', 'damp').
-pokemon_ability('venonat', 'compound eyes').
-pokemon_ability('venonat', 'tinted lens').
-pokemon_ability('venonat', 'run away').
-pokemon_ability('venomoth', 'shield dust').
-pokemon_ability('venomoth', 'tinted lens').
-pokemon_ability('venomoth', 'wonder skin').
-pokemon_ability('diglett', 'sand veil').
-pokemon_ability('diglett', 'arena trap').
-pokemon_ability('diglett', 'sand force').
-pokemon_ability('diglettalola', 'sand veil').
-pokemon_ability('diglettalola', 'tangling hair').
-pokemon_ability('diglettalola', 'sand force').
-pokemon_ability('dugtrio', 'sand veil').
-pokemon_ability('dugtrio', 'arena trap').
-pokemon_ability('dugtrio', 'sand force').
-pokemon_ability('dugtrioalola', 'sand veil').
-pokemon_ability('dugtrioalola', 'tangling hair').
-pokemon_ability('dugtrioalola', 'sand force').
+pokemon_ability('venonat', 'compoundeyes').
+pokemon_ability('venonat', 'tintedlens').
+pokemon_ability('venonat', 'runaway').
+pokemon_ability('venomoth', 'shielddust').
+pokemon_ability('venomoth', 'tintedlens').
+pokemon_ability('venomoth', 'wonderskin').
+pokemon_ability('diglett', 'sandveil').
+pokemon_ability('diglett', 'arenatrap').
+pokemon_ability('diglett', 'sandforce').
+pokemon_ability('diglettalola', 'sandveil').
+pokemon_ability('diglettalola', 'tanglinghair').
+pokemon_ability('diglettalola', 'sandforce').
+pokemon_ability('dugtrio', 'sandveil').
+pokemon_ability('dugtrio', 'arenatrap').
+pokemon_ability('dugtrio', 'sandforce').
+pokemon_ability('dugtrioalola', 'sandveil').
+pokemon_ability('dugtrioalola', 'tanglinghair').
+pokemon_ability('dugtrioalola', 'sandforce').
 pokemon_ability('meowth', 'pickup').
 pokemon_ability('meowth', 'technician').
 pokemon_ability('meowth', 'unnerve').
@@ -3993,7 +3993,7 @@ pokemon_ability('meowthalola', 'pickup').
 pokemon_ability('meowthalola', 'technician').
 pokemon_ability('meowthalola', 'rattled').
 pokemon_ability('meowthgalar', 'pickup').
-pokemon_ability('meowthgalar', 'tough claws').
+pokemon_ability('meowthgalar', 'toughclaws').
 pokemon_ability('meowthgalar', 'unnerve').
 pokemon_ability('meowthgmax', 'pickup').
 pokemon_ability('meowthgmax', 'technician').
@@ -4001,63 +4001,63 @@ pokemon_ability('meowthgmax', 'unnerve').
 pokemon_ability('persian', 'limber').
 pokemon_ability('persian', 'technician').
 pokemon_ability('persian', 'unnerve').
-pokemon_ability('persianalola', 'fur coat').
+pokemon_ability('persianalola', 'furcoat').
 pokemon_ability('persianalola', 'technician').
 pokemon_ability('persianalola', 'rattled').
 pokemon_ability('psyduck', 'damp').
-pokemon_ability('psyduck', 'cloud nine').
-pokemon_ability('psyduck', 'swift swim').
+pokemon_ability('psyduck', 'cloudnine').
+pokemon_ability('psyduck', 'swiftswim').
 pokemon_ability('golduck', 'damp').
-pokemon_ability('golduck', 'cloud nine').
-pokemon_ability('golduck', 'swift swim').
-pokemon_ability('mankey', 'vital spirit').
-pokemon_ability('mankey', 'anger point').
+pokemon_ability('golduck', 'cloudnine').
+pokemon_ability('golduck', 'swiftswim').
+pokemon_ability('mankey', 'vitalspirit').
+pokemon_ability('mankey', 'angerpoint').
 pokemon_ability('mankey', 'defiant').
-pokemon_ability('primeape', 'vital spirit').
-pokemon_ability('primeape', 'anger point').
+pokemon_ability('primeape', 'vitalspirit').
+pokemon_ability('primeape', 'angerpoint').
 pokemon_ability('primeape', 'defiant').
 pokemon_ability('growlithe', 'intimidate').
-pokemon_ability('growlithe', 'flash fire').
+pokemon_ability('growlithe', 'flashfire').
 pokemon_ability('growlithe', 'justified').
 pokemon_ability('growlithehisui', 'intimidate').
-pokemon_ability('growlithehisui', 'flash fire').
-pokemon_ability('growlithehisui', 'rock head').
+pokemon_ability('growlithehisui', 'flashfire').
+pokemon_ability('growlithehisui', 'rockhead').
 pokemon_ability('arcanine', 'intimidate').
-pokemon_ability('arcanine', 'flash fire').
+pokemon_ability('arcanine', 'flashfire').
 pokemon_ability('arcanine', 'justified').
 pokemon_ability('arcaninehisui', 'intimidate').
-pokemon_ability('arcaninehisui', 'flash fire').
-pokemon_ability('arcaninehisui', 'rock head').
-pokemon_ability('poliwag', 'water absorb').
+pokemon_ability('arcaninehisui', 'flashfire').
+pokemon_ability('arcaninehisui', 'rockhead').
+pokemon_ability('poliwag', 'waterabsorb').
 pokemon_ability('poliwag', 'damp').
-pokemon_ability('poliwag', 'swift swim').
-pokemon_ability('poliwhirl', 'water absorb').
+pokemon_ability('poliwag', 'swiftswim').
+pokemon_ability('poliwhirl', 'waterabsorb').
 pokemon_ability('poliwhirl', 'damp').
-pokemon_ability('poliwhirl', 'swift swim').
-pokemon_ability('poliwrath', 'water absorb').
+pokemon_ability('poliwhirl', 'swiftswim').
+pokemon_ability('poliwrath', 'waterabsorb').
 pokemon_ability('poliwrath', 'damp').
-pokemon_ability('poliwrath', 'swift swim').
+pokemon_ability('poliwrath', 'swiftswim').
 pokemon_ability('abra', 'synchronize').
-pokemon_ability('abra', 'inner focus').
-pokemon_ability('abra', 'magic guard').
+pokemon_ability('abra', 'innerfocus').
+pokemon_ability('abra', 'magicguard').
 pokemon_ability('kadabra', 'synchronize').
-pokemon_ability('kadabra', 'inner focus').
-pokemon_ability('kadabra', 'magic guard').
+pokemon_ability('kadabra', 'innerfocus').
+pokemon_ability('kadabra', 'magicguard').
 pokemon_ability('alakazam', 'synchronize').
-pokemon_ability('alakazam', 'inner focus').
-pokemon_ability('alakazam', 'magic guard').
+pokemon_ability('alakazam', 'innerfocus').
+pokemon_ability('alakazam', 'magicguard').
 pokemon_ability('alakazammega', 'trace').
 pokemon_ability('machop', 'guts').
-pokemon_ability('machop', 'no guard').
+pokemon_ability('machop', 'noguard').
 pokemon_ability('machop', 'steadfast').
 pokemon_ability('machoke', 'guts').
-pokemon_ability('machoke', 'no guard').
+pokemon_ability('machoke', 'noguard').
 pokemon_ability('machoke', 'steadfast').
 pokemon_ability('machamp', 'guts').
-pokemon_ability('machamp', 'no guard').
+pokemon_ability('machamp', 'noguard').
 pokemon_ability('machamp', 'steadfast').
 pokemon_ability('machampgmax', 'guts').
-pokemon_ability('machampgmax', 'no guard').
+pokemon_ability('machampgmax', 'noguard').
 pokemon_ability('machampgmax', 'steadfast').
 pokemon_ability('bellsprout', 'chlorophyll').
 pokemon_ability('bellsprout', 'gluttony').
@@ -4066,119 +4066,119 @@ pokemon_ability('weepinbell', 'gluttony').
 pokemon_ability('victreebel', 'chlorophyll').
 pokemon_ability('victreebel', 'gluttony').
 pokemon_ability('victreebelmega', '').
-pokemon_ability('tentacool', 'clear body').
-pokemon_ability('tentacool', 'liquid ooze').
-pokemon_ability('tentacool', 'rain dish').
-pokemon_ability('tentacruel', 'clear body').
-pokemon_ability('tentacruel', 'liquid ooze').
-pokemon_ability('tentacruel', 'rain dish').
-pokemon_ability('geodude', 'rock head').
+pokemon_ability('tentacool', 'clearbody').
+pokemon_ability('tentacool', 'liquidooze').
+pokemon_ability('tentacool', 'raindish').
+pokemon_ability('tentacruel', 'clearbody').
+pokemon_ability('tentacruel', 'liquidooze').
+pokemon_ability('tentacruel', 'raindish').
+pokemon_ability('geodude', 'rockhead').
 pokemon_ability('geodude', 'sturdy').
-pokemon_ability('geodude', 'sand veil').
-pokemon_ability('geodudealola', 'magnet pull').
+pokemon_ability('geodude', 'sandveil').
+pokemon_ability('geodudealola', 'magnetpull').
 pokemon_ability('geodudealola', 'sturdy').
 pokemon_ability('geodudealola', 'galvanize').
-pokemon_ability('graveler', 'rock head').
+pokemon_ability('graveler', 'rockhead').
 pokemon_ability('graveler', 'sturdy').
-pokemon_ability('graveler', 'sand veil').
-pokemon_ability('graveleralola', 'magnet pull').
+pokemon_ability('graveler', 'sandveil').
+pokemon_ability('graveleralola', 'magnetpull').
 pokemon_ability('graveleralola', 'sturdy').
 pokemon_ability('graveleralola', 'galvanize').
-pokemon_ability('golem', 'rock head').
+pokemon_ability('golem', 'rockhead').
 pokemon_ability('golem', 'sturdy').
-pokemon_ability('golem', 'sand veil').
-pokemon_ability('golemalola', 'magnet pull').
+pokemon_ability('golem', 'sandveil').
+pokemon_ability('golemalola', 'magnetpull').
 pokemon_ability('golemalola', 'sturdy').
 pokemon_ability('golemalola', 'galvanize').
-pokemon_ability('ponyta', 'run away').
-pokemon_ability('ponyta', 'flash fire').
-pokemon_ability('ponyta', 'flame body').
-pokemon_ability('ponytagalar', 'run away').
-pokemon_ability('ponytagalar', 'pastel veil').
+pokemon_ability('ponyta', 'runaway').
+pokemon_ability('ponyta', 'flashfire').
+pokemon_ability('ponyta', 'flamebody').
+pokemon_ability('ponytagalar', 'runaway').
+pokemon_ability('ponytagalar', 'pastelveil').
 pokemon_ability('ponytagalar', 'anticipation').
-pokemon_ability('rapidash', 'run away').
-pokemon_ability('rapidash', 'flash fire').
-pokemon_ability('rapidash', 'flame body').
-pokemon_ability('rapidashgalar', 'run away').
-pokemon_ability('rapidashgalar', 'pastel veil').
+pokemon_ability('rapidash', 'runaway').
+pokemon_ability('rapidash', 'flashfire').
+pokemon_ability('rapidash', 'flamebody').
+pokemon_ability('rapidashgalar', 'runaway').
+pokemon_ability('rapidashgalar', 'pastelveil').
 pokemon_ability('rapidashgalar', 'anticipation').
 pokemon_ability('slowpoke', 'oblivious').
-pokemon_ability('slowpoke', 'own tempo').
+pokemon_ability('slowpoke', 'owntempo').
 pokemon_ability('slowpoke', 'regenerator').
 pokemon_ability('slowpokegalar', 'gluttony').
-pokemon_ability('slowpokegalar', 'own tempo').
+pokemon_ability('slowpokegalar', 'owntempo').
 pokemon_ability('slowpokegalar', 'regenerator').
 pokemon_ability('slowbro', 'oblivious').
-pokemon_ability('slowbro', 'own tempo').
+pokemon_ability('slowbro', 'owntempo').
 pokemon_ability('slowbro', 'regenerator').
-pokemon_ability('slowbromega', 'shell armor').
-pokemon_ability('slowbrogalar', 'quick draw').
-pokemon_ability('slowbrogalar', 'own tempo').
+pokemon_ability('slowbromega', 'shellarmor').
+pokemon_ability('slowbrogalar', 'quickdraw').
+pokemon_ability('slowbrogalar', 'owntempo').
 pokemon_ability('slowbrogalar', 'regenerator').
-pokemon_ability('magnemite', 'magnet pull').
+pokemon_ability('magnemite', 'magnetpull').
 pokemon_ability('magnemite', 'sturdy').
 pokemon_ability('magnemite', 'analytic').
-pokemon_ability('magneton', 'magnet pull').
+pokemon_ability('magneton', 'magnetpull').
 pokemon_ability('magneton', 'sturdy').
 pokemon_ability('magneton', 'analytic').
-pokemon_ability('farfetchd', 'keen eye').
-pokemon_ability('farfetchd', 'inner focus').
+pokemon_ability('farfetchd', 'keeneye').
+pokemon_ability('farfetchd', 'innerfocus').
 pokemon_ability('farfetchd', 'defiant').
 pokemon_ability('farfetchdgalar', 'steadfast').
 pokemon_ability('farfetchdgalar', 'scrappy').
-pokemon_ability('doduo', 'run away').
-pokemon_ability('doduo', 'early bird').
-pokemon_ability('doduo', 'tangled feet').
-pokemon_ability('dodrio', 'run away').
-pokemon_ability('dodrio', 'early bird').
-pokemon_ability('dodrio', 'tangled feet').
-pokemon_ability('seel', 'thick fat').
+pokemon_ability('doduo', 'runaway').
+pokemon_ability('doduo', 'earlybird').
+pokemon_ability('doduo', 'tangledfeet').
+pokemon_ability('dodrio', 'runaway').
+pokemon_ability('dodrio', 'earlybird').
+pokemon_ability('dodrio', 'tangledfeet').
+pokemon_ability('seel', 'thickfat').
 pokemon_ability('seel', 'hydration').
-pokemon_ability('seel', 'ice body').
-pokemon_ability('dewgong', 'thick fat').
+pokemon_ability('seel', 'icebody').
+pokemon_ability('dewgong', 'thickfat').
 pokemon_ability('dewgong', 'hydration').
-pokemon_ability('dewgong', 'ice body').
+pokemon_ability('dewgong', 'icebody').
 pokemon_ability('grimer', 'stench').
-pokemon_ability('grimer', 'sticky hold').
-pokemon_ability('grimer', 'poison touch').
-pokemon_ability('grimeralola', 'poison touch').
+pokemon_ability('grimer', 'stickyhold').
+pokemon_ability('grimer', 'poisontouch').
+pokemon_ability('grimeralola', 'poisontouch').
 pokemon_ability('grimeralola', 'gluttony').
-pokemon_ability('grimeralola', 'power of alchemy').
+pokemon_ability('grimeralola', 'powerof alchemy').
 pokemon_ability('muk', 'stench').
-pokemon_ability('muk', 'sticky hold').
-pokemon_ability('muk', 'poison touch').
-pokemon_ability('mukalola', 'poison touch').
+pokemon_ability('muk', 'stickyhold').
+pokemon_ability('muk', 'poisontouch').
+pokemon_ability('mukalola', 'poisontouch').
 pokemon_ability('mukalola', 'gluttony').
-pokemon_ability('mukalola', 'power of alchemy').
-pokemon_ability('shellder', 'shell armor').
-pokemon_ability('shellder', 'skill link').
+pokemon_ability('mukalola', 'powerof alchemy').
+pokemon_ability('shellder', 'shellarmor').
+pokemon_ability('shellder', 'skilllink').
 pokemon_ability('shellder', 'overcoat').
-pokemon_ability('cloyster', 'shell armor').
-pokemon_ability('cloyster', 'skill link').
+pokemon_ability('cloyster', 'shellarmor').
+pokemon_ability('cloyster', 'skilllink').
 pokemon_ability('cloyster', 'overcoat').
 pokemon_ability('gastly', 'levitate').
 pokemon_ability('haunter', 'levitate').
-pokemon_ability('gengar', 'cursed body').
-pokemon_ability('gengarmega', 'shadow tag').
-pokemon_ability('gengargmax', 'cursed body').
-pokemon_ability('onix', 'rock head').
+pokemon_ability('gengar', 'cursedbody').
+pokemon_ability('gengarmega', 'shadowtag').
+pokemon_ability('gengargmax', 'cursedbody').
+pokemon_ability('onix', 'rockhead').
 pokemon_ability('onix', 'sturdy').
-pokemon_ability('onix', 'weak armor').
+pokemon_ability('onix', 'weakarmor').
 pokemon_ability('drowzee', 'insomnia').
 pokemon_ability('drowzee', 'forewarn').
-pokemon_ability('drowzee', 'inner focus').
+pokemon_ability('drowzee', 'innerfocus').
 pokemon_ability('hypno', 'insomnia').
 pokemon_ability('hypno', 'forewarn').
-pokemon_ability('hypno', 'inner focus').
-pokemon_ability('krabby', 'hyper cutter').
-pokemon_ability('krabby', 'shell armor').
-pokemon_ability('krabby', 'sheer force').
-pokemon_ability('kingler', 'hyper cutter').
-pokemon_ability('kingler', 'shell armor').
-pokemon_ability('kingler', 'sheer force').
-pokemon_ability('kinglergmax', 'hyper cutter').
-pokemon_ability('kinglergmax', 'shell armor').
-pokemon_ability('kinglergmax', 'sheer force').
+pokemon_ability('hypno', 'innerfocus').
+pokemon_ability('krabby', 'hypercutter').
+pokemon_ability('krabby', 'shellarmor').
+pokemon_ability('krabby', 'sheerforce').
+pokemon_ability('kingler', 'hypercutter').
+pokemon_ability('kingler', 'shellarmor').
+pokemon_ability('kingler', 'sheerforce').
+pokemon_ability('kinglergmax', 'hypercutter').
+pokemon_ability('kinglergmax', 'shellarmor').
+pokemon_ability('kinglergmax', 'sheerforce').
 pokemon_ability('voltorb', 'soundproof').
 pokemon_ability('voltorb', 'static').
 pokemon_ability('voltorb', 'aftermath').
@@ -4197,168 +4197,168 @@ pokemon_ability('exeggutor', 'chlorophyll').
 pokemon_ability('exeggutor', 'harvest').
 pokemon_ability('exeggutoralola', 'frisk').
 pokemon_ability('exeggutoralola', 'harvest').
-pokemon_ability('cubone', 'rock head').
-pokemon_ability('cubone', 'lightning rod').
-pokemon_ability('cubone', 'battle armor').
-pokemon_ability('marowak', 'rock head').
-pokemon_ability('marowak', 'lightning rod').
-pokemon_ability('marowak', 'battle armor').
-pokemon_ability('marowakalola', 'cursed body').
-pokemon_ability('marowakalola', 'lightning rod').
-pokemon_ability('marowakalola', 'rock head').
-pokemon_ability('marowakalolatotem', 'rock head').
+pokemon_ability('cubone', 'rockhead').
+pokemon_ability('cubone', 'lightningrod').
+pokemon_ability('cubone', 'battlearmor').
+pokemon_ability('marowak', 'rockhead').
+pokemon_ability('marowak', 'lightningrod').
+pokemon_ability('marowak', 'battlearmor').
+pokemon_ability('marowakalola', 'cursedbody').
+pokemon_ability('marowakalola', 'lightningrod').
+pokemon_ability('marowakalola', 'rockhead').
+pokemon_ability('marowakalolatotem', 'rockhead').
 pokemon_ability('hitmonlee', 'limber').
 pokemon_ability('hitmonlee', 'reckless').
 pokemon_ability('hitmonlee', 'unburden').
-pokemon_ability('hitmonchan', 'keen eye').
-pokemon_ability('hitmonchan', 'iron fist').
-pokemon_ability('hitmonchan', 'inner focus').
-pokemon_ability('lickitung', 'own tempo').
+pokemon_ability('hitmonchan', 'keeneye').
+pokemon_ability('hitmonchan', 'ironfist').
+pokemon_ability('hitmonchan', 'innerfocus').
+pokemon_ability('lickitung', 'owntempo').
 pokemon_ability('lickitung', 'oblivious').
-pokemon_ability('lickitung', 'cloud nine').
+pokemon_ability('lickitung', 'cloudnine').
 pokemon_ability('koffing', 'levitate').
-pokemon_ability('koffing', 'neutralizing gas').
+pokemon_ability('koffing', 'neutralizinggas').
 pokemon_ability('koffing', 'stench').
 pokemon_ability('weezing', 'levitate').
-pokemon_ability('weezing', 'neutralizing gas').
+pokemon_ability('weezing', 'neutralizinggas').
 pokemon_ability('weezing', 'stench').
 pokemon_ability('weezinggalar', 'levitate').
-pokemon_ability('weezinggalar', 'neutralizing gas').
-pokemon_ability('weezinggalar', 'misty surge').
-pokemon_ability('rhyhorn', 'lightning rod').
-pokemon_ability('rhyhorn', 'rock head').
+pokemon_ability('weezinggalar', 'neutralizinggas').
+pokemon_ability('weezinggalar', 'mistysurge').
+pokemon_ability('rhyhorn', 'lightningrod').
+pokemon_ability('rhyhorn', 'rockhead').
 pokemon_ability('rhyhorn', 'reckless').
-pokemon_ability('rhydon', 'lightning rod').
-pokemon_ability('rhydon', 'rock head').
+pokemon_ability('rhydon', 'lightningrod').
+pokemon_ability('rhydon', 'rockhead').
 pokemon_ability('rhydon', 'reckless').
-pokemon_ability('chansey', 'natural cure').
-pokemon_ability('chansey', 'serene grace').
+pokemon_ability('chansey', 'naturalcure').
+pokemon_ability('chansey', 'serenegrace').
 pokemon_ability('chansey', 'healer').
 pokemon_ability('tangela', 'chlorophyll').
-pokemon_ability('tangela', 'leaf guard').
+pokemon_ability('tangela', 'leafguard').
 pokemon_ability('tangela', 'regenerator').
-pokemon_ability('kangaskhan', 'early bird').
+pokemon_ability('kangaskhan', 'earlybird').
 pokemon_ability('kangaskhan', 'scrappy').
-pokemon_ability('kangaskhan', 'inner focus').
-pokemon_ability('kangaskhanmega', 'parental bond').
-pokemon_ability('horsea', 'swift swim').
+pokemon_ability('kangaskhan', 'innerfocus').
+pokemon_ability('kangaskhanmega', 'parentalbond').
+pokemon_ability('horsea', 'swiftswim').
 pokemon_ability('horsea', 'sniper').
 pokemon_ability('horsea', 'damp').
-pokemon_ability('seadra', 'poison point').
+pokemon_ability('seadra', 'poisonpoint').
 pokemon_ability('seadra', 'sniper').
 pokemon_ability('seadra', 'damp').
-pokemon_ability('goldeen', 'swift swim').
-pokemon_ability('goldeen', 'water veil').
-pokemon_ability('goldeen', 'lightning rod').
-pokemon_ability('seaking', 'swift swim').
-pokemon_ability('seaking', 'water veil').
-pokemon_ability('seaking', 'lightning rod').
+pokemon_ability('goldeen', 'swiftswim').
+pokemon_ability('goldeen', 'waterveil').
+pokemon_ability('goldeen', 'lightningrod').
+pokemon_ability('seaking', 'swiftswim').
+pokemon_ability('seaking', 'waterveil').
+pokemon_ability('seaking', 'lightningrod').
 pokemon_ability('staryu', 'illuminate').
-pokemon_ability('staryu', 'natural cure').
+pokemon_ability('staryu', 'naturalcure').
 pokemon_ability('staryu', 'analytic').
 pokemon_ability('starmie', 'illuminate').
-pokemon_ability('starmie', 'natural cure').
+pokemon_ability('starmie', 'naturalcure').
 pokemon_ability('starmie', 'analytic').
 pokemon_ability('starmiemega', '').
 pokemon_ability('mrmime', 'soundproof').
 pokemon_ability('mrmime', 'filter').
 pokemon_ability('mrmime', 'technician').
-pokemon_ability('mrmimegalar', 'vital spirit').
-pokemon_ability('mrmimegalar', 'screen cleaner').
-pokemon_ability('mrmimegalar', 'ice body').
+pokemon_ability('mrmimegalar', 'vitalspirit').
+pokemon_ability('mrmimegalar', 'screencleaner').
+pokemon_ability('mrmimegalar', 'icebody').
 pokemon_ability('scyther', 'swarm').
 pokemon_ability('scyther', 'technician').
 pokemon_ability('scyther', 'steadfast').
 pokemon_ability('jynx', 'oblivious').
 pokemon_ability('jynx', 'forewarn').
-pokemon_ability('jynx', 'dry skin').
+pokemon_ability('jynx', 'dryskin').
 pokemon_ability('electabuzz', 'static').
-pokemon_ability('electabuzz', 'vital spirit').
-pokemon_ability('magmar', 'flame body').
-pokemon_ability('magmar', 'vital spirit').
-pokemon_ability('pinsir', 'hyper cutter').
-pokemon_ability('pinsir', 'mold breaker').
+pokemon_ability('electabuzz', 'vitalspirit').
+pokemon_ability('magmar', 'flamebody').
+pokemon_ability('magmar', 'vitalspirit').
+pokemon_ability('pinsir', 'hypercutter').
+pokemon_ability('pinsir', 'moldbreaker').
 pokemon_ability('pinsir', 'moxie').
 pokemon_ability('pinsirmega', 'aerilate').
 pokemon_ability('tauros', 'intimidate').
-pokemon_ability('tauros', 'anger point').
-pokemon_ability('tauros', 'sheer force').
+pokemon_ability('tauros', 'angerpoint').
+pokemon_ability('tauros', 'sheerforce').
 pokemon_ability('taurospaldeacombat', 'intimidate').
-pokemon_ability('taurospaldeacombat', 'anger point').
-pokemon_ability('taurospaldeacombat', 'cud chew').
+pokemon_ability('taurospaldeacombat', 'angerpoint').
+pokemon_ability('taurospaldeacombat', 'cudchew').
 pokemon_ability('taurospaldeablaze', 'intimidate').
-pokemon_ability('taurospaldeablaze', 'anger point').
-pokemon_ability('taurospaldeablaze', 'cud chew').
+pokemon_ability('taurospaldeablaze', 'angerpoint').
+pokemon_ability('taurospaldeablaze', 'cudchew').
 pokemon_ability('taurospaldeaaqua', 'intimidate').
-pokemon_ability('taurospaldeaaqua', 'anger point').
-pokemon_ability('taurospaldeaaqua', 'cud chew').
-pokemon_ability('magikarp', 'swift swim').
+pokemon_ability('taurospaldeaaqua', 'angerpoint').
+pokemon_ability('taurospaldeaaqua', 'cudchew').
+pokemon_ability('magikarp', 'swiftswim').
 pokemon_ability('magikarp', 'rattled').
 pokemon_ability('gyarados', 'intimidate').
 pokemon_ability('gyarados', 'moxie').
-pokemon_ability('gyaradosmega', 'mold breaker').
-pokemon_ability('lapras', 'water absorb').
-pokemon_ability('lapras', 'shell armor').
+pokemon_ability('gyaradosmega', 'moldbreaker').
+pokemon_ability('lapras', 'waterabsorb').
+pokemon_ability('lapras', 'shellarmor').
 pokemon_ability('lapras', 'hydration').
-pokemon_ability('laprasgmax', 'water absorb').
-pokemon_ability('laprasgmax', 'shell armor').
+pokemon_ability('laprasgmax', 'waterabsorb').
+pokemon_ability('laprasgmax', 'shellarmor').
 pokemon_ability('laprasgmax', 'hydration').
 pokemon_ability('ditto', 'limber').
 pokemon_ability('ditto', 'imposter').
-pokemon_ability('eevee', 'run away').
+pokemon_ability('eevee', 'runaway').
 pokemon_ability('eevee', 'adaptability').
 pokemon_ability('eevee', 'anticipation').
-pokemon_ability('eeveestarter', 'run away').
+pokemon_ability('eeveestarter', 'runaway').
 pokemon_ability('eeveestarter', 'adaptability').
 pokemon_ability('eeveestarter', 'anticipation').
-pokemon_ability('eeveegmax', 'run away').
+pokemon_ability('eeveegmax', 'runaway').
 pokemon_ability('eeveegmax', 'adaptability').
 pokemon_ability('eeveegmax', 'anticipation').
-pokemon_ability('vaporeon', 'water absorb').
+pokemon_ability('vaporeon', 'waterabsorb').
 pokemon_ability('vaporeon', 'hydration').
-pokemon_ability('jolteon', 'volt absorb').
-pokemon_ability('jolteon', 'quick feet').
-pokemon_ability('flareon', 'flash fire').
+pokemon_ability('jolteon', 'voltabsorb').
+pokemon_ability('jolteon', 'quickfeet').
+pokemon_ability('flareon', 'flashfire').
 pokemon_ability('flareon', 'guts').
 pokemon_ability('porygon', 'trace').
 pokemon_ability('porygon', 'download').
 pokemon_ability('porygon', 'analytic').
-pokemon_ability('omanyte', 'swift swim').
-pokemon_ability('omanyte', 'shell armor').
-pokemon_ability('omanyte', 'weak armor').
-pokemon_ability('omastar', 'swift swim').
-pokemon_ability('omastar', 'shell armor').
-pokemon_ability('omastar', 'weak armor').
-pokemon_ability('kabuto', 'swift swim').
-pokemon_ability('kabuto', 'battle armor').
-pokemon_ability('kabuto', 'weak armor').
-pokemon_ability('kabutops', 'swift swim').
-pokemon_ability('kabutops', 'battle armor').
-pokemon_ability('kabutops', 'weak armor').
-pokemon_ability('aerodactyl', 'rock head').
+pokemon_ability('omanyte', 'swiftswim').
+pokemon_ability('omanyte', 'shellarmor').
+pokemon_ability('omanyte', 'weakarmor').
+pokemon_ability('omastar', 'swiftswim').
+pokemon_ability('omastar', 'shellarmor').
+pokemon_ability('omastar', 'weakarmor').
+pokemon_ability('kabuto', 'swiftswim').
+pokemon_ability('kabuto', 'battlearmor').
+pokemon_ability('kabuto', 'weakarmor').
+pokemon_ability('kabutops', 'swiftswim').
+pokemon_ability('kabutops', 'battlearmor').
+pokemon_ability('kabutops', 'weakarmor').
+pokemon_ability('aerodactyl', 'rockhead').
 pokemon_ability('aerodactyl', 'pressure').
 pokemon_ability('aerodactyl', 'unnerve').
-pokemon_ability('aerodactylmega', 'tough claws').
+pokemon_ability('aerodactylmega', 'toughclaws').
 pokemon_ability('snorlax', 'immunity').
-pokemon_ability('snorlax', 'thick fat').
+pokemon_ability('snorlax', 'thickfat').
 pokemon_ability('snorlax', 'gluttony').
 pokemon_ability('snorlaxgmax', 'immunity').
-pokemon_ability('snorlaxgmax', 'thick fat').
+pokemon_ability('snorlaxgmax', 'thickfat').
 pokemon_ability('snorlaxgmax', 'gluttony').
 pokemon_ability('articuno', 'pressure').
-pokemon_ability('articuno', 'snow cloak').
+pokemon_ability('articuno', 'snowcloak').
 pokemon_ability('articunogalar', 'competitive').
 pokemon_ability('zapdos', 'pressure').
 pokemon_ability('zapdos', 'static').
 pokemon_ability('zapdosgalar', 'defiant').
 pokemon_ability('moltres', 'pressure').
-pokemon_ability('moltres', 'flame body').
+pokemon_ability('moltres', 'flamebody').
 pokemon_ability('moltresgalar', 'berserk').
-pokemon_ability('dratini', 'shed skin').
-pokemon_ability('dratini', 'marvel scale').
-pokemon_ability('dragonair', 'shed skin').
-pokemon_ability('dragonair', 'marvel scale').
-pokemon_ability('dragonite', 'inner focus').
+pokemon_ability('dratini', 'shedskin').
+pokemon_ability('dratini', 'marvelscale').
+pokemon_ability('dragonair', 'shedskin').
+pokemon_ability('dragonair', 'marvelscale').
+pokemon_ability('dragonite', 'innerfocus').
 pokemon_ability('dragonite', 'multiscale').
 pokemon_ability('dragonitemega', '').
 pokemon_ability('mewtwo', 'pressure').
@@ -4367,180 +4367,180 @@ pokemon_ability('mewtwomegax', 'steadfast').
 pokemon_ability('mewtwomegay', 'insomnia').
 pokemon_ability('mew', 'synchronize').
 pokemon_ability('chikorita', 'overgrow').
-pokemon_ability('chikorita', 'leaf guard').
+pokemon_ability('chikorita', 'leafguard').
 pokemon_ability('bayleef', 'overgrow').
-pokemon_ability('bayleef', 'leaf guard').
+pokemon_ability('bayleef', 'leafguard').
 pokemon_ability('meganium', 'overgrow').
-pokemon_ability('meganium', 'leaf guard').
+pokemon_ability('meganium', 'leafguard').
 pokemon_ability('meganiummega', '').
 pokemon_ability('cyndaquil', 'blaze').
-pokemon_ability('cyndaquil', 'flash fire').
+pokemon_ability('cyndaquil', 'flashfire').
 pokemon_ability('quilava', 'blaze').
-pokemon_ability('quilava', 'flash fire').
+pokemon_ability('quilava', 'flashfire').
 pokemon_ability('typhlosion', 'blaze').
-pokemon_ability('typhlosion', 'flash fire').
+pokemon_ability('typhlosion', 'flashfire').
 pokemon_ability('typhlosionhisui', 'blaze').
 pokemon_ability('typhlosionhisui', 'frisk').
 pokemon_ability('totodile', 'torrent').
-pokemon_ability('totodile', 'sheer force').
+pokemon_ability('totodile', 'sheerforce').
 pokemon_ability('croconaw', 'torrent').
-pokemon_ability('croconaw', 'sheer force').
+pokemon_ability('croconaw', 'sheerforce').
 pokemon_ability('feraligatr', 'torrent').
-pokemon_ability('feraligatr', 'sheer force').
+pokemon_ability('feraligatr', 'sheerforce').
 pokemon_ability('feraligatrmega', '').
-pokemon_ability('sentret', 'run away').
-pokemon_ability('sentret', 'keen eye').
+pokemon_ability('sentret', 'runaway').
+pokemon_ability('sentret', 'keeneye').
 pokemon_ability('sentret', 'frisk').
-pokemon_ability('furret', 'run away').
-pokemon_ability('furret', 'keen eye').
+pokemon_ability('furret', 'runaway').
+pokemon_ability('furret', 'keeneye').
 pokemon_ability('furret', 'frisk').
 pokemon_ability('hoothoot', 'insomnia').
-pokemon_ability('hoothoot', 'keen eye').
-pokemon_ability('hoothoot', 'tinted lens').
+pokemon_ability('hoothoot', 'keeneye').
+pokemon_ability('hoothoot', 'tintedlens').
 pokemon_ability('noctowl', 'insomnia').
-pokemon_ability('noctowl', 'keen eye').
-pokemon_ability('noctowl', 'tinted lens').
+pokemon_ability('noctowl', 'keeneye').
+pokemon_ability('noctowl', 'tintedlens').
 pokemon_ability('ledyba', 'swarm').
-pokemon_ability('ledyba', 'early bird').
+pokemon_ability('ledyba', 'earlybird').
 pokemon_ability('ledyba', 'rattled').
 pokemon_ability('ledian', 'swarm').
-pokemon_ability('ledian', 'early bird').
-pokemon_ability('ledian', 'iron fist').
+pokemon_ability('ledian', 'earlybird').
+pokemon_ability('ledian', 'ironfist').
 pokemon_ability('spinarak', 'swarm').
 pokemon_ability('spinarak', 'insomnia').
 pokemon_ability('spinarak', 'sniper').
 pokemon_ability('ariados', 'swarm').
 pokemon_ability('ariados', 'insomnia').
 pokemon_ability('ariados', 'sniper').
-pokemon_ability('crobat', 'inner focus').
+pokemon_ability('crobat', 'innerfocus').
 pokemon_ability('crobat', 'infiltrator').
-pokemon_ability('chinchou', 'volt absorb').
+pokemon_ability('chinchou', 'voltabsorb').
 pokemon_ability('chinchou', 'illuminate').
-pokemon_ability('chinchou', 'water absorb').
-pokemon_ability('lanturn', 'volt absorb').
+pokemon_ability('chinchou', 'waterabsorb').
+pokemon_ability('lanturn', 'voltabsorb').
 pokemon_ability('lanturn', 'illuminate').
-pokemon_ability('lanturn', 'water absorb').
+pokemon_ability('lanturn', 'waterabsorb').
 pokemon_ability('pichu', 'static').
-pokemon_ability('pichu', 'lightning rod').
+pokemon_ability('pichu', 'lightningrod').
 pokemon_ability('pichuspikyeared', 'static').
-pokemon_ability('cleffa', 'cute charm').
-pokemon_ability('cleffa', 'magic guard').
-pokemon_ability('cleffa', 'friend guard').
-pokemon_ability('igglybuff', 'cute charm').
+pokemon_ability('cleffa', 'cutecharm').
+pokemon_ability('cleffa', 'magicguard').
+pokemon_ability('cleffa', 'friendguard').
+pokemon_ability('igglybuff', 'cutecharm').
 pokemon_ability('igglybuff', 'competitive').
-pokemon_ability('igglybuff', 'friend guard').
+pokemon_ability('igglybuff', 'friendguard').
 pokemon_ability('togepi', 'hustle').
-pokemon_ability('togepi', 'serene grace').
-pokemon_ability('togepi', 'super luck').
+pokemon_ability('togepi', 'serenegrace').
+pokemon_ability('togepi', 'superluck').
 pokemon_ability('togetic', 'hustle').
-pokemon_ability('togetic', 'serene grace').
-pokemon_ability('togetic', 'super luck').
+pokemon_ability('togetic', 'serenegrace').
+pokemon_ability('togetic', 'superluck').
 pokemon_ability('natu', 'synchronize').
-pokemon_ability('natu', 'early bird').
-pokemon_ability('natu', 'magic bounce').
+pokemon_ability('natu', 'earlybird').
+pokemon_ability('natu', 'magicbounce').
 pokemon_ability('xatu', 'synchronize').
-pokemon_ability('xatu', 'early bird').
-pokemon_ability('xatu', 'magic bounce').
+pokemon_ability('xatu', 'earlybird').
+pokemon_ability('xatu', 'magicbounce').
 pokemon_ability('mareep', 'static').
 pokemon_ability('mareep', 'plus').
 pokemon_ability('flaaffy', 'static').
 pokemon_ability('flaaffy', 'plus').
 pokemon_ability('ampharos', 'static').
 pokemon_ability('ampharos', 'plus').
-pokemon_ability('ampharosmega', 'mold breaker').
+pokemon_ability('ampharosmega', 'moldbreaker').
 pokemon_ability('bellossom', 'chlorophyll').
 pokemon_ability('bellossom', 'healer').
-pokemon_ability('marill', 'thick fat').
-pokemon_ability('marill', 'huge power').
-pokemon_ability('marill', 'sap sipper').
-pokemon_ability('azumarill', 'thick fat').
-pokemon_ability('azumarill', 'huge power').
-pokemon_ability('azumarill', 'sap sipper').
+pokemon_ability('marill', 'thickfat').
+pokemon_ability('marill', 'hugepower').
+pokemon_ability('marill', 'sapsipper').
+pokemon_ability('azumarill', 'thickfat').
+pokemon_ability('azumarill', 'hugepower').
+pokemon_ability('azumarill', 'sapsipper').
 pokemon_ability('sudowoodo', 'sturdy').
-pokemon_ability('sudowoodo', 'rock head').
+pokemon_ability('sudowoodo', 'rockhead').
 pokemon_ability('sudowoodo', 'rattled').
-pokemon_ability('politoed', 'water absorb').
+pokemon_ability('politoed', 'waterabsorb').
 pokemon_ability('politoed', 'damp').
 pokemon_ability('politoed', 'drizzle').
 pokemon_ability('hoppip', 'chlorophyll').
-pokemon_ability('hoppip', 'leaf guard').
+pokemon_ability('hoppip', 'leafguard').
 pokemon_ability('hoppip', 'infiltrator').
 pokemon_ability('skiploom', 'chlorophyll').
-pokemon_ability('skiploom', 'leaf guard').
+pokemon_ability('skiploom', 'leafguard').
 pokemon_ability('skiploom', 'infiltrator').
 pokemon_ability('jumpluff', 'chlorophyll').
-pokemon_ability('jumpluff', 'leaf guard').
+pokemon_ability('jumpluff', 'leafguard').
 pokemon_ability('jumpluff', 'infiltrator').
-pokemon_ability('aipom', 'run away').
+pokemon_ability('aipom', 'runaway').
 pokemon_ability('aipom', 'pickup').
-pokemon_ability('aipom', 'skill link').
+pokemon_ability('aipom', 'skilllink').
 pokemon_ability('sunkern', 'chlorophyll').
-pokemon_ability('sunkern', 'solar power').
-pokemon_ability('sunkern', 'early bird').
+pokemon_ability('sunkern', 'solarpower').
+pokemon_ability('sunkern', 'earlybird').
 pokemon_ability('sunflora', 'chlorophyll').
-pokemon_ability('sunflora', 'solar power').
-pokemon_ability('sunflora', 'early bird').
-pokemon_ability('yanma', 'speed boost').
-pokemon_ability('yanma', 'compound eyes').
+pokemon_ability('sunflora', 'solarpower').
+pokemon_ability('sunflora', 'earlybird').
+pokemon_ability('yanma', 'speedboost').
+pokemon_ability('yanma', 'compoundeyes').
 pokemon_ability('yanma', 'frisk').
 pokemon_ability('wooper', 'damp').
-pokemon_ability('wooper', 'water absorb').
+pokemon_ability('wooper', 'waterabsorb').
 pokemon_ability('wooper', 'unaware').
-pokemon_ability('wooperpaldea', 'poison point').
-pokemon_ability('wooperpaldea', 'water absorb').
+pokemon_ability('wooperpaldea', 'poisonpoint').
+pokemon_ability('wooperpaldea', 'waterabsorb').
 pokemon_ability('wooperpaldea', 'unaware').
 pokemon_ability('quagsire', 'damp').
-pokemon_ability('quagsire', 'water absorb').
+pokemon_ability('quagsire', 'waterabsorb').
 pokemon_ability('quagsire', 'unaware').
 pokemon_ability('espeon', 'synchronize').
-pokemon_ability('espeon', 'magic bounce').
+pokemon_ability('espeon', 'magicbounce').
 pokemon_ability('umbreon', 'synchronize').
-pokemon_ability('umbreon', 'inner focus').
+pokemon_ability('umbreon', 'innerfocus').
 pokemon_ability('murkrow', 'insomnia').
-pokemon_ability('murkrow', 'super luck').
+pokemon_ability('murkrow', 'superluck').
 pokemon_ability('murkrow', 'prankster').
 pokemon_ability('slowking', 'oblivious').
-pokemon_ability('slowking', 'own tempo').
+pokemon_ability('slowking', 'owntempo').
 pokemon_ability('slowking', 'regenerator').
-pokemon_ability('slowkinggalar', 'curious medicine').
-pokemon_ability('slowkinggalar', 'own tempo').
+pokemon_ability('slowkinggalar', 'curiousmedicine').
+pokemon_ability('slowkinggalar', 'owntempo').
 pokemon_ability('slowkinggalar', 'regenerator').
 pokemon_ability('misdreavus', 'levitate').
 pokemon_ability('unown', 'levitate').
-pokemon_ability('wobbuffet', 'shadow tag').
+pokemon_ability('wobbuffet', 'shadowtag').
 pokemon_ability('wobbuffet', 'telepathy').
-pokemon_ability('girafarig', 'inner focus').
-pokemon_ability('girafarig', 'early bird').
-pokemon_ability('girafarig', 'sap sipper').
+pokemon_ability('girafarig', 'innerfocus').
+pokemon_ability('girafarig', 'earlybird').
+pokemon_ability('girafarig', 'sapsipper').
 pokemon_ability('pineco', 'sturdy').
 pokemon_ability('pineco', 'overcoat').
 pokemon_ability('forretress', 'sturdy').
 pokemon_ability('forretress', 'overcoat').
-pokemon_ability('dunsparce', 'serene grace').
-pokemon_ability('dunsparce', 'run away').
+pokemon_ability('dunsparce', 'serenegrace').
+pokemon_ability('dunsparce', 'runaway').
 pokemon_ability('dunsparce', 'rattled').
-pokemon_ability('gligar', 'hyper cutter').
-pokemon_ability('gligar', 'sand veil').
+pokemon_ability('gligar', 'hypercutter').
+pokemon_ability('gligar', 'sandveil').
 pokemon_ability('gligar', 'immunity').
-pokemon_ability('steelix', 'rock head').
+pokemon_ability('steelix', 'rockhead').
 pokemon_ability('steelix', 'sturdy').
-pokemon_ability('steelix', 'sheer force').
-pokemon_ability('steelixmega', 'sand force').
+pokemon_ability('steelix', 'sheerforce').
+pokemon_ability('steelixmega', 'sandforce').
 pokemon_ability('snubbull', 'intimidate').
-pokemon_ability('snubbull', 'run away').
+pokemon_ability('snubbull', 'runaway').
 pokemon_ability('snubbull', 'rattled').
 pokemon_ability('granbull', 'intimidate').
-pokemon_ability('granbull', 'quick feet').
+pokemon_ability('granbull', 'quickfeet').
 pokemon_ability('granbull', 'rattled').
-pokemon_ability('qwilfish', 'poison point').
-pokemon_ability('qwilfish', 'swift swim').
+pokemon_ability('qwilfish', 'poisonpoint').
+pokemon_ability('qwilfish', 'swiftswim').
 pokemon_ability('qwilfish', 'intimidate').
-pokemon_ability('qwilfishhisui', 'poison point').
-pokemon_ability('qwilfishhisui', 'swift swim').
+pokemon_ability('qwilfishhisui', 'poisonpoint').
+pokemon_ability('qwilfishhisui', 'swiftswim').
 pokemon_ability('qwilfishhisui', 'intimidate').
 pokemon_ability('scizor', 'swarm').
 pokemon_ability('scizor', 'technician').
-pokemon_ability('scizor', 'light metal').
+pokemon_ability('scizor', 'lightmetal').
 pokemon_ability('scizormega', 'technician').
 pokemon_ability('shuckle', 'sturdy').
 pokemon_ability('shuckle', 'gluttony').
@@ -4548,78 +4548,78 @@ pokemon_ability('shuckle', 'contrary').
 pokemon_ability('heracross', 'swarm').
 pokemon_ability('heracross', 'guts').
 pokemon_ability('heracross', 'moxie').
-pokemon_ability('heracrossmega', 'skill link').
-pokemon_ability('sneasel', 'inner focus').
-pokemon_ability('sneasel', 'keen eye').
+pokemon_ability('heracrossmega', 'skilllink').
+pokemon_ability('sneasel', 'innerfocus').
+pokemon_ability('sneasel', 'keeneye').
 pokemon_ability('sneasel', 'pickpocket').
-pokemon_ability('sneaselhisui', 'inner focus').
-pokemon_ability('sneaselhisui', 'keen eye').
+pokemon_ability('sneaselhisui', 'innerfocus').
+pokemon_ability('sneaselhisui', 'keeneye').
 pokemon_ability('sneaselhisui', 'pickpocket').
 pokemon_ability('teddiursa', 'pickup').
-pokemon_ability('teddiursa', 'quick feet').
-pokemon_ability('teddiursa', 'honey gather').
+pokemon_ability('teddiursa', 'quickfeet').
+pokemon_ability('teddiursa', 'honeygather').
 pokemon_ability('ursaring', 'guts').
-pokemon_ability('ursaring', 'quick feet').
+pokemon_ability('ursaring', 'quickfeet').
 pokemon_ability('ursaring', 'unnerve').
-pokemon_ability('slugma', 'magma armor').
-pokemon_ability('slugma', 'flame body').
-pokemon_ability('slugma', 'weak armor').
-pokemon_ability('magcargo', 'magma armor').
-pokemon_ability('magcargo', 'flame body').
-pokemon_ability('magcargo', 'weak armor').
+pokemon_ability('slugma', 'magmaarmor').
+pokemon_ability('slugma', 'flamebody').
+pokemon_ability('slugma', 'weakarmor').
+pokemon_ability('magcargo', 'magmaarmor').
+pokemon_ability('magcargo', 'flamebody').
+pokemon_ability('magcargo', 'weakarmor').
 pokemon_ability('swinub', 'oblivious').
-pokemon_ability('swinub', 'snow cloak').
-pokemon_ability('swinub', 'thick fat').
+pokemon_ability('swinub', 'snowcloak').
+pokemon_ability('swinub', 'thickfat').
 pokemon_ability('piloswine', 'oblivious').
-pokemon_ability('piloswine', 'snow cloak').
-pokemon_ability('piloswine', 'thick fat').
+pokemon_ability('piloswine', 'snowcloak').
+pokemon_ability('piloswine', 'thickfat').
 pokemon_ability('corsola', 'hustle').
-pokemon_ability('corsola', 'natural cure').
+pokemon_ability('corsola', 'naturalcure').
 pokemon_ability('corsola', 'regenerator').
-pokemon_ability('corsolagalar', 'weak armor').
-pokemon_ability('corsolagalar', 'cursed body').
+pokemon_ability('corsolagalar', 'weakarmor').
+pokemon_ability('corsolagalar', 'cursedbody').
 pokemon_ability('remoraid', 'hustle').
 pokemon_ability('remoraid', 'sniper').
 pokemon_ability('remoraid', 'moody').
-pokemon_ability('octillery', 'suction cups').
+pokemon_ability('octillery', 'suctioncups').
 pokemon_ability('octillery', 'sniper').
 pokemon_ability('octillery', 'moody').
-pokemon_ability('delibird', 'vital spirit').
+pokemon_ability('delibird', 'vitalspirit').
 pokemon_ability('delibird', 'hustle').
 pokemon_ability('delibird', 'insomnia').
-pokemon_ability('mantine', 'swift swim').
-pokemon_ability('mantine', 'water absorb').
-pokemon_ability('mantine', 'water veil').
-pokemon_ability('skarmory', 'keen eye').
+pokemon_ability('mantine', 'swiftswim').
+pokemon_ability('mantine', 'waterabsorb').
+pokemon_ability('mantine', 'waterveil').
+pokemon_ability('skarmory', 'keeneye').
 pokemon_ability('skarmory', 'sturdy').
-pokemon_ability('skarmory', 'weak armor').
+pokemon_ability('skarmory', 'weakarmor').
 pokemon_ability('skarmorymega', '').
-pokemon_ability('houndour', 'early bird').
-pokemon_ability('houndour', 'flash fire').
+pokemon_ability('houndour', 'earlybird').
+pokemon_ability('houndour', 'flashfire').
 pokemon_ability('houndour', 'unnerve').
-pokemon_ability('houndoom', 'early bird').
-pokemon_ability('houndoom', 'flash fire').
+pokemon_ability('houndoom', 'earlybird').
+pokemon_ability('houndoom', 'flashfire').
 pokemon_ability('houndoom', 'unnerve').
-pokemon_ability('houndoommega', 'solar power').
-pokemon_ability('kingdra', 'swift swim').
+pokemon_ability('houndoommega', 'solarpower').
+pokemon_ability('kingdra', 'swiftswim').
 pokemon_ability('kingdra', 'sniper').
 pokemon_ability('kingdra', 'damp').
 pokemon_ability('phanpy', 'pickup').
-pokemon_ability('phanpy', 'sand veil').
+pokemon_ability('phanpy', 'sandveil').
 pokemon_ability('donphan', 'sturdy').
-pokemon_ability('donphan', 'sand veil').
+pokemon_ability('donphan', 'sandveil').
 pokemon_ability('porygon2', 'trace').
 pokemon_ability('porygon2', 'download').
 pokemon_ability('porygon2', 'analytic').
 pokemon_ability('stantler', 'intimidate').
 pokemon_ability('stantler', 'frisk').
-pokemon_ability('stantler', 'sap sipper').
-pokemon_ability('smeargle', 'own tempo').
+pokemon_ability('stantler', 'sapsipper').
+pokemon_ability('smeargle', 'owntempo').
 pokemon_ability('smeargle', 'technician').
 pokemon_ability('smeargle', 'moody').
 pokemon_ability('tyrogue', 'guts').
 pokemon_ability('tyrogue', 'steadfast').
-pokemon_ability('tyrogue', 'vital spirit').
+pokemon_ability('tyrogue', 'vitalspirit').
 pokemon_ability('hitmontop', 'intimidate').
 pokemon_ability('hitmontop', 'technician').
 pokemon_ability('hitmontop', 'steadfast').
@@ -4627,107 +4627,107 @@ pokemon_ability('smoochum', 'oblivious').
 pokemon_ability('smoochum', 'forewarn').
 pokemon_ability('smoochum', 'hydration').
 pokemon_ability('elekid', 'static').
-pokemon_ability('elekid', 'vital spirit').
-pokemon_ability('magby', 'flame body').
-pokemon_ability('magby', 'vital spirit').
-pokemon_ability('miltank', 'thick fat').
+pokemon_ability('elekid', 'vitalspirit').
+pokemon_ability('magby', 'flamebody').
+pokemon_ability('magby', 'vitalspirit').
+pokemon_ability('miltank', 'thickfat').
 pokemon_ability('miltank', 'scrappy').
-pokemon_ability('miltank', 'sap sipper').
-pokemon_ability('blissey', 'natural cure').
-pokemon_ability('blissey', 'serene grace').
+pokemon_ability('miltank', 'sapsipper').
+pokemon_ability('blissey', 'naturalcure').
+pokemon_ability('blissey', 'serenegrace').
 pokemon_ability('blissey', 'healer').
 pokemon_ability('raikou', 'pressure').
-pokemon_ability('raikou', 'inner focus').
+pokemon_ability('raikou', 'innerfocus').
 pokemon_ability('entei', 'pressure').
-pokemon_ability('entei', 'inner focus').
+pokemon_ability('entei', 'innerfocus').
 pokemon_ability('suicune', 'pressure').
-pokemon_ability('suicune', 'inner focus').
+pokemon_ability('suicune', 'innerfocus').
 pokemon_ability('larvitar', 'guts').
-pokemon_ability('larvitar', 'sand veil').
-pokemon_ability('pupitar', 'shed skin').
-pokemon_ability('tyranitar', 'sand stream').
+pokemon_ability('larvitar', 'sandveil').
+pokemon_ability('pupitar', 'shedskin').
+pokemon_ability('tyranitar', 'sandstream').
 pokemon_ability('tyranitar', 'unnerve').
-pokemon_ability('tyranitarmega', 'sand stream').
+pokemon_ability('tyranitarmega', 'sandstream').
 pokemon_ability('lugia', 'pressure').
 pokemon_ability('lugia', 'multiscale').
 pokemon_ability('hooh', 'pressure').
 pokemon_ability('hooh', 'regenerator').
-pokemon_ability('celebi', 'natural cure').
+pokemon_ability('celebi', 'naturalcure').
 pokemon_ability('treecko', 'overgrow').
 pokemon_ability('treecko', 'unburden').
 pokemon_ability('grovyle', 'overgrow').
 pokemon_ability('grovyle', 'unburden').
 pokemon_ability('sceptile', 'overgrow').
 pokemon_ability('sceptile', 'unburden').
-pokemon_ability('sceptilemega', 'lightning rod').
+pokemon_ability('sceptilemega', 'lightningrod').
 pokemon_ability('torchic', 'blaze').
-pokemon_ability('torchic', 'speed boost').
+pokemon_ability('torchic', 'speedboost').
 pokemon_ability('combusken', 'blaze').
-pokemon_ability('combusken', 'speed boost').
+pokemon_ability('combusken', 'speedboost').
 pokemon_ability('blaziken', 'blaze').
-pokemon_ability('blaziken', 'speed boost').
-pokemon_ability('blazikenmega', 'speed boost').
+pokemon_ability('blaziken', 'speedboost').
+pokemon_ability('blazikenmega', 'speedboost').
 pokemon_ability('mudkip', 'torrent').
 pokemon_ability('mudkip', 'damp').
 pokemon_ability('marshtomp', 'torrent').
 pokemon_ability('marshtomp', 'damp').
 pokemon_ability('swampert', 'torrent').
 pokemon_ability('swampert', 'damp').
-pokemon_ability('swampertmega', 'swift swim').
-pokemon_ability('poochyena', 'run away').
-pokemon_ability('poochyena', 'quick feet').
+pokemon_ability('swampertmega', 'swiftswim').
+pokemon_ability('poochyena', 'runaway').
+pokemon_ability('poochyena', 'quickfeet').
 pokemon_ability('poochyena', 'rattled').
 pokemon_ability('mightyena', 'intimidate').
-pokemon_ability('mightyena', 'quick feet').
+pokemon_ability('mightyena', 'quickfeet').
 pokemon_ability('mightyena', 'moxie').
 pokemon_ability('zigzagoon', 'pickup').
 pokemon_ability('zigzagoon', 'gluttony').
-pokemon_ability('zigzagoon', 'quick feet').
+pokemon_ability('zigzagoon', 'quickfeet').
 pokemon_ability('zigzagoongalar', 'pickup').
 pokemon_ability('zigzagoongalar', 'gluttony').
-pokemon_ability('zigzagoongalar', 'quick feet').
+pokemon_ability('zigzagoongalar', 'quickfeet').
 pokemon_ability('linoone', 'pickup').
 pokemon_ability('linoone', 'gluttony').
-pokemon_ability('linoone', 'quick feet').
+pokemon_ability('linoone', 'quickfeet').
 pokemon_ability('linoonegalar', 'pickup').
 pokemon_ability('linoonegalar', 'gluttony').
-pokemon_ability('linoonegalar', 'quick feet').
-pokemon_ability('wurmple', 'shield dust').
-pokemon_ability('wurmple', 'run away').
-pokemon_ability('silcoon', 'shed skin').
+pokemon_ability('linoonegalar', 'quickfeet').
+pokemon_ability('wurmple', 'shielddust').
+pokemon_ability('wurmple', 'runaway').
+pokemon_ability('silcoon', 'shedskin').
 pokemon_ability('beautifly', 'swarm').
 pokemon_ability('beautifly', 'rivalry').
-pokemon_ability('cascoon', 'shed skin').
-pokemon_ability('dustox', 'shield dust').
-pokemon_ability('dustox', 'compound eyes').
-pokemon_ability('lotad', 'swift swim').
-pokemon_ability('lotad', 'rain dish').
-pokemon_ability('lotad', 'own tempo').
-pokemon_ability('lombre', 'swift swim').
-pokemon_ability('lombre', 'rain dish').
-pokemon_ability('lombre', 'own tempo').
-pokemon_ability('ludicolo', 'swift swim').
-pokemon_ability('ludicolo', 'rain dish').
-pokemon_ability('ludicolo', 'own tempo').
+pokemon_ability('cascoon', 'shedskin').
+pokemon_ability('dustox', 'shielddust').
+pokemon_ability('dustox', 'compoundeyes').
+pokemon_ability('lotad', 'swiftswim').
+pokemon_ability('lotad', 'raindish').
+pokemon_ability('lotad', 'owntempo').
+pokemon_ability('lombre', 'swiftswim').
+pokemon_ability('lombre', 'raindish').
+pokemon_ability('lombre', 'owntempo').
+pokemon_ability('ludicolo', 'swiftswim').
+pokemon_ability('ludicolo', 'raindish').
+pokemon_ability('ludicolo', 'owntempo').
 pokemon_ability('seedot', 'chlorophyll').
-pokemon_ability('seedot', 'early bird').
+pokemon_ability('seedot', 'earlybird').
 pokemon_ability('seedot', 'pickpocket').
 pokemon_ability('nuzleaf', 'chlorophyll').
-pokemon_ability('nuzleaf', 'early bird').
+pokemon_ability('nuzleaf', 'earlybird').
 pokemon_ability('nuzleaf', 'pickpocket').
 pokemon_ability('shiftry', 'chlorophyll').
-pokemon_ability('shiftry', 'wind rider').
+pokemon_ability('shiftry', 'windrider').
 pokemon_ability('shiftry', 'pickpocket').
 pokemon_ability('taillow', 'guts').
 pokemon_ability('taillow', 'scrappy').
 pokemon_ability('swellow', 'guts').
 pokemon_ability('swellow', 'scrappy').
-pokemon_ability('wingull', 'keen eye').
+pokemon_ability('wingull', 'keeneye').
 pokemon_ability('wingull', 'hydration').
-pokemon_ability('wingull', 'rain dish').
-pokemon_ability('pelipper', 'keen eye').
+pokemon_ability('wingull', 'raindish').
+pokemon_ability('pelipper', 'keeneye').
 pokemon_ability('pelipper', 'drizzle').
-pokemon_ability('pelipper', 'rain dish').
+pokemon_ability('pelipper', 'raindish').
 pokemon_ability('ralts', 'synchronize').
 pokemon_ability('ralts', 'trace').
 pokemon_ability('ralts', 'telepathy').
@@ -4738,144 +4738,144 @@ pokemon_ability('gardevoir', 'synchronize').
 pokemon_ability('gardevoir', 'trace').
 pokemon_ability('gardevoir', 'telepathy').
 pokemon_ability('gardevoirmega', 'pixilate').
-pokemon_ability('surskit', 'swift swim').
-pokemon_ability('surskit', 'rain dish').
+pokemon_ability('surskit', 'swiftswim').
+pokemon_ability('surskit', 'raindish').
 pokemon_ability('masquerain', 'intimidate').
 pokemon_ability('masquerain', 'unnerve').
-pokemon_ability('shroomish', 'effect spore').
-pokemon_ability('shroomish', 'poison heal').
-pokemon_ability('shroomish', 'quick feet').
-pokemon_ability('breloom', 'effect spore').
-pokemon_ability('breloom', 'poison heal').
+pokemon_ability('shroomish', 'effectspore').
+pokemon_ability('shroomish', 'poisonheal').
+pokemon_ability('shroomish', 'quickfeet').
+pokemon_ability('breloom', 'effectspore').
+pokemon_ability('breloom', 'poisonheal').
 pokemon_ability('breloom', 'technician').
 pokemon_ability('slakoth', 'truant').
-pokemon_ability('vigoroth', 'vital spirit').
+pokemon_ability('vigoroth', 'vitalspirit').
 pokemon_ability('slaking', 'truant').
-pokemon_ability('nincada', 'compound eyes').
-pokemon_ability('nincada', 'run away').
-pokemon_ability('ninjask', 'speed boost').
+pokemon_ability('nincada', 'compoundeyes').
+pokemon_ability('nincada', 'runaway').
+pokemon_ability('ninjask', 'speedboost').
 pokemon_ability('ninjask', 'infiltrator').
-pokemon_ability('shedinja', 'wonder guard').
+pokemon_ability('shedinja', 'wonderguard').
 pokemon_ability('whismur', 'soundproof').
 pokemon_ability('whismur', 'rattled').
 pokemon_ability('loudred', 'soundproof').
 pokemon_ability('loudred', 'scrappy').
 pokemon_ability('exploud', 'soundproof').
 pokemon_ability('exploud', 'scrappy').
-pokemon_ability('makuhita', 'thick fat').
+pokemon_ability('makuhita', 'thickfat').
 pokemon_ability('makuhita', 'guts').
-pokemon_ability('makuhita', 'sheer force').
-pokemon_ability('hariyama', 'thick fat').
+pokemon_ability('makuhita', 'sheerforce').
+pokemon_ability('hariyama', 'thickfat').
 pokemon_ability('hariyama', 'guts').
-pokemon_ability('hariyama', 'sheer force').
-pokemon_ability('azurill', 'thick fat').
-pokemon_ability('azurill', 'huge power').
-pokemon_ability('azurill', 'sap sipper').
+pokemon_ability('hariyama', 'sheerforce').
+pokemon_ability('azurill', 'thickfat').
+pokemon_ability('azurill', 'hugepower').
+pokemon_ability('azurill', 'sapsipper').
 pokemon_ability('nosepass', 'sturdy').
-pokemon_ability('nosepass', 'magnet pull').
-pokemon_ability('nosepass', 'sand force').
-pokemon_ability('skitty', 'cute charm').
+pokemon_ability('nosepass', 'magnetpull').
+pokemon_ability('nosepass', 'sandforce').
+pokemon_ability('skitty', 'cutecharm').
 pokemon_ability('skitty', 'normalize').
-pokemon_ability('skitty', 'wonder skin').
-pokemon_ability('delcatty', 'cute charm').
+pokemon_ability('skitty', 'wonderskin').
+pokemon_ability('delcatty', 'cutecharm').
 pokemon_ability('delcatty', 'normalize').
-pokemon_ability('delcatty', 'wonder skin').
-pokemon_ability('sableye', 'keen eye').
+pokemon_ability('delcatty', 'wonderskin').
+pokemon_ability('sableye', 'keeneye').
 pokemon_ability('sableye', 'stall').
 pokemon_ability('sableye', 'prankster').
-pokemon_ability('sableyemega', 'magic bounce').
-pokemon_ability('mawile', 'hyper cutter').
+pokemon_ability('sableyemega', 'magicbounce').
+pokemon_ability('mawile', 'hypercutter').
 pokemon_ability('mawile', 'intimidate').
-pokemon_ability('mawile', 'sheer force').
-pokemon_ability('mawilemega', 'huge power').
+pokemon_ability('mawile', 'sheerforce').
+pokemon_ability('mawilemega', 'hugepower').
 pokemon_ability('aron', 'sturdy').
-pokemon_ability('aron', 'rock head').
-pokemon_ability('aron', 'heavy metal').
+pokemon_ability('aron', 'rockhead').
+pokemon_ability('aron', 'heavymetal').
 pokemon_ability('lairon', 'sturdy').
-pokemon_ability('lairon', 'rock head').
-pokemon_ability('lairon', 'heavy metal').
+pokemon_ability('lairon', 'rockhead').
+pokemon_ability('lairon', 'heavymetal').
 pokemon_ability('aggron', 'sturdy').
-pokemon_ability('aggron', 'rock head').
-pokemon_ability('aggron', 'heavy metal').
+pokemon_ability('aggron', 'rockhead').
+pokemon_ability('aggron', 'heavymetal').
 pokemon_ability('aggronmega', 'filter').
-pokemon_ability('meditite', 'pure power').
+pokemon_ability('meditite', 'purepower').
 pokemon_ability('meditite', 'telepathy').
-pokemon_ability('medicham', 'pure power').
+pokemon_ability('medicham', 'purepower').
 pokemon_ability('medicham', 'telepathy').
-pokemon_ability('medichammega', 'pure power').
+pokemon_ability('medichammega', 'purepower').
 pokemon_ability('electrike', 'static').
-pokemon_ability('electrike', 'lightning rod').
+pokemon_ability('electrike', 'lightningrod').
 pokemon_ability('electrike', 'minus').
 pokemon_ability('manectric', 'static').
-pokemon_ability('manectric', 'lightning rod').
+pokemon_ability('manectric', 'lightningrod').
 pokemon_ability('manectric', 'minus').
 pokemon_ability('manectricmega', 'intimidate').
 pokemon_ability('plusle', 'plus').
-pokemon_ability('plusle', 'lightning rod').
+pokemon_ability('plusle', 'lightningrod').
 pokemon_ability('minun', 'minus').
-pokemon_ability('minun', 'volt absorb').
+pokemon_ability('minun', 'voltabsorb').
 pokemon_ability('volbeat', 'illuminate').
 pokemon_ability('volbeat', 'swarm').
 pokemon_ability('volbeat', 'prankster').
 pokemon_ability('illumise', 'oblivious').
-pokemon_ability('illumise', 'tinted lens').
+pokemon_ability('illumise', 'tintedlens').
 pokemon_ability('illumise', 'prankster').
-pokemon_ability('roselia', 'natural cure').
-pokemon_ability('roselia', 'poison point').
-pokemon_ability('roselia', 'leaf guard').
-pokemon_ability('gulpin', 'liquid ooze').
-pokemon_ability('gulpin', 'sticky hold').
+pokemon_ability('roselia', 'naturalcure').
+pokemon_ability('roselia', 'poisonpoint').
+pokemon_ability('roselia', 'leafguard').
+pokemon_ability('gulpin', 'liquidooze').
+pokemon_ability('gulpin', 'stickyhold').
 pokemon_ability('gulpin', 'gluttony').
-pokemon_ability('swalot', 'liquid ooze').
-pokemon_ability('swalot', 'sticky hold').
+pokemon_ability('swalot', 'liquidooze').
+pokemon_ability('swalot', 'stickyhold').
 pokemon_ability('swalot', 'gluttony').
-pokemon_ability('carvanha', 'rough skin').
-pokemon_ability('carvanha', 'speed boost').
-pokemon_ability('sharpedo', 'rough skin').
-pokemon_ability('sharpedo', 'speed boost').
-pokemon_ability('sharpedomega', 'strong jaw').
-pokemon_ability('wailmer', 'water veil').
+pokemon_ability('carvanha', 'roughskin').
+pokemon_ability('carvanha', 'speedboost').
+pokemon_ability('sharpedo', 'roughskin').
+pokemon_ability('sharpedo', 'speedboost').
+pokemon_ability('sharpedomega', 'strongjaw').
+pokemon_ability('wailmer', 'waterveil').
 pokemon_ability('wailmer', 'oblivious').
 pokemon_ability('wailmer', 'pressure').
-pokemon_ability('wailord', 'water veil').
+pokemon_ability('wailord', 'waterveil').
 pokemon_ability('wailord', 'oblivious').
 pokemon_ability('wailord', 'pressure').
 pokemon_ability('numel', 'oblivious').
 pokemon_ability('numel', 'simple').
-pokemon_ability('numel', 'own tempo').
-pokemon_ability('camerupt', 'magma armor').
-pokemon_ability('camerupt', 'solid rock').
-pokemon_ability('camerupt', 'anger point').
-pokemon_ability('cameruptmega', 'sheer force').
-pokemon_ability('torkoal', 'white smoke').
+pokemon_ability('numel', 'owntempo').
+pokemon_ability('camerupt', 'magmaarmor').
+pokemon_ability('camerupt', 'solidrock').
+pokemon_ability('camerupt', 'angerpoint').
+pokemon_ability('cameruptmega', 'sheerforce').
+pokemon_ability('torkoal', 'whitesmoke').
 pokemon_ability('torkoal', 'drought').
-pokemon_ability('torkoal', 'shell armor').
-pokemon_ability('spoink', 'thick fat').
-pokemon_ability('spoink', 'own tempo').
+pokemon_ability('torkoal', 'shellarmor').
+pokemon_ability('spoink', 'thickfat').
+pokemon_ability('spoink', 'owntempo').
 pokemon_ability('spoink', 'gluttony').
-pokemon_ability('grumpig', 'thick fat').
-pokemon_ability('grumpig', 'own tempo').
+pokemon_ability('grumpig', 'thickfat').
+pokemon_ability('grumpig', 'owntempo').
 pokemon_ability('grumpig', 'gluttony').
-pokemon_ability('spinda', 'own tempo').
-pokemon_ability('spinda', 'tangled feet').
+pokemon_ability('spinda', 'owntempo').
+pokemon_ability('spinda', 'tangledfeet').
 pokemon_ability('spinda', 'contrary').
-pokemon_ability('trapinch', 'hyper cutter').
-pokemon_ability('trapinch', 'arena trap').
-pokemon_ability('trapinch', 'sheer force').
+pokemon_ability('trapinch', 'hypercutter').
+pokemon_ability('trapinch', 'arenatrap').
+pokemon_ability('trapinch', 'sheerforce').
 pokemon_ability('vibrava', 'levitate').
 pokemon_ability('flygon', 'levitate').
-pokemon_ability('cacnea', 'sand veil').
-pokemon_ability('cacnea', 'water absorb').
-pokemon_ability('cacturne', 'sand veil').
-pokemon_ability('cacturne', 'water absorb').
-pokemon_ability('swablu', 'natural cure').
-pokemon_ability('swablu', 'cloud nine').
-pokemon_ability('altaria', 'natural cure').
-pokemon_ability('altaria', 'cloud nine').
+pokemon_ability('cacnea', 'sandveil').
+pokemon_ability('cacnea', 'waterabsorb').
+pokemon_ability('cacturne', 'sandveil').
+pokemon_ability('cacturne', 'waterabsorb').
+pokemon_ability('swablu', 'naturalcure').
+pokemon_ability('swablu', 'cloudnine').
+pokemon_ability('altaria', 'naturalcure').
+pokemon_ability('altaria', 'cloudnine').
 pokemon_ability('altariamega', 'pixilate').
 pokemon_ability('zangoose', 'immunity').
-pokemon_ability('zangoose', 'toxic boost').
-pokemon_ability('seviper', 'shed skin').
+pokemon_ability('zangoose', 'toxicboost').
+pokemon_ability('seviper', 'shedskin').
 pokemon_ability('seviper', 'infiltrator').
 pokemon_ability('lunatone', 'levitate').
 pokemon_ability('solrock', 'levitate').
@@ -4885,136 +4885,136 @@ pokemon_ability('barboach', 'hydration').
 pokemon_ability('whiscash', 'oblivious').
 pokemon_ability('whiscash', 'anticipation').
 pokemon_ability('whiscash', 'hydration').
-pokemon_ability('corphish', 'hyper cutter').
-pokemon_ability('corphish', 'shell armor').
+pokemon_ability('corphish', 'hypercutter').
+pokemon_ability('corphish', 'shellarmor').
 pokemon_ability('corphish', 'adaptability').
-pokemon_ability('crawdaunt', 'hyper cutter').
-pokemon_ability('crawdaunt', 'shell armor').
+pokemon_ability('crawdaunt', 'hypercutter').
+pokemon_ability('crawdaunt', 'shellarmor').
 pokemon_ability('crawdaunt', 'adaptability').
 pokemon_ability('baltoy', 'levitate').
 pokemon_ability('claydol', 'levitate').
-pokemon_ability('lileep', 'suction cups').
-pokemon_ability('lileep', 'storm drain').
-pokemon_ability('cradily', 'suction cups').
-pokemon_ability('cradily', 'storm drain').
-pokemon_ability('anorith', 'battle armor').
-pokemon_ability('anorith', 'swift swim').
-pokemon_ability('armaldo', 'battle armor').
-pokemon_ability('armaldo', 'swift swim').
-pokemon_ability('feebas', 'swift swim').
+pokemon_ability('lileep', 'suctioncups').
+pokemon_ability('lileep', 'stormdrain').
+pokemon_ability('cradily', 'suctioncups').
+pokemon_ability('cradily', 'stormdrain').
+pokemon_ability('anorith', 'battlearmor').
+pokemon_ability('anorith', 'swiftswim').
+pokemon_ability('armaldo', 'battlearmor').
+pokemon_ability('armaldo', 'swiftswim').
+pokemon_ability('feebas', 'swiftswim').
 pokemon_ability('feebas', 'oblivious').
 pokemon_ability('feebas', 'adaptability').
-pokemon_ability('milotic', 'marvel scale').
+pokemon_ability('milotic', 'marvelscale').
 pokemon_ability('milotic', 'competitive').
-pokemon_ability('milotic', 'cute charm').
+pokemon_ability('milotic', 'cutecharm').
 pokemon_ability('castform', 'forecast').
 pokemon_ability('castformsunny', 'forecast').
 pokemon_ability('castformrainy', 'forecast').
 pokemon_ability('castformsnowy', 'forecast').
-pokemon_ability('kecleon', 'color change').
+pokemon_ability('kecleon', 'colorchange').
 pokemon_ability('kecleon', 'protean').
 pokemon_ability('shuppet', 'insomnia').
 pokemon_ability('shuppet', 'frisk').
-pokemon_ability('shuppet', 'cursed body').
+pokemon_ability('shuppet', 'cursedbody').
 pokemon_ability('banette', 'insomnia').
 pokemon_ability('banette', 'frisk').
-pokemon_ability('banette', 'cursed body').
+pokemon_ability('banette', 'cursedbody').
 pokemon_ability('banettemega', 'prankster').
 pokemon_ability('duskull', 'levitate').
 pokemon_ability('duskull', 'frisk').
 pokemon_ability('dusclops', 'pressure').
 pokemon_ability('dusclops', 'frisk').
 pokemon_ability('tropius', 'chlorophyll').
-pokemon_ability('tropius', 'solar power').
+pokemon_ability('tropius', 'solarpower').
 pokemon_ability('tropius', 'harvest').
 pokemon_ability('chimecho', 'levitate').
 pokemon_ability('absol', 'pressure').
-pokemon_ability('absol', 'super luck').
+pokemon_ability('absol', 'superluck').
 pokemon_ability('absol', 'justified').
-pokemon_ability('absolmega', 'magic bounce').
-pokemon_ability('wynaut', 'shadow tag').
+pokemon_ability('absolmega', 'magicbounce').
+pokemon_ability('wynaut', 'shadowtag').
 pokemon_ability('wynaut', 'telepathy').
-pokemon_ability('snorunt', 'inner focus').
-pokemon_ability('snorunt', 'ice body').
+pokemon_ability('snorunt', 'innerfocus').
+pokemon_ability('snorunt', 'icebody').
 pokemon_ability('snorunt', 'moody').
-pokemon_ability('glalie', 'inner focus').
-pokemon_ability('glalie', 'ice body').
+pokemon_ability('glalie', 'innerfocus').
+pokemon_ability('glalie', 'icebody').
 pokemon_ability('glalie', 'moody').
 pokemon_ability('glaliemega', 'refrigerate').
-pokemon_ability('spheal', 'thick fat').
-pokemon_ability('spheal', 'ice body').
+pokemon_ability('spheal', 'thickfat').
+pokemon_ability('spheal', 'icebody').
 pokemon_ability('spheal', 'oblivious').
-pokemon_ability('sealeo', 'thick fat').
-pokemon_ability('sealeo', 'ice body').
+pokemon_ability('sealeo', 'thickfat').
+pokemon_ability('sealeo', 'icebody').
 pokemon_ability('sealeo', 'oblivious').
-pokemon_ability('walrein', 'thick fat').
-pokemon_ability('walrein', 'ice body').
+pokemon_ability('walrein', 'thickfat').
+pokemon_ability('walrein', 'icebody').
 pokemon_ability('walrein', 'oblivious').
-pokemon_ability('clamperl', 'shell armor').
+pokemon_ability('clamperl', 'shellarmor').
 pokemon_ability('clamperl', 'rattled').
-pokemon_ability('huntail', 'swift swim').
-pokemon_ability('huntail', 'water veil').
-pokemon_ability('gorebyss', 'swift swim').
+pokemon_ability('huntail', 'swiftswim').
+pokemon_ability('huntail', 'waterveil').
+pokemon_ability('gorebyss', 'swiftswim').
 pokemon_ability('gorebyss', 'hydration').
-pokemon_ability('relicanth', 'swift swim').
-pokemon_ability('relicanth', 'rock head').
+pokemon_ability('relicanth', 'swiftswim').
+pokemon_ability('relicanth', 'rockhead').
 pokemon_ability('relicanth', 'sturdy').
-pokemon_ability('luvdisc', 'swift swim').
+pokemon_ability('luvdisc', 'swiftswim').
 pokemon_ability('luvdisc', 'hydration').
-pokemon_ability('bagon', 'rock head').
-pokemon_ability('bagon', 'sheer force').
-pokemon_ability('shelgon', 'rock head').
+pokemon_ability('bagon', 'rockhead').
+pokemon_ability('bagon', 'sheerforce').
+pokemon_ability('shelgon', 'rockhead').
 pokemon_ability('shelgon', 'overcoat').
 pokemon_ability('salamence', 'intimidate').
 pokemon_ability('salamence', 'moxie').
 pokemon_ability('salamencemega', 'aerilate').
-pokemon_ability('beldum', 'clear body').
-pokemon_ability('beldum', 'light metal').
-pokemon_ability('metang', 'clear body').
-pokemon_ability('metang', 'light metal').
-pokemon_ability('metagross', 'clear body').
-pokemon_ability('metagross', 'light metal').
-pokemon_ability('metagrossmega', 'tough claws').
-pokemon_ability('regirock', 'clear body').
+pokemon_ability('beldum', 'clearbody').
+pokemon_ability('beldum', 'lightmetal').
+pokemon_ability('metang', 'clearbody').
+pokemon_ability('metang', 'lightmetal').
+pokemon_ability('metagross', 'clearbody').
+pokemon_ability('metagross', 'lightmetal').
+pokemon_ability('metagrossmega', 'toughclaws').
+pokemon_ability('regirock', 'clearbody').
 pokemon_ability('regirock', 'sturdy').
-pokemon_ability('regice', 'clear body').
-pokemon_ability('regice', 'ice body').
-pokemon_ability('registeel', 'clear body').
-pokemon_ability('registeel', 'light metal').
+pokemon_ability('regice', 'clearbody').
+pokemon_ability('regice', 'icebody').
+pokemon_ability('registeel', 'clearbody').
+pokemon_ability('registeel', 'lightmetal').
 pokemon_ability('latias', 'levitate').
 pokemon_ability('latiasmega', 'levitate').
 pokemon_ability('latios', 'levitate').
 pokemon_ability('latiosmega', 'levitate').
 pokemon_ability('kyogre', 'drizzle').
-pokemon_ability('kyogreprimal', 'primordial sea').
+pokemon_ability('kyogreprimal', 'primordialsea').
 pokemon_ability('groudon', 'drought').
-pokemon_ability('groudonprimal', 'desolate land').
-pokemon_ability('rayquaza', 'air lock').
-pokemon_ability('rayquazamega', 'delta stream').
-pokemon_ability('jirachi', 'serene grace').
+pokemon_ability('groudonprimal', 'desolateland').
+pokemon_ability('rayquaza', 'airlock').
+pokemon_ability('rayquazamega', 'deltastream').
+pokemon_ability('jirachi', 'serenegrace').
 pokemon_ability('deoxys', 'pressure').
 pokemon_ability('deoxysattack', 'pressure').
 pokemon_ability('deoxysdefense', 'pressure').
 pokemon_ability('deoxysspeed', 'pressure').
 pokemon_ability('turtwig', 'overgrow').
-pokemon_ability('turtwig', 'shell armor').
+pokemon_ability('turtwig', 'shellarmor').
 pokemon_ability('grotle', 'overgrow').
-pokemon_ability('grotle', 'shell armor').
+pokemon_ability('grotle', 'shellarmor').
 pokemon_ability('torterra', 'overgrow').
-pokemon_ability('torterra', 'shell armor').
+pokemon_ability('torterra', 'shellarmor').
 pokemon_ability('chimchar', 'blaze').
-pokemon_ability('chimchar', 'iron fist').
+pokemon_ability('chimchar', 'ironfist').
 pokemon_ability('monferno', 'blaze').
-pokemon_ability('monferno', 'iron fist').
+pokemon_ability('monferno', 'ironfist').
 pokemon_ability('infernape', 'blaze').
-pokemon_ability('infernape', 'iron fist').
+pokemon_ability('infernape', 'ironfist').
 pokemon_ability('piplup', 'torrent').
 pokemon_ability('piplup', 'competitive').
 pokemon_ability('prinplup', 'torrent').
 pokemon_ability('prinplup', 'competitive').
 pokemon_ability('empoleon', 'torrent').
 pokemon_ability('empoleon', 'competitive').
-pokemon_ability('starly', 'keen eye').
+pokemon_ability('starly', 'keeneye').
 pokemon_ability('starly', 'reckless').
 pokemon_ability('staravia', 'intimidate').
 pokemon_ability('staravia', 'reckless').
@@ -5026,8 +5026,8 @@ pokemon_ability('bidoof', 'moody').
 pokemon_ability('bibarel', 'simple').
 pokemon_ability('bibarel', 'unaware').
 pokemon_ability('bibarel', 'moody').
-pokemon_ability('kricketot', 'shed skin').
-pokemon_ability('kricketot', 'run away').
+pokemon_ability('kricketot', 'shedskin').
+pokemon_ability('kricketot', 'runaway').
 pokemon_ability('kricketune', 'swarm').
 pokemon_ability('kricketune', 'technician').
 pokemon_ability('shinx', 'rivalry').
@@ -5039,25 +5039,25 @@ pokemon_ability('luxio', 'guts').
 pokemon_ability('luxray', 'rivalry').
 pokemon_ability('luxray', 'intimidate').
 pokemon_ability('luxray', 'guts').
-pokemon_ability('budew', 'natural cure').
-pokemon_ability('budew', 'poison point').
-pokemon_ability('budew', 'leaf guard').
-pokemon_ability('roserade', 'natural cure').
-pokemon_ability('roserade', 'poison point').
+pokemon_ability('budew', 'naturalcure').
+pokemon_ability('budew', 'poisonpoint').
+pokemon_ability('budew', 'leafguard').
+pokemon_ability('roserade', 'naturalcure').
+pokemon_ability('roserade', 'poisonpoint').
 pokemon_ability('roserade', 'technician').
-pokemon_ability('cranidos', 'mold breaker').
-pokemon_ability('cranidos', 'sheer force').
-pokemon_ability('rampardos', 'mold breaker').
-pokemon_ability('rampardos', 'sheer force').
+pokemon_ability('cranidos', 'moldbreaker').
+pokemon_ability('cranidos', 'sheerforce').
+pokemon_ability('rampardos', 'moldbreaker').
+pokemon_ability('rampardos', 'sheerforce').
 pokemon_ability('shieldon', 'sturdy').
 pokemon_ability('shieldon', 'soundproof').
 pokemon_ability('bastiodon', 'sturdy').
 pokemon_ability('bastiodon', 'soundproof').
-pokemon_ability('burmy', 'shed skin').
+pokemon_ability('burmy', 'shedskin').
 pokemon_ability('burmy', 'overcoat').
-pokemon_ability('burmysandy', 'shed skin').
+pokemon_ability('burmysandy', 'shedskin').
 pokemon_ability('burmysandy', 'overcoat').
-pokemon_ability('burmytrash', 'shed skin').
+pokemon_ability('burmytrash', 'shedskin').
 pokemon_ability('burmytrash', 'overcoat').
 pokemon_ability('wormadam', 'anticipation').
 pokemon_ability('wormadam', 'overcoat').
@@ -5066,182 +5066,182 @@ pokemon_ability('wormadamsandy', 'overcoat').
 pokemon_ability('wormadamtrash', 'anticipation').
 pokemon_ability('wormadamtrash', 'overcoat').
 pokemon_ability('mothim', 'swarm').
-pokemon_ability('mothim', 'tinted lens').
-pokemon_ability('combee', 'honey gather').
+pokemon_ability('mothim', 'tintedlens').
+pokemon_ability('combee', 'honeygather').
 pokemon_ability('combee', 'hustle').
 pokemon_ability('vespiquen', 'pressure').
 pokemon_ability('vespiquen', 'unnerve').
-pokemon_ability('pachirisu', 'run away').
+pokemon_ability('pachirisu', 'runaway').
 pokemon_ability('pachirisu', 'pickup').
-pokemon_ability('pachirisu', 'volt absorb').
-pokemon_ability('buizel', 'swift swim').
-pokemon_ability('buizel', 'water veil').
-pokemon_ability('floatzel', 'swift swim').
-pokemon_ability('floatzel', 'water veil').
+pokemon_ability('pachirisu', 'voltabsorb').
+pokemon_ability('buizel', 'swiftswim').
+pokemon_ability('buizel', 'waterveil').
+pokemon_ability('floatzel', 'swiftswim').
+pokemon_ability('floatzel', 'waterveil').
 pokemon_ability('cherubi', 'chlorophyll').
-pokemon_ability('cherrim', 'flower gift').
-pokemon_ability('cherrimsunshine', 'flower gift').
-pokemon_ability('shellos', 'sticky hold').
-pokemon_ability('shellos', 'storm drain').
-pokemon_ability('shellos', 'sand force').
-pokemon_ability('shelloseast', 'sticky hold').
-pokemon_ability('shelloseast', 'storm drain').
-pokemon_ability('shelloseast', 'sand force').
-pokemon_ability('gastrodon', 'sticky hold').
-pokemon_ability('gastrodon', 'storm drain').
-pokemon_ability('gastrodon', 'sand force').
-pokemon_ability('gastrodoneast', 'sticky hold').
-pokemon_ability('gastrodoneast', 'storm drain').
-pokemon_ability('gastrodoneast', 'sand force').
+pokemon_ability('cherrim', 'flowergift').
+pokemon_ability('cherrimsunshine', 'flowergift').
+pokemon_ability('shellos', 'stickyhold').
+pokemon_ability('shellos', 'stormdrain').
+pokemon_ability('shellos', 'sandforce').
+pokemon_ability('shelloseast', 'stickyhold').
+pokemon_ability('shelloseast', 'stormdrain').
+pokemon_ability('shelloseast', 'sandforce').
+pokemon_ability('gastrodon', 'stickyhold').
+pokemon_ability('gastrodon', 'stormdrain').
+pokemon_ability('gastrodon', 'sandforce').
+pokemon_ability('gastrodoneast', 'stickyhold').
+pokemon_ability('gastrodoneast', 'stormdrain').
+pokemon_ability('gastrodoneast', 'sandforce').
 pokemon_ability('ambipom', 'technician').
 pokemon_ability('ambipom', 'pickup').
-pokemon_ability('ambipom', 'skill link').
+pokemon_ability('ambipom', 'skilllink').
 pokemon_ability('drifloon', 'aftermath').
 pokemon_ability('drifloon', 'unburden').
-pokemon_ability('drifloon', 'flare boost').
+pokemon_ability('drifloon', 'flareboost').
 pokemon_ability('drifblim', 'aftermath').
 pokemon_ability('drifblim', 'unburden').
-pokemon_ability('drifblim', 'flare boost').
-pokemon_ability('buneary', 'run away').
+pokemon_ability('drifblim', 'flareboost').
+pokemon_ability('buneary', 'runaway').
 pokemon_ability('buneary', 'klutz').
 pokemon_ability('buneary', 'limber').
-pokemon_ability('lopunny', 'cute charm').
+pokemon_ability('lopunny', 'cutecharm').
 pokemon_ability('lopunny', 'klutz').
 pokemon_ability('lopunny', 'limber').
 pokemon_ability('lopunnymega', 'scrappy').
 pokemon_ability('mismagius', 'levitate').
 pokemon_ability('honchkrow', 'insomnia').
-pokemon_ability('honchkrow', 'super luck').
+pokemon_ability('honchkrow', 'superluck').
 pokemon_ability('honchkrow', 'moxie').
 pokemon_ability('glameow', 'limber').
-pokemon_ability('glameow', 'own tempo').
-pokemon_ability('glameow', 'keen eye').
-pokemon_ability('purugly', 'thick fat').
-pokemon_ability('purugly', 'own tempo').
+pokemon_ability('glameow', 'owntempo').
+pokemon_ability('glameow', 'keeneye').
+pokemon_ability('purugly', 'thickfat').
+pokemon_ability('purugly', 'owntempo').
 pokemon_ability('purugly', 'defiant').
 pokemon_ability('chingling', 'levitate').
 pokemon_ability('stunky', 'stench').
 pokemon_ability('stunky', 'aftermath').
-pokemon_ability('stunky', 'keen eye').
+pokemon_ability('stunky', 'keeneye').
 pokemon_ability('skuntank', 'stench').
 pokemon_ability('skuntank', 'aftermath').
-pokemon_ability('skuntank', 'keen eye').
+pokemon_ability('skuntank', 'keeneye').
 pokemon_ability('bronzor', 'levitate').
 pokemon_ability('bronzor', 'heatproof').
-pokemon_ability('bronzor', 'heavy metal').
+pokemon_ability('bronzor', 'heavymetal').
 pokemon_ability('bronzong', 'levitate').
 pokemon_ability('bronzong', 'heatproof').
-pokemon_ability('bronzong', 'heavy metal').
+pokemon_ability('bronzong', 'heavymetal').
 pokemon_ability('bonsly', 'sturdy').
-pokemon_ability('bonsly', 'rock head').
+pokemon_ability('bonsly', 'rockhead').
 pokemon_ability('bonsly', 'rattled').
 pokemon_ability('mimejr', 'soundproof').
 pokemon_ability('mimejr', 'filter').
 pokemon_ability('mimejr', 'technician').
-pokemon_ability('happiny', 'natural cure').
-pokemon_ability('happiny', 'serene grace').
-pokemon_ability('happiny', 'friend guard').
-pokemon_ability('chatot', 'keen eye').
-pokemon_ability('chatot', 'tangled feet').
-pokemon_ability('chatot', 'big pecks').
+pokemon_ability('happiny', 'naturalcure').
+pokemon_ability('happiny', 'serenegrace').
+pokemon_ability('happiny', 'friendguard').
+pokemon_ability('chatot', 'keeneye').
+pokemon_ability('chatot', 'tangledfeet').
+pokemon_ability('chatot', 'bigpecks').
 pokemon_ability('spiritomb', 'pressure').
 pokemon_ability('spiritomb', 'infiltrator').
-pokemon_ability('gible', 'sand veil').
-pokemon_ability('gible', 'rough skin').
-pokemon_ability('gabite', 'sand veil').
-pokemon_ability('gabite', 'rough skin').
-pokemon_ability('garchomp', 'sand veil').
-pokemon_ability('garchomp', 'rough skin').
-pokemon_ability('garchompmega', 'sand force').
+pokemon_ability('gible', 'sandveil').
+pokemon_ability('gible', 'roughskin').
+pokemon_ability('gabite', 'sandveil').
+pokemon_ability('gabite', 'roughskin').
+pokemon_ability('garchomp', 'sandveil').
+pokemon_ability('garchomp', 'roughskin').
+pokemon_ability('garchompmega', 'sandforce').
 pokemon_ability('munchlax', 'pickup').
-pokemon_ability('munchlax', 'thick fat').
+pokemon_ability('munchlax', 'thickfat').
 pokemon_ability('munchlax', 'gluttony').
 pokemon_ability('riolu', 'steadfast').
-pokemon_ability('riolu', 'inner focus').
+pokemon_ability('riolu', 'innerfocus').
 pokemon_ability('riolu', 'prankster').
 pokemon_ability('lucario', 'steadfast').
-pokemon_ability('lucario', 'inner focus').
+pokemon_ability('lucario', 'innerfocus').
 pokemon_ability('lucario', 'justified').
 pokemon_ability('lucariomega', 'adaptability').
-pokemon_ability('hippopotas', 'sand stream').
-pokemon_ability('hippopotas', 'sand force').
-pokemon_ability('hippowdon', 'sand stream').
-pokemon_ability('hippowdon', 'sand force').
-pokemon_ability('skorupi', 'battle armor').
+pokemon_ability('hippopotas', 'sandstream').
+pokemon_ability('hippopotas', 'sandforce').
+pokemon_ability('hippowdon', 'sandstream').
+pokemon_ability('hippowdon', 'sandforce').
+pokemon_ability('skorupi', 'battlearmor').
 pokemon_ability('skorupi', 'sniper').
-pokemon_ability('skorupi', 'keen eye').
-pokemon_ability('drapion', 'battle armor').
+pokemon_ability('skorupi', 'keeneye').
+pokemon_ability('drapion', 'battlearmor').
 pokemon_ability('drapion', 'sniper').
-pokemon_ability('drapion', 'keen eye').
+pokemon_ability('drapion', 'keeneye').
 pokemon_ability('croagunk', 'anticipation').
-pokemon_ability('croagunk', 'dry skin').
-pokemon_ability('croagunk', 'poison touch').
+pokemon_ability('croagunk', 'dryskin').
+pokemon_ability('croagunk', 'poisontouch').
 pokemon_ability('toxicroak', 'anticipation').
-pokemon_ability('toxicroak', 'dry skin').
-pokemon_ability('toxicroak', 'poison touch').
+pokemon_ability('toxicroak', 'dryskin').
+pokemon_ability('toxicroak', 'poisontouch').
 pokemon_ability('carnivine', 'levitate').
-pokemon_ability('finneon', 'swift swim').
-pokemon_ability('finneon', 'storm drain').
-pokemon_ability('finneon', 'water veil').
-pokemon_ability('lumineon', 'swift swim').
-pokemon_ability('lumineon', 'storm drain').
-pokemon_ability('lumineon', 'water veil').
-pokemon_ability('mantyke', 'swift swim').
-pokemon_ability('mantyke', 'water absorb').
-pokemon_ability('mantyke', 'water veil').
-pokemon_ability('snover', 'snow warning').
+pokemon_ability('finneon', 'swiftswim').
+pokemon_ability('finneon', 'stormdrain').
+pokemon_ability('finneon', 'waterveil').
+pokemon_ability('lumineon', 'swiftswim').
+pokemon_ability('lumineon', 'stormdrain').
+pokemon_ability('lumineon', 'waterveil').
+pokemon_ability('mantyke', 'swiftswim').
+pokemon_ability('mantyke', 'waterabsorb').
+pokemon_ability('mantyke', 'waterveil').
+pokemon_ability('snover', 'snowwarning').
 pokemon_ability('snover', 'soundproof').
-pokemon_ability('abomasnow', 'snow warning').
+pokemon_ability('abomasnow', 'snowwarning').
 pokemon_ability('abomasnow', 'soundproof').
-pokemon_ability('abomasnowmega', 'snow warning').
+pokemon_ability('abomasnowmega', 'snowwarning').
 pokemon_ability('weavile', 'pressure').
 pokemon_ability('weavile', 'pickpocket').
-pokemon_ability('magnezone', 'magnet pull').
+pokemon_ability('magnezone', 'magnetpull').
 pokemon_ability('magnezone', 'sturdy').
 pokemon_ability('magnezone', 'analytic').
-pokemon_ability('lickilicky', 'own tempo').
+pokemon_ability('lickilicky', 'owntempo').
 pokemon_ability('lickilicky', 'oblivious').
-pokemon_ability('lickilicky', 'cloud nine').
-pokemon_ability('rhyperior', 'lightning rod').
-pokemon_ability('rhyperior', 'solid rock').
+pokemon_ability('lickilicky', 'cloudnine').
+pokemon_ability('rhyperior', 'lightningrod').
+pokemon_ability('rhyperior', 'solidrock').
 pokemon_ability('rhyperior', 'reckless').
 pokemon_ability('tangrowth', 'chlorophyll').
-pokemon_ability('tangrowth', 'leaf guard').
+pokemon_ability('tangrowth', 'leafguard').
 pokemon_ability('tangrowth', 'regenerator').
-pokemon_ability('electivire', 'motor drive').
-pokemon_ability('electivire', 'vital spirit').
-pokemon_ability('magmortar', 'flame body').
-pokemon_ability('magmortar', 'vital spirit').
+pokemon_ability('electivire', 'motordrive').
+pokemon_ability('electivire', 'vitalspirit').
+pokemon_ability('magmortar', 'flamebody').
+pokemon_ability('magmortar', 'vitalspirit').
 pokemon_ability('togekiss', 'hustle').
-pokemon_ability('togekiss', 'serene grace').
-pokemon_ability('togekiss', 'super luck').
-pokemon_ability('yanmega', 'speed boost').
-pokemon_ability('yanmega', 'tinted lens').
+pokemon_ability('togekiss', 'serenegrace').
+pokemon_ability('togekiss', 'superluck').
+pokemon_ability('yanmega', 'speedboost').
+pokemon_ability('yanmega', 'tintedlens').
 pokemon_ability('yanmega', 'frisk').
-pokemon_ability('leafeon', 'leaf guard').
+pokemon_ability('leafeon', 'leafguard').
 pokemon_ability('leafeon', 'chlorophyll').
-pokemon_ability('glaceon', 'snow cloak').
-pokemon_ability('glaceon', 'ice body').
-pokemon_ability('gliscor', 'hyper cutter').
-pokemon_ability('gliscor', 'sand veil').
-pokemon_ability('gliscor', 'poison heal').
+pokemon_ability('glaceon', 'snowcloak').
+pokemon_ability('glaceon', 'icebody').
+pokemon_ability('gliscor', 'hypercutter').
+pokemon_ability('gliscor', 'sandveil').
+pokemon_ability('gliscor', 'poisonheal').
 pokemon_ability('mamoswine', 'oblivious').
-pokemon_ability('mamoswine', 'snow cloak').
-pokemon_ability('mamoswine', 'thick fat').
+pokemon_ability('mamoswine', 'snowcloak').
+pokemon_ability('mamoswine', 'thickfat').
 pokemon_ability('porygonz', 'adaptability').
 pokemon_ability('porygonz', 'download').
 pokemon_ability('porygonz', 'analytic').
 pokemon_ability('gallade', 'steadfast').
 pokemon_ability('gallade', 'sharpness').
 pokemon_ability('gallade', 'justified').
-pokemon_ability('gallademega', 'inner focus').
+pokemon_ability('gallademega', 'innerfocus').
 pokemon_ability('probopass', 'sturdy').
-pokemon_ability('probopass', 'magnet pull').
-pokemon_ability('probopass', 'sand force').
+pokemon_ability('probopass', 'magnetpull').
+pokemon_ability('probopass', 'sandforce').
 pokemon_ability('dusknoir', 'pressure').
 pokemon_ability('dusknoir', 'frisk').
-pokemon_ability('froslass', 'snow cloak').
-pokemon_ability('froslass', 'cursed body').
+pokemon_ability('froslass', 'snowcloak').
+pokemon_ability('froslass', 'cursedbody').
 pokemon_ability('froslassmega', '').
 pokemon_ability('rotom', 'levitate').
 pokemon_ability('rotomheat', 'levitate').
@@ -5260,18 +5260,18 @@ pokemon_ability('palkia', 'pressure').
 pokemon_ability('palkia', 'telepathy').
 pokemon_ability('palkiaorigin', 'pressure').
 pokemon_ability('palkiaorigin', 'telepathy').
-pokemon_ability('heatran', 'flash fire').
-pokemon_ability('heatran', 'flame body').
-pokemon_ability('regigigas', 'slow start').
+pokemon_ability('heatran', 'flashfire').
+pokemon_ability('heatran', 'flamebody').
+pokemon_ability('regigigas', 'slowstart').
 pokemon_ability('giratina', 'pressure').
 pokemon_ability('giratina', 'telepathy').
 pokemon_ability('giratinaorigin', 'levitate').
 pokemon_ability('cresselia', 'levitate').
 pokemon_ability('phione', 'hydration').
 pokemon_ability('manaphy', 'hydration').
-pokemon_ability('darkrai', 'bad dreams').
-pokemon_ability('shaymin', 'natural cure').
-pokemon_ability('shayminsky', 'serene grace').
+pokemon_ability('darkrai', 'baddreams').
+pokemon_ability('shaymin', 'naturalcure').
+pokemon_ability('shayminsky', 'serenegrace').
 pokemon_ability('arceus', 'multitype').
 pokemon_ability('arceusbug', 'multitype').
 pokemon_ability('arceusdark', 'multitype').
@@ -5290,7 +5290,7 @@ pokemon_ability('arceuspsychic', 'multitype').
 pokemon_ability('arceusrock', 'multitype').
 pokemon_ability('arceussteel', 'multitype').
 pokemon_ability('arceuswater', 'multitype').
-pokemon_ability('victini', 'victory star').
+pokemon_ability('victini', 'victorystar').
 pokemon_ability('snivy', 'overgrow').
 pokemon_ability('snivy', 'contrary').
 pokemon_ability('servine', 'overgrow').
@@ -5298,34 +5298,34 @@ pokemon_ability('servine', 'contrary').
 pokemon_ability('serperior', 'overgrow').
 pokemon_ability('serperior', 'contrary').
 pokemon_ability('tepig', 'blaze').
-pokemon_ability('tepig', 'thick fat').
+pokemon_ability('tepig', 'thickfat').
 pokemon_ability('pignite', 'blaze').
-pokemon_ability('pignite', 'thick fat').
+pokemon_ability('pignite', 'thickfat').
 pokemon_ability('emboar', 'blaze').
 pokemon_ability('emboar', 'reckless').
 pokemon_ability('emboarmega', '').
 pokemon_ability('oshawott', 'torrent').
-pokemon_ability('oshawott', 'shell armor').
+pokemon_ability('oshawott', 'shellarmor').
 pokemon_ability('dewott', 'torrent').
-pokemon_ability('dewott', 'shell armor').
+pokemon_ability('dewott', 'shellarmor').
 pokemon_ability('samurott', 'torrent').
-pokemon_ability('samurott', 'shell armor').
+pokemon_ability('samurott', 'shellarmor').
 pokemon_ability('samurotthisui', 'torrent').
 pokemon_ability('samurotthisui', 'sharpness').
-pokemon_ability('patrat', 'run away').
-pokemon_ability('patrat', 'keen eye').
+pokemon_ability('patrat', 'runaway').
+pokemon_ability('patrat', 'keeneye').
 pokemon_ability('patrat', 'analytic').
 pokemon_ability('watchog', 'illuminate').
-pokemon_ability('watchog', 'keen eye').
+pokemon_ability('watchog', 'keeneye').
 pokemon_ability('watchog', 'analytic').
-pokemon_ability('lillipup', 'vital spirit').
+pokemon_ability('lillipup', 'vitalspirit').
 pokemon_ability('lillipup', 'pickup').
-pokemon_ability('lillipup', 'run away').
+pokemon_ability('lillipup', 'runaway').
 pokemon_ability('herdier', 'intimidate').
-pokemon_ability('herdier', 'sand rush').
+pokemon_ability('herdier', 'sandrush').
 pokemon_ability('herdier', 'scrappy').
 pokemon_ability('stoutland', 'intimidate').
-pokemon_ability('stoutland', 'sand rush').
+pokemon_ability('stoutland', 'sandrush').
 pokemon_ability('stoutland', 'scrappy').
 pokemon_ability('purrloin', 'limber').
 pokemon_ability('purrloin', 'unburden').
@@ -5351,89 +5351,89 @@ pokemon_ability('munna', 'telepathy').
 pokemon_ability('musharna', 'forewarn').
 pokemon_ability('musharna', 'synchronize').
 pokemon_ability('musharna', 'telepathy').
-pokemon_ability('pidove', 'big pecks').
-pokemon_ability('pidove', 'super luck').
+pokemon_ability('pidove', 'bigpecks').
+pokemon_ability('pidove', 'superluck').
 pokemon_ability('pidove', 'rivalry').
-pokemon_ability('tranquill', 'big pecks').
-pokemon_ability('tranquill', 'super luck').
+pokemon_ability('tranquill', 'bigpecks').
+pokemon_ability('tranquill', 'superluck').
 pokemon_ability('tranquill', 'rivalry').
-pokemon_ability('unfezant', 'big pecks').
-pokemon_ability('unfezant', 'super luck').
+pokemon_ability('unfezant', 'bigpecks').
+pokemon_ability('unfezant', 'superluck').
 pokemon_ability('unfezant', 'rivalry').
-pokemon_ability('blitzle', 'lightning rod').
-pokemon_ability('blitzle', 'motor drive').
-pokemon_ability('blitzle', 'sap sipper').
-pokemon_ability('zebstrika', 'lightning rod').
-pokemon_ability('zebstrika', 'motor drive').
-pokemon_ability('zebstrika', 'sap sipper').
+pokemon_ability('blitzle', 'lightningrod').
+pokemon_ability('blitzle', 'motordrive').
+pokemon_ability('blitzle', 'sapsipper').
+pokemon_ability('zebstrika', 'lightningrod').
+pokemon_ability('zebstrika', 'motordrive').
+pokemon_ability('zebstrika', 'sapsipper').
 pokemon_ability('roggenrola', 'sturdy').
-pokemon_ability('roggenrola', 'weak armor').
-pokemon_ability('roggenrola', 'sand force').
+pokemon_ability('roggenrola', 'weakarmor').
+pokemon_ability('roggenrola', 'sandforce').
 pokemon_ability('boldore', 'sturdy').
-pokemon_ability('boldore', 'weak armor').
-pokemon_ability('boldore', 'sand force').
+pokemon_ability('boldore', 'weakarmor').
+pokemon_ability('boldore', 'sandforce').
 pokemon_ability('gigalith', 'sturdy').
-pokemon_ability('gigalith', 'sand stream').
-pokemon_ability('gigalith', 'sand force').
+pokemon_ability('gigalith', 'sandstream').
+pokemon_ability('gigalith', 'sandforce').
 pokemon_ability('woobat', 'unaware').
 pokemon_ability('woobat', 'klutz').
 pokemon_ability('woobat', 'simple').
 pokemon_ability('swoobat', 'unaware').
 pokemon_ability('swoobat', 'klutz').
 pokemon_ability('swoobat', 'simple').
-pokemon_ability('drilbur', 'sand rush').
-pokemon_ability('drilbur', 'sand force').
-pokemon_ability('drilbur', 'mold breaker').
-pokemon_ability('excadrill', 'sand rush').
-pokemon_ability('excadrill', 'sand force').
-pokemon_ability('excadrill', 'mold breaker').
+pokemon_ability('drilbur', 'sandrush').
+pokemon_ability('drilbur', 'sandforce').
+pokemon_ability('drilbur', 'moldbreaker').
+pokemon_ability('excadrill', 'sandrush').
+pokemon_ability('excadrill', 'sandforce').
+pokemon_ability('excadrill', 'moldbreaker').
 pokemon_ability('excadrillmega', '').
 pokemon_ability('audino', 'healer').
 pokemon_ability('audino', 'regenerator').
 pokemon_ability('audino', 'klutz').
 pokemon_ability('audinomega', 'healer').
 pokemon_ability('timburr', 'guts').
-pokemon_ability('timburr', 'sheer force').
-pokemon_ability('timburr', 'iron fist').
+pokemon_ability('timburr', 'sheerforce').
+pokemon_ability('timburr', 'ironfist').
 pokemon_ability('gurdurr', 'guts').
-pokemon_ability('gurdurr', 'sheer force').
-pokemon_ability('gurdurr', 'iron fist').
+pokemon_ability('gurdurr', 'sheerforce').
+pokemon_ability('gurdurr', 'ironfist').
 pokemon_ability('conkeldurr', 'guts').
-pokemon_ability('conkeldurr', 'sheer force').
-pokemon_ability('conkeldurr', 'iron fist').
-pokemon_ability('tympole', 'swift swim').
+pokemon_ability('conkeldurr', 'sheerforce').
+pokemon_ability('conkeldurr', 'ironfist').
+pokemon_ability('tympole', 'swiftswim').
 pokemon_ability('tympole', 'hydration').
-pokemon_ability('tympole', 'water absorb').
-pokemon_ability('palpitoad', 'swift swim').
+pokemon_ability('tympole', 'waterabsorb').
+pokemon_ability('palpitoad', 'swiftswim').
 pokemon_ability('palpitoad', 'hydration').
-pokemon_ability('palpitoad', 'water absorb').
-pokemon_ability('seismitoad', 'swift swim').
-pokemon_ability('seismitoad', 'poison touch').
-pokemon_ability('seismitoad', 'water absorb').
+pokemon_ability('palpitoad', 'waterabsorb').
+pokemon_ability('seismitoad', 'swiftswim').
+pokemon_ability('seismitoad', 'poisontouch').
+pokemon_ability('seismitoad', 'waterabsorb').
 pokemon_ability('throh', 'guts').
-pokemon_ability('throh', 'inner focus').
-pokemon_ability('throh', 'mold breaker').
+pokemon_ability('throh', 'innerfocus').
+pokemon_ability('throh', 'moldbreaker').
 pokemon_ability('sawk', 'sturdy').
-pokemon_ability('sawk', 'inner focus').
-pokemon_ability('sawk', 'mold breaker').
+pokemon_ability('sawk', 'innerfocus').
+pokemon_ability('sawk', 'moldbreaker').
 pokemon_ability('sewaddle', 'swarm').
 pokemon_ability('sewaddle', 'chlorophyll').
 pokemon_ability('sewaddle', 'overcoat').
-pokemon_ability('swadloon', 'leaf guard').
+pokemon_ability('swadloon', 'leafguard').
 pokemon_ability('swadloon', 'chlorophyll').
 pokemon_ability('swadloon', 'overcoat').
 pokemon_ability('leavanny', 'swarm').
 pokemon_ability('leavanny', 'chlorophyll').
 pokemon_ability('leavanny', 'overcoat').
-pokemon_ability('venipede', 'poison point').
+pokemon_ability('venipede', 'poisonpoint').
 pokemon_ability('venipede', 'swarm').
-pokemon_ability('venipede', 'speed boost').
-pokemon_ability('whirlipede', 'poison point').
+pokemon_ability('venipede', 'speedboost').
+pokemon_ability('whirlipede', 'poisonpoint').
 pokemon_ability('whirlipede', 'swarm').
-pokemon_ability('whirlipede', 'speed boost').
-pokemon_ability('scolipede', 'poison point').
+pokemon_ability('whirlipede', 'speedboost').
+pokemon_ability('scolipede', 'poisonpoint').
 pokemon_ability('scolipede', 'swarm').
-pokemon_ability('scolipede', 'speed boost').
+pokemon_ability('scolipede', 'speedboost').
 pokemon_ability('scolipedemega', '').
 pokemon_ability('cottonee', 'prankster').
 pokemon_ability('cottonee', 'infiltrator').
@@ -5442,178 +5442,178 @@ pokemon_ability('whimsicott', 'prankster').
 pokemon_ability('whimsicott', 'infiltrator').
 pokemon_ability('whimsicott', 'chlorophyll').
 pokemon_ability('petilil', 'chlorophyll').
-pokemon_ability('petilil', 'own tempo').
-pokemon_ability('petilil', 'leaf guard').
+pokemon_ability('petilil', 'owntempo').
+pokemon_ability('petilil', 'leafguard').
 pokemon_ability('lilligant', 'chlorophyll').
-pokemon_ability('lilligant', 'own tempo').
-pokemon_ability('lilligant', 'leaf guard').
+pokemon_ability('lilligant', 'owntempo').
+pokemon_ability('lilligant', 'leafguard').
 pokemon_ability('lilliganthisui', 'chlorophyll').
 pokemon_ability('lilliganthisui', 'hustle').
-pokemon_ability('lilliganthisui', 'leaf guard').
+pokemon_ability('lilliganthisui', 'leafguard').
 pokemon_ability('basculin', 'reckless').
 pokemon_ability('basculin', 'adaptability').
-pokemon_ability('basculin', 'mold breaker').
-pokemon_ability('basculinbluestriped', 'rock head').
+pokemon_ability('basculin', 'moldbreaker').
+pokemon_ability('basculinbluestriped', 'rockhead').
 pokemon_ability('basculinbluestriped', 'adaptability').
-pokemon_ability('basculinbluestriped', 'mold breaker').
+pokemon_ability('basculinbluestriped', 'moldbreaker').
 pokemon_ability('basculinwhitestriped', 'rattled').
 pokemon_ability('basculinwhitestriped', 'adaptability').
-pokemon_ability('basculinwhitestriped', 'mold breaker').
+pokemon_ability('basculinwhitestriped', 'moldbreaker').
 pokemon_ability('sandile', 'intimidate').
 pokemon_ability('sandile', 'moxie').
-pokemon_ability('sandile', 'anger point').
+pokemon_ability('sandile', 'angerpoint').
 pokemon_ability('krokorok', 'intimidate').
 pokemon_ability('krokorok', 'moxie').
-pokemon_ability('krokorok', 'anger point').
+pokemon_ability('krokorok', 'angerpoint').
 pokemon_ability('krookodile', 'intimidate').
 pokemon_ability('krookodile', 'moxie').
-pokemon_ability('krookodile', 'anger point').
+pokemon_ability('krookodile', 'angerpoint').
 pokemon_ability('darumaka', 'hustle').
-pokemon_ability('darumaka', 'inner focus').
+pokemon_ability('darumaka', 'innerfocus').
 pokemon_ability('darumakagalar', 'hustle').
-pokemon_ability('darumakagalar', 'inner focus').
-pokemon_ability('darmanitan', 'sheer force').
-pokemon_ability('darmanitan', 'zen mode').
-pokemon_ability('darmanitanzen', 'zen mode').
-pokemon_ability('darmanitangalar', 'gorilla tactics').
-pokemon_ability('darmanitangalar', 'zen mode').
-pokemon_ability('darmanitangalarzen', 'zen mode').
-pokemon_ability('maractus', 'water absorb').
+pokemon_ability('darumakagalar', 'innerfocus').
+pokemon_ability('darmanitan', 'sheerforce').
+pokemon_ability('darmanitan', 'zenmode').
+pokemon_ability('darmanitanzen', 'zenmode').
+pokemon_ability('darmanitangalar', 'gorillatactics').
+pokemon_ability('darmanitangalar', 'zenmode').
+pokemon_ability('darmanitangalarzen', 'zenmode').
+pokemon_ability('maractus', 'waterabsorb').
 pokemon_ability('maractus', 'chlorophyll').
-pokemon_ability('maractus', 'storm drain').
+pokemon_ability('maractus', 'stormdrain').
 pokemon_ability('dwebble', 'sturdy').
-pokemon_ability('dwebble', 'shell armor').
-pokemon_ability('dwebble', 'weak armor').
+pokemon_ability('dwebble', 'shellarmor').
+pokemon_ability('dwebble', 'weakarmor').
 pokemon_ability('crustle', 'sturdy').
-pokemon_ability('crustle', 'shell armor').
-pokemon_ability('crustle', 'weak armor').
-pokemon_ability('scraggy', 'shed skin').
+pokemon_ability('crustle', 'shellarmor').
+pokemon_ability('crustle', 'weakarmor').
+pokemon_ability('scraggy', 'shedskin').
 pokemon_ability('scraggy', 'moxie').
 pokemon_ability('scraggy', 'intimidate').
-pokemon_ability('scrafty', 'shed skin').
+pokemon_ability('scrafty', 'shedskin').
 pokemon_ability('scrafty', 'moxie').
 pokemon_ability('scrafty', 'intimidate').
 pokemon_ability('scraftymega', '').
-pokemon_ability('sigilyph', 'wonder skin').
-pokemon_ability('sigilyph', 'magic guard').
-pokemon_ability('sigilyph', 'tinted lens').
+pokemon_ability('sigilyph', 'wonderskin').
+pokemon_ability('sigilyph', 'magicguard').
+pokemon_ability('sigilyph', 'tintedlens').
 pokemon_ability('yamask', 'mummy').
-pokemon_ability('yamaskgalar', 'wandering spirit').
+pokemon_ability('yamaskgalar', 'wanderingspirit').
 pokemon_ability('cofagrigus', 'mummy').
-pokemon_ability('tirtouga', 'solid rock').
+pokemon_ability('tirtouga', 'solidrock').
 pokemon_ability('tirtouga', 'sturdy').
-pokemon_ability('tirtouga', 'swift swim').
-pokemon_ability('carracosta', 'solid rock').
+pokemon_ability('tirtouga', 'swiftswim').
+pokemon_ability('carracosta', 'solidrock').
 pokemon_ability('carracosta', 'sturdy').
-pokemon_ability('carracosta', 'swift swim').
+pokemon_ability('carracosta', 'swiftswim').
 pokemon_ability('archen', 'defeatist').
 pokemon_ability('archeops', 'defeatist').
 pokemon_ability('trubbish', 'stench').
-pokemon_ability('trubbish', 'sticky hold').
+pokemon_ability('trubbish', 'stickyhold').
 pokemon_ability('trubbish', 'aftermath').
 pokemon_ability('garbodor', 'stench').
-pokemon_ability('garbodor', 'weak armor').
+pokemon_ability('garbodor', 'weakarmor').
 pokemon_ability('garbodor', 'aftermath').
 pokemon_ability('garbodorgmax', 'stench').
-pokemon_ability('garbodorgmax', 'weak armor').
+pokemon_ability('garbodorgmax', 'weakarmor').
 pokemon_ability('garbodorgmax', 'aftermath').
 pokemon_ability('zorua', 'illusion').
 pokemon_ability('zoruahisui', 'illusion').
 pokemon_ability('zoroark', 'illusion').
 pokemon_ability('zoroarkhisui', 'illusion').
-pokemon_ability('minccino', 'cute charm').
+pokemon_ability('minccino', 'cutecharm').
 pokemon_ability('minccino', 'technician').
-pokemon_ability('minccino', 'skill link').
-pokemon_ability('cinccino', 'cute charm').
+pokemon_ability('minccino', 'skilllink').
+pokemon_ability('cinccino', 'cutecharm').
 pokemon_ability('cinccino', 'technician').
-pokemon_ability('cinccino', 'skill link').
+pokemon_ability('cinccino', 'skilllink').
 pokemon_ability('gothita', 'frisk').
 pokemon_ability('gothita', 'competitive').
-pokemon_ability('gothita', 'shadow tag').
+pokemon_ability('gothita', 'shadowtag').
 pokemon_ability('gothorita', 'frisk').
 pokemon_ability('gothorita', 'competitive').
-pokemon_ability('gothorita', 'shadow tag').
+pokemon_ability('gothorita', 'shadowtag').
 pokemon_ability('gothitelle', 'frisk').
 pokemon_ability('gothitelle', 'competitive').
-pokemon_ability('gothitelle', 'shadow tag').
+pokemon_ability('gothitelle', 'shadowtag').
 pokemon_ability('solosis', 'overcoat').
-pokemon_ability('solosis', 'magic guard').
+pokemon_ability('solosis', 'magicguard').
 pokemon_ability('solosis', 'regenerator').
 pokemon_ability('duosion', 'overcoat').
-pokemon_ability('duosion', 'magic guard').
+pokemon_ability('duosion', 'magicguard').
 pokemon_ability('duosion', 'regenerator').
 pokemon_ability('reuniclus', 'overcoat').
-pokemon_ability('reuniclus', 'magic guard').
+pokemon_ability('reuniclus', 'magicguard').
 pokemon_ability('reuniclus', 'regenerator').
-pokemon_ability('ducklett', 'keen eye').
-pokemon_ability('ducklett', 'big pecks').
+pokemon_ability('ducklett', 'keeneye').
+pokemon_ability('ducklett', 'bigpecks').
 pokemon_ability('ducklett', 'hydration').
-pokemon_ability('swanna', 'keen eye').
-pokemon_ability('swanna', 'big pecks').
+pokemon_ability('swanna', 'keeneye').
+pokemon_ability('swanna', 'bigpecks').
 pokemon_ability('swanna', 'hydration').
-pokemon_ability('vanillite', 'ice body').
-pokemon_ability('vanillite', 'snow cloak').
-pokemon_ability('vanillite', 'weak armor').
-pokemon_ability('vanillish', 'ice body').
-pokemon_ability('vanillish', 'snow cloak').
-pokemon_ability('vanillish', 'weak armor').
-pokemon_ability('vanilluxe', 'ice body').
-pokemon_ability('vanilluxe', 'snow warning').
-pokemon_ability('vanilluxe', 'weak armor').
+pokemon_ability('vanillite', 'icebody').
+pokemon_ability('vanillite', 'snowcloak').
+pokemon_ability('vanillite', 'weakarmor').
+pokemon_ability('vanillish', 'icebody').
+pokemon_ability('vanillish', 'snowcloak').
+pokemon_ability('vanillish', 'weakarmor').
+pokemon_ability('vanilluxe', 'icebody').
+pokemon_ability('vanilluxe', 'snowwarning').
+pokemon_ability('vanilluxe', 'weakarmor').
 pokemon_ability('deerling', 'chlorophyll').
-pokemon_ability('deerling', 'sap sipper').
-pokemon_ability('deerling', 'serene grace').
+pokemon_ability('deerling', 'sapsipper').
+pokemon_ability('deerling', 'serenegrace').
 pokemon_ability('deerlingsummer', 'chlorophyll').
-pokemon_ability('deerlingsummer', 'sap sipper').
-pokemon_ability('deerlingsummer', 'serene grace').
+pokemon_ability('deerlingsummer', 'sapsipper').
+pokemon_ability('deerlingsummer', 'serenegrace').
 pokemon_ability('deerlingautumn', 'chlorophyll').
-pokemon_ability('deerlingautumn', 'sap sipper').
-pokemon_ability('deerlingautumn', 'serene grace').
+pokemon_ability('deerlingautumn', 'sapsipper').
+pokemon_ability('deerlingautumn', 'serenegrace').
 pokemon_ability('deerlingwinter', 'chlorophyll').
-pokemon_ability('deerlingwinter', 'sap sipper').
-pokemon_ability('deerlingwinter', 'serene grace').
+pokemon_ability('deerlingwinter', 'sapsipper').
+pokemon_ability('deerlingwinter', 'serenegrace').
 pokemon_ability('sawsbuck', 'chlorophyll').
-pokemon_ability('sawsbuck', 'sap sipper').
-pokemon_ability('sawsbuck', 'serene grace').
+pokemon_ability('sawsbuck', 'sapsipper').
+pokemon_ability('sawsbuck', 'serenegrace').
 pokemon_ability('emolga', 'static').
-pokemon_ability('emolga', 'motor drive').
+pokemon_ability('emolga', 'motordrive').
 pokemon_ability('karrablast', 'swarm').
-pokemon_ability('karrablast', 'shed skin').
-pokemon_ability('karrablast', 'no guard').
+pokemon_ability('karrablast', 'shedskin').
+pokemon_ability('karrablast', 'noguard').
 pokemon_ability('escavalier', 'swarm').
-pokemon_ability('escavalier', 'shell armor').
+pokemon_ability('escavalier', 'shellarmor').
 pokemon_ability('escavalier', 'overcoat').
-pokemon_ability('foongus', 'effect spore').
+pokemon_ability('foongus', 'effectspore').
 pokemon_ability('foongus', 'regenerator').
-pokemon_ability('amoonguss', 'effect spore').
+pokemon_ability('amoonguss', 'effectspore').
 pokemon_ability('amoonguss', 'regenerator').
-pokemon_ability('frillish', 'water absorb').
-pokemon_ability('frillish', 'cursed body').
+pokemon_ability('frillish', 'waterabsorb').
+pokemon_ability('frillish', 'cursedbody').
 pokemon_ability('frillish', 'damp').
-pokemon_ability('jellicent', 'water absorb').
-pokemon_ability('jellicent', 'cursed body').
+pokemon_ability('jellicent', 'waterabsorb').
+pokemon_ability('jellicent', 'cursedbody').
 pokemon_ability('jellicent', 'damp').
 pokemon_ability('alomomola', 'healer').
 pokemon_ability('alomomola', 'hydration').
 pokemon_ability('alomomola', 'regenerator').
-pokemon_ability('joltik', 'compound eyes').
+pokemon_ability('joltik', 'compoundeyes').
 pokemon_ability('joltik', 'unnerve').
 pokemon_ability('joltik', 'swarm').
-pokemon_ability('galvantula', 'compound eyes').
+pokemon_ability('galvantula', 'compoundeyes').
 pokemon_ability('galvantula', 'unnerve').
 pokemon_ability('galvantula', 'swarm').
-pokemon_ability('ferroseed', 'iron barbs').
-pokemon_ability('ferrothorn', 'iron barbs').
+pokemon_ability('ferroseed', 'ironbarbs').
+pokemon_ability('ferrothorn', 'ironbarbs').
 pokemon_ability('ferrothorn', 'anticipation').
 pokemon_ability('klink', 'plus').
 pokemon_ability('klink', 'minus').
-pokemon_ability('klink', 'clear body').
+pokemon_ability('klink', 'clearbody').
 pokemon_ability('klang', 'plus').
 pokemon_ability('klang', 'minus').
-pokemon_ability('klang', 'clear body').
+pokemon_ability('klang', 'clearbody').
 pokemon_ability('klinklang', 'plus').
 pokemon_ability('klinklang', 'minus').
-pokemon_ability('klinklang', 'clear body').
+pokemon_ability('klinklang', 'clearbody').
 pokemon_ability('tynamo', 'levitate').
 pokemon_ability('eelektrik', 'levitate').
 pokemon_ability('eelektross', 'levitate').
@@ -5624,93 +5624,93 @@ pokemon_ability('elgyem', 'analytic').
 pokemon_ability('beheeyem', 'telepathy').
 pokemon_ability('beheeyem', 'synchronize').
 pokemon_ability('beheeyem', 'analytic').
-pokemon_ability('litwick', 'flash fire').
-pokemon_ability('litwick', 'flame body').
+pokemon_ability('litwick', 'flashfire').
+pokemon_ability('litwick', 'flamebody').
 pokemon_ability('litwick', 'infiltrator').
-pokemon_ability('lampent', 'flash fire').
-pokemon_ability('lampent', 'flame body').
+pokemon_ability('lampent', 'flashfire').
+pokemon_ability('lampent', 'flamebody').
 pokemon_ability('lampent', 'infiltrator').
-pokemon_ability('chandelure', 'flash fire').
-pokemon_ability('chandelure', 'flame body').
+pokemon_ability('chandelure', 'flashfire').
+pokemon_ability('chandelure', 'flamebody').
 pokemon_ability('chandelure', 'infiltrator').
 pokemon_ability('chandeluremega', '').
 pokemon_ability('axew', 'rivalry').
-pokemon_ability('axew', 'mold breaker').
+pokemon_ability('axew', 'moldbreaker').
 pokemon_ability('axew', 'unnerve').
 pokemon_ability('fraxure', 'rivalry').
-pokemon_ability('fraxure', 'mold breaker').
+pokemon_ability('fraxure', 'moldbreaker').
 pokemon_ability('fraxure', 'unnerve').
 pokemon_ability('haxorus', 'rivalry').
-pokemon_ability('haxorus', 'mold breaker').
+pokemon_ability('haxorus', 'moldbreaker').
 pokemon_ability('haxorus', 'unnerve').
-pokemon_ability('cubchoo', 'snow cloak').
-pokemon_ability('cubchoo', 'slush rush').
+pokemon_ability('cubchoo', 'snowcloak').
+pokemon_ability('cubchoo', 'slushrush').
 pokemon_ability('cubchoo', 'rattled').
-pokemon_ability('beartic', 'snow cloak').
-pokemon_ability('beartic', 'slush rush').
-pokemon_ability('beartic', 'swift swim').
+pokemon_ability('beartic', 'snowcloak').
+pokemon_ability('beartic', 'slushrush').
+pokemon_ability('beartic', 'swiftswim').
 pokemon_ability('cryogonal', 'levitate').
 pokemon_ability('shelmet', 'hydration').
-pokemon_ability('shelmet', 'shell armor').
+pokemon_ability('shelmet', 'shellarmor').
 pokemon_ability('shelmet', 'overcoat').
 pokemon_ability('accelgor', 'hydration').
-pokemon_ability('accelgor', 'sticky hold').
+pokemon_ability('accelgor', 'stickyhold').
 pokemon_ability('accelgor', 'unburden').
 pokemon_ability('stunfisk', 'static').
 pokemon_ability('stunfisk', 'limber').
-pokemon_ability('stunfisk', 'sand veil').
+pokemon_ability('stunfisk', 'sandveil').
 pokemon_ability('stunfiskgalar', 'mimicry').
-pokemon_ability('mienfoo', 'inner focus').
+pokemon_ability('mienfoo', 'innerfocus').
 pokemon_ability('mienfoo', 'regenerator').
 pokemon_ability('mienfoo', 'reckless').
-pokemon_ability('mienshao', 'inner focus').
+pokemon_ability('mienshao', 'innerfocus').
 pokemon_ability('mienshao', 'regenerator').
 pokemon_ability('mienshao', 'reckless').
-pokemon_ability('druddigon', 'rough skin').
-pokemon_ability('druddigon', 'sheer force').
-pokemon_ability('druddigon', 'mold breaker').
-pokemon_ability('golett', 'iron fist').
+pokemon_ability('druddigon', 'roughskin').
+pokemon_ability('druddigon', 'sheerforce').
+pokemon_ability('druddigon', 'moldbreaker').
+pokemon_ability('golett', 'ironfist').
 pokemon_ability('golett', 'klutz').
-pokemon_ability('golett', 'no guard').
-pokemon_ability('golurk', 'iron fist').
+pokemon_ability('golett', 'noguard').
+pokemon_ability('golurk', 'ironfist').
 pokemon_ability('golurk', 'klutz').
-pokemon_ability('golurk', 'no guard').
+pokemon_ability('golurk', 'noguard').
 pokemon_ability('pawniard', 'defiant').
-pokemon_ability('pawniard', 'inner focus').
+pokemon_ability('pawniard', 'innerfocus').
 pokemon_ability('pawniard', 'pressure').
 pokemon_ability('bisharp', 'defiant').
-pokemon_ability('bisharp', 'inner focus').
+pokemon_ability('bisharp', 'innerfocus').
 pokemon_ability('bisharp', 'pressure').
 pokemon_ability('bouffalant', 'reckless').
-pokemon_ability('bouffalant', 'sap sipper').
+pokemon_ability('bouffalant', 'sapsipper').
 pokemon_ability('bouffalant', 'soundproof').
-pokemon_ability('rufflet', 'keen eye').
-pokemon_ability('rufflet', 'sheer force').
+pokemon_ability('rufflet', 'keeneye').
+pokemon_ability('rufflet', 'sheerforce').
 pokemon_ability('rufflet', 'hustle').
-pokemon_ability('braviary', 'keen eye').
-pokemon_ability('braviary', 'sheer force').
+pokemon_ability('braviary', 'keeneye').
+pokemon_ability('braviary', 'sheerforce').
 pokemon_ability('braviary', 'defiant').
-pokemon_ability('braviaryhisui', 'keen eye').
-pokemon_ability('braviaryhisui', 'sheer force').
-pokemon_ability('braviaryhisui', 'tinted lens').
-pokemon_ability('vullaby', 'big pecks').
+pokemon_ability('braviaryhisui', 'keeneye').
+pokemon_ability('braviaryhisui', 'sheerforce').
+pokemon_ability('braviaryhisui', 'tintedlens').
+pokemon_ability('vullaby', 'bigpecks').
 pokemon_ability('vullaby', 'overcoat').
-pokemon_ability('vullaby', 'weak armor').
-pokemon_ability('mandibuzz', 'big pecks').
+pokemon_ability('vullaby', 'weakarmor').
+pokemon_ability('mandibuzz', 'bigpecks').
 pokemon_ability('mandibuzz', 'overcoat').
-pokemon_ability('mandibuzz', 'weak armor').
+pokemon_ability('mandibuzz', 'weakarmor').
 pokemon_ability('heatmor', 'gluttony').
-pokemon_ability('heatmor', 'flash fire').
-pokemon_ability('heatmor', 'white smoke').
+pokemon_ability('heatmor', 'flashfire').
+pokemon_ability('heatmor', 'whitesmoke').
 pokemon_ability('durant', 'swarm').
 pokemon_ability('durant', 'hustle').
 pokemon_ability('durant', 'truant').
 pokemon_ability('deino', 'hustle').
 pokemon_ability('zweilous', 'hustle').
 pokemon_ability('hydreigon', 'levitate').
-pokemon_ability('larvesta', 'flame body').
+pokemon_ability('larvesta', 'flamebody').
 pokemon_ability('larvesta', 'swarm').
-pokemon_ability('volcarona', 'flame body').
+pokemon_ability('volcarona', 'flamebody').
 pokemon_ability('volcarona', 'swarm').
 pokemon_ability('cobalion', 'justified').
 pokemon_ability('terrakion', 'justified').
@@ -5720,19 +5720,19 @@ pokemon_ability('tornadus', 'defiant').
 pokemon_ability('tornadustherian', 'regenerator').
 pokemon_ability('thundurus', 'prankster').
 pokemon_ability('thundurus', 'defiant').
-pokemon_ability('thundurustherian', 'volt absorb').
+pokemon_ability('thundurustherian', 'voltabsorb').
 pokemon_ability('reshiram', 'turboblaze').
 pokemon_ability('zekrom', 'teravolt').
-pokemon_ability('landorus', 'sand force').
-pokemon_ability('landorus', 'sheer force').
+pokemon_ability('landorus', 'sandforce').
+pokemon_ability('landorus', 'sheerforce').
 pokemon_ability('landorustherian', 'intimidate').
 pokemon_ability('kyurem', 'pressure').
 pokemon_ability('kyuremblack', 'teravolt').
 pokemon_ability('kyuremwhite', 'turboblaze').
 pokemon_ability('keldeo', 'justified').
 pokemon_ability('keldeoresolute', 'justified').
-pokemon_ability('meloetta', 'serene grace').
-pokemon_ability('meloettapirouette', 'serene grace').
+pokemon_ability('meloetta', 'serenegrace').
+pokemon_ability('meloettapirouette', 'serenegrace').
 pokemon_ability('genesect', 'download').
 pokemon_ability('genesectdouse', 'download').
 pokemon_ability('genesectshock', 'download').
@@ -5758,87 +5758,87 @@ pokemon_ability('frogadier', 'torrent').
 pokemon_ability('frogadier', 'protean').
 pokemon_ability('greninja', 'torrent').
 pokemon_ability('greninja', 'protean').
-pokemon_ability('greninja', 'battle bond').
-pokemon_ability('greninjabond', 'battle bond').
-pokemon_ability('greninjaash', 'battle bond').
+pokemon_ability('greninja', 'battlebond').
+pokemon_ability('greninjabond', 'battlebond').
+pokemon_ability('greninjaash', 'battlebond').
 pokemon_ability('greninjamega', '').
 pokemon_ability('bunnelby', 'pickup').
-pokemon_ability('bunnelby', 'cheek pouch').
-pokemon_ability('bunnelby', 'huge power').
+pokemon_ability('bunnelby', 'cheekpouch').
+pokemon_ability('bunnelby', 'hugepower').
 pokemon_ability('diggersby', 'pickup').
-pokemon_ability('diggersby', 'cheek pouch').
-pokemon_ability('diggersby', 'huge power').
-pokemon_ability('fletchling', 'big pecks').
-pokemon_ability('fletchling', 'gale wings').
-pokemon_ability('fletchinder', 'flame body').
-pokemon_ability('fletchinder', 'gale wings').
-pokemon_ability('talonflame', 'flame body').
-pokemon_ability('talonflame', 'gale wings').
-pokemon_ability('scatterbug', 'shield dust').
-pokemon_ability('scatterbug', 'compound eyes').
-pokemon_ability('scatterbug', 'friend guard').
-pokemon_ability('spewpa', 'shed skin').
-pokemon_ability('spewpa', 'friend guard').
-pokemon_ability('vivillon', 'shield dust').
-pokemon_ability('vivillon', 'compound eyes').
-pokemon_ability('vivillon', 'friend guard').
-pokemon_ability('vivillonicysnow', 'shield dust').
-pokemon_ability('vivillonicysnow', 'compound eyes').
-pokemon_ability('vivillonicysnow', 'friend guard').
-pokemon_ability('vivillonpolar', 'shield dust').
-pokemon_ability('vivillonpolar', 'compound eyes').
-pokemon_ability('vivillonpolar', 'friend guard').
-pokemon_ability('vivillontundra', 'shield dust').
-pokemon_ability('vivillontundra', 'compound eyes').
-pokemon_ability('vivillontundra', 'friend guard').
-pokemon_ability('vivilloncontinental', 'shield dust').
-pokemon_ability('vivilloncontinental', 'compound eyes').
-pokemon_ability('vivilloncontinental', 'friend guard').
-pokemon_ability('vivillongarden', 'shield dust').
-pokemon_ability('vivillongarden', 'compound eyes').
-pokemon_ability('vivillongarden', 'friend guard').
-pokemon_ability('vivillonelegant', 'shield dust').
-pokemon_ability('vivillonelegant', 'compound eyes').
-pokemon_ability('vivillonelegant', 'friend guard').
-pokemon_ability('vivillonmodern', 'shield dust').
-pokemon_ability('vivillonmodern', 'compound eyes').
-pokemon_ability('vivillonmodern', 'friend guard').
-pokemon_ability('vivillonmarine', 'shield dust').
-pokemon_ability('vivillonmarine', 'compound eyes').
-pokemon_ability('vivillonmarine', 'friend guard').
-pokemon_ability('vivillonarchipelago', 'shield dust').
-pokemon_ability('vivillonarchipelago', 'compound eyes').
-pokemon_ability('vivillonarchipelago', 'friend guard').
-pokemon_ability('vivillonhighplains', 'shield dust').
-pokemon_ability('vivillonhighplains', 'compound eyes').
-pokemon_ability('vivillonhighplains', 'friend guard').
-pokemon_ability('vivillonsandstorm', 'shield dust').
-pokemon_ability('vivillonsandstorm', 'compound eyes').
-pokemon_ability('vivillonsandstorm', 'friend guard').
-pokemon_ability('vivillonriver', 'shield dust').
-pokemon_ability('vivillonriver', 'compound eyes').
-pokemon_ability('vivillonriver', 'friend guard').
-pokemon_ability('vivillonmonsoon', 'shield dust').
-pokemon_ability('vivillonmonsoon', 'compound eyes').
-pokemon_ability('vivillonmonsoon', 'friend guard').
-pokemon_ability('vivillonsavanna', 'shield dust').
-pokemon_ability('vivillonsavanna', 'compound eyes').
-pokemon_ability('vivillonsavanna', 'friend guard').
-pokemon_ability('vivillonsun', 'shield dust').
-pokemon_ability('vivillonsun', 'compound eyes').
-pokemon_ability('vivillonsun', 'friend guard').
-pokemon_ability('vivillonocean', 'shield dust').
-pokemon_ability('vivillonocean', 'compound eyes').
-pokemon_ability('vivillonocean', 'friend guard').
-pokemon_ability('vivillonjungle', 'shield dust').
-pokemon_ability('vivillonjungle', 'compound eyes').
-pokemon_ability('vivillonjungle', 'friend guard').
-pokemon_ability('vivillonfancy', 'shield dust').
-pokemon_ability('vivillonfancy', 'compound eyes').
-pokemon_ability('vivillonfancy', 'friend guard').
-pokemon_ability('vivillonpokeball', 'shield dust').
-pokemon_ability('vivillonpokeball', 'compound eyes').
-pokemon_ability('vivillonpokeball', 'friend guard').
+pokemon_ability('diggersby', 'cheekpouch').
+pokemon_ability('diggersby', 'hugepower').
+pokemon_ability('fletchling', 'bigpecks').
+pokemon_ability('fletchling', 'galewings').
+pokemon_ability('fletchinder', 'flamebody').
+pokemon_ability('fletchinder', 'galewings').
+pokemon_ability('talonflame', 'flamebody').
+pokemon_ability('talonflame', 'galewings').
+pokemon_ability('scatterbug', 'shielddust').
+pokemon_ability('scatterbug', 'compoundeyes').
+pokemon_ability('scatterbug', 'friendguard').
+pokemon_ability('spewpa', 'shedskin').
+pokemon_ability('spewpa', 'friendguard').
+pokemon_ability('vivillon', 'shielddust').
+pokemon_ability('vivillon', 'compoundeyes').
+pokemon_ability('vivillon', 'friendguard').
+pokemon_ability('vivillonicysnow', 'shielddust').
+pokemon_ability('vivillonicysnow', 'compoundeyes').
+pokemon_ability('vivillonicysnow', 'friendguard').
+pokemon_ability('vivillonpolar', 'shielddust').
+pokemon_ability('vivillonpolar', 'compoundeyes').
+pokemon_ability('vivillonpolar', 'friendguard').
+pokemon_ability('vivillontundra', 'shielddust').
+pokemon_ability('vivillontundra', 'compoundeyes').
+pokemon_ability('vivillontundra', 'friendguard').
+pokemon_ability('vivilloncontinental', 'shielddust').
+pokemon_ability('vivilloncontinental', 'compoundeyes').
+pokemon_ability('vivilloncontinental', 'friendguard').
+pokemon_ability('vivillongarden', 'shielddust').
+pokemon_ability('vivillongarden', 'compoundeyes').
+pokemon_ability('vivillongarden', 'friendguard').
+pokemon_ability('vivillonelegant', 'shielddust').
+pokemon_ability('vivillonelegant', 'compoundeyes').
+pokemon_ability('vivillonelegant', 'friendguard').
+pokemon_ability('vivillonmodern', 'shielddust').
+pokemon_ability('vivillonmodern', 'compoundeyes').
+pokemon_ability('vivillonmodern', 'friendguard').
+pokemon_ability('vivillonmarine', 'shielddust').
+pokemon_ability('vivillonmarine', 'compoundeyes').
+pokemon_ability('vivillonmarine', 'friendguard').
+pokemon_ability('vivillonarchipelago', 'shielddust').
+pokemon_ability('vivillonarchipelago', 'compoundeyes').
+pokemon_ability('vivillonarchipelago', 'friendguard').
+pokemon_ability('vivillonhighplains', 'shielddust').
+pokemon_ability('vivillonhighplains', 'compoundeyes').
+pokemon_ability('vivillonhighplains', 'friendguard').
+pokemon_ability('vivillonsandstorm', 'shielddust').
+pokemon_ability('vivillonsandstorm', 'compoundeyes').
+pokemon_ability('vivillonsandstorm', 'friendguard').
+pokemon_ability('vivillonriver', 'shielddust').
+pokemon_ability('vivillonriver', 'compoundeyes').
+pokemon_ability('vivillonriver', 'friendguard').
+pokemon_ability('vivillonmonsoon', 'shielddust').
+pokemon_ability('vivillonmonsoon', 'compoundeyes').
+pokemon_ability('vivillonmonsoon', 'friendguard').
+pokemon_ability('vivillonsavanna', 'shielddust').
+pokemon_ability('vivillonsavanna', 'compoundeyes').
+pokemon_ability('vivillonsavanna', 'friendguard').
+pokemon_ability('vivillonsun', 'shielddust').
+pokemon_ability('vivillonsun', 'compoundeyes').
+pokemon_ability('vivillonsun', 'friendguard').
+pokemon_ability('vivillonocean', 'shielddust').
+pokemon_ability('vivillonocean', 'compoundeyes').
+pokemon_ability('vivillonocean', 'friendguard').
+pokemon_ability('vivillonjungle', 'shielddust').
+pokemon_ability('vivillonjungle', 'compoundeyes').
+pokemon_ability('vivillonjungle', 'friendguard').
+pokemon_ability('vivillonfancy', 'shielddust').
+pokemon_ability('vivillonfancy', 'compoundeyes').
+pokemon_ability('vivillonfancy', 'friendguard').
+pokemon_ability('vivillonpokeball', 'shielddust').
+pokemon_ability('vivillonpokeball', 'compoundeyes').
+pokemon_ability('vivillonpokeball', 'friendguard').
 pokemon_ability('litleo', 'rivalry').
 pokemon_ability('litleo', 'unnerve').
 pokemon_ability('litleo', 'moxie').
@@ -5846,115 +5846,115 @@ pokemon_ability('pyroar', 'rivalry').
 pokemon_ability('pyroar', 'unnerve').
 pokemon_ability('pyroar', 'moxie').
 pokemon_ability('pyroarmega', '').
-pokemon_ability('flabebe', 'flower veil').
+pokemon_ability('flabebe', 'flowerveil').
 pokemon_ability('flabebe', 'symbiosis').
-pokemon_ability('floette', 'flower veil').
+pokemon_ability('floette', 'flowerveil').
 pokemon_ability('floette', 'symbiosis').
-pokemon_ability('floetteeternal', 'flower veil').
+pokemon_ability('floetteeternal', 'flowerveil').
 pokemon_ability('floettemega', '').
-pokemon_ability('florges', 'flower veil').
+pokemon_ability('florges', 'flowerveil').
 pokemon_ability('florges', 'symbiosis').
-pokemon_ability('skiddo', 'sap sipper').
-pokemon_ability('skiddo', 'grass pelt').
-pokemon_ability('gogoat', 'sap sipper').
-pokemon_ability('gogoat', 'grass pelt').
-pokemon_ability('pancham', 'iron fist').
-pokemon_ability('pancham', 'mold breaker').
+pokemon_ability('skiddo', 'sapsipper').
+pokemon_ability('skiddo', 'grasspelt').
+pokemon_ability('gogoat', 'sapsipper').
+pokemon_ability('gogoat', 'grasspelt').
+pokemon_ability('pancham', 'ironfist').
+pokemon_ability('pancham', 'moldbreaker').
 pokemon_ability('pancham', 'scrappy').
-pokemon_ability('pangoro', 'iron fist').
-pokemon_ability('pangoro', 'mold breaker').
+pokemon_ability('pangoro', 'ironfist').
+pokemon_ability('pangoro', 'moldbreaker').
 pokemon_ability('pangoro', 'scrappy').
-pokemon_ability('furfrou', 'fur coat').
-pokemon_ability('espurr', 'keen eye').
+pokemon_ability('furfrou', 'furcoat').
+pokemon_ability('espurr', 'keeneye').
 pokemon_ability('espurr', 'infiltrator').
-pokemon_ability('espurr', 'own tempo').
-pokemon_ability('meowstic', 'keen eye').
+pokemon_ability('espurr', 'owntempo').
+pokemon_ability('meowstic', 'keeneye').
 pokemon_ability('meowstic', 'infiltrator').
 pokemon_ability('meowstic', 'prankster').
-pokemon_ability('meowsticf', 'keen eye').
+pokemon_ability('meowsticf', 'keeneye').
 pokemon_ability('meowsticf', 'infiltrator').
 pokemon_ability('meowsticf', 'competitive').
-pokemon_ability('honedge', 'no guard').
-pokemon_ability('doublade', 'no guard').
-pokemon_ability('aegislash', 'stance change').
-pokemon_ability('aegislashblade', 'stance change').
+pokemon_ability('honedge', 'noguard').
+pokemon_ability('doublade', 'noguard').
+pokemon_ability('aegislash', 'stancechange').
+pokemon_ability('aegislashblade', 'stancechange').
 pokemon_ability('spritzee', 'healer').
-pokemon_ability('spritzee', 'aroma veil').
+pokemon_ability('spritzee', 'aromaveil').
 pokemon_ability('aromatisse', 'healer').
-pokemon_ability('aromatisse', 'aroma veil').
-pokemon_ability('swirlix', 'sweet veil').
+pokemon_ability('aromatisse', 'aromaveil').
+pokemon_ability('swirlix', 'sweetveil').
 pokemon_ability('swirlix', 'unburden').
-pokemon_ability('slurpuff', 'sweet veil').
+pokemon_ability('slurpuff', 'sweetveil').
 pokemon_ability('slurpuff', 'unburden').
 pokemon_ability('inkay', 'contrary').
-pokemon_ability('inkay', 'suction cups').
+pokemon_ability('inkay', 'suctioncups').
 pokemon_ability('inkay', 'infiltrator').
 pokemon_ability('malamar', 'contrary').
-pokemon_ability('malamar', 'suction cups').
+pokemon_ability('malamar', 'suctioncups').
 pokemon_ability('malamar', 'infiltrator').
 pokemon_ability('malamarmega', '').
-pokemon_ability('binacle', 'tough claws').
+pokemon_ability('binacle', 'toughclaws').
 pokemon_ability('binacle', 'sniper').
 pokemon_ability('binacle', 'pickpocket').
-pokemon_ability('barbaracle', 'tough claws').
+pokemon_ability('barbaracle', 'toughclaws').
 pokemon_ability('barbaracle', 'sniper').
 pokemon_ability('barbaracle', 'pickpocket').
 pokemon_ability('barbaraclemega', '').
-pokemon_ability('skrelp', 'poison point').
-pokemon_ability('skrelp', 'poison touch').
+pokemon_ability('skrelp', 'poisonpoint').
+pokemon_ability('skrelp', 'poisontouch').
 pokemon_ability('skrelp', 'adaptability').
-pokemon_ability('dragalge', 'poison point').
-pokemon_ability('dragalge', 'poison touch').
+pokemon_ability('dragalge', 'poisonpoint').
+pokemon_ability('dragalge', 'poisontouch').
 pokemon_ability('dragalge', 'adaptability').
 pokemon_ability('dragalgemega', '').
-pokemon_ability('clauncher', 'mega launcher').
-pokemon_ability('clawitzer', 'mega launcher').
-pokemon_ability('helioptile', 'dry skin').
-pokemon_ability('helioptile', 'sand veil').
-pokemon_ability('helioptile', 'solar power').
-pokemon_ability('heliolisk', 'dry skin').
-pokemon_ability('heliolisk', 'sand veil').
-pokemon_ability('heliolisk', 'solar power').
-pokemon_ability('tyrunt', 'strong jaw').
+pokemon_ability('clauncher', 'megalauncher').
+pokemon_ability('clawitzer', 'megalauncher').
+pokemon_ability('helioptile', 'dryskin').
+pokemon_ability('helioptile', 'sandveil').
+pokemon_ability('helioptile', 'solarpower').
+pokemon_ability('heliolisk', 'dryskin').
+pokemon_ability('heliolisk', 'sandveil').
+pokemon_ability('heliolisk', 'solarpower').
+pokemon_ability('tyrunt', 'strongjaw').
 pokemon_ability('tyrunt', 'sturdy').
-pokemon_ability('tyrantrum', 'strong jaw').
-pokemon_ability('tyrantrum', 'rock head').
+pokemon_ability('tyrantrum', 'strongjaw').
+pokemon_ability('tyrantrum', 'rockhead').
 pokemon_ability('amaura', 'refrigerate').
-pokemon_ability('amaura', 'snow warning').
+pokemon_ability('amaura', 'snowwarning').
 pokemon_ability('aurorus', 'refrigerate').
-pokemon_ability('aurorus', 'snow warning').
-pokemon_ability('sylveon', 'cute charm').
+pokemon_ability('aurorus', 'snowwarning').
+pokemon_ability('sylveon', 'cutecharm').
 pokemon_ability('sylveon', 'pixilate').
 pokemon_ability('hawlucha', 'limber').
 pokemon_ability('hawlucha', 'unburden').
-pokemon_ability('hawlucha', 'mold breaker').
+pokemon_ability('hawlucha', 'moldbreaker').
 pokemon_ability('hawluchamega', '').
-pokemon_ability('dedenne', 'cheek pouch').
+pokemon_ability('dedenne', 'cheekpouch').
 pokemon_ability('dedenne', 'pickup').
 pokemon_ability('dedenne', 'plus').
-pokemon_ability('carbink', 'clear body').
+pokemon_ability('carbink', 'clearbody').
 pokemon_ability('carbink', 'sturdy').
-pokemon_ability('goomy', 'sap sipper').
+pokemon_ability('goomy', 'sapsipper').
 pokemon_ability('goomy', 'hydration').
 pokemon_ability('goomy', 'gooey').
-pokemon_ability('sliggoo', 'sap sipper').
+pokemon_ability('sliggoo', 'sapsipper').
 pokemon_ability('sliggoo', 'hydration').
 pokemon_ability('sliggoo', 'gooey').
-pokemon_ability('sliggoohisui', 'sap sipper').
-pokemon_ability('sliggoohisui', 'shell armor').
+pokemon_ability('sliggoohisui', 'sapsipper').
+pokemon_ability('sliggoohisui', 'shellarmor').
 pokemon_ability('sliggoohisui', 'gooey').
-pokemon_ability('goodra', 'sap sipper').
+pokemon_ability('goodra', 'sapsipper').
 pokemon_ability('goodra', 'hydration').
 pokemon_ability('goodra', 'gooey').
-pokemon_ability('goodrahisui', 'sap sipper').
-pokemon_ability('goodrahisui', 'shell armor').
+pokemon_ability('goodrahisui', 'sapsipper').
+pokemon_ability('goodrahisui', 'shellarmor').
 pokemon_ability('goodrahisui', 'gooey').
 pokemon_ability('klefki', 'prankster').
 pokemon_ability('klefki', 'magician').
-pokemon_ability('phantump', 'natural cure').
+pokemon_ability('phantump', 'naturalcure').
 pokemon_ability('phantump', 'frisk').
 pokemon_ability('phantump', 'harvest').
-pokemon_ability('trevenant', 'natural cure').
+pokemon_ability('trevenant', 'naturalcure').
 pokemon_ability('trevenant', 'frisk').
 pokemon_ability('trevenant', 'harvest').
 pokemon_ability('pumpkaboo', 'pickup').
@@ -5981,14 +5981,14 @@ pokemon_ability('gourgeistlarge', 'insomnia').
 pokemon_ability('gourgeistsuper', 'pickup').
 pokemon_ability('gourgeistsuper', 'frisk').
 pokemon_ability('gourgeistsuper', 'insomnia').
-pokemon_ability('bergmite', 'own tempo').
-pokemon_ability('bergmite', 'ice body').
+pokemon_ability('bergmite', 'owntempo').
+pokemon_ability('bergmite', 'icebody').
 pokemon_ability('bergmite', 'sturdy').
-pokemon_ability('avalugg', 'own tempo').
-pokemon_ability('avalugg', 'ice body').
+pokemon_ability('avalugg', 'owntempo').
+pokemon_ability('avalugg', 'icebody').
 pokemon_ability('avalugg', 'sturdy').
-pokemon_ability('avalugghisui', 'strong jaw').
-pokemon_ability('avalugghisui', 'ice body').
+pokemon_ability('avalugghisui', 'strongjaw').
+pokemon_ability('avalugghisui', 'icebody').
 pokemon_ability('avalugghisui', 'sturdy').
 pokemon_ability('noibat', 'frisk').
 pokemon_ability('noibat', 'infiltrator').
@@ -5996,26 +5996,26 @@ pokemon_ability('noibat', 'telepathy').
 pokemon_ability('noivern', 'frisk').
 pokemon_ability('noivern', 'infiltrator').
 pokemon_ability('noivern', 'telepathy').
-pokemon_ability('xerneas', 'fairy aura').
-pokemon_ability('xerneasneutral', 'fairy aura').
-pokemon_ability('yveltal', 'dark aura').
-pokemon_ability('zygarde', 'aura break').
-pokemon_ability('zygarde', 'power construct').
-pokemon_ability('zygarde10', 'aura break').
-pokemon_ability('zygarde10', 'power construct').
-pokemon_ability('zygardecomplete', 'power construct').
+pokemon_ability('xerneas', 'fairyaura').
+pokemon_ability('xerneasneutral', 'fairyaura').
+pokemon_ability('yveltal', 'darkaura').
+pokemon_ability('zygarde', 'aurabreak').
+pokemon_ability('zygarde', 'powerconstruct').
+pokemon_ability('zygarde10', 'aurabreak').
+pokemon_ability('zygarde10', 'powerconstruct').
+pokemon_ability('zygardecomplete', 'powerconstruct').
 pokemon_ability('zygardemega', '').
-pokemon_ability('diancie', 'clear body').
-pokemon_ability('dianciemega', 'magic bounce').
+pokemon_ability('diancie', 'clearbody').
+pokemon_ability('dianciemega', 'magicbounce').
 pokemon_ability('hoopa', 'magician').
 pokemon_ability('hoopaunbound', 'magician').
-pokemon_ability('volcanion', 'water absorb').
+pokemon_ability('volcanion', 'waterabsorb').
 pokemon_ability('rowlet', 'overgrow').
-pokemon_ability('rowlet', 'long reach').
+pokemon_ability('rowlet', 'longreach').
 pokemon_ability('dartrix', 'overgrow').
-pokemon_ability('dartrix', 'long reach').
+pokemon_ability('dartrix', 'longreach').
 pokemon_ability('decidueye', 'overgrow').
-pokemon_ability('decidueye', 'long reach').
+pokemon_ability('decidueye', 'longreach').
 pokemon_ability('decidueyehisui', 'overgrow').
 pokemon_ability('decidueyehisui', 'scrappy').
 pokemon_ability('litten', 'blaze').
@@ -6025,60 +6025,60 @@ pokemon_ability('torracat', 'intimidate').
 pokemon_ability('incineroar', 'blaze').
 pokemon_ability('incineroar', 'intimidate').
 pokemon_ability('popplio', 'torrent').
-pokemon_ability('popplio', 'liquid voice').
+pokemon_ability('popplio', 'liquidvoice').
 pokemon_ability('brionne', 'torrent').
-pokemon_ability('brionne', 'liquid voice').
+pokemon_ability('brionne', 'liquidvoice').
 pokemon_ability('primarina', 'torrent').
-pokemon_ability('primarina', 'liquid voice').
-pokemon_ability('pikipek', 'keen eye').
-pokemon_ability('pikipek', 'skill link').
+pokemon_ability('primarina', 'liquidvoice').
+pokemon_ability('pikipek', 'keeneye').
+pokemon_ability('pikipek', 'skilllink').
 pokemon_ability('pikipek', 'pickup').
-pokemon_ability('trumbeak', 'keen eye').
-pokemon_ability('trumbeak', 'skill link').
+pokemon_ability('trumbeak', 'keeneye').
+pokemon_ability('trumbeak', 'skilllink').
 pokemon_ability('trumbeak', 'pickup').
-pokemon_ability('toucannon', 'keen eye').
-pokemon_ability('toucannon', 'skill link').
-pokemon_ability('toucannon', 'sheer force').
+pokemon_ability('toucannon', 'keeneye').
+pokemon_ability('toucannon', 'skilllink').
+pokemon_ability('toucannon', 'sheerforce').
 pokemon_ability('yungoos', 'stakeout').
-pokemon_ability('yungoos', 'strong jaw').
+pokemon_ability('yungoos', 'strongjaw').
 pokemon_ability('yungoos', 'adaptability').
 pokemon_ability('gumshoos', 'stakeout').
-pokemon_ability('gumshoos', 'strong jaw').
+pokemon_ability('gumshoos', 'strongjaw').
 pokemon_ability('gumshoos', 'adaptability').
 pokemon_ability('gumshoostotem', 'adaptability').
 pokemon_ability('grubbin', 'swarm').
 pokemon_ability('charjabug', 'battery').
 pokemon_ability('vikavolt', 'levitate').
 pokemon_ability('vikavolttotem', 'levitate').
-pokemon_ability('crabrawler', 'hyper cutter').
-pokemon_ability('crabrawler', 'iron fist').
-pokemon_ability('crabrawler', 'anger point').
-pokemon_ability('crabominable', 'hyper cutter').
-pokemon_ability('crabominable', 'iron fist').
-pokemon_ability('crabominable', 'anger point').
+pokemon_ability('crabrawler', 'hypercutter').
+pokemon_ability('crabrawler', 'ironfist').
+pokemon_ability('crabrawler', 'angerpoint').
+pokemon_ability('crabominable', 'hypercutter').
+pokemon_ability('crabominable', 'ironfist').
+pokemon_ability('crabominable', 'angerpoint').
 pokemon_ability('oricorio', 'dancer').
 pokemon_ability('oricoriopompom', 'dancer').
 pokemon_ability('oricoriopau', 'dancer').
 pokemon_ability('oricoriosensu', 'dancer').
-pokemon_ability('cutiefly', 'honey gather').
-pokemon_ability('cutiefly', 'shield dust').
-pokemon_ability('cutiefly', 'sweet veil').
-pokemon_ability('ribombee', 'honey gather').
-pokemon_ability('ribombee', 'shield dust').
-pokemon_ability('ribombee', 'sweet veil').
-pokemon_ability('ribombeetotem', 'sweet veil').
-pokemon_ability('rockruff', 'keen eye').
-pokemon_ability('rockruff', 'vital spirit').
+pokemon_ability('cutiefly', 'honeygather').
+pokemon_ability('cutiefly', 'shielddust').
+pokemon_ability('cutiefly', 'sweetveil').
+pokemon_ability('ribombee', 'honeygather').
+pokemon_ability('ribombee', 'shielddust').
+pokemon_ability('ribombee', 'sweetveil').
+pokemon_ability('ribombeetotem', 'sweetveil').
+pokemon_ability('rockruff', 'keeneye').
+pokemon_ability('rockruff', 'vitalspirit').
 pokemon_ability('rockruff', 'steadfast').
-pokemon_ability('rockruff', 'own tempo').
-pokemon_ability('rockruffdusk', 'own tempo').
-pokemon_ability('lycanroc', 'keen eye').
-pokemon_ability('lycanroc', 'sand rush').
+pokemon_ability('rockruff', 'owntempo').
+pokemon_ability('rockruffdusk', 'owntempo').
+pokemon_ability('lycanroc', 'keeneye').
+pokemon_ability('lycanroc', 'sandrush').
 pokemon_ability('lycanroc', 'steadfast').
-pokemon_ability('lycanrocmidnight', 'keen eye').
-pokemon_ability('lycanrocmidnight', 'vital spirit').
-pokemon_ability('lycanrocmidnight', 'no guard').
-pokemon_ability('lycanrocdusk', 'tough claws').
+pokemon_ability('lycanrocmidnight', 'keeneye').
+pokemon_ability('lycanrocmidnight', 'vitalspirit').
+pokemon_ability('lycanrocmidnight', 'noguard').
+pokemon_ability('lycanrocdusk', 'toughclaws').
 pokemon_ability('wishiwashi', 'schooling').
 pokemon_ability('wishiwashischool', 'schooling').
 pokemon_ability('mareanie', 'merciless').
@@ -6087,28 +6087,28 @@ pokemon_ability('mareanie', 'regenerator').
 pokemon_ability('toxapex', 'merciless').
 pokemon_ability('toxapex', 'limber').
 pokemon_ability('toxapex', 'regenerator').
-pokemon_ability('mudbray', 'own tempo').
+pokemon_ability('mudbray', 'owntempo').
 pokemon_ability('mudbray', 'stamina').
-pokemon_ability('mudbray', 'inner focus').
-pokemon_ability('mudsdale', 'own tempo').
+pokemon_ability('mudbray', 'innerfocus').
+pokemon_ability('mudsdale', 'owntempo').
 pokemon_ability('mudsdale', 'stamina').
-pokemon_ability('mudsdale', 'inner focus').
-pokemon_ability('dewpider', 'water bubble').
-pokemon_ability('dewpider', 'water absorb').
-pokemon_ability('araquanid', 'water bubble').
-pokemon_ability('araquanid', 'water absorb').
-pokemon_ability('araquanidtotem', 'water bubble').
-pokemon_ability('fomantis', 'leaf guard').
+pokemon_ability('mudsdale', 'innerfocus').
+pokemon_ability('dewpider', 'waterbubble').
+pokemon_ability('dewpider', 'waterabsorb').
+pokemon_ability('araquanid', 'waterbubble').
+pokemon_ability('araquanid', 'waterabsorb').
+pokemon_ability('araquanidtotem', 'waterbubble').
+pokemon_ability('fomantis', 'leafguard').
 pokemon_ability('fomantis', 'contrary').
-pokemon_ability('lurantis', 'leaf guard').
+pokemon_ability('lurantis', 'leafguard').
 pokemon_ability('lurantis', 'contrary').
-pokemon_ability('lurantistotem', 'leaf guard').
+pokemon_ability('lurantistotem', 'leafguard').
 pokemon_ability('morelull', 'illuminate').
-pokemon_ability('morelull', 'effect spore').
-pokemon_ability('morelull', 'rain dish').
+pokemon_ability('morelull', 'effectspore').
+pokemon_ability('morelull', 'raindish').
 pokemon_ability('shiinotic', 'illuminate').
-pokemon_ability('shiinotic', 'effect spore').
-pokemon_ability('shiinotic', 'rain dish').
+pokemon_ability('shiinotic', 'effectspore').
+pokemon_ability('shiinotic', 'raindish').
 pokemon_ability('salandit', 'corrosion').
 pokemon_ability('salandit', 'oblivious').
 pokemon_ability('salazzle', 'corrosion').
@@ -6116,66 +6116,66 @@ pokemon_ability('salazzle', 'oblivious').
 pokemon_ability('salazzletotem', 'corrosion').
 pokemon_ability('stufful', 'fluffy').
 pokemon_ability('stufful', 'klutz').
-pokemon_ability('stufful', 'cute charm').
+pokemon_ability('stufful', 'cutecharm').
 pokemon_ability('bewear', 'fluffy').
 pokemon_ability('bewear', 'klutz').
 pokemon_ability('bewear', 'unnerve').
-pokemon_ability('bounsweet', 'leaf guard').
+pokemon_ability('bounsweet', 'leafguard').
 pokemon_ability('bounsweet', 'oblivious').
-pokemon_ability('bounsweet', 'sweet veil').
-pokemon_ability('steenee', 'leaf guard').
+pokemon_ability('bounsweet', 'sweetveil').
+pokemon_ability('steenee', 'leafguard').
 pokemon_ability('steenee', 'oblivious').
-pokemon_ability('steenee', 'sweet veil').
-pokemon_ability('tsareena', 'leaf guard').
-pokemon_ability('tsareena', 'queenly majesty').
-pokemon_ability('tsareena', 'sweet veil').
-pokemon_ability('comfey', 'flower veil').
+pokemon_ability('steenee', 'sweetveil').
+pokemon_ability('tsareena', 'leafguard').
+pokemon_ability('tsareena', 'queenlymajesty').
+pokemon_ability('tsareena', 'sweetveil').
+pokemon_ability('comfey', 'flowerveil').
 pokemon_ability('comfey', 'triage').
-pokemon_ability('comfey', 'natural cure').
-pokemon_ability('oranguru', 'inner focus').
+pokemon_ability('comfey', 'naturalcure').
+pokemon_ability('oranguru', 'innerfocus').
 pokemon_ability('oranguru', 'telepathy').
 pokemon_ability('oranguru', 'symbiosis').
 pokemon_ability('passimian', 'receiver').
 pokemon_ability('passimian', 'defiant').
-pokemon_ability('wimpod', 'wimp out').
-pokemon_ability('golisopod', 'emergency exit').
-pokemon_ability('sandygast', 'water compaction').
-pokemon_ability('sandygast', 'sand veil').
-pokemon_ability('palossand', 'water compaction').
-pokemon_ability('palossand', 'sand veil').
-pokemon_ability('pyukumuku', 'innards out').
+pokemon_ability('wimpod', 'wimpout').
+pokemon_ability('golisopod', 'emergencyexit').
+pokemon_ability('sandygast', 'watercompaction').
+pokemon_ability('sandygast', 'sandveil').
+pokemon_ability('palossand', 'watercompaction').
+pokemon_ability('palossand', 'sandveil').
+pokemon_ability('pyukumuku', 'innardsout').
 pokemon_ability('pyukumuku', 'unaware').
-pokemon_ability('typenull', 'battle armor').
-pokemon_ability('silvally', 'rks system').
-pokemon_ability('silvallybug', 'rks system').
-pokemon_ability('silvallydark', 'rks system').
-pokemon_ability('silvallydragon', 'rks system').
-pokemon_ability('silvallyelectric', 'rks system').
-pokemon_ability('silvallyfairy', 'rks system').
-pokemon_ability('silvallyfighting', 'rks system').
-pokemon_ability('silvallyfire', 'rks system').
-pokemon_ability('silvallyflying', 'rks system').
-pokemon_ability('silvallyghost', 'rks system').
-pokemon_ability('silvallygrass', 'rks system').
-pokemon_ability('silvallyground', 'rks system').
-pokemon_ability('silvallyice', 'rks system').
-pokemon_ability('silvallypoison', 'rks system').
-pokemon_ability('silvallypsychic', 'rks system').
-pokemon_ability('silvallyrock', 'rks system').
-pokemon_ability('silvallysteel', 'rks system').
-pokemon_ability('silvallywater', 'rks system').
-pokemon_ability('minior', 'shields down').
-pokemon_ability('miniororange', 'shields down').
-pokemon_ability('minioryellow', 'shields down').
-pokemon_ability('miniorgreen', 'shields down').
-pokemon_ability('miniorblue', 'shields down').
-pokemon_ability('miniorindigo', 'shields down').
-pokemon_ability('miniorviolet', 'shields down').
-pokemon_ability('miniormeteor', 'shields down').
+pokemon_ability('typenull', 'battlearmor').
+pokemon_ability('silvally', 'rkssystem').
+pokemon_ability('silvallybug', 'rkssystem').
+pokemon_ability('silvallydark', 'rkssystem').
+pokemon_ability('silvallydragon', 'rkssystem').
+pokemon_ability('silvallyelectric', 'rkssystem').
+pokemon_ability('silvallyfairy', 'rkssystem').
+pokemon_ability('silvallyfighting', 'rkssystem').
+pokemon_ability('silvallyfire', 'rkssystem').
+pokemon_ability('silvallyflying', 'rkssystem').
+pokemon_ability('silvallyghost', 'rkssystem').
+pokemon_ability('silvallygrass', 'rkssystem').
+pokemon_ability('silvallyground', 'rkssystem').
+pokemon_ability('silvallyice', 'rkssystem').
+pokemon_ability('silvallypoison', 'rkssystem').
+pokemon_ability('silvallypsychic', 'rkssystem').
+pokemon_ability('silvallyrock', 'rkssystem').
+pokemon_ability('silvallysteel', 'rkssystem').
+pokemon_ability('silvallywater', 'rkssystem').
+pokemon_ability('minior', 'shieldsdown').
+pokemon_ability('miniororange', 'shieldsdown').
+pokemon_ability('minioryellow', 'shieldsdown').
+pokemon_ability('miniorgreen', 'shieldsdown').
+pokemon_ability('miniorblue', 'shieldsdown').
+pokemon_ability('miniorindigo', 'shieldsdown').
+pokemon_ability('miniorviolet', 'shieldsdown').
+pokemon_ability('miniormeteor', 'shieldsdown').
 pokemon_ability('komala', 'comatose').
-pokemon_ability('turtonator', 'shell armor').
-pokemon_ability('togedemaru', 'iron barbs').
-pokemon_ability('togedemaru', 'lightning rod').
+pokemon_ability('turtonator', 'shellarmor').
+pokemon_ability('togedemaru', 'ironbarbs').
+pokemon_ability('togedemaru', 'lightningrod').
 pokemon_ability('togedemaru', 'sturdy').
 pokemon_ability('togedemarutotem', 'sturdy').
 pokemon_ability('mimikyu', 'disguise').
@@ -6183,11 +6183,11 @@ pokemon_ability('mimikyubusted', 'disguise').
 pokemon_ability('mimikyutotem', 'disguise').
 pokemon_ability('mimikyubustedtotem', 'disguise').
 pokemon_ability('bruxish', 'dazzling').
-pokemon_ability('bruxish', 'strong jaw').
-pokemon_ability('bruxish', 'wonder skin').
+pokemon_ability('bruxish', 'strongjaw').
+pokemon_ability('bruxish', 'wonderskin').
 pokemon_ability('drampa', 'berserk').
-pokemon_ability('drampa', 'sap sipper').
-pokemon_ability('drampa', 'cloud nine').
+pokemon_ability('drampa', 'sapsipper').
+pokemon_ability('drampa', 'cloudnine').
 pokemon_ability('drampamega', '').
 pokemon_ability('dhelmise', 'steelworker').
 pokemon_ability('jangmoo', 'bulletproof').
@@ -6200,48 +6200,48 @@ pokemon_ability('kommoo', 'bulletproof').
 pokemon_ability('kommoo', 'soundproof').
 pokemon_ability('kommoo', 'overcoat').
 pokemon_ability('kommoototem', 'overcoat').
-pokemon_ability('tapukoko', 'electric surge').
+pokemon_ability('tapukoko', 'electricsurge').
 pokemon_ability('tapukoko', 'telepathy').
-pokemon_ability('tapulele', 'psychic surge').
+pokemon_ability('tapulele', 'psychicsurge').
 pokemon_ability('tapulele', 'telepathy').
-pokemon_ability('tapubulu', 'grassy surge').
+pokemon_ability('tapubulu', 'grassysurge').
 pokemon_ability('tapubulu', 'telepathy').
-pokemon_ability('tapufini', 'misty surge').
+pokemon_ability('tapufini', 'mistysurge').
 pokemon_ability('tapufini', 'telepathy').
 pokemon_ability('cosmog', 'unaware').
 pokemon_ability('cosmoem', 'sturdy').
-pokemon_ability('solgaleo', 'full metal body').
-pokemon_ability('lunala', 'shadow shield').
-pokemon_ability('nihilego', 'beast boost').
-pokemon_ability('buzzwole', 'beast boost').
-pokemon_ability('pheromosa', 'beast boost').
-pokemon_ability('xurkitree', 'beast boost').
-pokemon_ability('celesteela', 'beast boost').
-pokemon_ability('kartana', 'beast boost').
-pokemon_ability('guzzlord', 'beast boost').
-pokemon_ability('necrozma', 'prism armor').
-pokemon_ability('necrozmaduskmane', 'prism armor').
-pokemon_ability('necrozmadawnwings', 'prism armor').
+pokemon_ability('solgaleo', 'fullmetal body').
+pokemon_ability('lunala', 'shadowshield').
+pokemon_ability('nihilego', 'beastboost').
+pokemon_ability('buzzwole', 'beastboost').
+pokemon_ability('pheromosa', 'beastboost').
+pokemon_ability('xurkitree', 'beastboost').
+pokemon_ability('celesteela', 'beastboost').
+pokemon_ability('kartana', 'beastboost').
+pokemon_ability('guzzlord', 'beastboost').
+pokemon_ability('necrozma', 'prismarmor').
+pokemon_ability('necrozmaduskmane', 'prismarmor').
+pokemon_ability('necrozmadawnwings', 'prismarmor').
 pokemon_ability('necrozmaultra', 'neuroforce').
 pokemon_ability('magearna', 'soul-heart').
 pokemon_ability('magearnaoriginal', 'soul-heart').
 pokemon_ability('marshadow', 'technician').
-pokemon_ability('poipole', 'beast boost').
-pokemon_ability('naganadel', 'beast boost').
-pokemon_ability('stakataka', 'beast boost').
-pokemon_ability('blacephalon', 'beast boost').
-pokemon_ability('zeraora', 'volt absorb').
-pokemon_ability('meltan', 'magnet pull').
-pokemon_ability('melmetal', 'iron fist').
-pokemon_ability('melmetalgmax', 'iron fist').
+pokemon_ability('poipole', 'beastboost').
+pokemon_ability('naganadel', 'beastboost').
+pokemon_ability('stakataka', 'beastboost').
+pokemon_ability('blacephalon', 'beastboost').
+pokemon_ability('zeraora', 'voltabsorb').
+pokemon_ability('meltan', 'magnetpull').
+pokemon_ability('melmetal', 'ironfist').
+pokemon_ability('melmetalgmax', 'ironfist').
 pokemon_ability('grookey', 'overgrow').
-pokemon_ability('grookey', 'grassy surge').
+pokemon_ability('grookey', 'grassysurge').
 pokemon_ability('thwackey', 'overgrow').
-pokemon_ability('thwackey', 'grassy surge').
+pokemon_ability('thwackey', 'grassysurge').
 pokemon_ability('rillaboom', 'overgrow').
-pokemon_ability('rillaboom', 'grassy surge').
+pokemon_ability('rillaboom', 'grassysurge').
 pokemon_ability('rillaboomgmax', 'overgrow').
-pokemon_ability('rillaboomgmax', 'grassy surge').
+pokemon_ability('rillaboomgmax', 'grassysurge').
 pokemon_ability('scorbunny', 'blaze').
 pokemon_ability('scorbunny', 'libero').
 pokemon_ability('raboot', 'blaze').
@@ -6258,27 +6258,27 @@ pokemon_ability('inteleon', 'torrent').
 pokemon_ability('inteleon', 'sniper').
 pokemon_ability('inteleongmax', 'torrent').
 pokemon_ability('inteleongmax', 'sniper').
-pokemon_ability('skwovet', 'cheek pouch').
+pokemon_ability('skwovet', 'cheekpouch').
 pokemon_ability('skwovet', 'gluttony').
-pokemon_ability('greedent', 'cheek pouch').
+pokemon_ability('greedent', 'cheekpouch').
 pokemon_ability('greedent', 'gluttony').
-pokemon_ability('rookidee', 'keen eye').
+pokemon_ability('rookidee', 'keeneye').
 pokemon_ability('rookidee', 'unnerve').
-pokemon_ability('rookidee', 'big pecks').
-pokemon_ability('corvisquire', 'keen eye').
+pokemon_ability('rookidee', 'bigpecks').
+pokemon_ability('corvisquire', 'keeneye').
 pokemon_ability('corvisquire', 'unnerve').
-pokemon_ability('corvisquire', 'big pecks').
+pokemon_ability('corvisquire', 'bigpecks').
 pokemon_ability('corviknight', 'pressure').
 pokemon_ability('corviknight', 'unnerve').
-pokemon_ability('corviknight', 'mirror armor').
+pokemon_ability('corviknight', 'mirrorarmor').
 pokemon_ability('corviknightgmax', 'pressure').
 pokemon_ability('corviknightgmax', 'unnerve').
-pokemon_ability('corviknightgmax', 'mirror armor').
+pokemon_ability('corviknightgmax', 'mirrorarmor').
 pokemon_ability('blipbug', 'swarm').
-pokemon_ability('blipbug', 'compound eyes').
+pokemon_ability('blipbug', 'compoundeyes').
 pokemon_ability('blipbug', 'telepathy').
 pokemon_ability('dottler', 'swarm').
-pokemon_ability('dottler', 'compound eyes').
+pokemon_ability('dottler', 'compoundeyes').
 pokemon_ability('dottler', 'telepathy').
 pokemon_ability('orbeetle', 'swarm').
 pokemon_ability('orbeetle', 'frisk').
@@ -6286,49 +6286,49 @@ pokemon_ability('orbeetle', 'telepathy').
 pokemon_ability('orbeetlegmax', 'swarm').
 pokemon_ability('orbeetlegmax', 'frisk').
 pokemon_ability('orbeetlegmax', 'telepathy').
-pokemon_ability('nickit', 'run away').
+pokemon_ability('nickit', 'runaway').
 pokemon_ability('nickit', 'unburden').
 pokemon_ability('nickit', 'stakeout').
-pokemon_ability('thievul', 'run away').
+pokemon_ability('thievul', 'runaway').
 pokemon_ability('thievul', 'unburden').
 pokemon_ability('thievul', 'stakeout').
-pokemon_ability('gossifleur', 'cotton down').
+pokemon_ability('gossifleur', 'cottondown').
 pokemon_ability('gossifleur', 'regenerator').
-pokemon_ability('gossifleur', 'effect spore').
-pokemon_ability('eldegoss', 'cotton down').
+pokemon_ability('gossifleur', 'effectspore').
+pokemon_ability('eldegoss', 'cottondown').
 pokemon_ability('eldegoss', 'regenerator').
-pokemon_ability('eldegoss', 'effect spore').
+pokemon_ability('eldegoss', 'effectspore').
 pokemon_ability('wooloo', 'fluffy').
-pokemon_ability('wooloo', 'run away').
+pokemon_ability('wooloo', 'runaway').
 pokemon_ability('wooloo', 'bulletproof').
 pokemon_ability('dubwool', 'fluffy').
 pokemon_ability('dubwool', 'steadfast').
 pokemon_ability('dubwool', 'bulletproof').
-pokemon_ability('chewtle', 'strong jaw').
-pokemon_ability('chewtle', 'shell armor').
-pokemon_ability('chewtle', 'swift swim').
-pokemon_ability('drednaw', 'strong jaw').
-pokemon_ability('drednaw', 'shell armor').
-pokemon_ability('drednaw', 'swift swim').
-pokemon_ability('drednawgmax', 'strong jaw').
-pokemon_ability('drednawgmax', 'shell armor').
-pokemon_ability('drednawgmax', 'swift swim').
-pokemon_ability('yamper', 'ball fetch').
+pokemon_ability('chewtle', 'strongjaw').
+pokemon_ability('chewtle', 'shellarmor').
+pokemon_ability('chewtle', 'swiftswim').
+pokemon_ability('drednaw', 'strongjaw').
+pokemon_ability('drednaw', 'shellarmor').
+pokemon_ability('drednaw', 'swiftswim').
+pokemon_ability('drednawgmax', 'strongjaw').
+pokemon_ability('drednawgmax', 'shellarmor').
+pokemon_ability('drednawgmax', 'swiftswim').
+pokemon_ability('yamper', 'ballfetch').
 pokemon_ability('yamper', 'rattled').
-pokemon_ability('boltund', 'strong jaw').
+pokemon_ability('boltund', 'strongjaw').
 pokemon_ability('boltund', 'competitive').
-pokemon_ability('rolycoly', 'steam engine').
+pokemon_ability('rolycoly', 'steamengine').
 pokemon_ability('rolycoly', 'heatproof').
-pokemon_ability('rolycoly', 'flash fire').
-pokemon_ability('carkol', 'steam engine').
-pokemon_ability('carkol', 'flame body').
-pokemon_ability('carkol', 'flash fire').
-pokemon_ability('coalossal', 'steam engine').
-pokemon_ability('coalossal', 'flame body').
-pokemon_ability('coalossal', 'flash fire').
-pokemon_ability('coalossalgmax', 'steam engine').
-pokemon_ability('coalossalgmax', 'flame body').
-pokemon_ability('coalossalgmax', 'flash fire').
+pokemon_ability('rolycoly', 'flashfire').
+pokemon_ability('carkol', 'steamengine').
+pokemon_ability('carkol', 'flamebody').
+pokemon_ability('carkol', 'flashfire').
+pokemon_ability('coalossal', 'steamengine').
+pokemon_ability('coalossal', 'flamebody').
+pokemon_ability('coalossal', 'flashfire').
+pokemon_ability('coalossalgmax', 'steamengine').
+pokemon_ability('coalossalgmax', 'flamebody').
+pokemon_ability('coalossalgmax', 'flashfire').
 pokemon_ability('applin', 'ripen').
 pokemon_ability('applin', 'gluttony').
 pokemon_ability('applin', 'bulletproof').
@@ -6340,74 +6340,74 @@ pokemon_ability('flapplegmax', 'gluttony').
 pokemon_ability('flapplegmax', 'hustle').
 pokemon_ability('appletun', 'ripen').
 pokemon_ability('appletun', 'gluttony').
-pokemon_ability('appletun', 'thick fat').
+pokemon_ability('appletun', 'thickfat').
 pokemon_ability('appletungmax', 'ripen').
 pokemon_ability('appletungmax', 'gluttony').
-pokemon_ability('appletungmax', 'thick fat').
-pokemon_ability('silicobra', 'sand spit').
-pokemon_ability('silicobra', 'shed skin').
-pokemon_ability('silicobra', 'sand veil').
-pokemon_ability('sandaconda', 'sand spit').
-pokemon_ability('sandaconda', 'shed skin').
-pokemon_ability('sandaconda', 'sand veil').
-pokemon_ability('sandacondagmax', 'sand spit').
-pokemon_ability('sandacondagmax', 'shed skin').
-pokemon_ability('sandacondagmax', 'sand veil').
-pokemon_ability('cramorant', 'gulp missile').
-pokemon_ability('cramorantgulping', 'gulp missile').
-pokemon_ability('cramorantgorging', 'gulp missile').
-pokemon_ability('arrokuda', 'swift swim').
-pokemon_ability('arrokuda', 'propeller tail').
-pokemon_ability('barraskewda', 'swift swim').
-pokemon_ability('barraskewda', 'propeller tail').
+pokemon_ability('appletungmax', 'thickfat').
+pokemon_ability('silicobra', 'sandspit').
+pokemon_ability('silicobra', 'shedskin').
+pokemon_ability('silicobra', 'sandveil').
+pokemon_ability('sandaconda', 'sandspit').
+pokemon_ability('sandaconda', 'shedskin').
+pokemon_ability('sandaconda', 'sandveil').
+pokemon_ability('sandacondagmax', 'sandspit').
+pokemon_ability('sandacondagmax', 'shedskin').
+pokemon_ability('sandacondagmax', 'sandveil').
+pokemon_ability('cramorant', 'gulpmissile').
+pokemon_ability('cramorantgulping', 'gulpmissile').
+pokemon_ability('cramorantgorging', 'gulpmissile').
+pokemon_ability('arrokuda', 'swiftswim').
+pokemon_ability('arrokuda', 'propellertail').
+pokemon_ability('barraskewda', 'swiftswim').
+pokemon_ability('barraskewda', 'propellertail').
 pokemon_ability('toxel', 'rattled').
 pokemon_ability('toxel', 'static').
 pokemon_ability('toxel', 'klutz').
-pokemon_ability('toxtricity', 'punk rock').
+pokemon_ability('toxtricity', 'punkrock').
 pokemon_ability('toxtricity', 'plus').
 pokemon_ability('toxtricity', 'technician').
-pokemon_ability('toxtricitylowkey', 'punk rock').
+pokemon_ability('toxtricitylowkey', 'punkrock').
 pokemon_ability('toxtricitylowkey', 'minus').
 pokemon_ability('toxtricitylowkey', 'technician').
-pokemon_ability('toxtricitygmax', 'punk rock').
+pokemon_ability('toxtricitygmax', 'punkrock').
 pokemon_ability('toxtricitygmax', 'plus').
 pokemon_ability('toxtricitygmax', 'technician').
-pokemon_ability('toxtricitylowkeygmax', 'punk rock').
+pokemon_ability('toxtricitylowkeygmax', 'punkrock').
 pokemon_ability('toxtricitylowkeygmax', 'minus').
 pokemon_ability('toxtricitylowkeygmax', 'technician').
-pokemon_ability('sizzlipede', 'flash fire').
-pokemon_ability('sizzlipede', 'white smoke').
-pokemon_ability('sizzlipede', 'flame body').
-pokemon_ability('centiskorch', 'flash fire').
-pokemon_ability('centiskorch', 'white smoke').
-pokemon_ability('centiskorch', 'flame body').
-pokemon_ability('centiskorchgmax', 'flash fire').
-pokemon_ability('centiskorchgmax', 'white smoke').
-pokemon_ability('centiskorchgmax', 'flame body').
+pokemon_ability('sizzlipede', 'flashfire').
+pokemon_ability('sizzlipede', 'whitesmoke').
+pokemon_ability('sizzlipede', 'flamebody').
+pokemon_ability('centiskorch', 'flashfire').
+pokemon_ability('centiskorch', 'whitesmoke').
+pokemon_ability('centiskorch', 'flamebody').
+pokemon_ability('centiskorchgmax', 'flashfire').
+pokemon_ability('centiskorchgmax', 'whitesmoke').
+pokemon_ability('centiskorchgmax', 'flamebody').
 pokemon_ability('clobbopus', 'limber').
 pokemon_ability('clobbopus', 'technician').
 pokemon_ability('grapploct', 'limber').
 pokemon_ability('grapploct', 'technician').
-pokemon_ability('sinistea', 'weak armor').
-pokemon_ability('sinistea', 'cursed body').
-pokemon_ability('sinisteaantique', 'weak armor').
-pokemon_ability('sinisteaantique', 'cursed body').
-pokemon_ability('polteageist', 'weak armor').
-pokemon_ability('polteageist', 'cursed body').
-pokemon_ability('polteageistantique', 'weak armor').
-pokemon_ability('polteageistantique', 'cursed body').
+pokemon_ability('sinistea', 'weakarmor').
+pokemon_ability('sinistea', 'cursedbody').
+pokemon_ability('sinisteaantique', 'weakarmor').
+pokemon_ability('sinisteaantique', 'cursedbody').
+pokemon_ability('polteageist', 'weakarmor').
+pokemon_ability('polteageist', 'cursedbody').
+pokemon_ability('polteageistantique', 'weakarmor').
+pokemon_ability('polteageistantique', 'cursedbody').
 pokemon_ability('hatenna', 'healer').
 pokemon_ability('hatenna', 'anticipation').
-pokemon_ability('hatenna', 'magic bounce').
+pokemon_ability('hatenna', 'magicbounce').
 pokemon_ability('hattrem', 'healer').
 pokemon_ability('hattrem', 'anticipation').
-pokemon_ability('hattrem', 'magic bounce').
+pokemon_ability('hattrem', 'magicbounce').
 pokemon_ability('hatterene', 'healer').
 pokemon_ability('hatterene', 'anticipation').
-pokemon_ability('hatterene', 'magic bounce').
+pokemon_ability('hatterene', 'magicbounce').
 pokemon_ability('hatterenegmax', 'healer').
 pokemon_ability('hatterenegmax', 'anticipation').
-pokemon_ability('hatterenegmax', 'magic bounce').
+pokemon_ability('hatterenegmax', 'magicbounce').
 pokemon_ability('impidimp', 'prankster').
 pokemon_ability('impidimp', 'frisk').
 pokemon_ability('impidimp', 'pickpocket').
@@ -6423,133 +6423,133 @@ pokemon_ability('grimmsnarlgmax', 'pickpocket').
 pokemon_ability('obstagoon', 'reckless').
 pokemon_ability('obstagoon', 'guts').
 pokemon_ability('obstagoon', 'defiant').
-pokemon_ability('perrserker', 'battle armor').
-pokemon_ability('perrserker', 'tough claws').
-pokemon_ability('perrserker', 'steely spirit').
-pokemon_ability('cursola', 'weak armor').
-pokemon_ability('cursola', 'perish body').
+pokemon_ability('perrserker', 'battlearmor').
+pokemon_ability('perrserker', 'toughclaws').
+pokemon_ability('perrserker', 'steelyspirit').
+pokemon_ability('cursola', 'weakarmor').
+pokemon_ability('cursola', 'perishbody').
 pokemon_ability('sirfetchd', 'steadfast').
 pokemon_ability('sirfetchd', 'scrappy').
-pokemon_ability('mrrime', 'tangled feet').
-pokemon_ability('mrrime', 'screen cleaner').
-pokemon_ability('mrrime', 'ice body').
-pokemon_ability('runerigus', 'wandering spirit').
-pokemon_ability('milcery', 'sweet veil').
-pokemon_ability('milcery', 'aroma veil').
-pokemon_ability('alcremie', 'sweet veil').
-pokemon_ability('alcremie', 'aroma veil').
-pokemon_ability('alcremierubycream', 'sweet veil').
-pokemon_ability('alcremierubycream', 'aroma veil').
-pokemon_ability('alcremiematchacream', 'sweet veil').
-pokemon_ability('alcremiematchacream', 'aroma veil').
-pokemon_ability('alcremiemintcream', 'sweet veil').
-pokemon_ability('alcremiemintcream', 'aroma veil').
-pokemon_ability('alcremielemoncream', 'sweet veil').
-pokemon_ability('alcremielemoncream', 'aroma veil').
-pokemon_ability('alcremierubyswirl', 'sweet veil').
-pokemon_ability('alcremierubyswirl', 'aroma veil').
-pokemon_ability('alcremiecaramelswirl', 'sweet veil').
-pokemon_ability('alcremiecaramelswirl', 'aroma veil').
-pokemon_ability('alcremierainbowswirl', 'sweet veil').
-pokemon_ability('alcremierainbowswirl', 'aroma veil').
-pokemon_ability('alcremiegmax', 'sweet veil').
-pokemon_ability('alcremiegmax', 'aroma veil').
-pokemon_ability('falinks', 'battle armor').
+pokemon_ability('mrrime', 'tangledfeet').
+pokemon_ability('mrrime', 'screencleaner').
+pokemon_ability('mrrime', 'icebody').
+pokemon_ability('runerigus', 'wanderingspirit').
+pokemon_ability('milcery', 'sweetveil').
+pokemon_ability('milcery', 'aromaveil').
+pokemon_ability('alcremie', 'sweetveil').
+pokemon_ability('alcremie', 'aromaveil').
+pokemon_ability('alcremierubycream', 'sweetveil').
+pokemon_ability('alcremierubycream', 'aromaveil').
+pokemon_ability('alcremiematchacream', 'sweetveil').
+pokemon_ability('alcremiematchacream', 'aromaveil').
+pokemon_ability('alcremiemintcream', 'sweetveil').
+pokemon_ability('alcremiemintcream', 'aromaveil').
+pokemon_ability('alcremielemoncream', 'sweetveil').
+pokemon_ability('alcremielemoncream', 'aromaveil').
+pokemon_ability('alcremierubyswirl', 'sweetveil').
+pokemon_ability('alcremierubyswirl', 'aromaveil').
+pokemon_ability('alcremiecaramelswirl', 'sweetveil').
+pokemon_ability('alcremiecaramelswirl', 'aromaveil').
+pokemon_ability('alcremierainbowswirl', 'sweetveil').
+pokemon_ability('alcremierainbowswirl', 'aromaveil').
+pokemon_ability('alcremiegmax', 'sweetveil').
+pokemon_ability('alcremiegmax', 'aromaveil').
+pokemon_ability('falinks', 'battlearmor').
 pokemon_ability('falinks', 'defiant').
 pokemon_ability('falinksmega', '').
-pokemon_ability('pincurchin', 'lightning rod').
-pokemon_ability('pincurchin', 'electric surge').
-pokemon_ability('snom', 'shield dust').
-pokemon_ability('snom', 'ice scales').
-pokemon_ability('frosmoth', 'shield dust').
-pokemon_ability('frosmoth', 'ice scales').
-pokemon_ability('stonjourner', 'power spot').
-pokemon_ability('eiscue', 'ice face').
-pokemon_ability('eiscuenoice', 'ice face').
-pokemon_ability('indeedee', 'inner focus').
+pokemon_ability('pincurchin', 'lightningrod').
+pokemon_ability('pincurchin', 'electricsurge').
+pokemon_ability('snom', 'shielddust').
+pokemon_ability('snom', 'icescales').
+pokemon_ability('frosmoth', 'shielddust').
+pokemon_ability('frosmoth', 'icescales').
+pokemon_ability('stonjourner', 'powerspot').
+pokemon_ability('eiscue', 'iceface').
+pokemon_ability('eiscuenoice', 'iceface').
+pokemon_ability('indeedee', 'innerfocus').
 pokemon_ability('indeedee', 'synchronize').
-pokemon_ability('indeedee', 'psychic surge').
-pokemon_ability('indeedeef', 'own tempo').
+pokemon_ability('indeedee', 'psychicsurge').
+pokemon_ability('indeedeef', 'owntempo').
 pokemon_ability('indeedeef', 'synchronize').
-pokemon_ability('indeedeef', 'psychic surge').
-pokemon_ability('morpeko', 'hunger switch').
-pokemon_ability('morpekohangry', 'hunger switch').
-pokemon_ability('cufant', 'sheer force').
-pokemon_ability('cufant', 'heavy metal').
-pokemon_ability('copperajah', 'sheer force').
-pokemon_ability('copperajah', 'heavy metal').
-pokemon_ability('copperajahgmax', 'sheer force').
-pokemon_ability('copperajahgmax', 'heavy metal').
-pokemon_ability('dracozolt', 'volt absorb').
+pokemon_ability('indeedeef', 'psychicsurge').
+pokemon_ability('morpeko', 'hungerswitch').
+pokemon_ability('morpekohangry', 'hungerswitch').
+pokemon_ability('cufant', 'sheerforce').
+pokemon_ability('cufant', 'heavymetal').
+pokemon_ability('copperajah', 'sheerforce').
+pokemon_ability('copperajah', 'heavymetal').
+pokemon_ability('copperajahgmax', 'sheerforce').
+pokemon_ability('copperajahgmax', 'heavymetal').
+pokemon_ability('dracozolt', 'voltabsorb').
 pokemon_ability('dracozolt', 'hustle').
-pokemon_ability('dracozolt', 'sand rush').
-pokemon_ability('arctozolt', 'volt absorb').
+pokemon_ability('dracozolt', 'sandrush').
+pokemon_ability('arctozolt', 'voltabsorb').
 pokemon_ability('arctozolt', 'static').
-pokemon_ability('arctozolt', 'slush rush').
-pokemon_ability('dracovish', 'water absorb').
-pokemon_ability('dracovish', 'strong jaw').
-pokemon_ability('dracovish', 'sand rush').
-pokemon_ability('arctovish', 'water absorb').
-pokemon_ability('arctovish', 'ice body').
-pokemon_ability('arctovish', 'slush rush').
-pokemon_ability('duraludon', 'light metal').
-pokemon_ability('duraludon', 'heavy metal').
+pokemon_ability('arctozolt', 'slushrush').
+pokemon_ability('dracovish', 'waterabsorb').
+pokemon_ability('dracovish', 'strongjaw').
+pokemon_ability('dracovish', 'sandrush').
+pokemon_ability('arctovish', 'waterabsorb').
+pokemon_ability('arctovish', 'icebody').
+pokemon_ability('arctovish', 'slushrush').
+pokemon_ability('duraludon', 'lightmetal').
+pokemon_ability('duraludon', 'heavymetal').
 pokemon_ability('duraludon', 'stalwart').
-pokemon_ability('duraludongmax', 'light metal').
-pokemon_ability('duraludongmax', 'heavy metal').
+pokemon_ability('duraludongmax', 'lightmetal').
+pokemon_ability('duraludongmax', 'heavymetal').
 pokemon_ability('duraludongmax', 'stalwart').
-pokemon_ability('dreepy', 'clear body').
+pokemon_ability('dreepy', 'clearbody').
 pokemon_ability('dreepy', 'infiltrator').
-pokemon_ability('dreepy', 'cursed body').
-pokemon_ability('drakloak', 'clear body').
+pokemon_ability('dreepy', 'cursedbody').
+pokemon_ability('drakloak', 'clearbody').
 pokemon_ability('drakloak', 'infiltrator').
-pokemon_ability('drakloak', 'cursed body').
-pokemon_ability('dragapult', 'clear body').
+pokemon_ability('drakloak', 'cursedbody').
+pokemon_ability('dragapult', 'clearbody').
 pokemon_ability('dragapult', 'infiltrator').
-pokemon_ability('dragapult', 'cursed body').
-pokemon_ability('zacian', 'intrepid sword').
-pokemon_ability('zaciancrowned', 'intrepid sword').
-pokemon_ability('zamazenta', 'dauntless shield').
-pokemon_ability('zamazentacrowned', 'dauntless shield').
+pokemon_ability('dragapult', 'cursedbody').
+pokemon_ability('zacian', 'intrepidsword').
+pokemon_ability('zaciancrowned', 'intrepidsword').
+pokemon_ability('zamazenta', 'dauntlessshield').
+pokemon_ability('zamazentacrowned', 'dauntlessshield').
 pokemon_ability('eternatus', 'pressure').
 pokemon_ability('eternatuseternamax', 'pressure').
-pokemon_ability('kubfu', 'inner focus').
-pokemon_ability('urshifu', 'unseen fist').
-pokemon_ability('urshifurapidstrike', 'unseen fist').
-pokemon_ability('urshifugmax', 'unseen fist').
-pokemon_ability('urshifurapidstrikegmax', 'unseen fist').
-pokemon_ability('zarude', 'leaf guard').
-pokemon_ability('zarudedada', 'leaf guard').
+pokemon_ability('kubfu', 'innerfocus').
+pokemon_ability('urshifu', 'unseenfist').
+pokemon_ability('urshifurapidstrike', 'unseenfist').
+pokemon_ability('urshifugmax', 'unseenfist').
+pokemon_ability('urshifurapidstrikegmax', 'unseenfist').
+pokemon_ability('zarude', 'leafguard').
+pokemon_ability('zarudedada', 'leafguard').
 pokemon_ability('regieleki', 'transistor').
-pokemon_ability('regidrago', 'dragon\'s maw').
-pokemon_ability('glastrier', 'chilling neigh').
-pokemon_ability('spectrier', 'grim neigh').
+pokemon_ability('regidrago', 'dragon\'smaw').
+pokemon_ability('glastrier', 'chillingneigh').
+pokemon_ability('spectrier', 'grimneigh').
 pokemon_ability('calyrex', 'unnerve').
-pokemon_ability('calyrexice', 'as one (glastrier)').
-pokemon_ability('calyrexshadow', 'as one (spectrier)').
+pokemon_ability('calyrexice', 'asone (glastrier)').
+pokemon_ability('calyrexshadow', 'asone (spectrier)').
 pokemon_ability('wyrdeer', 'intimidate').
 pokemon_ability('wyrdeer', 'frisk').
-pokemon_ability('wyrdeer', 'sap sipper').
+pokemon_ability('wyrdeer', 'sapsipper').
 pokemon_ability('kleavor', 'swarm').
-pokemon_ability('kleavor', 'sheer force').
+pokemon_ability('kleavor', 'sheerforce').
 pokemon_ability('kleavor', 'sharpness').
 pokemon_ability('ursaluna', 'guts').
 pokemon_ability('ursaluna', 'bulletproof').
 pokemon_ability('ursaluna', 'unnerve').
-pokemon_ability('ursalunabloodmoon', 'mind\'s eye').
-pokemon_ability('basculegion', 'swift swim').
+pokemon_ability('ursalunabloodmoon', 'mind\'seye').
+pokemon_ability('basculegion', 'swiftswim').
 pokemon_ability('basculegion', 'adaptability').
-pokemon_ability('basculegion', 'mold breaker').
-pokemon_ability('basculegionf', 'swift swim').
+pokemon_ability('basculegion', 'moldbreaker').
+pokemon_ability('basculegionf', 'swiftswim').
 pokemon_ability('basculegionf', 'adaptability').
-pokemon_ability('basculegionf', 'mold breaker').
+pokemon_ability('basculegionf', 'moldbreaker').
 pokemon_ability('sneasler', 'pressure').
 pokemon_ability('sneasler', 'unburden').
-pokemon_ability('sneasler', 'poison touch').
-pokemon_ability('overqwil', 'poison point').
-pokemon_ability('overqwil', 'swift swim').
+pokemon_ability('sneasler', 'poisontouch').
+pokemon_ability('overqwil', 'poisonpoint').
+pokemon_ability('overqwil', 'swiftswim').
 pokemon_ability('overqwil', 'intimidate').
-pokemon_ability('enamorus', 'cute charm').
+pokemon_ability('enamorus', 'cutecharm').
 pokemon_ability('enamorus', 'contrary').
 pokemon_ability('enamorustherian', 'overcoat').
 pokemon_ability('sprigatito', 'overgrow').
@@ -6570,50 +6570,50 @@ pokemon_ability('quaxwell', 'torrent').
 pokemon_ability('quaxwell', 'moxie').
 pokemon_ability('quaquaval', 'torrent').
 pokemon_ability('quaquaval', 'moxie').
-pokemon_ability('lechonk', 'aroma veil').
+pokemon_ability('lechonk', 'aromaveil').
 pokemon_ability('lechonk', 'gluttony').
-pokemon_ability('lechonk', 'thick fat').
-pokemon_ability('oinkologne', 'lingering aroma').
+pokemon_ability('lechonk', 'thickfat').
+pokemon_ability('oinkologne', 'lingeringaroma').
 pokemon_ability('oinkologne', 'gluttony').
-pokemon_ability('oinkologne', 'thick fat').
-pokemon_ability('oinkolognef', 'aroma veil').
+pokemon_ability('oinkologne', 'thickfat').
+pokemon_ability('oinkolognef', 'aromaveil').
 pokemon_ability('oinkolognef', 'gluttony').
-pokemon_ability('oinkolognef', 'thick fat').
+pokemon_ability('oinkolognef', 'thickfat').
 pokemon_ability('tarountula', 'insomnia').
 pokemon_ability('tarountula', 'stakeout').
 pokemon_ability('spidops', 'insomnia').
 pokemon_ability('spidops', 'stakeout').
 pokemon_ability('nymble', 'swarm').
-pokemon_ability('nymble', 'tinted lens').
+pokemon_ability('nymble', 'tintedlens').
 pokemon_ability('lokix', 'swarm').
-pokemon_ability('lokix', 'tinted lens').
+pokemon_ability('lokix', 'tintedlens').
 pokemon_ability('pawmi', 'static').
-pokemon_ability('pawmi', 'natural cure').
-pokemon_ability('pawmi', 'iron fist').
-pokemon_ability('pawmo', 'volt absorb').
-pokemon_ability('pawmo', 'natural cure').
-pokemon_ability('pawmo', 'iron fist').
-pokemon_ability('pawmot', 'volt absorb').
-pokemon_ability('pawmot', 'natural cure').
-pokemon_ability('pawmot', 'iron fist').
-pokemon_ability('tandemaus', 'run away').
+pokemon_ability('pawmi', 'naturalcure').
+pokemon_ability('pawmi', 'ironfist').
+pokemon_ability('pawmo', 'voltabsorb').
+pokemon_ability('pawmo', 'naturalcure').
+pokemon_ability('pawmo', 'ironfist').
+pokemon_ability('pawmot', 'voltabsorb').
+pokemon_ability('pawmot', 'naturalcure').
+pokemon_ability('pawmot', 'ironfist').
+pokemon_ability('tandemaus', 'runaway').
 pokemon_ability('tandemaus', 'pickup').
-pokemon_ability('tandemaus', 'own tempo').
-pokemon_ability('maushold', 'friend guard').
-pokemon_ability('maushold', 'cheek pouch').
+pokemon_ability('tandemaus', 'owntempo').
+pokemon_ability('maushold', 'friendguard').
+pokemon_ability('maushold', 'cheekpouch').
 pokemon_ability('maushold', 'technician').
-pokemon_ability('mausholdfour', 'friend guard').
-pokemon_ability('mausholdfour', 'cheek pouch').
+pokemon_ability('mausholdfour', 'friendguard').
+pokemon_ability('mausholdfour', 'cheekpouch').
 pokemon_ability('mausholdfour', 'technician').
-pokemon_ability('fidough', 'own tempo').
+pokemon_ability('fidough', 'owntempo').
 pokemon_ability('fidough', 'klutz').
-pokemon_ability('dachsbun', 'well-baked body').
-pokemon_ability('dachsbun', 'aroma veil').
-pokemon_ability('smoliv', 'early bird').
+pokemon_ability('dachsbun', 'well-bakedbody').
+pokemon_ability('dachsbun', 'aromaveil').
+pokemon_ability('smoliv', 'earlybird').
 pokemon_ability('smoliv', 'harvest').
-pokemon_ability('dolliv', 'early bird').
+pokemon_ability('dolliv', 'earlybird').
 pokemon_ability('dolliv', 'harvest').
-pokemon_ability('arboliva', 'seed sower').
+pokemon_ability('arboliva', 'seedsower').
 pokemon_ability('arboliva', 'harvest').
 pokemon_ability('squawkabilly', 'intimidate').
 pokemon_ability('squawkabilly', 'hustle').
@@ -6623,57 +6623,57 @@ pokemon_ability('squawkabillyblue', 'hustle').
 pokemon_ability('squawkabillyblue', 'guts').
 pokemon_ability('squawkabillyyellow', 'intimidate').
 pokemon_ability('squawkabillyyellow', 'hustle').
-pokemon_ability('squawkabillyyellow', 'sheer force').
+pokemon_ability('squawkabillyyellow', 'sheerforce').
 pokemon_ability('squawkabillywhite', 'intimidate').
 pokemon_ability('squawkabillywhite', 'hustle').
-pokemon_ability('squawkabillywhite', 'sheer force').
-pokemon_ability('nacli', 'purifying salt').
+pokemon_ability('squawkabillywhite', 'sheerforce').
+pokemon_ability('nacli', 'purifyingsalt').
 pokemon_ability('nacli', 'sturdy').
-pokemon_ability('nacli', 'clear body').
-pokemon_ability('naclstack', 'purifying salt').
+pokemon_ability('nacli', 'clearbody').
+pokemon_ability('naclstack', 'purifyingsalt').
 pokemon_ability('naclstack', 'sturdy').
-pokemon_ability('naclstack', 'clear body').
-pokemon_ability('garganacl', 'purifying salt').
+pokemon_ability('naclstack', 'clearbody').
+pokemon_ability('garganacl', 'purifyingsalt').
 pokemon_ability('garganacl', 'sturdy').
-pokemon_ability('garganacl', 'clear body').
-pokemon_ability('charcadet', 'flash fire').
-pokemon_ability('charcadet', 'flame body').
-pokemon_ability('armarouge', 'flash fire').
-pokemon_ability('armarouge', 'weak armor').
-pokemon_ability('ceruledge', 'flash fire').
-pokemon_ability('ceruledge', 'weak armor').
-pokemon_ability('tadbulb', 'own tempo').
+pokemon_ability('garganacl', 'clearbody').
+pokemon_ability('charcadet', 'flashfire').
+pokemon_ability('charcadet', 'flamebody').
+pokemon_ability('armarouge', 'flashfire').
+pokemon_ability('armarouge', 'weakarmor').
+pokemon_ability('ceruledge', 'flashfire').
+pokemon_ability('ceruledge', 'weakarmor').
+pokemon_ability('tadbulb', 'owntempo').
 pokemon_ability('tadbulb', 'static').
 pokemon_ability('tadbulb', 'damp').
 pokemon_ability('bellibolt', 'electromorphosis').
 pokemon_ability('bellibolt', 'static').
 pokemon_ability('bellibolt', 'damp').
-pokemon_ability('wattrel', 'wind power').
-pokemon_ability('wattrel', 'volt absorb').
+pokemon_ability('wattrel', 'windpower').
+pokemon_ability('wattrel', 'voltabsorb').
 pokemon_ability('wattrel', 'competitive').
-pokemon_ability('kilowattrel', 'wind power').
-pokemon_ability('kilowattrel', 'volt absorb').
+pokemon_ability('kilowattrel', 'windpower').
+pokemon_ability('kilowattrel', 'voltabsorb').
 pokemon_ability('kilowattrel', 'competitive').
 pokemon_ability('maschiff', 'intimidate').
-pokemon_ability('maschiff', 'run away').
+pokemon_ability('maschiff', 'runaway').
 pokemon_ability('maschiff', 'stakeout').
 pokemon_ability('mabosstiff', 'intimidate').
-pokemon_ability('mabosstiff', 'guard dog').
+pokemon_ability('mabosstiff', 'guarddog').
 pokemon_ability('mabosstiff', 'stakeout').
 pokemon_ability('shroodle', 'unburden').
 pokemon_ability('shroodle', 'pickpocket').
 pokemon_ability('shroodle', 'prankster').
 pokemon_ability('grafaiai', 'unburden').
-pokemon_ability('grafaiai', 'poison touch').
+pokemon_ability('grafaiai', 'poisontouch').
 pokemon_ability('grafaiai', 'prankster').
-pokemon_ability('bramblin', 'wind rider').
+pokemon_ability('bramblin', 'windrider').
 pokemon_ability('bramblin', 'infiltrator').
-pokemon_ability('brambleghast', 'wind rider').
+pokemon_ability('brambleghast', 'windrider').
 pokemon_ability('brambleghast', 'infiltrator').
-pokemon_ability('toedscool', 'mycelium might').
-pokemon_ability('toedscruel', 'mycelium might').
-pokemon_ability('klawf', 'anger shell').
-pokemon_ability('klawf', 'shell armor').
+pokemon_ability('toedscool', 'myceliummight').
+pokemon_ability('toedscruel', 'myceliummight').
+pokemon_ability('klawf', 'angershell').
+pokemon_ability('klawf', 'shellarmor').
 pokemon_ability('klawf', 'regenerator').
 pokemon_ability('capsakid', 'chlorophyll').
 pokemon_ability('capsakid', 'insomnia').
@@ -6681,90 +6681,90 @@ pokemon_ability('capsakid', 'klutz').
 pokemon_ability('scovillain', 'chlorophyll').
 pokemon_ability('scovillain', 'insomnia').
 pokemon_ability('scovillain', 'moody').
-pokemon_ability('rellor', 'compound eyes').
-pokemon_ability('rellor', 'shed skin').
+pokemon_ability('rellor', 'compoundeyes').
+pokemon_ability('rellor', 'shedskin').
 pokemon_ability('rabsca', 'synchronize').
 pokemon_ability('rabsca', 'telepathy').
 pokemon_ability('flittle', 'anticipation').
 pokemon_ability('flittle', 'frisk').
-pokemon_ability('flittle', 'speed boost').
+pokemon_ability('flittle', 'speedboost').
 pokemon_ability('espathra', 'opportunist').
 pokemon_ability('espathra', 'frisk').
-pokemon_ability('espathra', 'speed boost').
-pokemon_ability('tinkatink', 'mold breaker').
-pokemon_ability('tinkatink', 'own tempo').
+pokemon_ability('espathra', 'speedboost').
+pokemon_ability('tinkatink', 'moldbreaker').
+pokemon_ability('tinkatink', 'owntempo').
 pokemon_ability('tinkatink', 'pickpocket').
-pokemon_ability('tinkatuff', 'mold breaker').
-pokemon_ability('tinkatuff', 'own tempo').
+pokemon_ability('tinkatuff', 'moldbreaker').
+pokemon_ability('tinkatuff', 'owntempo').
 pokemon_ability('tinkatuff', 'pickpocket').
-pokemon_ability('tinkaton', 'mold breaker').
-pokemon_ability('tinkaton', 'own tempo').
+pokemon_ability('tinkaton', 'moldbreaker').
+pokemon_ability('tinkaton', 'owntempo').
 pokemon_ability('tinkaton', 'pickpocket').
 pokemon_ability('wiglett', 'gooey').
 pokemon_ability('wiglett', 'rattled').
-pokemon_ability('wiglett', 'sand veil').
+pokemon_ability('wiglett', 'sandveil').
 pokemon_ability('wugtrio', 'gooey').
 pokemon_ability('wugtrio', 'rattled').
-pokemon_ability('wugtrio', 'sand veil').
-pokemon_ability('bombirdier', 'big pecks').
-pokemon_ability('bombirdier', 'keen eye').
-pokemon_ability('bombirdier', 'rocky payload').
-pokemon_ability('finizen', 'water veil').
-pokemon_ability('palafin', 'zero to hero').
-pokemon_ability('palafinhero', 'zero to hero').
+pokemon_ability('wugtrio', 'sandveil').
+pokemon_ability('bombirdier', 'bigpecks').
+pokemon_ability('bombirdier', 'keeneye').
+pokemon_ability('bombirdier', 'rockypayload').
+pokemon_ability('finizen', 'waterveil').
+pokemon_ability('palafin', 'zeroto hero').
+pokemon_ability('palafinhero', 'zeroto hero').
 pokemon_ability('varoom', 'overcoat').
-pokemon_ability('varoom', 'slow start').
+pokemon_ability('varoom', 'slowstart').
 pokemon_ability('revavroom', 'overcoat').
 pokemon_ability('revavroom', 'filter').
-pokemon_ability('cyclizar', 'shed skin').
+pokemon_ability('cyclizar', 'shedskin').
 pokemon_ability('cyclizar', 'regenerator').
-pokemon_ability('orthworm', 'earth eater').
-pokemon_ability('orthworm', 'sand veil').
-pokemon_ability('glimmet', 'toxic debris').
+pokemon_ability('orthworm', 'eartheater').
+pokemon_ability('orthworm', 'sandveil').
+pokemon_ability('glimmet', 'toxicdebris').
 pokemon_ability('glimmet', 'corrosion').
-pokemon_ability('glimmora', 'toxic debris').
+pokemon_ability('glimmora', 'toxicdebris').
 pokemon_ability('glimmora', 'corrosion').
 pokemon_ability('greavard', 'pickup').
 pokemon_ability('greavard', 'fluffy').
-pokemon_ability('houndstone', 'sand rush').
+pokemon_ability('houndstone', 'sandrush').
 pokemon_ability('houndstone', 'fluffy').
 pokemon_ability('flamigo', 'scrappy').
-pokemon_ability('flamigo', 'tangled feet').
+pokemon_ability('flamigo', 'tangledfeet').
 pokemon_ability('flamigo', 'costar').
-pokemon_ability('cetoddle', 'thick fat').
-pokemon_ability('cetoddle', 'snow cloak').
-pokemon_ability('cetoddle', 'sheer force').
-pokemon_ability('cetitan', 'thick fat').
-pokemon_ability('cetitan', 'slush rush').
-pokemon_ability('cetitan', 'sheer force').
-pokemon_ability('veluza', 'mold breaker').
+pokemon_ability('cetoddle', 'thickfat').
+pokemon_ability('cetoddle', 'snowcloak').
+pokemon_ability('cetoddle', 'sheerforce').
+pokemon_ability('cetitan', 'thickfat').
+pokemon_ability('cetitan', 'slushrush').
+pokemon_ability('cetitan', 'sheerforce').
+pokemon_ability('veluza', 'moldbreaker').
 pokemon_ability('veluza', 'sharpness').
 pokemon_ability('dondozo', 'unaware').
 pokemon_ability('dondozo', 'oblivious').
-pokemon_ability('dondozo', 'water veil').
+pokemon_ability('dondozo', 'waterveil').
 pokemon_ability('tatsugiri', 'commander').
-pokemon_ability('tatsugiri', 'storm drain').
+pokemon_ability('tatsugiri', 'stormdrain').
 pokemon_ability('tatsugiridroopy', 'commander').
-pokemon_ability('tatsugiridroopy', 'storm drain').
+pokemon_ability('tatsugiridroopy', 'stormdrain').
 pokemon_ability('tatsugiristretchy', 'commander').
-pokemon_ability('tatsugiristretchy', 'storm drain').
-pokemon_ability('annihilape', 'vital spirit').
-pokemon_ability('annihilape', 'inner focus').
+pokemon_ability('tatsugiristretchy', 'stormdrain').
+pokemon_ability('annihilape', 'vitalspirit').
+pokemon_ability('annihilape', 'innerfocus').
 pokemon_ability('annihilape', 'defiant').
-pokemon_ability('clodsire', 'poison point').
-pokemon_ability('clodsire', 'water absorb').
+pokemon_ability('clodsire', 'poisonpoint').
+pokemon_ability('clodsire', 'waterabsorb').
 pokemon_ability('clodsire', 'unaware').
-pokemon_ability('farigiraf', 'cud chew').
-pokemon_ability('farigiraf', 'armor tail').
-pokemon_ability('farigiraf', 'sap sipper').
-pokemon_ability('dudunsparce', 'serene grace').
-pokemon_ability('dudunsparce', 'run away').
+pokemon_ability('farigiraf', 'cudchew').
+pokemon_ability('farigiraf', 'armortail').
+pokemon_ability('farigiraf', 'sapsipper').
+pokemon_ability('dudunsparce', 'serenegrace').
+pokemon_ability('dudunsparce', 'runaway').
 pokemon_ability('dudunsparce', 'rattled').
-pokemon_ability('dudunsparcethreesegment', 'serene grace').
-pokemon_ability('dudunsparcethreesegment', 'run away').
+pokemon_ability('dudunsparcethreesegment', 'serenegrace').
+pokemon_ability('dudunsparcethreesegment', 'runaway').
 pokemon_ability('dudunsparcethreesegment', 'rattled').
 pokemon_ability('kingambit', 'defiant').
-pokemon_ability('kingambit', 'supreme overlord').
+pokemon_ability('kingambit', 'supremeoverlord').
 pokemon_ability('kingambit', 'pressure').
 pokemon_ability('greattusk', 'protosynthesis').
 pokemon_ability('screamtail', 'protosynthesis').
@@ -6772,34 +6772,34 @@ pokemon_ability('brutebonnet', 'protosynthesis').
 pokemon_ability('fluttermane', 'protosynthesis').
 pokemon_ability('slitherwing', 'protosynthesis').
 pokemon_ability('sandyshocks', 'protosynthesis').
-pokemon_ability('irontreads', 'quark drive').
-pokemon_ability('ironbundle', 'quark drive').
-pokemon_ability('ironhands', 'quark drive').
-pokemon_ability('ironjugulis', 'quark drive').
-pokemon_ability('ironmoth', 'quark drive').
-pokemon_ability('ironthorns', 'quark drive').
-pokemon_ability('frigibax', 'thermal exchange').
-pokemon_ability('frigibax', 'ice body').
-pokemon_ability('arctibax', 'thermal exchange').
-pokemon_ability('arctibax', 'ice body').
-pokemon_ability('baxcalibur', 'thermal exchange').
-pokemon_ability('baxcalibur', 'ice body').
+pokemon_ability('irontreads', 'quarkdrive').
+pokemon_ability('ironbundle', 'quarkdrive').
+pokemon_ability('ironhands', 'quarkdrive').
+pokemon_ability('ironjugulis', 'quarkdrive').
+pokemon_ability('ironmoth', 'quarkdrive').
+pokemon_ability('ironthorns', 'quarkdrive').
+pokemon_ability('frigibax', 'thermalexchange').
+pokemon_ability('frigibax', 'icebody').
+pokemon_ability('arctibax', 'thermalexchange').
+pokemon_ability('arctibax', 'icebody').
+pokemon_ability('baxcalibur', 'thermalexchange').
+pokemon_ability('baxcalibur', 'icebody').
 pokemon_ability('gimmighoul', 'rattled').
-pokemon_ability('gimmighoulroaming', 'run away').
-pokemon_ability('gholdengo', 'good as gold').
-pokemon_ability('wochien', 'tablets of ruin').
-pokemon_ability('chienpao', 'sword of ruin').
-pokemon_ability('tinglu', 'vessel of ruin').
-pokemon_ability('chiyu', 'beads of ruin').
+pokemon_ability('gimmighoulroaming', 'runaway').
+pokemon_ability('gholdengo', 'goodas gold').
+pokemon_ability('wochien', 'tabletsof ruin').
+pokemon_ability('chienpao', 'swordof ruin').
+pokemon_ability('tinglu', 'vesselof ruin').
+pokemon_ability('chiyu', 'beadsof ruin').
 pokemon_ability('roaringmoon', 'protosynthesis').
-pokemon_ability('ironvaliant', 'quark drive').
-pokemon_ability('koraidon', 'orichalcum pulse').
-pokemon_ability('miraidon', 'hadron engine').
+pokemon_ability('ironvaliant', 'quarkdrive').
+pokemon_ability('koraidon', 'orichalcumpulse').
+pokemon_ability('miraidon', 'hadronengine').
 pokemon_ability('walkingwake', 'protosynthesis').
-pokemon_ability('ironleaves', 'quark drive').
-pokemon_ability('dipplin', 'supersweet syrup').
+pokemon_ability('ironleaves', 'quarkdrive').
+pokemon_ability('dipplin', 'supersweetsyrup').
 pokemon_ability('dipplin', 'gluttony').
-pokemon_ability('dipplin', 'sticky hold').
+pokemon_ability('dipplin', 'stickyhold').
 pokemon_ability('poltchageist', 'hospitality').
 pokemon_ability('poltchageist', 'heatproof').
 pokemon_ability('poltchageistartisan', 'hospitality').
@@ -6808,61 +6808,61 @@ pokemon_ability('sinistcha', 'hospitality').
 pokemon_ability('sinistcha', 'heatproof').
 pokemon_ability('sinistchamasterpiece', 'hospitality').
 pokemon_ability('sinistchamasterpiece', 'heatproof').
-pokemon_ability('okidogi', 'toxic chain').
-pokemon_ability('okidogi', 'guard dog').
-pokemon_ability('munkidori', 'toxic chain').
+pokemon_ability('okidogi', 'toxicchain').
+pokemon_ability('okidogi', 'guarddog').
+pokemon_ability('munkidori', 'toxicchain').
 pokemon_ability('munkidori', 'frisk').
-pokemon_ability('fezandipiti', 'toxic chain').
+pokemon_ability('fezandipiti', 'toxicchain').
 pokemon_ability('fezandipiti', 'technician').
 pokemon_ability('ogerpon', 'defiant').
-pokemon_ability('ogerponwellspring', 'water absorb').
-pokemon_ability('ogerponhearthflame', 'mold breaker').
+pokemon_ability('ogerponwellspring', 'waterabsorb').
+pokemon_ability('ogerponhearthflame', 'moldbreaker').
 pokemon_ability('ogerponcornerstone', 'sturdy').
-pokemon_ability('ogerpontealtera', 'embody aspect (teal)').
-pokemon_ability('ogerponwellspringtera', 'embody aspect (wellspring)').
-pokemon_ability('ogerponhearthflametera', 'embody aspect (hearthflame)').
-pokemon_ability('ogerponcornerstonetera', 'embody aspect (cornerstone)').
+pokemon_ability('ogerpontealtera', 'embodyaspect (teal)').
+pokemon_ability('ogerponwellspringtera', 'embodyaspect (wellspring)').
+pokemon_ability('ogerponhearthflametera', 'embodyaspect (hearthflame)').
+pokemon_ability('ogerponcornerstonetera', 'embodyaspect (cornerstone)').
 pokemon_ability('archaludon', 'stamina').
 pokemon_ability('archaludon', 'sturdy').
 pokemon_ability('archaludon', 'stalwart').
-pokemon_ability('hydrapple', 'supersweet syrup').
+pokemon_ability('hydrapple', 'supersweetsyrup').
 pokemon_ability('hydrapple', 'regenerator').
-pokemon_ability('hydrapple', 'sticky hold').
+pokemon_ability('hydrapple', 'stickyhold').
 pokemon_ability('gougingfire', 'protosynthesis').
 pokemon_ability('ragingbolt', 'protosynthesis').
-pokemon_ability('ironboulder', 'quark drive').
-pokemon_ability('ironcrown', 'quark drive').
-pokemon_ability('terapagos', 'tera shift').
-pokemon_ability('terapagosterastal', 'tera shell').
-pokemon_ability('terapagosstellar', 'teraform zero').
-pokemon_ability('pecharunt', 'poison puppeteer').
+pokemon_ability('ironboulder', 'quarkdrive').
+pokemon_ability('ironcrown', 'quarkdrive').
+pokemon_ability('terapagos', 'terashift').
+pokemon_ability('terapagosterastal', 'terashell').
+pokemon_ability('terapagosstellar', 'teraformzero').
+pokemon_ability('pecharunt', 'poisonpuppeteer').
 pokemon_ability('missingno', '').
-pokemon_ability('syclar', 'compound eyes').
-pokemon_ability('syclar', 'snow cloak').
-pokemon_ability('syclar', 'ice body').
-pokemon_ability('syclant', 'compound eyes').
+pokemon_ability('syclar', 'compoundeyes').
+pokemon_ability('syclar', 'snowcloak').
+pokemon_ability('syclar', 'icebody').
+pokemon_ability('syclant', 'compoundeyes').
 pokemon_ability('syclant', 'mountaineer').
-pokemon_ability('syclant', 'ice body').
-pokemon_ability('revenankh', 'air lock').
+pokemon_ability('syclant', 'icebody').
+pokemon_ability('revenankh', 'airlock').
 pokemon_ability('revenankh', 'triage').
-pokemon_ability('revenankh', 'shed skin').
+pokemon_ability('revenankh', 'shedskin').
 pokemon_ability('embirch', 'reckless').
-pokemon_ability('embirch', 'leaf guard').
+pokemon_ability('embirch', 'leafguard').
 pokemon_ability('embirch', 'chlorophyll').
-pokemon_ability('flarelm', 'rock head').
-pokemon_ability('flarelm', 'battle armor').
-pokemon_ability('flarelm', 'white smoke').
-pokemon_ability('pyroak', 'rock head').
-pokemon_ability('pyroak', 'battle armor').
+pokemon_ability('flarelm', 'rockhead').
+pokemon_ability('flarelm', 'battlearmor').
+pokemon_ability('flarelm', 'whitesmoke').
+pokemon_ability('pyroak', 'rockhead').
+pokemon_ability('pyroak', 'battlearmor').
 pokemon_ability('pyroak', 'contrary').
 pokemon_ability('breezi', 'unburden').
-pokemon_ability('breezi', 'own tempo').
+pokemon_ability('breezi', 'owntempo').
 pokemon_ability('breezi', 'frisk').
 pokemon_ability('fidgit', 'persistent').
-pokemon_ability('fidgit', 'vital spirit').
+pokemon_ability('fidgit', 'vitalspirit').
 pokemon_ability('fidgit', 'frisk').
 pokemon_ability('rebble', 'levitate').
-pokemon_ability('rebble', 'solid rock').
+pokemon_ability('rebble', 'solidrock').
 pokemon_ability('rebble', 'sniper').
 pokemon_ability('tactite', 'levitate').
 pokemon_ability('tactite', 'technician').
@@ -6877,24 +6877,24 @@ pokemon_ability('arghonaut', 'technician').
 pokemon_ability('kitsunoh', 'frisk').
 pokemon_ability('kitsunoh', 'limber').
 pokemon_ability('kitsunoh', 'trace').
-pokemon_ability('cyclohm', 'shield dust').
+pokemon_ability('cyclohm', 'shielddust').
 pokemon_ability('cyclohm', 'static').
 pokemon_ability('cyclohm', 'damp').
 pokemon_ability('colossoil', 'rebound').
 pokemon_ability('colossoil', 'guts').
 pokemon_ability('colossoil', 'unnerve').
 pokemon_ability('krilowatt', 'trace').
-pokemon_ability('krilowatt', 'magic guard').
+pokemon_ability('krilowatt', 'magicguard').
 pokemon_ability('krilowatt', 'minus').
-pokemon_ability('voodoll', 'volt absorb').
-pokemon_ability('voodoll', 'lightning rod').
-pokemon_ability('voodoll', 'cursed body').
-pokemon_ability('voodoom', 'volt absorb').
-pokemon_ability('voodoom', 'lightning rod').
-pokemon_ability('voodoom', 'cursed body').
+pokemon_ability('voodoll', 'voltabsorb').
+pokemon_ability('voodoll', 'lightningrod').
+pokemon_ability('voodoll', 'cursedbody').
+pokemon_ability('voodoom', 'voltabsorb').
+pokemon_ability('voodoom', 'lightningrod').
+pokemon_ability('voodoom', 'cursedbody').
 pokemon_ability('scratchet', 'scrappy').
 pokemon_ability('scratchet', 'prankster').
-pokemon_ability('scratchet', 'vital spirit').
+pokemon_ability('scratchet', 'vitalspirit').
 pokemon_ability('tomohawk', 'intimidate').
 pokemon_ability('tomohawk', 'prankster').
 pokemon_ability('tomohawk', 'justified').
@@ -6902,69 +6902,69 @@ pokemon_ability('necturine', 'anticipation').
 pokemon_ability('necturine', 'telepathy').
 pokemon_ability('necturna', 'forewarn').
 pokemon_ability('necturna', 'telepathy').
-pokemon_ability('mollux', 'dry skin').
+pokemon_ability('mollux', 'dryskin').
 pokemon_ability('mollux', 'illuminate').
-pokemon_ability('cupra', 'shield dust').
-pokemon_ability('cupra', 'keen eye').
-pokemon_ability('cupra', 'magic guard').
-pokemon_ability('argalis', 'shed skin').
-pokemon_ability('argalis', 'compound eyes').
+pokemon_ability('cupra', 'shielddust').
+pokemon_ability('cupra', 'keeneye').
+pokemon_ability('cupra', 'magicguard').
+pokemon_ability('argalis', 'shedskin').
+pokemon_ability('argalis', 'compoundeyes').
 pokemon_ability('argalis', 'overcoat').
-pokemon_ability('aurumoth', 'weak armor').
-pokemon_ability('aurumoth', 'no guard').
-pokemon_ability('aurumoth', 'light metal').
+pokemon_ability('aurumoth', 'weakarmor').
+pokemon_ability('aurumoth', 'noguard').
+pokemon_ability('aurumoth', 'lightmetal').
 pokemon_ability('brattler', 'harvest').
 pokemon_ability('brattler', 'infiltrator').
 pokemon_ability('brattler', 'rattled').
 pokemon_ability('malaconda', 'harvest').
 pokemon_ability('malaconda', 'infiltrator').
 pokemon_ability('malaconda', 'drought').
-pokemon_ability('cawdet', 'keen eye').
-pokemon_ability('cawdet', 'volt absorb').
-pokemon_ability('cawdet', 'big pecks').
+pokemon_ability('cawdet', 'keeneye').
+pokemon_ability('cawdet', 'voltabsorb').
+pokemon_ability('cawdet', 'bigpecks').
 pokemon_ability('cawmodore', 'intimidate').
-pokemon_ability('cawmodore', 'volt absorb').
-pokemon_ability('cawmodore', 'big pecks').
+pokemon_ability('cawmodore', 'voltabsorb').
+pokemon_ability('cawmodore', 'bigpecks').
 pokemon_ability('volkritter', 'anticipation').
 pokemon_ability('volkritter', 'infiltrator').
 pokemon_ability('volkritter', 'unnerve').
 pokemon_ability('volkraken', 'analytic').
 pokemon_ability('volkraken', 'infiltrator').
 pokemon_ability('volkraken', 'pressure').
-pokemon_ability('snugglow', 'storm drain').
-pokemon_ability('snugglow', 'vital spirit').
+pokemon_ability('snugglow', 'stormdrain').
+pokemon_ability('snugglow', 'vitalspirit').
 pokemon_ability('snugglow', 'telepathy').
-pokemon_ability('plasmanta', 'storm drain').
-pokemon_ability('plasmanta', 'vital spirit').
+pokemon_ability('plasmanta', 'stormdrain').
+pokemon_ability('plasmanta', 'vitalspirit').
 pokemon_ability('plasmanta', 'telepathy').
-pokemon_ability('floatoy', 'water veil').
+pokemon_ability('floatoy', 'waterveil').
 pokemon_ability('floatoy', 'heatproof').
-pokemon_ability('floatoy', 'swift swim').
-pokemon_ability('caimanoe', 'water veil').
+pokemon_ability('floatoy', 'swiftswim').
+pokemon_ability('caimanoe', 'waterveil').
 pokemon_ability('caimanoe', 'heatproof').
-pokemon_ability('caimanoe', 'light metal').
+pokemon_ability('caimanoe', 'lightmetal').
 pokemon_ability('naviathan', 'guts').
 pokemon_ability('naviathan', 'heatproof').
-pokemon_ability('naviathan', 'light metal').
+pokemon_ability('naviathan', 'lightmetal').
 pokemon_ability('crucibelle', 'regenerator').
-pokemon_ability('crucibelle', 'mold breaker').
-pokemon_ability('crucibelle', 'liquid ooze').
-pokemon_ability('crucibellemega', 'magic guard').
-pokemon_ability('pluffle', 'natural cure').
-pokemon_ability('pluffle', 'aroma veil').
-pokemon_ability('pluffle', 'friend guard').
-pokemon_ability('kerfluffle', 'natural cure').
-pokemon_ability('kerfluffle', 'aroma veil').
-pokemon_ability('kerfluffle', 'friend guard').
+pokemon_ability('crucibelle', 'moldbreaker').
+pokemon_ability('crucibelle', 'liquidooze').
+pokemon_ability('crucibellemega', 'magicguard').
+pokemon_ability('pluffle', 'naturalcure').
+pokemon_ability('pluffle', 'aromaveil').
+pokemon_ability('pluffle', 'friendguard').
+pokemon_ability('kerfluffle', 'naturalcure').
+pokemon_ability('kerfluffle', 'aromaveil').
+pokemon_ability('kerfluffle', 'friendguard').
 pokemon_ability('pajantom', 'comatose').
 pokemon_ability('mumbao', 'trace').
 pokemon_ability('mumbao', 'overcoat').
-pokemon_ability('mumbao', 'solar power').
+pokemon_ability('mumbao', 'solarpower').
 pokemon_ability('jumbao', 'trace').
 pokemon_ability('jumbao', 'overcoat').
 pokemon_ability('jumbao', 'drought').
 pokemon_ability('fawnifer', 'overgrow').
-pokemon_ability('fawnifer', 'lightning rod').
+pokemon_ability('fawnifer', 'lightningrod').
 pokemon_ability('electrelk', 'overgrow').
 pokemon_ability('electrelk', 'galvanize').
 pokemon_ability('caribolt', 'overgrow').
@@ -6976,11 +6976,11 @@ pokemon_ability('smoguana', 'technician').
 pokemon_ability('smokomodo', 'blaze').
 pokemon_ability('smokomodo', 'technician').
 pokemon_ability('swirlpool', 'torrent').
-pokemon_ability('swirlpool', 'poison heal').
+pokemon_ability('swirlpool', 'poisonheal').
 pokemon_ability('coribalis', 'torrent').
-pokemon_ability('coribalis', 'poison heal').
+pokemon_ability('coribalis', 'poisonheal').
 pokemon_ability('snaelstrom', 'torrent').
-pokemon_ability('snaelstrom', 'poison heal').
+pokemon_ability('snaelstrom', 'poisonheal').
 pokemon_ability('justyke', 'levitate').
 pokemon_ability('justyke', 'bulletproof').
 pokemon_ability('justyke', 'justified').
@@ -6988,84 +6988,84 @@ pokemon_ability('equilibra', 'levitate').
 pokemon_ability('equilibra', 'bulletproof').
 pokemon_ability('equilibra', 'justified').
 pokemon_ability('solotl', 'regenerator').
-pokemon_ability('solotl', 'vital spirit').
+pokemon_ability('solotl', 'vitalspirit').
 pokemon_ability('solotl', 'magician').
 pokemon_ability('astrolotl', 'regenerator').
-pokemon_ability('astrolotl', 'vital spirit').
+pokemon_ability('astrolotl', 'vitalspirit').
 pokemon_ability('astrolotl', 'magician').
-pokemon_ability('miasmite', 'neutralizing gas').
-pokemon_ability('miasmite', 'hyper cutter').
-pokemon_ability('miasmite', 'compound eyes').
-pokemon_ability('miasmaw', 'neutralizing gas').
-pokemon_ability('miasmaw', 'hyper cutter').
-pokemon_ability('miasmaw', 'compound eyes').
-pokemon_ability('chromera', 'color change').
+pokemon_ability('miasmite', 'neutralizinggas').
+pokemon_ability('miasmite', 'hypercutter').
+pokemon_ability('miasmite', 'compoundeyes').
+pokemon_ability('miasmaw', 'neutralizinggas').
+pokemon_ability('miasmaw', 'hypercutter').
+pokemon_ability('miasmaw', 'compoundeyes').
+pokemon_ability('chromera', 'colorchange').
 pokemon_ability('nohface', 'frisk').
 pokemon_ability('nohface', 'limber').
 pokemon_ability('nohface', 'unnerve').
-pokemon_ability('monohm', 'shield dust').
+pokemon_ability('monohm', 'shielddust').
 pokemon_ability('monohm', 'static').
 pokemon_ability('monohm', 'damp').
-pokemon_ability('duohm', 'shield dust').
+pokemon_ability('duohm', 'shielddust').
 pokemon_ability('duohm', 'static').
 pokemon_ability('duohm', 'damp').
 pokemon_ability('dorsoil', 'oblivious').
 pokemon_ability('dorsoil', 'guts').
 pokemon_ability('dorsoil', 'unnerve').
 pokemon_ability('protowatt', 'trace').
-pokemon_ability('protowatt', 'magic guard').
+pokemon_ability('protowatt', 'magicguard').
 pokemon_ability('protowatt', 'minus').
 pokemon_ability('venomicon', 'stamina').
-pokemon_ability('venomicon', 'power of alchemy').
-pokemon_ability('venomiconepilogue', 'tinted lens').
-pokemon_ability('saharascal', 'water absorb').
+pokemon_ability('venomicon', 'powerof alchemy').
+pokemon_ability('venomiconepilogue', 'tintedlens').
+pokemon_ability('saharascal', 'waterabsorb').
 pokemon_ability('saharascal', 'pickpocket').
-pokemon_ability('saharascal', 'sand spit').
-pokemon_ability('saharaja', 'water absorb').
-pokemon_ability('saharaja', 'serene grace').
-pokemon_ability('saharaja', 'sand spit').
+pokemon_ability('saharascal', 'sandspit').
+pokemon_ability('saharaja', 'waterabsorb').
+pokemon_ability('saharaja', 'serenegrace').
+pokemon_ability('saharaja', 'sandspit').
 pokemon_ability('ababo', 'pixilate').
 pokemon_ability('ababo', 'rattled').
-pokemon_ability('ababo', 'own tempo').
+pokemon_ability('ababo', 'owntempo').
 pokemon_ability('scattervein', 'pixilate').
 pokemon_ability('scattervein', 'intimidate').
-pokemon_ability('scattervein', 'own tempo').
+pokemon_ability('scattervein', 'owntempo').
 pokemon_ability('hemogoblin', 'pixilate').
 pokemon_ability('hemogoblin', 'intimidate').
-pokemon_ability('hemogoblin', 'own tempo').
+pokemon_ability('hemogoblin', 'owntempo').
 pokemon_ability('cresceidon', 'multiscale').
-pokemon_ability('cresceidon', 'rough skin').
-pokemon_ability('cresceidon', 'water veil').
-pokemon_ability('chuggon', 'shell armor').
-pokemon_ability('chuggon', 'white smoke').
-pokemon_ability('chuggon', 'slow start').
-pokemon_ability('draggalong', 'armor tail').
-pokemon_ability('draggalong', 'white smoke').
-pokemon_ability('draggalong', 'slow start').
-pokemon_ability('chuggalong', 'armor tail').
-pokemon_ability('chuggalong', 'white smoke').
-pokemon_ability('chuggalong', 'slow start').
+pokemon_ability('cresceidon', 'roughskin').
+pokemon_ability('cresceidon', 'waterveil').
+pokemon_ability('chuggon', 'shellarmor').
+pokemon_ability('chuggon', 'whitesmoke').
+pokemon_ability('chuggon', 'slowstart').
+pokemon_ability('draggalong', 'armortail').
+pokemon_ability('draggalong', 'whitesmoke').
+pokemon_ability('draggalong', 'slowstart').
+pokemon_ability('chuggalong', 'armortail').
+pokemon_ability('chuggalong', 'whitesmoke').
+pokemon_ability('chuggalong', 'slowstart').
 pokemon_ability('shox', 'electromorphosis').
-pokemon_ability('shox', 'sticky hold').
-pokemon_ability('shox', 'cud chew').
+pokemon_ability('shox', 'stickyhold').
+pokemon_ability('shox', 'cudchew').
 pokemon_ability('ramnarok', '').
 pokemon_ability('ramnarokradiant', '').
-pokemon_ability('pokestarsmeargle', 'own tempo').
+pokemon_ability('pokestarsmeargle', 'owntempo').
 pokemon_ability('pokestarsmeargle', 'technician').
 pokemon_ability('pokestarsmeargle', 'moody').
 pokemon_ability('pokestarufo', 'levitate').
 pokemon_ability('pokestarufo2', 'levitate').
 pokemon_ability('pokestarbrycenman', 'levitate').
 pokemon_ability('pokestarmt', 'analytic').
-pokemon_ability('pokestarmt2', 'flash fire').
-pokemon_ability('pokestartransport', 'motor drive').
-pokemon_ability('pokestargiant', 'huge power').
+pokemon_ability('pokestarmt2', 'flashfire').
+pokemon_ability('pokestartransport', 'motordrive').
+pokemon_ability('pokestargiant', 'hugepower').
 pokemon_ability('pokestarhumanoid', 'insomnia').
 pokemon_ability('pokestarmonster', 'pressure').
-pokemon_ability('pokestarf00', 'volt absorb').
+pokemon_ability('pokestarf00', 'voltabsorb').
 pokemon_ability('pokestarf002', 'reckless').
-pokemon_ability('pokestarspirit', 'wonder guard').
-pokemon_ability('pokestarblackdoor', 'early bird').
+pokemon_ability('pokestarspirit', 'wonderguard').
+pokemon_ability('pokestarblackdoor', 'earlybird').
 pokemon_ability('pokestarwhitedoor', 'blaze').
-pokemon_ability('pokestarblackbelt', 'huge power').
+pokemon_ability('pokestarblackbelt', 'hugepower').
 pokemon_ability('pokestarufopropu2', 'levitate').

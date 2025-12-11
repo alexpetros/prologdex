@@ -11,15 +11,16 @@
 print_type_chart_line(Line) :- format("~s", [Line]), nl.
 print_type_chart(Team) :-
   findall(Str, print_weakness_count(Team, _, Str), Lines),
-  format("~t ~10| 0x 1/4 1/2 1x  2x  4x~n", []),
+  format("~t ~10| 0x  0xA 1/4 1/2 1x  2x  4x~n", []),
   maplist(print_type_chart_line, Lines),
   !, fail.
 
 print_weakness_count(Team, Type, Str) :-
-  weakness_count(Team, Type, I, VS, S, N, W, VW),
-  phrase(format_("~a~t~10| ~d  ~d   ~d   ~d   ~d   ~d", [Type, I, VS, S, N, W, VW]), Str).
-weakness_count(Team, Type, I, VS, S, N, W, VW) :-
+  weakness_count(Team, Type, I, Ia, VS, S, N, W, VW),
+  phrase(format_("~a~t~10| ~d   ~d   ~d   ~d   ~d   ~d   ~d", [Type, I, Ia, VS, S, N, W, VW]), Str).
+weakness_count(Team, Type, I, Ia, VS, S, N, W, VW) :-
   type(Type),
+  matchup_count(Team, Type, immune_via_ability, Ia),
   matchup_count(Team, Type, immune, I),
   matchup_count(Team, Type, very_strong, VS),
   matchup_count(Team, Type, strong, S),
@@ -30,9 +31,9 @@ weakness_count(Team, Type, I, VS, S, N, W, VW) :-
 matchup_count(Team, Type, Matchup, Num) :-
   type(Type),
   findall(Mon, (member(Mon, Team), call(Matchup, Mon, Type)), Matchups),
-  length(Matchups, Num)
-  .
+  length(Matchups, Num).
 
+immune_via_ability(Mon, Type) :- pokemon_ability(Mon, Ability), immunity_ability(Type, Ability).
 immune(Mon, Type) :- find_type_matchup(Mon, Type, 0.0).
 very_strong(Mon, Type) :- find_type_matchup(Mon, Type, 0.25).
 strong(Mon, Type) :- find_type_matchup(Mon, Type, 0.5).
@@ -211,3 +212,15 @@ no_damage(ghost, normal).
 no_damage(electric, ground).
 no_damage(psychic, dark).
 no_damage(dragon, fairy).
+
+immunity_ability(electric, lightningrod).
+immunity_ability(electric, motordrive).
+immunity_ability(electric, voltabsorb).
+immunity_ability(fire, flashfire).
+immunity_ability(fire, 'well-bakedbody').
+immunity_ability(grass, sapsipper).
+immunity_ability(ground, eartheater).
+immunity_ability(ground, levitate).
+immunity_ability(water, dryskin).
+immunity_ability(water, stormdrain).
+immunity_ability(water, waterabsorb).

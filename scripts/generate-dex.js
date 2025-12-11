@@ -44,7 +44,7 @@ for (const id in pokedex) {
   const mon = Dex.species.get(id)
   const abilities = Object.values(mon.abilities)
   for (const ability of abilities) {
-    const normalizedAbility = ability.toLowerCase().replace("'", "\\'")
+    const normalizedAbility = ability.toLowerCase().replace("'", "\\'").replace(' ', '')
     pokemonStream.writeln(`pokemon_ability('${mon.id}', '${normalizedAbility}').`)
   }
 }
