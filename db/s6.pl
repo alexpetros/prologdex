@@ -679,7 +679,7 @@ natdexdraft('shuckle', 2).
 natdexdraft('simipour', 2).
 natdexdraft('simisage', 2).
 natdexdraft('simisear', 2).
-natdexdraft('sirfetch\'d', 2).
+natdexdraft('sirfetchd', 2).
 natdexdraft('sneasel', 2).
 natdexdraft('stoutland', 2).
 natdexdraft('throh', 2).

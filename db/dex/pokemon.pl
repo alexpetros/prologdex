@@ -1,6 +1,6 @@
 % GENERATED FILE - do not modify directly
 % see create-dex.js
-:- module(dex, [pokemon/1, type/2]).
+:- module(dex, [pokemon/1, type/2, pokemon_ability/2]).
 
 pokemon('bulbasaur').
 pokemon('ivysaur').
@@ -6521,7 +6521,7 @@ pokemon_ability('urshifurapidstrikegmax', 'unseen fist').
 pokemon_ability('zarude', 'leaf guard').
 pokemon_ability('zarudedada', 'leaf guard').
 pokemon_ability('regieleki', 'transistor').
-pokemon_ability('regidrago', 'dragon's maw').
+pokemon_ability('regidrago', 'dragon\'s maw').
 pokemon_ability('glastrier', 'chilling neigh').
 pokemon_ability('spectrier', 'grim neigh').
 pokemon_ability('calyrex', 'unnerve').
@@ -6536,7 +6536,7 @@ pokemon_ability('kleavor', 'sharpness').
 pokemon_ability('ursaluna', 'guts').
 pokemon_ability('ursaluna', 'bulletproof').
 pokemon_ability('ursaluna', 'unnerve').
-pokemon_ability('ursalunabloodmoon', 'mind's eye').
+pokemon_ability('ursalunabloodmoon', 'mind\'s eye').
 pokemon_ability('basculegion', 'swift swim').
 pokemon_ability('basculegion', 'adaptability').
 pokemon_ability('basculegion', 'mold breaker').

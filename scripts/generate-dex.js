@@ -27,7 +27,7 @@ class ModuleFile {
 
 // Pokemon and their types
 const pokemonStream = new ModuleFile(POKEMON_PL_FILE)
-pokemonStream.writeln(":- module(dex, [pokemon/1, type/2]).\n")
+pokemonStream.writeln(":- module(dex, [pokemon/1, type/2, pokemon_ability/2]).\n")
 for (const id in pokedex) {
   const mon = Dex.species.get(id)
   pokemonStream.writeln(`pokemon('${mon.id}').`)
@@ -44,7 +44,8 @@ for (const id in pokedex) {
   const mon = Dex.species.get(id)
   const abilities = Object.values(mon.abilities)
   for (const ability of abilities) {
-    pokemonStream.writeln(`pokemon_ability('${mon.id}', '${ability.toLowerCase()}').`)
+    const normalizedAbility = ability.toLowerCase().replace("'", "\\'")
+    pokemonStream.writeln(`pokemon_ability('${mon.id}', '${normalizedAbility}').`)
   }
 }
 pokemonStream.close()
