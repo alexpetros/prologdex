@@ -1,8 +1,8 @@
 :- module('type-chart', [super_effective/2, not_very_effective/2, no_damage/2,
                          weak_to/2, strong_against/2, immune/2, normal_damage/2,
                          weak/2, very_weak/2, strong/2, very_strong/2, normal/2,
-                         weakness_count/3, find_type_matchup/3, matchup_count/4,
-                         print_type_chart/1, resists/2
+                         weakness_count/8, find_type_matchup/3, matchup_count/4,
+                         print_type_chart/1, resists/2, calc_modifier/3
                          ]).
 
 :- use_module('dex/pokemon.pl').
@@ -10,22 +10,22 @@
 
 print_type_chart_line(Line) :- format("~s", [Line]), nl.
 print_type_chart(Team) :-
-  findall(Str, weakness_count(Team, _, Str), Strs),
+  findall(Str, print_weakness_count(Team, _, Str), Lines),
   format("~t ~10| 0x 1/4 1/2 1x  2x  4x~n", []),
-  maplist(print_type_chart_line, Strs),
-  !,
-  fail
-  .
+  maplist(print_type_chart_line, Lines),
+  !, fail.
 
-weakness_count(Team, Type, Str) :-
+print_weakness_count(Team, Type, Str) :-
+  weakness_count(Team, Type, I, VS, S, N, W, VW),
+  phrase(format_("~a~t~10| ~d  ~d   ~d   ~d   ~d   ~d", [Type, I, VS, S, N, W, VW]), Str).
+weakness_count(Team, Type, I, VS, S, N, W, VW) :-
   type(Type),
   matchup_count(Team, Type, immune, I),
   matchup_count(Team, Type, very_strong, VS),
   matchup_count(Team, Type, strong, S),
   matchup_count(Team, Type, normal, N),
   matchup_count(Team, Type, weak, W),
-  matchup_count(Team, Type, very_weak, VW),
-  phrase(format_("~a~t~10| ~d  ~d   ~d   ~d   ~d   ~d", [Type, I, VS, S, N, W, VW]), Str).
+  matchup_count(Team, Type, very_weak, VW).
 
 matchup_count(Team, Type, Matchup, Num) :-
   type(Type),
@@ -33,15 +33,14 @@ matchup_count(Team, Type, Matchup, Num) :-
   length(Matchups, Num)
   .
 
-immune(Mon, Type) :- find_type_matchup(Mon, Type, 0).
+immune(Mon, Type) :- find_type_matchup(Mon, Type, 0.0).
 very_strong(Mon, Type) :- find_type_matchup(Mon, Type, 0.25).
 strong(Mon, Type) :- find_type_matchup(Mon, Type, 0.5).
-normal(Mon, Type) :- find_type_matchup(Mon, Type, 1).
-weak(Mon, Type) :- find_type_matchup(Mon, Type, 2).
-very_weak(Mon, Type) :- find_type_matchup(Mon, Type, 4).
+normal(Mon, Type) :- find_type_matchup(Mon, Type, 1.0).
+weak(Mon, Type) :- find_type_matchup(Mon, Type, 2.0).
+very_weak(Mon, Type) :- find_type_matchup(Mon, Type, 4.0).
 
 resists(Mon, Type) :- immune(Mon, Type); very_strong(Mon, Type); strong(Mon, Type).
-
 
 find_type_matchup(Mon, Type, Modifier) :-
   pokemon(Mon),
@@ -52,7 +51,7 @@ mult(L, S0, S) :- S is L * S0.
 calc_modifier(Types, Attacker, Modifier) :-
   type(Attacker),
   maplist(type_modifier(Attacker), Types, AttackerModifiers),
-  foldl(mult, AttackerModifiers, 1, Modifier).
+  foldl(mult, AttackerModifiers, 1.0, Modifier).
 
 type_modifier(Attacker, Defender, Modifier) :- super_effective(Attacker, Defender), Modifier is 2.
 type_modifier(Attacker, Defender, Modifier) :- not_very_effective(Attacker, Defender), Modifier is 0.5.
