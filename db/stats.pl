@@ -98,12 +98,12 @@ non_hp_stat(Mon, StatName, Level, EVs, IVs, Nature, Stat) :-
   atom_concat(pokemon_, StatName, StatAtom),
   call(StatAtom, Mon, BaseStat),
   nature_multiplier(Nature, NatureMult),
-  LevelUpVals is floor(((2 * BaseStat + IVs + (EVs / 4)) * Level) / 100),
+  LevelUpVals is floor(((2 * BaseStat + IVs + floor(EVs / 4)) * Level) / 100),
   Stat is floor((LevelUpVals + 5) * NatureMult).
 
 hp_stat(Mon, _, Level, EVs, IVs, _, Stat) :-
   pokemon_hp(Mon, BaseStat),
-  LevelUpVals is floor(((2 * BaseStat + IVs + (EVs / 4)) * Level) / 100),
+  LevelUpVals is floor(((2 * BaseStat + IVs + floor(EVs / 4)) * Level) / 100),
   Stat is floor((LevelUpVals) + Level + 10).
 
 max_speed(Mon, Spe) :- max_speed(Mon, Spe, positive).
