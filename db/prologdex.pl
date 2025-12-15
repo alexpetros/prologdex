@@ -9,19 +9,6 @@
 :- use_module('stats.pl').
 :- use_module('s6.pl').
 
-has_type([], _) :- fail.
-has_type(Team, Type) :-
-  [Mon|Tail] = Team,
-  (type(Mon, Type); has_type(Tail, Type)).
-
-point_value([], 0).
-point_value(Team, Value) :-
-  [Mon|Tail] = Team,
-  points(Mon, MonValue),
-  point_value(Tail, TailValue),
-  Value is MonValue + TailValue.
-
-% has_move(Team, 'stealthrock'), point_value(Team, 10).
 is_sorted([]).
 is_sorted([_]).
 is_sorted([First|[Second | Rest]]) :-
@@ -36,8 +23,21 @@ draft_team(Team, MaxPoints) :-
   Value =< MaxPoints,
   only_mons(Team).
 
-learns_removal(Mon) :-
-  learns(Mon, rapidspin);
-  learns(Mon, defog);
-  learns(Mon, courtchange);
-  learns(Mon, tidyup).
+learns_removal(Mon, Move) :-
+  removal_move(Move),
+  learns(Mon, Move).
+
+learns_hazards(Mon, Move) :-
+  removal_move(Move),
+  learns(Mon, Move).
+
+removal_move(rapidspin).
+removal_move(defog).
+removal_move(courtchange).
+removal_move(tidyup).
+
+hazard_move(stealthrock).
+hazard_move(spikes).
+hazard_move(toxicspikes).
+hazard_move(stickyweb).
+

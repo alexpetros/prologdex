@@ -1,5 +1,5 @@
-:- module('s6', [points/2, players/1, remaining_points/2, total_points/2,
-                 draft_status/0, player_mon/2, viable/1, undrafted/1,
+:- module('s6', [points/2, players/1, remaining_points/2, team_points/2,
+                 draft_status/0, team/2, viable/1, undrafted/1,
                  drafted/1, george/1, nic/1, bird/1, pat/1, justin/1, zack/1,
                  alex/1, andrew/1, mason/1, morry/1, kirk/1, kevin/1]).
 
@@ -24,10 +24,10 @@ drafted(Mon) :- george(Mon); nic(Mon); bird(Mon); pat(Mon); justin(Mon); zack(Mo
   alex(Mon); mason(Mon); kirk(Mon); kevin(Mon); andrew(Mon); morry(Mon).
 
 remaining_points(Player, Points) :-
-  total_points(Player, Total),
+  team_points(Player, Total),
   Points #= 90 - Total.
 
-total_points(Player, Total) :-
+team_points(Player, Total) :-
   team_list(Player, Team),
   maplist(points, Team, Points),
   sum_list(Points, Total).
@@ -37,7 +37,7 @@ team_list(Player, Team) :-
   member(Player, Players),
   findall(Mon, call(Player, Mon), Team).
 
-player_mon(Player, Mon) :-
+team(Player, Mon) :-
   players(Players),
   member(Player, Players),
   call(Player, Mon).
