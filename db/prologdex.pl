@@ -9,11 +9,6 @@
 :- use_module('stats.pl').
 :- use_module('s6.pl').
 
-has_move([], _) :- fail.
-has_move(Team, Move) :-
-  [Mon|Tail] = Team,
-  (learns(Mon, Move); has_move(Tail, Move)).
-
 has_type([], _) :- fail.
 has_type(Team, Type) :-
   [Mon|Tail] = Team,
