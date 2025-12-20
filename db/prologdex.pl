@@ -8,20 +8,13 @@
 :- use_module('type-chart.pl').
 :- use_module('stats.pl').
 :- use_module('s6.pl').
+:- use_module('summary-sheet.pl').
 
 is_sorted([]).
 is_sorted([_]).
 is_sorted([First|[Second | Rest]]) :-
   First @< Second,
   is_sorted(Rest).
-
-only_mons([]).
-only_mons([Head|Tail]) :- viable(Head), only_mons(Tail).
-
-draft_team(Team, MaxPoints) :-
-  point_value(Team, Value),
-  Value =< MaxPoints,
-  only_mons(Team).
 
 learns_removal(Mon, Move) :-
   removal_move(Move),

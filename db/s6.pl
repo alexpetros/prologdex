@@ -1,5 +1,5 @@
 :- module('s6', [points/2, players/1, remaining_points/2, team_points/2,
-                 draft_status/0, team/2, viable/1, undrafted/1,
+                 draft_status/0, team/2, viable/1, undrafted/1, team_list/2,
                  drafted/1, george/1, nic/1, bird/1, pat/1, justin/1, zack/1,
                  alex/1, andrew/1, mason/1, morry/1, kirk/1, kevin/1]).
 

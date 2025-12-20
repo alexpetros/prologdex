@@ -1,8 +1,59 @@
 % see: https://bulbapedia.bulbagarden.net/wiki/Stat
-:- module('stats', [stat/7, max_speed/2, max_speed/3, mon_speed_tiers/3]).
+:- module('stats', [stat/7, max_stat/3, max_speed/2, max_speed/3, speed_tiers/3]).
 
 :- use_module(library(debug)).
 :- use_module('dex/pokemon.pl').
+
+speed_tiers(Mon, SpeedTier, Speed) :-
+  stat_tier(SpeedTier),
+  call(SpeedTier, Mon, spe, Speed).
+
+stat_tier(max_positive_plus_one).
+stat_tier(max_neutral_plus_one).
+stat_tier(max_positive).
+stat_tier(max_neutral).
+stat_tier(default_stat).
+stat_tier(min_stat).
+
+% Relevant tiers
+max_positive_plus_one(Mon, StatName, Stat) :-
+  max_positive(Mon, StatName, MaxStat),
+  Stat is floor(MaxStat * 1.5).
+max_neutral_plus_one(Mon, StatName, Stat) :-
+  max_neutral(Mon, StatName, MaxStat),
+  Stat is floor(MaxStat * 1.5).
+max_neutral(Mon, StatName, Stat) :- stat(Mon, StatName, 100, 252, 31, neutral, Stat).
+max_positive(Mon, StatName, Stat) :- stat(Mon, StatName, 100, 252, 31, positive, Stat).
+default_stat(Mon, StatName, Stat) :- stat(Mon, StatName, 100, 0, 31, neutral, Stat).
+min_stat(Mon, StatName, Stat) :- stat(Mon, StatName, 100, 0, 0, negative, Stat).
+
+max_stat(Mon, StatName, Stat) :-
+  stat(Mon, StatName, 100, 252, 31, positive, Stat).
+
+stat(Mon, StatName, Level, EVs, IVs, Nature, Stat) :-
+    stat(StatName),
+    stat_calc(StatName, Calc),
+    call(Calc, Mon, StatName, Level, EVs, IVs, Nature, Stat).
+
+stat_calc(hp, hp_stat).
+stat_calc(X, non_hp_stat) :- X \= hp, stat(X).
+
+non_hp_stat(Mon, StatName, Level, EVs, IVs, Nature, Stat) :-
+  atom_concat(pokemon_, StatName, StatAtom),
+  call(StatAtom, Mon, BaseStat),
+  nature_multiplier(Nature, NatureMult),
+  LevelUpVals is floor(((2 * BaseStat + IVs + floor(EVs / 4)) * Level) / 100),
+  Stat is floor((LevelUpVals + 5) * NatureMult).
+
+hp_stat(Mon, _, Level, EVs, IVs, _, Stat) :-
+  pokemon_hp(Mon, BaseStat),
+  LevelUpVals is floor(((2 * BaseStat + IVs + floor(EVs / 4)) * Level) / 100),
+  Stat is floor((LevelUpVals) + Level + 10).
+
+max_speed(Mon, Spe) :- max_speed(Mon, Spe, positive).
+
+max_speed(Mon, Spe, Nature) :-
+  stat(Mon, spe, 100, 252, 31, Nature, Spe).
 
 netural_nature(hardy).
 netural_nature(docile).
@@ -62,52 +113,4 @@ stat(def).
 stat(spa).
 stat(spd).
 stat(spe).
-
-mon_speed_tiers(Mon, SpeedTier, Speed) :-
-  stat_tier(SpeedTier),
-  call(SpeedTier, Mon, spe, Speed).
-
-stat_tier(max_positive_plus_one).
-stat_tier(max_neutral_plus_one).
-stat_tier(max_positive).
-stat_tier(max_neutral).
-stat_tier(default_stat).
-stat_tier(min_stat).
-
-% Relevant tiers
-max_positive_plus_one(Mon, StatName, Stat) :-
-  max_positive(Mon, StatName, MaxStat),
-  Stat is floor(MaxStat * 1.5).
-max_neutral_plus_one(Mon, StatName, Stat) :-
-  max_neutral(Mon, StatName, MaxStat),
-  Stat is floor(MaxStat * 1.5).
-max_neutral(Mon, StatName, Stat) :- stat(Mon, StatName, 100, 252, 31, neutral, Stat).
-max_positive(Mon, StatName, Stat) :- stat(Mon, StatName, 100, 252, 31, positive, Stat).
-default_stat(Mon, StatName, Stat) :- stat(Mon, StatName, 100, 0, 31, neutral, Stat).
-min_stat(Mon, StatName, Stat) :- stat(Mon, StatName, 100, 0, 0, negative, Stat).
-
-stat(Mon, StatName, Level, EVs, IVs, Nature, Stat) :-
-    stat(StatName),
-    stat_calc(StatName, Calc),
-    call(Calc, Mon, StatName, Level, EVs, IVs, Nature, Stat).
-
-stat_calc(hp, hp_stat).
-stat_calc(X, non_hp_stat) :- X \= hp, stat(X).
-
-non_hp_stat(Mon, StatName, Level, EVs, IVs, Nature, Stat) :-
-  atom_concat(pokemon_, StatName, StatAtom),
-  call(StatAtom, Mon, BaseStat),
-  nature_multiplier(Nature, NatureMult),
-  LevelUpVals is floor(((2 * BaseStat + IVs + floor(EVs / 4)) * Level) / 100),
-  Stat is floor((LevelUpVals + 5) * NatureMult).
-
-hp_stat(Mon, _, Level, EVs, IVs, _, Stat) :-
-  pokemon_hp(Mon, BaseStat),
-  LevelUpVals is floor(((2 * BaseStat + IVs + floor(EVs / 4)) * Level) / 100),
-  Stat is floor((LevelUpVals) + Level + 10).
-
-max_speed(Mon, Spe) :- max_speed(Mon, Spe, positive).
-
-max_speed(Mon, Spe, Nature) :-
-  stat(Mon, spe, 100, 252, 31, Nature, Spe).
 
