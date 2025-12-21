@@ -1,10 +1,18 @@
 :- module('type-chart', [super_effective/2, not_very_effective/2, no_damage/2,
                          weak_to/2, strong_against/2, normal_damage/2, type/1,
-                         mon_type_matchup/3, calc_modifier/3
+                         mon_type_matchup/3, calc_modifier/3, effectiveness/1
                          ]).
 
 :- use_module('dex/pokemon.pl').
 :- use_module(library(lists)).
+
+effectiveness(immune_via_ability).
+effectiveness(immune).
+effectiveness(very_strong).
+effectiveness(strong).
+effectiveness(normal).
+effectiveness(weak).
+effectiveness(very_weak).
 
 effectiveness_modifier(immune, 0.0).
 effectiveness_modifier(very_strong, 0.25).
@@ -156,6 +164,7 @@ not_very_effective(water, water).
 not_very_effective(water, grass).
 not_very_effective(water, dragon).
 not_very_effective(grass, flying).
+not_very_effective(grass, bug).
 not_very_effective(grass, poison).
 not_very_effective(grass, steel).
 not_very_effective(grass, fire).

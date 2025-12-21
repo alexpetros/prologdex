@@ -20,8 +20,7 @@ draft_status_(Player) :-
 % Obviously some 1-pt mons are viable, but this is a pretty good heuristic
 viable(Mon) :- points(Mon, Points), Points #> 1.
 undrafted(Mon) :- viable(Mon), \+ drafted(Mon).
-drafted(Mon) :- george(Mon); nic(Mon); bird(Mon); pat(Mon); justin(Mon); zack(Mon);
-  alex(Mon); mason(Mon); kirk(Mon); kevin(Mon); andrew(Mon); morry(Mon).
+drafted(Mon) :- team(_, Mon).
 
 remaining_points(Player, Points) :-
   team_points(Player, Total),
@@ -96,7 +95,7 @@ justin(scizor).
 justin(regieleki).
 justin(runerigus).
 justin(screamtail).
-justin(rampardos).
+justin(trapinch).
 
 zack(dianciemega).
 zack(ogerponhearthflame).
@@ -110,10 +109,10 @@ zack(wyrdeer).
 zack(boltund).
 
 alex(meowscarada).
-alex(nidoking).
+alex(weezinggalar).
 alex(swampertmega).
 alex(latios).
-alex(ribombee).
+alex(volcarona).
 alex(tornadus).
 alex(politoed).
 alex(archaludon).
