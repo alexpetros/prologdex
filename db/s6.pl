@@ -1,7 +1,7 @@
 :- module('s6', [points/2, players/1, remaining_points/2, team_points/2,
                  draft_status/0, team/2, viable/1, undrafted/1, team_list/2,
                  drafted/1, george/1, nic/1, bird/1, pat/1, justin/1, zack/1,
-                 alex/1, andrew/1, mason/1, morry/1, kirk/1, kevin/1]).
+                 alex/1, andrew/1, mason/1, morry/1, kirk/1, kevin/1, result/5]).
 
 :- use_module(library(format)).
 :- use_module(library(lists)).
@@ -169,3 +169,88 @@ morry(skarmory).
 morry(froslass).
 morry(carbink).
 morry(dipplin).
+
+game(1, justin, andrew).
+game(1, zack, alex).
+game(1, morry, pat).
+game(1, bird, kevin).
+game(1, kirk, mason).
+game(1, nic, george).
+
+game(2, alex, andrew).
+game(2, george, justin).
+game(2, morry, nic).
+game(2, kirk, bird).
+game(2, kevin, pat).
+game(2, mason, zack).
+
+game(3, andrew, mason).
+game(3, pat, kirk).
+game(3, nic, kevin).
+game(3, justin, alex).
+game(3, george, morry).
+game(3, zack, bird).
+
+game(4, andrew, bird).
+game(4, kevin, george).
+game(4, kirk, nic).
+game(4, morry, justin).
+game(4, mason, alex).
+game(4, zack, pat).
+
+game(5, justin, mason).
+game(5, morry, kevin).
+game(5, nic, zack).
+game(5, pat, andrew).
+game(5, bird, alex).
+game(5, george, kirk).
+
+game(6, kirk, morry).
+game(6, andrew, nic).
+game(6, kevin, justin).
+game(6, zack, george).
+game(6, mason, bird).
+game(6, alex, pat).
+
+game(7, nic, alex).
+game(7, george, andrew).
+game(7, morry, zack).
+game(7, pat, mason).
+game(7, bird, justin).
+game(7, kevin, kirk).
+
+game(8, justin, kirk).
+game(8, zack, kevin).
+game(8, alex, george).
+game(8, mason, nic).
+game(8, andrew, morry).
+game(8, bird, pat).
+
+game(9, george, mason).
+game(9, pat, justin).
+game(9, kevin, andrew).
+game(9, kirk, zack).
+game(9, nic, bird).
+game(9, alex, morry).
+
+game(10, mason, morry).
+game(10, bird, george).
+game(10, pat, nic).
+game(10, andrew, kirk).
+game(10, justin, zack).
+game(10, alex, kevin).
+
+game(11, andrew, zack).
+game(11, mason, kevin).
+game(11, kirk, alex).
+game(11, bird, morry).
+game(11, nic, justin).
+game(11, george, pat).
+
+result(1, justin, andrew, justin, 6).
+result(1, zack, alex, alex, 3).
+result(1, morry, pat, pat, 3).
+result(1, bird, kevin, kevin, 4).
+result(1, kirk, mason, mason, 1).
+result(1, nic, george, nic, 2).
+
