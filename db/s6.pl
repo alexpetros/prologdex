@@ -1,7 +1,8 @@
 :- module('s6', [points/2, players/1, remaining_points/2, team_points/2,
                  draft_status/0, team/2, viable/1, undrafted/1, team_list/2,
                  drafted/1, george/1, nic/1, bird/1, pat/1, justin/1, zack/1,
-                 alex/1, andrew/1, mason/1, morry/1, kirk/1, kevin/1, result/5]).
+                 alex/1, andrew/1, mason/1, morry/1, kirk/1, kevin/1,
+                 game/3, match/3, result/3]).
 
 :- use_module(library(format)).
 :- use_module(library(lists)).
@@ -170,6 +171,25 @@ morry(froslass).
 morry(carbink).
 morry(dipplin).
 
+match(Week, Self, Other) :-
+  week(Week),
+  (
+    game(Week, Self, Other);
+    game(Week, Other, Self)
+  ).
+
+week(1).
+week(2).
+week(3).
+week(4).
+week(5).
+week(6).
+week(7).
+week(8).
+week(9).
+week(10).
+week(11).
+
 game(1, justin, andrew).
 game(1, zack, alex).
 game(1, morry, pat).
@@ -247,10 +267,10 @@ game(11, bird, morry).
 game(11, nic, justin).
 game(11, george, pat).
 
-result(1, justin, andrew, justin, 6).
-result(1, zack, alex, alex, 3).
-result(1, morry, pat, pat, 3).
-result(1, bird, kevin, kevin, 4).
-result(1, kirk, mason, mason, 1).
-result(1, nic, george, nic, 2).
+result(1, justin, 6).
+result(1, alex, 3).
+result(1, pat, 3).
+result(1, kevin, 4).
+result(1, mason, 1).
+result(1, nic, 2).
 
