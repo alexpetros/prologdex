@@ -1,4 +1,5 @@
-:- module('summary-sheet', [team_speed_tiers/1, team_speed_tiers/2, print_type_chart/1]).
+:- module('summary-sheet', [team_speed_tiers/1, team_speed_tiers/2,
+                            print_type_chart/1, standings/0, standings/1]).
 
 :- use_module(library(lists)).
 :- use_module('dex/pokemon.pl').
@@ -6,6 +7,24 @@
 :- use_module('stats.pl').
 :- use_module('type-chart.pl').
 
+%%% Sandings
+standings_key(Record, Key-Record) :-
+  Record = [_|[W|[L]]],
+  Key #= W - L.
+standings_line(_-Record, S) :-
+  Record = [P|[W|[L]]],
+  phrase(format_("~a ~d-~d", [P, W, L]), S).
+
+standings(S) :-
+  findall([P, W, L], record(P, W, L), Records),
+  maplist(standings_key, Records, RecordsKeList),
+  keysort(RecordsKeList, Sorted),
+  reverse(Sorted, RevSorted),
+  maplist(standings_line, RevSorted, S).
+
+standings :-
+  standings(S),
+  maplist(printline, S).
 
 %%% Speed tiers
 speed_tier_str(max_positive_plus_one, "Max+ (+1)").

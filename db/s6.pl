@@ -1,7 +1,8 @@
 :- module('s6', [points/2, players/1, remaining_points/2, team_points/2,
                  draft_status/0, team/2, viable/1, undrafted/1, team_list/2,
-                 drafted/1, george/1, nic/1, bird/1, pat/1, justin/1, zack/1,
-                 alex/1, andrew/1, mason/1, morry/1, kirk/1, kevin/1,
+                 drafted/1, record/3, win/2, loss/2, george/1, nic/1, bird/1,
+                 pat/1, justin/1,
+                 zack/1, alex/1, andrew/1, mason/1, morry/1, kirk/1, kevin/1,
                  game/3, match/3, result/3]).
 
 :- use_module(library(format)).
@@ -11,6 +12,13 @@
 
 :- use_module('dex/pokemon.pl').
 :- use_module('draft/natdex.pl').
+
+record(Player, Wins, Losses) :-
+  player(Player),
+  findall(Week, win(Week, Player), WinsList),
+  findall(Week, loss(Week, Player), LossesList),
+  length(WinsList, Wins),
+  length(LossesList, Losses).
 
 draft_status :- players(Names), maplist(draft_status_, Names), !.
 draft_status_(Player) :-
@@ -49,7 +57,19 @@ points(Mon, 1) :-
   maplist(dif(Mon), BoardMons).
 
 % Draft facts
-players([george, nic, bird, pat, justin, zack, alex, mason, kirk, kevin, andrew, morry]).
+players(Ls) :- findall(Player, player(Player), Ls).
+player(george).
+player(nic).
+player(bird).
+player(pat).
+player(justin).
+player(zack).
+player(alex).
+player(mason).
+player(kirk).
+player(kevin).
+player(andrew).
+player(morry).
 
 george(garchomp).
 george(tyranitar).
@@ -177,6 +197,11 @@ match(Week, Self, Other) :-
     game(Week, Self, Other);
     game(Week, Other, Self)
   ).
+
+win(Week, Player) :- result(Week, Player, _).
+loss(Week, Player) :-
+  match(Week, Player, Opp),
+  result(Week, Opp, _).
 
 week(1).
 week(2).
