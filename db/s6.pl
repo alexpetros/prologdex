@@ -1,8 +1,7 @@
 :- module('s6', [points/2, players/1, remaining_points/2, team_points/2,
                  draft_status/0, team/2, viable/1, undrafted/1, team_list/2,
-                 drafted/1, record/3, win/2, loss/2, george/1, nic/1, bird/1,
-                 pat/1, justin/1,
-                 zack/1, alex/1, andrew/1, mason/1, morry/1, kirk/1, kevin/1,
+                 drafted/1, record/4, win/3, loss/3, george/1, nic/1, bird/1,
+                 pat/1, justin/1, zack/1, alex/1, andrew/1, mason/1, morry/1, kirk/1, kevin/1,
                  game/3, match/3, result/3]).
 
 :- use_module(library(format)).
@@ -13,12 +12,17 @@
 :- use_module('dex/pokemon.pl').
 :- use_module('draft/natdex.pl').
 
-record(Player, Wins, Losses) :-
+record(Player, Wins, Losses, KD) :-
   player(Player),
-  findall(Week, win(Week, Player), WinsList),
-  findall(Week, loss(Week, Player), LossesList),
+  findall(Week, win(Week, Player, _), WinsList),
+  findall(Week, loss(Week, Player, _), LossesList),
   length(WinsList, Wins),
-  length(LossesList, Losses).
+  length(LossesList, Losses),
+  findall(Kills, match_result(Week, Player, Kills, Deaths), KillsList),
+  findall(Deaths, match_result(Week, Player, Kills, Deaths), DeathsList),
+  sum_list(KillsList, Kills),
+  sum_list(DeathsList, Deaths),
+  KD is Kills / (Deaths + 1). % "free" death to avoid the divide-by-zero error for now
 
 draft_status :- players(Names), maplist(draft_status_, Names), !.
 draft_status_(Player) :-
@@ -193,15 +197,20 @@ morry(dipplin).
 
 match(Week, Self, Other) :-
   week(Week),
-  (
-    game(Week, Self, Other);
-    game(Week, Other, Self)
-  ).
+  ( game(Week, Self, Other); game(Week, Other, Self) ).
 
-win(Week, Player) :- result(Week, Player, _).
-loss(Week, Player) :-
+match_result(Week, Player, Kills, Deaths) :-
+  ( win(Week, Player, Deaths), Kills #= 6 );
+  ( loss(Week, Player, Kills), Deaths #= 6 ).
+
+win(Week, Player, Deaths) :-
+  result(Week, Player, Remaining),
+  Deaths #= 6 - Remaining.
+
+loss(Week, Player, Kills) :-
   match(Week, Player, Opp),
-  result(Week, Opp, _).
+  result(Week, Opp, OppRemaining),
+  Kills #= 6 - OppRemaining.
 
 week(1).
 week(2).

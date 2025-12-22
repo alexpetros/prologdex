@@ -9,16 +9,18 @@
 
 %%% Sandings
 standings_key(Record, Key-Record) :-
-  Record = [_|[W|[L]]],
-  Key #= W - L.
+  Record = [_, W, L, KD],
+  RoundedKD is floor(KD * 100) / 100,
+  Key is ((W - L) * 10000) + RoundedKD.
+
 standings_line(_-Record, S) :-
-  Record = [P|[W|[L]]],
-  phrase(format_("~a ~d-~d", [P, W, L]), S).
+  Record = [P, W, L, KD],
+  phrase(format_("~a~t~10| ~d-~d (KD ~2f)", [P, W, L, KD]), S).
 
 standings(S) :-
-  findall([P, W, L], record(P, W, L), Records),
-  maplist(standings_key, Records, RecordsKeList),
-  keysort(RecordsKeList, Sorted),
+  findall([P, W, L, KD], record(P, W, L, KD), Records),
+  maplist(standings_key, Records, RecordsKeyList),
+  keysort(RecordsKeyList, Sorted),
   reverse(Sorted, RevSorted),
   maplist(standings_line, RevSorted, S).
 
