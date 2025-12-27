@@ -45,7 +45,7 @@ team_speed_tiers_line_(Speed-[Mon|[SpeedTier]], S) :-
   speed_tier_str(SpeedTier, STStr),
   phrase(format_("~d~t~3| | ~a~t~25| | ~s", [Speed, Mon, STStr]), S).
 
-team_speed_tiers(Player, AllTiers) :-
+team_speed_tiers_(Player, AllTiers) :-
   findall([S, M, ST], team_speed_tiers_(Player, M, ST, S), Res),
   maplist(team_speed_tiers_list_key, Res, KeyList),
   keysort(KeyList, Sorted),
@@ -53,7 +53,13 @@ team_speed_tiers(Player, AllTiers) :-
   maplist(team_speed_tiers_line_, SR, AllTiers).
 
 team_speed_tiers(Player) :-
-  team_speed_tiers(Player, AllTiers),
+  team_speed_tiers_(Player, AllTiers),
+  maplist(printline, AllTiers).
+
+team_speed_tiers(Player1, Player2) :-
+  team_speed_tiers_(Player1, Player1Tiers),
+  team_speed_tiers_(Player2, Player2Tiers),
+  append(Player1Tiers, Player2Tiers, AllTiers),
   maplist(printline, AllTiers).
 
 

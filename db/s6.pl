@@ -22,7 +22,7 @@ record(Player, Wins, Losses, KD) :-
   findall(Deaths, match_result(Week, Player, Kills, Deaths), DeathsList),
   sum_list(KillsList, Kills),
   sum_list(DeathsList, Deaths),
-  KD is Kills / (Deaths + 1). % "free" death to avoid the divide-by-zero error for now
+  KD is Kills / (Deaths + 0). % You can make this 1 to avoid a divide-by-zero possibility
 
 draft_status :- players(Names), maplist(draft_status_, Names), !.
 draft_status_(Player) :-
@@ -307,4 +307,7 @@ result(1, pat, 3).
 result(1, kevin, 4).
 result(1, mason, 1).
 result(1, nic, 2).
+
+result(2, justin, 5).
+result(2, alex, 6).
 
