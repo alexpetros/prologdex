@@ -1,11 +1,18 @@
 :- module('type-chart', [super_effective/2, not_very_effective/2, no_damage/2,
                          weak_to/2, strong_against/2, normal_damage/2, type/1,
                          mon_type_matchup/3, mon_type_chart/3, calc_modifier/3,
-                         effectiveness/1
+                         effectiveness/1, super_effective_move/2
                          ]).
 
 :- use_module('dex/pokemon.pl').
+:- use_module('dex/moves.pl').
 :- use_module(library(lists)).
+
+super_effective_move(Move, Mon) :-
+  move(Move),
+  move_type(Move, Type),
+  mon_type_matchup(Mon, Type, Matchup),
+  (Matchup = weak; Matchup = very_weak).
 
 effectiveness(immune_via_ability).
 effectiveness(immune).
