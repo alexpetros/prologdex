@@ -91,7 +91,7 @@ for (const id in pokedex) {
   const mon = Dex.species.get(id)
   const moves = Dex.species.getMovePool(mon, true)
   for (const move of moves) {
-    learnsetsStream.writeln(`learns('${mon.id}', '${move}').`)
+    if (move !== 'hiddenpower') learnsetsStream.writeln(`learns('${mon.id}', '${move}').`)
   }
 }
 learnsetsStream.close()
@@ -100,13 +100,12 @@ learnsetsStream.close()
 const movesStream = new ModuleFile(MOVES_PL_FILE)
 movesStream.writeln(":- module(moves, [move/1, move_type/2, move_power/2, move_accuracy/2]).\n")
 const moves = Dex.moves.all()
-const hiddenpower = moves.find(move => move.id === 'hiddenpower')
 
 for (const move of moves) {
   const id = move.id
   if (id !== 'hiddenpower') movesStream.writeln(`move('${id}').`)
 }
-movesStream.writeln("move('hiddenpower').\n")
+// movesStream.writeln("move('hiddenpower').\n")
 
 for (const move of moves) {
   const id = move.id
@@ -120,12 +119,12 @@ for (const move of moves) {
   const power = move.basePower
   if (id !== 'hiddenpower') movesStream.writeln(`move_power('${id}', ${power}).`)
 }
-movesStream.writeln(`move_power('hiddenpower', ${hiddenpower.basePower}).\n`)
+// movesStream.writeln(`move_power('hiddenpower', ${hiddenpower.basePower}).\n`)
 
 for (const move of moves) {
   const id = move.id
   const accuracy = move.accuracy === true ? 'true' : move.accuracy
   if (id !== 'hiddenpower') movesStream.writeln(`move_accuracy('${id}', ${accuracy}).`)
 }
-movesStream.writeln(`move_accuracy('hiddenpower', ${hiddenpower.accuracy}).`)
+// movesStream.writeln(`move_accuracy('hiddenpower', ${hiddenpower.accuracy}).`)
 movesStream.close()

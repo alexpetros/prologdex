@@ -38,7 +38,6 @@ learns('bulbasaur', 'growl').
 learns('bulbasaur', 'growth').
 learns('bulbasaur', 'headbutt').
 learns('bulbasaur', 'helpinghand').
-learns('bulbasaur', 'hiddenpower').
 learns('bulbasaur', 'ingrain').
 learns('bulbasaur', 'knockoff').
 learns('bulbasaur', 'leafstorm').
@@ -123,7 +122,6 @@ learns('ivysaur', 'growl').
 learns('ivysaur', 'growth').
 learns('ivysaur', 'headbutt').
 learns('ivysaur', 'helpinghand').
-learns('ivysaur', 'hiddenpower').
 learns('ivysaur', 'knockoff').
 learns('ivysaur', 'leafstorm').
 learns('ivysaur', 'leechseed').
@@ -219,7 +217,6 @@ learns('venusaur', 'growl').
 learns('venusaur', 'growth').
 learns('venusaur', 'headbutt').
 learns('venusaur', 'helpinghand').
-learns('venusaur', 'hiddenpower').
 learns('venusaur', 'hyperbeam').
 learns('venusaur', 'knockoff').
 learns('venusaur', 'leafstorm').
@@ -319,7 +316,6 @@ learns('venusaurmega', 'growl').
 learns('venusaurmega', 'growth').
 learns('venusaurmega', 'headbutt').
 learns('venusaurmega', 'helpinghand').
-learns('venusaurmega', 'hiddenpower').
 learns('venusaurmega', 'hyperbeam').
 learns('venusaurmega', 'knockoff').
 learns('venusaurmega', 'leafstorm').
@@ -419,7 +415,6 @@ learns('venusaurgmax', 'growl').
 learns('venusaurgmax', 'growth').
 learns('venusaurgmax', 'headbutt').
 learns('venusaurgmax', 'helpinghand').
-learns('venusaurgmax', 'hiddenpower').
 learns('venusaurgmax', 'hyperbeam').
 learns('venusaurgmax', 'knockoff').
 learns('venusaurgmax', 'leafstorm').
@@ -538,7 +533,6 @@ learns('charmander', 'growl').
 learns('charmander', 'headbutt').
 learns('charmander', 'heatwave').
 learns('charmander', 'helpinghand').
-learns('charmander', 'hiddenpower').
 learns('charmander', 'honeclaws').
 learns('charmander', 'howl').
 learns('charmander', 'incinerate').
@@ -640,7 +634,6 @@ learns('charmeleon', 'growl').
 learns('charmeleon', 'headbutt').
 learns('charmeleon', 'heatwave').
 learns('charmeleon', 'helpinghand').
-learns('charmeleon', 'hiddenpower').
 learns('charmeleon', 'honeclaws').
 learns('charmeleon', 'incinerate').
 learns('charmeleon', 'inferno').
@@ -765,7 +758,6 @@ learns('charizard', 'headbutt').
 learns('charizard', 'heatcrash').
 learns('charizard', 'heatwave').
 learns('charizard', 'helpinghand').
-learns('charizard', 'hiddenpower').
 learns('charizard', 'holdhands').
 learns('charizard', 'honeclaws').
 learns('charizard', 'hurricane').
@@ -901,7 +893,6 @@ learns('charizardmegax', 'headbutt').
 learns('charizardmegax', 'heatcrash').
 learns('charizardmegax', 'heatwave').
 learns('charizardmegax', 'helpinghand').
-learns('charizardmegax', 'hiddenpower').
 learns('charizardmegax', 'holdhands').
 learns('charizardmegax', 'honeclaws').
 learns('charizardmegax', 'hurricane').
@@ -1037,7 +1028,6 @@ learns('charizardmegay', 'headbutt').
 learns('charizardmegay', 'heatcrash').
 learns('charizardmegay', 'heatwave').
 learns('charizardmegay', 'helpinghand').
-learns('charizardmegay', 'hiddenpower').
 learns('charizardmegay', 'holdhands').
 learns('charizardmegay', 'honeclaws').
 learns('charizardmegay', 'hurricane').
@@ -1173,7 +1163,6 @@ learns('charizardgmax', 'headbutt').
 learns('charizardgmax', 'heatcrash').
 learns('charizardgmax', 'heatwave').
 learns('charizardgmax', 'helpinghand').
-learns('charizardgmax', 'hiddenpower').
 learns('charizardgmax', 'holdhands').
 learns('charizardgmax', 'honeclaws').
 learns('charizardgmax', 'hurricane').
@@ -1289,7 +1278,6 @@ learns('squirtle', 'hail').
 learns('squirtle', 'haze').
 learns('squirtle', 'headbutt').
 learns('squirtle', 'helpinghand').
-learns('squirtle', 'hiddenpower').
 learns('squirtle', 'hydrocannon').
 learns('squirtle', 'hydropump').
 learns('squirtle', 'icebeam').
@@ -1389,7 +1377,6 @@ learns('wartortle', 'hail').
 learns('wartortle', 'haze').
 learns('wartortle', 'headbutt').
 learns('wartortle', 'helpinghand').
-learns('wartortle', 'hiddenpower').
 learns('wartortle', 'hydropump').
 learns('wartortle', 'icebeam').
 learns('wartortle', 'icepunch').
@@ -1511,7 +1498,6 @@ learns('blastoise', 'hail').
 learns('blastoise', 'haze').
 learns('blastoise', 'headbutt').
 learns('blastoise', 'helpinghand').
-learns('blastoise', 'hiddenpower').
 learns('blastoise', 'hydrocannon').
 learns('blastoise', 'hydropump').
 learns('blastoise', 'hyperbeam').
@@ -1637,7 +1623,6 @@ learns('blastoisemega', 'hail').
 learns('blastoisemega', 'haze').
 learns('blastoisemega', 'headbutt').
 learns('blastoisemega', 'helpinghand').
-learns('blastoisemega', 'hiddenpower').
 learns('blastoisemega', 'hydrocannon').
 learns('blastoisemega', 'hydropump').
 learns('blastoisemega', 'hyperbeam').
@@ -1763,7 +1748,6 @@ learns('blastoisegmax', 'hail').
 learns('blastoisegmax', 'haze').
 learns('blastoisegmax', 'headbutt').
 learns('blastoisegmax', 'helpinghand').
-learns('blastoisegmax', 'hiddenpower').
 learns('blastoisegmax', 'hydrocannon').
 learns('blastoisegmax', 'hydropump').
 learns('blastoisegmax', 'hyperbeam').
@@ -1883,7 +1867,6 @@ learns('butterfree', 'gigaimpact').
 learns('butterfree', 'gust').
 learns('butterfree', 'harden').
 learns('butterfree', 'headbutt').
-learns('butterfree', 'hiddenpower').
 learns('butterfree', 'hurricane').
 learns('butterfree', 'hyperbeam').
 learns('butterfree', 'infestation').
@@ -1970,7 +1953,6 @@ learns('butterfreegmax', 'gigaimpact').
 learns('butterfreegmax', 'gust').
 learns('butterfreegmax', 'harden').
 learns('butterfreegmax', 'headbutt').
-learns('butterfreegmax', 'hiddenpower').
 learns('butterfreegmax', 'hurricane').
 learns('butterfreegmax', 'hyperbeam').
 learns('butterfreegmax', 'infestation').
@@ -2070,7 +2052,6 @@ learns('beedrill', 'furycutter').
 learns('beedrill', 'gigadrain').
 learns('beedrill', 'gigaimpact').
 learns('beedrill', 'headbutt').
-learns('beedrill', 'hiddenpower').
 learns('beedrill', 'hyperbeam').
 learns('beedrill', 'infestation').
 learns('beedrill', 'knockoff').
@@ -2154,7 +2135,6 @@ learns('beedrillmega', 'furycutter').
 learns('beedrillmega', 'gigadrain').
 learns('beedrillmega', 'gigaimpact').
 learns('beedrillmega', 'headbutt').
-learns('beedrillmega', 'hiddenpower').
 learns('beedrillmega', 'hyperbeam').
 learns('beedrillmega', 'infestation').
 learns('beedrillmega', 'knockoff').
@@ -2229,7 +2209,6 @@ learns('pidgey', 'frustration').
 learns('pidgey', 'gust').
 learns('pidgey', 'headbutt').
 learns('pidgey', 'heatwave').
-learns('pidgey', 'hiddenpower').
 learns('pidgey', 'hurricane').
 learns('pidgey', 'mimic').
 learns('pidgey', 'mirrormove').
@@ -2290,7 +2269,6 @@ learns('pidgeotto', 'frustration').
 learns('pidgeotto', 'gust').
 learns('pidgeotto', 'headbutt').
 learns('pidgeotto', 'heatwave').
-learns('pidgeotto', 'hiddenpower').
 learns('pidgeotto', 'hurricane').
 learns('pidgeotto', 'mimic').
 learns('pidgeotto', 'mirrormove').
@@ -2356,7 +2334,6 @@ learns('pidgeot', 'gigaimpact').
 learns('pidgeot', 'gust').
 learns('pidgeot', 'headbutt').
 learns('pidgeot', 'heatwave').
-learns('pidgeot', 'hiddenpower').
 learns('pidgeot', 'hurricane').
 learns('pidgeot', 'hyperbeam').
 learns('pidgeot', 'laserfocus').
@@ -2424,7 +2401,6 @@ learns('pidgeotmega', 'gigaimpact').
 learns('pidgeotmega', 'gust').
 learns('pidgeotmega', 'headbutt').
 learns('pidgeotmega', 'heatwave').
-learns('pidgeotmega', 'hiddenpower').
 learns('pidgeotmega', 'hurricane').
 learns('pidgeotmega', 'hyperbeam').
 learns('pidgeotmega', 'laserfocus').
@@ -2499,7 +2475,6 @@ learns('rattata', 'frustration').
 learns('rattata', 'furyswipes').
 learns('rattata', 'grassknot').
 learns('rattata', 'headbutt').
-learns('rattata', 'hiddenpower').
 learns('rattata', 'hyperfang').
 learns('rattata', 'icebeam').
 learns('rattata', 'icywind').
@@ -2571,7 +2546,6 @@ learns('rattataalola', 'frustration').
 learns('rattataalola', 'furyswipes').
 learns('rattataalola', 'grassknot').
 learns('rattataalola', 'headbutt').
-learns('rattataalola', 'hiddenpower').
 learns('rattataalola', 'hyperfang').
 learns('rattataalola', 'icebeam').
 learns('rattataalola', 'icywind').
@@ -2641,7 +2615,6 @@ learns('raticate', 'furyswipes').
 learns('raticate', 'gigaimpact').
 learns('raticate', 'grassknot').
 learns('raticate', 'headbutt').
-learns('raticate', 'hiddenpower').
 learns('raticate', 'hyperbeam').
 learns('raticate', 'hyperfang').
 learns('raticate', 'icebeam').
@@ -2724,7 +2697,6 @@ learns('raticatealola', 'furyswipes').
 learns('raticatealola', 'gigaimpact').
 learns('raticatealola', 'grassknot').
 learns('raticatealola', 'headbutt').
-learns('raticatealola', 'hiddenpower').
 learns('raticatealola', 'hyperbeam').
 learns('raticatealola', 'hyperfang').
 learns('raticatealola', 'icebeam').
@@ -2794,7 +2766,6 @@ learns('raticatealolatotem', 'focusenergy').
 learns('raticatealolatotem', 'frustration').
 learns('raticatealolatotem', 'gigaimpact').
 learns('raticatealolatotem', 'grassknot').
-learns('raticatealolatotem', 'hiddenpower').
 learns('raticatealolatotem', 'hyperbeam').
 learns('raticatealolatotem', 'hyperfang').
 learns('raticatealolatotem', 'icebeam').
@@ -2869,7 +2840,6 @@ learns('spearow', 'furyattack').
 learns('spearow', 'growl').
 learns('spearow', 'headbutt').
 learns('spearow', 'heatwave').
-learns('spearow', 'hiddenpower').
 learns('spearow', 'leer').
 learns('spearow', 'mimic').
 learns('spearow', 'mirrormove').
@@ -2935,7 +2905,6 @@ learns('fearow', 'gigaimpact').
 learns('fearow', 'growl').
 learns('fearow', 'headbutt').
 learns('fearow', 'heatwave').
-learns('fearow', 'hiddenpower').
 learns('fearow', 'hyperbeam').
 learns('fearow', 'laserfocus').
 learns('fearow', 'leer').
@@ -3015,7 +2984,6 @@ learns('ekans', 'glare').
 learns('ekans', 'gunkshot').
 learns('ekans', 'haze').
 learns('ekans', 'headbutt').
-learns('ekans', 'hiddenpower').
 learns('ekans', 'infestation').
 learns('ekans', 'irontail').
 learns('ekans', 'knockoff').
@@ -3111,7 +3079,6 @@ learns('arbok', 'glare').
 learns('arbok', 'gunkshot').
 learns('arbok', 'haze').
 learns('arbok', 'headbutt').
-learns('arbok', 'hiddenpower').
 learns('arbok', 'hyperbeam').
 learns('arbok', 'icefang').
 learns('arbok', 'infestation').
@@ -3232,7 +3199,6 @@ learns('pikachu', 'happyhour').
 learns('pikachu', 'headbutt').
 learns('pikachu', 'heartstamp').
 learns('pikachu', 'helpinghand').
-learns('pikachu', 'hiddenpower').
 learns('pikachu', 'holdhands').
 learns('pikachu', 'irontail').
 learns('pikachu', 'knockoff').
@@ -3328,7 +3294,6 @@ learns('pikachucosplay', 'frustration').
 learns('pikachucosplay', 'grassknot').
 learns('pikachucosplay', 'growl').
 learns('pikachucosplay', 'helpinghand').
-learns('pikachucosplay', 'hiddenpower').
 learns('pikachucosplay', 'irontail').
 learns('pikachucosplay', 'knockoff').
 learns('pikachucosplay', 'lightscreen').
@@ -3390,7 +3355,6 @@ learns('pikachurockstar', 'frustration').
 learns('pikachurockstar', 'grassknot').
 learns('pikachurockstar', 'growl').
 learns('pikachurockstar', 'helpinghand').
-learns('pikachurockstar', 'hiddenpower').
 learns('pikachurockstar', 'irontail').
 learns('pikachurockstar', 'knockoff').
 learns('pikachurockstar', 'lightscreen').
@@ -3452,7 +3416,6 @@ learns('pikachubelle', 'frustration').
 learns('pikachubelle', 'grassknot').
 learns('pikachubelle', 'growl').
 learns('pikachubelle', 'helpinghand').
-learns('pikachubelle', 'hiddenpower').
 learns('pikachubelle', 'irontail').
 learns('pikachubelle', 'knockoff').
 learns('pikachubelle', 'lightscreen').
@@ -3514,7 +3477,6 @@ learns('pikachupopstar', 'frustration').
 learns('pikachupopstar', 'grassknot').
 learns('pikachupopstar', 'growl').
 learns('pikachupopstar', 'helpinghand').
-learns('pikachupopstar', 'hiddenpower').
 learns('pikachupopstar', 'irontail').
 learns('pikachupopstar', 'knockoff').
 learns('pikachupopstar', 'lightscreen').
@@ -3576,7 +3538,6 @@ learns('pikachuphd', 'frustration').
 learns('pikachuphd', 'grassknot').
 learns('pikachuphd', 'growl').
 learns('pikachuphd', 'helpinghand').
-learns('pikachuphd', 'hiddenpower').
 learns('pikachuphd', 'irontail').
 learns('pikachuphd', 'knockoff').
 learns('pikachuphd', 'lightscreen').
@@ -3638,7 +3599,6 @@ learns('pikachulibre', 'frustration').
 learns('pikachulibre', 'grassknot').
 learns('pikachulibre', 'growl').
 learns('pikachulibre', 'helpinghand').
-learns('pikachulibre', 'hiddenpower').
 learns('pikachulibre', 'irontail').
 learns('pikachulibre', 'knockoff').
 learns('pikachulibre', 'lightscreen').
@@ -3712,7 +3672,6 @@ learns('pikachuoriginal', 'frustration').
 learns('pikachuoriginal', 'grassknot').
 learns('pikachuoriginal', 'growl').
 learns('pikachuoriginal', 'helpinghand').
-learns('pikachuoriginal', 'hiddenpower').
 learns('pikachuoriginal', 'irontail').
 learns('pikachuoriginal', 'knockoff').
 learns('pikachuoriginal', 'laserfocus').
@@ -3798,7 +3757,6 @@ learns('pikachuhoenn', 'frustration').
 learns('pikachuhoenn', 'grassknot').
 learns('pikachuhoenn', 'growl').
 learns('pikachuhoenn', 'helpinghand').
-learns('pikachuhoenn', 'hiddenpower').
 learns('pikachuhoenn', 'irontail').
 learns('pikachuhoenn', 'knockoff').
 learns('pikachuhoenn', 'laserfocus').
@@ -3884,7 +3842,6 @@ learns('pikachusinnoh', 'frustration').
 learns('pikachusinnoh', 'grassknot').
 learns('pikachusinnoh', 'growl').
 learns('pikachusinnoh', 'helpinghand').
-learns('pikachusinnoh', 'hiddenpower').
 learns('pikachusinnoh', 'irontail').
 learns('pikachusinnoh', 'knockoff').
 learns('pikachusinnoh', 'laserfocus').
@@ -3970,7 +3927,6 @@ learns('pikachuunova', 'frustration').
 learns('pikachuunova', 'grassknot').
 learns('pikachuunova', 'growl').
 learns('pikachuunova', 'helpinghand').
-learns('pikachuunova', 'hiddenpower').
 learns('pikachuunova', 'irontail').
 learns('pikachuunova', 'knockoff').
 learns('pikachuunova', 'laserfocus').
@@ -4056,7 +4012,6 @@ learns('pikachukalos', 'frustration').
 learns('pikachukalos', 'grassknot').
 learns('pikachukalos', 'growl').
 learns('pikachukalos', 'helpinghand').
-learns('pikachukalos', 'hiddenpower').
 learns('pikachukalos', 'irontail').
 learns('pikachukalos', 'knockoff').
 learns('pikachukalos', 'laserfocus').
@@ -4142,7 +4097,6 @@ learns('pikachualola', 'frustration').
 learns('pikachualola', 'grassknot').
 learns('pikachualola', 'growl').
 learns('pikachualola', 'helpinghand').
-learns('pikachualola', 'hiddenpower').
 learns('pikachualola', 'irontail').
 learns('pikachualola', 'knockoff').
 learns('pikachualola', 'laserfocus').
@@ -4228,7 +4182,6 @@ learns('pikachupartner', 'frustration').
 learns('pikachupartner', 'grassknot').
 learns('pikachupartner', 'growl').
 learns('pikachupartner', 'helpinghand').
-learns('pikachupartner', 'hiddenpower').
 learns('pikachupartner', 'irontail').
 learns('pikachupartner', 'knockoff').
 learns('pikachupartner', 'laserfocus').
@@ -4369,7 +4322,6 @@ learns('pikachugmax', 'happyhour').
 learns('pikachugmax', 'headbutt').
 learns('pikachugmax', 'heartstamp').
 learns('pikachugmax', 'helpinghand').
-learns('pikachugmax', 'hiddenpower').
 learns('pikachugmax', 'holdhands').
 learns('pikachugmax', 'irontail').
 learns('pikachugmax', 'knockoff').
@@ -4560,7 +4512,6 @@ learns('raichu', 'grassknot').
 learns('raichu', 'growl').
 learns('raichu', 'headbutt').
 learns('raichu', 'helpinghand').
-learns('raichu', 'hiddenpower').
 learns('raichu', 'hyperbeam').
 learns('raichu', 'irontail').
 learns('raichu', 'knockoff').
@@ -4684,7 +4635,6 @@ learns('raichualola', 'grassknot').
 learns('raichualola', 'growl').
 learns('raichualola', 'headbutt').
 learns('raichualola', 'helpinghand').
-learns('raichualola', 'hiddenpower').
 learns('raichualola', 'hyperbeam').
 learns('raichualola', 'irontail').
 learns('raichualola', 'knockoff').
@@ -4789,7 +4739,6 @@ learns('sandshrew', 'furycutter').
 learns('sandshrew', 'furyswipes').
 learns('sandshrew', 'gyroball').
 learns('sandshrew', 'headbutt').
-learns('sandshrew', 'hiddenpower').
 learns('sandshrew', 'highhorsepower').
 learns('sandshrew', 'honeclaws').
 learns('sandshrew', 'irontail').
@@ -4887,7 +4836,6 @@ learns('sandshrewalola', 'furyswipes').
 learns('sandshrewalola', 'gyroball').
 learns('sandshrewalola', 'hail').
 learns('sandshrewalola', 'headbutt').
-learns('sandshrewalola', 'hiddenpower').
 learns('sandshrewalola', 'honeclaws').
 learns('sandshrewalola', 'iceball').
 learns('sandshrewalola', 'icebeam').
@@ -4981,7 +4929,6 @@ learns('sandslash', 'gigaimpact').
 learns('sandslash', 'gunkshot').
 learns('sandslash', 'gyroball').
 learns('sandslash', 'headbutt').
-learns('sandslash', 'hiddenpower').
 learns('sandslash', 'highhorsepower').
 learns('sandslash', 'honeclaws').
 learns('sandslash', 'hyperbeam').
@@ -5085,7 +5032,6 @@ learns('sandslashalola', 'gigaimpact').
 learns('sandslashalola', 'gyroball').
 learns('sandslashalola', 'hail').
 learns('sandslashalola', 'headbutt').
-learns('sandslashalola', 'hiddenpower').
 learns('sandslashalola', 'hyperbeam').
 learns('sandslashalola', 'iceball').
 learns('sandslashalola', 'icebeam').
@@ -5180,7 +5126,6 @@ learns('nidoranf', 'furyswipes').
 learns('nidoranf', 'growl').
 learns('nidoranf', 'headbutt').
 learns('nidoranf', 'helpinghand').
-learns('nidoranf', 'hiddenpower').
 learns('nidoranf', 'honeclaws').
 learns('nidoranf', 'icebeam').
 learns('nidoranf', 'irontail').
@@ -5258,7 +5203,6 @@ learns('nidorina', 'furyswipes').
 learns('nidorina', 'growl').
 learns('nidorina', 'headbutt').
 learns('nidorina', 'helpinghand').
-learns('nidorina', 'hiddenpower').
 learns('nidorina', 'honeclaws').
 learns('nidorina', 'horndrill').
 learns('nidorina', 'icebeam').
@@ -5362,7 +5306,6 @@ learns('nidoqueen', 'growl').
 learns('nidoqueen', 'headbutt').
 learns('nidoqueen', 'helpinghand').
 learns('nidoqueen', 'hex').
-learns('nidoqueen', 'hiddenpower').
 learns('nidoqueen', 'highhorsepower').
 learns('nidoqueen', 'honeclaws').
 learns('nidoqueen', 'horndrill').
@@ -5478,7 +5421,6 @@ learns('nidoranm', 'furyattack').
 learns('nidoranm', 'headbutt').
 learns('nidoranm', 'headsmash').
 learns('nidoranm', 'helpinghand').
-learns('nidoranm', 'hiddenpower').
 learns('nidoranm', 'honeclaws').
 learns('nidoranm', 'hornattack').
 learns('nidoranm', 'horndrill').
@@ -5555,7 +5497,6 @@ learns('nidorino', 'frustration').
 learns('nidorino', 'furyattack').
 learns('nidorino', 'headbutt').
 learns('nidorino', 'helpinghand').
-learns('nidorino', 'hiddenpower').
 learns('nidorino', 'honeclaws').
 learns('nidorino', 'hornattack').
 learns('nidorino', 'horndrill').
@@ -5658,7 +5599,6 @@ learns('nidoking', 'gigaimpact').
 learns('nidoking', 'headbutt').
 learns('nidoking', 'helpinghand').
 learns('nidoking', 'hex').
-learns('nidoking', 'hiddenpower').
 learns('nidoking', 'highhorsepower').
 learns('nidoking', 'honeclaws').
 learns('nidoking', 'hornattack').
@@ -5804,7 +5744,6 @@ learns('clefairy', 'headbutt').
 learns('clefairy', 'healbell').
 learns('clefairy', 'healingwish').
 learns('clefairy', 'helpinghand').
-learns('clefairy', 'hiddenpower').
 learns('clefairy', 'hypervoice').
 learns('clefairy', 'icebeam').
 learns('clefairy', 'icepunch').
@@ -5966,7 +5905,6 @@ learns('clefable', 'headbutt').
 learns('clefable', 'healbell').
 learns('clefable', 'healingwish').
 learns('clefable', 'helpinghand').
-learns('clefable', 'hiddenpower').
 learns('clefable', 'hyperbeam').
 learns('clefable', 'hypervoice').
 learns('clefable', 'icebeam').
@@ -6111,7 +6049,6 @@ learns('vulpix', 'healingwish').
 learns('vulpix', 'heatwave').
 learns('vulpix', 'helpinghand').
 learns('vulpix', 'hex').
-learns('vulpix', 'hiddenpower').
 learns('vulpix', 'howl').
 learns('vulpix', 'hypnosis').
 learns('vulpix', 'imprison').
@@ -6199,7 +6136,6 @@ learns('vulpixalola', 'headbutt').
 learns('vulpixalola', 'healbell').
 learns('vulpixalola', 'helpinghand').
 learns('vulpixalola', 'hex').
-learns('vulpixalola', 'hiddenpower').
 learns('vulpixalola', 'howl').
 learns('vulpixalola', 'hypnosis').
 learns('vulpixalola', 'icebeam').
@@ -6284,7 +6220,6 @@ learns('ninetales', 'headbutt').
 learns('ninetales', 'heatwave').
 learns('ninetales', 'helpinghand').
 learns('ninetales', 'hex').
-learns('ninetales', 'hiddenpower').
 learns('ninetales', 'hyperbeam').
 learns('ninetales', 'hypnosis').
 learns('ninetales', 'imprison').
@@ -6384,7 +6319,6 @@ learns('ninetalesalola', 'headbutt').
 learns('ninetalesalola', 'healbell').
 learns('ninetalesalola', 'helpinghand').
 learns('ninetalesalola', 'hex').
-learns('ninetalesalola', 'hiddenpower').
 learns('ninetalesalola', 'hyperbeam').
 learns('ninetalesalola', 'hypnosis').
 learns('ninetalesalola', 'icebeam').
@@ -6497,7 +6431,6 @@ learns('jigglypuff', 'gyroball').
 learns('jigglypuff', 'headbutt').
 learns('jigglypuff', 'healbell').
 learns('jigglypuff', 'helpinghand').
-learns('jigglypuff', 'hiddenpower').
 learns('jigglypuff', 'hypervoice').
 learns('jigglypuff', 'icebeam').
 learns('jigglypuff', 'icepunch').
@@ -6655,7 +6588,6 @@ learns('wigglytuff', 'gyroball').
 learns('wigglytuff', 'headbutt').
 learns('wigglytuff', 'healbell').
 learns('wigglytuff', 'helpinghand').
-learns('wigglytuff', 'hiddenpower').
 learns('wigglytuff', 'hyperbeam').
 learns('wigglytuff', 'hypervoice').
 learns('wigglytuff', 'icebeam').
@@ -6790,7 +6722,6 @@ learns('zubat', 'gust').
 learns('zubat', 'haze').
 learns('zubat', 'headbutt').
 learns('zubat', 'heatwave').
-learns('zubat', 'hiddenpower').
 learns('zubat', 'hypnosis').
 learns('zubat', 'leechlife').
 learns('zubat', 'meanlook').
@@ -6871,7 +6802,6 @@ learns('golbat', 'gigaimpact').
 learns('golbat', 'haze').
 learns('golbat', 'headbutt').
 learns('golbat', 'heatwave').
-learns('golbat', 'hiddenpower').
 learns('golbat', 'hyperbeam').
 learns('golbat', 'leechlife').
 learns('golbat', 'meanlook').
@@ -6954,7 +6884,6 @@ learns('oddish', 'grassyterrain').
 learns('oddish', 'growth').
 learns('oddish', 'headbutt').
 learns('oddish', 'helpinghand').
-learns('oddish', 'hiddenpower').
 learns('oddish', 'infestation').
 learns('oddish', 'ingrain').
 learns('oddish', 'leafstorm').
@@ -7029,7 +6958,6 @@ learns('gloom', 'grassyterrain').
 learns('gloom', 'growth').
 learns('gloom', 'headbutt').
 learns('gloom', 'helpinghand').
-learns('gloom', 'hiddenpower').
 learns('gloom', 'infestation').
 learns('gloom', 'leafstorm').
 learns('gloom', 'luckychant').
@@ -7111,7 +7039,6 @@ learns('vileplume', 'grassyterrain').
 learns('vileplume', 'growth').
 learns('vileplume', 'headbutt').
 learns('vileplume', 'helpinghand').
-learns('vileplume', 'hiddenpower').
 learns('vileplume', 'hyperbeam').
 learns('vileplume', 'infestation').
 learns('vileplume', 'leafstorm').
@@ -7199,7 +7126,6 @@ learns('paras', 'grassknot').
 learns('paras', 'grassyterrain').
 learns('paras', 'growth').
 learns('paras', 'headbutt').
-learns('paras', 'hiddenpower').
 learns('paras', 'honeclaws').
 learns('paras', 'knockoff').
 learns('paras', 'leechlife').
@@ -7283,7 +7209,6 @@ learns('parasect', 'gigaimpact').
 learns('parasect', 'grassknot').
 learns('parasect', 'growth').
 learns('parasect', 'headbutt').
-learns('parasect', 'hiddenpower').
 learns('parasect', 'honeclaws').
 learns('parasect', 'hyperbeam').
 learns('parasect', 'knockoff').
@@ -7365,7 +7290,6 @@ learns('venonat', 'foresight').
 learns('venonat', 'frustration').
 learns('venonat', 'gigadrain').
 learns('venonat', 'headbutt').
-learns('venonat', 'hiddenpower').
 learns('venonat', 'infestation').
 learns('venonat', 'leechlife').
 learns('venonat', 'lunge').
@@ -7447,7 +7371,6 @@ learns('venomoth', 'gigadrain').
 learns('venomoth', 'gigaimpact').
 learns('venomoth', 'gust').
 learns('venomoth', 'headbutt').
-learns('venomoth', 'hiddenpower').
 learns('venomoth', 'hyperbeam').
 learns('venomoth', 'infestation').
 learns('venomoth', 'leechlife').
@@ -7544,7 +7467,6 @@ learns('diglett', 'furyswipes').
 learns('diglett', 'growl').
 learns('diglett', 'headbutt').
 learns('diglett', 'helpinghand').
-learns('diglett', 'hiddenpower').
 learns('diglett', 'honeclaws').
 learns('diglett', 'magnitude').
 learns('diglett', 'memento').
@@ -7621,7 +7543,6 @@ learns('diglettalola', 'furyswipes').
 learns('diglettalola', 'growl').
 learns('diglettalola', 'headbutt').
 learns('diglettalola', 'helpinghand').
-learns('diglettalola', 'hiddenpower').
 learns('diglettalola', 'honeclaws').
 learns('diglettalola', 'irondefense').
 learns('diglettalola', 'ironhead').
@@ -7702,7 +7623,6 @@ learns('dugtrio', 'gigaimpact').
 learns('dugtrio', 'growl').
 learns('dugtrio', 'headbutt').
 learns('dugtrio', 'helpinghand').
-learns('dugtrio', 'hiddenpower').
 learns('dugtrio', 'highhorsepower').
 learns('dugtrio', 'honeclaws').
 learns('dugtrio', 'hyperbeam').
@@ -7790,7 +7710,6 @@ learns('dugtrioalola', 'gigaimpact').
 learns('dugtrioalola', 'growl').
 learns('dugtrioalola', 'headbutt').
 learns('dugtrioalola', 'helpinghand').
-learns('dugtrioalola', 'hiddenpower').
 learns('dugtrioalola', 'highhorsepower').
 learns('dugtrioalola', 'hyperbeam').
 learns('dugtrioalola', 'irondefense').
@@ -7892,7 +7811,6 @@ learns('meowth', 'gunkshot').
 learns('meowth', 'happyhour').
 learns('meowth', 'headbutt').
 learns('meowth', 'helpinghand').
-learns('meowth', 'hiddenpower').
 learns('meowth', 'honeclaws').
 learns('meowth', 'hypervoice').
 learns('meowth', 'hypnosis').
@@ -7999,7 +7917,6 @@ learns('meowthalola', 'growl').
 learns('meowthalola', 'gunkshot').
 learns('meowthalola', 'headbutt').
 learns('meowthalola', 'helpinghand').
-learns('meowthalola', 'hiddenpower').
 learns('meowthalola', 'hypervoice').
 learns('meowthalola', 'hypnosis').
 learns('meowthalola', 'icywind').
@@ -8174,7 +8091,6 @@ learns('meowthgmax', 'gunkshot').
 learns('meowthgmax', 'happyhour').
 learns('meowthgmax', 'headbutt').
 learns('meowthgmax', 'helpinghand').
-learns('meowthgmax', 'hiddenpower').
 learns('meowthgmax', 'honeclaws').
 learns('meowthgmax', 'hypervoice').
 learns('meowthgmax', 'hypnosis').
@@ -8285,7 +8201,6 @@ learns('persian', 'growl').
 learns('persian', 'gunkshot').
 learns('persian', 'headbutt').
 learns('persian', 'helpinghand').
-learns('persian', 'hiddenpower').
 learns('persian', 'honeclaws').
 learns('persian', 'hyperbeam').
 learns('persian', 'hypervoice').
@@ -8399,7 +8314,6 @@ learns('persianalola', 'growl').
 learns('persianalola', 'gunkshot').
 learns('persianalola', 'headbutt').
 learns('persianalola', 'helpinghand').
-learns('persianalola', 'hiddenpower').
 learns('persianalola', 'hyperbeam').
 learns('persianalola', 'hypervoice').
 learns('persianalola', 'hypnosis').
@@ -8505,7 +8419,6 @@ learns('psyduck', 'hail').
 learns('psyduck', 'haze').
 learns('psyduck', 'headbutt').
 learns('psyduck', 'helpinghand').
-learns('psyduck', 'hiddenpower').
 learns('psyduck', 'honeclaws').
 learns('psyduck', 'hydropump').
 learns('psyduck', 'hypnosis').
@@ -8628,7 +8541,6 @@ learns('golduck', 'hail').
 learns('golduck', 'haze').
 learns('golduck', 'headbutt').
 learns('golduck', 'helpinghand').
-learns('golduck', 'hiddenpower').
 learns('golduck', 'honeclaws').
 learns('golduck', 'hydropump').
 learns('golduck', 'hyperbeam').
@@ -8755,7 +8667,6 @@ learns('mankey', 'furyswipes').
 learns('mankey', 'gunkshot').
 learns('mankey', 'headbutt').
 learns('mankey', 'helpinghand').
-learns('mankey', 'hiddenpower').
 learns('mankey', 'honeclaws').
 learns('mankey', 'icepunch').
 learns('mankey', 'irontail').
@@ -8871,7 +8782,6 @@ learns('primeape', 'gigaimpact').
 learns('primeape', 'gunkshot').
 learns('primeape', 'headbutt').
 learns('primeape', 'helpinghand').
-learns('primeape', 'hiddenpower').
 learns('primeape', 'honeclaws').
 learns('primeape', 'hyperbeam').
 learns('primeape', 'icepunch').
@@ -8986,7 +8896,6 @@ learns('growlithe', 'frustration').
 learns('growlithe', 'headbutt').
 learns('growlithe', 'heatwave').
 learns('growlithe', 'helpinghand').
-learns('growlithe', 'hiddenpower').
 learns('growlithe', 'howl').
 learns('growlithe', 'incinerate').
 learns('growlithe', 'irontail').
@@ -9124,7 +9033,6 @@ learns('arcanine', 'headbutt').
 learns('arcanine', 'heatcrash').
 learns('arcanine', 'heatwave').
 learns('arcanine', 'helpinghand').
-learns('arcanine', 'hiddenpower').
 learns('arcanine', 'howl').
 learns('arcanine', 'hyperbeam').
 learns('arcanine', 'hypervoice').
@@ -9278,7 +9186,6 @@ learns('poliwag', 'hail').
 learns('poliwag', 'haze').
 learns('poliwag', 'headbutt').
 learns('poliwag', 'helpinghand').
-learns('poliwag', 'hiddenpower').
 learns('poliwag', 'hydropump').
 learns('poliwag', 'hypnosis').
 learns('poliwag', 'iceball').
@@ -9362,7 +9269,6 @@ learns('poliwhirl', 'hail').
 learns('poliwhirl', 'haze').
 learns('poliwhirl', 'headbutt').
 learns('poliwhirl', 'helpinghand').
-learns('poliwhirl', 'hiddenpower').
 learns('poliwhirl', 'hydropump').
 learns('poliwhirl', 'hypnosis').
 learns('poliwhirl', 'icebeam').
@@ -9468,7 +9374,6 @@ learns('poliwrath', 'hail').
 learns('poliwrath', 'haze').
 learns('poliwrath', 'headbutt').
 learns('poliwrath', 'helpinghand').
-learns('poliwrath', 'hiddenpower').
 learns('poliwrath', 'highhorsepower').
 learns('poliwrath', 'hydropump').
 learns('poliwrath', 'hyperbeam').
@@ -9576,7 +9481,6 @@ learns('abra', 'gravity').
 learns('abra', 'guardsplit').
 learns('abra', 'guardswap').
 learns('abra', 'headbutt').
-learns('abra', 'hiddenpower').
 learns('abra', 'icepunch').
 learns('abra', 'irontail').
 learns('abra', 'knockoff').
@@ -9674,7 +9578,6 @@ learns('kadabra', 'grassknot').
 learns('kadabra', 'gravity').
 learns('kadabra', 'guardswap').
 learns('kadabra', 'headbutt').
-learns('kadabra', 'hiddenpower').
 learns('kadabra', 'icepunch').
 learns('kadabra', 'irontail').
 learns('kadabra', 'kinesis').
@@ -9783,7 +9686,6 @@ learns('alakazam', 'grassknot').
 learns('alakazam', 'gravity').
 learns('alakazam', 'guardswap').
 learns('alakazam', 'headbutt').
-learns('alakazam', 'hiddenpower').
 learns('alakazam', 'hyperbeam').
 learns('alakazam', 'icepunch').
 learns('alakazam', 'imprison').
@@ -9896,7 +9798,6 @@ learns('alakazammega', 'grassknot').
 learns('alakazammega', 'gravity').
 learns('alakazammega', 'guardswap').
 learns('alakazammega', 'headbutt').
-learns('alakazammega', 'hiddenpower').
 learns('alakazammega', 'hyperbeam').
 learns('alakazammega', 'icepunch').
 learns('alakazammega', 'imprison').
@@ -10007,7 +9908,6 @@ learns('machop', 'frustration').
 learns('machop', 'headbutt').
 learns('machop', 'heavyslam').
 learns('machop', 'helpinghand').
-learns('machop', 'hiddenpower').
 learns('machop', 'icepunch').
 learns('machop', 'incinerate').
 learns('machop', 'karatechop').
@@ -10101,7 +10001,6 @@ learns('machoke', 'frustration').
 learns('machoke', 'headbutt').
 learns('machoke', 'heavyslam').
 learns('machoke', 'helpinghand').
-learns('machoke', 'hiddenpower').
 learns('machoke', 'icepunch').
 learns('machoke', 'incinerate').
 learns('machoke', 'karatechop').
@@ -10201,7 +10100,6 @@ learns('machamp', 'gigaimpact').
 learns('machamp', 'headbutt').
 learns('machamp', 'heavyslam').
 learns('machamp', 'helpinghand').
-learns('machamp', 'hiddenpower').
 learns('machamp', 'highhorsepower').
 learns('machamp', 'hyperbeam').
 learns('machamp', 'icepunch').
@@ -10307,7 +10205,6 @@ learns('machampgmax', 'gigaimpact').
 learns('machampgmax', 'headbutt').
 learns('machampgmax', 'heavyslam').
 learns('machampgmax', 'helpinghand').
-learns('machampgmax', 'hiddenpower').
 learns('machampgmax', 'highhorsepower').
 learns('machampgmax', 'hyperbeam').
 learns('machampgmax', 'icepunch').
@@ -10400,7 +10297,6 @@ learns('bellsprout', 'grassyglide').
 learns('bellsprout', 'grassyterrain').
 learns('bellsprout', 'growth').
 learns('bellsprout', 'headbutt').
-learns('bellsprout', 'hiddenpower').
 learns('bellsprout', 'infestation').
 learns('bellsprout', 'ingrain').
 learns('bellsprout', 'knockoff').
@@ -10481,7 +10377,6 @@ learns('weepinbell', 'grassyglide').
 learns('weepinbell', 'grassyterrain').
 learns('weepinbell', 'growth').
 learns('weepinbell', 'headbutt').
-learns('weepinbell', 'hiddenpower').
 learns('weepinbell', 'infestation').
 learns('weepinbell', 'knockoff').
 learns('weepinbell', 'leafstorm').
@@ -10568,7 +10463,6 @@ learns('victreebel', 'grassyglide').
 learns('victreebel', 'grassyterrain').
 learns('victreebel', 'growth').
 learns('victreebel', 'headbutt').
-learns('victreebel', 'hiddenpower').
 learns('victreebel', 'hyperbeam').
 learns('victreebel', 'infestation').
 learns('victreebel', 'knockoff').
@@ -10669,7 +10563,6 @@ learns('tentacool', 'hail').
 learns('tentacool', 'haze').
 learns('tentacool', 'headbutt').
 learns('tentacool', 'hex').
-learns('tentacool', 'hiddenpower').
 learns('tentacool', 'hydropump').
 learns('tentacool', 'icebeam').
 learns('tentacool', 'icywind').
@@ -10759,7 +10652,6 @@ learns('tentacruel', 'hail').
 learns('tentacruel', 'haze').
 learns('tentacruel', 'headbutt').
 learns('tentacruel', 'hex').
-learns('tentacruel', 'hiddenpower').
 learns('tentacruel', 'hydropump').
 learns('tentacruel', 'hyperbeam').
 learns('tentacruel', 'icebeam').
@@ -10858,7 +10750,6 @@ learns('geodude', 'gyroball').
 learns('geodude', 'hammerarm').
 learns('geodude', 'harden').
 learns('geodude', 'headbutt').
-learns('geodude', 'hiddenpower').
 learns('geodude', 'highhorsepower').
 learns('geodude', 'incinerate').
 learns('geodude', 'irondefense').
@@ -10943,7 +10834,6 @@ learns('geodudealola', 'focuspunch').
 learns('geodudealola', 'frustration').
 learns('geodudealola', 'gyroball').
 learns('geodudealola', 'headbutt').
-learns('geodudealola', 'hiddenpower').
 learns('geodudealola', 'highhorsepower').
 learns('geodudealola', 'irondefense').
 learns('geodudealola', 'magnetrise').
@@ -11024,7 +10914,6 @@ learns('graveler', 'harden').
 learns('graveler', 'hardpress').
 learns('graveler', 'headbutt').
 learns('graveler', 'heavyslam').
-learns('graveler', 'hiddenpower').
 learns('graveler', 'highhorsepower').
 learns('graveler', 'incinerate').
 learns('graveler', 'irondefense').
@@ -11114,7 +11003,6 @@ learns('graveleralola', 'frustration').
 learns('graveleralola', 'gyroball').
 learns('graveleralola', 'hardpress').
 learns('graveleralola', 'headbutt').
-learns('graveleralola', 'hiddenpower').
 learns('graveleralola', 'highhorsepower').
 learns('graveleralola', 'irondefense').
 learns('graveleralola', 'magnetrise').
@@ -11204,7 +11092,6 @@ learns('golem', 'harden').
 learns('golem', 'hardpress').
 learns('golem', 'headbutt').
 learns('golem', 'heavyslam').
-learns('golem', 'hiddenpower').
 learns('golem', 'highhorsepower').
 learns('golem', 'hyperbeam').
 learns('golem', 'incinerate').
@@ -11302,7 +11189,6 @@ learns('golemalola', 'gyroball').
 learns('golemalola', 'hardpress').
 learns('golemalola', 'headbutt').
 learns('golemalola', 'heavyslam').
-learns('golemalola', 'hiddenpower').
 learns('golemalola', 'hyperbeam').
 learns('golemalola', 'irondefense').
 learns('golemalola', 'ironhead').
@@ -11388,7 +11274,6 @@ learns('ponyta', 'frustration').
 learns('ponyta', 'growl').
 learns('ponyta', 'headbutt').
 learns('ponyta', 'heatwave').
-learns('ponyta', 'hiddenpower').
 learns('ponyta', 'highhorsepower').
 learns('ponyta', 'horndrill').
 learns('ponyta', 'hypnosis').
@@ -11504,7 +11389,6 @@ learns('rapidash', 'gigaimpact').
 learns('rapidash', 'growl').
 learns('rapidash', 'headbutt').
 learns('rapidash', 'heatwave').
-learns('rapidash', 'hiddenpower').
 learns('rapidash', 'highhorsepower').
 learns('rapidash', 'horndrill').
 learns('rapidash', 'hyperbeam').
@@ -11657,7 +11541,6 @@ learns('slowpoke', 'hail').
 learns('slowpoke', 'headbutt').
 learns('slowpoke', 'healpulse').
 learns('slowpoke', 'helpinghand').
-learns('slowpoke', 'hiddenpower').
 learns('slowpoke', 'hydropump').
 learns('slowpoke', 'icebeam').
 learns('slowpoke', 'icywind').
@@ -11858,7 +11741,6 @@ learns('slowbro', 'hail').
 learns('slowbro', 'headbutt').
 learns('slowbro', 'healpulse').
 learns('slowbro', 'helpinghand').
-learns('slowbro', 'hiddenpower').
 learns('slowbro', 'hydropump').
 learns('slowbro', 'hyperbeam').
 learns('slowbro', 'icebeam').
@@ -11997,7 +11879,6 @@ learns('slowbromega', 'hail').
 learns('slowbromega', 'headbutt').
 learns('slowbromega', 'healpulse').
 learns('slowbromega', 'helpinghand').
-learns('slowbromega', 'hiddenpower').
 learns('slowbromega', 'hydropump').
 learns('slowbromega', 'hyperbeam').
 learns('slowbromega', 'icebeam').
@@ -12219,7 +12100,6 @@ learns('magnemite', 'gyroball').
 learns('magnemite', 'headbutt').
 learns('magnemite', 'heavyslam').
 learns('magnemite', 'helpinghand').
-learns('magnemite', 'hiddenpower').
 learns('magnemite', 'irondefense').
 learns('magnemite', 'ironhead').
 learns('magnemite', 'lightscreen').
@@ -12294,7 +12174,6 @@ learns('magneton', 'gyroball').
 learns('magneton', 'headbutt').
 learns('magneton', 'heavyslam').
 learns('magneton', 'helpinghand').
-learns('magneton', 'hiddenpower').
 learns('magneton', 'hyperbeam').
 learns('magneton', 'irondefense').
 learns('magneton', 'ironhead').
@@ -12387,7 +12266,6 @@ learns('farfetchd', 'gust').
 learns('farfetchd', 'headbutt').
 learns('farfetchd', 'heatwave').
 learns('farfetchd', 'helpinghand').
-learns('farfetchd', 'hiddenpower').
 learns('farfetchd', 'irontail').
 learns('farfetchd', 'knockoff').
 learns('farfetchd', 'laserfocus').
@@ -12526,7 +12404,6 @@ learns('doduo', 'growl').
 learns('doduo', 'haze').
 learns('doduo', 'headbutt').
 learns('doduo', 'helpinghand').
-learns('doduo', 'hiddenpower').
 learns('doduo', 'jumpkick').
 learns('doduo', 'knockoff').
 learns('doduo', 'lowkick').
@@ -12600,7 +12477,6 @@ learns('dodrio', 'gigaimpact').
 learns('dodrio', 'growl').
 learns('dodrio', 'headbutt').
 learns('dodrio', 'helpinghand').
-learns('dodrio', 'hiddenpower').
 learns('dodrio', 'hyperbeam').
 learns('dodrio', 'jumpkick').
 learns('dodrio', 'knockoff').
@@ -12692,7 +12568,6 @@ learns('seel', 'hail').
 learns('seel', 'haze').
 learns('seel', 'headbutt').
 learns('seel', 'helpinghand').
-learns('seel', 'hiddenpower').
 learns('seel', 'horndrill').
 learns('seel', 'hydropump').
 learns('seel', 'icebeam').
@@ -12780,7 +12655,6 @@ learns('dewgong', 'hail').
 learns('dewgong', 'haze').
 learns('dewgong', 'headbutt').
 learns('dewgong', 'helpinghand').
-learns('dewgong', 'hiddenpower').
 learns('dewgong', 'horndrill').
 learns('dewgong', 'hydropump').
 learns('dewgong', 'hyperbeam').
@@ -12869,7 +12743,6 @@ learns('grimer', 'haze').
 learns('grimer', 'headbutt').
 learns('grimer', 'helpinghand').
 learns('grimer', 'hex').
-learns('grimer', 'hiddenpower').
 learns('grimer', 'icepunch').
 learns('grimer', 'imprison').
 learns('grimer', 'incinerate').
@@ -12967,7 +12840,6 @@ learns('grimeralola', 'harden').
 learns('grimeralola', 'headbutt').
 learns('grimeralola', 'helpinghand').
 learns('grimeralola', 'hex').
-learns('grimeralola', 'hiddenpower').
 learns('grimeralola', 'hyperbeam').
 learns('grimeralola', 'icepunch').
 learns('grimeralola', 'imprison').
@@ -13066,7 +12938,6 @@ learns('muk', 'haze').
 learns('muk', 'headbutt').
 learns('muk', 'helpinghand').
 learns('muk', 'hex').
-learns('muk', 'hiddenpower').
 learns('muk', 'hyperbeam').
 learns('muk', 'icepunch').
 learns('muk', 'imprison').
@@ -13177,7 +13048,6 @@ learns('mukalola', 'haze').
 learns('mukalola', 'headbutt').
 learns('mukalola', 'helpinghand').
 learns('mukalola', 'hex').
-learns('mukalola', 'hiddenpower').
 learns('mukalola', 'hyperbeam').
 learns('mukalola', 'icepunch').
 learns('mukalola', 'imprison').
@@ -13269,7 +13139,6 @@ learns('shellder', 'frustration').
 learns('shellder', 'hail').
 learns('shellder', 'headbutt').
 learns('shellder', 'helpinghand').
-learns('shellder', 'hiddenpower').
 learns('shellder', 'hydropump').
 learns('shellder', 'icebeam').
 learns('shellder', 'iceshard').
@@ -13348,7 +13217,6 @@ learns('cloyster', 'gigaimpact').
 learns('cloyster', 'hail').
 learns('cloyster', 'headbutt').
 learns('cloyster', 'helpinghand').
-learns('cloyster', 'hiddenpower').
 learns('cloyster', 'hydropump').
 learns('cloyster', 'hyperbeam').
 learns('cloyster', 'icebeam').
@@ -13444,7 +13312,6 @@ learns('gastly', 'gunkshot').
 learns('gastly', 'haze').
 learns('gastly', 'headbutt').
 learns('gastly', 'hex').
-learns('gastly', 'hiddenpower').
 learns('gastly', 'hypnosis').
 learns('gastly', 'icepunch').
 learns('gastly', 'icywind').
@@ -13539,7 +13406,6 @@ learns('haunter', 'gunkshot').
 learns('haunter', 'haze').
 learns('haunter', 'headbutt').
 learns('haunter', 'hex').
-learns('haunter', 'hiddenpower').
 learns('haunter', 'hypnosis').
 learns('haunter', 'icepunch').
 learns('haunter', 'icywind').
@@ -13653,7 +13519,6 @@ learns('gengar', 'gunkshot').
 learns('gengar', 'haze').
 learns('gengar', 'headbutt').
 learns('gengar', 'hex').
-learns('gengar', 'hiddenpower').
 learns('gengar', 'hyperbeam').
 learns('gengar', 'hypnosis').
 learns('gengar', 'icepunch').
@@ -13779,7 +13644,6 @@ learns('gengarmega', 'gunkshot').
 learns('gengarmega', 'haze').
 learns('gengarmega', 'headbutt').
 learns('gengarmega', 'hex').
-learns('gengarmega', 'hiddenpower').
 learns('gengarmega', 'hyperbeam').
 learns('gengarmega', 'hypnosis').
 learns('gengarmega', 'icepunch').
@@ -13905,7 +13769,6 @@ learns('gengargmax', 'gunkshot').
 learns('gengargmax', 'haze').
 learns('gengargmax', 'headbutt').
 learns('gengargmax', 'hex').
-learns('gengargmax', 'hiddenpower').
 learns('gengargmax', 'hyperbeam').
 learns('gengargmax', 'hypnosis').
 learns('gengargmax', 'icepunch').
@@ -14027,7 +13890,6 @@ learns('onix', 'harden').
 learns('onix', 'headbutt').
 learns('onix', 'headsmash').
 learns('onix', 'heavyslam').
-learns('onix', 'hiddenpower').
 learns('onix', 'highhorsepower').
 learns('onix', 'ironhead').
 learns('onix', 'irontail').
@@ -14121,7 +13983,6 @@ learns('drowzee', 'guardswap').
 learns('drowzee', 'haze').
 learns('drowzee', 'headbutt').
 learns('drowzee', 'helpinghand').
-learns('drowzee', 'hiddenpower').
 learns('drowzee', 'hypnosis').
 learns('drowzee', 'icepunch').
 learns('drowzee', 'imprison').
@@ -14238,7 +14099,6 @@ learns('hypno', 'haze').
 learns('hypno', 'headbutt').
 learns('hypno', 'helpinghand').
 learns('hypno', 'hex').
-learns('hypno', 'hiddenpower').
 learns('hypno', 'hyperbeam').
 learns('hypno', 'hypnosis').
 learns('hypno', 'icepunch').
@@ -14355,7 +14215,6 @@ learns('krabby', 'hammerarm').
 learns('krabby', 'harden').
 learns('krabby', 'haze').
 learns('krabby', 'headbutt').
-learns('krabby', 'hiddenpower').
 learns('krabby', 'honeclaws').
 learns('krabby', 'icebeam').
 learns('krabby', 'icywind').
@@ -14437,7 +14296,6 @@ learns('kingler', 'hail').
 learns('kingler', 'hammerarm').
 learns('kingler', 'harden').
 learns('kingler', 'headbutt').
-learns('kingler', 'hiddenpower').
 learns('kingler', 'highhorsepower').
 learns('kingler', 'honeclaws').
 learns('kingler', 'hydropump').
@@ -14527,7 +14385,6 @@ learns('kinglergmax', 'hail').
 learns('kinglergmax', 'hammerarm').
 learns('kinglergmax', 'harden').
 learns('kinglergmax', 'headbutt').
-learns('kinglergmax', 'hiddenpower').
 learns('kinglergmax', 'highhorsepower').
 learns('kinglergmax', 'honeclaws').
 learns('kinglergmax', 'hydropump').
@@ -14604,7 +14461,6 @@ learns('voltorb', 'frustration').
 learns('voltorb', 'gyroball').
 learns('voltorb', 'headbutt').
 learns('voltorb', 'helpinghand').
-learns('voltorb', 'hiddenpower').
 learns('voltorb', 'lightscreen').
 learns('voltorb', 'magiccoat').
 learns('voltorb', 'magnetrise').
@@ -14720,7 +14576,6 @@ learns('electrode', 'gigaimpact').
 learns('electrode', 'gyroball').
 learns('electrode', 'headbutt').
 learns('electrode', 'helpinghand').
-learns('electrode', 'hiddenpower').
 learns('electrode', 'hyperbeam').
 learns('electrode', 'lightscreen').
 learns('electrode', 'magiccoat').
@@ -14855,7 +14710,6 @@ learns('exeggcute', 'grassyterrain').
 learns('exeggcute', 'gravity').
 learns('exeggcute', 'headbutt').
 learns('exeggcute', 'helpinghand').
-learns('exeggcute', 'hiddenpower').
 learns('exeggcute', 'hypnosis').
 learns('exeggcute', 'imprison').
 learns('exeggcute', 'infestation').
@@ -14952,7 +14806,6 @@ learns('exeggutor', 'gravity').
 learns('exeggutor', 'growth').
 learns('exeggutor', 'headbutt').
 learns('exeggutor', 'helpinghand').
-learns('exeggutor', 'hiddenpower').
 learns('exeggutor', 'hyperbeam').
 learns('exeggutor', 'hypnosis').
 learns('exeggutor', 'imprison').
@@ -15065,7 +14918,6 @@ learns('exeggutoralola', 'gravity').
 learns('exeggutoralola', 'growth').
 learns('exeggutoralola', 'headbutt').
 learns('exeggutoralola', 'helpinghand').
-learns('exeggutoralola', 'hiddenpower').
 learns('exeggutoralola', 'hyperbeam').
 learns('exeggutoralola', 'hypnosis').
 learns('exeggutoralola', 'imprison').
@@ -15172,7 +15024,6 @@ learns('cubone', 'frustration').
 learns('cubone', 'furycutter').
 learns('cubone', 'growl').
 learns('cubone', 'headbutt').
-learns('cubone', 'hiddenpower').
 learns('cubone', 'icebeam').
 learns('cubone', 'icywind').
 learns('cubone', 'incinerate').
@@ -15265,7 +15116,6 @@ learns('marowak', 'furycutter').
 learns('marowak', 'gigaimpact').
 learns('marowak', 'growl').
 learns('marowak', 'headbutt').
-learns('marowak', 'hiddenpower').
 learns('marowak', 'hyperbeam').
 learns('marowak', 'icebeam').
 learns('marowak', 'icywind').
@@ -15369,7 +15219,6 @@ learns('marowakalola', 'growl').
 learns('marowakalola', 'headbutt').
 learns('marowakalola', 'heatwave').
 learns('marowakalola', 'hex').
-learns('marowakalola', 'hiddenpower').
 learns('marowakalola', 'hyperbeam').
 learns('marowakalola', 'icebeam').
 learns('marowakalola', 'icywind').
@@ -15458,7 +15307,6 @@ learns('marowakalolatotem', 'gigaimpact').
 learns('marowakalolatotem', 'growl').
 learns('marowakalolatotem', 'heatwave').
 learns('marowakalolatotem', 'hex').
-learns('marowakalolatotem', 'hiddenpower').
 learns('marowakalolatotem', 'hyperbeam').
 learns('marowakalolatotem', 'icebeam').
 learns('marowakalolatotem', 'icywind').
@@ -15541,7 +15389,6 @@ learns('hitmonlee', 'frustration').
 learns('hitmonlee', 'gigaimpact').
 learns('hitmonlee', 'headbutt').
 learns('hitmonlee', 'helpinghand').
-learns('hitmonlee', 'hiddenpower').
 learns('hitmonlee', 'highjumpkick').
 learns('hitmonlee', 'jumpkick').
 learns('hitmonlee', 'knockoff').
@@ -15647,7 +15494,6 @@ learns('hitmonchan', 'frustration').
 learns('hitmonchan', 'gigaimpact').
 learns('hitmonchan', 'headbutt').
 learns('hitmonchan', 'helpinghand').
-learns('hitmonchan', 'hiddenpower').
 learns('hitmonchan', 'icepunch').
 learns('hitmonchan', 'knockoff').
 learns('hitmonchan', 'laserfocus').
@@ -15754,7 +15600,6 @@ learns('lickitung', 'hammerarm').
 learns('lickitung', 'headbutt').
 learns('lickitung', 'healbell').
 learns('lickitung', 'helpinghand').
-learns('lickitung', 'hiddenpower').
 learns('lickitung', 'hydropump').
 learns('lickitung', 'hyperbeam').
 learns('lickitung', 'icebeam').
@@ -15854,7 +15699,6 @@ learns('koffing', 'gunkshot').
 learns('koffing', 'gyroball').
 learns('koffing', 'haze').
 learns('koffing', 'headbutt').
-learns('koffing', 'hiddenpower').
 learns('koffing', 'incinerate').
 learns('koffing', 'infestation').
 learns('koffing', 'memento').
@@ -15935,7 +15779,6 @@ learns('weezing', 'gyroball').
 learns('weezing', 'haze').
 learns('weezing', 'headbutt').
 learns('weezing', 'heatwave').
-learns('weezing', 'hiddenpower').
 learns('weezing', 'hyperbeam').
 learns('weezing', 'incinerate').
 learns('weezing', 'infestation').
@@ -16099,7 +15942,6 @@ learns('rhyhorn', 'furyattack').
 learns('rhyhorn', 'guardsplit').
 learns('rhyhorn', 'headbutt').
 learns('rhyhorn', 'heavyslam').
-learns('rhyhorn', 'hiddenpower').
 learns('rhyhorn', 'highhorsepower').
 learns('rhyhorn', 'hornattack').
 learns('rhyhorn', 'horndrill').
@@ -16221,7 +16063,6 @@ learns('rhydon', 'headbutt').
 learns('rhydon', 'heatcrash').
 learns('rhydon', 'heavyslam').
 learns('rhydon', 'helpinghand').
-learns('rhydon', 'hiddenpower').
 learns('rhydon', 'highhorsepower').
 learns('rhydon', 'hornattack').
 learns('rhydon', 'horndrill').
@@ -16368,7 +16209,6 @@ learns('chansey', 'healbell').
 learns('chansey', 'healingwish').
 learns('chansey', 'healpulse').
 learns('chansey', 'helpinghand').
-learns('chansey', 'hiddenpower').
 learns('chansey', 'hyperbeam').
 learns('chansey', 'hypervoice').
 learns('chansey', 'icebeam').
@@ -16485,7 +16325,6 @@ learns('tangela', 'grassyglide').
 learns('tangela', 'grassyterrain').
 learns('tangela', 'growth').
 learns('tangela', 'headbutt').
-learns('tangela', 'hiddenpower').
 learns('tangela', 'hyperbeam').
 learns('tangela', 'infestation').
 learns('tangela', 'ingrain').
@@ -16589,7 +16428,6 @@ learns('kangaskhan', 'hail').
 learns('kangaskhan', 'hammerarm').
 learns('kangaskhan', 'headbutt').
 learns('kangaskhan', 'helpinghand').
-learns('kangaskhan', 'hiddenpower').
 learns('kangaskhan', 'hydropump').
 learns('kangaskhan', 'hyperbeam').
 learns('kangaskhan', 'icebeam').
@@ -16712,7 +16550,6 @@ learns('kangaskhanmega', 'hail').
 learns('kangaskhanmega', 'hammerarm').
 learns('kangaskhanmega', 'headbutt').
 learns('kangaskhanmega', 'helpinghand').
-learns('kangaskhanmega', 'hiddenpower').
 learns('kangaskhanmega', 'hydropump').
 learns('kangaskhanmega', 'hyperbeam').
 learns('kangaskhanmega', 'icebeam').
@@ -16812,7 +16649,6 @@ learns('horsea', 'focusenergy').
 learns('horsea', 'frustration').
 learns('horsea', 'hail').
 learns('horsea', 'headbutt').
-learns('horsea', 'hiddenpower').
 learns('horsea', 'hydropump').
 learns('horsea', 'icebeam').
 learns('horsea', 'icywind').
@@ -16882,7 +16718,6 @@ learns('seadra', 'frustration').
 learns('seadra', 'gigaimpact').
 learns('seadra', 'hail').
 learns('seadra', 'headbutt').
-learns('seadra', 'hiddenpower').
 learns('seadra', 'hydropump').
 learns('seadra', 'hyperbeam').
 learns('seadra', 'icebeam').
@@ -16956,7 +16791,6 @@ learns('goldeen', 'furycutter').
 learns('goldeen', 'hail').
 learns('goldeen', 'haze').
 learns('goldeen', 'headbutt').
-learns('goldeen', 'hiddenpower').
 learns('goldeen', 'hornattack').
 learns('goldeen', 'horndrill').
 learns('goldeen', 'hydropump').
@@ -17030,7 +16864,6 @@ learns('seaking', 'furycutter').
 learns('seaking', 'gigaimpact').
 learns('seaking', 'hail').
 learns('seaking', 'headbutt').
-learns('seaking', 'hiddenpower').
 learns('seaking', 'hornattack').
 learns('seaking', 'horndrill').
 learns('seaking', 'hydropump').
@@ -17106,7 +16939,6 @@ learns('staryu', 'gyroball').
 learns('staryu', 'hail').
 learns('staryu', 'harden').
 learns('staryu', 'headbutt').
-learns('staryu', 'hiddenpower').
 learns('staryu', 'hydropump').
 learns('staryu', 'icebeam').
 learns('staryu', 'icywind').
@@ -17188,7 +17020,6 @@ learns('starmie', 'gyroball').
 learns('starmie', 'hail').
 learns('starmie', 'harden').
 learns('starmie', 'headbutt').
-learns('starmie', 'hiddenpower').
 learns('starmie', 'hydropump').
 learns('starmie', 'hyperbeam').
 learns('starmie', 'icebeam').
@@ -17298,7 +17129,6 @@ learns('mrmime', 'grassknot').
 learns('mrmime', 'guardswap').
 learns('mrmime', 'headbutt').
 learns('mrmime', 'helpinghand').
-learns('mrmime', 'hiddenpower').
 learns('mrmime', 'hyperbeam').
 learns('mrmime', 'hypnosis').
 learns('mrmime', 'icepunch').
@@ -17506,7 +17336,6 @@ learns('scyther', 'furycutter').
 learns('scyther', 'gigaimpact').
 learns('scyther', 'headbutt').
 learns('scyther', 'helpinghand').
-learns('scyther', 'hiddenpower').
 learns('scyther', 'hyperbeam').
 learns('scyther', 'knockoff').
 learns('scyther', 'laserfocus').
@@ -17605,7 +17434,6 @@ learns('jynx', 'headbutt').
 learns('jynx', 'healbell').
 learns('jynx', 'heartstamp').
 learns('jynx', 'helpinghand').
-learns('jynx', 'hiddenpower').
 learns('jynx', 'hyperbeam').
 learns('jynx', 'hypervoice').
 learns('jynx', 'icebeam').
@@ -17720,7 +17548,6 @@ learns('electabuzz', 'frustration').
 learns('electabuzz', 'gigaimpact').
 learns('electabuzz', 'headbutt').
 learns('electabuzz', 'helpinghand').
-learns('electabuzz', 'hiddenpower').
 learns('electabuzz', 'hyperbeam').
 learns('electabuzz', 'icepunch').
 learns('electabuzz', 'irontail').
@@ -17828,7 +17655,6 @@ learns('magmar', 'headbutt').
 learns('magmar', 'heatcrash').
 learns('magmar', 'heatwave').
 learns('magmar', 'helpinghand').
-learns('magmar', 'hiddenpower').
 learns('magmar', 'hyperbeam').
 learns('magmar', 'incinerate').
 learns('magmar', 'irontail').
@@ -17923,7 +17749,6 @@ learns('pinsir', 'guillotine').
 learns('pinsir', 'harden').
 learns('pinsir', 'headbutt').
 learns('pinsir', 'helpinghand').
-learns('pinsir', 'hiddenpower').
 learns('pinsir', 'highhorsepower').
 learns('pinsir', 'hyperbeam').
 learns('pinsir', 'irondefense').
@@ -18007,7 +17832,6 @@ learns('pinsirmega', 'guillotine').
 learns('pinsirmega', 'harden').
 learns('pinsirmega', 'headbutt').
 learns('pinsirmega', 'helpinghand').
-learns('pinsirmega', 'hiddenpower').
 learns('pinsirmega', 'highhorsepower').
 learns('pinsirmega', 'hyperbeam').
 learns('pinsirmega', 'irondefense').
@@ -18079,7 +17903,6 @@ learns('tauros', 'frustration').
 learns('tauros', 'gigaimpact').
 learns('tauros', 'headbutt').
 learns('tauros', 'helpinghand').
-learns('tauros', 'hiddenpower').
 learns('tauros', 'highhorsepower').
 learns('tauros', 'hornattack').
 learns('tauros', 'horndrill').
@@ -18356,7 +18179,6 @@ learns('gyarados', 'gigaimpact').
 learns('gyarados', 'hail').
 learns('gyarados', 'headbutt').
 learns('gyarados', 'helpinghand').
-learns('gyarados', 'hiddenpower').
 learns('gyarados', 'hurricane').
 learns('gyarados', 'hydropump').
 learns('gyarados', 'hyperbeam').
@@ -18459,7 +18281,6 @@ learns('gyaradosmega', 'gigaimpact').
 learns('gyaradosmega', 'hail').
 learns('gyaradosmega', 'headbutt').
 learns('gyaradosmega', 'helpinghand').
-learns('gyaradosmega', 'hiddenpower').
 learns('gyaradosmega', 'hurricane').
 learns('gyaradosmega', 'hydropump').
 learns('gyaradosmega', 'hyperbeam').
@@ -18570,7 +18391,6 @@ learns('lapras', 'haze').
 learns('lapras', 'headbutt').
 learns('lapras', 'healbell').
 learns('lapras', 'helpinghand').
-learns('lapras', 'hiddenpower').
 learns('lapras', 'horndrill').
 learns('lapras', 'hydropump').
 learns('lapras', 'hyperbeam').
@@ -18682,7 +18502,6 @@ learns('laprasgmax', 'haze').
 learns('laprasgmax', 'headbutt').
 learns('laprasgmax', 'healbell').
 learns('laprasgmax', 'helpinghand').
-learns('laprasgmax', 'hiddenpower').
 learns('laprasgmax', 'horndrill').
 learns('laprasgmax', 'hydropump').
 learns('laprasgmax', 'hyperbeam').
@@ -18778,7 +18597,6 @@ learns('eevee', 'growl').
 learns('eevee', 'headbutt').
 learns('eevee', 'healbell').
 learns('eevee', 'helpinghand').
-learns('eevee', 'hiddenpower').
 learns('eevee', 'hypervoice').
 learns('eevee', 'irontail').
 learns('eevee', 'laserfocus').
@@ -18885,7 +18703,6 @@ learns('eeveegmax', 'growl').
 learns('eeveegmax', 'headbutt').
 learns('eeveegmax', 'healbell').
 learns('eeveegmax', 'helpinghand').
-learns('eeveegmax', 'hiddenpower').
 learns('eeveegmax', 'hypervoice').
 learns('eeveegmax', 'irontail').
 learns('eeveegmax', 'laserfocus').
@@ -18973,7 +18790,6 @@ learns('vaporeon', 'haze').
 learns('vaporeon', 'headbutt').
 learns('vaporeon', 'healbell').
 learns('vaporeon', 'helpinghand').
-learns('vaporeon', 'hiddenpower').
 learns('vaporeon', 'hydropump').
 learns('vaporeon', 'hyperbeam').
 learns('vaporeon', 'hypervoice').
@@ -19076,7 +18892,6 @@ learns('jolteon', 'growl').
 learns('jolteon', 'headbutt').
 learns('jolteon', 'healbell').
 learns('jolteon', 'helpinghand').
-learns('jolteon', 'hiddenpower').
 learns('jolteon', 'hyperbeam').
 learns('jolteon', 'hypervoice').
 learns('jolteon', 'irontail').
@@ -19181,7 +18996,6 @@ learns('flareon', 'headbutt').
 learns('flareon', 'healbell').
 learns('flareon', 'heatwave').
 learns('flareon', 'helpinghand').
-learns('flareon', 'hiddenpower').
 learns('flareon', 'hyperbeam').
 learns('flareon', 'hypervoice').
 learns('flareon', 'incinerate').
@@ -19270,7 +19084,6 @@ learns('porygon', 'gigaimpact').
 learns('porygon', 'gravity').
 learns('porygon', 'guardswap').
 learns('porygon', 'headbutt').
-learns('porygon', 'hiddenpower').
 learns('porygon', 'hyperbeam').
 learns('porygon', 'icebeam').
 learns('porygon', 'icywind').
@@ -19354,7 +19167,6 @@ learns('omanyte', 'gyroball').
 learns('omanyte', 'hail').
 learns('omanyte', 'haze').
 learns('omanyte', 'headbutt').
-learns('omanyte', 'hiddenpower').
 learns('omanyte', 'hornattack').
 learns('omanyte', 'hydropump').
 learns('omanyte', 'icebeam').
@@ -19434,7 +19246,6 @@ learns('omastar', 'gigaimpact').
 learns('omastar', 'gyroball').
 learns('omastar', 'hail').
 learns('omastar', 'headbutt').
-learns('omastar', 'hiddenpower').
 learns('omastar', 'hornattack').
 learns('omastar', 'horndrill').
 learns('omastar', 'hydropump').
@@ -19527,7 +19338,6 @@ learns('kabuto', 'gigadrain').
 learns('kabuto', 'hail').
 learns('kabuto', 'harden').
 learns('kabuto', 'headbutt').
-learns('kabuto', 'hiddenpower').
 learns('kabuto', 'honeclaws').
 learns('kabuto', 'hydropump').
 learns('kabuto', 'icebeam').
@@ -19616,7 +19426,6 @@ learns('kabutops', 'gigaimpact').
 learns('kabutops', 'hail').
 learns('kabutops', 'harden').
 learns('kabutops', 'headbutt').
-learns('kabutops', 'hiddenpower').
 learns('kabutops', 'honeclaws').
 learns('kabutops', 'hydropump').
 learns('kabutops', 'hyperbeam').
@@ -19727,7 +19536,6 @@ learns('aerodactyl', 'frustration').
 learns('aerodactyl', 'gigaimpact').
 learns('aerodactyl', 'headbutt').
 learns('aerodactyl', 'heatwave').
-learns('aerodactyl', 'hiddenpower').
 learns('aerodactyl', 'honeclaws').
 learns('aerodactyl', 'hurricane').
 learns('aerodactyl', 'hyperbeam').
@@ -19826,7 +19634,6 @@ learns('aerodactylmega', 'frustration').
 learns('aerodactylmega', 'gigaimpact').
 learns('aerodactylmega', 'headbutt').
 learns('aerodactylmega', 'heatwave').
-learns('aerodactylmega', 'hiddenpower').
 learns('aerodactylmega', 'honeclaws').
 learns('aerodactylmega', 'hurricane').
 learns('aerodactylmega', 'hyperbeam').
@@ -19939,7 +19746,6 @@ learns('snorlax', 'headbutt').
 learns('snorlax', 'heatcrash').
 learns('snorlax', 'heavyslam').
 learns('snorlax', 'helpinghand').
-learns('snorlax', 'hiddenpower').
 learns('snorlax', 'highhorsepower').
 learns('snorlax', 'hydropump').
 learns('snorlax', 'hyperbeam').
@@ -20079,7 +19885,6 @@ learns('snorlaxgmax', 'headbutt').
 learns('snorlaxgmax', 'heatcrash').
 learns('snorlaxgmax', 'heavyslam').
 learns('snorlaxgmax', 'helpinghand').
-learns('snorlaxgmax', 'hiddenpower').
 learns('snorlaxgmax', 'highhorsepower').
 learns('snorlaxgmax', 'hydropump').
 learns('snorlaxgmax', 'hyperbeam').
@@ -20199,7 +20004,6 @@ learns('articuno', 'haze').
 learns('articuno', 'headbutt').
 learns('articuno', 'healbell').
 learns('articuno', 'helpinghand').
-learns('articuno', 'hiddenpower').
 learns('articuno', 'hurricane').
 learns('articuno', 'hyperbeam').
 learns('articuno', 'icebeam').
@@ -20347,7 +20151,6 @@ learns('zapdos', 'hail').
 learns('zapdos', 'headbutt').
 learns('zapdos', 'heatwave').
 learns('zapdos', 'helpinghand').
-learns('zapdos', 'hiddenpower').
 learns('zapdos', 'hurricane').
 learns('zapdos', 'hyperbeam').
 learns('zapdos', 'laserfocus').
@@ -20497,7 +20300,6 @@ learns('moltres', 'gust').
 learns('moltres', 'headbutt').
 learns('moltres', 'heatwave').
 learns('moltres', 'helpinghand').
-learns('moltres', 'hiddenpower').
 learns('moltres', 'hurricane').
 learns('moltres', 'hyperbeam').
 learns('moltres', 'incinerate').
@@ -20640,7 +20442,6 @@ learns('dratini', 'hail').
 learns('dratini', 'haze').
 learns('dratini', 'headbutt').
 learns('dratini', 'helpinghand').
-learns('dratini', 'hiddenpower').
 learns('dratini', 'hydropump').
 learns('dratini', 'hyperbeam').
 learns('dratini', 'icebeam').
@@ -20724,7 +20525,6 @@ learns('dragonair', 'hail').
 learns('dragonair', 'haze').
 learns('dragonair', 'headbutt').
 learns('dragonair', 'helpinghand').
-learns('dragonair', 'hiddenpower').
 learns('dragonair', 'horndrill').
 learns('dragonair', 'hydropump').
 learns('dragonair', 'hyperbeam').
@@ -20837,7 +20637,6 @@ learns('dragonite', 'headbutt').
 learns('dragonite', 'healbell').
 learns('dragonite', 'heatwave').
 learns('dragonite', 'helpinghand').
-learns('dragonite', 'hiddenpower').
 learns('dragonite', 'honeclaws').
 learns('dragonite', 'horndrill').
 learns('dragonite', 'hurricane').
@@ -20977,7 +20776,6 @@ learns('mewtwo', 'headbutt').
 learns('mewtwo', 'healpulse').
 learns('mewtwo', 'helpinghand').
 learns('mewtwo', 'hex').
-learns('mewtwo', 'hiddenpower').
 learns('mewtwo', 'hurricane').
 learns('mewtwo', 'hyperbeam').
 learns('mewtwo', 'icebeam').
@@ -21144,7 +20942,6 @@ learns('mewtwomegax', 'headbutt').
 learns('mewtwomegax', 'healpulse').
 learns('mewtwomegax', 'helpinghand').
 learns('mewtwomegax', 'hex').
-learns('mewtwomegax', 'hiddenpower').
 learns('mewtwomegax', 'hurricane').
 learns('mewtwomegax', 'hyperbeam').
 learns('mewtwomegax', 'icebeam').
@@ -21311,7 +21108,6 @@ learns('mewtwomegay', 'headbutt').
 learns('mewtwomegay', 'healpulse').
 learns('mewtwomegay', 'helpinghand').
 learns('mewtwomegay', 'hex').
-learns('mewtwomegay', 'hiddenpower').
 learns('mewtwomegay', 'hurricane').
 learns('mewtwomegay', 'hyperbeam').
 learns('mewtwomegay', 'icebeam').
@@ -21568,7 +21364,6 @@ learns('mew', 'heatwave').
 learns('mew', 'heavyslam').
 learns('mew', 'helpinghand').
 learns('mew', 'hex').
-learns('mew', 'hiddenpower').
 learns('mew', 'highhorsepower').
 learns('mew', 'honeclaws').
 learns('mew', 'horndrill').
@@ -21826,7 +21621,6 @@ learns('chikorita', 'growl').
 learns('chikorita', 'headbutt').
 learns('chikorita', 'healpulse').
 learns('chikorita', 'helpinghand').
-learns('chikorita', 'hiddenpower').
 learns('chikorita', 'ingrain').
 learns('chikorita', 'irontail').
 learns('chikorita', 'leafstorm').
@@ -21899,7 +21693,6 @@ learns('bayleef', 'grassyterrain').
 learns('bayleef', 'growl').
 learns('bayleef', 'headbutt').
 learns('bayleef', 'helpinghand').
-learns('bayleef', 'hiddenpower').
 learns('bayleef', 'irontail').
 learns('bayleef', 'knockoff').
 learns('bayleef', 'laserfocus').
@@ -21988,7 +21781,6 @@ learns('meganium', 'grassyterrain').
 learns('meganium', 'growl').
 learns('meganium', 'headbutt').
 learns('meganium', 'helpinghand').
-learns('meganium', 'hiddenpower').
 learns('meganium', 'hyperbeam').
 learns('meganium', 'irontail').
 learns('meganium', 'knockoff').
@@ -22081,7 +21873,6 @@ learns('cyndaquil', 'frustration').
 learns('cyndaquil', 'furyswipes').
 learns('cyndaquil', 'headbutt').
 learns('cyndaquil', 'heatwave').
-learns('cyndaquil', 'hiddenpower').
 learns('cyndaquil', 'howl').
 learns('cyndaquil', 'incinerate').
 learns('cyndaquil', 'inferno').
@@ -22156,7 +21947,6 @@ learns('quilava', 'frustration').
 learns('quilava', 'furycutter').
 learns('quilava', 'headbutt').
 learns('quilava', 'heatwave').
-learns('quilava', 'hiddenpower').
 learns('quilava', 'incinerate').
 learns('quilava', 'inferno').
 learns('quilava', 'ironhead').
@@ -22251,7 +22041,6 @@ learns('typhlosion', 'gyroball').
 learns('typhlosion', 'headbutt').
 learns('typhlosion', 'heatwave').
 learns('typhlosion', 'helpinghand').
-learns('typhlosion', 'hiddenpower').
 learns('typhlosion', 'hyperbeam').
 learns('typhlosion', 'incinerate').
 learns('typhlosion', 'inferno').
@@ -22396,7 +22185,6 @@ learns('typhlosionhisui', 'doubleteam').
 learns('typhlosionhisui', 'frustration').
 learns('typhlosionhisui', 'furycutter').
 learns('typhlosionhisui', 'headbutt').
-learns('typhlosionhisui', 'hiddenpower').
 learns('typhlosionhisui', 'incinerate').
 learns('typhlosionhisui', 'irontail').
 learns('typhlosionhisui', 'mimic').
@@ -22460,7 +22248,6 @@ learns('totodile', 'focuspunch').
 learns('totodile', 'frustration').
 learns('totodile', 'hail').
 learns('totodile', 'headbutt').
-learns('totodile', 'hiddenpower').
 learns('totodile', 'honeclaws').
 learns('totodile', 'hydrocannon').
 learns('totodile', 'hydropump').
@@ -22558,7 +22345,6 @@ learns('croconaw', 'frustration').
 learns('croconaw', 'furycutter').
 learns('croconaw', 'hail').
 learns('croconaw', 'headbutt').
-learns('croconaw', 'hiddenpower').
 learns('croconaw', 'honeclaws').
 learns('croconaw', 'hydropump').
 learns('croconaw', 'icebeam').
@@ -22671,7 +22457,6 @@ learns('feraligatr', 'gigaimpact').
 learns('feraligatr', 'hail').
 learns('feraligatr', 'headbutt').
 learns('feraligatr', 'helpinghand').
-learns('feraligatr', 'hiddenpower').
 learns('feraligatr', 'honeclaws').
 learns('feraligatr', 'hydrocannon').
 learns('feraligatr', 'hydropump').
@@ -22784,7 +22569,6 @@ learns('sentret', 'furyswipes').
 learns('sentret', 'grassknot').
 learns('sentret', 'headbutt').
 learns('sentret', 'helpinghand').
-learns('sentret', 'hiddenpower').
 learns('sentret', 'honeclaws').
 learns('sentret', 'hypervoice').
 learns('sentret', 'icebeam').
@@ -22884,7 +22668,6 @@ learns('furret', 'gigaimpact').
 learns('furret', 'grassknot').
 learns('furret', 'headbutt').
 learns('furret', 'helpinghand').
-learns('furret', 'hiddenpower').
 learns('furret', 'honeclaws').
 learns('furret', 'hyperbeam').
 learns('furret', 'hypervoice').
@@ -22982,7 +22765,6 @@ learns('hoothoot', 'frustration').
 learns('hoothoot', 'growl').
 learns('hoothoot', 'haze').
 learns('hoothoot', 'heatwave').
-learns('hoothoot', 'hiddenpower').
 learns('hoothoot', 'hurricane').
 learns('hoothoot', 'hypervoice').
 learns('hoothoot', 'hypnosis').
@@ -23076,7 +22858,6 @@ learns('noctowl', 'gigaimpact').
 learns('noctowl', 'growl').
 learns('noctowl', 'haze').
 learns('noctowl', 'heatwave').
-learns('noctowl', 'hiddenpower').
 learns('noctowl', 'hurricane').
 learns('noctowl', 'hyperbeam').
 learns('noctowl', 'hypervoice').
@@ -23171,7 +22952,6 @@ learns('ledyba', 'focuspunch').
 learns('ledyba', 'frustration').
 learns('ledyba', 'gigadrain').
 learns('ledyba', 'headbutt').
-learns('ledyba', 'hiddenpower').
 learns('ledyba', 'icepunch').
 learns('ledyba', 'infestation').
 learns('ledyba', 'knockoff').
@@ -23244,7 +23024,6 @@ learns('ledian', 'frustration').
 learns('ledian', 'gigadrain').
 learns('ledian', 'gigaimpact').
 learns('ledian', 'headbutt').
-learns('ledian', 'hiddenpower').
 learns('ledian', 'hyperbeam').
 learns('ledian', 'icepunch').
 learns('ledian', 'infestation').
@@ -23321,7 +23100,6 @@ learns('spinarak', 'frustration').
 learns('spinarak', 'furyswipes').
 learns('spinarak', 'gigadrain').
 learns('spinarak', 'hex').
-learns('spinarak', 'hiddenpower').
 learns('spinarak', 'honeclaws').
 learns('spinarak', 'infestation').
 learns('spinarak', 'knockoff').
@@ -23404,7 +23182,6 @@ learns('ariados', 'furyswipes').
 learns('ariados', 'gigadrain').
 learns('ariados', 'gigaimpact').
 learns('ariados', 'hex').
-learns('ariados', 'hiddenpower').
 learns('ariados', 'honeclaws').
 learns('ariados', 'hyperbeam').
 learns('ariados', 'infestation').
@@ -23497,7 +23274,6 @@ learns('crobat', 'gigaimpact').
 learns('crobat', 'haze').
 learns('crobat', 'heatwave').
 learns('crobat', 'hex').
-learns('crobat', 'hiddenpower').
 learns('crobat', 'hurricane').
 learns('crobat', 'hyperbeam').
 learns('crobat', 'leechlife').
@@ -23589,7 +23365,6 @@ learns('chinchou', 'flipturn').
 learns('chinchou', 'frustration').
 learns('chinchou', 'hail').
 learns('chinchou', 'healbell').
-learns('chinchou', 'hiddenpower').
 learns('chinchou', 'hydropump').
 learns('chinchou', 'icebeam').
 learns('chinchou', 'icywind').
@@ -23668,7 +23443,6 @@ learns('lanturn', 'frustration').
 learns('lanturn', 'gigaimpact').
 learns('lanturn', 'hail').
 learns('lanturn', 'healbell').
-learns('lanturn', 'hiddenpower').
 learns('lanturn', 'hydropump').
 learns('lanturn', 'hyperbeam').
 learns('lanturn', 'icebeam').
@@ -23752,7 +23526,6 @@ learns('pichu', 'frustration').
 learns('pichu', 'grassknot').
 learns('pichu', 'headbutt').
 learns('pichu', 'helpinghand').
-learns('pichu', 'hiddenpower').
 learns('pichu', 'irontail').
 learns('pichu', 'lightscreen').
 learns('pichu', 'luckychant').
@@ -23817,7 +23590,6 @@ learns('pichuspikyeared', 'frustration').
 learns('pichuspikyeared', 'grassknot').
 learns('pichuspikyeared', 'headbutt').
 learns('pichuspikyeared', 'helpinghand').
-learns('pichuspikyeared', 'hiddenpower').
 learns('pichuspikyeared', 'irontail').
 learns('pichuspikyeared', 'lightscreen').
 learns('pichuspikyeared', 'magnetrise').
@@ -23888,7 +23660,6 @@ learns('cleffa', 'gravity').
 learns('cleffa', 'headbutt').
 learns('cleffa', 'healpulse').
 learns('cleffa', 'helpinghand').
-learns('cleffa', 'hiddenpower').
 learns('cleffa', 'hypervoice').
 learns('cleffa', 'icywind').
 learns('cleffa', 'incinerate').
@@ -23991,7 +23762,6 @@ learns('igglybuff', 'headbutt').
 learns('igglybuff', 'healbell').
 learns('igglybuff', 'healpulse').
 learns('igglybuff', 'helpinghand').
-learns('igglybuff', 'hiddenpower').
 learns('igglybuff', 'hypervoice').
 learns('igglybuff', 'icywind').
 learns('igglybuff', 'incinerate').
@@ -24088,7 +23858,6 @@ learns('togepi', 'growl').
 learns('togepi', 'headbutt').
 learns('togepi', 'healbell').
 learns('togepi', 'helpinghand').
-learns('togepi', 'hiddenpower').
 learns('togepi', 'hypervoice').
 learns('togepi', 'incinerate').
 learns('togepi', 'lastresort').
@@ -24197,7 +23966,6 @@ learns('togetic', 'headbutt').
 learns('togetic', 'healbell').
 learns('togetic', 'heatwave').
 learns('togetic', 'helpinghand').
-learns('togetic', 'hiddenpower').
 learns('togetic', 'hyperbeam').
 learns('togetic', 'hypervoice').
 learns('togetic', 'imprison').
@@ -24305,7 +24073,6 @@ learns('natu', 'grassknot').
 learns('natu', 'guardswap').
 learns('natu', 'haze').
 learns('natu', 'heatwave').
-learns('natu', 'hiddenpower').
 learns('natu', 'imprison').
 learns('natu', 'leer').
 learns('natu', 'lightscreen').
@@ -24398,7 +24165,6 @@ learns('xatu', 'gigaimpact').
 learns('xatu', 'grassknot').
 learns('xatu', 'guardswap').
 learns('xatu', 'heatwave').
-learns('xatu', 'hiddenpower').
 learns('xatu', 'hyperbeam').
 learns('xatu', 'imprison').
 learns('xatu', 'laserfocus').
@@ -24498,7 +24264,6 @@ learns('mareep', 'growl').
 learns('mareep', 'headbutt').
 learns('mareep', 'healbell').
 learns('mareep', 'helpinghand').
-learns('mareep', 'hiddenpower').
 learns('mareep', 'holdback').
 learns('mareep', 'irontail').
 learns('mareep', 'lightscreen').
@@ -24575,7 +24340,6 @@ learns('flaaffy', 'growl').
 learns('flaaffy', 'headbutt').
 learns('flaaffy', 'healbell').
 learns('flaaffy', 'helpinghand').
-learns('flaaffy', 'hiddenpower').
 learns('flaaffy', 'icepunch').
 learns('flaaffy', 'irontail').
 learns('flaaffy', 'lightscreen').
@@ -24671,7 +24435,6 @@ learns('ampharos', 'growl').
 learns('ampharos', 'headbutt').
 learns('ampharos', 'healbell').
 learns('ampharos', 'helpinghand').
-learns('ampharos', 'hiddenpower').
 learns('ampharos', 'hyperbeam').
 learns('ampharos', 'icepunch').
 learns('ampharos', 'iondeluge').
@@ -24775,7 +24538,6 @@ learns('ampharosmega', 'growl').
 learns('ampharosmega', 'headbutt').
 learns('ampharosmega', 'healbell').
 learns('ampharosmega', 'helpinghand').
-learns('ampharosmega', 'hiddenpower').
 learns('ampharosmega', 'hyperbeam').
 learns('ampharosmega', 'icepunch').
 learns('ampharosmega', 'iondeluge').
@@ -24865,7 +24627,6 @@ learns('bellossom', 'grassyglide').
 learns('bellossom', 'grassyterrain').
 learns('bellossom', 'growth').
 learns('bellossom', 'helpinghand').
-learns('bellossom', 'hiddenpower').
 learns('bellossom', 'hyperbeam').
 learns('bellossom', 'infestation').
 learns('bellossom', 'laserfocus').
@@ -24969,7 +24730,6 @@ learns('marill', 'grassknot').
 learns('marill', 'hail').
 learns('marill', 'headbutt').
 learns('marill', 'helpinghand').
-learns('marill', 'hiddenpower').
 learns('marill', 'hydropump').
 learns('marill', 'hypervoice').
 learns('marill', 'icebeam').
@@ -25075,7 +24835,6 @@ learns('azumarill', 'grassknot').
 learns('azumarill', 'hail').
 learns('azumarill', 'headbutt').
 learns('azumarill', 'helpinghand').
-learns('azumarill', 'hiddenpower').
 learns('azumarill', 'hydropump').
 learns('azumarill', 'hyperbeam').
 learns('azumarill', 'hypervoice').
@@ -25187,7 +24946,6 @@ learns('sudowoodo', 'harden').
 learns('sudowoodo', 'headbutt').
 learns('sudowoodo', 'headsmash').
 learns('sudowoodo', 'helpinghand').
-learns('sudowoodo', 'hiddenpower').
 learns('sudowoodo', 'highhorsepower').
 learns('sudowoodo', 'hyperbeam').
 learns('sudowoodo', 'icepunch').
@@ -25284,7 +25042,6 @@ learns('politoed', 'hail').
 learns('politoed', 'haze').
 learns('politoed', 'headbutt').
 learns('politoed', 'helpinghand').
-learns('politoed', 'hiddenpower').
 learns('politoed', 'hydropump').
 learns('politoed', 'hyperbeam').
 learns('politoed', 'hypervoice').
@@ -25386,7 +25143,6 @@ learns('hoppip', 'grassyterrain').
 learns('hoppip', 'growl').
 learns('hoppip', 'headbutt').
 learns('hoppip', 'helpinghand').
-learns('hoppip', 'hiddenpower').
 learns('hoppip', 'infestation').
 learns('hoppip', 'leafstorm').
 learns('hoppip', 'leechseed').
@@ -25465,7 +25221,6 @@ learns('skiploom', 'grassknot').
 learns('skiploom', 'grassyterrain').
 learns('skiploom', 'headbutt').
 learns('skiploom', 'helpinghand').
-learns('skiploom', 'hiddenpower').
 learns('skiploom', 'infestation').
 learns('skiploom', 'leafstorm').
 learns('skiploom', 'leechseed').
@@ -25551,7 +25306,6 @@ learns('jumpluff', 'grassknot').
 learns('jumpluff', 'grassyterrain').
 learns('jumpluff', 'headbutt').
 learns('jumpluff', 'helpinghand').
-learns('jumpluff', 'hiddenpower').
 learns('jumpluff', 'hyperbeam').
 learns('jumpluff', 'infestation').
 learns('jumpluff', 'leafstorm').
@@ -25647,7 +25401,6 @@ learns('aipom', 'grassknot').
 learns('aipom', 'gunkshot').
 learns('aipom', 'headbutt').
 learns('aipom', 'helpinghand').
-learns('aipom', 'hiddenpower').
 learns('aipom', 'honeclaws').
 learns('aipom', 'icepunch').
 learns('aipom', 'irontail').
@@ -25744,7 +25497,6 @@ learns('sunkern', 'grasswhistle').
 learns('sunkern', 'grassyterrain').
 learns('sunkern', 'growth').
 learns('sunkern', 'helpinghand').
-learns('sunkern', 'hiddenpower').
 learns('sunkern', 'ingrain').
 learns('sunkern', 'leafstorm').
 learns('sunkern', 'leechseed').
@@ -25810,7 +25562,6 @@ learns('sunflora', 'grassyglide').
 learns('sunflora', 'grassyterrain').
 learns('sunflora', 'growth').
 learns('sunflora', 'helpinghand').
-learns('sunflora', 'hiddenpower').
 learns('sunflora', 'hyperbeam').
 learns('sunflora', 'ingrain').
 learns('sunflora', 'leafstorm').
@@ -25877,7 +25628,6 @@ learns('yanma', 'foresight').
 learns('yanma', 'frustration').
 learns('yanma', 'gigadrain').
 learns('yanma', 'headbutt').
-learns('yanma', 'hiddenpower').
 learns('yanma', 'hypnosis').
 learns('yanma', 'leechlife').
 learns('yanma', 'lunge').
@@ -25960,7 +25710,6 @@ learns('wooper', 'hail').
 learns('wooper', 'haze').
 learns('wooper', 'headbutt').
 learns('wooper', 'helpinghand').
-learns('wooper', 'hiddenpower').
 learns('wooper', 'hydropump').
 learns('wooper', 'icebeam').
 learns('wooper', 'icepunch').
@@ -26117,7 +25866,6 @@ learns('quagsire', 'hail').
 learns('quagsire', 'haze').
 learns('quagsire', 'headbutt').
 learns('quagsire', 'helpinghand').
-learns('quagsire', 'hiddenpower').
 learns('quagsire', 'highhorsepower').
 learns('quagsire', 'hydropump').
 learns('quagsire', 'hyperbeam').
@@ -26224,7 +25972,6 @@ learns('espeon', 'growl').
 learns('espeon', 'headbutt').
 learns('espeon', 'healbell').
 learns('espeon', 'helpinghand').
-learns('espeon', 'hiddenpower').
 learns('espeon', 'hyperbeam').
 learns('espeon', 'hypervoice').
 learns('espeon', 'imprison').
@@ -26336,7 +26083,6 @@ learns('umbreon', 'guardswap').
 learns('umbreon', 'headbutt').
 learns('umbreon', 'healbell').
 learns('umbreon', 'helpinghand').
-learns('umbreon', 'hiddenpower').
 learns('umbreon', 'hyperbeam').
 learns('umbreon', 'hypervoice').
 learns('umbreon', 'irontail').
@@ -26443,7 +26189,6 @@ learns('murkrow', 'gust').
 learns('murkrow', 'haze').
 learns('murkrow', 'heatwave').
 learns('murkrow', 'hex').
-learns('murkrow', 'hiddenpower').
 learns('murkrow', 'hurricane').
 learns('murkrow', 'hyperbeam').
 learns('murkrow', 'icywind').
@@ -26556,7 +26301,6 @@ learns('slowking', 'hail').
 learns('slowking', 'headbutt').
 learns('slowking', 'healpulse').
 learns('slowking', 'helpinghand').
-learns('slowking', 'hiddenpower').
 learns('slowking', 'hydropump').
 learns('slowking', 'hyperbeam').
 learns('slowking', 'icebeam').
@@ -26804,7 +26548,6 @@ learns('misdreavus', 'headbutt').
 learns('misdreavus', 'healbell').
 learns('misdreavus', 'helpinghand').
 learns('misdreavus', 'hex').
-learns('misdreavus', 'hiddenpower').
 learns('misdreavus', 'hyperbeam').
 learns('misdreavus', 'hypervoice').
 learns('misdreavus', 'icywind').
@@ -26872,7 +26615,6 @@ learns('misdreavus', 'uproar').
 learns('misdreavus', 'willowisp').
 learns('misdreavus', 'wonderroom').
 learns('misdreavus', 'zapcannon').
-learns('unown', 'hiddenpower').
 learns('wobbuffet', 'amnesia').
 learns('wobbuffet', 'charm').
 learns('wobbuffet', 'counter').
@@ -26925,7 +26667,6 @@ learns('girafarig', 'growl').
 learns('girafarig', 'guardswap').
 learns('girafarig', 'headbutt').
 learns('girafarig', 'helpinghand').
-learns('girafarig', 'hiddenpower').
 learns('girafarig', 'highhorsepower').
 learns('girafarig', 'hyperbeam').
 learns('girafarig', 'hypervoice').
@@ -27020,7 +26761,6 @@ learns('pineco', 'gravity').
 learns('pineco', 'gyroball').
 learns('pineco', 'headbutt').
 learns('pineco', 'helpinghand').
-learns('pineco', 'hiddenpower').
 learns('pineco', 'icespinner').
 learns('pineco', 'irondefense').
 learns('pineco', 'lightscreen').
@@ -27106,7 +26846,6 @@ learns('forretress', 'hardpress').
 learns('forretress', 'headbutt').
 learns('forretress', 'heavyslam').
 learns('forretress', 'helpinghand').
-learns('forretress', 'hiddenpower').
 learns('forretress', 'hyperbeam').
 learns('forretress', 'icespinner').
 learns('forretress', 'irondefense').
@@ -27220,7 +26959,6 @@ learns('dunsparce', 'gyroball').
 learns('dunsparce', 'headbutt').
 learns('dunsparce', 'helpinghand').
 learns('dunsparce', 'hex').
-learns('dunsparce', 'hiddenpower').
 learns('dunsparce', 'hyperbeam').
 learns('dunsparce', 'hyperdrill').
 learns('dunsparce', 'hypervoice').
@@ -27331,7 +27069,6 @@ learns('gligar', 'guillotine').
 learns('gligar', 'gunkshot').
 learns('gligar', 'harden').
 learns('gligar', 'headbutt').
-learns('gligar', 'hiddenpower').
 learns('gligar', 'highhorsepower').
 learns('gligar', 'honeclaws').
 learns('gligar', 'icefang').
@@ -27440,7 +27177,6 @@ learns('steelix', 'gyroball').
 learns('steelix', 'harden').
 learns('steelix', 'headbutt').
 learns('steelix', 'heavyslam').
-learns('steelix', 'hiddenpower').
 learns('steelix', 'highhorsepower').
 learns('steelix', 'hyperbeam').
 learns('steelix', 'icefang').
@@ -27544,7 +27280,6 @@ learns('steelixmega', 'gyroball').
 learns('steelixmega', 'harden').
 learns('steelixmega', 'headbutt').
 learns('steelixmega', 'heavyslam').
-learns('steelixmega', 'hiddenpower').
 learns('steelixmega', 'highhorsepower').
 learns('steelixmega', 'hyperbeam').
 learns('steelixmega', 'icefang').
@@ -27648,7 +27383,6 @@ learns('snubbull', 'growl').
 learns('snubbull', 'headbutt').
 learns('snubbull', 'healbell').
 learns('snubbull', 'helpinghand').
-learns('snubbull', 'hiddenpower').
 learns('snubbull', 'hypervoice').
 learns('snubbull', 'icefang').
 learns('snubbull', 'icepunch').
@@ -27760,7 +27494,6 @@ learns('granbull', 'growl').
 learns('granbull', 'headbutt').
 learns('granbull', 'healbell').
 learns('granbull', 'helpinghand').
-learns('granbull', 'hiddenpower').
 learns('granbull', 'hyperbeam').
 learns('granbull', 'hypervoice').
 learns('granbull', 'icefang').
@@ -27879,7 +27612,6 @@ learns('qwilfish', 'harden').
 learns('qwilfish', 'haze').
 learns('qwilfish', 'headbutt').
 learns('qwilfish', 'hex').
-learns('qwilfish', 'hiddenpower').
 learns('qwilfish', 'hydropump').
 learns('qwilfish', 'icebeam').
 learns('qwilfish', 'icywind').
@@ -28046,7 +27778,6 @@ learns('scizor', 'gigaimpact').
 learns('scizor', 'hardpress').
 learns('scizor', 'headbutt').
 learns('scizor', 'helpinghand').
-learns('scizor', 'hiddenpower').
 learns('scizor', 'hyperbeam').
 learns('scizor', 'irondefense').
 learns('scizor', 'ironhead').
@@ -28148,7 +27879,6 @@ learns('scizormega', 'gigaimpact').
 learns('scizormega', 'hardpress').
 learns('scizormega', 'headbutt').
 learns('scizormega', 'helpinghand').
-learns('scizormega', 'hiddenpower').
 learns('scizormega', 'hyperbeam').
 learns('scizormega', 'irondefense').
 learns('scizormega', 'ironhead').
@@ -28243,7 +27973,6 @@ learns('shuckle', 'guardsplit').
 learns('shuckle', 'gyroball').
 learns('shuckle', 'headbutt').
 learns('shuckle', 'helpinghand').
-learns('shuckle', 'hiddenpower').
 learns('shuckle', 'infestation').
 learns('shuckle', 'irondefense').
 learns('shuckle', 'knockoff').
@@ -28334,7 +28063,6 @@ learns('heracross', 'gigaimpact').
 learns('heracross', 'harden').
 learns('heracross', 'headbutt').
 learns('heracross', 'helpinghand').
-learns('heracross', 'hiddenpower').
 learns('heracross', 'highhorsepower').
 learns('heracross', 'hornattack').
 learns('heracross', 'hyperbeam').
@@ -28432,7 +28160,6 @@ learns('heracrossmega', 'gigaimpact').
 learns('heracrossmega', 'harden').
 learns('heracrossmega', 'headbutt').
 learns('heracrossmega', 'helpinghand').
-learns('heracrossmega', 'hiddenpower').
 learns('heracrossmega', 'highhorsepower').
 learns('heracrossmega', 'hornattack').
 learns('heracrossmega', 'hyperbeam').
@@ -28532,7 +28259,6 @@ learns('sneasel', 'gigaimpact').
 learns('sneasel', 'hail').
 learns('sneasel', 'headbutt').
 learns('sneasel', 'helpinghand').
-learns('sneasel', 'hiddenpower').
 learns('sneasel', 'honeclaws').
 learns('sneasel', 'icebeam').
 learns('sneasel', 'icepunch').
@@ -28709,7 +28435,6 @@ learns('teddiursa', 'furyswipes').
 learns('teddiursa', 'gunkshot').
 learns('teddiursa', 'headbutt').
 learns('teddiursa', 'helpinghand').
-learns('teddiursa', 'hiddenpower').
 learns('teddiursa', 'honeclaws').
 learns('teddiursa', 'hypervoice').
 learns('teddiursa', 'icepunch').
@@ -28809,7 +28534,6 @@ learns('ursaring', 'gunkshot').
 learns('ursaring', 'hammerarm').
 learns('ursaring', 'headbutt').
 learns('ursaring', 'helpinghand').
-learns('ursaring', 'hiddenpower').
 learns('ursaring', 'highhorsepower').
 learns('ursaring', 'honeclaws').
 learns('ursaring', 'hyperbeam').
@@ -28912,7 +28636,6 @@ learns('slugma', 'guardswap').
 learns('slugma', 'harden').
 learns('slugma', 'heatcrash').
 learns('slugma', 'heatwave').
-learns('slugma', 'hiddenpower').
 learns('slugma', 'highhorsepower').
 learns('slugma', 'incinerate').
 learns('slugma', 'inferno').
@@ -28995,7 +28718,6 @@ learns('magcargo', 'gyroball').
 learns('magcargo', 'harden').
 learns('magcargo', 'heatcrash').
 learns('magcargo', 'heatwave').
-learns('magcargo', 'hiddenpower').
 learns('magcargo', 'hyperbeam').
 learns('magcargo', 'incinerate').
 learns('magcargo', 'infestation').
@@ -29086,7 +28808,6 @@ learns('swinub', 'frustration').
 learns('swinub', 'hail').
 learns('swinub', 'haze').
 learns('swinub', 'headbutt').
-learns('swinub', 'hiddenpower').
 learns('swinub', 'highhorsepower').
 learns('swinub', 'icebeam').
 learns('swinub', 'icefang').
@@ -29163,7 +28884,6 @@ learns('piloswine', 'gigaimpact').
 learns('piloswine', 'hail').
 learns('piloswine', 'haze').
 learns('piloswine', 'headbutt').
-learns('piloswine', 'hiddenpower').
 learns('piloswine', 'highhorsepower').
 learns('piloswine', 'hornattack').
 learns('piloswine', 'hyperbeam').
@@ -29254,7 +28974,6 @@ learns('corsola', 'hail').
 learns('corsola', 'harden').
 learns('corsola', 'headbutt').
 learns('corsola', 'headsmash').
-learns('corsola', 'hiddenpower').
 learns('corsola', 'hydropump').
 learns('corsola', 'icebeam').
 learns('corsola', 'iciclespear').
@@ -29410,7 +29129,6 @@ learns('remoraid', 'frustration').
 learns('remoraid', 'gunkshot').
 learns('remoraid', 'haze').
 learns('remoraid', 'helpinghand').
-learns('remoraid', 'hiddenpower').
 learns('remoraid', 'hydropump').
 learns('remoraid', 'hyperbeam').
 learns('remoraid', 'icebeam').
@@ -29483,7 +29201,6 @@ learns('octillery', 'frustration').
 learns('octillery', 'gigaimpact').
 learns('octillery', 'gunkshot').
 learns('octillery', 'helpinghand').
-learns('octillery', 'hiddenpower').
 learns('octillery', 'hydropump').
 learns('octillery', 'hyperbeam').
 learns('octillery', 'icebeam').
@@ -29590,7 +29307,6 @@ learns('delibird', 'happyhour').
 learns('delibird', 'haze').
 learns('delibird', 'headbutt').
 learns('delibird', 'helpinghand').
-learns('delibird', 'hiddenpower').
 learns('delibird', 'hyperbeam').
 learns('delibird', 'iceball').
 learns('delibird', 'icebeam').
@@ -29679,7 +29395,6 @@ learns('mantine', 'hail').
 learns('mantine', 'haze').
 learns('mantine', 'headbutt').
 learns('mantine', 'helpinghand').
-learns('mantine', 'hiddenpower').
 learns('mantine', 'hurricane').
 learns('mantine', 'hydropump').
 learns('mantine', 'hyperbeam').
@@ -29761,7 +29476,6 @@ learns('skarmory', 'furyattack').
 learns('skarmory', 'furycutter').
 learns('skarmory', 'gigaimpact').
 learns('skarmory', 'guardswap').
-learns('skarmory', 'hiddenpower').
 learns('skarmory', 'hurricane').
 learns('skarmory', 'hyperbeam').
 learns('skarmory', 'icywind').
@@ -29853,7 +29567,6 @@ learns('houndour', 'frustration').
 learns('houndour', 'headbutt').
 learns('houndour', 'heatwave').
 learns('houndour', 'helpinghand').
-learns('houndour', 'hiddenpower').
 learns('houndour', 'howl').
 learns('houndour', 'hypervoice').
 learns('houndour', 'incinerate').
@@ -29947,7 +29660,6 @@ learns('houndoom', 'gigaimpact').
 learns('houndoom', 'headbutt').
 learns('houndoom', 'heatwave').
 learns('houndoom', 'helpinghand').
-learns('houndoom', 'hiddenpower').
 learns('houndoom', 'howl').
 learns('houndoom', 'hyperbeam').
 learns('houndoom', 'hypervoice').
@@ -30048,7 +29760,6 @@ learns('houndoommega', 'gigaimpact').
 learns('houndoommega', 'headbutt').
 learns('houndoommega', 'heatwave').
 learns('houndoommega', 'helpinghand').
-learns('houndoommega', 'hiddenpower').
 learns('houndoommega', 'howl').
 learns('houndoommega', 'hyperbeam').
 learns('houndoommega', 'hypervoice').
@@ -30144,7 +29855,6 @@ learns('kingdra', 'frustration').
 learns('kingdra', 'gigaimpact').
 learns('kingdra', 'hail').
 learns('kingdra', 'headbutt').
-learns('kingdra', 'hiddenpower').
 learns('kingdra', 'hurricane').
 learns('kingdra', 'hydropump').
 learns('kingdra', 'hyperbeam').
@@ -30229,7 +29939,6 @@ learns('phanpy', 'headbutt').
 learns('phanpy', 'headsmash').
 learns('phanpy', 'heavyslam').
 learns('phanpy', 'helpinghand').
-learns('phanpy', 'hiddenpower').
 learns('phanpy', 'highhorsepower').
 learns('phanpy', 'hypervoice').
 learns('phanpy', 'iceshard').
@@ -30312,7 +30021,6 @@ learns('donphan', 'gyroball').
 learns('donphan', 'headbutt').
 learns('donphan', 'heavyslam').
 learns('donphan', 'helpinghand').
-learns('donphan', 'hiddenpower').
 learns('donphan', 'highhorsepower').
 learns('donphan', 'hornattack').
 learns('donphan', 'hyperbeam').
@@ -30400,7 +30108,6 @@ learns('porygon2', 'frustration').
 learns('porygon2', 'gigaimpact').
 learns('porygon2', 'gravity').
 learns('porygon2', 'guardswap').
-learns('porygon2', 'hiddenpower').
 learns('porygon2', 'hyperbeam').
 learns('porygon2', 'icebeam').
 learns('porygon2', 'icywind').
@@ -30495,7 +30202,6 @@ learns('stantler', 'gigaimpact').
 learns('stantler', 'gravity').
 learns('stantler', 'headbutt').
 learns('stantler', 'helpinghand').
-learns('stantler', 'hiddenpower').
 learns('stantler', 'hyperbeam').
 learns('stantler', 'hypnosis').
 learns('stantler', 'imprison').
@@ -31269,7 +30975,6 @@ learns('tyrogue', 'foresight').
 learns('tyrogue', 'frustration').
 learns('tyrogue', 'headbutt').
 learns('tyrogue', 'helpinghand').
-learns('tyrogue', 'hiddenpower').
 learns('tyrogue', 'highjumpkick').
 learns('tyrogue', 'laserfocus').
 learns('tyrogue', 'lowkick').
@@ -31344,7 +31049,6 @@ learns('hitmontop', 'gigaimpact').
 learns('hitmontop', 'gyroball').
 learns('hitmontop', 'headbutt').
 learns('hitmontop', 'helpinghand').
-learns('hitmontop', 'hiddenpower').
 learns('hitmontop', 'icespinner').
 learns('hitmontop', 'laserfocus').
 learns('hitmontop', 'lowkick').
@@ -31435,7 +31139,6 @@ learns('smoochum', 'hail').
 learns('smoochum', 'healbell').
 learns('smoochum', 'heartstamp').
 learns('smoochum', 'helpinghand').
-learns('smoochum', 'hiddenpower').
 learns('smoochum', 'icebeam').
 learns('smoochum', 'icepunch').
 learns('smoochum', 'icywind').
@@ -31528,7 +31231,6 @@ learns('elekid', 'frustration').
 learns('elekid', 'hammerarm').
 learns('elekid', 'headbutt').
 learns('elekid', 'helpinghand').
-learns('elekid', 'hiddenpower').
 learns('elekid', 'icepunch').
 learns('elekid', 'karatechop').
 learns('elekid', 'knockoff').
@@ -31620,7 +31322,6 @@ learns('magby', 'frustration').
 learns('magby', 'headbutt').
 learns('magby', 'heatwave').
 learns('magby', 'helpinghand').
-learns('magby', 'hiddenpower').
 learns('magby', 'incinerate').
 learns('magby', 'irontail').
 learns('magby', 'karatechop').
@@ -31700,7 +31401,6 @@ learns('miltank', 'healbell').
 learns('miltank', 'heartstamp').
 learns('miltank', 'heavyslam').
 learns('miltank', 'helpinghand').
-learns('miltank', 'hiddenpower').
 learns('miltank', 'highhorsepower').
 learns('miltank', 'hyperbeam').
 learns('miltank', 'icebeam').
@@ -31815,7 +31515,6 @@ learns('blissey', 'healbell').
 learns('blissey', 'healingwish').
 learns('blissey', 'healpulse').
 learns('blissey', 'helpinghand').
-learns('blissey', 'hiddenpower').
 learns('blissey', 'hyperbeam').
 learns('blissey', 'hypervoice').
 learns('blissey', 'icebeam').
@@ -31937,7 +31636,6 @@ learns('raikou', 'frustration').
 learns('raikou', 'gigaimpact').
 learns('raikou', 'headbutt').
 learns('raikou', 'helpinghand').
-learns('raikou', 'hiddenpower').
 learns('raikou', 'howl').
 learns('raikou', 'hyperbeam').
 learns('raikou', 'ironhead').
@@ -32025,7 +31723,6 @@ learns('entei', 'gigaimpact').
 learns('entei', 'headbutt').
 learns('entei', 'heatwave').
 learns('entei', 'helpinghand').
-learns('entei', 'hiddenpower').
 learns('entei', 'howl').
 learns('entei', 'hyperbeam').
 learns('entei', 'incinerate').
@@ -32106,7 +31803,6 @@ learns('suicune', 'gust').
 learns('suicune', 'hail').
 learns('suicune', 'headbutt').
 learns('suicune', 'helpinghand').
-learns('suicune', 'hiddenpower').
 learns('suicune', 'hydropump').
 learns('suicune', 'hyperbeam').
 learns('suicune', 'icebeam').
@@ -32185,7 +31881,6 @@ learns('larvitar', 'frustration').
 learns('larvitar', 'gigaimpact').
 learns('larvitar', 'headbutt').
 learns('larvitar', 'helpinghand').
-learns('larvitar', 'hiddenpower').
 learns('larvitar', 'hyperbeam').
 learns('larvitar', 'irondefense').
 learns('larvitar', 'ironhead').
@@ -32266,7 +31961,6 @@ learns('pupitar', 'frustration').
 learns('pupitar', 'gigaimpact').
 learns('pupitar', 'headbutt').
 learns('pupitar', 'helpinghand').
-learns('pupitar', 'hiddenpower').
 learns('pupitar', 'highhorsepower').
 learns('pupitar', 'hyperbeam').
 learns('pupitar', 'irondefense').
@@ -32374,7 +32068,6 @@ learns('tyranitar', 'hardpress').
 learns('tyranitar', 'headbutt').
 learns('tyranitar', 'heavyslam').
 learns('tyranitar', 'helpinghand').
-learns('tyranitar', 'hiddenpower').
 learns('tyranitar', 'highhorsepower').
 learns('tyranitar', 'honeclaws').
 learns('tyranitar', 'hydropump').
@@ -32509,7 +32202,6 @@ learns('tyranitarmega', 'hardpress').
 learns('tyranitarmega', 'headbutt').
 learns('tyranitarmega', 'heavyslam').
 learns('tyranitarmega', 'helpinghand').
-learns('tyranitarmega', 'hiddenpower').
 learns('tyranitarmega', 'highhorsepower').
 learns('tyranitarmega', 'honeclaws').
 learns('tyranitarmega', 'hydropump').
@@ -32637,7 +32329,6 @@ learns('lugia', 'gust').
 learns('lugia', 'hail').
 learns('lugia', 'headbutt').
 learns('lugia', 'helpinghand').
-learns('lugia', 'hiddenpower').
 learns('lugia', 'hurricane').
 learns('lugia', 'hydropump').
 learns('lugia', 'hyperbeam').
@@ -32750,7 +32441,6 @@ learns('hooh', 'gigaimpact').
 learns('hooh', 'gust').
 learns('hooh', 'heatwave').
 learns('hooh', 'helpinghand').
-learns('hooh', 'hiddenpower').
 learns('hooh', 'hurricane').
 learns('hooh', 'hyperbeam').
 learns('hooh', 'hypervoice').
@@ -32850,7 +32540,6 @@ learns('celebi', 'healbell').
 learns('celebi', 'healblock').
 learns('celebi', 'healingwish').
 learns('celebi', 'helpinghand').
-learns('celebi', 'hiddenpower').
 learns('celebi', 'holdback').
 learns('celebi', 'hyperbeam').
 learns('celebi', 'imprison').
@@ -32960,7 +32649,6 @@ learns('treecko', 'grassyglide').
 learns('treecko', 'grassyterrain').
 learns('treecko', 'headbutt').
 learns('treecko', 'helpinghand').
-learns('treecko', 'hiddenpower').
 learns('treecko', 'irontail').
 learns('treecko', 'leafage').
 learns('treecko', 'leafstorm').
@@ -33055,7 +32743,6 @@ learns('grovyle', 'grassyglide').
 learns('grovyle', 'grassyterrain').
 learns('grovyle', 'headbutt').
 learns('grovyle', 'helpinghand').
-learns('grovyle', 'hiddenpower').
 learns('grovyle', 'irontail').
 learns('grovyle', 'leafage').
 learns('grovyle', 'leafblade').
@@ -33171,7 +32858,6 @@ learns('sceptile', 'grassyglide').
 learns('sceptile', 'grassyterrain').
 learns('sceptile', 'headbutt').
 learns('sceptile', 'helpinghand').
-learns('sceptile', 'hiddenpower').
 learns('sceptile', 'honeclaws').
 learns('sceptile', 'hyperbeam').
 learns('sceptile', 'irontail').
@@ -33295,7 +32981,6 @@ learns('sceptilemega', 'grassyglide').
 learns('sceptilemega', 'grassyterrain').
 learns('sceptilemega', 'headbutt').
 learns('sceptilemega', 'helpinghand').
-learns('sceptilemega', 'hiddenpower').
 learns('sceptilemega', 'honeclaws').
 learns('sceptilemega', 'hyperbeam').
 learns('sceptilemega', 'irontail').
@@ -33405,7 +33090,6 @@ learns('torchic', 'growl').
 learns('torchic', 'headbutt').
 learns('torchic', 'heatwave').
 learns('torchic', 'helpinghand').
-learns('torchic', 'hiddenpower').
 learns('torchic', 'honeclaws').
 learns('torchic', 'incinerate').
 learns('torchic', 'lastresort').
@@ -33497,7 +33181,6 @@ learns('combusken', 'growl').
 learns('combusken', 'headbutt').
 learns('combusken', 'heatwave').
 learns('combusken', 'helpinghand').
-learns('combusken', 'hiddenpower').
 learns('combusken', 'honeclaws').
 learns('combusken', 'incinerate').
 learns('combusken', 'lastresort').
@@ -33608,7 +33291,6 @@ learns('blaziken', 'headbutt').
 learns('blaziken', 'heatcrash').
 learns('blaziken', 'heatwave').
 learns('blaziken', 'helpinghand').
-learns('blaziken', 'hiddenpower').
 learns('blaziken', 'highjumpkick').
 learns('blaziken', 'honeclaws').
 learns('blaziken', 'hyperbeam').
@@ -33731,7 +33413,6 @@ learns('blazikenmega', 'headbutt').
 learns('blazikenmega', 'heatcrash').
 learns('blazikenmega', 'heatwave').
 learns('blazikenmega', 'helpinghand').
-learns('blazikenmega', 'hiddenpower').
 learns('blazikenmega', 'highjumpkick').
 learns('blazikenmega', 'honeclaws').
 learns('blazikenmega', 'hyperbeam').
@@ -33829,7 +33510,6 @@ learns('mudkip', 'frustration').
 learns('mudkip', 'growl').
 learns('mudkip', 'hail').
 learns('mudkip', 'headbutt').
-learns('mudkip', 'hiddenpower').
 learns('mudkip', 'hydropump').
 learns('mudkip', 'iceball').
 learns('mudkip', 'icebeam').
@@ -33919,7 +33599,6 @@ learns('marshtomp', 'growl').
 learns('marshtomp', 'hail').
 learns('marshtomp', 'headbutt').
 learns('marshtomp', 'helpinghand').
-learns('marshtomp', 'hiddenpower').
 learns('marshtomp', 'hydropump').
 learns('marshtomp', 'icebeam').
 learns('marshtomp', 'icepunch').
@@ -34026,7 +33705,6 @@ learns('swampert', 'hammerarm').
 learns('swampert', 'hardpress').
 learns('swampert', 'headbutt').
 learns('swampert', 'helpinghand').
-learns('swampert', 'hiddenpower').
 learns('swampert', 'highhorsepower').
 learns('swampert', 'hydrocannon').
 learns('swampert', 'hydropump').
@@ -34144,7 +33822,6 @@ learns('swampertmega', 'hammerarm').
 learns('swampertmega', 'hardpress').
 learns('swampertmega', 'headbutt').
 learns('swampertmega', 'helpinghand').
-learns('swampertmega', 'hiddenpower').
 learns('swampertmega', 'highhorsepower').
 learns('swampertmega', 'hydrocannon').
 learns('swampertmega', 'hydropump').
@@ -34244,7 +33921,6 @@ learns('poochyena', 'frustration').
 learns('poochyena', 'headbutt').
 learns('poochyena', 'healbell').
 learns('poochyena', 'helpinghand').
-learns('poochyena', 'hiddenpower').
 learns('poochyena', 'howl').
 learns('poochyena', 'hypervoice').
 learns('poochyena', 'icefang').
@@ -34320,7 +33996,6 @@ learns('mightyena', 'frustration').
 learns('mightyena', 'gigaimpact').
 learns('mightyena', 'headbutt').
 learns('mightyena', 'helpinghand').
-learns('mightyena', 'hiddenpower').
 learns('mightyena', 'howl').
 learns('mightyena', 'hyperbeam').
 learns('mightyena', 'hypervoice').
@@ -34407,7 +34082,6 @@ learns('zigzagoon', 'growl').
 learns('zigzagoon', 'gunkshot').
 learns('zigzagoon', 'headbutt').
 learns('zigzagoon', 'helpinghand').
-learns('zigzagoon', 'hiddenpower').
 learns('zigzagoon', 'honeclaws').
 learns('zigzagoon', 'hypervoice').
 learns('zigzagoon', 'icebeam').
@@ -34546,7 +34220,6 @@ learns('linoone', 'growl').
 learns('linoone', 'gunkshot').
 learns('linoone', 'headbutt').
 learns('linoone', 'helpinghand').
-learns('linoone', 'hiddenpower').
 learns('linoone', 'honeclaws').
 learns('linoone', 'hyperbeam').
 learns('linoone', 'hypervoice').
@@ -34709,7 +34382,6 @@ learns('beautifly', 'frustration').
 learns('beautifly', 'gigadrain').
 learns('beautifly', 'gigaimpact').
 learns('beautifly', 'gust').
-learns('beautifly', 'hiddenpower').
 learns('beautifly', 'hyperbeam').
 learns('beautifly', 'infestation').
 learns('beautifly', 'laserfocus').
@@ -34781,7 +34453,6 @@ learns('dustox', 'frustration').
 learns('dustox', 'gigadrain').
 learns('dustox', 'gigaimpact').
 learns('dustox', 'gust').
-learns('dustox', 'hiddenpower').
 learns('dustox', 'hyperbeam').
 learns('dustox', 'infestation').
 learns('dustox', 'laserfocus').
@@ -34853,7 +34524,6 @@ learns('lotad', 'grassyterrain').
 learns('lotad', 'growl').
 learns('lotad', 'hail').
 learns('lotad', 'headbutt').
-learns('lotad', 'hiddenpower').
 learns('lotad', 'icebeam').
 learns('lotad', 'icywind').
 learns('lotad', 'leechseed').
@@ -34933,7 +34603,6 @@ learns('lombre', 'grassyterrain').
 learns('lombre', 'growl').
 learns('lombre', 'hail').
 learns('lombre', 'headbutt').
-learns('lombre', 'hiddenpower').
 learns('lombre', 'honeclaws').
 learns('lombre', 'hydropump').
 learns('lombre', 'hypervoice').
@@ -35034,7 +34703,6 @@ learns('ludicolo', 'grassyterrain').
 learns('ludicolo', 'growl').
 learns('ludicolo', 'hail').
 learns('ludicolo', 'headbutt').
-learns('ludicolo', 'hiddenpower').
 learns('ludicolo', 'honeclaws').
 learns('ludicolo', 'hydropump').
 learns('ludicolo', 'hyperbeam').
@@ -35131,7 +34799,6 @@ learns('seedot', 'grassyterrain').
 learns('seedot', 'growth').
 learns('seedot', 'harden').
 learns('seedot', 'headbutt').
-learns('seedot', 'hiddenpower').
 learns('seedot', 'leafstorm').
 learns('seedot', 'leechseed').
 learns('seedot', 'magicalleaf').
@@ -35217,7 +34884,6 @@ learns('nuzleaf', 'grassyterrain').
 learns('nuzleaf', 'growth').
 learns('nuzleaf', 'harden').
 learns('nuzleaf', 'headbutt').
-learns('nuzleaf', 'hiddenpower').
 learns('nuzleaf', 'hyperbeam').
 learns('nuzleaf', 'knockoff').
 learns('nuzleaf', 'lashout').
@@ -35336,7 +35002,6 @@ learns('shiftry', 'harden').
 learns('shiftry', 'headbutt').
 learns('shiftry', 'heatwave').
 learns('shiftry', 'hex').
-learns('shiftry', 'hiddenpower').
 learns('shiftry', 'hurricane').
 learns('shiftry', 'hyperbeam').
 learns('shiftry', 'icywind').
@@ -35446,7 +35111,6 @@ learns('taillow', 'focusenergy').
 learns('taillow', 'frustration').
 learns('taillow', 'growl').
 learns('taillow', 'heatwave').
-learns('taillow', 'hiddenpower').
 learns('taillow', 'hurricane').
 learns('taillow', 'mimic').
 learns('taillow', 'mirrormove').
@@ -35508,7 +35172,6 @@ learns('swellow', 'frustration').
 learns('swellow', 'gigaimpact').
 learns('swellow', 'growl').
 learns('swellow', 'heatwave').
-learns('swellow', 'hiddenpower').
 learns('swellow', 'hyperbeam').
 learns('swellow', 'laserfocus').
 learns('swellow', 'mimic').
@@ -35578,7 +35241,6 @@ learns('wingull', 'growl').
 learns('wingull', 'gust').
 learns('wingull', 'hail').
 learns('wingull', 'helpinghand').
-learns('wingull', 'hiddenpower').
 learns('wingull', 'hurricane').
 learns('wingull', 'hydropump').
 learns('wingull', 'icebeam').
@@ -35658,7 +35320,6 @@ learns('pelipper', 'growl').
 learns('pelipper', 'gunkshot').
 learns('pelipper', 'hail').
 learns('pelipper', 'helpinghand').
-learns('pelipper', 'hiddenpower').
 learns('pelipper', 'hurricane').
 learns('pelipper', 'hydropump').
 learns('pelipper', 'hyperbeam').
@@ -35755,7 +35416,6 @@ learns('ralts', 'grudge').
 learns('ralts', 'headbutt').
 learns('ralts', 'healpulse').
 learns('ralts', 'helpinghand').
-learns('ralts', 'hiddenpower').
 learns('ralts', 'hypervoice').
 learns('ralts', 'hypnosis').
 learns('ralts', 'icepunch').
@@ -35858,7 +35518,6 @@ learns('kirlia', 'growl').
 learns('kirlia', 'headbutt').
 learns('kirlia', 'healpulse').
 learns('kirlia', 'helpinghand').
-learns('kirlia', 'hiddenpower').
 learns('kirlia', 'hyperbeam').
 learns('kirlia', 'hypervoice').
 learns('kirlia', 'hypnosis').
@@ -35974,7 +35633,6 @@ learns('gardevoir', 'healbell').
 learns('gardevoir', 'healingwish').
 learns('gardevoir', 'healpulse').
 learns('gardevoir', 'helpinghand').
-learns('gardevoir', 'hiddenpower').
 learns('gardevoir', 'hyperbeam').
 learns('gardevoir', 'hypervoice').
 learns('gardevoir', 'hypnosis').
@@ -36097,7 +35755,6 @@ learns('gardevoirmega', 'healbell').
 learns('gardevoirmega', 'healingwish').
 learns('gardevoirmega', 'healpulse').
 learns('gardevoirmega', 'helpinghand').
-learns('gardevoirmega', 'hiddenpower').
 learns('gardevoirmega', 'hyperbeam').
 learns('gardevoirmega', 'hypervoice').
 learns('gardevoirmega', 'hypnosis').
@@ -36203,7 +35860,6 @@ learns('surskit', 'frustration').
 learns('surskit', 'gigadrain').
 learns('surskit', 'haze').
 learns('surskit', 'helpinghand').
-learns('surskit', 'hiddenpower').
 learns('surskit', 'hydropump').
 learns('surskit', 'icebeam').
 learns('surskit', 'icywind').
@@ -36283,7 +35939,6 @@ learns('masquerain', 'gigaimpact').
 learns('masquerain', 'gust').
 learns('masquerain', 'haze').
 learns('masquerain', 'helpinghand').
-learns('masquerain', 'hiddenpower').
 learns('masquerain', 'hurricane').
 learns('masquerain', 'hydropump').
 learns('masquerain', 'hyperbeam').
@@ -36377,7 +36032,6 @@ learns('shroomish', 'growth').
 learns('shroomish', 'gunkshot').
 learns('shroomish', 'headbutt').
 learns('shroomish', 'helpinghand').
-learns('shroomish', 'hiddenpower').
 learns('shroomish', 'leechseed').
 learns('shroomish', 'magicalleaf').
 learns('shroomish', 'megadrain').
@@ -36455,7 +36109,6 @@ learns('breloom', 'growth').
 learns('breloom', 'gunkshot').
 learns('breloom', 'headbutt').
 learns('breloom', 'helpinghand').
-learns('breloom', 'hiddenpower').
 learns('breloom', 'hyperbeam').
 learns('breloom', 'irontail').
 learns('breloom', 'laserfocus').
@@ -36557,7 +36210,6 @@ learns('slakoth', 'gunkshot').
 learns('slakoth', 'hammerarm').
 learns('slakoth', 'headbutt').
 learns('slakoth', 'helpinghand').
-learns('slakoth', 'hiddenpower').
 learns('slakoth', 'honeclaws').
 learns('slakoth', 'icebeam').
 learns('slakoth', 'icepunch').
@@ -36657,7 +36309,6 @@ learns('vigoroth', 'furyswipes').
 learns('vigoroth', 'gunkshot').
 learns('vigoroth', 'headbutt').
 learns('vigoroth', 'helpinghand').
-learns('vigoroth', 'hiddenpower').
 learns('vigoroth', 'honeclaws').
 learns('vigoroth', 'hypervoice').
 learns('vigoroth', 'icebeam').
@@ -36781,7 +36432,6 @@ learns('slaking', 'hardpress').
 learns('slaking', 'headbutt').
 learns('slaking', 'heavyslam').
 learns('slaking', 'helpinghand').
-learns('slaking', 'hiddenpower').
 learns('slaking', 'highhorsepower').
 learns('slaking', 'honeclaws').
 learns('slaking', 'hyperbeam').
@@ -36887,7 +36537,6 @@ learns('nincada', 'furyswipes').
 learns('nincada', 'gigadrain').
 learns('nincada', 'gust').
 learns('nincada', 'harden').
-learns('nincada', 'hiddenpower').
 learns('nincada', 'honeclaws').
 learns('nincada', 'leechlife').
 learns('nincada', 'metalclaw').
@@ -36946,7 +36595,6 @@ learns('ninjask', 'furyswipes').
 learns('ninjask', 'gigadrain').
 learns('ninjask', 'gigaimpact').
 learns('ninjask', 'harden').
-learns('ninjask', 'hiddenpower').
 learns('ninjask', 'honeclaws').
 learns('ninjask', 'hyperbeam').
 learns('ninjask', 'laserfocus').
@@ -37020,7 +36668,6 @@ learns('shedinja', 'grudge').
 learns('shedinja', 'harden').
 learns('shedinja', 'healblock').
 learns('shedinja', 'hex').
-learns('shedinja', 'hiddenpower').
 learns('shedinja', 'honeclaws').
 learns('shedinja', 'hyperbeam').
 learns('shedinja', 'leechlife').
@@ -37096,7 +36743,6 @@ learns('whismur', 'fling').
 learns('whismur', 'frustration').
 learns('whismur', 'hammerarm').
 learns('whismur', 'headbutt').
-learns('whismur', 'hiddenpower').
 learns('whismur', 'howl').
 learns('whismur', 'hypervoice').
 learns('whismur', 'icebeam').
@@ -37169,7 +36815,6 @@ learns('loudred', 'flamethrower').
 learns('loudred', 'fling').
 learns('loudred', 'frustration').
 learns('loudred', 'headbutt').
-learns('loudred', 'hiddenpower').
 learns('loudred', 'howl').
 learns('loudred', 'hypervoice').
 learns('loudred', 'icebeam').
@@ -37263,7 +36908,6 @@ learns('exploud', 'focusblast').
 learns('exploud', 'frustration').
 learns('exploud', 'gigaimpact').
 learns('exploud', 'headbutt').
-learns('exploud', 'hiddenpower').
 learns('exploud', 'howl').
 learns('exploud', 'hydropump').
 learns('exploud', 'hyperbeam').
@@ -37373,7 +37017,6 @@ learns('makuhita', 'frustration').
 learns('makuhita', 'headbutt').
 learns('makuhita', 'heavyslam').
 learns('makuhita', 'helpinghand').
-learns('makuhita', 'hiddenpower').
 learns('makuhita', 'icepunch').
 learns('makuhita', 'knockoff').
 learns('makuhita', 'lowkick').
@@ -37470,7 +37113,6 @@ learns('hariyama', 'headbutt').
 learns('hariyama', 'headlongrush').
 learns('hariyama', 'heavyslam').
 learns('hariyama', 'helpinghand').
-learns('hariyama', 'hiddenpower').
 learns('hariyama', 'hyperbeam').
 learns('hariyama', 'icepunch').
 learns('hariyama', 'ironhead').
@@ -37569,7 +37211,6 @@ learns('azurill', 'frustration').
 learns('azurill', 'hail').
 learns('azurill', 'headbutt').
 learns('azurill', 'helpinghand').
-learns('azurill', 'hiddenpower').
 learns('azurill', 'hypervoice').
 learns('azurill', 'icebeam').
 learns('azurill', 'icywind').
@@ -37644,7 +37285,6 @@ learns('nosepass', 'headbutt').
 learns('nosepass', 'headsmash').
 learns('nosepass', 'heavyslam').
 learns('nosepass', 'helpinghand').
-learns('nosepass', 'hiddenpower').
 learns('nosepass', 'highhorsepower').
 learns('nosepass', 'icepunch').
 learns('nosepass', 'irondefense').
@@ -37733,7 +37373,6 @@ learns('skitty', 'growl').
 learns('skitty', 'headbutt').
 learns('skitty', 'healbell').
 learns('skitty', 'helpinghand').
-learns('skitty', 'hiddenpower').
 learns('skitty', 'hypervoice').
 learns('skitty', 'icebeam').
 learns('skitty', 'icywind').
@@ -37808,7 +37447,6 @@ learns('delcatty', 'growl').
 learns('delcatty', 'headbutt').
 learns('delcatty', 'healbell').
 learns('delcatty', 'helpinghand').
-learns('delcatty', 'hiddenpower').
 learns('delcatty', 'hyperbeam').
 learns('delcatty', 'hypervoice').
 learns('delcatty', 'icebeam').
@@ -37920,7 +37558,6 @@ learns('sableye', 'gyroball').
 learns('sableye', 'headbutt').
 learns('sableye', 'helpinghand').
 learns('sableye', 'hex').
-learns('sableye', 'hiddenpower').
 learns('sableye', 'honeclaws').
 learns('sableye', 'hyperbeam').
 learns('sableye', 'icepunch').
@@ -38057,7 +37694,6 @@ learns('sableyemega', 'gyroball').
 learns('sableyemega', 'headbutt').
 learns('sableyemega', 'helpinghand').
 learns('sableyemega', 'hex').
-learns('sableyemega', 'hiddenpower').
 learns('sableyemega', 'honeclaws').
 learns('sableyemega', 'hyperbeam').
 learns('sableyemega', 'icepunch').
@@ -38187,7 +37823,6 @@ learns('mawile', 'growl').
 learns('mawile', 'guardswap').
 learns('mawile', 'headbutt').
 learns('mawile', 'helpinghand').
-learns('mawile', 'hiddenpower').
 learns('mawile', 'hyperbeam').
 learns('mawile', 'icebeam').
 learns('mawile', 'icefang').
@@ -38296,7 +37931,6 @@ learns('mawilemega', 'growl').
 learns('mawilemega', 'guardswap').
 learns('mawilemega', 'headbutt').
 learns('mawilemega', 'helpinghand').
-learns('mawilemega', 'hiddenpower').
 learns('mawilemega', 'hyperbeam').
 learns('mawilemega', 'icebeam').
 learns('mawilemega', 'icefang').
@@ -38391,7 +38025,6 @@ learns('aron', 'harden').
 learns('aron', 'headbutt').
 learns('aron', 'headsmash').
 learns('aron', 'heavyslam').
-learns('aron', 'hiddenpower').
 learns('aron', 'honeclaws').
 learns('aron', 'irondefense').
 learns('aron', 'ironhead').
@@ -38462,7 +38095,6 @@ learns('lairon', 'furycutter').
 learns('lairon', 'harden').
 learns('lairon', 'headbutt').
 learns('lairon', 'heavyslam').
-learns('lairon', 'hiddenpower').
 learns('lairon', 'honeclaws').
 learns('lairon', 'irondefense').
 learns('lairon', 'ironhead').
@@ -38562,7 +38194,6 @@ learns('aggron', 'harden').
 learns('aggron', 'headbutt').
 learns('aggron', 'headsmash').
 learns('aggron', 'heavyslam').
-learns('aggron', 'hiddenpower').
 learns('aggron', 'highhorsepower').
 learns('aggron', 'honeclaws').
 learns('aggron', 'hydropump').
@@ -38687,7 +38318,6 @@ learns('aggronmega', 'harden').
 learns('aggronmega', 'headbutt').
 learns('aggronmega', 'headsmash').
 learns('aggronmega', 'heavyslam').
-learns('aggronmega', 'hiddenpower').
 learns('aggronmega', 'highhorsepower').
 learns('aggronmega', 'honeclaws').
 learns('aggronmega', 'hydropump').
@@ -38805,7 +38435,6 @@ learns('meditite', 'gravity').
 learns('meditite', 'guardswap').
 learns('meditite', 'headbutt').
 learns('meditite', 'helpinghand').
-learns('meditite', 'hiddenpower').
 learns('meditite', 'highjumpkick').
 learns('meditite', 'icepunch').
 learns('meditite', 'imprison').
@@ -38914,7 +38543,6 @@ learns('medicham', 'grassknot').
 learns('medicham', 'gravity').
 learns('medicham', 'headbutt').
 learns('medicham', 'helpinghand').
-learns('medicham', 'hiddenpower').
 learns('medicham', 'highjumpkick').
 learns('medicham', 'hyperbeam').
 learns('medicham', 'icepunch').
@@ -39029,7 +38657,6 @@ learns('medichammega', 'grassknot').
 learns('medichammega', 'gravity').
 learns('medichammega', 'headbutt').
 learns('medichammega', 'helpinghand').
-learns('medichammega', 'hiddenpower').
 learns('medichammega', 'highjumpkick').
 learns('medichammega', 'hyperbeam').
 learns('medichammega', 'icepunch').
@@ -39128,7 +38755,6 @@ learns('electrike', 'flamethrower').
 learns('electrike', 'flash').
 learns('electrike', 'frustration').
 learns('electrike', 'headbutt').
-learns('electrike', 'hiddenpower').
 learns('electrike', 'howl').
 learns('electrike', 'icefang').
 learns('electrike', 'irontail').
@@ -39193,7 +38819,6 @@ learns('manectric', 'flash').
 learns('manectric', 'frustration').
 learns('manectric', 'gigaimpact').
 learns('manectric', 'headbutt').
-learns('manectric', 'hiddenpower').
 learns('manectric', 'howl').
 learns('manectric', 'hyperbeam').
 learns('manectric', 'hypervoice').
@@ -39266,7 +38891,6 @@ learns('manectricmega', 'flash').
 learns('manectricmega', 'frustration').
 learns('manectricmega', 'gigaimpact').
 learns('manectricmega', 'headbutt').
-learns('manectricmega', 'hiddenpower').
 learns('manectricmega', 'howl').
 learns('manectricmega', 'hyperbeam').
 learns('manectricmega', 'hypervoice').
@@ -39353,7 +38977,6 @@ learns('plusle', 'grassknot').
 learns('plusle', 'growl').
 learns('plusle', 'headbutt').
 learns('plusle', 'helpinghand').
-learns('plusle', 'hiddenpower').
 learns('plusle', 'irontail').
 learns('plusle', 'lastresort').
 learns('plusle', 'lightscreen').
@@ -39439,7 +39062,6 @@ learns('minun', 'grassknot').
 learns('minun', 'growl').
 learns('minun', 'headbutt').
 learns('minun', 'helpinghand').
-learns('minun', 'hiddenpower').
 learns('minun', 'irontail').
 learns('minun', 'lastresort').
 learns('minun', 'lightscreen').
@@ -39522,7 +39144,6 @@ learns('volbeat', 'focuspunch').
 learns('volbeat', 'frustration').
 learns('volbeat', 'gigadrain').
 learns('volbeat', 'helpinghand').
-learns('volbeat', 'hiddenpower').
 learns('volbeat', 'icepunch').
 learns('volbeat', 'infestation').
 learns('volbeat', 'lightscreen').
@@ -39617,7 +39238,6 @@ learns('illumise', 'frustration').
 learns('illumise', 'gigadrain').
 learns('illumise', 'growth').
 learns('illumise', 'helpinghand').
-learns('illumise', 'hiddenpower').
 learns('illumise', 'icepunch').
 learns('illumise', 'infestation').
 learns('illumise', 'lightscreen').
@@ -39698,7 +39318,6 @@ learns('roselia', 'grassknot').
 learns('roselia', 'grasswhistle').
 learns('roselia', 'grassyglide').
 learns('roselia', 'growth').
-learns('roselia', 'hiddenpower').
 learns('roselia', 'ingrain').
 learns('roselia', 'leafstorm').
 learns('roselia', 'leechseed').
@@ -39779,7 +39398,6 @@ learns('gulpin', 'gigadrain').
 learns('gulpin', 'gunkshot').
 learns('gulpin', 'headbutt').
 learns('gulpin', 'helpinghand').
-learns('gulpin', 'hiddenpower').
 learns('gulpin', 'icebeam').
 learns('gulpin', 'icepunch').
 learns('gulpin', 'infestation').
@@ -39868,7 +39486,6 @@ learns('swalot', 'gigaimpact').
 learns('swalot', 'gunkshot').
 learns('swalot', 'headbutt').
 learns('swalot', 'helpinghand').
-learns('swalot', 'hiddenpower').
 learns('swalot', 'hyperbeam').
 learns('swalot', 'icebeam').
 learns('swalot', 'icepunch').
@@ -39955,7 +39572,6 @@ learns('carvanha', 'focusenergy').
 learns('carvanha', 'frustration').
 learns('carvanha', 'furycutter').
 learns('carvanha', 'hail').
-learns('carvanha', 'hiddenpower').
 learns('carvanha', 'hydropump').
 learns('carvanha', 'icebeam').
 learns('carvanha', 'icefang').
@@ -40031,7 +39647,6 @@ learns('sharpedo', 'frustration').
 learns('sharpedo', 'furycutter').
 learns('sharpedo', 'gigaimpact').
 learns('sharpedo', 'hail').
-learns('sharpedo', 'hiddenpower').
 learns('sharpedo', 'hydropump').
 learns('sharpedo', 'hyperbeam').
 learns('sharpedo', 'icebeam').
@@ -40116,7 +39731,6 @@ learns('sharpedomega', 'frustration').
 learns('sharpedomega', 'furycutter').
 learns('sharpedomega', 'gigaimpact').
 learns('sharpedomega', 'hail').
-learns('sharpedomega', 'hiddenpower').
 learns('sharpedomega', 'hydropump').
 learns('sharpedomega', 'hyperbeam').
 learns('sharpedomega', 'icebeam').
@@ -40200,7 +39814,6 @@ learns('wailmer', 'growl').
 learns('wailmer', 'hail').
 learns('wailmer', 'headbutt').
 learns('wailmer', 'heavyslam').
-learns('wailmer', 'hiddenpower').
 learns('wailmer', 'hydropump').
 learns('wailmer', 'hypervoice').
 learns('wailmer', 'icebeam').
@@ -40266,7 +39879,6 @@ learns('wailord', 'growl').
 learns('wailord', 'hail').
 learns('wailord', 'headbutt').
 learns('wailord', 'heavyslam').
-learns('wailord', 'hiddenpower').
 learns('wailord', 'hydropump').
 learns('wailord', 'hyperbeam').
 learns('wailord', 'hypervoice').
@@ -40351,7 +39963,6 @@ learns('numel', 'heatcrash').
 learns('numel', 'heatwave').
 learns('numel', 'heavyslam').
 learns('numel', 'helpinghand').
-learns('numel', 'hiddenpower').
 learns('numel', 'highhorsepower').
 learns('numel', 'howl').
 learns('numel', 'incinerate').
@@ -40442,7 +40053,6 @@ learns('camerupt', 'heatcrash').
 learns('camerupt', 'heatwave').
 learns('camerupt', 'heavyslam').
 learns('camerupt', 'helpinghand').
-learns('camerupt', 'hiddenpower').
 learns('camerupt', 'highhorsepower').
 learns('camerupt', 'hyperbeam').
 learns('camerupt', 'incinerate').
@@ -40540,7 +40150,6 @@ learns('cameruptmega', 'heatcrash').
 learns('cameruptmega', 'heatwave').
 learns('cameruptmega', 'heavyslam').
 learns('cameruptmega', 'helpinghand').
-learns('cameruptmega', 'hiddenpower').
 learns('cameruptmega', 'highhorsepower').
 learns('cameruptmega', 'hyperbeam').
 learns('cameruptmega', 'incinerate').
@@ -40636,7 +40245,6 @@ learns('torkoal', 'heatcrash').
 learns('torkoal', 'heatwave').
 learns('torkoal', 'heavyslam').
 learns('torkoal', 'helpinghand').
-learns('torkoal', 'hiddenpower').
 learns('torkoal', 'hyperbeam').
 learns('torkoal', 'incinerate').
 learns('torkoal', 'inferno').
@@ -40718,7 +40326,6 @@ learns('spoink', 'growl').
 learns('spoink', 'headbutt').
 learns('spoink', 'healbell').
 learns('spoink', 'helpinghand').
-learns('spoink', 'hiddenpower').
 learns('spoink', 'icywind').
 learns('spoink', 'imprison').
 learns('spoink', 'irontail').
@@ -40823,7 +40430,6 @@ learns('grumpig', 'grassknot').
 learns('grumpig', 'headbutt').
 learns('grumpig', 'healbell').
 learns('grumpig', 'helpinghand').
-learns('grumpig', 'hiddenpower').
 learns('grumpig', 'hyperbeam').
 learns('grumpig', 'hypervoice').
 learns('grumpig', 'icepunch').
@@ -40939,7 +40545,6 @@ learns('spinda', 'frustration').
 learns('spinda', 'guardsplit').
 learns('spinda', 'headbutt').
 learns('spinda', 'helpinghand').
-learns('spinda', 'hiddenpower').
 learns('spinda', 'hypervoice').
 learns('spinda', 'hypnosis').
 learns('spinda', 'icepunch').
@@ -41034,7 +40639,6 @@ learns('trapinch', 'furycutter').
 learns('trapinch', 'gigadrain').
 learns('trapinch', 'gust').
 learns('trapinch', 'headbutt').
-learns('trapinch', 'hiddenpower').
 learns('trapinch', 'hyperbeam').
 learns('trapinch', 'laserfocus').
 learns('trapinch', 'mimic').
@@ -41109,7 +40713,6 @@ learns('vibrava', 'gigadrain').
 learns('vibrava', 'gigaimpact').
 learns('vibrava', 'headbutt').
 learns('vibrava', 'heatwave').
-learns('vibrava', 'hiddenpower').
 learns('vibrava', 'hyperbeam').
 learns('vibrava', 'laserfocus').
 learns('vibrava', 'mimic').
@@ -41214,7 +40817,6 @@ learns('flygon', 'gigaimpact').
 learns('flygon', 'headbutt').
 learns('flygon', 'heatwave').
 learns('flygon', 'helpinghand').
-learns('flygon', 'hiddenpower').
 learns('flygon', 'honeclaws').
 learns('flygon', 'hyperbeam').
 learns('flygon', 'incinerate').
@@ -41320,7 +40922,6 @@ learns('cacnea', 'grassyterrain').
 learns('cacnea', 'growth').
 learns('cacnea', 'headbutt').
 learns('cacnea', 'helpinghand').
-learns('cacnea', 'hiddenpower').
 learns('cacnea', 'ingrain').
 learns('cacnea', 'leafstorm').
 learns('cacnea', 'leechseed').
@@ -41421,7 +41022,6 @@ learns('cacturne', 'grassyterrain').
 learns('cacturne', 'growth').
 learns('cacturne', 'headbutt').
 learns('cacturne', 'helpinghand').
-learns('cacturne', 'hiddenpower').
 learns('cacturne', 'hyperbeam').
 learns('cacturne', 'ingrain').
 learns('cacturne', 'knockoff').
@@ -41535,7 +41135,6 @@ learns('swablu', 'haze').
 learns('swablu', 'healbell').
 learns('swablu', 'heatwave').
 learns('swablu', 'helpinghand').
-learns('swablu', 'hiddenpower').
 learns('swablu', 'hurricane').
 learns('swablu', 'hypervoice').
 learns('swablu', 'icebeam').
@@ -41628,7 +41227,6 @@ learns('altaria', 'haze').
 learns('altaria', 'healbell').
 learns('altaria', 'heatwave').
 learns('altaria', 'helpinghand').
-learns('altaria', 'hiddenpower').
 learns('altaria', 'honeclaws').
 learns('altaria', 'hurricane').
 learns('altaria', 'hyperbeam').
@@ -41732,7 +41330,6 @@ learns('altariamega', 'haze').
 learns('altariamega', 'healbell').
 learns('altariamega', 'heatwave').
 learns('altariamega', 'helpinghand').
-learns('altariamega', 'hiddenpower').
 learns('altariamega', 'honeclaws').
 learns('altariamega', 'hurricane').
 learns('altariamega', 'hyperbeam').
@@ -41837,7 +41434,6 @@ learns('zangoose', 'grassknot').
 learns('zangoose', 'gunkshot').
 learns('zangoose', 'headbutt').
 learns('zangoose', 'helpinghand').
-learns('zangoose', 'hiddenpower').
 learns('zangoose', 'honeclaws').
 learns('zangoose', 'hyperbeam').
 learns('zangoose', 'icebeam').
@@ -41953,7 +41549,6 @@ learns('seviper', 'gunkshot').
 learns('seviper', 'haze').
 learns('seviper', 'headbutt').
 learns('seviper', 'helpinghand').
-learns('seviper', 'hiddenpower').
 learns('seviper', 'hyperbeam').
 learns('seviper', 'icefang').
 learns('seviper', 'infestation').
@@ -42050,7 +41645,6 @@ learns('lunatone', 'hail').
 learns('lunatone', 'harden').
 learns('lunatone', 'healblock').
 learns('lunatone', 'helpinghand').
-learns('lunatone', 'hiddenpower').
 learns('lunatone', 'hyperbeam').
 learns('lunatone', 'hypnosis').
 learns('lunatone', 'icebeam').
@@ -42146,7 +41740,6 @@ learns('solrock', 'harden').
 learns('solrock', 'healblock').
 learns('solrock', 'heatwave').
 learns('solrock', 'helpinghand').
-learns('solrock', 'hiddenpower').
 learns('solrock', 'hyperbeam').
 learns('solrock', 'hypnosis').
 learns('solrock', 'incinerate').
@@ -42233,7 +41826,6 @@ learns('barboach', 'futuresight').
 learns('barboach', 'hail').
 learns('barboach', 'headbutt').
 learns('barboach', 'helpinghand').
-learns('barboach', 'hiddenpower').
 learns('barboach', 'highhorsepower').
 learns('barboach', 'hydropump').
 learns('barboach', 'icebeam').
@@ -42306,7 +41898,6 @@ learns('whiscash', 'gigaimpact').
 learns('whiscash', 'hail').
 learns('whiscash', 'headbutt').
 learns('whiscash', 'helpinghand').
-learns('whiscash', 'hiddenpower').
 learns('whiscash', 'highhorsepower').
 learns('whiscash', 'hydropump').
 learns('whiscash', 'hyperbeam').
@@ -42394,7 +41985,6 @@ learns('corphish', 'furycutter').
 learns('corphish', 'guillotine').
 learns('corphish', 'hail').
 learns('corphish', 'harden').
-learns('corphish', 'hiddenpower').
 learns('corphish', 'honeclaws').
 learns('corphish', 'hydropump').
 learns('corphish', 'icebeam').
@@ -42484,7 +42074,6 @@ learns('crawdaunt', 'guillotine').
 learns('crawdaunt', 'hail').
 learns('crawdaunt', 'harden').
 learns('crawdaunt', 'hardpress').
-learns('crawdaunt', 'hiddenpower').
 learns('crawdaunt', 'honeclaws').
 learns('crawdaunt', 'hydropump').
 learns('crawdaunt', 'hyperbeam').
@@ -42583,7 +42172,6 @@ learns('baltoy', 'harden').
 learns('baltoy', 'headbutt').
 learns('baltoy', 'healblock').
 learns('baltoy', 'hex').
-learns('baltoy', 'hiddenpower').
 learns('baltoy', 'icebeam').
 learns('baltoy', 'imprison').
 learns('baltoy', 'lightscreen').
@@ -42670,7 +42258,6 @@ learns('claydol', 'harden').
 learns('claydol', 'headbutt').
 learns('claydol', 'healblock').
 learns('claydol', 'hex').
-learns('claydol', 'hiddenpower').
 learns('claydol', 'hyperbeam').
 learns('claydol', 'icebeam').
 learns('claydol', 'imprison').
@@ -42755,7 +42342,6 @@ learns('lileep', 'frustration').
 learns('lileep', 'gastroacid').
 learns('lileep', 'gigadrain').
 learns('lileep', 'grassknot').
-learns('lileep', 'hiddenpower').
 learns('lileep', 'infestation').
 learns('lileep', 'ingrain').
 learns('lileep', 'megadrain').
@@ -42830,7 +42416,6 @@ learns('cradily', 'gigaimpact').
 learns('cradily', 'grassknot').
 learns('cradily', 'grassyterrain').
 learns('cradily', 'headbutt').
-learns('cradily', 'hiddenpower').
 learns('cradily', 'hyperbeam').
 learns('cradily', 'infestation').
 learns('cradily', 'ingrain').
@@ -42908,7 +42493,6 @@ learns('anorith', 'frustration').
 learns('anorith', 'furycutter').
 learns('anorith', 'harden').
 learns('anorith', 'headbutt').
-learns('anorith', 'hiddenpower').
 learns('anorith', 'honeclaws').
 learns('anorith', 'irondefense').
 learns('anorith', 'knockoff').
@@ -42979,7 +42563,6 @@ learns('armaldo', 'furycutter').
 learns('armaldo', 'gigaimpact').
 learns('armaldo', 'harden').
 learns('armaldo', 'headbutt').
-learns('armaldo', 'hiddenpower').
 learns('armaldo', 'honeclaws').
 learns('armaldo', 'hyperbeam').
 learns('armaldo', 'irondefense').
@@ -43050,7 +42633,6 @@ learns('feebas', 'flail').
 learns('feebas', 'frustration').
 learns('feebas', 'hail').
 learns('feebas', 'haze').
-learns('feebas', 'hiddenpower').
 learns('feebas', 'hypnosis').
 learns('feebas', 'icebeam').
 learns('feebas', 'icywind').
@@ -43120,7 +42702,6 @@ learns('milotic', 'gigaimpact').
 learns('milotic', 'hail').
 learns('milotic', 'haze').
 learns('milotic', 'helpinghand').
-learns('milotic', 'hiddenpower').
 learns('milotic', 'hydropump').
 learns('milotic', 'hyperbeam').
 learns('milotic', 'icebeam').
@@ -43203,7 +42784,6 @@ learns('castform', 'guardswap').
 learns('castform', 'hail').
 learns('castform', 'headbutt').
 learns('castform', 'hex').
-learns('castform', 'hiddenpower').
 learns('castform', 'hurricane').
 learns('castform', 'hydropump').
 learns('castform', 'icebeam').
@@ -43273,7 +42853,6 @@ learns('castformsunny', 'guardswap').
 learns('castformsunny', 'hail').
 learns('castformsunny', 'headbutt').
 learns('castformsunny', 'hex').
-learns('castformsunny', 'hiddenpower').
 learns('castformsunny', 'hurricane').
 learns('castformsunny', 'hydropump').
 learns('castformsunny', 'icebeam').
@@ -43343,7 +42922,6 @@ learns('castformrainy', 'guardswap').
 learns('castformrainy', 'hail').
 learns('castformrainy', 'headbutt').
 learns('castformrainy', 'hex').
-learns('castformrainy', 'hiddenpower').
 learns('castformrainy', 'hurricane').
 learns('castformrainy', 'hydropump').
 learns('castformrainy', 'icebeam').
@@ -43413,7 +42991,6 @@ learns('castformsnowy', 'guardswap').
 learns('castformsnowy', 'hail').
 learns('castformsnowy', 'headbutt').
 learns('castformsnowy', 'hex').
-learns('castformsnowy', 'hiddenpower').
 learns('castformsnowy', 'hurricane').
 learns('castformsnowy', 'hydropump').
 learns('castformsnowy', 'icebeam').
@@ -43497,7 +43074,6 @@ learns('kecleon', 'furycutter').
 learns('kecleon', 'furyswipes').
 learns('kecleon', 'grassknot').
 learns('kecleon', 'headbutt').
-learns('kecleon', 'hiddenpower').
 learns('kecleon', 'honeclaws').
 learns('kecleon', 'icebeam').
 learns('kecleon', 'icepunch').
@@ -43598,7 +43174,6 @@ learns('shuppet', 'gunkshot').
 learns('shuppet', 'headbutt').
 learns('shuppet', 'helpinghand').
 learns('shuppet', 'hex').
-learns('shuppet', 'hiddenpower').
 learns('shuppet', 'icywind').
 learns('shuppet', 'imprison').
 learns('shuppet', 'knockoff').
@@ -43686,7 +43261,6 @@ learns('banette', 'gunkshot').
 learns('banette', 'headbutt').
 learns('banette', 'helpinghand').
 learns('banette', 'hex').
-learns('banette', 'hiddenpower').
 learns('banette', 'hyperbeam').
 learns('banette', 'icywind').
 learns('banette', 'imprison').
@@ -43785,7 +43359,6 @@ learns('banettemega', 'gunkshot').
 learns('banettemega', 'headbutt').
 learns('banettemega', 'helpinghand').
 learns('banettemega', 'hex').
-learns('banettemega', 'hiddenpower').
 learns('banettemega', 'hyperbeam').
 learns('banettemega', 'icywind').
 learns('banettemega', 'imprison').
@@ -43885,7 +43458,6 @@ learns('duskull', 'haze').
 learns('duskull', 'headbutt').
 learns('duskull', 'helpinghand').
 learns('duskull', 'hex').
-learns('duskull', 'hiddenpower').
 learns('duskull', 'icebeam').
 learns('duskull', 'icywind').
 learns('duskull', 'imprison').
@@ -43973,7 +43545,6 @@ learns('dusclops', 'haze').
 learns('dusclops', 'headbutt').
 learns('dusclops', 'helpinghand').
 learns('dusclops', 'hex').
-learns('dusclops', 'hiddenpower').
 learns('dusclops', 'hyperbeam').
 learns('dusclops', 'icebeam').
 learns('dusclops', 'icepunch').
@@ -44079,7 +43650,6 @@ learns('tropius', 'growth').
 learns('tropius', 'gust').
 learns('tropius', 'headbutt').
 learns('tropius', 'helpinghand').
-learns('tropius', 'hiddenpower').
 learns('tropius', 'hurricane').
 learns('tropius', 'hyperbeam').
 learns('tropius', 'leafblade').
@@ -44177,7 +43747,6 @@ learns('chimecho', 'healbell').
 learns('chimecho', 'healingwish').
 learns('chimecho', 'healpulse').
 learns('chimecho', 'helpinghand').
-learns('chimecho', 'hiddenpower').
 learns('chimecho', 'hypervoice').
 learns('chimecho', 'hypnosis').
 learns('chimecho', 'icywind').
@@ -44278,7 +43847,6 @@ learns('absol', 'gigaimpact').
 learns('absol', 'hail').
 learns('absol', 'headbutt').
 learns('absol', 'hex').
-learns('absol', 'hiddenpower').
 learns('absol', 'honeclaws').
 learns('absol', 'hyperbeam').
 learns('absol', 'icebeam').
@@ -44391,7 +43959,6 @@ learns('absolmega', 'gigaimpact').
 learns('absolmega', 'hail').
 learns('absolmega', 'headbutt').
 learns('absolmega', 'hex').
-learns('absolmega', 'hiddenpower').
 learns('absolmega', 'honeclaws').
 learns('absolmega', 'hyperbeam').
 learns('absolmega', 'icebeam').
@@ -44497,7 +44064,6 @@ learns('snorunt', 'hail').
 learns('snorunt', 'headbutt').
 learns('snorunt', 'helpinghand').
 learns('snorunt', 'hex').
-learns('snorunt', 'hiddenpower').
 learns('snorunt', 'icebeam').
 learns('snorunt', 'icefang').
 learns('snorunt', 'iceshard').
@@ -44566,7 +44132,6 @@ learns('glalie', 'hail').
 learns('glalie', 'headbutt').
 learns('glalie', 'helpinghand').
 learns('glalie', 'hex').
-learns('glalie', 'hiddenpower').
 learns('glalie', 'hyperbeam').
 learns('glalie', 'icebeam').
 learns('glalie', 'icefang').
@@ -44649,7 +44214,6 @@ learns('glaliemega', 'hail').
 learns('glaliemega', 'headbutt').
 learns('glaliemega', 'helpinghand').
 learns('glaliemega', 'hex').
-learns('glaliemega', 'hiddenpower').
 learns('glaliemega', 'hyperbeam').
 learns('glaliemega', 'icebeam').
 learns('glaliemega', 'icefang').
@@ -44728,7 +44292,6 @@ learns('spheal', 'frustration').
 learns('spheal', 'growl').
 learns('spheal', 'hail').
 learns('spheal', 'headbutt').
-learns('spheal', 'hiddenpower').
 learns('spheal', 'iceball').
 learns('spheal', 'icebeam').
 learns('spheal', 'icywind').
@@ -44790,7 +44353,6 @@ learns('sealeo', 'frustration').
 learns('sealeo', 'growl').
 learns('sealeo', 'hail').
 learns('sealeo', 'headbutt').
-learns('sealeo', 'hiddenpower').
 learns('sealeo', 'iceball').
 learns('sealeo', 'icebeam').
 learns('sealeo', 'iciclespear').
@@ -44866,7 +44428,6 @@ learns('walrein', 'growl').
 learns('walrein', 'hail').
 learns('walrein', 'headbutt').
 learns('walrein', 'heavyslam').
-learns('walrein', 'hiddenpower').
 learns('walrein', 'hydropump').
 learns('walrein', 'hyperbeam').
 learns('walrein', 'iceball').
@@ -44936,7 +44497,6 @@ learns('clamperl', 'endure').
 learns('clamperl', 'facade').
 learns('clamperl', 'frustration').
 learns('clamperl', 'hail').
-learns('clamperl', 'hiddenpower').
 learns('clamperl', 'icebeam').
 learns('clamperl', 'icywind').
 learns('clamperl', 'irondefense').
@@ -44986,7 +44546,6 @@ learns('huntail', 'feintattack').
 learns('huntail', 'frustration').
 learns('huntail', 'gigaimpact').
 learns('huntail', 'hail').
-learns('huntail', 'hiddenpower').
 learns('huntail', 'hydropump').
 learns('huntail', 'hyperbeam').
 learns('huntail', 'icebeam').
@@ -45054,7 +44613,6 @@ learns('gorebyss', 'facade').
 learns('gorebyss', 'frustration').
 learns('gorebyss', 'gigaimpact').
 learns('gorebyss', 'hail').
-learns('gorebyss', 'hiddenpower').
 learns('gorebyss', 'hydropump').
 learns('gorebyss', 'hyperbeam').
 learns('gorebyss', 'icebeam').
@@ -45123,7 +44681,6 @@ learns('relicanth', 'hail').
 learns('relicanth', 'harden').
 learns('relicanth', 'headbutt').
 learns('relicanth', 'headsmash').
-learns('relicanth', 'hiddenpower').
 learns('relicanth', 'hydropump').
 learns('relicanth', 'hyperbeam').
 learns('relicanth', 'icebeam').
@@ -45199,7 +44756,6 @@ learns('luvdisc', 'frustration').
 learns('luvdisc', 'hail').
 learns('luvdisc', 'healpulse').
 learns('luvdisc', 'heartstamp').
-learns('luvdisc', 'hiddenpower').
 learns('luvdisc', 'hydropump').
 learns('luvdisc', 'icebeam').
 learns('luvdisc', 'icywind').
@@ -45272,7 +44828,6 @@ learns('bagon', 'frustration').
 learns('bagon', 'furycutter').
 learns('bagon', 'headbutt').
 learns('bagon', 'helpinghand').
-learns('bagon', 'hiddenpower').
 learns('bagon', 'honeclaws').
 learns('bagon', 'hydropump').
 learns('bagon', 'hypervoice').
@@ -45342,7 +44897,6 @@ learns('shelgon', 'frustration').
 learns('shelgon', 'furycutter').
 learns('shelgon', 'headbutt').
 learns('shelgon', 'helpinghand').
-learns('shelgon', 'hiddenpower').
 learns('shelgon', 'honeclaws').
 learns('shelgon', 'hydropump').
 learns('shelgon', 'hypervoice').
@@ -45428,7 +44982,6 @@ learns('salamence', 'gigaimpact').
 learns('salamence', 'headbutt').
 learns('salamence', 'heatwave').
 learns('salamence', 'helpinghand').
-learns('salamence', 'hiddenpower').
 learns('salamence', 'honeclaws').
 learns('salamence', 'hurricane').
 learns('salamence', 'hydropump').
@@ -45526,7 +45079,6 @@ learns('salamencemega', 'gigaimpact').
 learns('salamencemega', 'headbutt').
 learns('salamencemega', 'heatwave').
 learns('salamencemega', 'helpinghand').
-learns('salamencemega', 'hiddenpower').
 learns('salamencemega', 'honeclaws').
 learns('salamencemega', 'hurricane').
 learns('salamencemega', 'hydropump').
@@ -45623,7 +45175,6 @@ learns('metang', 'gyroball').
 learns('metang', 'hardpress').
 learns('metang', 'headbutt').
 learns('metang', 'heavyslam').
-learns('metang', 'hiddenpower').
 learns('metang', 'honeclaws').
 learns('metang', 'hyperbeam').
 learns('metang', 'icepunch').
@@ -45722,7 +45273,6 @@ learns('metagross', 'hammerarm').
 learns('metagross', 'hardpress').
 learns('metagross', 'headbutt').
 learns('metagross', 'heavyslam').
-learns('metagross', 'hiddenpower').
 learns('metagross', 'honeclaws').
 learns('metagross', 'hyperbeam').
 learns('metagross', 'icepunch').
@@ -45827,7 +45377,6 @@ learns('metagrossmega', 'hammerarm').
 learns('metagrossmega', 'hardpress').
 learns('metagrossmega', 'headbutt').
 learns('metagrossmega', 'heavyslam').
-learns('metagrossmega', 'hiddenpower').
 learns('metagrossmega', 'honeclaws').
 learns('metagrossmega', 'hyperbeam').
 learns('metagrossmega', 'icepunch').
@@ -45928,7 +45477,6 @@ learns('regirock', 'hammerarm').
 learns('regirock', 'hardpress').
 learns('regirock', 'headbutt').
 learns('regirock', 'heavyslam').
-learns('regirock', 'hiddenpower').
 learns('regirock', 'hyperbeam').
 learns('regirock', 'icepunch').
 learns('regirock', 'irondefense').
@@ -46015,7 +45563,6 @@ learns('regice', 'hail').
 learns('regice', 'hammerarm').
 learns('regice', 'headbutt').
 learns('regice', 'heavyslam').
-learns('regice', 'hiddenpower').
 learns('regice', 'hyperbeam').
 learns('regice', 'icebeam').
 learns('regice', 'icepunch').
@@ -46094,7 +45641,6 @@ learns('registeel', 'hammerarm').
 learns('registeel', 'hardpress').
 learns('registeel', 'headbutt').
 learns('registeel', 'heavyslam').
-learns('registeel', 'hiddenpower').
 learns('registeel', 'honeclaws').
 learns('registeel', 'hyperbeam').
 learns('registeel', 'icepunch').
@@ -46201,7 +45747,6 @@ learns('latias', 'guardsplit').
 learns('latias', 'healingwish').
 learns('latias', 'healpulse').
 learns('latias', 'helpinghand').
-learns('latias', 'hiddenpower').
 learns('latias', 'honeclaws').
 learns('latias', 'hyperbeam').
 learns('latias', 'icebeam').
@@ -46324,7 +45869,6 @@ learns('latiasmega', 'guardsplit').
 learns('latiasmega', 'healingwish').
 learns('latiasmega', 'healpulse').
 learns('latiasmega', 'helpinghand').
-learns('latiasmega', 'hiddenpower').
 learns('latiasmega', 'honeclaws').
 learns('latiasmega', 'hyperbeam').
 learns('latiasmega', 'icebeam').
@@ -46442,7 +45986,6 @@ learns('latios', 'grassknot').
 learns('latios', 'healblock').
 learns('latios', 'healpulse').
 learns('latios', 'helpinghand').
-learns('latios', 'hiddenpower').
 learns('latios', 'honeclaws').
 learns('latios', 'hyperbeam').
 learns('latios', 'icebeam').
@@ -46558,7 +46101,6 @@ learns('latiosmega', 'grassknot').
 learns('latiosmega', 'healblock').
 learns('latiosmega', 'healpulse').
 learns('latiosmega', 'helpinghand').
-learns('latiosmega', 'hiddenpower').
 learns('latiosmega', 'honeclaws').
 learns('latiosmega', 'hyperbeam').
 learns('latiosmega', 'icebeam').
@@ -46655,7 +46197,6 @@ learns('kyogre', 'hail').
 learns('kyogre', 'headbutt').
 learns('kyogre', 'heavyslam').
 learns('kyogre', 'helpinghand').
-learns('kyogre', 'hiddenpower').
 learns('kyogre', 'hydropump').
 learns('kyogre', 'hyperbeam').
 learns('kyogre', 'icebeam').
@@ -46728,7 +46269,6 @@ learns('kyogreprimal', 'hail').
 learns('kyogreprimal', 'headbutt').
 learns('kyogreprimal', 'heavyslam').
 learns('kyogreprimal', 'helpinghand').
-learns('kyogreprimal', 'hiddenpower').
 learns('kyogreprimal', 'hydropump').
 learns('kyogreprimal', 'hyperbeam').
 learns('kyogreprimal', 'icebeam').
@@ -46818,7 +46358,6 @@ learns('groudon', 'heatcrash').
 learns('groudon', 'heatwave').
 learns('groudon', 'heavyslam').
 learns('groudon', 'helpinghand').
-learns('groudon', 'hiddenpower').
 learns('groudon', 'highhorsepower').
 learns('groudon', 'honeclaws').
 learns('groudon', 'hyperbeam').
@@ -46925,7 +46464,6 @@ learns('groudonprimal', 'heatcrash').
 learns('groudonprimal', 'heatwave').
 learns('groudonprimal', 'heavyslam').
 learns('groudonprimal', 'helpinghand').
-learns('groudonprimal', 'hiddenpower').
 learns('groudonprimal', 'highhorsepower').
 learns('groudonprimal', 'honeclaws').
 learns('groudonprimal', 'hyperbeam').
@@ -47035,7 +46573,6 @@ learns('rayquaza', 'gigaimpact').
 learns('rayquaza', 'gyroball').
 learns('rayquaza', 'headbutt').
 learns('rayquaza', 'helpinghand').
-learns('rayquaza', 'hiddenpower').
 learns('rayquaza', 'honeclaws').
 learns('rayquaza', 'hurricane').
 learns('rayquaza', 'hydropump').
@@ -47142,7 +46679,6 @@ learns('rayquazamega', 'gigaimpact').
 learns('rayquazamega', 'gyroball').
 learns('rayquazamega', 'headbutt').
 learns('rayquazamega', 'helpinghand').
-learns('rayquazamega', 'hiddenpower').
 learns('rayquazamega', 'honeclaws').
 learns('rayquazamega', 'hurricane').
 learns('rayquazamega', 'hydropump').
@@ -47247,7 +46783,6 @@ learns('jirachi', 'headbutt').
 learns('jirachi', 'healingwish').
 learns('jirachi', 'heartstamp').
 learns('jirachi', 'helpinghand').
-learns('jirachi', 'hiddenpower').
 learns('jirachi', 'hyperbeam').
 learns('jirachi', 'icepunch').
 learns('jirachi', 'icywind').
@@ -47355,7 +46890,6 @@ learns('deoxys', 'gigaimpact').
 learns('deoxys', 'grassknot').
 learns('deoxys', 'gravity').
 learns('deoxys', 'headbutt').
-learns('deoxys', 'hiddenpower').
 learns('deoxys', 'hyperbeam').
 learns('deoxys', 'icebeam').
 learns('deoxys', 'icepunch').
@@ -47484,7 +47018,6 @@ learns('deoxysattack', 'gigaimpact').
 learns('deoxysattack', 'grassknot').
 learns('deoxysattack', 'gravity').
 learns('deoxysattack', 'headbutt').
-learns('deoxysattack', 'hiddenpower').
 learns('deoxysattack', 'hyperbeam').
 learns('deoxysattack', 'icebeam').
 learns('deoxysattack', 'icepunch').
@@ -47613,7 +47146,6 @@ learns('deoxysdefense', 'gigaimpact').
 learns('deoxysdefense', 'grassknot').
 learns('deoxysdefense', 'gravity').
 learns('deoxysdefense', 'headbutt').
-learns('deoxysdefense', 'hiddenpower').
 learns('deoxysdefense', 'hyperbeam').
 learns('deoxysdefense', 'icebeam').
 learns('deoxysdefense', 'icepunch').
@@ -47742,7 +47274,6 @@ learns('deoxysspeed', 'gigaimpact').
 learns('deoxysspeed', 'grassknot').
 learns('deoxysspeed', 'gravity').
 learns('deoxysspeed', 'headbutt').
-learns('deoxysspeed', 'hiddenpower').
 learns('deoxysspeed', 'hyperbeam').
 learns('deoxysspeed', 'icebeam').
 learns('deoxysspeed', 'icepunch').
@@ -47860,7 +47391,6 @@ learns('turtwig', 'grassyterrain').
 learns('turtwig', 'growth').
 learns('turtwig', 'headbutt').
 learns('turtwig', 'heavyslam').
-learns('turtwig', 'hiddenpower').
 learns('turtwig', 'ironhead').
 learns('turtwig', 'irontail').
 learns('turtwig', 'leafstorm').
@@ -47939,7 +47469,6 @@ learns('grotle', 'grassyglide').
 learns('grotle', 'grassyterrain').
 learns('grotle', 'headbutt').
 learns('grotle', 'heavyslam').
-learns('grotle', 'hiddenpower').
 learns('grotle', 'ironhead').
 learns('grotle', 'irontail').
 learns('grotle', 'leafstorm').
@@ -48026,7 +47555,6 @@ learns('torterra', 'hardpress').
 learns('torterra', 'headbutt').
 learns('torterra', 'headlongrush').
 learns('torterra', 'heavyslam').
-learns('torterra', 'hiddenpower').
 learns('torterra', 'highhorsepower').
 learns('torterra', 'hyperbeam').
 learns('torterra', 'hypervoice').
@@ -48137,7 +47665,6 @@ learns('chimchar', 'gunkshot').
 learns('chimchar', 'headbutt').
 learns('chimchar', 'heatwave').
 learns('chimchar', 'helpinghand').
-learns('chimchar', 'hiddenpower').
 learns('chimchar', 'honeclaws').
 learns('chimchar', 'incinerate').
 learns('chimchar', 'irontail').
@@ -48234,7 +47761,6 @@ learns('monferno', 'gunkshot').
 learns('monferno', 'headbutt').
 learns('monferno', 'heatwave').
 learns('monferno', 'helpinghand').
-learns('monferno', 'hiddenpower').
 learns('monferno', 'honeclaws').
 learns('monferno', 'incinerate').
 learns('monferno', 'irontail').
@@ -48351,7 +47877,6 @@ learns('infernape', 'gunkshot').
 learns('infernape', 'headbutt').
 learns('infernape', 'heatwave').
 learns('infernape', 'helpinghand').
-learns('infernape', 'hiddenpower').
 learns('infernape', 'honeclaws').
 learns('infernape', 'hyperbeam').
 learns('infernape', 'incinerate').
@@ -48466,7 +47991,6 @@ learns('piplup', 'hail').
 learns('piplup', 'haze').
 learns('piplup', 'headbutt').
 learns('piplup', 'helpinghand').
-learns('piplup', 'hiddenpower').
 learns('piplup', 'hydropump').
 learns('piplup', 'icebeam').
 learns('piplup', 'icespinner').
@@ -48550,7 +48074,6 @@ learns('prinplup', 'hail').
 learns('prinplup', 'haze').
 learns('prinplup', 'headbutt').
 learns('prinplup', 'helpinghand').
-learns('prinplup', 'hiddenpower').
 learns('prinplup', 'honeclaws').
 learns('prinplup', 'hydropump').
 learns('prinplup', 'icebeam').
@@ -48655,7 +48178,6 @@ learns('empoleon', 'hail').
 learns('empoleon', 'haze').
 learns('empoleon', 'headbutt').
 learns('empoleon', 'helpinghand').
-learns('empoleon', 'hiddenpower').
 learns('empoleon', 'honeclaws').
 learns('empoleon', 'hydrocannon').
 learns('empoleon', 'hydropump').
@@ -48759,7 +48281,6 @@ learns('starly', 'furyattack').
 learns('starly', 'growl').
 learns('starly', 'heatwave').
 learns('starly', 'helpinghand').
-learns('starly', 'hiddenpower').
 learns('starly', 'hurricane').
 learns('starly', 'mirrormove').
 learns('starly', 'mudslap').
@@ -48820,7 +48341,6 @@ learns('staravia', 'frustration').
 learns('staravia', 'growl').
 learns('staravia', 'heatwave').
 learns('staravia', 'helpinghand').
-learns('staravia', 'hiddenpower').
 learns('staravia', 'hurricane').
 learns('staravia', 'mudslap').
 learns('staravia', 'naturalgift').
@@ -48888,7 +48408,6 @@ learns('staraptor', 'gigaimpact').
 learns('staraptor', 'growl').
 learns('staraptor', 'heatwave').
 learns('staraptor', 'helpinghand').
-learns('staraptor', 'hiddenpower').
 learns('staraptor', 'hurricane').
 learns('staraptor', 'hyperbeam').
 learns('staraptor', 'laserfocus').
@@ -48958,7 +48477,6 @@ learns('bidoof', 'furyswipes').
 learns('bidoof', 'grassknot').
 learns('bidoof', 'growl').
 learns('bidoof', 'headbutt').
-learns('bidoof', 'hiddenpower').
 learns('bidoof', 'hyperfang').
 learns('bidoof', 'icebeam').
 learns('bidoof', 'icywind').
@@ -49032,7 +48550,6 @@ learns('bibarel', 'gigaimpact').
 learns('bibarel', 'grassknot').
 learns('bibarel', 'growl').
 learns('bibarel', 'headbutt').
-learns('bibarel', 'hiddenpower').
 learns('bibarel', 'hyperbeam').
 learns('bibarel', 'hyperfang').
 learns('bibarel', 'icebeam').
@@ -49131,7 +48648,6 @@ learns('kricketune', 'gigaimpact').
 learns('kricketune', 'growl').
 learns('kricketune', 'healbell').
 learns('kricketune', 'helpinghand').
-learns('kricketune', 'hiddenpower').
 learns('kricketune', 'honeclaws').
 learns('kricketune', 'hyperbeam').
 learns('kricketune', 'hypervoice').
@@ -49203,7 +48719,6 @@ learns('shinx', 'frustration').
 learns('shinx', 'furycutter').
 learns('shinx', 'headbutt').
 learns('shinx', 'helpinghand').
-learns('shinx', 'hiddenpower').
 learns('shinx', 'howl').
 learns('shinx', 'icefang').
 learns('shinx', 'irontail').
@@ -49273,7 +48788,6 @@ learns('luxio', 'frustration').
 learns('luxio', 'furycutter').
 learns('luxio', 'headbutt').
 learns('luxio', 'helpinghand').
-learns('luxio', 'hiddenpower').
 learns('luxio', 'icefang').
 learns('luxio', 'irontail').
 learns('luxio', 'leer').
@@ -49348,7 +48862,6 @@ learns('luxray', 'furycutter').
 learns('luxray', 'gigaimpact').
 learns('luxray', 'headbutt').
 learns('luxray', 'helpinghand').
-learns('luxray', 'hiddenpower').
 learns('luxray', 'hyperbeam').
 learns('luxray', 'icefang').
 learns('luxray', 'irontail').
@@ -49422,7 +48935,6 @@ learns('budew', 'grassknot').
 learns('budew', 'grasswhistle').
 learns('budew', 'grassyglide').
 learns('budew', 'growth').
-learns('budew', 'hiddenpower').
 learns('budew', 'leafstorm').
 learns('budew', 'lifedew').
 learns('budew', 'megadrain').
@@ -49483,7 +48995,6 @@ learns('roserade', 'grassknot').
 learns('roserade', 'grassyglide').
 learns('roserade', 'grassyterrain').
 learns('roserade', 'growth').
-learns('roserade', 'hiddenpower').
 learns('roserade', 'hyperbeam').
 learns('roserade', 'ingrain').
 learns('roserade', 'laserfocus').
@@ -49571,7 +49082,6 @@ learns('cranidos', 'frustration').
 learns('cranidos', 'hammerarm').
 learns('cranidos', 'headbutt').
 learns('cranidos', 'headsmash').
-learns('cranidos', 'hiddenpower').
 learns('cranidos', 'icebeam').
 learns('cranidos', 'incinerate').
 learns('cranidos', 'ironhead').
@@ -49665,7 +49175,6 @@ learns('rampardos', 'gigaimpact').
 learns('rampardos', 'headbutt').
 learns('rampardos', 'headsmash').
 learns('rampardos', 'heavyslam').
-learns('rampardos', 'hiddenpower').
 learns('rampardos', 'hyperbeam').
 learns('rampardos', 'icebeam').
 learns('rampardos', 'incinerate').
@@ -49753,7 +49262,6 @@ learns('shieldon', 'guardsplit').
 learns('shieldon', 'hardpress').
 learns('shieldon', 'headbutt').
 learns('shieldon', 'heavyslam').
-learns('shieldon', 'hiddenpower').
 learns('shieldon', 'icebeam').
 learns('shieldon', 'incinerate').
 learns('shieldon', 'irondefense').
@@ -49831,7 +49339,6 @@ learns('bastiodon', 'gigaimpact').
 learns('bastiodon', 'hardpress').
 learns('bastiodon', 'headbutt').
 learns('bastiodon', 'heavyslam').
-learns('bastiodon', 'hiddenpower').
 learns('bastiodon', 'hyperbeam').
 learns('bastiodon', 'icebeam').
 learns('bastiodon', 'incinerate').
@@ -49894,21 +49401,18 @@ learns('bastiodon', 'guardsplit').
 learns('bastiodon', 'screech').
 learns('burmy', 'bugbite').
 learns('burmy', 'electroweb').
-learns('burmy', 'hiddenpower').
 learns('burmy', 'protect').
 learns('burmy', 'snore').
 learns('burmy', 'stringshot').
 learns('burmy', 'tackle').
 learns('burmysandy', 'bugbite').
 learns('burmysandy', 'electroweb').
-learns('burmysandy', 'hiddenpower').
 learns('burmysandy', 'protect').
 learns('burmysandy', 'snore').
 learns('burmysandy', 'stringshot').
 learns('burmysandy', 'tackle').
 learns('burmytrash', 'bugbite').
 learns('burmytrash', 'electroweb').
-learns('burmytrash', 'hiddenpower').
 learns('burmytrash', 'protect').
 learns('burmytrash', 'snore').
 learns('burmytrash', 'stringshot').
@@ -49935,7 +49439,6 @@ learns('wormadam', 'gigadrain').
 learns('wormadam', 'gigaimpact').
 learns('wormadam', 'grassknot').
 learns('wormadam', 'growth').
-learns('wormadam', 'hiddenpower').
 learns('wormadam', 'hyperbeam').
 learns('wormadam', 'infestation').
 learns('wormadam', 'leafstorm').
@@ -49996,7 +49499,6 @@ learns('wormadamsandy', 'flash').
 learns('wormadamsandy', 'frustration').
 learns('wormadamsandy', 'gigaimpact').
 learns('wormadamsandy', 'harden').
-learns('wormadamsandy', 'hiddenpower').
 learns('wormadamsandy', 'hyperbeam').
 learns('wormadamsandy', 'infestation').
 learns('wormadamsandy', 'mudslap').
@@ -50054,7 +49556,6 @@ learns('wormadamtrash', 'frustration').
 learns('wormadamtrash', 'gigaimpact').
 learns('wormadamtrash', 'gunkshot').
 learns('wormadamtrash', 'gyroball').
-learns('wormadamtrash', 'hiddenpower').
 learns('wormadamtrash', 'hyperbeam').
 learns('wormadamtrash', 'infestation').
 learns('wormadamtrash', 'irondefense').
@@ -50116,7 +49617,6 @@ learns('mothim', 'frustration').
 learns('mothim', 'gigadrain').
 learns('mothim', 'gigaimpact').
 learns('mothim', 'gust').
-learns('mothim', 'hiddenpower').
 learns('mothim', 'hyperbeam').
 learns('mothim', 'infestation').
 learns('mothim', 'lunge').
@@ -50211,7 +49711,6 @@ learns('vespiquen', 'gust').
 learns('vespiquen', 'healorder').
 learns('vespiquen', 'helpinghand').
 learns('vespiquen', 'hex').
-learns('vespiquen', 'hiddenpower').
 learns('vespiquen', 'honeclaws').
 learns('vespiquen', 'hurricane').
 learns('vespiquen', 'hyperbeam').
@@ -50308,7 +49807,6 @@ learns('pachirisu', 'growl').
 learns('pachirisu', 'gunkshot').
 learns('pachirisu', 'headbutt').
 learns('pachirisu', 'helpinghand').
-learns('pachirisu', 'hiddenpower').
 learns('pachirisu', 'hyperbeam').
 learns('pachirisu', 'hyperfang').
 learns('pachirisu', 'iondeluge').
@@ -50390,7 +49888,6 @@ learns('buizel', 'growl').
 learns('buizel', 'hail').
 learns('buizel', 'headbutt').
 learns('buizel', 'helpinghand').
-learns('buizel', 'hiddenpower').
 learns('buizel', 'hydropump').
 learns('buizel', 'icebeam').
 learns('buizel', 'icefang').
@@ -50476,7 +49973,6 @@ learns('floatzel', 'growl').
 learns('floatzel', 'hail').
 learns('floatzel', 'headbutt').
 learns('floatzel', 'helpinghand').
-learns('floatzel', 'hiddenpower').
 learns('floatzel', 'hydropump').
 learns('floatzel', 'hyperbeam').
 learns('floatzel', 'icebeam').
@@ -50564,7 +50060,6 @@ learns('cherubi', 'growth').
 learns('cherubi', 'healingwish').
 learns('cherubi', 'healpulse').
 learns('cherubi', 'helpinghand').
-learns('cherubi', 'hiddenpower').
 learns('cherubi', 'leafage').
 learns('cherubi', 'leechseed').
 learns('cherubi', 'luckychant').
@@ -50618,7 +50113,6 @@ learns('cherrim', 'grassyglide').
 learns('cherrim', 'grassyterrain').
 learns('cherrim', 'growth').
 learns('cherrim', 'helpinghand').
-learns('cherrim', 'hiddenpower').
 learns('cherrim', 'hyperbeam').
 learns('cherrim', 'laserfocus').
 learns('cherrim', 'leafage').
@@ -50682,7 +50176,6 @@ learns('cherrimsunshine', 'grassyglide').
 learns('cherrimsunshine', 'grassyterrain').
 learns('cherrimsunshine', 'growth').
 learns('cherrimsunshine', 'helpinghand').
-learns('cherrimsunshine', 'hiddenpower').
 learns('cherrimsunshine', 'hyperbeam').
 learns('cherrimsunshine', 'laserfocus').
 learns('cherrimsunshine', 'leafage').
@@ -50751,7 +50244,6 @@ learns('shellos', 'hail').
 learns('shellos', 'harden').
 learns('shellos', 'headbutt').
 learns('shellos', 'helpinghand').
-learns('shellos', 'hiddenpower').
 learns('shellos', 'hydropump').
 learns('shellos', 'icebeam').
 learns('shellos', 'icywind').
@@ -50826,7 +50318,6 @@ learns('shelloseast', 'hail').
 learns('shelloseast', 'harden').
 learns('shelloseast', 'headbutt').
 learns('shelloseast', 'helpinghand').
-learns('shelloseast', 'hiddenpower').
 learns('shelloseast', 'hydropump').
 learns('shelloseast', 'icebeam').
 learns('shelloseast', 'icywind').
@@ -50902,7 +50393,6 @@ learns('gastrodon', 'hail').
 learns('gastrodon', 'harden').
 learns('gastrodon', 'headbutt').
 learns('gastrodon', 'helpinghand').
-learns('gastrodon', 'hiddenpower').
 learns('gastrodon', 'hydropump').
 learns('gastrodon', 'hyperbeam').
 learns('gastrodon', 'icebeam').
@@ -50997,7 +50487,6 @@ learns('gastrodoneast', 'hail').
 learns('gastrodoneast', 'harden').
 learns('gastrodoneast', 'headbutt').
 learns('gastrodoneast', 'helpinghand').
-learns('gastrodoneast', 'hiddenpower').
 learns('gastrodoneast', 'hydropump').
 learns('gastrodoneast', 'hyperbeam').
 learns('gastrodoneast', 'infestation').
@@ -51090,7 +50579,6 @@ learns('ambipom', 'grassknot').
 learns('ambipom', 'gunkshot').
 learns('ambipom', 'headbutt').
 learns('ambipom', 'helpinghand').
-learns('ambipom', 'hiddenpower').
 learns('ambipom', 'honeclaws').
 learns('ambipom', 'hyperbeam').
 learns('ambipom', 'icepunch').
@@ -51211,7 +50699,6 @@ learns('drifloon', 'gyroball').
 learns('drifloon', 'haze').
 learns('drifloon', 'helpinghand').
 learns('drifloon', 'hex').
-learns('drifloon', 'hiddenpower').
 learns('drifloon', 'hypnosis').
 learns('drifloon', 'icywind').
 learns('drifloon', 'imprison').
@@ -51305,7 +50792,6 @@ learns('drifblim', 'gyroball').
 learns('drifblim', 'haze').
 learns('drifblim', 'helpinghand').
 learns('drifblim', 'hex').
-learns('drifblim', 'hiddenpower').
 learns('drifblim', 'hyperbeam').
 learns('drifblim', 'icywind').
 learns('drifblim', 'imprison').
@@ -51407,7 +50893,6 @@ learns('buneary', 'headbutt').
 learns('buneary', 'healbell').
 learns('buneary', 'healingwish').
 learns('buneary', 'helpinghand').
-learns('buneary', 'hiddenpower').
 learns('buneary', 'hypervoice').
 learns('buneary', 'icebeam').
 learns('buneary', 'icepunch').
@@ -51502,7 +50987,6 @@ learns('lopunny', 'headbutt').
 learns('lopunny', 'healbell').
 learns('lopunny', 'healingwish').
 learns('lopunny', 'helpinghand').
-learns('lopunny', 'hiddenpower').
 learns('lopunny', 'highjumpkick').
 learns('lopunny', 'hyperbeam').
 learns('lopunny', 'hypervoice').
@@ -51611,7 +51095,6 @@ learns('lopunnymega', 'headbutt').
 learns('lopunnymega', 'healbell').
 learns('lopunnymega', 'healingwish').
 learns('lopunnymega', 'helpinghand').
-learns('lopunnymega', 'hiddenpower').
 learns('lopunnymega', 'highjumpkick').
 learns('lopunnymega', 'hyperbeam').
 learns('lopunnymega', 'hypervoice').
@@ -51709,7 +51192,6 @@ learns('mismagius', 'headbutt').
 learns('mismagius', 'healbell').
 learns('mismagius', 'helpinghand').
 learns('mismagius', 'hex').
-learns('mismagius', 'hiddenpower').
 learns('mismagius', 'hyperbeam').
 learns('mismagius', 'hypervoice').
 learns('mismagius', 'icywind').
@@ -51818,7 +51300,6 @@ learns('honchkrow', 'haze').
 learns('honchkrow', 'heatwave').
 learns('honchkrow', 'helpinghand').
 learns('honchkrow', 'hex').
-learns('honchkrow', 'hiddenpower').
 learns('honchkrow', 'hurricane').
 learns('honchkrow', 'hyperbeam').
 learns('honchkrow', 'icywind').
@@ -51916,7 +51397,6 @@ learns('glameow', 'furycutter').
 learns('glameow', 'furyswipes').
 learns('glameow', 'growl').
 learns('glameow', 'headbutt').
-learns('glameow', 'hiddenpower').
 learns('glameow', 'honeclaws').
 learns('glameow', 'hypervoice').
 learns('glameow', 'hypnosis').
@@ -51988,7 +51468,6 @@ learns('purugly', 'furyswipes').
 learns('purugly', 'gigaimpact').
 learns('purugly', 'growl').
 learns('purugly', 'headbutt').
-learns('purugly', 'hiddenpower').
 learns('purugly', 'honeclaws').
 learns('purugly', 'hyperbeam').
 learns('purugly', 'hypervoice').
@@ -52073,7 +51552,6 @@ learns('chingling', 'gravity').
 learns('chingling', 'growl').
 learns('chingling', 'healbell').
 learns('chingling', 'helpinghand').
-learns('chingling', 'hiddenpower').
 learns('chingling', 'hypervoice').
 learns('chingling', 'hypnosis').
 learns('chingling', 'icywind').
@@ -52156,7 +51634,6 @@ learns('stunky', 'haze').
 learns('stunky', 'headbutt').
 learns('stunky', 'helpinghand').
 learns('stunky', 'hex').
-learns('stunky', 'hiddenpower').
 learns('stunky', 'honeclaws').
 learns('stunky', 'incinerate').
 learns('stunky', 'irontail').
@@ -52251,7 +51728,6 @@ learns('skuntank', 'haze').
 learns('skuntank', 'headbutt').
 learns('skuntank', 'helpinghand').
 learns('skuntank', 'hex').
-learns('skuntank', 'hiddenpower').
 learns('skuntank', 'honeclaws').
 learns('skuntank', 'hyperbeam').
 learns('skuntank', 'incinerate').
@@ -52344,7 +51820,6 @@ learns('bronzor', 'healblock').
 learns('bronzor', 'heavyslam').
 learns('bronzor', 'helpinghand').
 learns('bronzor', 'hex').
-learns('bronzor', 'hiddenpower').
 learns('bronzor', 'hypnosis').
 learns('bronzor', 'icespinner').
 learns('bronzor', 'imprison').
@@ -52434,7 +51909,6 @@ learns('bronzong', 'healblock').
 learns('bronzong', 'heavyslam').
 learns('bronzong', 'helpinghand').
 learns('bronzong', 'hex').
-learns('bronzong', 'hiddenpower').
 learns('bronzong', 'hyperbeam').
 learns('bronzong', 'hypnosis').
 learns('bronzong', 'icespinner').
@@ -52529,7 +52003,6 @@ learns('bonsly', 'grassknot').
 learns('bonsly', 'harden').
 learns('bonsly', 'headbutt').
 learns('bonsly', 'helpinghand').
-learns('bonsly', 'hiddenpower').
 learns('bonsly', 'lowkick').
 learns('bonsly', 'mimic').
 learns('bonsly', 'mudshot').
@@ -52604,7 +52077,6 @@ learns('mimejr', 'grassknot').
 learns('mimejr', 'headbutt').
 learns('mimejr', 'healingwish').
 learns('mimejr', 'helpinghand').
-learns('mimejr', 'hiddenpower').
 learns('mimejr', 'hypnosis').
 learns('mimejr', 'icywind').
 learns('mimejr', 'infestation').
@@ -52690,7 +52162,6 @@ learns('happiny', 'hail').
 learns('happiny', 'headbutt').
 learns('happiny', 'healbell').
 learns('happiny', 'helpinghand').
-learns('happiny', 'hiddenpower').
 learns('happiny', 'hypervoice').
 learns('happiny', 'icywind').
 learns('happiny', 'incinerate').
@@ -52755,7 +52226,6 @@ learns('chatot', 'frustration').
 learns('chatot', 'furyattack').
 learns('chatot', 'growl').
 learns('chatot', 'heatwave').
-learns('chatot', 'hiddenpower').
 learns('chatot', 'hypervoice').
 learns('chatot', 'mimic').
 learns('chatot', 'mirrormove').
@@ -52819,7 +52289,6 @@ learns('spiritomb', 'gigaimpact').
 learns('spiritomb', 'grudge').
 learns('spiritomb', 'helpinghand').
 learns('spiritomb', 'hex').
-learns('spiritomb', 'hiddenpower').
 learns('spiritomb', 'hyperbeam').
 learns('spiritomb', 'hypnosis').
 learns('spiritomb', 'icywind').
@@ -52910,7 +52379,6 @@ learns('gible', 'frustration').
 learns('gible', 'furycutter').
 learns('gible', 'headbutt').
 learns('gible', 'helpinghand').
-learns('gible', 'hiddenpower').
 learns('gible', 'honeclaws').
 learns('gible', 'incinerate').
 learns('gible', 'ironhead').
@@ -52990,7 +52458,6 @@ learns('gabite', 'frustration').
 learns('gabite', 'furycutter').
 learns('gabite', 'headbutt').
 learns('gabite', 'helpinghand').
-learns('gabite', 'hiddenpower').
 learns('gabite', 'honeclaws').
 learns('gabite', 'incinerate').
 learns('gabite', 'ironhead').
@@ -53077,7 +52544,6 @@ learns('garchomp', 'furycutter').
 learns('garchomp', 'gigaimpact').
 learns('garchomp', 'headbutt').
 learns('garchomp', 'helpinghand').
-learns('garchomp', 'hiddenpower').
 learns('garchomp', 'honeclaws').
 learns('garchomp', 'hyperbeam').
 learns('garchomp', 'incinerate').
@@ -53171,7 +52637,6 @@ learns('garchompmega', 'furycutter').
 learns('garchompmega', 'gigaimpact').
 learns('garchompmega', 'headbutt').
 learns('garchompmega', 'helpinghand').
-learns('garchompmega', 'hiddenpower').
 learns('garchompmega', 'honeclaws').
 learns('garchompmega', 'hyperbeam').
 learns('garchompmega', 'incinerate').
@@ -53266,7 +52731,6 @@ learns('munchlax', 'gunkshot').
 learns('munchlax', 'happyhour').
 learns('munchlax', 'headbutt').
 learns('munchlax', 'helpinghand').
-learns('munchlax', 'hiddenpower').
 learns('munchlax', 'holdback').
 learns('munchlax', 'hydropump').
 learns('munchlax', 'hypervoice').
@@ -53370,7 +52834,6 @@ learns('riolu', 'frustration').
 learns('riolu', 'furycutter').
 learns('riolu', 'headbutt').
 learns('riolu', 'helpinghand').
-learns('riolu', 'hiddenpower').
 learns('riolu', 'highjumpkick').
 learns('riolu', 'howl').
 learns('riolu', 'icepunch').
@@ -53473,7 +52936,6 @@ learns('lucario', 'gigaimpact').
 learns('lucario', 'headbutt').
 learns('lucario', 'healpulse').
 learns('lucario', 'helpinghand').
-learns('lucario', 'hiddenpower').
 learns('lucario', 'highjumpkick').
 learns('lucario', 'honeclaws').
 learns('lucario', 'hyperbeam').
@@ -53593,7 +53055,6 @@ learns('lucariomega', 'gigaimpact').
 learns('lucariomega', 'headbutt').
 learns('lucariomega', 'healpulse').
 learns('lucariomega', 'helpinghand').
-learns('lucariomega', 'hiddenpower').
 learns('lucariomega', 'highjumpkick').
 learns('lucariomega', 'honeclaws').
 learns('lucariomega', 'hyperbeam').
@@ -53690,7 +53151,6 @@ learns('hippopotas', 'fissure').
 learns('hippopotas', 'frustration').
 learns('hippopotas', 'headbutt').
 learns('hippopotas', 'helpinghand').
-learns('hippopotas', 'hiddenpower').
 learns('hippopotas', 'highhorsepower').
 learns('hippopotas', 'icefang').
 learns('hippopotas', 'irontail').
@@ -53760,7 +53220,6 @@ learns('hippowdon', 'hardpress').
 learns('hippowdon', 'headbutt').
 learns('hippowdon', 'heavyslam').
 learns('hippowdon', 'helpinghand').
-learns('hippowdon', 'hiddenpower').
 learns('hippowdon', 'highhorsepower').
 learns('hippowdon', 'hyperbeam').
 learns('hippowdon', 'hypervoice').
@@ -53837,7 +53296,6 @@ learns('skorupi', 'fling').
 learns('skorupi', 'frustration').
 learns('skorupi', 'furycutter').
 learns('skorupi', 'headbutt').
-learns('skorupi', 'hiddenpower').
 learns('skorupi', 'honeclaws').
 learns('skorupi', 'infestation').
 learns('skorupi', 'irontail').
@@ -53917,7 +53375,6 @@ learns('drapion', 'frustration').
 learns('drapion', 'furycutter').
 learns('drapion', 'gigaimpact').
 learns('drapion', 'headbutt').
-learns('drapion', 'hiddenpower').
 learns('drapion', 'honeclaws').
 learns('drapion', 'hyperbeam').
 learns('drapion', 'icefang').
@@ -54024,7 +53481,6 @@ learns('croagunk', 'furycutter').
 learns('croagunk', 'gunkshot').
 learns('croagunk', 'headbutt').
 learns('croagunk', 'helpinghand').
-learns('croagunk', 'hiddenpower').
 learns('croagunk', 'icepunch').
 learns('croagunk', 'icywind').
 learns('croagunk', 'knockoff').
@@ -54131,7 +53587,6 @@ learns('toxicroak', 'gigaimpact').
 learns('toxicroak', 'gunkshot').
 learns('toxicroak', 'headbutt').
 learns('toxicroak', 'helpinghand').
-learns('toxicroak', 'hiddenpower').
 learns('toxicroak', 'hyperbeam').
 learns('toxicroak', 'icepunch').
 learns('toxicroak', 'icywind').
@@ -54234,7 +53689,6 @@ learns('carnivine', 'gigaimpact').
 learns('carnivine', 'grassknot').
 learns('carnivine', 'grasswhistle').
 learns('carnivine', 'growth').
-learns('carnivine', 'hiddenpower').
 learns('carnivine', 'hyperbeam').
 learns('carnivine', 'infestation').
 learns('carnivine', 'ingrain').
@@ -54306,7 +53760,6 @@ learns('finneon', 'frustration').
 learns('finneon', 'gust').
 learns('finneon', 'hail').
 learns('finneon', 'helpinghand').
-learns('finneon', 'hiddenpower').
 learns('finneon', 'hydropump').
 learns('finneon', 'icebeam').
 learns('finneon', 'icywind').
@@ -54378,7 +53831,6 @@ learns('lumineon', 'gigaimpact').
 learns('lumineon', 'gust').
 learns('lumineon', 'hail').
 learns('lumineon', 'helpinghand').
-learns('lumineon', 'hiddenpower').
 learns('lumineon', 'hydropump').
 learns('lumineon', 'hyperbeam').
 learns('lumineon', 'icebeam').
@@ -54449,7 +53901,6 @@ learns('mantyke', 'hail').
 learns('mantyke', 'haze').
 learns('mantyke', 'headbutt').
 learns('mantyke', 'helpinghand').
-learns('mantyke', 'hiddenpower').
 learns('mantyke', 'hydropump').
 learns('mantyke', 'icebeam').
 learns('mantyke', 'icywind').
@@ -54512,7 +53963,6 @@ learns('snover', 'growth').
 learns('snover', 'hail').
 learns('snover', 'headbutt').
 learns('snover', 'helpinghand').
-learns('snover', 'hiddenpower').
 learns('snover', 'icebeam').
 learns('snover', 'icepunch').
 learns('snover', 'iceshard').
@@ -54598,7 +54048,6 @@ learns('abomasnow', 'hail').
 learns('abomasnow', 'hardpress').
 learns('abomasnow', 'headbutt').
 learns('abomasnow', 'helpinghand').
-learns('abomasnow', 'hiddenpower').
 learns('abomasnow', 'hyperbeam').
 learns('abomasnow', 'icebeam').
 learns('abomasnow', 'icepunch').
@@ -54695,7 +54144,6 @@ learns('abomasnowmega', 'hail').
 learns('abomasnowmega', 'hardpress').
 learns('abomasnowmega', 'headbutt').
 learns('abomasnowmega', 'helpinghand').
-learns('abomasnowmega', 'hiddenpower').
 learns('abomasnowmega', 'hyperbeam').
 learns('abomasnowmega', 'icebeam').
 learns('abomasnowmega', 'icepunch').
@@ -54792,7 +54240,6 @@ learns('weavile', 'gigaimpact').
 learns('weavile', 'hail').
 learns('weavile', 'headbutt').
 learns('weavile', 'helpinghand').
-learns('weavile', 'hiddenpower').
 learns('weavile', 'honeclaws').
 learns('weavile', 'hyperbeam').
 learns('weavile', 'icebeam').
@@ -54909,7 +54356,6 @@ learns('magnezone', 'gyroball').
 learns('magnezone', 'hardpress').
 learns('magnezone', 'heavyslam').
 learns('magnezone', 'helpinghand').
-learns('magnezone', 'hiddenpower').
 learns('magnezone', 'hyperbeam').
 learns('magnezone', 'irondefense').
 learns('magnezone', 'ironhead').
@@ -55007,7 +54453,6 @@ learns('lickilicky', 'gigaimpact').
 learns('lickilicky', 'gyroball').
 learns('lickilicky', 'headbutt').
 learns('lickilicky', 'helpinghand').
-learns('lickilicky', 'hiddenpower').
 learns('lickilicky', 'hydropump').
 learns('lickilicky', 'hyperbeam').
 learns('lickilicky', 'icebeam').
@@ -55139,7 +54584,6 @@ learns('rhyperior', 'headbutt').
 learns('rhyperior', 'heatcrash').
 learns('rhyperior', 'heavyslam').
 learns('rhyperior', 'helpinghand').
-learns('rhyperior', 'hiddenpower').
 learns('rhyperior', 'highhorsepower').
 learns('rhyperior', 'hornattack').
 learns('rhyperior', 'horndrill').
@@ -55273,7 +54717,6 @@ learns('tangrowth', 'grassyglide').
 learns('tangrowth', 'grassyterrain').
 learns('tangrowth', 'growth').
 learns('tangrowth', 'headbutt').
-learns('tangrowth', 'hiddenpower').
 learns('tangrowth', 'hyperbeam').
 learns('tangrowth', 'infestation').
 learns('tangrowth', 'ingrain').
@@ -55370,7 +54813,6 @@ learns('electivire', 'frustration').
 learns('electivire', 'gigaimpact').
 learns('electivire', 'headbutt').
 learns('electivire', 'helpinghand').
-learns('electivire', 'hiddenpower').
 learns('electivire', 'hyperbeam').
 learns('electivire', 'icepunch').
 learns('electivire', 'iondeluge').
@@ -55486,7 +54928,6 @@ learns('magmortar', 'headbutt').
 learns('magmortar', 'heatcrash').
 learns('magmortar', 'heatwave').
 learns('magmortar', 'helpinghand').
-learns('magmortar', 'hiddenpower').
 learns('magmortar', 'hyperbeam').
 learns('magmortar', 'hypervoice').
 learns('magmortar', 'incinerate').
@@ -55606,7 +55047,6 @@ learns('togekiss', 'headbutt').
 learns('togekiss', 'healbell').
 learns('togekiss', 'heatwave').
 learns('togekiss', 'helpinghand').
-learns('togekiss', 'hiddenpower').
 learns('togekiss', 'hyperbeam').
 learns('togekiss', 'hypervoice').
 learns('togekiss', 'imprison').
@@ -55714,7 +55154,6 @@ learns('yanmega', 'frustration').
 learns('yanmega', 'gigadrain').
 learns('yanmega', 'gigaimpact').
 learns('yanmega', 'headbutt').
-learns('yanmega', 'hiddenpower').
 learns('yanmega', 'hyperbeam').
 learns('yanmega', 'hypnosis').
 learns('yanmega', 'laserfocus').
@@ -55807,7 +55246,6 @@ learns('leafeon', 'growl').
 learns('leafeon', 'headbutt').
 learns('leafeon', 'healbell').
 learns('leafeon', 'helpinghand').
-learns('leafeon', 'hiddenpower').
 learns('leafeon', 'hyperbeam').
 learns('leafeon', 'hypervoice').
 learns('leafeon', 'irontail').
@@ -55913,7 +55351,6 @@ learns('glaceon', 'haze').
 learns('glaceon', 'headbutt').
 learns('glaceon', 'healbell').
 learns('glaceon', 'helpinghand').
-learns('glaceon', 'hiddenpower').
 learns('glaceon', 'hyperbeam').
 learns('glaceon', 'hypervoice').
 learns('glaceon', 'icebeam').
@@ -56013,7 +55450,6 @@ learns('gliscor', 'guillotine').
 learns('gliscor', 'gunkshot').
 learns('gliscor', 'harden').
 learns('gliscor', 'headbutt').
-learns('gliscor', 'hiddenpower').
 learns('gliscor', 'highhorsepower').
 learns('gliscor', 'honeclaws').
 learns('gliscor', 'hyperbeam').
@@ -56123,7 +55559,6 @@ learns('mamoswine', 'hardpress').
 learns('mamoswine', 'haze').
 learns('mamoswine', 'headbutt').
 learns('mamoswine', 'heavyslam').
-learns('mamoswine', 'hiddenpower').
 learns('mamoswine', 'highhorsepower').
 learns('mamoswine', 'hyperbeam').
 learns('mamoswine', 'icebeam').
@@ -56211,7 +55646,6 @@ learns('porygonz', 'frustration').
 learns('porygonz', 'gigaimpact').
 learns('porygonz', 'gravity').
 learns('porygonz', 'guardswap').
-learns('porygonz', 'hiddenpower').
 learns('porygonz', 'hyperbeam').
 learns('porygonz', 'icebeam').
 learns('porygonz', 'icywind').
@@ -56329,7 +55763,6 @@ learns('gallade', 'headbutt').
 learns('gallade', 'healpulse').
 learns('gallade', 'helpinghand').
 learns('gallade', 'hex').
-learns('gallade', 'hiddenpower').
 learns('gallade', 'hyperbeam').
 learns('gallade', 'hypervoice').
 learns('gallade', 'hypnosis').
@@ -56490,7 +55923,6 @@ learns('gallademega', 'headbutt').
 learns('gallademega', 'healpulse').
 learns('gallademega', 'helpinghand').
 learns('gallademega', 'hex').
-learns('gallademega', 'hiddenpower').
 learns('gallademega', 'hyperbeam').
 learns('gallademega', 'hypervoice').
 learns('gallademega', 'hypnosis').
@@ -56626,7 +56058,6 @@ learns('probopass', 'hardpress').
 learns('probopass', 'headbutt').
 learns('probopass', 'heavyslam').
 learns('probopass', 'helpinghand').
-learns('probopass', 'hiddenpower').
 learns('probopass', 'highhorsepower').
 learns('probopass', 'hyperbeam').
 learns('probopass', 'icepunch').
@@ -56732,7 +56163,6 @@ learns('dusknoir', 'haze').
 learns('dusknoir', 'headbutt').
 learns('dusknoir', 'helpinghand').
 learns('dusknoir', 'hex').
-learns('dusknoir', 'hiddenpower').
 learns('dusknoir', 'hyperbeam').
 learns('dusknoir', 'icebeam').
 learns('dusknoir', 'icepunch').
@@ -56837,7 +56267,6 @@ learns('froslass', 'haze').
 learns('froslass', 'headbutt').
 learns('froslass', 'helpinghand').
 learns('froslass', 'hex').
-learns('froslass', 'hiddenpower').
 learns('froslass', 'hyperbeam').
 learns('froslass', 'icebeam').
 learns('froslass', 'icefang').
@@ -56928,7 +56357,6 @@ learns('rotom', 'foulplay').
 learns('rotom', 'frustration').
 learns('rotom', 'helpinghand').
 learns('rotom', 'hex').
-learns('rotom', 'hiddenpower').
 learns('rotom', 'hypervoice').
 learns('rotom', 'lightscreen').
 learns('rotom', 'mudslap').
@@ -56996,7 +56424,6 @@ learns('rotomheat', 'foulplay').
 learns('rotomheat', 'frustration').
 learns('rotomheat', 'helpinghand').
 learns('rotomheat', 'hex').
-learns('rotomheat', 'hiddenpower').
 learns('rotomheat', 'hypervoice').
 learns('rotomheat', 'lightscreen').
 learns('rotomheat', 'mudslap').
@@ -57064,7 +56491,6 @@ learns('rotomwash', 'foulplay').
 learns('rotomwash', 'frustration').
 learns('rotomwash', 'helpinghand').
 learns('rotomwash', 'hex').
-learns('rotomwash', 'hiddenpower').
 learns('rotomwash', 'hypervoice').
 learns('rotomwash', 'lightscreen').
 learns('rotomwash', 'mudslap').
@@ -57132,7 +56558,6 @@ learns('rotomfrost', 'foulplay').
 learns('rotomfrost', 'frustration').
 learns('rotomfrost', 'helpinghand').
 learns('rotomfrost', 'hex').
-learns('rotomfrost', 'hiddenpower').
 learns('rotomfrost', 'hypervoice').
 learns('rotomfrost', 'lightscreen').
 learns('rotomfrost', 'mudslap').
@@ -57200,7 +56625,6 @@ learns('rotomfan', 'foulplay').
 learns('rotomfan', 'frustration').
 learns('rotomfan', 'helpinghand').
 learns('rotomfan', 'hex').
-learns('rotomfan', 'hiddenpower').
 learns('rotomfan', 'hypervoice').
 learns('rotomfan', 'lightscreen').
 learns('rotomfan', 'mudslap').
@@ -57268,7 +56692,6 @@ learns('rotommow', 'foulplay').
 learns('rotommow', 'frustration').
 learns('rotommow', 'helpinghand').
 learns('rotommow', 'hex').
-learns('rotommow', 'hiddenpower').
 learns('rotommow', 'hypervoice').
 learns('rotommow', 'lightscreen').
 learns('rotommow', 'mudslap').
@@ -57345,7 +56768,6 @@ learns('uxie', 'grassknot').
 learns('uxie', 'headbutt').
 learns('uxie', 'healbell').
 learns('uxie', 'helpinghand').
-learns('uxie', 'hiddenpower').
 learns('uxie', 'hyperbeam').
 learns('uxie', 'icepunch').
 learns('uxie', 'imprison').
@@ -57443,7 +56865,6 @@ learns('mesprit', 'grassknot').
 learns('mesprit', 'headbutt').
 learns('mesprit', 'healingwish').
 learns('mesprit', 'helpinghand').
-learns('mesprit', 'hiddenpower').
 learns('mesprit', 'hyperbeam').
 learns('mesprit', 'icebeam').
 learns('mesprit', 'icepunch').
@@ -57540,7 +56961,6 @@ learns('azelf', 'gigaimpact').
 learns('azelf', 'grassknot').
 learns('azelf', 'headbutt').
 learns('azelf', 'helpinghand').
-learns('azelf', 'hiddenpower').
 learns('azelf', 'hyperbeam').
 learns('azelf', 'icepunch').
 learns('azelf', 'imprison').
@@ -57641,7 +57061,6 @@ learns('dialga', 'gravity').
 learns('dialga', 'headbutt').
 learns('dialga', 'healblock').
 learns('dialga', 'heavyslam').
-learns('dialga', 'hiddenpower').
 learns('dialga', 'honeclaws').
 learns('dialga', 'hyperbeam').
 learns('dialga', 'hypervoice').
@@ -57733,7 +57152,6 @@ learns('dialgaorigin', 'gravity').
 learns('dialgaorigin', 'headbutt').
 learns('dialgaorigin', 'healblock').
 learns('dialgaorigin', 'heavyslam').
-learns('dialgaorigin', 'hiddenpower').
 learns('dialgaorigin', 'honeclaws').
 learns('dialgaorigin', 'hyperbeam').
 learns('dialgaorigin', 'hypervoice').
@@ -57833,7 +57251,6 @@ learns('palkia', 'hail').
 learns('palkia', 'headbutt').
 learns('palkia', 'healblock').
 learns('palkia', 'heavyslam').
-learns('palkia', 'hiddenpower').
 learns('palkia', 'honeclaws').
 learns('palkia', 'hydropump').
 learns('palkia', 'hyperbeam').
@@ -57931,7 +57348,6 @@ learns('palkiaorigin', 'hail').
 learns('palkiaorigin', 'headbutt').
 learns('palkiaorigin', 'healblock').
 learns('palkiaorigin', 'heavyslam').
-learns('palkiaorigin', 'hiddenpower').
 learns('palkiaorigin', 'honeclaws').
 learns('palkiaorigin', 'hydropump').
 learns('palkiaorigin', 'hyperbeam').
@@ -58020,7 +57436,6 @@ learns('heatran', 'headbutt').
 learns('heatran', 'heatcrash').
 learns('heatran', 'heatwave').
 learns('heatran', 'heavyslam').
-learns('heatran', 'hiddenpower').
 learns('heatran', 'hyperbeam').
 learns('heatran', 'incinerate').
 learns('heatran', 'irondefense').
@@ -58104,7 +57519,6 @@ learns('regigigas', 'hardpress').
 learns('regigigas', 'headbutt').
 learns('regigigas', 'heatcrash').
 learns('regigigas', 'heavyslam').
-learns('regigigas', 'hiddenpower').
 learns('regigigas', 'highhorsepower').
 learns('regigigas', 'hyperbeam').
 learns('regigigas', 'icepunch').
@@ -58194,7 +57608,6 @@ learns('giratina', 'gravity').
 learns('giratina', 'headbutt').
 learns('giratina', 'healblock').
 learns('giratina', 'hex').
-learns('giratina', 'hiddenpower').
 learns('giratina', 'honeclaws').
 learns('giratina', 'hyperbeam').
 learns('giratina', 'hypervoice').
@@ -58290,7 +57703,6 @@ learns('giratinaorigin', 'gravity').
 learns('giratinaorigin', 'headbutt').
 learns('giratinaorigin', 'healblock').
 learns('giratinaorigin', 'hex').
-learns('giratinaorigin', 'hiddenpower').
 learns('giratinaorigin', 'honeclaws').
 learns('giratinaorigin', 'hyperbeam').
 learns('giratinaorigin', 'hypervoice').
@@ -58372,7 +57784,6 @@ learns('cresselia', 'grassknot').
 learns('cresselia', 'gravity').
 learns('cresselia', 'guardswap').
 learns('cresselia', 'helpinghand').
-learns('cresselia', 'hiddenpower').
 learns('cresselia', 'hyperbeam').
 learns('cresselia', 'icebeam').
 learns('cresselia', 'icywind').
@@ -58454,7 +57865,6 @@ learns('phione', 'hail').
 learns('phione', 'haze').
 learns('phione', 'healbell').
 learns('phione', 'helpinghand').
-learns('phione', 'hiddenpower').
 learns('phione', 'hydropump').
 learns('phione', 'icebeam').
 learns('phione', 'icywind').
@@ -58526,7 +57936,6 @@ learns('manaphy', 'haze').
 learns('manaphy', 'healbell').
 learns('manaphy', 'heartswap').
 learns('manaphy', 'helpinghand').
-learns('manaphy', 'hiddenpower').
 learns('manaphy', 'hydropump').
 learns('manaphy', 'hyperbeam').
 learns('manaphy', 'icebeam').
@@ -58602,7 +58011,6 @@ learns('darkrai', 'gigaimpact').
 learns('darkrai', 'haze').
 learns('darkrai', 'headbutt').
 learns('darkrai', 'hex').
-learns('darkrai', 'hiddenpower').
 learns('darkrai', 'hyperbeam').
 learns('darkrai', 'hypnosis').
 learns('darkrai', 'icebeam').
@@ -58697,7 +58105,6 @@ learns('shaymin', 'grassyterrain').
 learns('shaymin', 'growth').
 learns('shaymin', 'headbutt').
 learns('shaymin', 'healingwish').
-learns('shaymin', 'hiddenpower').
 learns('shaymin', 'hyperbeam').
 learns('shaymin', 'laserfocus').
 learns('shaymin', 'lastresort').
@@ -58769,7 +58176,6 @@ learns('shayminsky', 'grassyterrain').
 learns('shayminsky', 'growth').
 learns('shayminsky', 'headbutt').
 learns('shayminsky', 'healingwish').
-learns('shayminsky', 'hiddenpower').
 learns('shayminsky', 'hyperbeam').
 learns('shayminsky', 'laserfocus').
 learns('shayminsky', 'lastresort').
@@ -58880,7 +58286,6 @@ learns('arceus', 'healingwish').
 learns('arceus', 'heatwave').
 learns('arceus', 'heavyslam').
 learns('arceus', 'hex').
-learns('arceus', 'hiddenpower').
 learns('arceus', 'honeclaws').
 learns('arceus', 'hurricane').
 learns('arceus', 'hydrocannon').
@@ -59054,7 +58459,6 @@ learns('arceusbug', 'healingwish').
 learns('arceusbug', 'heatwave').
 learns('arceusbug', 'heavyslam').
 learns('arceusbug', 'hex').
-learns('arceusbug', 'hiddenpower').
 learns('arceusbug', 'honeclaws').
 learns('arceusbug', 'hurricane').
 learns('arceusbug', 'hydrocannon').
@@ -59228,7 +58632,6 @@ learns('arceusdark', 'healingwish').
 learns('arceusdark', 'heatwave').
 learns('arceusdark', 'heavyslam').
 learns('arceusdark', 'hex').
-learns('arceusdark', 'hiddenpower').
 learns('arceusdark', 'honeclaws').
 learns('arceusdark', 'hurricane').
 learns('arceusdark', 'hydrocannon').
@@ -59402,7 +58805,6 @@ learns('arceusdragon', 'healingwish').
 learns('arceusdragon', 'heatwave').
 learns('arceusdragon', 'heavyslam').
 learns('arceusdragon', 'hex').
-learns('arceusdragon', 'hiddenpower').
 learns('arceusdragon', 'honeclaws').
 learns('arceusdragon', 'hurricane').
 learns('arceusdragon', 'hydrocannon').
@@ -59576,7 +58978,6 @@ learns('arceuselectric', 'healingwish').
 learns('arceuselectric', 'heatwave').
 learns('arceuselectric', 'heavyslam').
 learns('arceuselectric', 'hex').
-learns('arceuselectric', 'hiddenpower').
 learns('arceuselectric', 'honeclaws').
 learns('arceuselectric', 'hurricane').
 learns('arceuselectric', 'hydrocannon').
@@ -59750,7 +59151,6 @@ learns('arceusfairy', 'healingwish').
 learns('arceusfairy', 'heatwave').
 learns('arceusfairy', 'heavyslam').
 learns('arceusfairy', 'hex').
-learns('arceusfairy', 'hiddenpower').
 learns('arceusfairy', 'honeclaws').
 learns('arceusfairy', 'hurricane').
 learns('arceusfairy', 'hydrocannon').
@@ -59924,7 +59324,6 @@ learns('arceusfighting', 'healingwish').
 learns('arceusfighting', 'heatwave').
 learns('arceusfighting', 'heavyslam').
 learns('arceusfighting', 'hex').
-learns('arceusfighting', 'hiddenpower').
 learns('arceusfighting', 'honeclaws').
 learns('arceusfighting', 'hurricane').
 learns('arceusfighting', 'hydrocannon').
@@ -60098,7 +59497,6 @@ learns('arceusfire', 'healingwish').
 learns('arceusfire', 'heatwave').
 learns('arceusfire', 'heavyslam').
 learns('arceusfire', 'hex').
-learns('arceusfire', 'hiddenpower').
 learns('arceusfire', 'honeclaws').
 learns('arceusfire', 'hurricane').
 learns('arceusfire', 'hydrocannon').
@@ -60272,7 +59670,6 @@ learns('arceusflying', 'healingwish').
 learns('arceusflying', 'heatwave').
 learns('arceusflying', 'heavyslam').
 learns('arceusflying', 'hex').
-learns('arceusflying', 'hiddenpower').
 learns('arceusflying', 'honeclaws').
 learns('arceusflying', 'hurricane').
 learns('arceusflying', 'hydrocannon').
@@ -60446,7 +59843,6 @@ learns('arceusghost', 'healingwish').
 learns('arceusghost', 'heatwave').
 learns('arceusghost', 'heavyslam').
 learns('arceusghost', 'hex').
-learns('arceusghost', 'hiddenpower').
 learns('arceusghost', 'honeclaws').
 learns('arceusghost', 'hurricane').
 learns('arceusghost', 'hydrocannon').
@@ -60620,7 +60016,6 @@ learns('arceusgrass', 'healingwish').
 learns('arceusgrass', 'heatwave').
 learns('arceusgrass', 'heavyslam').
 learns('arceusgrass', 'hex').
-learns('arceusgrass', 'hiddenpower').
 learns('arceusgrass', 'honeclaws').
 learns('arceusgrass', 'hurricane').
 learns('arceusgrass', 'hydrocannon').
@@ -60794,7 +60189,6 @@ learns('arceusground', 'healingwish').
 learns('arceusground', 'heatwave').
 learns('arceusground', 'heavyslam').
 learns('arceusground', 'hex').
-learns('arceusground', 'hiddenpower').
 learns('arceusground', 'honeclaws').
 learns('arceusground', 'hurricane').
 learns('arceusground', 'hydrocannon').
@@ -60968,7 +60362,6 @@ learns('arceusice', 'healingwish').
 learns('arceusice', 'heatwave').
 learns('arceusice', 'heavyslam').
 learns('arceusice', 'hex').
-learns('arceusice', 'hiddenpower').
 learns('arceusice', 'honeclaws').
 learns('arceusice', 'hurricane').
 learns('arceusice', 'hydrocannon').
@@ -61142,7 +60535,6 @@ learns('arceuspoison', 'healingwish').
 learns('arceuspoison', 'heatwave').
 learns('arceuspoison', 'heavyslam').
 learns('arceuspoison', 'hex').
-learns('arceuspoison', 'hiddenpower').
 learns('arceuspoison', 'honeclaws').
 learns('arceuspoison', 'hurricane').
 learns('arceuspoison', 'hydrocannon').
@@ -61316,7 +60708,6 @@ learns('arceuspsychic', 'healingwish').
 learns('arceuspsychic', 'heatwave').
 learns('arceuspsychic', 'heavyslam').
 learns('arceuspsychic', 'hex').
-learns('arceuspsychic', 'hiddenpower').
 learns('arceuspsychic', 'honeclaws').
 learns('arceuspsychic', 'hurricane').
 learns('arceuspsychic', 'hydrocannon').
@@ -61490,7 +60881,6 @@ learns('arceusrock', 'healingwish').
 learns('arceusrock', 'heatwave').
 learns('arceusrock', 'heavyslam').
 learns('arceusrock', 'hex').
-learns('arceusrock', 'hiddenpower').
 learns('arceusrock', 'honeclaws').
 learns('arceusrock', 'hurricane').
 learns('arceusrock', 'hydrocannon').
@@ -61664,7 +61054,6 @@ learns('arceussteel', 'healingwish').
 learns('arceussteel', 'heatwave').
 learns('arceussteel', 'heavyslam').
 learns('arceussteel', 'hex').
-learns('arceussteel', 'hiddenpower').
 learns('arceussteel', 'honeclaws').
 learns('arceussteel', 'hurricane').
 learns('arceussteel', 'hydrocannon').
@@ -61838,7 +61227,6 @@ learns('arceuswater', 'healingwish').
 learns('arceuswater', 'heatwave').
 learns('arceuswater', 'heavyslam').
 learns('arceuswater', 'hex').
-learns('arceuswater', 'hiddenpower').
 learns('arceuswater', 'honeclaws').
 learns('arceuswater', 'hurricane').
 learns('arceuswater', 'hydrocannon').
@@ -61986,7 +61374,6 @@ learns('victini', 'guardswap').
 learns('victini', 'headbutt').
 learns('victini', 'heatwave').
 learns('victini', 'helpinghand').
-learns('victini', 'hiddenpower').
 learns('victini', 'hyperbeam').
 learns('victini', 'incinerate').
 learns('victini', 'inferno').
@@ -62072,7 +61459,6 @@ learns('snivy', 'grassyglide').
 learns('snivy', 'grassyterrain').
 learns('snivy', 'growth').
 learns('snivy', 'helpinghand').
-learns('snivy', 'hiddenpower').
 learns('snivy', 'irontail').
 learns('snivy', 'knockoff').
 learns('snivy', 'leafblade').
@@ -62147,7 +61533,6 @@ learns('servine', 'grassyglide').
 learns('servine', 'grassyterrain').
 learns('servine', 'growth').
 learns('servine', 'helpinghand').
-learns('servine', 'hiddenpower').
 learns('servine', 'irontail').
 learns('servine', 'knockoff').
 learns('servine', 'leafblade').
@@ -62232,7 +61617,6 @@ learns('serperior', 'grassyglide').
 learns('serperior', 'grassyterrain').
 learns('serperior', 'growth').
 learns('serperior', 'helpinghand').
-learns('serperior', 'hiddenpower').
 learns('serperior', 'holdback').
 learns('serperior', 'hyperbeam').
 learns('serperior', 'irontail').
@@ -62323,7 +61707,6 @@ learns('tepig', 'heatcrash').
 learns('tepig', 'heatwave').
 learns('tepig', 'heavyslam').
 learns('tepig', 'helpinghand').
-learns('tepig', 'hiddenpower').
 learns('tepig', 'incinerate').
 learns('tepig', 'irontail').
 learns('tepig', 'magnitude').
@@ -62404,7 +61787,6 @@ learns('pignite', 'heatcrash').
 learns('pignite', 'heatwave').
 learns('pignite', 'heavyslam').
 learns('pignite', 'helpinghand').
-learns('pignite', 'hiddenpower').
 learns('pignite', 'highhorsepower').
 learns('pignite', 'incinerate').
 learns('pignite', 'irontail').
@@ -62504,7 +61886,6 @@ learns('emboar', 'heatcrash').
 learns('emboar', 'heatwave').
 learns('emboar', 'heavyslam').
 learns('emboar', 'helpinghand').
-learns('emboar', 'hiddenpower').
 learns('emboar', 'highhorsepower').
 learns('emboar', 'holdback').
 learns('emboar', 'hyperbeam').
@@ -62593,7 +61974,6 @@ learns('oshawott', 'furycutter').
 learns('oshawott', 'grassknot').
 learns('oshawott', 'hail').
 learns('oshawott', 'helpinghand').
-learns('oshawott', 'hiddenpower').
 learns('oshawott', 'hydropump').
 learns('oshawott', 'icebeam').
 learns('oshawott', 'icywind').
@@ -62666,7 +62046,6 @@ learns('dewott', 'furycutter').
 learns('dewott', 'grassknot').
 learns('dewott', 'hail').
 learns('dewott', 'helpinghand').
-learns('dewott', 'hiddenpower').
 learns('dewott', 'hydropump').
 learns('dewott', 'icebeam').
 learns('dewott', 'icywind').
@@ -62751,7 +62130,6 @@ learns('samurott', 'gigaimpact').
 learns('samurott', 'grassknot').
 learns('samurott', 'hail').
 learns('samurott', 'helpinghand').
-learns('samurott', 'hiddenpower').
 learns('samurott', 'holdback').
 learns('samurott', 'hydrocannon').
 learns('samurott', 'hydropump').
@@ -62886,7 +62264,6 @@ learns('samurotthisui', 'dive').
 learns('samurotthisui', 'doubleteam').
 learns('samurotthisui', 'frustration').
 learns('samurotthisui', 'hail').
-learns('samurotthisui', 'hiddenpower').
 learns('samurotthisui', 'irontail').
 learns('samurotthisui', 'return').
 learns('samurotthisui', 'revenge').
@@ -62934,7 +62311,6 @@ learns('patrat', 'frustration').
 learns('patrat', 'grassknot').
 learns('patrat', 'gunkshot').
 learns('patrat', 'helpinghand').
-learns('patrat', 'hiddenpower').
 learns('patrat', 'hyperfang').
 learns('patrat', 'hypnosis').
 learns('patrat', 'irontail').
@@ -63001,7 +62377,6 @@ learns('watchog', 'gigaimpact').
 learns('watchog', 'grassknot').
 learns('watchog', 'gunkshot').
 learns('watchog', 'helpinghand').
-learns('watchog', 'hiddenpower').
 learns('watchog', 'hyperbeam').
 learns('watchog', 'hyperfang').
 learns('watchog', 'hypnosis').
@@ -63074,7 +62449,6 @@ learns('lillipup', 'firefang').
 learns('lillipup', 'frustration').
 learns('lillipup', 'gigaimpact').
 learns('lillipup', 'helpinghand').
-learns('lillipup', 'hiddenpower').
 learns('lillipup', 'howl').
 learns('lillipup', 'hypervoice').
 learns('lillipup', 'icefang').
@@ -63134,7 +62508,6 @@ learns('herdier', 'firefang').
 learns('herdier', 'frustration').
 learns('herdier', 'gigaimpact').
 learns('herdier', 'helpinghand').
-learns('herdier', 'hiddenpower').
 learns('herdier', 'hypervoice').
 learns('herdier', 'icefang').
 learns('herdier', 'lastresort').
@@ -63196,7 +62569,6 @@ learns('stoutland', 'firefang').
 learns('stoutland', 'frustration').
 learns('stoutland', 'gigaimpact').
 learns('stoutland', 'helpinghand').
-learns('stoutland', 'hiddenpower').
 learns('stoutland', 'hyperbeam').
 learns('stoutland', 'hypervoice').
 learns('stoutland', 'icefang').
@@ -63274,7 +62646,6 @@ learns('purrloin', 'furyswipes').
 learns('purrloin', 'grassknot').
 learns('purrloin', 'growl').
 learns('purrloin', 'gunkshot').
-learns('purrloin', 'hiddenpower').
 learns('purrloin', 'honeclaws').
 learns('purrloin', 'hypervoice').
 learns('purrloin', 'irontail').
@@ -63347,7 +62718,6 @@ learns('liepard', 'gigaimpact').
 learns('liepard', 'grassknot').
 learns('liepard', 'growl').
 learns('liepard', 'gunkshot').
-learns('liepard', 'hiddenpower').
 learns('liepard', 'honeclaws').
 learns('liepard', 'hyperbeam').
 learns('liepard', 'hypervoice').
@@ -63429,7 +62799,6 @@ learns('pansage', 'grasspledge').
 learns('pansage', 'grasswhistle').
 learns('pansage', 'gunkshot').
 learns('pansage', 'helpinghand').
-learns('pansage', 'hiddenpower').
 learns('pansage', 'honeclaws').
 learns('pansage', 'irontail').
 learns('pansage', 'knockoff').
@@ -63498,7 +62867,6 @@ learns('simisage', 'grassknot').
 learns('simisage', 'grasspledge').
 learns('simisage', 'gunkshot').
 learns('simisage', 'helpinghand').
-learns('simisage', 'hiddenpower').
 learns('simisage', 'honeclaws').
 learns('simisage', 'hyperbeam').
 learns('simisage', 'irontail').
@@ -63586,7 +62954,6 @@ learns('pansear', 'grassknot').
 learns('pansear', 'gunkshot').
 learns('pansear', 'heatwave').
 learns('pansear', 'helpinghand').
-learns('pansear', 'hiddenpower').
 learns('pansear', 'honeclaws').
 learns('pansear', 'incinerate').
 learns('pansear', 'irontail').
@@ -63653,7 +63020,6 @@ learns('simisear', 'grassknot').
 learns('simisear', 'gunkshot').
 learns('simisear', 'heatwave').
 learns('simisear', 'helpinghand').
-learns('simisear', 'hiddenpower').
 learns('simisear', 'honeclaws').
 learns('simisear', 'hyperbeam').
 learns('simisear', 'incinerate').
@@ -63733,7 +63099,6 @@ learns('panpour', 'grassknot').
 learns('panpour', 'gunkshot').
 learns('panpour', 'hail').
 learns('panpour', 'helpinghand').
-learns('panpour', 'hiddenpower').
 learns('panpour', 'honeclaws').
 learns('panpour', 'hydropump').
 learns('panpour', 'icebeam').
@@ -63804,7 +63169,6 @@ learns('simipour', 'grassknot').
 learns('simipour', 'gunkshot').
 learns('simipour', 'hail').
 learns('simipour', 'helpinghand').
-learns('simipour', 'hiddenpower').
 learns('simipour', 'honeclaws').
 learns('simipour', 'hyperbeam').
 learns('simipour', 'icebeam').
@@ -63889,7 +63253,6 @@ learns('munna', 'gyroball').
 learns('munna', 'healbell').
 learns('munna', 'healingwish').
 learns('munna', 'helpinghand').
-learns('munna', 'hiddenpower').
 learns('munna', 'hypnosis').
 learns('munna', 'imprison').
 learns('munna', 'lightscreen').
@@ -63961,7 +63324,6 @@ learns('musharna', 'guardswap').
 learns('musharna', 'gyroball').
 learns('musharna', 'healbell').
 learns('musharna', 'helpinghand').
-learns('musharna', 'hiddenpower').
 learns('musharna', 'hyperbeam').
 learns('musharna', 'hypnosis').
 learns('musharna', 'imprison').
@@ -64037,7 +63399,6 @@ learns('pidove', 'frustration').
 learns('pidove', 'growl').
 learns('pidove', 'gust').
 learns('pidove', 'heatwave').
-learns('pidove', 'hiddenpower').
 learns('pidove', 'hypnosis').
 learns('pidove', 'leer').
 learns('pidove', 'luckychant').
@@ -64088,7 +63449,6 @@ learns('tranquill', 'frustration').
 learns('tranquill', 'growl').
 learns('tranquill', 'gust').
 learns('tranquill', 'heatwave').
-learns('tranquill', 'hiddenpower').
 learns('tranquill', 'leer').
 learns('tranquill', 'pluck').
 learns('tranquill', 'protect').
@@ -64142,7 +63502,6 @@ learns('unfezant', 'gigaimpact').
 learns('unfezant', 'growl').
 learns('unfezant', 'gust').
 learns('unfezant', 'heatwave').
-learns('unfezant', 'hiddenpower').
 learns('unfezant', 'hurricane').
 learns('unfezant', 'hyperbeam').
 learns('unfezant', 'leer').
@@ -64201,7 +63560,6 @@ learns('blitzle', 'flamecharge').
 learns('blitzle', 'flash').
 learns('blitzle', 'frustration').
 learns('blitzle', 'helpinghand').
-learns('blitzle', 'hiddenpower').
 learns('blitzle', 'lightscreen').
 learns('blitzle', 'lowkick').
 learns('blitzle', 'magnetrise').
@@ -64267,7 +63625,6 @@ learns('zebstrika', 'flash').
 learns('zebstrika', 'frustration').
 learns('zebstrika', 'gigaimpact').
 learns('zebstrika', 'helpinghand').
-learns('zebstrika', 'hiddenpower').
 learns('zebstrika', 'highhorsepower').
 learns('zebstrika', 'hyperbeam').
 learns('zebstrika', 'iondeluge').
@@ -64337,7 +63694,6 @@ learns('roggenrola', 'gravity').
 learns('roggenrola', 'harden').
 learns('roggenrola', 'headbutt').
 learns('roggenrola', 'heavyslam').
-learns('roggenrola', 'hiddenpower').
 learns('roggenrola', 'irondefense').
 learns('roggenrola', 'lockon').
 learns('roggenrola', 'magnitude').
@@ -64387,7 +63743,6 @@ learns('boldore', 'gravity').
 learns('boldore', 'harden').
 learns('boldore', 'headbutt').
 learns('boldore', 'heavyslam').
-learns('boldore', 'hiddenpower').
 learns('boldore', 'irondefense').
 learns('boldore', 'meteorbeam').
 learns('boldore', 'mudslap').
@@ -64440,7 +63795,6 @@ learns('gigalith', 'gravity').
 learns('gigalith', 'harden').
 learns('gigalith', 'headbutt').
 learns('gigalith', 'heavyslam').
-learns('gigalith', 'hiddenpower').
 learns('gigalith', 'hyperbeam').
 learns('gigalith', 'irondefense').
 learns('gigalith', 'ironhead').
@@ -64522,7 +63876,6 @@ learns('woobat', 'gyroball').
 learns('woobat', 'heartstamp').
 learns('woobat', 'heatwave').
 learns('woobat', 'helpinghand').
-learns('woobat', 'hiddenpower').
 learns('woobat', 'imprison').
 learns('woobat', 'knockoff').
 learns('woobat', 'lightscreen').
@@ -64610,7 +63963,6 @@ learns('swoobat', 'gyroball').
 learns('swoobat', 'heartstamp').
 learns('swoobat', 'heatwave').
 learns('swoobat', 'helpinghand').
-learns('swoobat', 'hiddenpower').
 learns('swoobat', 'hyperbeam').
 learns('swoobat', 'imprison').
 learns('swoobat', 'knockoff').
@@ -64688,7 +64040,6 @@ learns('drilbur', 'fling').
 learns('drilbur', 'frustration').
 learns('drilbur', 'furyswipes').
 learns('drilbur', 'helpinghand').
-learns('drilbur', 'hiddenpower').
 learns('drilbur', 'highhorsepower').
 learns('drilbur', 'honeclaws').
 learns('drilbur', 'irondefense').
@@ -64755,7 +64106,6 @@ learns('excadrill', 'frustration').
 learns('excadrill', 'furyswipes').
 learns('excadrill', 'gigaimpact').
 learns('excadrill', 'helpinghand').
-learns('excadrill', 'hiddenpower').
 learns('excadrill', 'highhorsepower').
 learns('excadrill', 'honeclaws').
 learns('excadrill', 'horndrill').
@@ -64848,7 +64198,6 @@ learns('audino', 'healbell').
 learns('audino', 'healingwish').
 learns('audino', 'healpulse').
 learns('audino', 'helpinghand').
-learns('audino', 'hiddenpower').
 learns('audino', 'hyperbeam').
 learns('audino', 'hypervoice').
 learns('audino', 'icebeam').
@@ -64956,7 +64305,6 @@ learns('audinomega', 'healbell').
 learns('audinomega', 'healingwish').
 learns('audinomega', 'healpulse').
 learns('audinomega', 'helpinghand').
-learns('audinomega', 'hiddenpower').
 learns('audinomega', 'hyperbeam').
 learns('audinomega', 'hypervoice').
 learns('audinomega', 'icebeam').
@@ -65056,7 +64404,6 @@ learns('timburr', 'frustration').
 learns('timburr', 'grassknot').
 learns('timburr', 'hammerarm').
 learns('timburr', 'helpinghand').
-learns('timburr', 'hiddenpower').
 learns('timburr', 'icepunch').
 learns('timburr', 'knockoff').
 learns('timburr', 'leer').
@@ -65130,7 +64477,6 @@ learns('gurdurr', 'frustration').
 learns('gurdurr', 'grassknot').
 learns('gurdurr', 'hammerarm').
 learns('gurdurr', 'helpinghand').
-learns('gurdurr', 'hiddenpower').
 learns('gurdurr', 'highhorsepower').
 learns('gurdurr', 'icepunch').
 learns('gurdurr', 'knockoff').
@@ -65216,7 +64562,6 @@ learns('conkeldurr', 'grassknot').
 learns('conkeldurr', 'hammerarm').
 learns('conkeldurr', 'hardpress').
 learns('conkeldurr', 'helpinghand').
-learns('conkeldurr', 'hiddenpower').
 learns('conkeldurr', 'highhorsepower').
 learns('conkeldurr', 'hyperbeam').
 learns('conkeldurr', 'icepunch').
@@ -65292,7 +64637,6 @@ learns('tympole', 'flail').
 learns('tympole', 'frustration').
 learns('tympole', 'growl').
 learns('tympole', 'hail').
-learns('tympole', 'hiddenpower').
 learns('tympole', 'hydropump').
 learns('tympole', 'hypervoice').
 learns('tympole', 'icywind').
@@ -65346,7 +64690,6 @@ learns('palpitoad', 'frustration').
 learns('palpitoad', 'gastroacid').
 learns('palpitoad', 'growl').
 learns('palpitoad', 'hail').
-learns('palpitoad', 'hiddenpower').
 learns('palpitoad', 'hydropump').
 learns('palpitoad', 'hypervoice').
 learns('palpitoad', 'icywind').
@@ -65412,7 +64755,6 @@ learns('seismitoad', 'gigaimpact').
 learns('seismitoad', 'grassknot').
 learns('seismitoad', 'growl').
 learns('seismitoad', 'hail').
-learns('seismitoad', 'hiddenpower').
 learns('seismitoad', 'hydropump').
 learns('seismitoad', 'hyperbeam').
 learns('seismitoad', 'hypervoice').
@@ -65488,7 +64830,6 @@ learns('throh', 'frustration').
 learns('throh', 'gigaimpact').
 learns('throh', 'grassknot').
 learns('throh', 'helpinghand').
-learns('throh', 'hiddenpower').
 learns('throh', 'icepunch').
 learns('throh', 'knockoff').
 learns('throh', 'laserfocus').
@@ -65559,7 +64900,6 @@ learns('sawk', 'frustration').
 learns('sawk', 'gigaimpact').
 learns('sawk', 'grassknot').
 learns('sawk', 'helpinghand').
-learns('sawk', 'hiddenpower').
 learns('sawk', 'icepunch').
 learns('sawk', 'karatechop').
 learns('sawk', 'knockoff').
@@ -65625,7 +64965,6 @@ learns('sewaddle', 'gigadrain').
 learns('sewaddle', 'grassknot').
 learns('sewaddle', 'grassyglide').
 learns('sewaddle', 'grassyterrain').
-learns('sewaddle', 'hiddenpower').
 learns('sewaddle', 'irondefense').
 learns('sewaddle', 'lightscreen').
 learns('sewaddle', 'lunge').
@@ -65689,7 +65028,6 @@ learns('swadloon', 'grassknot').
 learns('swadloon', 'grasswhistle').
 learns('swadloon', 'grassyglide').
 learns('swadloon', 'grassyterrain').
-learns('swadloon', 'hiddenpower').
 learns('swadloon', 'irondefense').
 learns('swadloon', 'lightscreen').
 learns('swadloon', 'lunge').
@@ -65764,7 +65102,6 @@ learns('leavanny', 'grassyglide').
 learns('leavanny', 'grassyterrain').
 learns('leavanny', 'healbell').
 learns('leavanny', 'helpinghand').
-learns('leavanny', 'hiddenpower').
 learns('leavanny', 'honeclaws').
 learns('leavanny', 'hyperbeam').
 learns('leavanny', 'irondefense').
@@ -65842,7 +65179,6 @@ learns('venipede', 'frustration').
 learns('venipede', 'furycutter').
 learns('venipede', 'gyroball').
 learns('venipede', 'hex').
-learns('venipede', 'hiddenpower').
 learns('venipede', 'infestation').
 learns('venipede', 'irondefense').
 learns('venipede', 'payback').
@@ -65892,7 +65228,6 @@ learns('whirlipede', 'facade').
 learns('whirlipede', 'frustration').
 learns('whirlipede', 'gyroball').
 learns('whirlipede', 'hex').
-learns('whirlipede', 'hiddenpower').
 learns('whirlipede', 'infestation').
 learns('whirlipede', 'irondefense').
 learns('whirlipede', 'payback').
@@ -65953,7 +65288,6 @@ learns('scolipede', 'frustration').
 learns('scolipede', 'gigaimpact').
 learns('scolipede', 'gyroball').
 learns('scolipede', 'hex').
-learns('scolipede', 'hiddenpower').
 learns('scolipede', 'hyperbeam').
 learns('scolipede', 'infestation').
 learns('scolipede', 'irondefense').
@@ -66034,7 +65368,6 @@ learns('cottonee', 'grassyglide').
 learns('cottonee', 'grassyterrain').
 learns('cottonee', 'growth').
 learns('cottonee', 'helpinghand').
-learns('cottonee', 'hiddenpower').
 learns('cottonee', 'knockoff').
 learns('cottonee', 'leechseed').
 learns('cottonee', 'megadrain').
@@ -66096,7 +65429,6 @@ learns('whimsicott', 'grassyterrain').
 learns('whimsicott', 'growth').
 learns('whimsicott', 'gust').
 learns('whimsicott', 'helpinghand').
-learns('whimsicott', 'hiddenpower').
 learns('whimsicott', 'hurricane').
 learns('whimsicott', 'hyperbeam').
 learns('whimsicott', 'knockoff').
@@ -66167,7 +65499,6 @@ learns('petilil', 'growth').
 learns('petilil', 'healbell').
 learns('petilil', 'healingwish').
 learns('petilil', 'helpinghand').
-learns('petilil', 'hiddenpower').
 learns('petilil', 'ingrain').
 learns('petilil', 'laserfocus').
 learns('petilil', 'leafstorm').
@@ -66225,7 +65556,6 @@ learns('lilligant', 'grassyterrain').
 learns('lilligant', 'growth').
 learns('lilligant', 'healbell').
 learns('lilligant', 'helpinghand').
-learns('lilligant', 'hiddenpower').
 learns('lilligant', 'hyperbeam').
 learns('lilligant', 'laserfocus').
 learns('lilligant', 'leafblade').
@@ -66346,7 +65676,6 @@ learns('lilliganthisui', 'frustration').
 learns('lilliganthisui', 'grasswhistle').
 learns('lilliganthisui', 'healbell').
 learns('lilliganthisui', 'healingwish').
-learns('lilliganthisui', 'hiddenpower').
 learns('lilliganthisui', 'ingrain').
 learns('lilliganthisui', 'laserfocus').
 learns('lilliganthisui', 'naturalgift').
@@ -66389,7 +65718,6 @@ learns('basculin', 'gigaimpact').
 learns('basculin', 'hail').
 learns('basculin', 'headbutt').
 learns('basculin', 'headsmash').
-learns('basculin', 'hiddenpower').
 learns('basculin', 'hydropump').
 learns('basculin', 'hyperbeam').
 learns('basculin', 'icebeam').
@@ -66463,7 +65791,6 @@ learns('basculinbluestriped', 'gigaimpact').
 learns('basculinbluestriped', 'hail').
 learns('basculinbluestriped', 'headbutt').
 learns('basculinbluestriped', 'headsmash').
-learns('basculinbluestriped', 'hiddenpower').
 learns('basculinbluestriped', 'hydropump').
 learns('basculinbluestriped', 'hyperbeam').
 learns('basculinbluestriped', 'icebeam').
@@ -66583,7 +65910,6 @@ learns('sandile', 'foulplay').
 learns('sandile', 'frustration').
 learns('sandile', 'grassknot').
 learns('sandile', 'helpinghand').
-learns('sandile', 'hiddenpower').
 learns('sandile', 'honeclaws').
 learns('sandile', 'incinerate').
 learns('sandile', 'irontail').
@@ -66669,7 +65995,6 @@ learns('krokorok', 'foulplay').
 learns('krokorok', 'frustration').
 learns('krokorok', 'grassknot').
 learns('krokorok', 'helpinghand').
-learns('krokorok', 'hiddenpower').
 learns('krokorok', 'honeclaws').
 learns('krokorok', 'incinerate').
 learns('krokorok', 'irontail').
@@ -66775,7 +66100,6 @@ learns('krookodile', 'gigaimpact').
 learns('krookodile', 'grassknot').
 learns('krookodile', 'gunkshot').
 learns('krookodile', 'helpinghand').
-learns('krookodile', 'hiddenpower').
 learns('krookodile', 'highhorsepower').
 learns('krookodile', 'honeclaws').
 learns('krookodile', 'hyperbeam').
@@ -66872,7 +66196,6 @@ learns('darumaka', 'gyroball').
 learns('darumaka', 'hammerarm').
 learns('darumaka', 'headbutt').
 learns('darumaka', 'heatwave').
-learns('darumaka', 'hiddenpower').
 learns('darumaka', 'incinerate').
 learns('darumaka', 'megakick').
 learns('darumaka', 'megapunch').
@@ -67006,7 +66329,6 @@ learns('darmanitan', 'gyroball').
 learns('darmanitan', 'hammerarm').
 learns('darmanitan', 'headbutt').
 learns('darmanitan', 'heatwave').
-learns('darmanitan', 'hiddenpower').
 learns('darmanitan', 'hyperbeam').
 learns('darmanitan', 'incinerate').
 learns('darmanitan', 'irondefense').
@@ -67099,7 +66421,6 @@ learns('darmanitanzen', 'gyroball').
 learns('darmanitanzen', 'hammerarm').
 learns('darmanitanzen', 'headbutt').
 learns('darmanitanzen', 'heatwave').
-learns('darmanitanzen', 'hiddenpower').
 learns('darmanitanzen', 'hyperbeam').
 learns('darmanitanzen', 'incinerate').
 learns('darmanitanzen', 'irondefense').
@@ -67326,7 +66647,6 @@ learns('maractus', 'grassyglide').
 learns('maractus', 'grassyterrain').
 learns('maractus', 'growth').
 learns('maractus', 'helpinghand').
-learns('maractus', 'hiddenpower').
 learns('maractus', 'hypervoice').
 learns('maractus', 'ingrain').
 learns('maractus', 'knockoff').
@@ -67384,7 +66704,6 @@ learns('dwebble', 'feintattack').
 learns('dwebble', 'flail').
 learns('dwebble', 'frustration').
 learns('dwebble', 'furycutter').
-learns('dwebble', 'hiddenpower').
 learns('dwebble', 'honeclaws').
 learns('dwebble', 'irondefense').
 learns('dwebble', 'knockoff').
@@ -67446,7 +66765,6 @@ learns('crustle', 'frustration').
 learns('crustle', 'furycutter').
 learns('crustle', 'gigaimpact').
 learns('crustle', 'heavyslam').
-learns('crustle', 'hiddenpower').
 learns('crustle', 'honeclaws').
 learns('crustle', 'hyperbeam').
 learns('crustle', 'irondefense').
@@ -67535,7 +66853,6 @@ learns('scraggy', 'grassknot').
 learns('scraggy', 'headbutt').
 learns('scraggy', 'headsmash').
 learns('scraggy', 'helpinghand').
-learns('scraggy', 'hiddenpower').
 learns('scraggy', 'highjumpkick').
 learns('scraggy', 'icepunch').
 learns('scraggy', 'incinerate').
@@ -67635,7 +66952,6 @@ learns('scrafty', 'grassknot').
 learns('scrafty', 'headbutt').
 learns('scrafty', 'headsmash').
 learns('scrafty', 'helpinghand').
-learns('scrafty', 'hiddenpower').
 learns('scrafty', 'highjumpkick').
 learns('scrafty', 'hyperbeam').
 learns('scrafty', 'icepunch').
@@ -67731,7 +67047,6 @@ learns('sigilyph', 'gigaimpact').
 learns('sigilyph', 'gravity').
 learns('sigilyph', 'gust').
 learns('sigilyph', 'heatwave').
-learns('sigilyph', 'hiddenpower').
 learns('sigilyph', 'hyperbeam').
 learns('sigilyph', 'hypnosis').
 learns('sigilyph', 'icebeam').
@@ -67811,7 +67126,6 @@ learns('yamask', 'guardsplit').
 learns('yamask', 'haze').
 learns('yamask', 'healblock').
 learns('yamask', 'hex').
-learns('yamask', 'hiddenpower').
 learns('yamask', 'imprison').
 learns('yamask', 'infestation').
 learns('yamask', 'irondefense').
@@ -67934,7 +67248,6 @@ learns('cofagrigus', 'guardsplit').
 learns('cofagrigus', 'guardswap').
 learns('cofagrigus', 'haze').
 learns('cofagrigus', 'hex').
-learns('cofagrigus', 'hiddenpower').
 learns('cofagrigus', 'hyperbeam').
 learns('cofagrigus', 'imprison').
 learns('cofagrigus', 'infestation').
@@ -68009,7 +67322,6 @@ learns('tirtouga', 'facade').
 learns('tirtouga', 'flail').
 learns('tirtouga', 'frustration').
 learns('tirtouga', 'guardswap').
-learns('tirtouga', 'hiddenpower').
 learns('tirtouga', 'hydropump').
 learns('tirtouga', 'icebeam').
 learns('tirtouga', 'icywind').
@@ -68079,7 +67391,6 @@ learns('carracosta', 'focusblast').
 learns('carracosta', 'frustration').
 learns('carracosta', 'gigaimpact').
 learns('carracosta', 'guardswap').
-learns('carracosta', 'hiddenpower').
 learns('carracosta', 'hydropump').
 learns('carracosta', 'hyperbeam').
 learns('carracosta', 'icebeam').
@@ -68159,7 +67470,6 @@ learns('archen', 'facade').
 learns('archen', 'frustration').
 learns('archen', 'headsmash').
 learns('archen', 'heatwave').
-learns('archen', 'hiddenpower').
 learns('archen', 'honeclaws').
 learns('archen', 'irondefense').
 learns('archen', 'irontail').
@@ -68237,7 +67547,6 @@ learns('archeops', 'focusblast').
 learns('archeops', 'frustration').
 learns('archeops', 'gigaimpact').
 learns('archeops', 'heatwave').
-learns('archeops', 'hiddenpower').
 learns('archeops', 'honeclaws').
 learns('archeops', 'hyperbeam').
 learns('archeops', 'irondefense').
@@ -68308,7 +67617,6 @@ learns('trubbish', 'frustration').
 learns('trubbish', 'gigadrain').
 learns('trubbish', 'gunkshot').
 learns('trubbish', 'haze').
-learns('trubbish', 'hiddenpower').
 learns('trubbish', 'infestation').
 learns('trubbish', 'mudsport').
 learns('trubbish', 'painsplit').
@@ -68368,7 +67676,6 @@ learns('garbodor', 'frustration').
 learns('garbodor', 'gigadrain').
 learns('garbodor', 'gigaimpact').
 learns('garbodor', 'gunkshot').
-learns('garbodor', 'hiddenpower').
 learns('garbodor', 'hyperbeam').
 learns('garbodor', 'infestation').
 learns('garbodor', 'metalclaw').
@@ -68440,7 +67747,6 @@ learns('garbodorgmax', 'frustration').
 learns('garbodorgmax', 'gigadrain').
 learns('garbodorgmax', 'gigaimpact').
 learns('garbodorgmax', 'gunkshot').
-learns('garbodorgmax', 'hiddenpower').
 learns('garbodorgmax', 'hyperbeam').
 learns('garbodorgmax', 'infestation').
 learns('garbodorgmax', 'metalclaw').
@@ -68521,7 +67827,6 @@ learns('zorua', 'furyswipes').
 learns('zorua', 'grassknot').
 learns('zorua', 'helpinghand').
 learns('zorua', 'hex').
-learns('zorua', 'hiddenpower').
 learns('zorua', 'honeclaws').
 learns('zorua', 'hypervoice').
 learns('zorua', 'imprison').
@@ -68662,7 +67967,6 @@ learns('zoroark', 'gigaimpact').
 learns('zoroark', 'grassknot').
 learns('zoroark', 'helpinghand').
 learns('zoroark', 'hex').
-learns('zoroark', 'hiddenpower').
 learns('zoroark', 'honeclaws').
 learns('zoroark', 'hyperbeam').
 learns('zoroark', 'hypervoice').
@@ -68832,7 +68136,6 @@ learns('minccino', 'grassknot').
 learns('minccino', 'growl').
 learns('minccino', 'gunkshot').
 learns('minccino', 'helpinghand').
-learns('minccino', 'hiddenpower').
 learns('minccino', 'hypervoice').
 learns('minccino', 'irontail').
 learns('minccino', 'knockoff').
@@ -68904,7 +68207,6 @@ learns('cinccino', 'gigaimpact').
 learns('cinccino', 'grassknot').
 learns('cinccino', 'gunkshot').
 learns('cinccino', 'helpinghand').
-learns('cinccino', 'hiddenpower').
 learns('cinccino', 'hyperbeam').
 learns('cinccino', 'hypervoice').
 learns('cinccino', 'icespinner').
@@ -68991,7 +68293,6 @@ learns('gothita', 'healbell').
 learns('gothita', 'healblock').
 learns('gothita', 'healpulse').
 learns('gothita', 'helpinghand').
-learns('gothita', 'hiddenpower').
 learns('gothita', 'hypnosis').
 learns('gothita', 'imprison').
 learns('gothita', 'lightscreen').
@@ -69077,7 +68378,6 @@ learns('gothorita', 'guardswap').
 learns('gothorita', 'healbell').
 learns('gothorita', 'healblock').
 learns('gothorita', 'helpinghand').
-learns('gothorita', 'hiddenpower').
 learns('gothorita', 'hypnosis').
 learns('gothorita', 'imprison').
 learns('gothorita', 'lightscreen').
@@ -69172,7 +68472,6 @@ learns('gothitelle', 'guardswap').
 learns('gothitelle', 'healbell').
 learns('gothitelle', 'healblock').
 learns('gothitelle', 'helpinghand').
-learns('gothitelle', 'hiddenpower').
 learns('gothitelle', 'hyperbeam').
 learns('gothitelle', 'hypnosis').
 learns('gothitelle', 'imprison').
@@ -69264,7 +68563,6 @@ learns('solosis', 'guardswap').
 learns('solosis', 'gyroball').
 learns('solosis', 'healblock').
 learns('solosis', 'helpinghand').
-learns('solosis', 'hiddenpower').
 learns('solosis', 'imprison').
 learns('solosis', 'infestation').
 learns('solosis', 'irondefense').
@@ -69341,7 +68639,6 @@ learns('duosion', 'guardswap').
 learns('duosion', 'gyroball').
 learns('duosion', 'healblock').
 learns('duosion', 'helpinghand').
-learns('duosion', 'hiddenpower').
 learns('duosion', 'imprison').
 learns('duosion', 'infestation').
 learns('duosion', 'irondefense').
@@ -69430,7 +68727,6 @@ learns('reuniclus', 'gyroball').
 learns('reuniclus', 'hammerarm').
 learns('reuniclus', 'healblock').
 learns('reuniclus', 'helpinghand').
-learns('reuniclus', 'hiddenpower').
 learns('reuniclus', 'hyperbeam').
 learns('reuniclus', 'icepunch').
 learns('reuniclus', 'imprison').
@@ -69518,7 +68814,6 @@ learns('ducklett', 'frustration').
 learns('ducklett', 'gust').
 learns('ducklett', 'hail').
 learns('ducklett', 'helpinghand').
-learns('ducklett', 'hiddenpower').
 learns('ducklett', 'hurricane').
 learns('ducklett', 'icebeam').
 learns('ducklett', 'icywind').
@@ -69579,7 +68874,6 @@ learns('swanna', 'frustration').
 learns('swanna', 'gigaimpact').
 learns('swanna', 'hail').
 learns('swanna', 'helpinghand').
-learns('swanna', 'hiddenpower').
 learns('swanna', 'hurricane').
 learns('swanna', 'hydropump').
 learns('swanna', 'hyperbeam').
@@ -69640,7 +68934,6 @@ learns('vanillite', 'frostbreath').
 learns('vanillite', 'frustration').
 learns('vanillite', 'hail').
 learns('vanillite', 'harden').
-learns('vanillite', 'hiddenpower').
 learns('vanillite', 'hypervoice').
 learns('vanillite', 'icebeam').
 learns('vanillite', 'iceshard').
@@ -69690,7 +68983,6 @@ learns('vanillish', 'frostbreath').
 learns('vanillish', 'frustration').
 learns('vanillish', 'hail').
 learns('vanillish', 'harden').
-learns('vanillish', 'hiddenpower').
 learns('vanillish', 'hypervoice').
 learns('vanillish', 'icebeam').
 learns('vanillish', 'iceshard').
@@ -69745,7 +69037,6 @@ learns('vanilluxe', 'frustration').
 learns('vanilluxe', 'gigaimpact').
 learns('vanilluxe', 'hail').
 learns('vanilluxe', 'harden').
-learns('vanilluxe', 'hiddenpower').
 learns('vanilluxe', 'hyperbeam').
 learns('vanilluxe', 'hypervoice').
 learns('vanilluxe', 'icebeam').
@@ -69815,7 +69106,6 @@ learns('deerling', 'grassyterrain').
 learns('deerling', 'growl').
 learns('deerling', 'headbutt').
 learns('deerling', 'helpinghand').
-learns('deerling', 'hiddenpower').
 learns('deerling', 'jumpkick').
 learns('deerling', 'lastresort').
 learns('deerling', 'leafstorm').
@@ -69886,7 +69176,6 @@ learns('deerlingsummer', 'grassyterrain').
 learns('deerlingsummer', 'growl').
 learns('deerlingsummer', 'headbutt').
 learns('deerlingsummer', 'helpinghand').
-learns('deerlingsummer', 'hiddenpower').
 learns('deerlingsummer', 'jumpkick').
 learns('deerlingsummer', 'lastresort').
 learns('deerlingsummer', 'leafstorm').
@@ -69957,7 +69246,6 @@ learns('deerlingautumn', 'grassyterrain').
 learns('deerlingautumn', 'growl').
 learns('deerlingautumn', 'headbutt').
 learns('deerlingautumn', 'helpinghand').
-learns('deerlingautumn', 'hiddenpower').
 learns('deerlingautumn', 'jumpkick').
 learns('deerlingautumn', 'lastresort').
 learns('deerlingautumn', 'leafstorm').
@@ -70028,7 +69316,6 @@ learns('deerlingwinter', 'grassyterrain').
 learns('deerlingwinter', 'growl').
 learns('deerlingwinter', 'headbutt').
 learns('deerlingwinter', 'helpinghand').
-learns('deerlingwinter', 'hiddenpower').
 learns('deerlingwinter', 'jumpkick').
 learns('deerlingwinter', 'lastresort').
 learns('deerlingwinter', 'leafstorm').
@@ -70100,7 +69387,6 @@ learns('sawsbuck', 'grassyglide').
 learns('sawsbuck', 'grassyterrain').
 learns('sawsbuck', 'growl').
 learns('sawsbuck', 'helpinghand').
-learns('sawsbuck', 'hiddenpower').
 learns('sawsbuck', 'highhorsepower').
 learns('sawsbuck', 'hornleech').
 learns('sawsbuck', 'hyperbeam').
@@ -70179,7 +69465,6 @@ learns('emolga', 'flash').
 learns('emolga', 'fling').
 learns('emolga', 'frustration').
 learns('emolga', 'helpinghand').
-learns('emolga', 'hiddenpower').
 learns('emolga', 'iondeluge').
 learns('emolga', 'irontail').
 learns('emolga', 'knockoff').
@@ -70241,7 +69526,6 @@ learns('karrablast', 'furyattack').
 learns('karrablast', 'furycutter').
 learns('karrablast', 'gigadrain').
 learns('karrablast', 'headbutt').
-learns('karrablast', 'hiddenpower').
 learns('karrablast', 'hornattack').
 learns('karrablast', 'infestation').
 learns('karrablast', 'irondefense').
@@ -70298,7 +69582,6 @@ learns('escavalier', 'furycutter').
 learns('escavalier', 'gigadrain').
 learns('escavalier', 'gigaimpact').
 learns('escavalier', 'headbutt').
-learns('escavalier', 'hiddenpower').
 learns('escavalier', 'hyperbeam').
 learns('escavalier', 'infestation').
 learns('escavalier', 'irondefense').
@@ -70366,7 +69649,6 @@ learns('foongus', 'gigadrain').
 learns('foongus', 'grassknot').
 learns('foongus', 'grassyterrain').
 learns('foongus', 'growth').
-learns('foongus', 'hiddenpower').
 learns('foongus', 'ingrain').
 learns('foongus', 'leafstorm').
 learns('foongus', 'magicalleaf').
@@ -70423,7 +69705,6 @@ learns('amoonguss', 'grassknot').
 learns('amoonguss', 'grassyterrain').
 learns('amoonguss', 'growth').
 learns('amoonguss', 'hex').
-learns('amoonguss', 'hiddenpower').
 learns('amoonguss', 'hyperbeam').
 learns('amoonguss', 'ingrain').
 learns('amoonguss', 'leafstorm').
@@ -70485,7 +69766,6 @@ learns('frillish', 'frustration').
 learns('frillish', 'gigadrain').
 learns('frillish', 'hail').
 learns('frillish', 'hex').
-learns('frillish', 'hiddenpower').
 learns('frillish', 'hydropump').
 learns('frillish', 'icebeam').
 learns('frillish', 'icywind').
@@ -70555,7 +69835,6 @@ learns('jellicent', 'gigadrain').
 learns('jellicent', 'gigaimpact').
 learns('jellicent', 'hail').
 learns('jellicent', 'hex').
-learns('jellicent', 'hiddenpower').
 learns('jellicent', 'hydropump').
 learns('jellicent', 'hyperbeam').
 learns('jellicent', 'icebeam').
@@ -70630,7 +69909,6 @@ learns('alomomola', 'hail').
 learns('alomomola', 'healingwish').
 learns('alomomola', 'healpulse').
 learns('alomomola', 'helpinghand').
-learns('alomomola', 'hiddenpower').
 learns('alomomola', 'hydropump').
 learns('alomomola', 'hyperbeam').
 learns('alomomola', 'icebeam').
@@ -70705,7 +69983,6 @@ learns('joltik', 'furycutter').
 learns('joltik', 'gastroacid').
 learns('joltik', 'gigadrain').
 learns('joltik', 'helpinghand').
-learns('joltik', 'hiddenpower').
 learns('joltik', 'infestation').
 learns('joltik', 'leechlife').
 learns('joltik', 'lightscreen').
@@ -70774,7 +70051,6 @@ learns('galvantula', 'gastroacid').
 learns('galvantula', 'gigadrain').
 learns('galvantula', 'gigaimpact').
 learns('galvantula', 'helpinghand').
-learns('galvantula', 'hiddenpower').
 learns('galvantula', 'hyperbeam').
 learns('galvantula', 'infestation').
 learns('galvantula', 'leechlife').
@@ -70841,7 +70117,6 @@ learns('ferroseed', 'gigadrain').
 learns('ferroseed', 'gravity').
 learns('ferroseed', 'gyroball').
 learns('ferroseed', 'harden').
-learns('ferroseed', 'hiddenpower').
 learns('ferroseed', 'honeclaws').
 learns('ferroseed', 'ingrain').
 learns('ferroseed', 'irondefense').
@@ -70909,7 +70184,6 @@ learns('ferrothorn', 'gravity').
 learns('ferrothorn', 'gyroball').
 learns('ferrothorn', 'harden').
 learns('ferrothorn', 'heavyslam').
-learns('ferrothorn', 'hiddenpower').
 learns('ferrothorn', 'honeclaws').
 learns('ferrothorn', 'hyperbeam').
 learns('ferrothorn', 'ingrain').
@@ -70972,7 +70246,6 @@ learns('klink', 'flashcannon').
 learns('klink', 'frustration').
 learns('klink', 'geargrind').
 learns('klink', 'gravity').
-learns('klink', 'hiddenpower').
 learns('klink', 'hyperbeam').
 learns('klink', 'irondefense').
 learns('klink', 'lockon').
@@ -71026,7 +70299,6 @@ learns('klang', 'flashcannon').
 learns('klang', 'frustration').
 learns('klang', 'geargrind').
 learns('klang', 'gravity').
-learns('klang', 'hiddenpower').
 learns('klang', 'hyperbeam').
 learns('klang', 'irondefense').
 learns('klang', 'lockon').
@@ -71083,7 +70355,6 @@ learns('klinklang', 'geargrind').
 learns('klinklang', 'gearup').
 learns('klinklang', 'gigaimpact').
 learns('klinklang', 'gravity').
-learns('klinklang', 'hiddenpower').
 learns('klinklang', 'hyperbeam').
 learns('klinklang', 'irondefense').
 learns('klinklang', 'lockon').
@@ -71160,7 +70431,6 @@ learns('eelektrik', 'frustration').
 learns('eelektrik', 'gastroacid').
 learns('eelektrik', 'gigadrain').
 learns('eelektrik', 'headbutt').
-learns('eelektrik', 'hiddenpower').
 learns('eelektrik', 'irontail').
 learns('eelektrik', 'knockoff').
 learns('eelektrik', 'lightscreen').
@@ -71241,7 +70511,6 @@ learns('eelektross', 'grassknot').
 learns('eelektross', 'headbutt').
 learns('eelektross', 'heavyslam').
 learns('eelektross', 'hex').
-learns('eelektross', 'hiddenpower').
 learns('eelektross', 'honeclaws').
 learns('eelektross', 'hyperbeam').
 learns('eelektross', 'iondeluge').
@@ -71324,7 +70593,6 @@ learns('elgyem', 'guardsplit').
 learns('elgyem', 'guardswap').
 learns('elgyem', 'headbutt').
 learns('elgyem', 'healblock').
-learns('elgyem', 'hiddenpower').
 learns('elgyem', 'imprison').
 learns('elgyem', 'lightscreen').
 learns('elgyem', 'magiccoat').
@@ -71405,7 +70673,6 @@ learns('beheeyem', 'guardsplit').
 learns('beheeyem', 'guardswap').
 learns('beheeyem', 'headbutt').
 learns('beheeyem', 'healblock').
-learns('beheeyem', 'hiddenpower').
 learns('beheeyem', 'hyperbeam').
 learns('beheeyem', 'imprison').
 learns('beheeyem', 'lightscreen').
@@ -71495,7 +70762,6 @@ learns('litwick', 'frustration').
 learns('litwick', 'haze').
 learns('litwick', 'heatwave').
 learns('litwick', 'hex').
-learns('litwick', 'hiddenpower').
 learns('litwick', 'imprison').
 learns('litwick', 'incinerate').
 learns('litwick', 'inferno').
@@ -71563,7 +70829,6 @@ learns('lampent', 'frustration').
 learns('lampent', 'haze').
 learns('lampent', 'heatwave').
 learns('lampent', 'hex').
-learns('lampent', 'hiddenpower').
 learns('lampent', 'imprison').
 learns('lampent', 'incinerate').
 learns('lampent', 'inferno').
@@ -71637,7 +70902,6 @@ learns('chandelure', 'gigaimpact').
 learns('chandelure', 'haze').
 learns('chandelure', 'heatwave').
 learns('chandelure', 'hex').
-learns('chandelure', 'hiddenpower').
 learns('chandelure', 'hyperbeam').
 learns('chandelure', 'imprison').
 learns('chandelure', 'incinerate').
@@ -71720,7 +70984,6 @@ learns('axew', 'frustration').
 learns('axew', 'gigaimpact').
 learns('axew', 'guillotine').
 learns('axew', 'harden').
-learns('axew', 'hiddenpower').
 learns('axew', 'honeclaws').
 learns('axew', 'incinerate').
 learns('axew', 'ironhead').
@@ -71797,7 +71060,6 @@ learns('fraxure', 'focusenergy').
 learns('fraxure', 'frustration').
 learns('fraxure', 'gigaimpact').
 learns('fraxure', 'guillotine').
-learns('fraxure', 'hiddenpower').
 learns('fraxure', 'honeclaws').
 learns('fraxure', 'incinerate').
 learns('fraxure', 'ironhead').
@@ -71884,7 +71146,6 @@ learns('haxorus', 'frustration').
 learns('haxorus', 'gigaimpact').
 learns('haxorus', 'grassknot').
 learns('haxorus', 'guillotine').
-learns('haxorus', 'hiddenpower').
 learns('haxorus', 'honeclaws').
 learns('haxorus', 'hyperbeam').
 learns('haxorus', 'incinerate').
@@ -71971,7 +71232,6 @@ learns('cubchoo', 'grassknot').
 learns('cubchoo', 'growl').
 learns('cubchoo', 'hail').
 learns('cubchoo', 'heavyslam').
-learns('cubchoo', 'hiddenpower').
 learns('cubchoo', 'honeclaws').
 learns('cubchoo', 'icebeam').
 learns('cubchoo', 'icefang').
@@ -72065,7 +71325,6 @@ learns('beartic', 'growl').
 learns('beartic', 'hail').
 learns('beartic', 'hardpress').
 learns('beartic', 'heavyslam').
-learns('beartic', 'hiddenpower').
 learns('beartic', 'honeclaws').
 learns('beartic', 'hyperbeam').
 learns('beartic', 'icebeam').
@@ -72148,7 +71407,6 @@ learns('cryogonal', 'frustration').
 learns('cryogonal', 'gigaimpact').
 learns('cryogonal', 'hail').
 learns('cryogonal', 'haze').
-learns('cryogonal', 'hiddenpower').
 learns('cryogonal', 'hyperbeam').
 learns('cryogonal', 'icebeam').
 learns('cryogonal', 'iceshard').
@@ -72213,7 +71471,6 @@ learns('shelmet', 'gastroacid').
 learns('shelmet', 'gigadrain').
 learns('shelmet', 'guardsplit').
 learns('shelmet', 'guardswap').
-learns('shelmet', 'hiddenpower').
 learns('shelmet', 'infestation').
 learns('shelmet', 'leechlife').
 learns('shelmet', 'megadrain').
@@ -72266,7 +71523,6 @@ learns('accelgor', 'gastroacid').
 learns('accelgor', 'gigadrain').
 learns('accelgor', 'gigaimpact').
 learns('accelgor', 'guardswap').
-learns('accelgor', 'hiddenpower').
 learns('accelgor', 'hyperbeam').
 learns('accelgor', 'infestation').
 learns('accelgor', 'knockoff').
@@ -72336,7 +71592,6 @@ learns('stunfisk', 'flail').
 learns('stunfisk', 'flash').
 learns('stunfisk', 'foulplay').
 learns('stunfisk', 'frustration').
-learns('stunfisk', 'hiddenpower').
 learns('stunfisk', 'infestation').
 learns('stunfisk', 'lashout').
 learns('stunfisk', 'magnetrise').
@@ -72474,7 +71729,6 @@ learns('mienfoo', 'frustration').
 learns('mienfoo', 'furyswipes').
 learns('mienfoo', 'grassknot').
 learns('mienfoo', 'helpinghand').
-learns('mienfoo', 'hiddenpower').
 learns('mienfoo', 'highjumpkick').
 learns('mienfoo', 'honeclaws').
 learns('mienfoo', 'jumpkick').
@@ -72561,7 +71815,6 @@ learns('mienshao', 'furyswipes').
 learns('mienshao', 'gigaimpact').
 learns('mienshao', 'grassknot').
 learns('mienshao', 'helpinghand').
-learns('mienshao', 'hiddenpower').
 learns('mienshao', 'highjumpkick').
 learns('mienshao', 'honeclaws').
 learns('mienshao', 'hyperbeam').
@@ -72654,7 +71907,6 @@ learns('druddigon', 'gigaimpact').
 learns('druddigon', 'glare').
 learns('druddigon', 'gunkshot').
 learns('druddigon', 'heatwave').
-learns('druddigon', 'hiddenpower').
 learns('druddigon', 'honeclaws').
 learns('druddigon', 'hyperbeam').
 learns('druddigon', 'incinerate').
@@ -72741,7 +71993,6 @@ learns('golett', 'hammerarm').
 learns('golett', 'heavyslam').
 learns('golett', 'helpinghand').
 learns('golett', 'hex').
-learns('golett', 'hiddenpower').
 learns('golett', 'icebeam').
 learns('golett', 'icepunch').
 learns('golett', 'icywind').
@@ -72839,7 +72090,6 @@ learns('golurk', 'heatcrash').
 learns('golurk', 'heavyslam').
 learns('golurk', 'helpinghand').
 learns('golurk', 'hex').
-learns('golurk', 'hiddenpower').
 learns('golurk', 'highhorsepower').
 learns('golurk', 'hyperbeam').
 learns('golurk', 'icebeam').
@@ -72928,7 +72178,6 @@ learns('pawniard', 'furycutter').
 learns('pawniard', 'grassknot').
 learns('pawniard', 'guillotine').
 learns('pawniard', 'headbutt').
-learns('pawniard', 'hiddenpower').
 learns('pawniard', 'honeclaws').
 learns('pawniard', 'irondefense').
 learns('pawniard', 'ironhead').
@@ -73013,7 +72262,6 @@ learns('bisharp', 'furycutter').
 learns('bisharp', 'gigaimpact').
 learns('bisharp', 'grassknot').
 learns('bisharp', 'guillotine').
-learns('bisharp', 'hiddenpower').
 learns('bisharp', 'honeclaws').
 learns('bisharp', 'hyperbeam').
 learns('bisharp', 'irondefense').
@@ -73099,7 +72347,6 @@ learns('bouffalant', 'furyattack').
 learns('bouffalant', 'gigaimpact').
 learns('bouffalant', 'headbutt').
 learns('bouffalant', 'headcharge').
-learns('bouffalant', 'hiddenpower').
 learns('bouffalant', 'highhorsepower').
 learns('bouffalant', 'hornattack').
 learns('bouffalant', 'ironhead').
@@ -73176,7 +72423,6 @@ learns('rufflet', 'frustration').
 learns('rufflet', 'furyattack').
 learns('rufflet', 'heatwave').
 learns('rufflet', 'helpinghand').
-learns('rufflet', 'hiddenpower').
 learns('rufflet', 'honeclaws').
 learns('rufflet', 'hurricane').
 learns('rufflet', 'leer').
@@ -73243,7 +72489,6 @@ learns('braviary', 'furyattack').
 learns('braviary', 'gigaimpact').
 learns('braviary', 'heatwave').
 learns('braviary', 'helpinghand').
-learns('braviary', 'hiddenpower').
 learns('braviary', 'honeclaws').
 learns('braviary', 'hurricane').
 learns('braviary', 'hyperbeam').
@@ -73364,7 +72609,6 @@ learns('braviaryhisui', 'cut').
 learns('braviaryhisui', 'doubleteam').
 learns('braviaryhisui', 'frustration').
 learns('braviaryhisui', 'furyattack').
-learns('braviaryhisui', 'hiddenpower').
 learns('braviaryhisui', 'pluck').
 learns('braviaryhisui', 'retaliate').
 learns('braviaryhisui', 'return').
@@ -73406,7 +72650,6 @@ learns('vullaby', 'frustration').
 learns('vullaby', 'furyattack').
 learns('vullaby', 'gust').
 learns('vullaby', 'heatwave').
-learns('vullaby', 'hiddenpower').
 learns('vullaby', 'incinerate').
 learns('vullaby', 'irondefense').
 learns('vullaby', 'knockoff').
@@ -73482,7 +72725,6 @@ learns('mandibuzz', 'furyattack').
 learns('mandibuzz', 'gigaimpact').
 learns('mandibuzz', 'gust').
 learns('mandibuzz', 'heatwave').
-learns('mandibuzz', 'hiddenpower').
 learns('mandibuzz', 'hurricane').
 learns('mandibuzz', 'hyperbeam').
 learns('mandibuzz', 'incinerate').
@@ -73566,7 +72808,6 @@ learns('heatmor', 'gastroacid').
 learns('heatmor', 'gigadrain').
 learns('heatmor', 'gigaimpact').
 learns('heatmor', 'heatwave').
-learns('heatmor', 'hiddenpower').
 learns('heatmor', 'honeclaws').
 learns('heatmor', 'incinerate').
 learns('heatmor', 'inferno').
@@ -73638,7 +72879,6 @@ learns('durant', 'furycutter').
 learns('durant', 'gigaimpact').
 learns('durant', 'guillotine').
 learns('durant', 'helpinghand').
-learns('durant', 'hiddenpower').
 learns('durant', 'honeclaws').
 learns('durant', 'infestation').
 learns('durant', 'irondefense').
@@ -73704,7 +72944,6 @@ learns('deino', 'focusenergy').
 learns('deino', 'frustration').
 learns('deino', 'headbutt').
 learns('deino', 'headsmash').
-learns('deino', 'hiddenpower').
 learns('deino', 'hypervoice').
 learns('deino', 'icefang').
 learns('deino', 'incinerate').
@@ -73770,7 +73009,6 @@ learns('zweilous', 'focusenergy').
 learns('zweilous', 'frustration').
 learns('zweilous', 'headbutt').
 learns('zweilous', 'helpinghand').
-learns('zweilous', 'hiddenpower').
 learns('zweilous', 'hypervoice').
 learns('zweilous', 'icefang').
 learns('zweilous', 'incinerate').
@@ -73859,7 +73097,6 @@ learns('hydreigon', 'gigaimpact').
 learns('hydreigon', 'headbutt').
 learns('hydreigon', 'heatwave').
 learns('hydreigon', 'helpinghand').
-learns('hydreigon', 'hiddenpower').
 learns('hydreigon', 'hydropump').
 learns('hydreigon', 'hyperbeam').
 learns('hydreigon', 'hypervoice').
@@ -73947,7 +73184,6 @@ learns('larvesta', 'frustration').
 learns('larvesta', 'gigadrain').
 learns('larvesta', 'harden').
 learns('larvesta', 'heatwave').
-learns('larvesta', 'hiddenpower').
 learns('larvesta', 'incinerate').
 learns('larvesta', 'leechlife').
 learns('larvesta', 'lightscreen').
@@ -74015,7 +73251,6 @@ learns('volcarona', 'gigadrain').
 learns('volcarona', 'gigaimpact').
 learns('volcarona', 'gust').
 learns('volcarona', 'heatwave').
-learns('volcarona', 'hiddenpower').
 learns('volcarona', 'hurricane').
 learns('volcarona', 'hyperbeam').
 learns('volcarona', 'incinerate').
@@ -74089,7 +73324,6 @@ learns('cobalion', 'frustration').
 learns('cobalion', 'gigaimpact').
 learns('cobalion', 'heavyslam').
 learns('cobalion', 'helpinghand').
-learns('cobalion', 'hiddenpower').
 learns('cobalion', 'honeclaws').
 learns('cobalion', 'hyperbeam').
 learns('cobalion', 'irondefense').
@@ -74170,7 +73404,6 @@ learns('terrakion', 'focusblast').
 learns('terrakion', 'frustration').
 learns('terrakion', 'gigaimpact').
 learns('terrakion', 'helpinghand').
-learns('terrakion', 'hiddenpower').
 learns('terrakion', 'highhorsepower').
 learns('terrakion', 'hyperbeam').
 learns('terrakion', 'ironhead').
@@ -74249,7 +73482,6 @@ learns('virizion', 'gigaimpact').
 learns('virizion', 'grassknot').
 learns('virizion', 'grassyglide').
 learns('virizion', 'helpinghand').
-learns('virizion', 'hiddenpower').
 learns('virizion', 'hyperbeam').
 learns('virizion', 'laserfocus').
 learns('virizion', 'leafblade').
@@ -74336,7 +73568,6 @@ learns('tornadus', 'grassknot').
 learns('tornadus', 'gust').
 learns('tornadus', 'hammerarm').
 learns('tornadus', 'heatwave').
-learns('tornadus', 'hiddenpower').
 learns('tornadus', 'hurricane').
 learns('tornadus', 'hyperbeam').
 learns('tornadus', 'icywind').
@@ -74418,7 +73649,6 @@ learns('tornadustherian', 'grassknot').
 learns('tornadustherian', 'gust').
 learns('tornadustherian', 'hammerarm').
 learns('tornadustherian', 'heatwave').
-learns('tornadustherian', 'hiddenpower').
 learns('tornadustherian', 'hurricane').
 learns('tornadustherian', 'hyperbeam').
 learns('tornadustherian', 'icywind').
@@ -74501,7 +73731,6 @@ learns('thundurus', 'gigaimpact').
 learns('thundurus', 'grassknot').
 learns('thundurus', 'hammerarm').
 learns('thundurus', 'healblock').
-learns('thundurus', 'hiddenpower').
 learns('thundurus', 'hyperbeam').
 learns('thundurus', 'incinerate').
 learns('thundurus', 'irontail').
@@ -74591,7 +73820,6 @@ learns('thundurustherian', 'gigaimpact').
 learns('thundurustherian', 'grassknot').
 learns('thundurustherian', 'hammerarm').
 learns('thundurustherian', 'healblock').
-learns('thundurustherian', 'hiddenpower').
 learns('thundurustherian', 'hyperbeam').
 learns('thundurustherian', 'incinerate').
 learns('thundurustherian', 'irontail').
@@ -74687,7 +73915,6 @@ learns('reshiram', 'gigaimpact').
 learns('reshiram', 'heatcrash').
 learns('reshiram', 'heatwave').
 learns('reshiram', 'helpinghand').
-learns('reshiram', 'hiddenpower').
 learns('reshiram', 'honeclaws').
 learns('reshiram', 'hyperbeam').
 learns('reshiram', 'hypervoice').
@@ -74779,7 +74006,6 @@ learns('zekrom', 'fusionbolt').
 learns('zekrom', 'gigaimpact').
 learns('zekrom', 'haze').
 learns('zekrom', 'helpinghand').
-learns('zekrom', 'hiddenpower').
 learns('zekrom', 'honeclaws').
 learns('zekrom', 'hyperbeam').
 learns('zekrom', 'hypervoice').
@@ -74864,7 +74090,6 @@ learns('landorus', 'gigaimpact').
 learns('landorus', 'grassknot').
 learns('landorus', 'gravity').
 learns('landorus', 'hammerarm').
-learns('landorus', 'hiddenpower').
 learns('landorus', 'hyperbeam').
 learns('landorus', 'imprison').
 learns('landorus', 'irontail').
@@ -74943,7 +74168,6 @@ learns('landorustherian', 'gigaimpact').
 learns('landorustherian', 'grassknot').
 learns('landorustherian', 'gravity').
 learns('landorustherian', 'hammerarm').
-learns('landorustherian', 'hiddenpower').
 learns('landorustherian', 'hyperbeam').
 learns('landorustherian', 'imprison').
 learns('landorustherian', 'irontail').
@@ -75029,7 +74253,6 @@ learns('kyurem', 'gigaimpact').
 learns('kyurem', 'glaciate').
 learns('kyurem', 'hail').
 learns('kyurem', 'helpinghand').
-learns('kyurem', 'hiddenpower').
 learns('kyurem', 'honeclaws').
 learns('kyurem', 'hyperbeam').
 learns('kyurem', 'hypervoice').
@@ -75116,7 +74339,6 @@ learns('kyuremblack', 'fusionbolt').
 learns('kyuremblack', 'gigaimpact').
 learns('kyuremblack', 'hail').
 learns('kyuremblack', 'helpinghand').
-learns('kyuremblack', 'hiddenpower').
 learns('kyuremblack', 'honeclaws').
 learns('kyuremblack', 'hyperbeam').
 learns('kyuremblack', 'hypervoice').
@@ -75202,7 +74424,6 @@ learns('kyuremwhite', 'fusionflare').
 learns('kyuremwhite', 'gigaimpact').
 learns('kyuremwhite', 'hail').
 learns('kyuremwhite', 'helpinghand').
-learns('kyuremwhite', 'hiddenpower').
 learns('kyuremwhite', 'honeclaws').
 learns('kyuremwhite', 'hyperbeam').
 learns('kyuremwhite', 'hypervoice').
@@ -75283,7 +74504,6 @@ learns('keldeo', 'frustration').
 learns('keldeo', 'gigaimpact').
 learns('keldeo', 'hail').
 learns('keldeo', 'helpinghand').
-learns('keldeo', 'hiddenpower').
 learns('keldeo', 'hydropump').
 learns('keldeo', 'hyperbeam').
 learns('keldeo', 'icywind').
@@ -75364,7 +74584,6 @@ learns('keldeoresolute', 'frustration').
 learns('keldeoresolute', 'gigaimpact').
 learns('keldeoresolute', 'hail').
 learns('keldeoresolute', 'helpinghand').
-learns('keldeoresolute', 'hiddenpower').
 learns('keldeoresolute', 'hydropump').
 learns('keldeoresolute', 'hyperbeam').
 learns('keldeoresolute', 'icywind').
@@ -75453,7 +74672,6 @@ learns('meloetta', 'grassknot').
 learns('meloetta', 'gravity').
 learns('meloetta', 'healbell').
 learns('meloetta', 'helpinghand').
-learns('meloetta', 'hiddenpower').
 learns('meloetta', 'honeclaws').
 learns('meloetta', 'hyperbeam').
 learns('meloetta', 'hypervoice').
@@ -75559,7 +74777,6 @@ learns('meloettapirouette', 'grassknot').
 learns('meloettapirouette', 'gravity').
 learns('meloettapirouette', 'healbell').
 learns('meloettapirouette', 'helpinghand').
-learns('meloettapirouette', 'hiddenpower').
 learns('meloettapirouette', 'honeclaws').
 learns('meloettapirouette', 'hyperbeam').
 learns('meloettapirouette', 'hypervoice').
@@ -75657,7 +74874,6 @@ learns('genesect', 'gigadrain').
 learns('genesect', 'gigaimpact').
 learns('genesect', 'gravity').
 learns('genesect', 'gunkshot').
-learns('genesect', 'hiddenpower').
 learns('genesect', 'honeclaws').
 learns('genesect', 'hyperbeam').
 learns('genesect', 'icebeam').
@@ -75739,7 +74955,6 @@ learns('genesectdouse', 'gigadrain').
 learns('genesectdouse', 'gigaimpact').
 learns('genesectdouse', 'gravity').
 learns('genesectdouse', 'gunkshot').
-learns('genesectdouse', 'hiddenpower').
 learns('genesectdouse', 'honeclaws').
 learns('genesectdouse', 'hyperbeam').
 learns('genesectdouse', 'icebeam').
@@ -75821,7 +75036,6 @@ learns('genesectshock', 'gigadrain').
 learns('genesectshock', 'gigaimpact').
 learns('genesectshock', 'gravity').
 learns('genesectshock', 'gunkshot').
-learns('genesectshock', 'hiddenpower').
 learns('genesectshock', 'honeclaws').
 learns('genesectshock', 'hyperbeam').
 learns('genesectshock', 'icebeam').
@@ -75903,7 +75117,6 @@ learns('genesectburn', 'gigadrain').
 learns('genesectburn', 'gigaimpact').
 learns('genesectburn', 'gravity').
 learns('genesectburn', 'gunkshot').
-learns('genesectburn', 'hiddenpower').
 learns('genesectburn', 'honeclaws').
 learns('genesectburn', 'hyperbeam').
 learns('genesectburn', 'icebeam').
@@ -75985,7 +75198,6 @@ learns('genesectchill', 'gigadrain').
 learns('genesectchill', 'gigaimpact').
 learns('genesectchill', 'gravity').
 learns('genesectchill', 'gunkshot').
-learns('genesectchill', 'hiddenpower').
 learns('genesectchill', 'honeclaws').
 learns('genesectchill', 'hyperbeam').
 learns('genesectchill', 'icebeam').
@@ -76071,7 +75283,6 @@ learns('chespin', 'grassyterrain').
 learns('chespin', 'growl').
 learns('chespin', 'gyroball').
 learns('chespin', 'helpinghand').
-learns('chespin', 'hiddenpower').
 learns('chespin', 'irondefense').
 learns('chespin', 'ironhead').
 learns('chespin', 'irontail').
@@ -76165,7 +75376,6 @@ learns('quilladin', 'grassyterrain').
 learns('quilladin', 'growl').
 learns('quilladin', 'gyroball').
 learns('quilladin', 'helpinghand').
-learns('quilladin', 'hiddenpower').
 learns('quilladin', 'honeclaws').
 learns('quilladin', 'irondefense').
 learns('quilladin', 'ironhead').
@@ -76277,7 +75487,6 @@ learns('chesnaught', 'growl').
 learns('chesnaught', 'gyroball').
 learns('chesnaught', 'hammerarm').
 learns('chesnaught', 'helpinghand').
-learns('chesnaught', 'hiddenpower').
 learns('chesnaught', 'highhorsepower').
 learns('chesnaught', 'honeclaws').
 learns('chesnaught', 'hyperbeam').
@@ -76378,7 +75587,6 @@ learns('fennekin', 'frustration').
 learns('fennekin', 'grassknot').
 learns('fennekin', 'heatwave').
 learns('fennekin', 'helpinghand').
-learns('fennekin', 'hiddenpower').
 learns('fennekin', 'howl').
 learns('fennekin', 'hypnosis').
 learns('fennekin', 'imprison').
@@ -76453,7 +75661,6 @@ learns('braixen', 'frustration').
 learns('braixen', 'grassknot').
 learns('braixen', 'heatwave').
 learns('braixen', 'helpinghand').
-learns('braixen', 'hiddenpower').
 learns('braixen', 'howl').
 learns('braixen', 'imprison').
 learns('braixen', 'incinerate').
@@ -76546,7 +75753,6 @@ learns('delphox', 'grassknot').
 learns('delphox', 'heatwave').
 learns('delphox', 'helpinghand').
 learns('delphox', 'hex').
-learns('delphox', 'hiddenpower').
 learns('delphox', 'howl').
 learns('delphox', 'hyperbeam').
 learns('delphox', 'hypervoice').
@@ -76639,7 +75845,6 @@ learns('froakie', 'frustration').
 learns('froakie', 'grassknot').
 learns('froakie', 'growl').
 learns('froakie', 'helpinghand').
-learns('froakie', 'hiddenpower').
 learns('froakie', 'hydropump').
 learns('froakie', 'icebeam').
 learns('froakie', 'icywind').
@@ -76715,7 +75920,6 @@ learns('frogadier', 'grassknot').
 learns('frogadier', 'growl').
 learns('frogadier', 'gunkshot').
 learns('frogadier', 'helpinghand').
-learns('frogadier', 'hiddenpower').
 learns('frogadier', 'hydropump').
 learns('frogadier', 'icebeam').
 learns('frogadier', 'icepunch').
@@ -76804,7 +76008,6 @@ learns('greninja', 'gunkshot').
 learns('greninja', 'happyhour').
 learns('greninja', 'haze').
 learns('greninja', 'helpinghand').
-learns('greninja', 'hiddenpower').
 learns('greninja', 'hydrocannon').
 learns('greninja', 'hydropump').
 learns('greninja', 'hyperbeam').
@@ -76900,7 +76103,6 @@ learns('greninjabond', 'growl').
 learns('greninjabond', 'gunkshot').
 learns('greninjabond', 'haze').
 learns('greninjabond', 'helpinghand').
-learns('greninjabond', 'hiddenpower').
 learns('greninjabond', 'hydrocannon').
 learns('greninjabond', 'hydropump').
 learns('greninjabond', 'hyperbeam').
@@ -76987,7 +76189,6 @@ learns('greninjaash', 'growl').
 learns('greninjaash', 'gunkshot').
 learns('greninjaash', 'haze').
 learns('greninjaash', 'helpinghand').
-learns('greninjaash', 'hiddenpower').
 learns('greninjaash', 'hydrocannon').
 learns('greninjaash', 'hydropump').
 learns('greninjaash', 'hyperbeam').
@@ -77068,7 +76269,6 @@ learns('bunnelby', 'flail').
 learns('bunnelby', 'fling').
 learns('bunnelby', 'frustration').
 learns('bunnelby', 'grassknot').
-learns('bunnelby', 'hiddenpower').
 learns('bunnelby', 'ironhead').
 learns('bunnelby', 'irontail').
 learns('bunnelby', 'laserfocus').
@@ -77142,7 +76342,6 @@ learns('diggersby', 'gigaimpact').
 learns('diggersby', 'grassknot').
 learns('diggersby', 'gunkshot').
 learns('diggersby', 'hammerarm').
-learns('diggersby', 'hiddenpower').
 learns('diggersby', 'highhorsepower').
 learns('diggersby', 'hyperbeam').
 learns('diggersby', 'icepunch').
@@ -77225,7 +76424,6 @@ learns('fletchling', 'fly').
 learns('fletchling', 'frustration').
 learns('fletchling', 'growl').
 learns('fletchling', 'heatwave').
-learns('fletchling', 'hiddenpower').
 learns('fletchling', 'hurricane').
 learns('fletchling', 'mefirst').
 learns('fletchling', 'naturalgift').
@@ -77287,7 +76485,6 @@ learns('fletchinder', 'fly').
 learns('fletchinder', 'frustration').
 learns('fletchinder', 'growl').
 learns('fletchinder', 'heatwave').
-learns('fletchinder', 'hiddenpower').
 learns('fletchinder', 'hurricane').
 learns('fletchinder', 'incinerate').
 learns('fletchinder', 'mefirst').
@@ -77353,7 +76550,6 @@ learns('talonflame', 'frustration').
 learns('talonflame', 'gigaimpact').
 learns('talonflame', 'growl').
 learns('talonflame', 'heatwave').
-learns('talonflame', 'hiddenpower').
 learns('talonflame', 'honeclaws').
 learns('talonflame', 'hurricane').
 learns('talonflame', 'hyperbeam').
@@ -77441,7 +76637,6 @@ learns('vivillon', 'frustration').
 learns('vivillon', 'gigadrain').
 learns('vivillon', 'gigaimpact').
 learns('vivillon', 'gust').
-learns('vivillon', 'hiddenpower').
 learns('vivillon', 'hurricane').
 learns('vivillon', 'hyperbeam').
 learns('vivillon', 'infestation').
@@ -77512,7 +76707,6 @@ learns('vivillonicysnow', 'frustration').
 learns('vivillonicysnow', 'gigadrain').
 learns('vivillonicysnow', 'gigaimpact').
 learns('vivillonicysnow', 'gust').
-learns('vivillonicysnow', 'hiddenpower').
 learns('vivillonicysnow', 'hurricane').
 learns('vivillonicysnow', 'hyperbeam').
 learns('vivillonicysnow', 'infestation').
@@ -77583,7 +76777,6 @@ learns('vivillonpolar', 'frustration').
 learns('vivillonpolar', 'gigadrain').
 learns('vivillonpolar', 'gigaimpact').
 learns('vivillonpolar', 'gust').
-learns('vivillonpolar', 'hiddenpower').
 learns('vivillonpolar', 'hurricane').
 learns('vivillonpolar', 'hyperbeam').
 learns('vivillonpolar', 'infestation').
@@ -77654,7 +76847,6 @@ learns('vivillontundra', 'frustration').
 learns('vivillontundra', 'gigadrain').
 learns('vivillontundra', 'gigaimpact').
 learns('vivillontundra', 'gust').
-learns('vivillontundra', 'hiddenpower').
 learns('vivillontundra', 'hurricane').
 learns('vivillontundra', 'hyperbeam').
 learns('vivillontundra', 'infestation').
@@ -77725,7 +76917,6 @@ learns('vivilloncontinental', 'frustration').
 learns('vivilloncontinental', 'gigadrain').
 learns('vivilloncontinental', 'gigaimpact').
 learns('vivilloncontinental', 'gust').
-learns('vivilloncontinental', 'hiddenpower').
 learns('vivilloncontinental', 'hurricane').
 learns('vivilloncontinental', 'hyperbeam').
 learns('vivilloncontinental', 'infestation').
@@ -77796,7 +76987,6 @@ learns('vivillongarden', 'frustration').
 learns('vivillongarden', 'gigadrain').
 learns('vivillongarden', 'gigaimpact').
 learns('vivillongarden', 'gust').
-learns('vivillongarden', 'hiddenpower').
 learns('vivillongarden', 'hurricane').
 learns('vivillongarden', 'hyperbeam').
 learns('vivillongarden', 'infestation').
@@ -77867,7 +77057,6 @@ learns('vivillonelegant', 'frustration').
 learns('vivillonelegant', 'gigadrain').
 learns('vivillonelegant', 'gigaimpact').
 learns('vivillonelegant', 'gust').
-learns('vivillonelegant', 'hiddenpower').
 learns('vivillonelegant', 'hurricane').
 learns('vivillonelegant', 'hyperbeam').
 learns('vivillonelegant', 'infestation').
@@ -77938,7 +77127,6 @@ learns('vivillonmodern', 'frustration').
 learns('vivillonmodern', 'gigadrain').
 learns('vivillonmodern', 'gigaimpact').
 learns('vivillonmodern', 'gust').
-learns('vivillonmodern', 'hiddenpower').
 learns('vivillonmodern', 'hurricane').
 learns('vivillonmodern', 'hyperbeam').
 learns('vivillonmodern', 'infestation').
@@ -78009,7 +77197,6 @@ learns('vivillonmarine', 'frustration').
 learns('vivillonmarine', 'gigadrain').
 learns('vivillonmarine', 'gigaimpact').
 learns('vivillonmarine', 'gust').
-learns('vivillonmarine', 'hiddenpower').
 learns('vivillonmarine', 'hurricane').
 learns('vivillonmarine', 'hyperbeam').
 learns('vivillonmarine', 'infestation').
@@ -78080,7 +77267,6 @@ learns('vivillonarchipelago', 'frustration').
 learns('vivillonarchipelago', 'gigadrain').
 learns('vivillonarchipelago', 'gigaimpact').
 learns('vivillonarchipelago', 'gust').
-learns('vivillonarchipelago', 'hiddenpower').
 learns('vivillonarchipelago', 'hurricane').
 learns('vivillonarchipelago', 'hyperbeam').
 learns('vivillonarchipelago', 'infestation').
@@ -78151,7 +77337,6 @@ learns('vivillonhighplains', 'frustration').
 learns('vivillonhighplains', 'gigadrain').
 learns('vivillonhighplains', 'gigaimpact').
 learns('vivillonhighplains', 'gust').
-learns('vivillonhighplains', 'hiddenpower').
 learns('vivillonhighplains', 'hurricane').
 learns('vivillonhighplains', 'hyperbeam').
 learns('vivillonhighplains', 'infestation').
@@ -78222,7 +77407,6 @@ learns('vivillonsandstorm', 'frustration').
 learns('vivillonsandstorm', 'gigadrain').
 learns('vivillonsandstorm', 'gigaimpact').
 learns('vivillonsandstorm', 'gust').
-learns('vivillonsandstorm', 'hiddenpower').
 learns('vivillonsandstorm', 'hurricane').
 learns('vivillonsandstorm', 'hyperbeam').
 learns('vivillonsandstorm', 'infestation').
@@ -78293,7 +77477,6 @@ learns('vivillonriver', 'frustration').
 learns('vivillonriver', 'gigadrain').
 learns('vivillonriver', 'gigaimpact').
 learns('vivillonriver', 'gust').
-learns('vivillonriver', 'hiddenpower').
 learns('vivillonriver', 'hurricane').
 learns('vivillonriver', 'hyperbeam').
 learns('vivillonriver', 'infestation').
@@ -78364,7 +77547,6 @@ learns('vivillonmonsoon', 'frustration').
 learns('vivillonmonsoon', 'gigadrain').
 learns('vivillonmonsoon', 'gigaimpact').
 learns('vivillonmonsoon', 'gust').
-learns('vivillonmonsoon', 'hiddenpower').
 learns('vivillonmonsoon', 'hurricane').
 learns('vivillonmonsoon', 'hyperbeam').
 learns('vivillonmonsoon', 'infestation').
@@ -78435,7 +77617,6 @@ learns('vivillonsavanna', 'frustration').
 learns('vivillonsavanna', 'gigadrain').
 learns('vivillonsavanna', 'gigaimpact').
 learns('vivillonsavanna', 'gust').
-learns('vivillonsavanna', 'hiddenpower').
 learns('vivillonsavanna', 'hurricane').
 learns('vivillonsavanna', 'hyperbeam').
 learns('vivillonsavanna', 'infestation').
@@ -78506,7 +77687,6 @@ learns('vivillonsun', 'frustration').
 learns('vivillonsun', 'gigadrain').
 learns('vivillonsun', 'gigaimpact').
 learns('vivillonsun', 'gust').
-learns('vivillonsun', 'hiddenpower').
 learns('vivillonsun', 'hurricane').
 learns('vivillonsun', 'hyperbeam').
 learns('vivillonsun', 'infestation').
@@ -78577,7 +77757,6 @@ learns('vivillonocean', 'frustration').
 learns('vivillonocean', 'gigadrain').
 learns('vivillonocean', 'gigaimpact').
 learns('vivillonocean', 'gust').
-learns('vivillonocean', 'hiddenpower').
 learns('vivillonocean', 'hurricane').
 learns('vivillonocean', 'hyperbeam').
 learns('vivillonocean', 'infestation').
@@ -78648,7 +77827,6 @@ learns('vivillonjungle', 'frustration').
 learns('vivillonjungle', 'gigadrain').
 learns('vivillonjungle', 'gigaimpact').
 learns('vivillonjungle', 'gust').
-learns('vivillonjungle', 'hiddenpower').
 learns('vivillonjungle', 'hurricane').
 learns('vivillonjungle', 'hyperbeam').
 learns('vivillonjungle', 'infestation').
@@ -78719,7 +77897,6 @@ learns('vivillonfancy', 'frustration').
 learns('vivillonfancy', 'gigadrain').
 learns('vivillonfancy', 'gigaimpact').
 learns('vivillonfancy', 'gust').
-learns('vivillonfancy', 'hiddenpower').
 learns('vivillonfancy', 'holdhands').
 learns('vivillonfancy', 'hurricane').
 learns('vivillonfancy', 'hyperbeam').
@@ -78789,7 +77966,6 @@ learns('vivillonpokeball', 'frustration').
 learns('vivillonpokeball', 'gigadrain').
 learns('vivillonpokeball', 'gigaimpact').
 learns('vivillonpokeball', 'gust').
-learns('vivillonpokeball', 'hiddenpower').
 learns('vivillonpokeball', 'hurricane').
 learns('vivillonpokeball', 'hyperbeam').
 learns('vivillonpokeball', 'infestation').
@@ -78856,7 +78032,6 @@ learns('litleo', 'frustration').
 learns('litleo', 'headbutt').
 learns('litleo', 'heatwave').
 learns('litleo', 'helpinghand').
-learns('litleo', 'hiddenpower').
 learns('litleo', 'hypervoice').
 learns('litleo', 'incinerate').
 learns('litleo', 'irontail').
@@ -78925,7 +78100,6 @@ learns('pyroar', 'gigaimpact').
 learns('pyroar', 'headbutt').
 learns('pyroar', 'heatwave').
 learns('pyroar', 'helpinghand').
-learns('pyroar', 'hiddenpower').
 learns('pyroar', 'hyperbeam').
 learns('pyroar', 'hypervoice').
 learns('pyroar', 'incinerate').
@@ -79000,7 +78174,6 @@ learns('flabebe', 'grassknot').
 learns('flabebe', 'grassyterrain').
 learns('flabebe', 'healbell').
 learns('flabebe', 'helpinghand').
-learns('flabebe', 'hiddenpower').
 learns('flabebe', 'lightscreen').
 learns('flabebe', 'luckychant').
 learns('flabebe', 'magicalleaf').
@@ -79066,7 +78239,6 @@ learns('floette', 'grassknot').
 learns('floette', 'grassyterrain').
 learns('floette', 'healbell').
 learns('floette', 'helpinghand').
-learns('floette', 'hiddenpower').
 learns('floette', 'lightscreen').
 learns('floette', 'luckychant').
 learns('floette', 'magicalleaf').
@@ -79131,7 +78303,6 @@ learns('floetteeternal', 'grassknot').
 learns('floetteeternal', 'grassyterrain').
 learns('floetteeternal', 'healbell').
 learns('floetteeternal', 'helpinghand').
-learns('floetteeternal', 'hiddenpower').
 learns('floetteeternal', 'lightofruin').
 learns('floetteeternal', 'luckychant').
 learns('floetteeternal', 'magicalleaf').
@@ -79195,7 +78366,6 @@ learns('florges', 'grassknot').
 learns('florges', 'grassyterrain').
 learns('florges', 'healbell').
 learns('florges', 'helpinghand').
-learns('florges', 'hiddenpower').
 learns('florges', 'hyperbeam').
 learns('florges', 'lightscreen').
 learns('florges', 'luckychant').
@@ -79265,7 +78435,6 @@ learns('skiddo', 'grassyglide').
 learns('skiddo', 'grassyterrain').
 learns('skiddo', 'growth').
 learns('skiddo', 'helpinghand').
-learns('skiddo', 'hiddenpower').
 learns('skiddo', 'hornleech').
 learns('skiddo', 'irontail').
 learns('skiddo', 'leafblade').
@@ -79337,7 +78506,6 @@ learns('gogoat', 'grassyglide').
 learns('gogoat', 'grassyterrain').
 learns('gogoat', 'growth').
 learns('gogoat', 'helpinghand').
-learns('gogoat', 'hiddenpower').
 learns('gogoat', 'highhorsepower').
 learns('gogoat', 'hornleech').
 learns('gogoat', 'hyperbeam').
@@ -79423,7 +78591,6 @@ learns('pancham', 'frustration').
 learns('pancham', 'grassknot').
 learns('pancham', 'gunkshot').
 learns('pancham', 'helpinghand').
-learns('pancham', 'hiddenpower').
 learns('pancham', 'hypervoice').
 learns('pancham', 'icepunch').
 learns('pancham', 'ironhead').
@@ -79525,7 +78692,6 @@ learns('pangoro', 'grassknot').
 learns('pangoro', 'gunkshot').
 learns('pangoro', 'hammerarm').
 learns('pangoro', 'helpinghand').
-learns('pangoro', 'hiddenpower').
 learns('pangoro', 'honeclaws').
 learns('pangoro', 'hyperbeam').
 learns('pangoro', 'hypervoice').
@@ -79618,7 +78784,6 @@ learns('furfrou', 'grassknot').
 learns('furfrou', 'growl').
 learns('furfrou', 'headbutt').
 learns('furfrou', 'helpinghand').
-learns('furfrou', 'hiddenpower').
 learns('furfrou', 'hypervoice').
 learns('furfrou', 'irontail').
 learns('furfrou', 'lastresort').
@@ -79681,7 +78846,6 @@ learns('espurr', 'frustration').
 learns('espurr', 'gravity').
 learns('espurr', 'healbell').
 learns('espurr', 'helpinghand').
-learns('espurr', 'hiddenpower').
 learns('espurr', 'irontail').
 learns('espurr', 'leer').
 learns('espurr', 'lightscreen').
@@ -79760,7 +78924,6 @@ learns('meowstic', 'gigaimpact').
 learns('meowstic', 'gravity').
 learns('meowstic', 'healbell').
 learns('meowstic', 'helpinghand').
-learns('meowstic', 'hiddenpower').
 learns('meowstic', 'hyperbeam').
 learns('meowstic', 'imprison').
 learns('meowstic', 'irontail').
@@ -79855,7 +79018,6 @@ learns('meowsticf', 'gigaimpact').
 learns('meowsticf', 'gravity').
 learns('meowsticf', 'healbell').
 learns('meowsticf', 'helpinghand').
-learns('meowsticf', 'hiddenpower').
 learns('meowsticf', 'hyperbeam').
 learns('meowsticf', 'irontail').
 learns('meowsticf', 'leer').
@@ -79935,7 +79097,6 @@ learns('honedge', 'flashcannon').
 learns('honedge', 'frustration').
 learns('honedge', 'furycutter').
 learns('honedge', 'gyroball').
-learns('honedge', 'hiddenpower').
 learns('honedge', 'irondefense').
 learns('honedge', 'ironhead').
 learns('honedge', 'laserfocus').
@@ -79990,7 +79151,6 @@ learns('doublade', 'flashcannon').
 learns('doublade', 'frustration').
 learns('doublade', 'furycutter').
 learns('doublade', 'gyroball').
-learns('doublade', 'hiddenpower').
 learns('doublade', 'irondefense').
 learns('doublade', 'ironhead').
 learns('doublade', 'laserfocus').
@@ -80051,7 +79211,6 @@ learns('aegislash', 'furycutter').
 learns('aegislash', 'gigaimpact').
 learns('aegislash', 'gyroball').
 learns('aegislash', 'headsmash').
-learns('aegislash', 'hiddenpower').
 learns('aegislash', 'hyperbeam').
 learns('aegislash', 'irondefense').
 learns('aegislash', 'ironhead').
@@ -80115,7 +79274,6 @@ learns('aegislashblade', 'furycutter').
 learns('aegislashblade', 'gigaimpact').
 learns('aegislashblade', 'gyroball').
 learns('aegislashblade', 'headsmash').
-learns('aegislashblade', 'hiddenpower').
 learns('aegislashblade', 'hyperbeam').
 learns('aegislashblade', 'irondefense').
 learns('aegislashblade', 'ironhead').
@@ -80189,7 +79347,6 @@ learns('spritzee', 'frustration').
 learns('spritzee', 'gyroball').
 learns('spritzee', 'healbell').
 learns('spritzee', 'helpinghand').
-learns('spritzee', 'hiddenpower').
 learns('spritzee', 'lightscreen').
 learns('spritzee', 'magiccoat').
 learns('spritzee', 'mistyexplosion').
@@ -80255,7 +79412,6 @@ learns('aromatisse', 'gyroball').
 learns('aromatisse', 'healbell').
 learns('aromatisse', 'healpulse').
 learns('aromatisse', 'helpinghand').
-learns('aromatisse', 'hiddenpower').
 learns('aromatisse', 'hyperbeam').
 learns('aromatisse', 'lightscreen').
 learns('aromatisse', 'magiccoat').
@@ -80320,7 +79476,6 @@ learns('swirlix', 'frustration').
 learns('swirlix', 'gastroacid').
 learns('swirlix', 'healbell').
 learns('swirlix', 'helpinghand').
-learns('swirlix', 'hiddenpower').
 learns('swirlix', 'lightscreen').
 learns('swirlix', 'magiccoat').
 learns('swirlix', 'mistyexplosion').
@@ -80378,7 +79533,6 @@ learns('slurpuff', 'gastroacid').
 learns('slurpuff', 'gigaimpact').
 learns('slurpuff', 'healbell').
 learns('slurpuff', 'helpinghand').
-learns('slurpuff', 'hiddenpower').
 learns('slurpuff', 'hyperbeam').
 learns('slurpuff', 'lightscreen').
 learns('slurpuff', 'magiccoat').
@@ -80444,7 +79598,6 @@ learns('inkay', 'gravity').
 learns('inkay', 'guardswap').
 learns('inkay', 'happyhour').
 learns('inkay', 'helpinghand').
-learns('inkay', 'hiddenpower').
 learns('inkay', 'hypnosis').
 learns('inkay', 'knockoff').
 learns('inkay', 'lashout').
@@ -80527,7 +79680,6 @@ learns('malamar', 'gigaimpact').
 learns('malamar', 'gravity').
 learns('malamar', 'guardswap').
 learns('malamar', 'helpinghand').
-learns('malamar', 'hiddenpower').
 learns('malamar', 'hyperbeam').
 learns('malamar', 'hypnosis').
 learns('malamar', 'knockoff').
@@ -80622,7 +79774,6 @@ learns('binacle', 'furycutter').
 learns('binacle', 'furyswipes').
 learns('binacle', 'grassknot').
 learns('binacle', 'helpinghand').
-learns('binacle', 'hiddenpower').
 learns('binacle', 'honeclaws').
 learns('binacle', 'icebeam').
 learns('binacle', 'icywind').
@@ -80715,7 +79866,6 @@ learns('barbaracle', 'furyswipes').
 learns('barbaracle', 'gigaimpact').
 learns('barbaracle', 'grassknot').
 learns('barbaracle', 'helpinghand').
-learns('barbaracle', 'hiddenpower').
 learns('barbaracle', 'honeclaws').
 learns('barbaracle', 'hyperbeam').
 learns('barbaracle', 'icebeam').
@@ -80804,7 +79954,6 @@ learns('skrelp', 'frustration').
 learns('skrelp', 'gunkshot').
 learns('skrelp', 'hail').
 learns('skrelp', 'haze').
-learns('skrelp', 'hiddenpower').
 learns('skrelp', 'hydropump').
 learns('skrelp', 'icywind').
 learns('skrelp', 'irontail').
@@ -80875,7 +80024,6 @@ learns('dragalge', 'gigaimpact').
 learns('dragalge', 'gunkshot').
 learns('dragalge', 'hail').
 learns('dragalge', 'haze').
-learns('dragalge', 'hiddenpower').
 learns('dragalge', 'hydropump').
 learns('dragalge', 'hyperbeam').
 learns('dragalge', 'icywind').
@@ -80949,7 +80097,6 @@ learns('clauncher', 'flashcannon').
 learns('clauncher', 'flipturn').
 learns('clauncher', 'frustration').
 learns('clauncher', 'helpinghand').
-learns('clauncher', 'hiddenpower').
 learns('clauncher', 'honeclaws').
 learns('clauncher', 'hydropump').
 learns('clauncher', 'icebeam').
@@ -81018,7 +80165,6 @@ learns('clawitzer', 'frustration').
 learns('clawitzer', 'gigaimpact').
 learns('clawitzer', 'healpulse').
 learns('clawitzer', 'helpinghand').
-learns('clawitzer', 'hiddenpower').
 learns('clawitzer', 'honeclaws').
 learns('clawitzer', 'hydropump').
 learns('clawitzer', 'hyperbeam').
@@ -81089,7 +80235,6 @@ learns('helioptile', 'flash').
 learns('helioptile', 'frustration').
 learns('helioptile', 'glare').
 learns('helioptile', 'grassknot').
-learns('helioptile', 'hiddenpower').
 learns('helioptile', 'irontail').
 learns('helioptile', 'lightscreen').
 learns('helioptile', 'lowsweep').
@@ -81157,7 +80302,6 @@ learns('heliolisk', 'focusblast').
 learns('heliolisk', 'frustration').
 learns('heliolisk', 'gigaimpact').
 learns('heliolisk', 'grassknot').
-learns('heliolisk', 'hiddenpower').
 learns('heliolisk', 'hyperbeam').
 learns('heliolisk', 'hypervoice').
 learns('heliolisk', 'irontail').
@@ -81237,7 +80381,6 @@ learns('tyrunt', 'endure').
 learns('tyrunt', 'facade').
 learns('tyrunt', 'firefang').
 learns('tyrunt', 'frustration').
-learns('tyrunt', 'hiddenpower').
 learns('tyrunt', 'honeclaws').
 learns('tyrunt', 'horndrill').
 learns('tyrunt', 'hypervoice').
@@ -81315,7 +80458,6 @@ learns('tyrantrum', 'firefang').
 learns('tyrantrum', 'frustration').
 learns('tyrantrum', 'gigaimpact').
 learns('tyrantrum', 'headsmash').
-learns('tyrantrum', 'hiddenpower').
 learns('tyrantrum', 'highhorsepower').
 learns('tyrantrum', 'honeclaws').
 learns('tyrantrum', 'horndrill').
@@ -81395,7 +80537,6 @@ learns('amaura', 'frustration').
 learns('amaura', 'growl').
 learns('amaura', 'hail').
 learns('amaura', 'haze').
-learns('amaura', 'hiddenpower').
 learns('amaura', 'hyperbeam').
 learns('amaura', 'hypervoice').
 learns('amaura', 'icebeam').
@@ -81471,7 +80612,6 @@ learns('aurorus', 'frustration').
 learns('aurorus', 'gigaimpact').
 learns('aurorus', 'growl').
 learns('aurorus', 'hail').
-learns('aurorus', 'hiddenpower').
 learns('aurorus', 'hyperbeam').
 learns('aurorus', 'hypervoice').
 learns('aurorus', 'icebeam').
@@ -81557,7 +80697,6 @@ learns('sylveon', 'gigaimpact').
 learns('sylveon', 'growl').
 learns('sylveon', 'healbell').
 learns('sylveon', 'helpinghand').
-learns('sylveon', 'hiddenpower').
 learns('sylveon', 'hyperbeam').
 learns('sylveon', 'hypervoice').
 learns('sylveon', 'irontail').
@@ -81666,7 +80805,6 @@ learns('hawlucha', 'frustration').
 learns('hawlucha', 'gigaimpact').
 learns('hawlucha', 'grassknot').
 learns('hawlucha', 'helpinghand').
-learns('hawlucha', 'hiddenpower').
 learns('hawlucha', 'highjumpkick').
 learns('hawlucha', 'honeclaws').
 learns('hawlucha', 'hyperbeam').
@@ -81760,7 +80898,6 @@ learns('dedenne', 'frustration').
 learns('dedenne', 'gigaimpact').
 learns('dedenne', 'grassknot').
 learns('dedenne', 'helpinghand').
-learns('dedenne', 'hiddenpower').
 learns('dedenne', 'hyperbeam').
 learns('dedenne', 'irontail').
 learns('dedenne', 'lastresort').
@@ -81835,7 +80972,6 @@ learns('carbink', 'gyroball').
 learns('carbink', 'hail').
 learns('carbink', 'harden').
 learns('carbink', 'heavyslam').
-learns('carbink', 'hiddenpower').
 learns('carbink', 'hyperbeam').
 learns('carbink', 'irondefense').
 learns('carbink', 'ironhead').
@@ -81904,7 +81040,6 @@ learns('goomy', 'endure').
 learns('goomy', 'facade').
 learns('goomy', 'flail').
 learns('goomy', 'frustration').
-learns('goomy', 'hiddenpower').
 learns('goomy', 'infestation').
 learns('goomy', 'irontail').
 learns('goomy', 'lifedew').
@@ -81955,7 +81090,6 @@ learns('sliggoo', 'endure').
 learns('sliggoo', 'facade').
 learns('sliggoo', 'flail').
 learns('sliggoo', 'frustration').
-learns('sliggoo', 'hiddenpower').
 learns('sliggoo', 'icebeam').
 learns('sliggoo', 'infestation').
 learns('sliggoo', 'irontail').
@@ -82040,7 +81174,6 @@ learns('sliggoohisui', 'confide').
 learns('sliggoohisui', 'counter').
 learns('sliggoohisui', 'doubleteam').
 learns('sliggoohisui', 'frustration').
-learns('sliggoohisui', 'hiddenpower').
 learns('sliggoohisui', 'infestation').
 learns('sliggoohisui', 'irontail').
 learns('sliggoohisui', 'lifedew').
@@ -82089,7 +81222,6 @@ learns('goodra', 'focuspunch').
 learns('goodra', 'frustration').
 learns('goodra', 'gigaimpact').
 learns('goodra', 'hail').
-learns('goodra', 'hiddenpower').
 learns('goodra', 'hydropump').
 learns('goodra', 'hyperbeam').
 learns('goodra', 'icebeam').
@@ -82215,7 +81347,6 @@ learns('goodrahisui', 'confide').
 learns('goodrahisui', 'counter').
 learns('goodrahisui', 'doubleteam').
 learns('goodrahisui', 'frustration').
-learns('goodrahisui', 'hiddenpower').
 learns('goodrahisui', 'infestation').
 learns('goodrahisui', 'lifedew').
 learns('goodrahisui', 'poisontail').
@@ -82246,7 +81377,6 @@ learns('klefki', 'foulplay').
 learns('klefki', 'frustration').
 learns('klefki', 'gigaimpact').
 learns('klefki', 'healblock').
-learns('klefki', 'hiddenpower').
 learns('klefki', 'hyperbeam').
 learns('klefki', 'imprison').
 learns('klefki', 'irondefense').
@@ -82321,7 +81451,6 @@ learns('phantump', 'grassyterrain').
 learns('phantump', 'growth').
 learns('phantump', 'grudge').
 learns('phantump', 'hex').
-learns('phantump', 'hiddenpower').
 learns('phantump', 'hornleech').
 learns('phantump', 'imprison').
 learns('phantump', 'ingrain').
@@ -82411,7 +81540,6 @@ learns('trevenant', 'grassyterrain').
 learns('trevenant', 'growth').
 learns('trevenant', 'haze').
 learns('trevenant', 'hex').
-learns('trevenant', 'hiddenpower').
 learns('trevenant', 'honeclaws').
 learns('trevenant', 'hornleech').
 learns('trevenant', 'hyperbeam').
@@ -82505,7 +81633,6 @@ learns('pumpkaboo', 'grassknot').
 learns('pumpkaboo', 'grassyglide').
 learns('pumpkaboo', 'gyroball').
 learns('pumpkaboo', 'hex').
-learns('pumpkaboo', 'hiddenpower').
 learns('pumpkaboo', 'imprison').
 learns('pumpkaboo', 'incinerate').
 learns('pumpkaboo', 'leechseed').
@@ -82578,7 +81705,6 @@ learns('pumpkaboosmall', 'grassknot').
 learns('pumpkaboosmall', 'grassyglide').
 learns('pumpkaboosmall', 'gyroball').
 learns('pumpkaboosmall', 'hex').
-learns('pumpkaboosmall', 'hiddenpower').
 learns('pumpkaboosmall', 'imprison').
 learns('pumpkaboosmall', 'incinerate').
 learns('pumpkaboosmall', 'leechseed').
@@ -82651,7 +81777,6 @@ learns('pumpkaboolarge', 'grassknot').
 learns('pumpkaboolarge', 'grassyglide').
 learns('pumpkaboolarge', 'gyroball').
 learns('pumpkaboolarge', 'hex').
-learns('pumpkaboolarge', 'hiddenpower').
 learns('pumpkaboolarge', 'imprison').
 learns('pumpkaboolarge', 'incinerate').
 learns('pumpkaboolarge', 'leechseed').
@@ -82727,7 +81852,6 @@ learns('pumpkaboosuper', 'grassknot').
 learns('pumpkaboosuper', 'grassyglide').
 learns('pumpkaboosuper', 'gyroball').
 learns('pumpkaboosuper', 'hex').
-learns('pumpkaboosuper', 'hiddenpower').
 learns('pumpkaboosuper', 'imprison').
 learns('pumpkaboosuper', 'incinerate').
 learns('pumpkaboosuper', 'leechseed').
@@ -82796,7 +81920,6 @@ learns('gourgeist', 'grassknot').
 learns('gourgeist', 'grassyglide').
 learns('gourgeist', 'gyroball').
 learns('gourgeist', 'hex').
-learns('gourgeist', 'hiddenpower').
 learns('gourgeist', 'hyperbeam').
 learns('gourgeist', 'imprison').
 learns('gourgeist', 'incinerate').
@@ -82877,7 +82000,6 @@ learns('gourgeistsmall', 'grassknot').
 learns('gourgeistsmall', 'grassyglide').
 learns('gourgeistsmall', 'gyroball').
 learns('gourgeistsmall', 'hex').
-learns('gourgeistsmall', 'hiddenpower').
 learns('gourgeistsmall', 'hyperbeam').
 learns('gourgeistsmall', 'imprison').
 learns('gourgeistsmall', 'incinerate').
@@ -82958,7 +82080,6 @@ learns('gourgeistlarge', 'grassknot').
 learns('gourgeistlarge', 'grassyglide').
 learns('gourgeistlarge', 'gyroball').
 learns('gourgeistlarge', 'hex').
-learns('gourgeistlarge', 'hiddenpower').
 learns('gourgeistlarge', 'hyperbeam').
 learns('gourgeistlarge', 'imprison').
 learns('gourgeistlarge', 'incinerate').
@@ -83039,7 +82160,6 @@ learns('gourgeistsuper', 'grassknot').
 learns('gourgeistsuper', 'grassyglide').
 learns('gourgeistsuper', 'gyroball').
 learns('gourgeistsuper', 'hex').
-learns('gourgeistsuper', 'hiddenpower').
 learns('gourgeistsuper', 'hyperbeam').
 learns('gourgeistsuper', 'imprison').
 learns('gourgeistsuper', 'incinerate').
@@ -83116,7 +82236,6 @@ learns('bergmite', 'frustration').
 learns('bergmite', 'gyroball').
 learns('bergmite', 'hail').
 learns('bergmite', 'harden').
-learns('bergmite', 'hiddenpower').
 learns('bergmite', 'iceball').
 learns('bergmite', 'icebeam').
 learns('bergmite', 'icefang').
@@ -83181,7 +82300,6 @@ learns('avalugg', 'gyroball').
 learns('avalugg', 'hail').
 learns('avalugg', 'harden').
 learns('avalugg', 'heavyslam').
-learns('avalugg', 'hiddenpower').
 learns('avalugg', 'highhorsepower').
 learns('avalugg', 'hydropump').
 learns('avalugg', 'hyperbeam').
@@ -83294,7 +82412,6 @@ learns('avalugghisui', 'flashcannon').
 learns('avalugghisui', 'frostbreath').
 learns('avalugghisui', 'frustration').
 learns('avalugghisui', 'hail').
-learns('avalugghisui', 'hiddenpower').
 learns('avalugghisui', 'iceball').
 learns('avalugghisui', 'mirrorcoat').
 learns('avalugghisui', 'mist').
@@ -83338,7 +82455,6 @@ learns('noibat', 'fly').
 learns('noibat', 'frustration').
 learns('noibat', 'gust').
 learns('noibat', 'heatwave').
-learns('noibat', 'hiddenpower').
 learns('noibat', 'hurricane').
 learns('noibat', 'hypervoice').
 learns('noibat', 'irontail').
@@ -83419,7 +82535,6 @@ learns('noivern', 'frustration').
 learns('noivern', 'gigaimpact').
 learns('noivern', 'gust').
 learns('noivern', 'heatwave').
-learns('noivern', 'hiddenpower').
 learns('noivern', 'honeclaws').
 learns('noivern', 'hurricane').
 learns('noivern', 'hyperbeam').
@@ -83497,7 +82612,6 @@ learns('xerneas', 'grassknot').
 learns('xerneas', 'gravity').
 learns('xerneas', 'hail').
 learns('xerneas', 'healpulse').
-learns('xerneas', 'hiddenpower').
 learns('xerneas', 'hornleech').
 learns('xerneas', 'hyperbeam').
 learns('xerneas', 'hypervoice').
@@ -83566,7 +82680,6 @@ learns('xerneasneutral', 'grassknot').
 learns('xerneasneutral', 'gravity').
 learns('xerneasneutral', 'hail').
 learns('xerneasneutral', 'healpulse').
-learns('xerneasneutral', 'hiddenpower').
 learns('xerneasneutral', 'hornleech').
 learns('xerneasneutral', 'hyperbeam').
 learns('xerneasneutral', 'hypervoice').
@@ -83634,7 +82747,6 @@ learns('yveltal', 'frustration').
 learns('yveltal', 'gigaimpact').
 learns('yveltal', 'gust').
 learns('yveltal', 'heatwave').
-learns('yveltal', 'hiddenpower').
 learns('yveltal', 'honeclaws').
 learns('yveltal', 'hurricane').
 learns('yveltal', 'hyperbeam').
@@ -83705,7 +82817,6 @@ learns('zygarde', 'gigaimpact').
 learns('zygarde', 'glare').
 learns('zygarde', 'grassknot').
 learns('zygarde', 'haze').
-learns('zygarde', 'hiddenpower').
 learns('zygarde', 'highhorsepower').
 learns('zygarde', 'hyperbeam').
 learns('zygarde', 'hypervoice').
@@ -83780,7 +82891,6 @@ learns('zygarde10', 'focusblast').
 learns('zygarde10', 'frustration').
 learns('zygarde10', 'gigaimpact').
 learns('zygarde10', 'grassknot').
-learns('zygarde10', 'hiddenpower').
 learns('zygarde10', 'highhorsepower').
 learns('zygarde10', 'hyperbeam').
 learns('zygarde10', 'hypervoice').
@@ -83845,7 +82955,6 @@ learns('zygardecomplete', 'gigaimpact').
 learns('zygardecomplete', 'glare').
 learns('zygardecomplete', 'grassknot').
 learns('zygardecomplete', 'haze').
-learns('zygardecomplete', 'hiddenpower').
 learns('zygardecomplete', 'highhorsepower').
 learns('zygardecomplete', 'hyperbeam').
 learns('zygardecomplete', 'hypervoice').
@@ -83921,7 +83030,6 @@ learns('diancie', 'hail').
 learns('diancie', 'harden').
 learns('diancie', 'healbell').
 learns('diancie', 'helpinghand').
-learns('diancie', 'hiddenpower').
 learns('diancie', 'hyperbeam').
 learns('diancie', 'irondefense').
 learns('diancie', 'lastresort').
@@ -84011,7 +83119,6 @@ learns('dianciemega', 'hail').
 learns('dianciemega', 'harden').
 learns('dianciemega', 'healbell').
 learns('dianciemega', 'helpinghand').
-learns('dianciemega', 'hiddenpower').
 learns('dianciemega', 'hyperbeam').
 learns('dianciemega', 'irondefense').
 learns('dianciemega', 'lastresort').
@@ -84098,7 +83205,6 @@ learns('hoopa', 'grassknot').
 learns('hoopa', 'gravity').
 learns('hoopa', 'guardsplit').
 learns('hoopa', 'gunkshot').
-learns('hoopa', 'hiddenpower').
 learns('hoopa', 'hyperbeam').
 learns('hoopa', 'hyperspacefury').
 learns('hoopa', 'hyperspacehole').
@@ -84195,7 +83301,6 @@ learns('hoopaunbound', 'grassknot').
 learns('hoopaunbound', 'gravity').
 learns('hoopaunbound', 'guardsplit').
 learns('hoopaunbound', 'gunkshot').
-learns('hoopaunbound', 'hiddenpower').
 learns('hoopaunbound', 'hyperbeam').
 learns('hoopaunbound', 'hyperspacefury').
 learns('hoopaunbound', 'hyperspacehole').
@@ -84291,7 +83396,6 @@ learns('volcanion', 'haze').
 learns('volcanion', 'heatcrash').
 learns('volcanion', 'heatwave').
 learns('volcanion', 'heavyslam').
-learns('volcanion', 'hiddenpower').
 learns('volcanion', 'hydropump').
 learns('volcanion', 'hyperbeam').
 learns('volcanion', 'incinerate').
@@ -84373,7 +83477,6 @@ learns('rowlet', 'grassyterrain').
 learns('rowlet', 'growl').
 learns('rowlet', 'haze').
 learns('rowlet', 'helpinghand').
-learns('rowlet', 'hiddenpower').
 learns('rowlet', 'knockoff').
 learns('rowlet', 'leafage').
 learns('rowlet', 'leafblade').
@@ -84447,7 +83550,6 @@ learns('dartrix', 'grassyterrain').
 learns('dartrix', 'growl').
 learns('dartrix', 'haze').
 learns('dartrix', 'helpinghand').
-learns('dartrix', 'hiddenpower').
 learns('dartrix', 'knockoff').
 learns('dartrix', 'leafage').
 learns('dartrix', 'leafblade').
@@ -84528,7 +83630,6 @@ learns('decidueye', 'growl').
 learns('decidueye', 'haze').
 learns('decidueye', 'helpinghand').
 learns('decidueye', 'hex').
-learns('decidueye', 'hiddenpower').
 learns('decidueye', 'hurricane').
 learns('decidueye', 'hyperbeam').
 learns('decidueye', 'imprison').
@@ -84669,7 +83770,6 @@ learns('decidueyehisui', 'echoedvoice').
 learns('decidueyehisui', 'foresight').
 learns('decidueyehisui', 'frustration').
 learns('decidueyehisui', 'furyattack').
-learns('decidueyehisui', 'hiddenpower').
 learns('decidueyehisui', 'naturepower').
 learns('decidueyehisui', 'ominouswind').
 learns('decidueyehisui', 'return').
@@ -84712,7 +83812,6 @@ learns('litten', 'furyswipes').
 learns('litten', 'growl').
 learns('litten', 'heatwave').
 learns('litten', 'helpinghand').
-learns('litten', 'hiddenpower').
 learns('litten', 'leechlife').
 learns('litten', 'leer').
 learns('litten', 'lick').
@@ -84776,7 +83875,6 @@ learns('torracat', 'furyswipes').
 learns('torracat', 'growl').
 learns('torracat', 'heatwave').
 learns('torracat', 'helpinghand').
-learns('torracat', 'hiddenpower').
 learns('torracat', 'leechlife').
 learns('torracat', 'leer').
 learns('torracat', 'lick').
@@ -84865,7 +83963,6 @@ learns('incineroar', 'growl').
 learns('incineroar', 'heatcrash').
 learns('incineroar', 'heatwave').
 learns('incineroar', 'helpinghand').
-learns('incineroar', 'hiddenpower').
 learns('incineroar', 'hyperbeam').
 learns('incineroar', 'ironhead').
 learns('incineroar', 'knockoff').
@@ -84949,7 +84046,6 @@ learns('popplio', 'frustration').
 learns('popplio', 'growl').
 learns('popplio', 'hail').
 learns('popplio', 'helpinghand').
-learns('popplio', 'hiddenpower').
 learns('popplio', 'hydropump').
 learns('popplio', 'hypervoice').
 learns('popplio', 'icebeam').
@@ -85015,7 +84111,6 @@ learns('brionne', 'frustration').
 learns('brionne', 'growl').
 learns('brionne', 'hail').
 learns('brionne', 'helpinghand').
-learns('brionne', 'hiddenpower').
 learns('brionne', 'hydropump').
 learns('brionne', 'hypervoice').
 learns('brionne', 'icebeam').
@@ -85089,7 +84184,6 @@ learns('primarina', 'growl').
 learns('primarina', 'hail').
 learns('primarina', 'haze').
 learns('primarina', 'helpinghand').
-learns('primarina', 'hiddenpower').
 learns('primarina', 'hydrocannon').
 learns('primarina', 'hydropump').
 learns('primarina', 'hyperbeam').
@@ -85170,7 +84264,6 @@ learns('pikipek', 'growl').
 learns('pikipek', 'gunkshot').
 learns('pikipek', 'heatwave').
 learns('pikipek', 'helpinghand').
-learns('pikipek', 'hiddenpower').
 learns('pikipek', 'hypervoice').
 learns('pikipek', 'knockoff').
 learns('pikipek', 'mirrormove').
@@ -85227,7 +84320,6 @@ learns('trumbeak', 'growl').
 learns('trumbeak', 'gunkshot').
 learns('trumbeak', 'heatwave').
 learns('trumbeak', 'helpinghand').
-learns('trumbeak', 'hiddenpower').
 learns('trumbeak', 'hypervoice').
 learns('trumbeak', 'knockoff').
 learns('trumbeak', 'peck').
@@ -85291,7 +84383,6 @@ learns('toucannon', 'growl').
 learns('toucannon', 'gunkshot').
 learns('toucannon', 'heatwave').
 learns('toucannon', 'helpinghand').
-learns('toucannon', 'hiddenpower').
 learns('toucannon', 'hurricane').
 learns('toucannon', 'hyperbeam').
 learns('toucannon', 'hypervoice').
@@ -85351,7 +84442,6 @@ learns('yungoos', 'facade').
 learns('yungoos', 'firefang').
 learns('yungoos', 'frustration').
 learns('yungoos', 'helpinghand').
-learns('yungoos', 'hiddenpower').
 learns('yungoos', 'hyperfang').
 learns('yungoos', 'icefang').
 learns('yungoos', 'irontail').
@@ -85425,7 +84515,6 @@ learns('gumshoos', 'focuspunch').
 learns('gumshoos', 'frustration').
 learns('gumshoos', 'gigaimpact').
 learns('gumshoos', 'helpinghand').
-learns('gumshoos', 'hiddenpower').
 learns('gumshoos', 'hyperbeam').
 learns('gumshoos', 'hyperfang').
 learns('gumshoos', 'icefang').
@@ -85496,7 +84585,6 @@ learns('gumshoostotem', 'facade').
 learns('gumshoostotem', 'firepunch').
 learns('gumshoostotem', 'fling').
 learns('gumshoostotem', 'frustration').
-learns('gumshoostotem', 'hiddenpower').
 learns('gumshoostotem', 'hyperfang').
 learns('gumshoostotem', 'icepunch').
 learns('gumshoostotem', 'ironhead').
@@ -85557,7 +84645,6 @@ learns('grubbin', 'endure').
 learns('grubbin', 'facade').
 learns('grubbin', 'frustration').
 learns('grubbin', 'harden').
-learns('grubbin', 'hiddenpower').
 learns('grubbin', 'lightscreen').
 learns('grubbin', 'lunge').
 learns('grubbin', 'magnetrise').
@@ -85610,7 +84697,6 @@ learns('charjabug', 'electroweb').
 learns('charjabug', 'endure').
 learns('charjabug', 'facade').
 learns('charjabug', 'frustration').
-learns('charjabug', 'hiddenpower').
 learns('charjabug', 'irondefense').
 learns('charjabug', 'lightscreen').
 learns('charjabug', 'lunge').
@@ -85676,7 +84762,6 @@ learns('vikavolt', 'fly').
 learns('vikavolt', 'frustration').
 learns('vikavolt', 'gigaimpact').
 learns('vikavolt', 'guillotine').
-learns('vikavolt', 'hiddenpower').
 learns('vikavolt', 'hyperbeam').
 learns('vikavolt', 'irondefense').
 learns('vikavolt', 'laserfocus').
@@ -85741,7 +84826,6 @@ learns('vikavolttotem', 'flashcannon').
 learns('vikavolttotem', 'frustration').
 learns('vikavolttotem', 'gigaimpact').
 learns('vikavolttotem', 'guillotine').
-learns('vikavolttotem', 'hiddenpower').
 learns('vikavolttotem', 'hyperbeam').
 learns('vikavolttotem', 'irondefense').
 learns('vikavolttotem', 'laserfocus').
@@ -85807,7 +84891,6 @@ learns('crabrawler', 'frostbreath').
 learns('crabrawler', 'frustration').
 learns('crabrawler', 'gunkshot').
 learns('crabrawler', 'helpinghand').
-learns('crabrawler', 'hiddenpower').
 learns('crabrawler', 'icepunch').
 learns('crabrawler', 'irondefense').
 learns('crabrawler', 'ironhead').
@@ -85886,7 +84969,6 @@ learns('crabominable', 'gunkshot').
 learns('crabominable', 'hail').
 learns('crabominable', 'hardpress').
 learns('crabominable', 'helpinghand').
-learns('crabominable', 'hiddenpower').
 learns('crabominable', 'hyperbeam').
 learns('crabominable', 'icebeam').
 learns('crabominable', 'icehammer').
@@ -85962,7 +85044,6 @@ learns('oricorio', 'fly').
 learns('oricorio', 'frustration').
 learns('oricorio', 'growl').
 learns('oricorio', 'helpinghand').
-learns('oricorio', 'hiddenpower').
 learns('oricorio', 'hurricane').
 learns('oricorio', 'icywind').
 learns('oricorio', 'mirrormove').
@@ -86027,7 +85108,6 @@ learns('oricoriopompom', 'fly').
 learns('oricoriopompom', 'frustration').
 learns('oricoriopompom', 'growl').
 learns('oricoriopompom', 'helpinghand').
-learns('oricoriopompom', 'hiddenpower').
 learns('oricoriopompom', 'hurricane').
 learns('oricoriopompom', 'icywind').
 learns('oricoriopompom', 'mirrormove').
@@ -86092,7 +85172,6 @@ learns('oricoriopau', 'fly').
 learns('oricoriopau', 'frustration').
 learns('oricoriopau', 'growl').
 learns('oricoriopau', 'helpinghand').
-learns('oricoriopau', 'hiddenpower').
 learns('oricoriopau', 'hurricane').
 learns('oricoriopau', 'icywind').
 learns('oricoriopau', 'mirrormove').
@@ -86157,7 +85236,6 @@ learns('oricoriosensu', 'fly').
 learns('oricoriosensu', 'frustration').
 learns('oricoriosensu', 'growl').
 learns('oricoriosensu', 'helpinghand').
-learns('oricoriosensu', 'hiddenpower').
 learns('oricoriosensu', 'hurricane').
 learns('oricoriosensu', 'icywind').
 learns('oricoriosensu', 'mirrormove').
@@ -86226,7 +85304,6 @@ learns('cutiefly', 'faketears').
 learns('cutiefly', 'frustration').
 learns('cutiefly', 'grassknot').
 learns('cutiefly', 'helpinghand').
-learns('cutiefly', 'hiddenpower').
 learns('cutiefly', 'imprison').
 learns('cutiefly', 'infestation').
 learns('cutiefly', 'lastresort').
@@ -86305,7 +85382,6 @@ learns('ribombee', 'frustration').
 learns('ribombee', 'gigaimpact').
 learns('ribombee', 'grassknot').
 learns('ribombee', 'helpinghand').
-learns('ribombee', 'hiddenpower').
 learns('ribombee', 'hyperbeam').
 learns('ribombee', 'imprison').
 learns('ribombee', 'infestation').
@@ -86384,7 +85460,6 @@ learns('ribombeetotem', 'facade').
 learns('ribombeetotem', 'fairywind').
 learns('ribombeetotem', 'frustration').
 learns('ribombeetotem', 'helpinghand').
-learns('ribombeetotem', 'hiddenpower').
 learns('ribombeetotem', 'infestation').
 learns('ribombeetotem', 'lastresort').
 learns('ribombeetotem', 'leechlife').
@@ -86444,7 +85519,6 @@ learns('rockruff', 'facade').
 learns('rockruff', 'firefang').
 learns('rockruff', 'frustration').
 learns('rockruff', 'helpinghand').
-learns('rockruff', 'hiddenpower').
 learns('rockruff', 'howl').
 learns('rockruff', 'hypervoice').
 learns('rockruff', 'irondefense').
@@ -86509,7 +85583,6 @@ learns('rockruffdusk', 'firefang').
 learns('rockruffdusk', 'frustration').
 learns('rockruffdusk', 'happyhour').
 learns('rockruffdusk', 'helpinghand').
-learns('rockruffdusk', 'hiddenpower').
 learns('rockruffdusk', 'howl').
 learns('rockruffdusk', 'hypervoice').
 learns('rockruffdusk', 'irondefense').
@@ -86580,7 +85653,6 @@ learns('lycanroc', 'firefang').
 learns('lycanroc', 'frustration').
 learns('lycanroc', 'gigaimpact').
 learns('lycanroc', 'helpinghand').
-learns('lycanroc', 'hiddenpower').
 learns('lycanroc', 'howl').
 learns('lycanroc', 'hypervoice').
 learns('lycanroc', 'irondefense').
@@ -86660,7 +85732,6 @@ learns('lycanrocmidnight', 'foulplay').
 learns('lycanrocmidnight', 'frustration').
 learns('lycanrocmidnight', 'gigaimpact').
 learns('lycanrocmidnight', 'helpinghand').
-learns('lycanrocmidnight', 'hiddenpower').
 learns('lycanrocmidnight', 'howl').
 learns('lycanrocmidnight', 'hypervoice').
 learns('lycanrocmidnight', 'irondefense').
@@ -86750,7 +85821,6 @@ learns('lycanrocdusk', 'focusenergy').
 learns('lycanrocdusk', 'frustration').
 learns('lycanrocdusk', 'gigaimpact').
 learns('lycanrocdusk', 'helpinghand').
-learns('lycanrocdusk', 'hiddenpower').
 learns('lycanrocdusk', 'howl').
 learns('lycanrocdusk', 'hypervoice').
 learns('lycanrocdusk', 'irondefense').
@@ -86824,7 +85894,6 @@ learns('wishiwashi', 'frustration').
 learns('wishiwashi', 'growl').
 learns('wishiwashi', 'hail').
 learns('wishiwashi', 'helpinghand').
-learns('wishiwashi', 'hiddenpower').
 learns('wishiwashi', 'hydropump').
 learns('wishiwashi', 'icebeam').
 learns('wishiwashi', 'irontail').
@@ -86876,7 +85945,6 @@ learns('wishiwashischool', 'frustration').
 learns('wishiwashischool', 'growl').
 learns('wishiwashischool', 'hail').
 learns('wishiwashischool', 'helpinghand').
-learns('wishiwashischool', 'hiddenpower').
 learns('wishiwashischool', 'hydropump').
 learns('wishiwashischool', 'icebeam').
 learns('wishiwashischool', 'irontail').
@@ -86925,7 +85993,6 @@ learns('mareanie', 'gastroacid').
 learns('mareanie', 'gunkshot').
 learns('mareanie', 'hail').
 learns('mareanie', 'haze').
-learns('mareanie', 'hiddenpower').
 learns('mareanie', 'hydropump').
 learns('mareanie', 'icebeam').
 learns('mareanie', 'icespinner').
@@ -86997,7 +86064,6 @@ learns('toxapex', 'gunkshot').
 learns('toxapex', 'hail').
 learns('toxapex', 'haze').
 learns('toxapex', 'hex').
-learns('toxapex', 'hiddenpower').
 learns('toxapex', 'hydropump').
 learns('toxapex', 'hyperbeam').
 learns('toxapex', 'icebeam').
@@ -87068,7 +86134,6 @@ learns('mudbray', 'facade').
 learns('mudbray', 'fissure').
 learns('mudbray', 'frustration').
 learns('mudbray', 'heavyslam').
-learns('mudbray', 'hiddenpower').
 learns('mudbray', 'highhorsepower').
 learns('mudbray', 'irondefense').
 learns('mudbray', 'ironhead').
@@ -87127,7 +86192,6 @@ learns('mudsdale', 'focusblast').
 learns('mudsdale', 'frustration').
 learns('mudsdale', 'gigaimpact').
 learns('mudsdale', 'heavyslam').
-learns('mudsdale', 'hiddenpower').
 learns('mudsdale', 'highhorsepower').
 learns('mudsdale', 'hyperbeam').
 learns('mudsdale', 'irondefense').
@@ -87192,7 +86256,6 @@ learns('dewpider', 'frostbreath').
 learns('dewpider', 'frustration').
 learns('dewpider', 'gigadrain').
 learns('dewpider', 'headbutt').
-learns('dewpider', 'hiddenpower').
 learns('dewpider', 'hydropump').
 learns('dewpider', 'icebeam').
 learns('dewpider', 'icywind').
@@ -87257,7 +86320,6 @@ learns('araquanid', 'frustration').
 learns('araquanid', 'gigadrain').
 learns('araquanid', 'gigaimpact').
 learns('araquanid', 'headbutt').
-learns('araquanid', 'hiddenpower').
 learns('araquanid', 'hydropump').
 learns('araquanid', 'hyperbeam').
 learns('araquanid', 'icebeam').
@@ -87321,7 +86383,6 @@ learns('araquanidtotem', 'facade').
 learns('araquanidtotem', 'frostbreath').
 learns('araquanidtotem', 'frustration').
 learns('araquanidtotem', 'gigadrain').
-learns('araquanidtotem', 'hiddenpower').
 learns('araquanidtotem', 'icebeam').
 learns('araquanidtotem', 'icywind').
 learns('araquanidtotem', 'infestation').
@@ -87380,7 +86441,6 @@ learns('fomantis', 'grassknot').
 learns('fomantis', 'grassyglide').
 learns('fomantis', 'grassyterrain').
 learns('fomantis', 'growth').
-learns('fomantis', 'hiddenpower').
 learns('fomantis', 'ingrain').
 learns('fomantis', 'leafage').
 learns('fomantis', 'leafblade').
@@ -87441,7 +86501,6 @@ learns('lurantis', 'grassknot').
 learns('lurantis', 'grassyglide').
 learns('lurantis', 'grassyterrain').
 learns('lurantis', 'growth').
-learns('lurantis', 'hiddenpower').
 learns('lurantis', 'hyperbeam').
 learns('lurantis', 'ingrain').
 learns('lurantis', 'knockoff').
@@ -87508,7 +86567,6 @@ learns('lurantistotem', 'gigadrain').
 learns('lurantistotem', 'gigaimpact').
 learns('lurantistotem', 'grassknot').
 learns('lurantistotem', 'growth').
-learns('lurantistotem', 'hiddenpower').
 learns('lurantistotem', 'hyperbeam').
 learns('lurantistotem', 'ingrain').
 learns('lurantistotem', 'knockoff').
@@ -87564,7 +86622,6 @@ learns('morelull', 'frustration').
 learns('morelull', 'gigadrain').
 learns('morelull', 'grassknot').
 learns('morelull', 'growth').
-learns('morelull', 'hiddenpower').
 learns('morelull', 'ingrain').
 learns('morelull', 'leechseed').
 learns('morelull', 'lightscreen').
@@ -87622,7 +86679,6 @@ learns('shiinotic', 'frustration').
 learns('shiinotic', 'gigadrain').
 learns('shiinotic', 'gigaimpact').
 learns('shiinotic', 'grassknot').
-learns('shiinotic', 'hiddenpower').
 learns('shiinotic', 'hyperbeam').
 learns('shiinotic', 'ingrain').
 learns('shiinotic', 'lightscreen').
@@ -87693,7 +86749,6 @@ learns('salandit', 'frustration').
 learns('salandit', 'gunkshot').
 learns('salandit', 'heatwave').
 learns('salandit', 'helpinghand').
-learns('salandit', 'hiddenpower').
 learns('salandit', 'incinerate').
 learns('salandit', 'irontail').
 learns('salandit', 'knockoff').
@@ -87783,7 +86838,6 @@ learns('salazzle', 'gigaimpact').
 learns('salazzle', 'gunkshot').
 learns('salazzle', 'heatwave').
 learns('salazzle', 'helpinghand').
-learns('salazzle', 'hiddenpower').
 learns('salazzle', 'hyperbeam').
 learns('salazzle', 'hypervoice').
 learns('salazzle', 'incinerate').
@@ -87860,7 +86914,6 @@ learns('salazzletotem', 'frustration').
 learns('salazzletotem', 'gunkshot').
 learns('salazzletotem', 'heatwave').
 learns('salazzletotem', 'helpinghand').
-learns('salazzletotem', 'hiddenpower').
 learns('salazzletotem', 'irontail').
 learns('salazzletotem', 'knockoff').
 learns('salazzletotem', 'laserfocus').
@@ -87922,7 +86975,6 @@ learns('stufful', 'focuspunch').
 learns('stufful', 'forcepalm').
 learns('stufful', 'frustration').
 learns('stufful', 'hammerarm').
-learns('stufful', 'hiddenpower').
 learns('stufful', 'icepunch').
 learns('stufful', 'ironhead').
 learns('stufful', 'leer').
@@ -87989,7 +87041,6 @@ learns('bewear', 'focuspunch').
 learns('bewear', 'frustration').
 learns('bewear', 'gigaimpact').
 learns('bewear', 'hammerarm').
-learns('bewear', 'hiddenpower').
 learns('bewear', 'highhorsepower').
 learns('bewear', 'hyperbeam').
 learns('bewear', 'icepunch').
@@ -88058,7 +87109,6 @@ learns('bounsweet', 'grasswhistle').
 learns('bounsweet', 'grassyglide').
 learns('bounsweet', 'grassyterrain').
 learns('bounsweet', 'helpinghand').
-learns('bounsweet', 'hiddenpower').
 learns('bounsweet', 'leafstorm').
 learns('bounsweet', 'lightscreen').
 learns('bounsweet', 'magicalleaf').
@@ -88117,7 +87167,6 @@ learns('steenee', 'grassknot').
 learns('steenee', 'grassyglide').
 learns('steenee', 'grassyterrain').
 learns('steenee', 'helpinghand').
-learns('steenee', 'hiddenpower').
 learns('steenee', 'knockoff').
 learns('steenee', 'leafstorm').
 learns('steenee', 'lightscreen').
@@ -88186,7 +87235,6 @@ learns('tsareena', 'grassknot').
 learns('tsareena', 'grassyglide').
 learns('tsareena', 'grassyterrain').
 learns('tsareena', 'helpinghand').
-learns('tsareena', 'hiddenpower').
 learns('tsareena', 'highjumpkick').
 learns('tsareena', 'hyperbeam').
 learns('tsareena', 'knockoff').
@@ -88275,7 +87323,6 @@ learns('comfey', 'grassyterrain').
 learns('comfey', 'growth').
 learns('comfey', 'healbell').
 learns('comfey', 'helpinghand').
-learns('comfey', 'hiddenpower').
 learns('comfey', 'hyperbeam').
 learns('comfey', 'knockoff').
 learns('comfey', 'leaftornado').
@@ -88356,7 +87403,6 @@ learns('oranguru', 'frustration').
 learns('oranguru', 'futuresight').
 learns('oranguru', 'gigaimpact').
 learns('oranguru', 'gravity').
-learns('oranguru', 'hiddenpower').
 learns('oranguru', 'hyperbeam').
 learns('oranguru', 'hypervoice').
 learns('oranguru', 'imprison').
@@ -88452,7 +87498,6 @@ learns('passimian', 'gigaimpact').
 learns('passimian', 'grassknot').
 learns('passimian', 'gunkshot').
 learns('passimian', 'gyroball').
-learns('passimian', 'hiddenpower').
 learns('passimian', 'hyperbeam').
 learns('passimian', 'ironhead').
 learns('passimian', 'irontail').
@@ -88517,7 +87562,6 @@ learns('wimpod', 'facade').
 learns('wimpod', 'frustration').
 learns('wimpod', 'hail').
 learns('wimpod', 'harden').
-learns('wimpod', 'hiddenpower').
 learns('wimpod', 'leechlife').
 learns('wimpod', 'metalclaw').
 learns('wimpod', 'mudshot').
@@ -88571,7 +87615,6 @@ learns('golisopod', 'frustration').
 learns('golisopod', 'furycutter').
 learns('golisopod', 'gigaimpact').
 learns('golisopod', 'hail').
-learns('golisopod', 'hiddenpower').
 learns('golisopod', 'hyperbeam').
 learns('golisopod', 'icebeam').
 learns('golisopod', 'icywind').
@@ -88656,7 +87699,6 @@ learns('sandygast', 'gigadrain').
 learns('sandygast', 'gravity').
 learns('sandygast', 'harden').
 learns('sandygast', 'hex').
-learns('sandygast', 'hiddenpower').
 learns('sandygast', 'hypnosis').
 learns('sandygast', 'imprison').
 learns('sandygast', 'infestation').
@@ -88729,7 +87771,6 @@ learns('palossand', 'gigaimpact').
 learns('palossand', 'gravity').
 learns('palossand', 'harden').
 learns('palossand', 'hex').
-learns('palossand', 'hiddenpower').
 learns('palossand', 'hyperbeam').
 learns('palossand', 'hypnosis').
 learns('palossand', 'imprison').
@@ -88834,7 +87875,6 @@ learns('typenull', 'frustration').
 learns('typenull', 'gigaimpact').
 learns('typenull', 'hail').
 learns('typenull', 'healblock').
-learns('typenull', 'hiddenpower').
 learns('typenull', 'hyperbeam').
 learns('typenull', 'icywind').
 learns('typenull', 'imprison').
@@ -88900,7 +87940,6 @@ learns('silvally', 'grasspledge').
 learns('silvally', 'hail').
 learns('silvally', 'healblock').
 learns('silvally', 'heatwave').
-learns('silvally', 'hiddenpower').
 learns('silvally', 'hyperbeam').
 learns('silvally', 'hypervoice').
 learns('silvally', 'icebeam').
@@ -88986,7 +88025,6 @@ learns('silvallybug', 'grasspledge').
 learns('silvallybug', 'hail').
 learns('silvallybug', 'healblock').
 learns('silvallybug', 'heatwave').
-learns('silvallybug', 'hiddenpower').
 learns('silvallybug', 'hyperbeam').
 learns('silvallybug', 'hypervoice').
 learns('silvallybug', 'icebeam').
@@ -89072,7 +88110,6 @@ learns('silvallydark', 'grasspledge').
 learns('silvallydark', 'hail').
 learns('silvallydark', 'healblock').
 learns('silvallydark', 'heatwave').
-learns('silvallydark', 'hiddenpower').
 learns('silvallydark', 'hyperbeam').
 learns('silvallydark', 'hypervoice').
 learns('silvallydark', 'icebeam').
@@ -89158,7 +88195,6 @@ learns('silvallydragon', 'grasspledge').
 learns('silvallydragon', 'hail').
 learns('silvallydragon', 'healblock').
 learns('silvallydragon', 'heatwave').
-learns('silvallydragon', 'hiddenpower').
 learns('silvallydragon', 'hyperbeam').
 learns('silvallydragon', 'hypervoice').
 learns('silvallydragon', 'icebeam').
@@ -89244,7 +88280,6 @@ learns('silvallyelectric', 'grasspledge').
 learns('silvallyelectric', 'hail').
 learns('silvallyelectric', 'healblock').
 learns('silvallyelectric', 'heatwave').
-learns('silvallyelectric', 'hiddenpower').
 learns('silvallyelectric', 'hyperbeam').
 learns('silvallyelectric', 'hypervoice').
 learns('silvallyelectric', 'icebeam').
@@ -89330,7 +88365,6 @@ learns('silvallyfairy', 'grasspledge').
 learns('silvallyfairy', 'hail').
 learns('silvallyfairy', 'healblock').
 learns('silvallyfairy', 'heatwave').
-learns('silvallyfairy', 'hiddenpower').
 learns('silvallyfairy', 'hyperbeam').
 learns('silvallyfairy', 'hypervoice').
 learns('silvallyfairy', 'icebeam').
@@ -89416,7 +88450,6 @@ learns('silvallyfighting', 'grasspledge').
 learns('silvallyfighting', 'hail').
 learns('silvallyfighting', 'healblock').
 learns('silvallyfighting', 'heatwave').
-learns('silvallyfighting', 'hiddenpower').
 learns('silvallyfighting', 'hyperbeam').
 learns('silvallyfighting', 'hypervoice').
 learns('silvallyfighting', 'icebeam').
@@ -89502,7 +88535,6 @@ learns('silvallyfire', 'grasspledge').
 learns('silvallyfire', 'hail').
 learns('silvallyfire', 'healblock').
 learns('silvallyfire', 'heatwave').
-learns('silvallyfire', 'hiddenpower').
 learns('silvallyfire', 'hyperbeam').
 learns('silvallyfire', 'hypervoice').
 learns('silvallyfire', 'icebeam').
@@ -89588,7 +88620,6 @@ learns('silvallyflying', 'grasspledge').
 learns('silvallyflying', 'hail').
 learns('silvallyflying', 'healblock').
 learns('silvallyflying', 'heatwave').
-learns('silvallyflying', 'hiddenpower').
 learns('silvallyflying', 'hyperbeam').
 learns('silvallyflying', 'hypervoice').
 learns('silvallyflying', 'icebeam').
@@ -89674,7 +88705,6 @@ learns('silvallyghost', 'grasspledge').
 learns('silvallyghost', 'hail').
 learns('silvallyghost', 'healblock').
 learns('silvallyghost', 'heatwave').
-learns('silvallyghost', 'hiddenpower').
 learns('silvallyghost', 'hyperbeam').
 learns('silvallyghost', 'hypervoice').
 learns('silvallyghost', 'icebeam').
@@ -89760,7 +88790,6 @@ learns('silvallygrass', 'grasspledge').
 learns('silvallygrass', 'hail').
 learns('silvallygrass', 'healblock').
 learns('silvallygrass', 'heatwave').
-learns('silvallygrass', 'hiddenpower').
 learns('silvallygrass', 'hyperbeam').
 learns('silvallygrass', 'hypervoice').
 learns('silvallygrass', 'icebeam').
@@ -89846,7 +88875,6 @@ learns('silvallyground', 'grasspledge').
 learns('silvallyground', 'hail').
 learns('silvallyground', 'healblock').
 learns('silvallyground', 'heatwave').
-learns('silvallyground', 'hiddenpower').
 learns('silvallyground', 'hyperbeam').
 learns('silvallyground', 'hypervoice').
 learns('silvallyground', 'icebeam').
@@ -89932,7 +88960,6 @@ learns('silvallyice', 'grasspledge').
 learns('silvallyice', 'hail').
 learns('silvallyice', 'healblock').
 learns('silvallyice', 'heatwave').
-learns('silvallyice', 'hiddenpower').
 learns('silvallyice', 'hyperbeam').
 learns('silvallyice', 'hypervoice').
 learns('silvallyice', 'icebeam').
@@ -90018,7 +89045,6 @@ learns('silvallypoison', 'grasspledge').
 learns('silvallypoison', 'hail').
 learns('silvallypoison', 'healblock').
 learns('silvallypoison', 'heatwave').
-learns('silvallypoison', 'hiddenpower').
 learns('silvallypoison', 'hyperbeam').
 learns('silvallypoison', 'hypervoice').
 learns('silvallypoison', 'icebeam').
@@ -90104,7 +89130,6 @@ learns('silvallypsychic', 'grasspledge').
 learns('silvallypsychic', 'hail').
 learns('silvallypsychic', 'healblock').
 learns('silvallypsychic', 'heatwave').
-learns('silvallypsychic', 'hiddenpower').
 learns('silvallypsychic', 'hyperbeam').
 learns('silvallypsychic', 'hypervoice').
 learns('silvallypsychic', 'icebeam').
@@ -90190,7 +89215,6 @@ learns('silvallyrock', 'grasspledge').
 learns('silvallyrock', 'hail').
 learns('silvallyrock', 'healblock').
 learns('silvallyrock', 'heatwave').
-learns('silvallyrock', 'hiddenpower').
 learns('silvallyrock', 'hyperbeam').
 learns('silvallyrock', 'hypervoice').
 learns('silvallyrock', 'icebeam').
@@ -90276,7 +89300,6 @@ learns('silvallysteel', 'grasspledge').
 learns('silvallysteel', 'hail').
 learns('silvallysteel', 'healblock').
 learns('silvallysteel', 'heatwave').
-learns('silvallysteel', 'hiddenpower').
 learns('silvallysteel', 'hyperbeam').
 learns('silvallysteel', 'hypervoice').
 learns('silvallysteel', 'icebeam').
@@ -90362,7 +89385,6 @@ learns('silvallywater', 'grasspledge').
 learns('silvallywater', 'hail').
 learns('silvallywater', 'healblock').
 learns('silvallywater', 'heatwave').
-learns('silvallywater', 'hiddenpower').
 learns('silvallywater', 'hyperbeam').
 learns('silvallywater', 'hypervoice').
 learns('silvallywater', 'icebeam').
@@ -90447,7 +89469,6 @@ learns('minior', 'frustration').
 learns('minior', 'gigaimpact').
 learns('minior', 'gravity').
 learns('minior', 'gyroball').
-learns('minior', 'hiddenpower').
 learns('minior', 'hyperbeam').
 learns('minior', 'ironhead').
 learns('minior', 'lastresort').
@@ -90511,7 +89532,6 @@ learns('miniororange', 'frustration').
 learns('miniororange', 'gigaimpact').
 learns('miniororange', 'gravity').
 learns('miniororange', 'gyroball').
-learns('miniororange', 'hiddenpower').
 learns('miniororange', 'hyperbeam').
 learns('miniororange', 'ironhead').
 learns('miniororange', 'lastresort').
@@ -90575,7 +89595,6 @@ learns('minioryellow', 'frustration').
 learns('minioryellow', 'gigaimpact').
 learns('minioryellow', 'gravity').
 learns('minioryellow', 'gyroball').
-learns('minioryellow', 'hiddenpower').
 learns('minioryellow', 'hyperbeam').
 learns('minioryellow', 'ironhead').
 learns('minioryellow', 'lastresort').
@@ -90639,7 +89658,6 @@ learns('miniorgreen', 'frustration').
 learns('miniorgreen', 'gigaimpact').
 learns('miniorgreen', 'gravity').
 learns('miniorgreen', 'gyroball').
-learns('miniorgreen', 'hiddenpower').
 learns('miniorgreen', 'hyperbeam').
 learns('miniorgreen', 'ironhead').
 learns('miniorgreen', 'lastresort').
@@ -90703,7 +89721,6 @@ learns('miniorblue', 'frustration').
 learns('miniorblue', 'gigaimpact').
 learns('miniorblue', 'gravity').
 learns('miniorblue', 'gyroball').
-learns('miniorblue', 'hiddenpower').
 learns('miniorblue', 'hyperbeam').
 learns('miniorblue', 'ironhead').
 learns('miniorblue', 'lastresort').
@@ -90767,7 +89784,6 @@ learns('miniorindigo', 'frustration').
 learns('miniorindigo', 'gigaimpact').
 learns('miniorindigo', 'gravity').
 learns('miniorindigo', 'gyroball').
-learns('miniorindigo', 'hiddenpower').
 learns('miniorindigo', 'hyperbeam').
 learns('miniorindigo', 'ironhead').
 learns('miniorindigo', 'lastresort').
@@ -90831,7 +89847,6 @@ learns('miniorviolet', 'frustration').
 learns('miniorviolet', 'gigaimpact').
 learns('miniorviolet', 'gravity').
 learns('miniorviolet', 'gyroball').
-learns('miniorviolet', 'hiddenpower').
 learns('miniorviolet', 'hyperbeam').
 learns('miniorviolet', 'ironhead').
 learns('miniorviolet', 'lastresort').
@@ -90895,7 +89910,6 @@ learns('miniormeteor', 'frustration').
 learns('miniormeteor', 'gigaimpact').
 learns('miniormeteor', 'gravity').
 learns('miniormeteor', 'gyroball').
-learns('miniormeteor', 'hiddenpower').
 learns('miniormeteor', 'hyperbeam').
 learns('miniormeteor', 'ironhead').
 learns('miniormeteor', 'lastresort').
@@ -90957,7 +89971,6 @@ learns('komala', 'fling').
 learns('komala', 'frustration').
 learns('komala', 'gigaimpact').
 learns('komala', 'gunkshot').
-learns('komala', 'hiddenpower').
 learns('komala', 'hyperbeam').
 learns('komala', 'icespinner').
 learns('komala', 'ironhead').
@@ -91044,7 +90057,6 @@ learns('turtonator', 'headsmash').
 learns('turtonator', 'heatcrash').
 learns('turtonator', 'heatwave').
 learns('turtonator', 'heavyslam').
-learns('turtonator', 'hiddenpower').
 learns('turtonator', 'hyperbeam').
 learns('turtonator', 'hypervoice').
 learns('turtonator', 'incinerate').
@@ -91119,7 +90131,6 @@ learns('togedemaru', 'grassknot').
 learns('togedemaru', 'gravity').
 learns('togedemaru', 'gyroball').
 learns('togedemaru', 'helpinghand').
-learns('togedemaru', 'hiddenpower').
 learns('togedemaru', 'hyperbeam').
 learns('togedemaru', 'ironhead').
 learns('togedemaru', 'irontail').
@@ -91188,7 +90199,6 @@ learns('togedemarutotem', 'grassknot').
 learns('togedemarutotem', 'gravity').
 learns('togedemarutotem', 'gyroball').
 learns('togedemarutotem', 'helpinghand').
-learns('togedemarutotem', 'hiddenpower').
 learns('togedemarutotem', 'ironhead').
 learns('togedemarutotem', 'irontail').
 learns('togedemarutotem', 'lastresort').
@@ -91256,7 +90266,6 @@ learns('mimikyu', 'gigadrain').
 learns('mimikyu', 'gigaimpact').
 learns('mimikyu', 'grudge').
 learns('mimikyu', 'hex').
-learns('mimikyu', 'hiddenpower').
 learns('mimikyu', 'honeclaws').
 learns('mimikyu', 'hyperbeam').
 learns('mimikyu', 'infestation').
@@ -91343,7 +90352,6 @@ learns('mimikyubusted', 'gigadrain').
 learns('mimikyubusted', 'gigaimpact').
 learns('mimikyubusted', 'grudge').
 learns('mimikyubusted', 'hex').
-learns('mimikyubusted', 'hiddenpower').
 learns('mimikyubusted', 'honeclaws').
 learns('mimikyubusted', 'hyperbeam').
 learns('mimikyubusted', 'infestation').
@@ -91420,7 +90428,6 @@ learns('mimikyutotem', 'feintattack').
 learns('mimikyutotem', 'fling').
 learns('mimikyutotem', 'frustration').
 learns('mimikyutotem', 'gigadrain').
-learns('mimikyutotem', 'hiddenpower').
 learns('mimikyutotem', 'honeclaws').
 learns('mimikyutotem', 'hyperbeam').
 learns('mimikyutotem', 'infestation').
@@ -91486,7 +90493,6 @@ learns('mimikyubustedtotem', 'feintattack').
 learns('mimikyubustedtotem', 'fling').
 learns('mimikyubustedtotem', 'frustration').
 learns('mimikyubustedtotem', 'gigadrain').
-learns('mimikyubustedtotem', 'hiddenpower').
 learns('mimikyubustedtotem', 'honeclaws').
 learns('mimikyubustedtotem', 'hyperbeam').
 learns('mimikyubustedtotem', 'infestation').
@@ -91559,7 +90565,6 @@ learns('bruxish', 'flipturn').
 learns('bruxish', 'frostbreath').
 learns('bruxish', 'frustration').
 learns('bruxish', 'gigaimpact').
-learns('bruxish', 'hiddenpower').
 learns('bruxish', 'hydropump').
 learns('bruxish', 'hyperbeam').
 learns('bruxish', 'icebeam').
@@ -91651,7 +90656,6 @@ learns('drampa', 'glare').
 learns('drampa', 'grassknot').
 learns('drampa', 'heatwave').
 learns('drampa', 'helpinghand').
-learns('drampa', 'hiddenpower').
 learns('drampa', 'hurricane').
 learns('drampa', 'hydropump').
 learns('drampa', 'hyperbeam').
@@ -91734,7 +90738,6 @@ learns('dhelmise', 'gyroball').
 learns('dhelmise', 'heavyslam').
 learns('dhelmise', 'helpinghand').
 learns('dhelmise', 'hex').
-learns('dhelmise', 'hiddenpower').
 learns('dhelmise', 'hydropump').
 learns('dhelmise', 'hyperbeam').
 learns('dhelmise', 'irondefense').
@@ -91809,7 +90812,6 @@ learns('jangmoo', 'focusblast').
 learns('jangmoo', 'focuspunch').
 learns('jangmoo', 'frustration').
 learns('jangmoo', 'headbutt').
-learns('jangmoo', 'hiddenpower').
 learns('jangmoo', 'irondefense').
 learns('jangmoo', 'ironhead').
 learns('jangmoo', 'irontail').
@@ -91879,7 +90881,6 @@ learns('hakamoo', 'focusblast').
 learns('hakamoo', 'focuspunch').
 learns('hakamoo', 'frustration').
 learns('hakamoo', 'headbutt').
-learns('hakamoo', 'hiddenpower').
 learns('hakamoo', 'irondefense').
 learns('hakamoo', 'ironhead').
 learns('hakamoo', 'irontail').
@@ -91971,7 +90972,6 @@ learns('kommoo', 'frustration').
 learns('kommoo', 'gigaimpact').
 learns('kommoo', 'headbutt').
 learns('kommoo', 'helpinghand').
-learns('kommoo', 'hiddenpower').
 learns('kommoo', 'hyperbeam').
 learns('kommoo', 'hypervoice').
 learns('kommoo', 'icepunch').
@@ -92067,7 +91067,6 @@ learns('kommoototem', 'focuspunch').
 learns('kommoototem', 'frustration').
 learns('kommoototem', 'gigaimpact').
 learns('kommoototem', 'headbutt').
-learns('kommoototem', 'hiddenpower').
 learns('kommoototem', 'hyperbeam').
 learns('kommoototem', 'hypervoice').
 learns('kommoototem', 'icepunch').
@@ -92139,7 +91138,6 @@ learns('tapukoko', 'fly').
 learns('tapukoko', 'frustration').
 learns('tapukoko', 'gigaimpact').
 learns('tapukoko', 'grassknot').
-learns('tapukoko', 'hiddenpower').
 learns('tapukoko', 'hyperbeam').
 learns('tapukoko', 'hypervoice').
 learns('tapukoko', 'irondefense').
@@ -92214,7 +91212,6 @@ learns('tapulele', 'gigaimpact').
 learns('tapulele', 'grassknot').
 learns('tapulele', 'gravity').
 learns('tapulele', 'guardswap').
-learns('tapulele', 'hiddenpower').
 learns('tapulele', 'hyperbeam').
 learns('tapulele', 'irondefense').
 learns('tapulele', 'lightscreen').
@@ -92284,7 +91281,6 @@ learns('tapubulu', 'gigaimpact').
 learns('tapubulu', 'grassknot').
 learns('tapubulu', 'grassyterrain').
 learns('tapubulu', 'guardswap').
-learns('tapubulu', 'hiddenpower').
 learns('tapubulu', 'highhorsepower').
 learns('tapubulu', 'hornattack').
 learns('tapubulu', 'hornleech').
@@ -92362,7 +91358,6 @@ learns('tapufini', 'gravity').
 learns('tapufini', 'guardswap').
 learns('tapufini', 'haze').
 learns('tapufini', 'healpulse').
-learns('tapufini', 'hiddenpower').
 learns('tapufini', 'hydropump').
 learns('tapufini', 'hyperbeam').
 learns('tapufini', 'icebeam').
@@ -92445,7 +91440,6 @@ learns('solgaleo', 'gyroball').
 learns('solgaleo', 'heatcrash').
 learns('solgaleo', 'heavyslam').
 learns('solgaleo', 'helpinghand').
-learns('solgaleo', 'hiddenpower').
 learns('solgaleo', 'hyperbeam').
 learns('solgaleo', 'hypervoice').
 learns('solgaleo', 'irondefense').
@@ -92531,7 +91525,6 @@ learns('lunala', 'gigaimpact').
 learns('lunala', 'heatwave').
 learns('lunala', 'helpinghand').
 learns('lunala', 'hex').
-learns('lunala', 'hiddenpower').
 learns('lunala', 'hyperbeam').
 learns('lunala', 'hypnosis').
 learns('lunala', 'icebeam').
@@ -92615,7 +91608,6 @@ learns('nihilego', 'gunkshot').
 learns('nihilego', 'headbutt').
 learns('nihilego', 'headsmash').
 learns('nihilego', 'hex').
-learns('nihilego', 'hiddenpower').
 learns('nihilego', 'ironhead').
 learns('nihilego', 'knockoff').
 learns('nihilego', 'lightscreen').
@@ -92693,7 +91685,6 @@ learns('buzzwole', 'gigaimpact').
 learns('buzzwole', 'gyroball').
 learns('buzzwole', 'hammerarm').
 learns('buzzwole', 'harden').
-learns('buzzwole', 'hiddenpower').
 learns('buzzwole', 'highhorsepower').
 learns('buzzwole', 'icepunch').
 learns('buzzwole', 'ironhead').
@@ -92752,7 +91743,6 @@ learns('pheromosa', 'focusblast').
 learns('pheromosa', 'foulplay').
 learns('pheromosa', 'frustration').
 learns('pheromosa', 'gigaimpact').
-learns('pheromosa', 'hiddenpower').
 learns('pheromosa', 'highjumpkick').
 learns('pheromosa', 'hyperbeam').
 learns('pheromosa', 'icebeam').
@@ -92814,7 +91804,6 @@ learns('xurkitree', 'frustration').
 learns('xurkitree', 'gigaimpact').
 learns('xurkitree', 'grassknot').
 learns('xurkitree', 'gravity').
-learns('xurkitree', 'hiddenpower').
 learns('xurkitree', 'hyperbeam').
 learns('xurkitree', 'hypnosis').
 learns('xurkitree', 'ingrain').
@@ -92880,7 +91869,6 @@ learns('celesteela', 'gravity').
 learns('celesteela', 'gyroball').
 learns('celesteela', 'harden').
 learns('celesteela', 'heavyslam').
-learns('celesteela', 'hiddenpower').
 learns('celesteela', 'hyperbeam').
 learns('celesteela', 'ingrain').
 learns('celesteela', 'irondefense').
@@ -92933,7 +91921,6 @@ learns('kartana', 'furycutter').
 learns('kartana', 'gigadrain').
 learns('kartana', 'gigaimpact').
 learns('kartana', 'guillotine').
-learns('kartana', 'hiddenpower').
 learns('kartana', 'irondefense').
 learns('kartana', 'knockoff').
 learns('kartana', 'laserfocus').
@@ -92995,7 +91982,6 @@ learns('guzzlord', 'hammerarm').
 learns('guzzlord', 'heatcrash').
 learns('guzzlord', 'heatwave').
 learns('guzzlord', 'heavyslam').
-learns('guzzlord', 'hiddenpower').
 learns('guzzlord', 'highhorsepower').
 learns('guzzlord', 'hyperbeam').
 learns('guzzlord', 'irondefense').
@@ -93068,7 +92054,6 @@ learns('necrozma', 'gigaimpact').
 learns('necrozma', 'gravity').
 learns('necrozma', 'gyroball').
 learns('necrozma', 'heatwave').
-learns('necrozma', 'hiddenpower').
 learns('necrozma', 'hyperbeam').
 learns('necrozma', 'hypervoice').
 learns('necrozma', 'imprison').
@@ -93159,7 +92144,6 @@ learns('necrozmaduskmane', 'gigaimpact').
 learns('necrozmaduskmane', 'gravity').
 learns('necrozmaduskmane', 'gyroball').
 learns('necrozmaduskmane', 'heatwave').
-learns('necrozmaduskmane', 'hiddenpower').
 learns('necrozmaduskmane', 'hyperbeam').
 learns('necrozmaduskmane', 'hypervoice').
 learns('necrozmaduskmane', 'imprison').
@@ -93250,7 +92234,6 @@ learns('necrozmadawnwings', 'gigaimpact').
 learns('necrozmadawnwings', 'gravity').
 learns('necrozmadawnwings', 'gyroball').
 learns('necrozmadawnwings', 'heatwave').
-learns('necrozmadawnwings', 'hiddenpower').
 learns('necrozmadawnwings', 'hyperbeam').
 learns('necrozmadawnwings', 'hypervoice').
 learns('necrozmadawnwings', 'imprison').
@@ -93342,7 +92325,6 @@ learns('necrozmaultra', 'gigaimpact').
 learns('necrozmaultra', 'gravity').
 learns('necrozmaultra', 'gyroball').
 learns('necrozmaultra', 'heatwave').
-learns('necrozmaultra', 'hiddenpower').
 learns('necrozmaultra', 'hyperbeam').
 learns('necrozmaultra', 'hypervoice').
 learns('necrozmaultra', 'imprison').
@@ -93443,7 +92425,6 @@ learns('magearna', 'healbell').
 learns('magearna', 'heartswap').
 learns('magearna', 'heavyslam').
 learns('magearna', 'helpinghand').
-learns('magearna', 'hiddenpower').
 learns('magearna', 'hyperbeam').
 learns('magearna', 'icebeam').
 learns('magearna', 'icespinner').
@@ -93620,7 +92601,6 @@ learns('marshadow', 'frustration').
 learns('marshadow', 'gigaimpact').
 learns('marshadow', 'grassknot').
 learns('marshadow', 'hex').
-learns('marshadow', 'hiddenpower').
 learns('marshadow', 'hyperbeam').
 learns('marshadow', 'icepunch').
 learns('marshadow', 'ironhead').
@@ -93687,7 +92667,6 @@ learns('poipole', 'gastroacid').
 learns('poipole', 'growl').
 learns('poipole', 'gunkshot').
 learns('poipole', 'helpinghand').
-learns('poipole', 'hiddenpower').
 learns('poipole', 'irontail').
 learns('poipole', 'nastyplot').
 learns('poipole', 'peck').
@@ -93745,7 +92724,6 @@ learns('naganadel', 'gunkshot').
 learns('naganadel', 'heatwave').
 learns('naganadel', 'helpinghand').
 learns('naganadel', 'hex').
-learns('naganadel', 'hiddenpower').
 learns('naganadel', 'hyperbeam').
 learns('naganadel', 'irontail').
 learns('naganadel', 'laserfocus').
@@ -93808,7 +92786,6 @@ learns('stakataka', 'gyroball').
 learns('stakataka', 'harden').
 learns('stakataka', 'heatcrash').
 learns('stakataka', 'heavyslam').
-learns('stakataka', 'hiddenpower').
 learns('stakataka', 'highhorsepower').
 learns('stakataka', 'infestation').
 learns('stakataka', 'irondefense').
@@ -93876,7 +92853,6 @@ learns('blacephalon', 'fling').
 learns('blacephalon', 'foulplay').
 learns('blacephalon', 'frustration').
 learns('blacephalon', 'heatwave').
-learns('blacephalon', 'hiddenpower').
 learns('blacephalon', 'hyperbeam').
 learns('blacephalon', 'hypnosis').
 learns('blacephalon', 'incinerate').
@@ -93956,7 +92932,6 @@ learns('zeraora', 'furyswipes').
 learns('zeraora', 'gigaimpact').
 learns('zeraora', 'grassknot').
 learns('zeraora', 'helpinghand').
-learns('zeraora', 'hiddenpower').
 learns('zeraora', 'honeclaws').
 learns('zeraora', 'hyperbeam').
 learns('zeraora', 'irontail').
@@ -101863,7 +100838,6 @@ learns('wyrdeer', 'extrasensory').
 learns('wyrdeer', 'flash').
 learns('wyrdeer', 'frustration').
 learns('wyrdeer', 'headbutt').
-learns('wyrdeer', 'hiddenpower').
 learns('wyrdeer', 'irontail').
 learns('wyrdeer', 'jumpkick').
 learns('wyrdeer', 'lastresort').
@@ -101958,7 +100932,6 @@ learns('kleavor', 'detect').
 learns('kleavor', 'feint').
 learns('kleavor', 'frustration').
 learns('kleavor', 'headbutt').
-learns('kleavor', 'hiddenpower').
 learns('kleavor', 'knockoff').
 learns('kleavor', 'laserfocus').
 learns('kleavor', 'mimic').
@@ -102071,7 +101044,6 @@ learns('ursaluna', 'focusblast').
 learns('ursaluna', 'frustration').
 learns('ursaluna', 'furycutter').
 learns('ursaluna', 'headbutt').
-learns('ursaluna', 'hiddenpower').
 learns('ursaluna', 'honeclaws').
 learns('ursaluna', 'laserfocus').
 learns('ursaluna', 'lastresort').
@@ -106679,7 +105651,6 @@ learns('annihilape', 'dualchop').
 learns('annihilape', 'dynamicpunch').
 learns('annihilape', 'frustration').
 learns('annihilape', 'headbutt').
-learns('annihilape', 'hiddenpower').
 learns('annihilape', 'honeclaws').
 learns('annihilape', 'irontail').
 learns('annihilape', 'karatechop').
@@ -106869,7 +105840,6 @@ learns('farigiraf', 'flash').
 learns('farigiraf', 'foresight').
 learns('farigiraf', 'frustration').
 learns('farigiraf', 'headbutt').
-learns('farigiraf', 'hiddenpower').
 learns('farigiraf', 'irontail').
 learns('farigiraf', 'magiccoat').
 learns('farigiraf', 'meanlook').
@@ -106997,7 +105967,6 @@ learns('dudunsparce', 'doubleteam').
 learns('dudunsparce', 'dreameater').
 learns('dudunsparce', 'frustration').
 learns('dudunsparce', 'headbutt').
-learns('dudunsparce', 'hiddenpower').
 learns('dudunsparce', 'incinerate').
 learns('dudunsparce', 'irontail').
 learns('dudunsparce', 'lastresort').
@@ -107121,7 +106090,6 @@ learns('dudunsparcethreesegment', 'doubleteam').
 learns('dudunsparcethreesegment', 'dreameater').
 learns('dudunsparcethreesegment', 'frustration').
 learns('dudunsparcethreesegment', 'headbutt').
-learns('dudunsparcethreesegment', 'hiddenpower').
 learns('dudunsparcethreesegment', 'incinerate').
 learns('dudunsparcethreesegment', 'irontail').
 learns('dudunsparcethreesegment', 'lastresort').
@@ -107212,7 +106180,6 @@ learns('kingambit', 'dualchop').
 learns('kingambit', 'embargo').
 learns('kingambit', 'feintattack').
 learns('kingambit', 'frustration').
-learns('kingambit', 'hiddenpower').
 learns('kingambit', 'honeclaws').
 learns('kingambit', 'knockoff').
 learns('kingambit', 'laserfocus').
@@ -110189,7 +109156,6 @@ learns('syclar', 'frustration').
 learns('syclar', 'furyattack').
 learns('syclar', 'furycutter').
 learns('syclar', 'hail').
-learns('syclar', 'hiddenpower').
 learns('syclar', 'honeclaws').
 learns('syclar', 'icebeam').
 learns('syclar', 'icefang').
@@ -110268,7 +109234,6 @@ learns('syclant', 'furyattack').
 learns('syclant', 'furycutter').
 learns('syclant', 'gigaimpact').
 learns('syclant', 'hail').
-learns('syclant', 'hiddenpower').
 learns('syclant', 'honeclaws').
 learns('syclant', 'hyperbeam').
 learns('syclant', 'icebeam').
@@ -110363,7 +109328,6 @@ learns('revenankh', 'grudge').
 learns('revenankh', 'hammerarm').
 learns('revenankh', 'helpinghand').
 learns('revenankh', 'hex').
-learns('revenankh', 'hiddenpower').
 learns('revenankh', 'hyperbeam').
 learns('revenankh', 'icepunch').
 learns('revenankh', 'knockoff').
@@ -110475,7 +109439,6 @@ learns('embirch', 'growth').
 learns('embirch', 'headbutt').
 learns('embirch', 'heatcrash').
 learns('embirch', 'heatwave').
-learns('embirch', 'hiddenpower').
 learns('embirch', 'incinerate').
 learns('embirch', 'irondefense').
 learns('embirch', 'ironhead').
@@ -110563,7 +109526,6 @@ learns('flarelm', 'growth').
 learns('flarelm', 'headbutt').
 learns('flarelm', 'heatcrash').
 learns('flarelm', 'heatwave').
-learns('flarelm', 'hiddenpower').
 learns('flarelm', 'incinerate').
 learns('flarelm', 'irondefense').
 learns('flarelm', 'ironhead').
@@ -110661,7 +109623,6 @@ learns('pyroak', 'headbutt').
 learns('pyroak', 'heatcrash').
 learns('pyroak', 'heatwave').
 learns('pyroak', 'heavyslam').
-learns('pyroak', 'hiddenpower').
 learns('pyroak', 'highhorsepower').
 learns('pyroak', 'hyperbeam').
 learns('pyroak', 'incinerate').
@@ -110750,7 +109711,6 @@ learns('breezi', 'gust').
 learns('breezi', 'healblock').
 learns('breezi', 'healingwish').
 learns('breezi', 'helpinghand').
-learns('breezi', 'hiddenpower').
 learns('breezi', 'icespinner').
 learns('breezi', 'icywind').
 learns('breezi', 'knockoff').
@@ -110837,7 +109797,6 @@ learns('fidgit', 'gunkshot').
 learns('fidgit', 'gust').
 learns('fidgit', 'healblock').
 learns('fidgit', 'helpinghand').
-learns('fidgit', 'hiddenpower').
 learns('fidgit', 'hyperbeam').
 learns('fidgit', 'icespinner').
 learns('fidgit', 'icywind').
@@ -110941,7 +109900,6 @@ learns('rebble', 'gigadrain').
 learns('rebble', 'headbutt').
 learns('rebble', 'headsmash').
 learns('rebble', 'heatwave').
-learns('rebble', 'hiddenpower').
 learns('rebble', 'hyperbeam').
 learns('rebble', 'incinerate').
 learns('rebble', 'lockon').
@@ -111010,7 +109968,6 @@ learns('tactite', 'gigadrain').
 learns('tactite', 'headbutt').
 learns('tactite', 'headsmash').
 learns('tactite', 'heatwave').
-learns('tactite', 'hiddenpower').
 learns('tactite', 'hyperbeam').
 learns('tactite', 'incinerate').
 learns('tactite', 'lockon').
@@ -111081,7 +110038,6 @@ learns('stratagem', 'gigaimpact').
 learns('stratagem', 'headbutt').
 learns('stratagem', 'headsmash').
 learns('stratagem', 'heatwave').
-learns('stratagem', 'hiddenpower').
 learns('stratagem', 'hyperbeam').
 learns('stratagem', 'incinerate').
 learns('stratagem', 'laserfocus').
@@ -111161,7 +110117,6 @@ learns('privatyke', 'foulplay').
 learns('privatyke', 'frustration').
 learns('privatyke', 'hail').
 learns('privatyke', 'headbutt').
-learns('privatyke', 'hiddenpower').
 learns('privatyke', 'icebeam').
 learns('privatyke', 'icepunch').
 learns('privatyke', 'icywind').
@@ -111267,7 +110222,6 @@ learns('arghonaut', 'gunkshot').
 learns('arghonaut', 'hail').
 learns('arghonaut', 'hardpress').
 learns('arghonaut', 'headbutt').
-learns('arghonaut', 'hiddenpower').
 learns('arghonaut', 'hydropump').
 learns('arghonaut', 'hyperbeam').
 learns('arghonaut', 'icebeam').
@@ -111368,7 +110322,6 @@ learns('kitsunoh', 'furycutter').
 learns('kitsunoh', 'gigaimpact').
 learns('kitsunoh', 'headbutt').
 learns('kitsunoh', 'hex').
-learns('kitsunoh', 'hiddenpower').
 learns('kitsunoh', 'honeclaws').
 learns('kitsunoh', 'hyperbeam').
 learns('kitsunoh', 'icepunch').
@@ -111483,7 +110436,6 @@ learns('cyclohm', 'growl').
 learns('cyclohm', 'hail').
 learns('cyclohm', 'headbutt').
 learns('cyclohm', 'healbell').
-learns('cyclohm', 'hiddenpower').
 learns('cyclohm', 'honeclaws').
 learns('cyclohm', 'hydropump').
 learns('cyclohm', 'hyperbeam').
@@ -111578,7 +110530,6 @@ learns('colossoil', 'frustration').
 learns('colossoil', 'furyattack').
 learns('colossoil', 'gigaimpact').
 learns('colossoil', 'headlongrush').
-learns('colossoil', 'hiddenpower').
 learns('colossoil', 'highhorsepower').
 learns('colossoil', 'hornattack').
 learns('colossoil', 'horndrill').
@@ -111678,7 +110629,6 @@ learns('krilowatt', 'guillotine').
 learns('krilowatt', 'hail').
 learns('krilowatt', 'heartswap').
 learns('krilowatt', 'helpinghand').
-learns('krilowatt', 'hiddenpower').
 learns('krilowatt', 'hyperbeam').
 learns('krilowatt', 'icebeam').
 learns('krilowatt', 'icepunch').
@@ -111760,7 +110710,6 @@ learns('voodoll', 'foulplay').
 learns('voodoll', 'frustration').
 learns('voodoll', 'grudge').
 learns('voodoll', 'hex').
-learns('voodoll', 'hiddenpower').
 learns('voodoll', 'hypervoice').
 learns('voodoll', 'imprison').
 learns('voodoll', 'knockoff').
@@ -111858,7 +110807,6 @@ learns('voodoom', 'frustration').
 learns('voodoom', 'gigaimpact').
 learns('voodoom', 'grudge').
 learns('voodoom', 'hex').
-learns('voodoom', 'hiddenpower').
 learns('voodoom', 'hyperbeam').
 learns('voodoom', 'hypervoice').
 learns('voodoom', 'icepunch').
@@ -111955,7 +110903,6 @@ learns('scratchet', 'grassknot').
 learns('scratchet', 'harden').
 learns('scratchet', 'haze').
 learns('scratchet', 'helpinghand').
-learns('scratchet', 'hiddenpower').
 learns('scratchet', 'hypervoice').
 learns('scratchet', 'irontail').
 learns('scratchet', 'megakick').
@@ -112039,7 +110986,6 @@ learns('tomohawk', 'haze').
 learns('tomohawk', 'healingwish').
 learns('tomohawk', 'heatwave').
 learns('tomohawk', 'helpinghand').
-learns('tomohawk', 'hiddenpower').
 learns('tomohawk', 'hurricane').
 learns('tomohawk', 'hyperbeam').
 learns('tomohawk', 'hypervoice').
@@ -112115,7 +111061,6 @@ learns('necturine', 'grassyglide').
 learns('necturine', 'grassyterrain').
 learns('necturine', 'gravity').
 learns('necturine', 'hex').
-learns('necturine', 'hiddenpower').
 learns('necturine', 'ingrain').
 learns('necturine', 'leafblade').
 learns('necturine', 'leafstorm').
@@ -112182,7 +111127,6 @@ learns('necturna', 'grassyglide').
 learns('necturna', 'grassyterrain').
 learns('necturna', 'gravity').
 learns('necturna', 'hex').
-learns('necturna', 'hiddenpower').
 learns('necturna', 'hornleech').
 learns('necturna', 'hyperbeam').
 learns('necturna', 'leafblade').
@@ -112271,7 +111215,6 @@ learns('mollux', 'healbell').
 learns('mollux', 'healpulse').
 learns('mollux', 'heatwave').
 learns('mollux', 'helpinghand').
-learns('mollux', 'hiddenpower').
 learns('mollux', 'hydropump').
 learns('mollux', 'hyperbeam').
 learns('mollux', 'inferno').
@@ -112340,7 +111283,6 @@ learns('cupra', 'frustration').
 learns('cupra', 'hail').
 learns('cupra', 'healpulse').
 learns('cupra', 'helpinghand').
-learns('cupra', 'hiddenpower').
 learns('cupra', 'hydropump').
 learns('cupra', 'icywind').
 learns('cupra', 'imprison').
@@ -112415,7 +111357,6 @@ learns('argalis', 'frustration').
 learns('argalis', 'hail').
 learns('argalis', 'healpulse').
 learns('argalis', 'helpinghand').
-learns('argalis', 'hiddenpower').
 learns('argalis', 'hydropump').
 learns('argalis', 'icywind').
 learns('argalis', 'imprison').
@@ -112502,7 +111443,6 @@ learns('aurumoth', 'hail').
 learns('aurumoth', 'healingwish').
 learns('aurumoth', 'healpulse').
 learns('aurumoth', 'helpinghand').
-learns('aurumoth', 'hiddenpower').
 learns('aurumoth', 'hydropump').
 learns('aurumoth', 'hyperbeam').
 learns('aurumoth', 'icebeam').
@@ -112594,7 +111534,6 @@ learns('brattler', 'grassknot').
 learns('brattler', 'grassyglide').
 learns('brattler', 'haze').
 learns('brattler', 'healbell').
-learns('brattler', 'hiddenpower').
 learns('brattler', 'icefang').
 learns('brattler', 'irontail').
 learns('brattler', 'knockoff').
@@ -112678,7 +111617,6 @@ learns('malaconda', 'grassyglide').
 learns('malaconda', 'gravapple').
 learns('malaconda', 'haze').
 learns('malaconda', 'healbell').
-learns('malaconda', 'hiddenpower').
 learns('malaconda', 'hyperbeam').
 learns('malaconda', 'icefang').
 learns('malaconda', 'irontail').
@@ -112768,7 +111706,6 @@ learns('cawdet', 'flashcannon').
 learns('cawdet', 'fly').
 learns('cawdet', 'frustration').
 learns('cawdet', 'growl').
-learns('cawdet', 'hiddenpower').
 learns('cawdet', 'hurricane').
 learns('cawdet', 'irondefense').
 learns('cawdet', 'ironhead').
@@ -112844,7 +111781,6 @@ learns('cawmodore', 'frustration').
 learns('cawmodore', 'gigaimpact').
 learns('cawmodore', 'growl').
 learns('cawmodore', 'hardpress').
-learns('cawmodore', 'hiddenpower').
 learns('cawmodore', 'hurricane').
 learns('cawmodore', 'hyperbeam').
 learns('cawmodore', 'irondefense').
@@ -112927,7 +111863,6 @@ learns('volkritter', 'fling').
 learns('volkritter', 'flipturn').
 learns('volkritter', 'frustration').
 learns('volkritter', 'heatwave').
-learns('volkritter', 'hiddenpower').
 learns('volkritter', 'hydropump').
 learns('volkritter', 'incinerate').
 learns('volkritter', 'infestation').
@@ -112997,7 +111932,6 @@ learns('volkraken', 'flipturn').
 learns('volkraken', 'frustration').
 learns('volkraken', 'gigaimpact').
 learns('volkraken', 'heatwave').
-learns('volkraken', 'hiddenpower').
 learns('volkraken', 'hydropump').
 learns('volkraken', 'hyperbeam').
 learns('volkraken', 'incinerate').
@@ -113068,7 +112002,6 @@ learns('snugglow', 'facade').
 learns('snugglow', 'flashcannon').
 learns('snugglow', 'frustration').
 learns('snugglow', 'haze').
-learns('snugglow', 'hiddenpower').
 learns('snugglow', 'iondeluge').
 learns('snugglow', 'irontail').
 learns('snugglow', 'paraboliccharge').
@@ -113139,7 +112072,6 @@ learns('plasmanta', 'flashcannon').
 learns('plasmanta', 'frustration').
 learns('plasmanta', 'gigaimpact').
 learns('plasmanta', 'haze').
-learns('plasmanta', 'hiddenpower').
 learns('plasmanta', 'hyperbeam').
 learns('plasmanta', 'iondeluge').
 learns('plasmanta', 'irontail').
@@ -113212,7 +112144,6 @@ learns('floatoy', 'frustration').
 learns('floatoy', 'gust').
 learns('floatoy', 'hail').
 learns('floatoy', 'haze').
-learns('floatoy', 'hiddenpower').
 learns('floatoy', 'hurricane').
 learns('floatoy', 'hydropump').
 learns('floatoy', 'icebeam').
@@ -113283,7 +112214,6 @@ learns('caimanoe', 'gust').
 learns('caimanoe', 'hail').
 learns('caimanoe', 'haze').
 learns('caimanoe', 'heavyslam').
-learns('caimanoe', 'hiddenpower').
 learns('caimanoe', 'hurricane').
 learns('caimanoe', 'hydropump').
 learns('caimanoe', 'icebeam').
@@ -113369,7 +112299,6 @@ learns('naviathan', 'hail').
 learns('naviathan', 'hardpress').
 learns('naviathan', 'haze').
 learns('naviathan', 'heavyslam').
-learns('naviathan', 'hiddenpower').
 learns('naviathan', 'hurricane').
 learns('naviathan', 'hydropump').
 learns('naviathan', 'hyperbeam').
@@ -113454,7 +112383,6 @@ learns('crucibelle', 'gravity').
 learns('crucibelle', 'gunkshot').
 learns('crucibelle', 'helpinghand').
 learns('crucibelle', 'hex').
-learns('crucibelle', 'hiddenpower').
 learns('crucibelle', 'hyperbeam').
 learns('crucibelle', 'infestation').
 learns('crucibelle', 'irondefense').
@@ -113538,7 +112466,6 @@ learns('crucibellemega', 'gravity').
 learns('crucibellemega', 'gunkshot').
 learns('crucibellemega', 'helpinghand').
 learns('crucibellemega', 'hex').
-learns('crucibellemega', 'hiddenpower').
 learns('crucibellemega', 'hyperbeam').
 learns('crucibellemega', 'infestation').
 learns('crucibellemega', 'irondefense').
@@ -113617,7 +112544,6 @@ learns('pluffle', 'frustration').
 learns('pluffle', 'gigadrain').
 learns('pluffle', 'grassknot').
 learns('pluffle', 'helpinghand').
-learns('pluffle', 'hiddenpower').
 learns('pluffle', 'magicroom').
 learns('pluffle', 'metronome').
 learns('pluffle', 'mistyexplosion').
@@ -113690,7 +112616,6 @@ learns('kerfluffle', 'gigadrain').
 learns('kerfluffle', 'gigaimpact').
 learns('kerfluffle', 'grassknot').
 learns('kerfluffle', 'helpinghand').
-learns('kerfluffle', 'hiddenpower').
 learns('kerfluffle', 'holdhands').
 learns('kerfluffle', 'hyperbeam').
 learns('kerfluffle', 'lowkick').
@@ -113783,7 +112708,6 @@ learns('pajantom', 'haze').
 learns('pajantom', 'healblock').
 learns('pajantom', 'helpinghand').
 learns('pajantom', 'hex').
-learns('pajantom', 'hiddenpower').
 learns('pajantom', 'hyperbeam').
 learns('pajantom', 'icefang').
 learns('pajantom', 'icepunch').
@@ -113859,7 +112783,6 @@ learns('mumbao', 'harden').
 learns('mumbao', 'healingwish').
 learns('mumbao', 'heavyslam').
 learns('mumbao', 'helpinghand').
-learns('mumbao', 'hiddenpower').
 learns('mumbao', 'ingrain').
 learns('mumbao', 'leafage').
 learns('mumbao', 'leafstorm').
@@ -113933,7 +112856,6 @@ learns('jumbao', 'gyroball').
 learns('jumbao', 'harden').
 learns('jumbao', 'heavyslam').
 learns('jumbao', 'helpinghand').
-learns('jumbao', 'hiddenpower').
 learns('jumbao', 'hyperbeam').
 learns('jumbao', 'ingrain').
 learns('jumbao', 'leafage').
@@ -114007,7 +112929,6 @@ learns('fawnifer', 'grasspledge').
 learns('fawnifer', 'grassyglide').
 learns('fawnifer', 'grassyterrain').
 learns('fawnifer', 'helpinghand').
-learns('fawnifer', 'hiddenpower').
 learns('fawnifer', 'hypervoice').
 learns('fawnifer', 'knockoff').
 learns('fawnifer', 'leafage').
@@ -114075,7 +112996,6 @@ learns('electrelk', 'grasspledge').
 learns('electrelk', 'grassyglide').
 learns('electrelk', 'grassyterrain').
 learns('electrelk', 'helpinghand').
-learns('electrelk', 'hiddenpower').
 learns('electrelk', 'hypervoice').
 learns('electrelk', 'knockoff').
 learns('electrelk', 'leafage').
@@ -114159,7 +113079,6 @@ learns('caribolt', 'grasspledge').
 learns('caribolt', 'grassyglide').
 learns('caribolt', 'grassyterrain').
 learns('caribolt', 'helpinghand').
-learns('caribolt', 'hiddenpower').
 learns('caribolt', 'hornleech').
 learns('caribolt', 'hyperbeam').
 learns('caribolt', 'hyperdrill').
@@ -114249,7 +113168,6 @@ learns('smogecko', 'forcepalm').
 learns('smogecko', 'frustration').
 learns('smogecko', 'gunkshot').
 learns('smogecko', 'heatwave').
-learns('smogecko', 'hiddenpower').
 learns('smogecko', 'incinerate').
 learns('smogecko', 'irontail').
 learns('smogecko', 'lavaplume').
@@ -114320,7 +113238,6 @@ learns('smoguana', 'flareblitz').
 learns('smoguana', 'frustration').
 learns('smoguana', 'gunkshot').
 learns('smoguana', 'heatwave').
-learns('smoguana', 'hiddenpower').
 learns('smoguana', 'incinerate').
 learns('smoguana', 'irontail').
 learns('smoguana', 'lavaplume').
@@ -114406,7 +113323,6 @@ learns('smokomodo', 'gigaimpact').
 learns('smokomodo', 'gunkshot').
 learns('smokomodo', 'heatcrash').
 learns('smokomodo', 'heatwave').
-learns('smokomodo', 'hiddenpower').
 learns('smokomodo', 'highhorsepower').
 learns('smokomodo', 'hyperbeam').
 learns('smokomodo', 'incinerate').
@@ -114486,7 +113402,6 @@ learns('swirlpool', 'guardswap').
 learns('swirlpool', 'hail').
 learns('swirlpool', 'healpulse').
 learns('swirlpool', 'helpinghand').
-learns('swirlpool', 'hiddenpower').
 learns('swirlpool', 'hydropump').
 learns('swirlpool', 'hypervoice').
 learns('swirlpool', 'icebeam').
@@ -114569,7 +113484,6 @@ learns('coribalis', 'guardswap').
 learns('coribalis', 'hail').
 learns('coribalis', 'healpulse').
 learns('coribalis', 'helpinghand').
-learns('coribalis', 'hiddenpower').
 learns('coribalis', 'hydropump').
 learns('coribalis', 'hypervoice').
 learns('coribalis', 'icebeam').
@@ -114662,7 +113576,6 @@ learns('snaelstrom', 'guardswap').
 learns('snaelstrom', 'hail').
 learns('snaelstrom', 'healpulse').
 learns('snaelstrom', 'helpinghand').
-learns('snaelstrom', 'hiddenpower').
 learns('snaelstrom', 'hydrocannon').
 learns('snaelstrom', 'hydropump').
 learns('snaelstrom', 'hyperbeam').
@@ -114748,7 +113661,6 @@ learns('justyke', 'gyroball').
 learns('justyke', 'healingwish').
 learns('justyke', 'heavyslam').
 learns('justyke', 'helpinghand').
-learns('justyke', 'hiddenpower').
 learns('justyke', 'icespinner').
 learns('justyke', 'imprison').
 learns('justyke', 'irondefense').
@@ -114813,7 +113725,6 @@ learns('equilibra', 'hardpress').
 learns('equilibra', 'healingwish').
 learns('equilibra', 'heavyslam').
 learns('equilibra', 'helpinghand').
-learns('equilibra', 'hiddenpower').
 learns('equilibra', 'hyperbeam').
 learns('equilibra', 'imprison').
 learns('equilibra', 'irondefense').
@@ -115235,7 +114146,6 @@ learns('nohface', 'frustration').
 learns('nohface', 'furycutter').
 learns('nohface', 'headbutt').
 learns('nohface', 'hex').
-learns('nohface', 'hiddenpower').
 learns('nohface', 'honeclaws').
 learns('nohface', 'icepunch').
 learns('nohface', 'icywind').
@@ -115326,7 +114236,6 @@ learns('monohm', 'growl').
 learns('monohm', 'hail').
 learns('monohm', 'headbutt').
 learns('monohm', 'healbell').
-learns('monohm', 'hiddenpower').
 learns('monohm', 'hydropump').
 learns('monohm', 'icebeam').
 learns('monohm', 'icywind').
@@ -115416,7 +114325,6 @@ learns('duohm', 'growl').
 learns('duohm', 'hail').
 learns('duohm', 'headbutt').
 learns('duohm', 'healbell').
-learns('duohm', 'hiddenpower').
 learns('duohm', 'honeclaws').
 learns('duohm', 'hydropump').
 learns('duohm', 'icebeam').
@@ -115509,7 +114417,6 @@ learns('dorsoil', 'fissure').
 learns('dorsoil', 'flail').
 learns('dorsoil', 'foulplay').
 learns('dorsoil', 'frustration').
-learns('dorsoil', 'hiddenpower').
 learns('dorsoil', 'highhorsepower').
 learns('dorsoil', 'icespinner').
 learns('dorsoil', 'irontail').

@@ -937,8 +937,6 @@ move('zingzap').
 move('zippyzap').
 move('paleowave').
 move('shadowstrike').
-move('hiddenpower').
-
 move_type('10000000voltthunderbolt', 'electric').
 move_type('absorb', 'grass').
 move_type('accelerock', 'rock').
@@ -2827,8 +2825,6 @@ move_power('zingzap', 80).
 move_power('zippyzap', 80).
 move_power('paleowave', 85).
 move_power('shadowstrike', 80).
-move_power('hiddenpower', 60).
-
 move_accuracy('10000000voltthunderbolt', true).
 move_accuracy('absorb', 100).
 move_accuracy('accelerock', 100).
@@ -3764,4 +3760,3 @@ move_accuracy('zingzap', 100).
 move_accuracy('zippyzap', 100).
 move_accuracy('paleowave', 100).
 move_accuracy('shadowstrike', 95).
-move_accuracy('hiddenpower', 100).
