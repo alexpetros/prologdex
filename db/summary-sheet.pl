@@ -37,20 +37,30 @@ speed_tier_str(max_neutral, "Max").
 speed_tier_str(default_stat, "Default").
 speed_tier_str(min_stat, "Min").
 
-speed_tiers_chart_line(Mon, Line) :-
+speed_tiers_chart_line(Spe-Mon, Line) :-
   speed_tiers(Mon, min_stat, MS),
   speed_tiers(Mon, default_stat, DS),
   speed_tiers(Mon, max_neutral, MNS),
   speed_tiers(Mon, max_positive, MPS),
   speed_tiers(Mon, max_neutral_plus_one, MNPOS),
   speed_tiers(Mon, max_positive_plus_one, MPPOS),
-  phrase(format_("~a~t~15| ~d~t~20| ~d~t~25| ~d~t~30| ~d~t~35| ~d~t~40| ~d~t~46|", [Mon, MS, DS, MNS, MPS, MNPOS, MPPOS]), Line).
+  phrase(format_(
+    "~a~t~20| ~d~t~25| ~d~t~30| ~d~t~35| ~d~t~40| ~d~t~45| ~d~t~50| ~d~t~55|",
+    [Mon, Spe, MS, DS, MNS, MPS, MNPOS, MPPOS]
+  ), Line).
+
+speed_tiers_key(Mon, Spe-Mon) :- pokemon_spe(Mon, Spe).
 
 speed_tiers_chart(Player) :-
   findall(Mon, team(Player, Mon), Mons),
-  maplist(speed_tiers_chart_line, Mons, Lines),
-  format("~s~t~15| ~s~t~20| ~s~t~25| ~s~t~30| ~s~t~35| ~s~t~40| ~s~t~46|~n",
-    ["Mon", "Min", "Def", "Max", "Max+", "1.5", "1.5+"]),
+  maplist(speed_tiers_key, Mons, KeyMons),
+  keysort(KeyMons, SortedMons),
+  reverse(SortedMons, RevSortedMons),
+  maplist(speed_tiers_chart_line, RevSortedMons, Lines),
+  format(
+    "~s~t~20| ~s~t~25| ~s~t~30| ~s~t~35| ~s~t~40| ~s~t~45| ~s~t~50| ~s~t~55|~n",
+    ["Pokemon", "Spe", "Min", "Def", "Max", "Max+", "1.5", "1.5+"]
+  ),
   maplist(printline, Lines).
 
 speed_tiers_list_key([Speed | Tail], Speed-Tail).

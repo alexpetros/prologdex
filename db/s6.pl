@@ -113,7 +113,7 @@ pat(obstagoon).
 pat(glimmora).
 
 justin(charizardmegay).
-justin(terapagos).
+justin(terapagosterastal).
 justin(alomomola).
 justin(gougingfire).
 justin(scizor).
