@@ -24,6 +24,23 @@ learns_hazards(Mon, Move) :-
   removal_move(Move),
   learns(Mon, Move).
 
+damaging_move(Move) :-
+  move_category(Move, special);
+  move_category(Move, physical).
+
+% Only unify once on multiple boosts
+has_boost(Move) :- setof(_, X^Y^move_boost(Move, X, Y), _).
+boosting_move(Move) :-
+  move(Move),
+  has_boost(Move),
+  (
+    move_target(Move, self);
+    move_target(Move, all);
+    move_target(Move, allies);
+    move_target(Move, allyteam);
+    move_target(Move, allyside)
+  ).
+
 removal_move(rapidspin).
 removal_move(defog).
 removal_move(courtchange).

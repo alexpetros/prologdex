@@ -98,7 +98,7 @@ learnsetsStream.close()
 
 // Moves
 const movesStream = new ModuleFile(MOVES_PL_FILE)
-movesStream.writeln(":- module(moves, [move/1, move_type/2, move_power/2, move_accuracy/2, move_category/2]).\n")
+movesStream.writeln(":- module(moves, [move/1, move_type/2, move_power/2, move_accuracy/2, move_category/2, move_boost/3, move_target/2]).\n")
 const moves = Dex.moves.all()
 
 for (const move of moves) {
@@ -134,8 +134,23 @@ for (const move of moves) {
   const category = move.category.toLowerCase()
   if (id !== 'hiddenpower') movesStream.writeln(`move_category('${id}', ${category}).`)
 }
+movesStream.writeln()
 // movesStream.writeln("move('hiddenpower').\n")
 
+for (const move of moves) {
+  for (const stat in move.boosts) {
+    const id = move.id
+    const boost = move.boosts[stat]
+    movesStream.writeln(`move_boost('${id}', ${stat}, ${boost}).`)
+  }
+}
+movesStream.writeln()
+
+for (const move of moves) {
+  const id = move.id
+  const target = move.target.toLowerCase()
+  movesStream.writeln(`move_target('${id}', ${target}).`)
+}
 
 // movesStream.writeln(`move_accuracy('hiddenpower', ${hiddenpower.accuracy}).`)
 movesStream.close()

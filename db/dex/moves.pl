@@ -1,6 +1,6 @@
 % GENERATED FILE - do not modify directly
 % see create-dex.js
-:- module(moves, [move/1, move_type/2, move_power/2, move_accuracy/2, move_category/2]).
+:- module(moves, [move/1, move_type/2, move_power/2, move_accuracy/2, move_category/2, move_boost/3, move_target/2]).
 
 move('10000000voltthunderbolt').
 move('absorb').
@@ -4697,3 +4697,1071 @@ move_category('zingzap', physical).
 move_category('zippyzap', physical).
 move_category('paleowave', special).
 move_category('shadowstrike', physical).
+
+move_boost('acidarmor', def, 2).
+move_boost('agility', spe, 2).
+move_boost('amnesia', spd, 2).
+move_boost('aromaticmist', spd, 1).
+move_boost('autotomize', spe, 2).
+move_boost('babydolleyes', atk, -1).
+move_boost('barrier', def, 2).
+move_boost('bulkup', atk, 1).
+move_boost('bulkup', def, 1).
+move_boost('calmmind', spa, 1).
+move_boost('calmmind', spd, 1).
+move_boost('captivate', spa, -2).
+move_boost('charge', spd, 1).
+move_boost('charm', atk, -2).
+move_boost('clangoroussoul', atk, 1).
+move_boost('clangoroussoul', def, 1).
+move_boost('clangoroussoul', spa, 1).
+move_boost('clangoroussoul', spd, 1).
+move_boost('clangoroussoul', spe, 1).
+move_boost('coaching', atk, 1).
+move_boost('coaching', def, 1).
+move_boost('coil', atk, 1).
+move_boost('coil', def, 1).
+move_boost('coil', accuracy, 1).
+move_boost('confide', spa, -1).
+move_boost('cosmicpower', def, 1).
+move_boost('cosmicpower', spd, 1).
+move_boost('cottonguard', def, 3).
+move_boost('cottonspore', spe, -2).
+move_boost('decorate', atk, 2).
+move_boost('decorate', spa, 2).
+move_boost('defendorder', def, 1).
+move_boost('defendorder', spd, 1).
+move_boost('defensecurl', def, 1).
+move_boost('doubleteam', evasion, 1).
+move_boost('dragondance', atk, 1).
+move_boost('dragondance', spe, 1).
+move_boost('eerieimpulse', spa, -2).
+move_boost('extremeevoboost', atk, 2).
+move_boost('extremeevoboost', def, 2).
+move_boost('extremeevoboost', spa, 2).
+move_boost('extremeevoboost', spd, 2).
+move_boost('extremeevoboost', spe, 2).
+move_boost('faketears', spd, -2).
+move_boost('featherdance', atk, -2).
+move_boost('filletaway', atk, 2).
+move_boost('filletaway', spa, 2).
+move_boost('filletaway', spe, 2).
+move_boost('flash', accuracy, -1).
+move_boost('flatter', spa, 1).
+move_boost('geomancy', spa, 2).
+move_boost('geomancy', spd, 2).
+move_boost('geomancy', spe, 2).
+move_boost('growl', atk, -1).
+move_boost('growth', atk, 1).
+move_boost('growth', spa, 1).
+move_boost('harden', def, 1).
+move_boost('honeclaws', atk, 1).
+move_boost('honeclaws', accuracy, 1).
+move_boost('howl', atk, 1).
+move_boost('irondefense', def, 2).
+move_boost('kinesis', accuracy, -1).
+move_boost('leer', def, -1).
+move_boost('meditate', atk, 1).
+move_boost('memento', atk, -2).
+move_boost('memento', spa, -2).
+move_boost('metalsound', spd, -2).
+move_boost('minimize', evasion, 2).
+move_boost('nastyplot', spa, 2).
+move_boost('nobleroar', atk, -1).
+move_boost('nobleroar', spa, -1).
+move_boost('noretreat', atk, 1).
+move_boost('noretreat', def, 1).
+move_boost('noretreat', spa, 1).
+move_boost('noretreat', spd, 1).
+move_boost('noretreat', spe, 1).
+move_boost('playnice', atk, -1).
+move_boost('quiverdance', spa, 1).
+move_boost('quiverdance', spd, 1).
+move_boost('quiverdance', spe, 1).
+move_boost('rockpolish', spe, 2).
+move_boost('sandattack', accuracy, -1).
+move_boost('scaryface', spe, -2).
+move_boost('screech', def, -2).
+move_boost('sharpen', atk, 1).
+move_boost('shellsmash', def, -1).
+move_boost('shellsmash', spd, -1).
+move_boost('shellsmash', atk, 2).
+move_boost('shellsmash', spa, 2).
+move_boost('shellsmash', spe, 2).
+move_boost('shelter', def, 2).
+move_boost('shiftgear', spe, 2).
+move_boost('shiftgear', atk, 1).
+move_boost('smokescreen', accuracy, -1).
+move_boost('spicyextract', atk, 2).
+move_boost('spicyextract', def, -2).
+move_boost('stringshot', spe, -2).
+move_boost('swagger', atk, 2).
+move_boost('sweetscent', evasion, -2).
+move_boost('swordsdance', atk, 2).
+move_boost('tailglow', spa, 3).
+move_boost('tailwhip', def, -1).
+move_boost('tarshot', spe, -1).
+move_boost('tearfullook', atk, -1).
+move_boost('tearfullook', spa, -1).
+move_boost('tickle', atk, -1).
+move_boost('tickle', def, -1).
+move_boost('toxicthread', spe, -1).
+move_boost('victorydance', atk, 1).
+move_boost('victorydance', def, 1).
+move_boost('victorydance', spe, 1).
+move_boost('withdraw', def, 1).
+move_boost('workup', atk, 1).
+move_boost('workup', spa, 1).
+
+move_target('10000000voltthunderbolt', normal).
+move_target('absorb', normal).
+move_target('accelerock', normal).
+move_target('acid', alladjacentfoes).
+move_target('acidarmor', self).
+move_target('aciddownpour', normal).
+move_target('acidspray', normal).
+move_target('acrobatics', any).
+move_target('acupressure', adjacentallyorself).
+move_target('aerialace', any).
+move_target('aeroblast', any).
+move_target('afteryou', normal).
+move_target('agility', self).
+move_target('aircutter', alladjacentfoes).
+move_target('airslash', any).
+move_target('alloutpummeling', normal).
+move_target('alluringvoice', normal).
+move_target('allyswitch', self).
+move_target('amnesia', self).
+move_target('anchorshot', normal).
+move_target('ancientpower', normal).
+move_target('appleacid', normal).
+move_target('aquacutter', normal).
+move_target('aquajet', normal).
+move_target('aquaring', self).
+move_target('aquastep', normal).
+move_target('aquatail', normal).
+move_target('armorcannon', normal).
+move_target('armthrust', normal).
+move_target('aromatherapy', allyteam).
+move_target('aromaticmist', adjacentally).
+move_target('assist', self).
+move_target('assurance', normal).
+move_target('astonish', normal).
+move_target('astralbarrage', alladjacentfoes).
+move_target('attackorder', normal).
+move_target('attract', normal).
+move_target('aurasphere', any).
+move_target('aurawheel', normal).
+move_target('aurorabeam', normal).
+move_target('auroraveil', allyside).
+move_target('autotomize', self).
+move_target('avalanche', normal).
+move_target('axekick', normal).
+move_target('babydolleyes', normal).
+move_target('baddybad', normal).
+move_target('banefulbunker', self).
+move_target('barbbarrage', normal).
+move_target('barrage', normal).
+move_target('barrier', self).
+move_target('batonpass', self).
+move_target('beakblast', normal).
+move_target('beatup', normal).
+move_target('behemothbash', normal).
+move_target('behemothblade', normal).
+move_target('belch', normal).
+move_target('bellydrum', self).
+move_target('bestow', normal).
+move_target('bide', self).
+move_target('bind', normal).
+move_target('bite', normal).
+move_target('bitterblade', normal).
+move_target('bittermalice', normal).
+move_target('blackholeeclipse', normal).
+move_target('blastburn', normal).
+move_target('blazekick', normal).
+move_target('blazingtorque', normal).
+move_target('bleakwindstorm', alladjacentfoes).
+move_target('blizzard', alladjacentfoes).
+move_target('block', normal).
+move_target('bloodmoon', normal).
+move_target('bloomdoom', normal).
+move_target('blueflare', normal).
+move_target('bodypress', normal).
+move_target('bodyslam', normal).
+move_target('boltbeak', normal).
+move_target('boltstrike', normal).
+move_target('boneclub', normal).
+move_target('bonemerang', normal).
+move_target('bonerush', normal).
+move_target('boomburst', alladjacent).
+move_target('bounce', any).
+move_target('bouncybubble', normal).
+move_target('branchpoke', normal).
+move_target('bravebird', any).
+move_target('breakingswipe', alladjacentfoes).
+move_target('breakneckblitz', normal).
+move_target('brickbreak', normal).
+move_target('brine', normal).
+move_target('brutalswing', alladjacent).
+move_target('bubble', alladjacentfoes).
+move_target('bubblebeam', normal).
+move_target('bugbite', normal).
+move_target('bugbuzz', normal).
+move_target('bulkup', self).
+move_target('bulldoze', alladjacent).
+move_target('bulletpunch', normal).
+move_target('bulletseed', normal).
+move_target('burningbulwark', self).
+move_target('burningjealousy', alladjacentfoes).
+move_target('burnup', normal).
+move_target('buzzybuzz', normal).
+move_target('calmmind', self).
+move_target('camouflage', self).
+move_target('captivate', alladjacentfoes).
+move_target('catastropika', normal).
+move_target('ceaselessedge', normal).
+move_target('celebrate', self).
+move_target('charge', self).
+move_target('chargebeam', normal).
+move_target('charm', normal).
+move_target('chatter', any).
+move_target('chillingwater', normal).
+move_target('chillyreception', all).
+move_target('chipaway', normal).
+move_target('chloroblast', normal).
+move_target('circlethrow', normal).
+move_target('clamp', normal).
+move_target('clangingscales', alladjacentfoes).
+move_target('clangoroussoul', self).
+move_target('clangoroussoulblaze', alladjacentfoes).
+move_target('clearsmog', normal).
+move_target('closecombat', normal).
+move_target('coaching', adjacentally).
+move_target('coil', self).
+move_target('collisioncourse', normal).
+move_target('combattorque', normal).
+move_target('cometpunch', normal).
+move_target('comeuppance', scripted).
+move_target('confide', normal).
+move_target('confuseray', normal).
+move_target('confusion', normal).
+move_target('constrict', normal).
+move_target('continentalcrush', normal).
+move_target('conversion', self).
+move_target('conversion2', normal).
+move_target('copycat', self).
+move_target('coreenforcer', alladjacentfoes).
+move_target('corkscrewcrash', normal).
+move_target('corrosivegas', alladjacent).
+move_target('cosmicpower', self).
+move_target('cottonguard', self).
+move_target('cottonspore', alladjacentfoes).
+move_target('counter', scripted).
+move_target('courtchange', all).
+move_target('covet', normal).
+move_target('crabhammer', normal).
+move_target('craftyshield', allyside).
+move_target('crosschop', normal).
+move_target('crosspoison', normal).
+move_target('crunch', normal).
+move_target('crushclaw', normal).
+move_target('crushgrip', normal).
+move_target('curse', normal).
+move_target('cut', normal).
+move_target('darkestlariat', normal).
+move_target('darkpulse', any).
+move_target('darkvoid', alladjacentfoes).
+move_target('dazzlinggleam', alladjacentfoes).
+move_target('decorate', normal).
+move_target('defendorder', self).
+move_target('defensecurl', self).
+move_target('defog', normal).
+move_target('destinybond', self).
+move_target('detect', self).
+move_target('devastatingdrake', normal).
+move_target('diamondstorm', alladjacentfoes).
+move_target('dig', normal).
+move_target('disable', normal).
+move_target('disarmingvoice', alladjacentfoes).
+move_target('discharge', alladjacent).
+move_target('direclaw', normal).
+move_target('dive', normal).
+move_target('dizzypunch', normal).
+move_target('doodle', adjacentfoe).
+move_target('doomdesire', normal).
+move_target('doubleedge', normal).
+move_target('doublehit', normal).
+move_target('doubleironbash', normal).
+move_target('doublekick', normal).
+move_target('doubleshock', normal).
+move_target('doubleslap', normal).
+move_target('doubleteam', self).
+move_target('dracometeor', normal).
+move_target('dragonascent', any).
+move_target('dragonbreath', normal).
+move_target('dragoncheer', adjacentally).
+move_target('dragonclaw', normal).
+move_target('dragondance', self).
+move_target('dragondarts', normal).
+move_target('dragonenergy', alladjacentfoes).
+move_target('dragonhammer', normal).
+move_target('dragonpulse', any).
+move_target('dragonrage', normal).
+move_target('dragonrush', normal).
+move_target('dragontail', normal).
+move_target('drainingkiss', normal).
+move_target('drainpunch', normal).
+move_target('dreameater', normal).
+move_target('drillpeck', any).
+move_target('drillrun', normal).
+move_target('drumbeating', normal).
+move_target('dualchop', normal).
+move_target('dualwingbeat', normal).
+move_target('dynamaxcannon', normal).
+move_target('dynamicpunch', normal).
+move_target('earthpower', normal).
+move_target('earthquake', alladjacent).
+move_target('echoedvoice', normal).
+move_target('eerieimpulse', normal).
+move_target('eeriespell', normal).
+move_target('eggbomb', normal).
+move_target('electricterrain', all).
+move_target('electrify', normal).
+move_target('electroball', normal).
+move_target('electrodrift', normal).
+move_target('electroshot', normal).
+move_target('electroweb', alladjacentfoes).
+move_target('embargo', normal).
+move_target('ember', normal).
+move_target('encore', normal).
+move_target('endeavor', normal).
+move_target('endure', self).
+move_target('energyball', normal).
+move_target('entrainment', normal).
+move_target('eruption', alladjacentfoes).
+move_target('esperwing', normal).
+move_target('eternabeam', normal).
+move_target('expandingforce', normal).
+move_target('explosion', alladjacent).
+move_target('extrasensory', normal).
+move_target('extremeevoboost', self).
+move_target('extremespeed', normal).
+move_target('facade', normal).
+move_target('fairylock', all).
+move_target('fairywind', normal).
+move_target('fakeout', normal).
+move_target('faketears', normal).
+move_target('falsesurrender', normal).
+move_target('falseswipe', normal).
+move_target('featherdance', normal).
+move_target('feint', normal).
+move_target('feintattack', normal).
+move_target('fellstinger', normal).
+move_target('ficklebeam', normal).
+move_target('fierydance', normal).
+move_target('fierywrath', alladjacentfoes).
+move_target('filletaway', self).
+move_target('finalgambit', normal).
+move_target('fireblast', normal).
+move_target('firefang', normal).
+move_target('firelash', normal).
+move_target('firepledge', normal).
+move_target('firepunch', normal).
+move_target('firespin', normal).
+move_target('firstimpression', normal).
+move_target('fishiousrend', normal).
+move_target('fissure', normal).
+move_target('flail', normal).
+move_target('flameburst', normal).
+move_target('flamecharge', normal).
+move_target('flamewheel', normal).
+move_target('flamethrower', normal).
+move_target('flareblitz', normal).
+move_target('flash', normal).
+move_target('flashcannon', normal).
+move_target('flatter', normal).
+move_target('fleurcannon', normal).
+move_target('fling', normal).
+move_target('flipturn', normal).
+move_target('floatyfall', normal).
+move_target('floralhealing', normal).
+move_target('flowershield', all).
+move_target('flowertrick', normal).
+move_target('fly', any).
+move_target('flyingpress', any).
+move_target('focusblast', normal).
+move_target('focusenergy', self).
+move_target('focuspunch', normal).
+move_target('followme', self).
+move_target('forcepalm', normal).
+move_target('foresight', normal).
+move_target('forestscurse', normal).
+move_target('foulplay', normal).
+move_target('freezedry', normal).
+move_target('freezeshock', normal).
+move_target('freezingglare', normal).
+move_target('freezyfrost', normal).
+move_target('frenzyplant', normal).
+move_target('frostbreath', normal).
+move_target('frustration', normal).
+move_target('furyattack', normal).
+move_target('furycutter', normal).
+move_target('furyswipes', normal).
+move_target('fusionbolt', normal).
+move_target('fusionflare', normal).
+move_target('futuresight', normal).
+move_target('gastroacid', normal).
+move_target('geargrind', normal).
+move_target('gearup', allyside).
+move_target('genesissupernova', normal).
+move_target('geomancy', self).
+move_target('gigadrain', normal).
+move_target('gigaimpact', normal).
+move_target('gigatonhammer', normal).
+move_target('gigavolthavoc', normal).
+move_target('glaciallance', alladjacentfoes).
+move_target('glaciate', alladjacentfoes).
+move_target('glaiverush', normal).
+move_target('glare', normal).
+move_target('glitzyglow', normal).
+move_target('gmaxbefuddle', adjacentfoe).
+move_target('gmaxcannonade', adjacentfoe).
+move_target('gmaxcentiferno', adjacentfoe).
+move_target('gmaxchistrike', adjacentfoe).
+move_target('gmaxcuddle', adjacentfoe).
+move_target('gmaxdepletion', adjacentfoe).
+move_target('gmaxdrumsolo', adjacentfoe).
+move_target('gmaxfinale', adjacentfoe).
+move_target('gmaxfireball', adjacentfoe).
+move_target('gmaxfoamburst', adjacentfoe).
+move_target('gmaxgoldrush', adjacentfoe).
+move_target('gmaxgravitas', adjacentfoe).
+move_target('gmaxhydrosnipe', adjacentfoe).
+move_target('gmaxmalodor', adjacentfoe).
+move_target('gmaxmeltdown', adjacentfoe).
+move_target('gmaxoneblow', adjacentfoe).
+move_target('gmaxrapidflow', adjacentfoe).
+move_target('gmaxreplenish', adjacentfoe).
+move_target('gmaxresonance', adjacentfoe).
+move_target('gmaxsandblast', adjacentfoe).
+move_target('gmaxsmite', adjacentfoe).
+move_target('gmaxsnooze', adjacentfoe).
+move_target('gmaxsteelsurge', adjacentfoe).
+move_target('gmaxstonesurge', adjacentfoe).
+move_target('gmaxstunshock', adjacentfoe).
+move_target('gmaxsweetness', adjacentfoe).
+move_target('gmaxtartness', adjacentfoe).
+move_target('gmaxterror', adjacentfoe).
+move_target('gmaxvinelash', adjacentfoe).
+move_target('gmaxvolcalith', adjacentfoe).
+move_target('gmaxvoltcrash', adjacentfoe).
+move_target('gmaxwildfire', adjacentfoe).
+move_target('gmaxwindrage', adjacentfoe).
+move_target('grassknot', normal).
+move_target('grasspledge', normal).
+move_target('grasswhistle', normal).
+move_target('grassyglide', normal).
+move_target('grassyterrain', all).
+move_target('gravapple', normal).
+move_target('gravity', all).
+move_target('growl', alladjacentfoes).
+move_target('growth', self).
+move_target('grudge', self).
+move_target('guardianofalola', normal).
+move_target('guardsplit', normal).
+move_target('guardswap', normal).
+move_target('guillotine', normal).
+move_target('gunkshot', normal).
+move_target('gust', any).
+move_target('gyroball', normal).
+move_target('hail', all).
+move_target('hammerarm', normal).
+move_target('happyhour', allyside).
+move_target('harden', self).
+move_target('hardpress', normal).
+move_target('haze', all).
+move_target('headbutt', normal).
+move_target('headcharge', normal).
+move_target('headlongrush', normal).
+move_target('headsmash', normal).
+move_target('healbell', allyteam).
+move_target('healblock', alladjacentfoes).
+move_target('healingwish', self).
+move_target('healorder', self).
+move_target('healpulse', any).
+move_target('heartstamp', normal).
+move_target('heartswap', normal).
+move_target('heatcrash', normal).
+move_target('heatwave', alladjacentfoes).
+move_target('heavyslam', normal).
+move_target('helpinghand', adjacentally).
+move_target('hex', normal).
+move_target('hiddenpower', normal).
+move_target('hiddenpower', normal).
+move_target('hiddenpower', normal).
+move_target('hiddenpower', normal).
+move_target('hiddenpower', normal).
+move_target('hiddenpower', normal).
+move_target('hiddenpower', normal).
+move_target('hiddenpower', normal).
+move_target('hiddenpower', normal).
+move_target('hiddenpower', normal).
+move_target('hiddenpower', normal).
+move_target('hiddenpower', normal).
+move_target('hiddenpower', normal).
+move_target('hiddenpower', normal).
+move_target('hiddenpower', normal).
+move_target('hiddenpower', normal).
+move_target('hiddenpower', normal).
+move_target('highhorsepower', normal).
+move_target('highjumpkick', normal).
+move_target('holdback', normal).
+move_target('holdhands', adjacentally).
+move_target('honeclaws', self).
+move_target('hornattack', normal).
+move_target('horndrill', normal).
+move_target('hornleech', normal).
+move_target('howl', allies).
+move_target('hurricane', any).
+move_target('hydrocannon', normal).
+move_target('hydropump', normal).
+move_target('hydrosteam', normal).
+move_target('hydrovortex', normal).
+move_target('hyperbeam', normal).
+move_target('hyperdrill', normal).
+move_target('hyperfang', normal).
+move_target('hyperspacefury', normal).
+move_target('hyperspacehole', normal).
+move_target('hypervoice', alladjacentfoes).
+move_target('hypnosis', normal).
+move_target('iceball', normal).
+move_target('icebeam', normal).
+move_target('iceburn', normal).
+move_target('icefang', normal).
+move_target('icehammer', normal).
+move_target('icepunch', normal).
+move_target('iceshard', normal).
+move_target('icespinner', normal).
+move_target('iciclecrash', normal).
+move_target('iciclespear', normal).
+move_target('icywind', alladjacentfoes).
+move_target('imprison', self).
+move_target('incinerate', alladjacentfoes).
+move_target('infernalparade', normal).
+move_target('inferno', normal).
+move_target('infernooverdrive', normal).
+move_target('infestation', normal).
+move_target('ingrain', self).
+move_target('instruct', normal).
+move_target('iondeluge', all).
+move_target('irondefense', self).
+move_target('ironhead', normal).
+move_target('irontail', normal).
+move_target('ivycudgel', normal).
+move_target('jawlock', normal).
+move_target('jetpunch', normal).
+move_target('judgment', normal).
+move_target('jumpkick', normal).
+move_target('junglehealing', allies).
+move_target('karatechop', normal).
+move_target('kinesis', normal).
+move_target('kingsshield', self).
+move_target('knockoff', normal).
+move_target('kowtowcleave', normal).
+move_target('landswrath', alladjacentfoes).
+move_target('laserfocus', self).
+move_target('lashout', normal).
+move_target('lastresort', normal).
+move_target('lastrespects', normal).
+move_target('lavaplume', alladjacent).
+move_target('leafage', normal).
+move_target('leafblade', normal).
+move_target('leafstorm', normal).
+move_target('leaftornado', normal).
+move_target('leechlife', normal).
+move_target('leechseed', normal).
+move_target('leer', alladjacentfoes).
+move_target('letssnuggleforever', normal).
+move_target('lick', normal).
+move_target('lifedew', allies).
+move_target('lightofruin', normal).
+move_target('lightscreen', allyside).
+move_target('lightthatburnsthesky', normal).
+move_target('liquidation', normal).
+move_target('lockon', normal).
+move_target('lovelykiss', normal).
+move_target('lowkick', normal).
+move_target('lowsweep', normal).
+move_target('luckychant', allyside).
+move_target('luminacrash', normal).
+move_target('lunarblessing', allies).
+move_target('lunardance', self).
+move_target('lunge', normal).
+move_target('lusterpurge', normal).
+move_target('machpunch', normal).
+move_target('magicalleaf', normal).
+move_target('magicaltorque', normal).
+move_target('magiccoat', self).
+move_target('magicpowder', normal).
+move_target('magicroom', all).
+move_target('magmastorm', normal).
+move_target('magnetbomb', normal).
+move_target('magneticflux', allyside).
+move_target('magnetrise', self).
+move_target('magnitude', alladjacent).
+move_target('makeitrain', alladjacentfoes).
+move_target('maliciousmoonsault', normal).
+move_target('malignantchain', normal).
+move_target('matblock', allyside).
+move_target('matchagotcha', alladjacentfoes).
+move_target('maxairstream', adjacentfoe).
+move_target('maxdarkness', adjacentfoe).
+move_target('maxflare', adjacentfoe).
+move_target('maxflutterby', adjacentfoe).
+move_target('maxgeyser', adjacentfoe).
+move_target('maxguard', self).
+move_target('maxhailstorm', adjacentfoe).
+move_target('maxknuckle', adjacentfoe).
+move_target('maxlightning', adjacentfoe).
+move_target('maxmindstorm', adjacentfoe).
+move_target('maxooze', adjacentfoe).
+move_target('maxovergrowth', adjacentfoe).
+move_target('maxphantasm', adjacentfoe).
+move_target('maxquake', adjacentfoe).
+move_target('maxrockfall', adjacentfoe).
+move_target('maxstarfall', adjacentfoe).
+move_target('maxsteelspike', adjacentfoe).
+move_target('maxstrike', adjacentfoe).
+move_target('maxwyrmwind', adjacentfoe).
+move_target('meanlook', normal).
+move_target('meditate', self).
+move_target('mefirst', adjacentfoe).
+move_target('megadrain', normal).
+move_target('megahorn', normal).
+move_target('megakick', normal).
+move_target('megapunch', normal).
+move_target('memento', normal).
+move_target('menacingmoonrazemaelstrom', normal).
+move_target('metalburst', scripted).
+move_target('metalclaw', normal).
+move_target('metalsound', normal).
+move_target('meteorassault', normal).
+move_target('meteorbeam', normal).
+move_target('meteormash', normal).
+move_target('metronome', self).
+move_target('mightycleave', normal).
+move_target('milkdrink', self).
+move_target('mimic', normal).
+move_target('mindblown', alladjacent).
+move_target('mindreader', normal).
+move_target('minimize', self).
+move_target('miracleeye', normal).
+move_target('mirrorcoat', scripted).
+move_target('mirrormove', normal).
+move_target('mirrorshot', normal).
+move_target('mist', allyside).
+move_target('mistball', normal).
+move_target('mistyexplosion', alladjacent).
+move_target('mistyterrain', all).
+move_target('moonblast', normal).
+move_target('moongeistbeam', normal).
+move_target('moonlight', self).
+move_target('morningsun', self).
+move_target('mortalspin', alladjacentfoes).
+move_target('mountaingale', normal).
+move_target('mudbomb', normal).
+move_target('mudshot', normal).
+move_target('mudslap', normal).
+move_target('mudsport', all).
+move_target('muddywater', alladjacentfoes).
+move_target('multiattack', normal).
+move_target('mysticalfire', normal).
+move_target('mysticalpower', normal).
+move_target('nastyplot', self).
+move_target('naturalgift', normal).
+move_target('naturepower', normal).
+move_target('naturesmadness', normal).
+move_target('needlearm', normal).
+move_target('neverendingnightmare', normal).
+move_target('nightdaze', normal).
+move_target('nightmare', normal).
+move_target('nightshade', normal).
+move_target('nightslash', normal).
+move_target('nobleroar', normal).
+move_target('noretreat', self).
+move_target('noxioustorque', normal).
+move_target('nuzzle', normal).
+move_target('oblivionwing', any).
+move_target('obstruct', self).
+move_target('oceanicoperetta', normal).
+move_target('octazooka', normal).
+move_target('octolock', normal).
+move_target('odorsleuth', normal).
+move_target('ominouswind', normal).
+move_target('orderup', normal).
+move_target('originpulse', alladjacentfoes).
+move_target('outrage', randomnormal).
+move_target('overdrive', alladjacentfoes).
+move_target('overheat', normal).
+move_target('painsplit', normal).
+move_target('paraboliccharge', alladjacent).
+move_target('partingshot', normal).
+move_target('payback', normal).
+move_target('payday', normal).
+move_target('peck', any).
+move_target('perishsong', all).
+move_target('petalblizzard', alladjacent).
+move_target('petaldance', randomnormal).
+move_target('phantomforce', normal).
+move_target('photongeyser', normal).
+move_target('pikapapow', normal).
+move_target('pinmissile', normal).
+move_target('plasmafists', normal).
+move_target('playnice', normal).
+move_target('playrough', normal).
+move_target('pluck', any).
+move_target('poisonfang', normal).
+move_target('poisongas', alladjacentfoes).
+move_target('poisonjab', normal).
+move_target('poisonpowder', normal).
+move_target('poisonsting', normal).
+move_target('poisontail', normal).
+move_target('pollenpuff', normal).
+move_target('poltergeist', normal).
+move_target('populationbomb', normal).
+move_target('pounce', normal).
+move_target('pound', normal).
+move_target('powder', normal).
+move_target('powdersnow', alladjacentfoes).
+move_target('powergem', normal).
+move_target('powershift', self).
+move_target('powersplit', normal).
+move_target('powerswap', normal).
+move_target('powertrick', self).
+move_target('powertrip', normal).
+move_target('poweruppunch', normal).
+move_target('powerwhip', normal).
+move_target('precipiceblades', alladjacentfoes).
+move_target('present', normal).
+move_target('prismaticlaser', normal).
+move_target('protect', self).
+move_target('psybeam', normal).
+move_target('psyblade', normal).
+move_target('psychup', normal).
+move_target('psychic', normal).
+move_target('psychicfangs', normal).
+move_target('psychicnoise', normal).
+move_target('psychicterrain', all).
+move_target('psychoboost', normal).
+move_target('psychocut', normal).
+move_target('psychoshift', normal).
+move_target('psyshieldbash', normal).
+move_target('psyshock', normal).
+move_target('psystrike', normal).
+move_target('psywave', normal).
+move_target('pulverizingpancake', normal).
+move_target('punishment', normal).
+move_target('purify', normal).
+move_target('pursuit', normal).
+move_target('pyroball', normal).
+move_target('quash', normal).
+move_target('quickattack', normal).
+move_target('quickguard', allyside).
+move_target('quiverdance', self).
+move_target('rage', normal).
+move_target('ragefist', normal).
+move_target('ragepowder', self).
+move_target('ragingbull', normal).
+move_target('ragingfury', randomnormal).
+move_target('raindance', all).
+move_target('rapidspin', normal).
+move_target('razorleaf', alladjacentfoes).
+move_target('razorshell', normal).
+move_target('razorwind', alladjacentfoes).
+move_target('recover', self).
+move_target('recycle', self).
+move_target('reflect', allyside).
+move_target('reflecttype', normal).
+move_target('refresh', self).
+move_target('relicsong', alladjacentfoes).
+move_target('rest', self).
+move_target('retaliate', normal).
+move_target('return', normal).
+move_target('revelationdance', normal).
+move_target('revenge', normal).
+move_target('reversal', normal).
+move_target('revivalblessing', self).
+move_target('risingvoltage', normal).
+move_target('roar', normal).
+move_target('roaroftime', normal).
+move_target('rockblast', normal).
+move_target('rockclimb', normal).
+move_target('rockpolish', self).
+move_target('rockslide', alladjacentfoes).
+move_target('rocksmash', normal).
+move_target('rockthrow', normal).
+move_target('rocktomb', normal).
+move_target('rockwrecker', normal).
+move_target('roleplay', normal).
+move_target('rollingkick', normal).
+move_target('rollout', normal).
+move_target('roost', self).
+move_target('rototiller', all).
+move_target('round', normal).
+move_target('ruination', normal).
+move_target('sacredfire', normal).
+move_target('sacredsword', normal).
+move_target('safeguard', allyside).
+move_target('saltcure', normal).
+move_target('sandattack', normal).
+move_target('sandsearstorm', alladjacentfoes).
+move_target('sandstorm', all).
+move_target('sandtomb', normal).
+move_target('sappyseed', normal).
+move_target('savagespinout', normal).
+move_target('scald', normal).
+move_target('scaleshot', normal).
+move_target('scaryface', normal).
+move_target('scorchingsands', normal).
+move_target('scratch', normal).
+move_target('screech', normal).
+move_target('searingshot', alladjacent).
+move_target('searingsunrazesmash', normal).
+move_target('secretpower', normal).
+move_target('secretsword', normal).
+move_target('seedbomb', normal).
+move_target('seedflare', normal).
+move_target('seismictoss', normal).
+move_target('selfdestruct', alladjacent).
+move_target('shadowball', normal).
+move_target('shadowbone', normal).
+move_target('shadowclaw', normal).
+move_target('shadowforce', normal).
+move_target('shadowpunch', normal).
+move_target('shadowsneak', normal).
+move_target('sharpen', self).
+move_target('shatteredpsyche', normal).
+move_target('shedtail', self).
+move_target('sheercold', normal).
+move_target('shellsidearm', normal).
+move_target('shellsmash', self).
+move_target('shelltrap', alladjacentfoes).
+move_target('shelter', self).
+move_target('shiftgear', self).
+move_target('shockwave', normal).
+move_target('shoreup', self).
+move_target('signalbeam', normal).
+move_target('silktrap', self).
+move_target('silverwind', normal).
+move_target('simplebeam', normal).
+move_target('sing', normal).
+move_target('sinisterarrowraid', normal).
+move_target('sizzlyslide', normal).
+move_target('sketch', normal).
+move_target('skillswap', normal).
+move_target('skittersmack', normal).
+move_target('skullbash', normal).
+move_target('skyattack', any).
+move_target('skydrop', any).
+move_target('skyuppercut', normal).
+move_target('slackoff', self).
+move_target('slam', normal).
+move_target('slash', normal).
+move_target('sleeppowder', normal).
+move_target('sleeptalk', self).
+move_target('sludge', normal).
+move_target('sludgebomb', normal).
+move_target('sludgewave', alladjacent).
+move_target('smackdown', normal).
+move_target('smartstrike', normal).
+move_target('smellingsalts', normal).
+move_target('smog', normal).
+move_target('smokescreen', normal).
+move_target('snaptrap', normal).
+move_target('snarl', alladjacentfoes).
+move_target('snatch', self).
+move_target('snipeshot', normal).
+move_target('snore', normal).
+move_target('snowscape', all).
+move_target('soak', normal).
+move_target('softboiled', self).
+move_target('solarbeam', normal).
+move_target('solarblade', normal).
+move_target('sonicboom', normal).
+move_target('soulstealing7starstrike', normal).
+move_target('spacialrend', normal).
+move_target('spark', normal).
+move_target('sparklingaria', alladjacent).
+move_target('sparklyswirl', normal).
+move_target('spectralthief', normal).
+move_target('speedswap', normal).
+move_target('spicyextract', normal).
+move_target('spiderweb', normal).
+move_target('spikecannon', normal).
+move_target('spikes', foeside).
+move_target('spikyshield', self).
+move_target('spinout', normal).
+move_target('spiritbreak', normal).
+move_target('spiritshackle', normal).
+move_target('spitup', normal).
+move_target('spite', normal).
+move_target('splash', self).
+move_target('splinteredstormshards', normal).
+move_target('splishysplash', alladjacentfoes).
+move_target('spore', normal).
+move_target('spotlight', normal).
+move_target('springtidestorm', alladjacentfoes).
+move_target('stealthrock', foeside).
+move_target('steameruption', normal).
+move_target('steamroller', normal).
+move_target('steelbeam', normal).
+move_target('steelroller', normal).
+move_target('steelwing', normal).
+move_target('stickyweb', foeside).
+move_target('stockpile', self).
+move_target('stokedsparksurfer', normal).
+move_target('stomp', normal).
+move_target('stompingtantrum', normal).
+move_target('stoneaxe', normal).
+move_target('stoneedge', normal).
+move_target('storedpower', normal).
+move_target('stormthrow', normal).
+move_target('strangesteam', normal).
+move_target('strength', normal).
+move_target('strengthsap', normal).
+move_target('stringshot', alladjacentfoes).
+move_target('struggle', randomnormal).
+move_target('strugglebug', alladjacentfoes).
+move_target('stuffcheeks', self).
+move_target('stunspore', normal).
+move_target('submission', normal).
+move_target('substitute', self).
+move_target('subzeroslammer', normal).
+move_target('suckerpunch', normal).
+move_target('sunnyday', all).
+move_target('sunsteelstrike', normal).
+move_target('supercellslam', normal).
+move_target('superfang', normal).
+move_target('superpower', normal).
+move_target('supersonic', normal).
+move_target('supersonicskystrike', normal).
+move_target('surf', alladjacent).
+move_target('surgingstrikes', normal).
+move_target('swagger', normal).
+move_target('swallow', self).
+move_target('sweetkiss', normal).
+move_target('sweetscent', alladjacentfoes).
+move_target('swift', alladjacentfoes).
+move_target('switcheroo', normal).
+move_target('swordsdance', self).
+move_target('synchronoise', alladjacent).
+move_target('synthesis', self).
+move_target('syrupbomb', normal).
+move_target('tachyoncutter', normal).
+move_target('tackle', normal).
+move_target('tailglow', self).
+move_target('tailslap', normal).
+move_target('tailwhip', alladjacentfoes).
+move_target('tailwind', allyside).
+move_target('takedown', normal).
+move_target('takeheart', self).
+move_target('tarshot', normal).
+move_target('taunt', normal).
+move_target('tearfullook', normal).
+move_target('teatime', all).
+move_target('technoblast', normal).
+move_target('tectonicrage', normal).
+move_target('teeterdance', alladjacent).
+move_target('telekinesis', normal).
+move_target('teleport', self).
+move_target('temperflare', normal).
+move_target('terablast', normal).
+move_target('terastarstorm', normal).
+move_target('terrainpulse', normal).
+move_target('thief', normal).
+move_target('thousandarrows', alladjacentfoes).
+move_target('thousandwaves', alladjacentfoes).
+move_target('thrash', randomnormal).
+move_target('throatchop', normal).
+move_target('thunder', normal).
+move_target('thunderbolt', normal).
+move_target('thundercage', normal).
+move_target('thunderclap', normal).
+move_target('thunderfang', normal).
+move_target('thunderouskick', normal).
+move_target('thunderpunch', normal).
+move_target('thundershock', normal).
+move_target('thunderwave', normal).
+move_target('tickle', normal).
+move_target('tidyup', self).
+move_target('topsyturvy', normal).
+move_target('torchsong', normal).
+move_target('torment', normal).
+move_target('toxic', normal).
+move_target('toxicspikes', foeside).
+move_target('toxicthread', normal).
+move_target('trailblaze', normal).
+move_target('transform', normal).
+move_target('triattack', normal).
+move_target('trick', normal).
+move_target('trickortreat', normal).
+move_target('trickroom', all).
+move_target('triplearrows', normal).
+move_target('tripleaxel', normal).
+move_target('tripledive', normal).
+move_target('triplekick', normal).
+move_target('tropkick', normal).
+move_target('trumpcard', normal).
+move_target('twinbeam', normal).
+move_target('twineedle', normal).
+move_target('twinkletackle', normal).
+move_target('twister', alladjacentfoes).
+move_target('uturn', normal).
+move_target('upperhand', normal).
+move_target('uproar', randomnormal).
+move_target('vacuumwave', normal).
+move_target('vcreate', normal).
+move_target('veeveevolley', normal).
+move_target('venomdrench', alladjacentfoes).
+move_target('venoshock', normal).
+move_target('victorydance', self).
+move_target('vinewhip', normal).
+move_target('visegrip', normal).
+move_target('vitalthrow', normal).
+move_target('voltswitch', normal).
+move_target('volttackle', normal).
+move_target('wakeupslap', normal).
+move_target('waterfall', normal).
+move_target('watergun', normal).
+move_target('waterpledge', normal).
+move_target('waterpulse', any).
+move_target('watershuriken', normal).
+move_target('watersport', all).
+move_target('waterspout', alladjacentfoes).
+move_target('wavecrash', normal).
+move_target('weatherball', normal).
+move_target('whirlpool', normal).
+move_target('whirlwind', normal).
+move_target('wickedblow', normal).
+move_target('wickedtorque', normal).
+move_target('wideguard', allyside).
+move_target('wildboltstorm', alladjacentfoes).
+move_target('wildcharge', normal).
+move_target('willowisp', normal).
+move_target('wingattack', any).
+move_target('wish', self).
+move_target('withdraw', self).
+move_target('wonderroom', all).
+move_target('woodhammer', normal).
+move_target('workup', self).
+move_target('worryseed', normal).
+move_target('wrap', normal).
+move_target('wringout', normal).
+move_target('xscissor', normal).
+move_target('yawn', normal).
+move_target('zapcannon', normal).
+move_target('zenheadbutt', normal).
+move_target('zingzap', normal).
+move_target('zippyzap', normal).
+move_target('paleowave', normal).
+move_target('shadowstrike', normal).
