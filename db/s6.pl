@@ -312,4 +312,6 @@ result(2, justin, 5).
 result(2, alex, 6).
 result(2, morry, 2).
 result(2, zack, 5).
+result(2, pat, 4).
+result(2, kirk, 3).
 
