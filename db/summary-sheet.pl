@@ -1,4 +1,5 @@
-:- module('summary-sheet', [team_speed_tiers/1, team_speed_tiers/2,
+:- module('summary-sheet', [speed_tiers_list/1, speed_tiers_list/2,
+                            speed_tiers_chart/1,
                             print_type_chart/1, standings/0, standings/1]).
 
 :- use_module(library(lists)).
@@ -28,7 +29,7 @@ standings :-
   standings(S),
   maplist(printline, S).
 
-%%% Speed tiers
+%%% Speed tiers list
 speed_tier_str(max_positive_plus_one, "Max+ (+1)").
 speed_tier_str(max_neutral_plus_one, "Max  (+1)").
 speed_tier_str(max_positive, "Max+").
@@ -36,29 +37,45 @@ speed_tier_str(max_neutral, "Max").
 speed_tier_str(default_stat, "Default").
 speed_tier_str(min_stat, "Min").
 
-team_speed_tiers_(Player, Mon, SpeedTier, Speed) :-
-  call(Player, Mon),
-  speed_tiers(Mon, SpeedTier, Speed).
+speed_tiers_chart_line(Mon, Line) :-
+  speed_tiers(Mon, min_stat, MS),
+  speed_tiers(Mon, default_stat, DS),
+  speed_tiers(Mon, max_neutral, MNS),
+  speed_tiers(Mon, max_positive, MPS),
+  speed_tiers(Mon, max_neutral_plus_one, MNPOS),
+  speed_tiers(Mon, max_positive_plus_one, MPPOS),
+  phrase(format_("~a~t~15| ~d~t~20| ~d~t~25| ~d~t~30| ~d~t~35| ~d~t~40| ~d~t~46|", [Mon, MS, DS, MNS, MPS, MNPOS, MPPOS]), Line).
 
-team_speed_tiers_list_key([Speed | Tail], Speed-Tail).
-team_speed_tiers_line_(Speed-[Mon|[SpeedTier]], S) :-
+speed_tiers_chart(Player) :-
+  findall(Mon, team(Player, Mon), Mons),
+  maplist(speed_tiers_chart_line, Mons, Lines),
+  format("~s~t~15| ~s~t~20| ~s~t~25| ~s~t~30| ~s~t~35| ~s~t~40| ~s~t~46|~n",
+    ["Mon", "Min", "Def", "Max", "Max+", "1.5", "1.5+"]),
+  maplist(printline, Lines).
+
+speed_tiers_list_key([Speed | Tail], Speed-Tail).
+speed_tiers_list_line_(Speed-[Mon|[SpeedTier]], S) :-
   speed_tier_str(SpeedTier, STStr),
   phrase(format_("~d~t~3| | ~a~t~25| | ~s", [Speed, Mon, STStr]), S).
 
-team_speed_tiers_(Player, AllTiers) :-
-  findall([S, M, ST], team_speed_tiers_(Player, M, ST, S), Res),
-  maplist(team_speed_tiers_list_key, Res, KeyList),
+speed_tiers_list_(Player, Mon, SpeedTier, Speed) :-
+  call(Player, Mon),
+  speed_tiers(Mon, SpeedTier, Speed).
+
+speed_tiers_list_(Player, AllTiers) :-
+  findall([S, M, ST], speed_tiers_list_(Player, M, ST, S), Res),
+  maplist(speed_tiers_list_key, Res, KeyList),
   keysort(KeyList, Sorted),
   reverse(Sorted, SR),
-  maplist(team_speed_tiers_line_, SR, AllTiers).
+  maplist(speed_tiers_list_line_, SR, AllTiers).
 
-team_speed_tiers(Player) :-
-  team_speed_tiers_(Player, AllTiers),
+speed_tiers_list(Player) :-
+  speed_tiers_list_(Player, AllTiers),
   maplist(printline, AllTiers).
 
-team_speed_tiers(Player1, Player2) :-
-  team_speed_tiers_(Player1, Player1Tiers),
-  team_speed_tiers_(Player2, Player2Tiers),
+speed_tiers_list(Player1, Player2) :-
+  speed_tiers_list_(Player1, Player1Tiers),
+  speed_tiers_list_(Player2, Player2Tiers),
   append(Player1Tiers, Player2Tiers, AllTiers),
   maplist(printline, AllTiers).
 
