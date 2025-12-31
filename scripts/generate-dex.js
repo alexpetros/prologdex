@@ -25,7 +25,7 @@ class ModuleFile {
   }
 }
 
-// Pokemon and their types
+// Pokemon: types and stats
 const pokemonStream = new ModuleFile(POKEMON_PL_FILE)
 pokemonStream.writeln(`:- module(dex, [pokemon/1, type/2, pokemon_ability/2,
   pokemon_hp/2, pokemon_atk/2, pokemon_def/2, pokemon_spa/2, pokemon_spd/2, pokemon_spe/2
@@ -98,7 +98,7 @@ learnsetsStream.close()
 
 // Moves
 const movesStream = new ModuleFile(MOVES_PL_FILE)
-movesStream.writeln(":- module(moves, [move/1, move_type/2, move_power/2, move_accuracy/2]).\n")
+movesStream.writeln(":- module(moves, [move/1, move_type/2, move_power/2, move_accuracy/2, move_category/2]).\n")
 const moves = Dex.moves.all()
 
 for (const move of moves) {
@@ -119,6 +119,7 @@ for (const move of moves) {
   const power = move.basePower
   if (id !== 'hiddenpower') movesStream.writeln(`move_power('${id}', ${power}).`)
 }
+movesStream.writeln()
 // movesStream.writeln(`move_power('hiddenpower', ${hiddenpower.basePower}).\n`)
 
 for (const move of moves) {
@@ -126,5 +127,15 @@ for (const move of moves) {
   const accuracy = move.accuracy === true ? 'true' : move.accuracy
   if (id !== 'hiddenpower') movesStream.writeln(`move_accuracy('${id}', ${accuracy}).`)
 }
+movesStream.writeln()
+
+for (const move of moves) {
+  const id = move.id
+  const category = move.category.toLowerCase()
+  if (id !== 'hiddenpower') movesStream.writeln(`move_category('${id}', ${category}).`)
+}
+// movesStream.writeln("move('hiddenpower').\n")
+
+
 // movesStream.writeln(`move_accuracy('hiddenpower', ${hiddenpower.accuracy}).`)
 movesStream.close()
