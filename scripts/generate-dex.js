@@ -16,6 +16,10 @@ class ModuleFile {
     this.writeln("% GENERATED FILE - do not modify directly\n% see create-dex.js")
   }
 
+  write(string = '') {
+    this.stream.write(string)
+  }
+
   writeln(string = '') {
     this.stream.write(string + '\n')
   }
@@ -34,10 +38,10 @@ function forEachPokemon(predicateFunc) {
   }
 }
 
-writeModuleDeclaration(pokemonStream, 'dex', [
-  ['pokemon', 1], ['type', 2], ['pokemon_ability', 2], ['pokemon_hp', 2], ['pokemon_atk', 2],
-  ['pokemon_def', 2], ['pokemon_spa', 2], ['pokemon_spd', 2], ['pokemon_spe', 2]]
-)
+writeModuleDeclaration( pokemonStream, 'dex', [
+  'pokemon/1', 'type/2', 'pokemon_ability/2', 'pokemon_hp/2', 'pokemon_atk/2', 'pokemon_def/2',
+  'pokemon_spa/2', 'pokemon_spd/2', 'pokemon_spe/2'
+])
 
 forEachPokemon((mon) => ['pokemon', mon.id])
 forEachPokemon((mon) => ['pokemon_hp', mon.id, mon.baseStats.hp])
@@ -55,7 +59,7 @@ pokemonStream.close()
 
 // Learnsets
 const learnsetsStream = new ModuleFile(LEARNESET_PL_FILE)
-learnsetsStream.writeln(":- module(learnsets, [learns/2]).\n")
+writeModuleDeclaration(learnsetsStream, 'learnsets', ['learns/2'])
 for (const id in pokedex) {
   const mon = Dex.species.get(id)
   const moves = Dex.species.getMovePool(mon, true)
@@ -67,7 +71,10 @@ learnsetsStream.close()
 
 // Moves
 const movesStream = new ModuleFile(MOVES_PL_FILE)
-movesStream.writeln(":- module(moves, [move/1, move_type/2, move_power/2, move_accuracy/2, move_category/2, move_boost/3, move_target/2, move_priority/2]).\n")
+writeModuleDeclaration(movesStream, 'moves', [
+  'move/1', 'move_type/2', 'move_power/2', 'move_accuracy/2', 'move_category/2', 'move_boost/3',
+  'move_target/2', 'move_priority/2'
+])
 
 // Excluding hidden power for now because it's not legal and adds a lot of noise
 const moves = Dex.moves.all().filter(move => move.id !== 'hiddenpower')
@@ -116,10 +123,9 @@ function writeSinglePredicate(stream, predicate) {
 }
 
 function writeModuleDeclaration(stream, name, indicators) {
-  stream.writeln(":- module(")
-  stream.writeln(`${name}, [`)
-  const indicatorList = indicators.map(([predicateName, arity]) => `${predicateName}/${arity}`)
-  const indicatorString = indicatorList.join(', ')
-  stream.writeln(indicatorString)
+  stream.write(":- module(")
+  stream.write(`${name}, [`)
+  const indicatorString = indicators.join(', ')
+  stream.write(indicatorString)
   stream.writeln("]).\n")
 }

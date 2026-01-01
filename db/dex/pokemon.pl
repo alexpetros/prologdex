@@ -1,9 +1,6 @@
 % GENERATED FILE - do not modify directly
 % see create-dex.js
-:- module(
-dex, [
-pokemon/1, type/2, pokemon_ability/2, pokemon_hp/2, pokemon_atk/2, pokemon_def/2, pokemon_spa/2, pokemon_spd/2, pokemon_spe/2
-]).
+:- module(dex, [pokemon/1, type/2, pokemon_ability/2, pokemon_hp/2, pokemon_atk/2, pokemon_def/2, pokemon_spa/2, pokemon_spd/2, pokemon_spe/2]).
 
 pokemon('bulbasaur').
 pokemon('ivysaur').
