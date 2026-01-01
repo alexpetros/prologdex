@@ -25,10 +25,10 @@ learns_hazards(Mon, Move) :-
   learns(Mon, Move).
 
 learns_priority(Mon, Move, Priority) :-
+  learns(Mon, Move),
   damaging_move(Move),
   move_priority(Move, Priority),
-  Priority #> 0,
-  learns(Mon, Move).
+  Priority #> 0.
 
 damaging_move(Move) :-
   move_category(Move, special);
