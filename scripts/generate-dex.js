@@ -27,61 +27,30 @@ class ModuleFile {
 
 // Pokemon: types and stats
 const pokemonStream = new ModuleFile(POKEMON_PL_FILE)
-pokemonStream.writeln(`:- module(dex, [pokemon/1, type/2, pokemon_ability/2,
-  pokemon_hp/2, pokemon_atk/2, pokemon_def/2, pokemon_spa/2, pokemon_spd/2, pokemon_spe/2
-]).
-`)
-
-for (const id in pokedex) {
-  const mon = Dex.species.get(id)
-  pokemonStream.writeln(`pokemon('${mon.id}').`)
-}
-
-for (const id in pokedex) {
-  const mon = Dex.species.get(id)
-  pokemonStream.writeln(`pokemon_hp('${mon.id}', ${mon.baseStats.hp}).`)
-}
-
-for (const id in pokedex) {
-  const mon = Dex.species.get(id)
-  pokemonStream.writeln(`pokemon_atk('${mon.id}', ${mon.baseStats.atk}).`)
-}
-
-for (const id in pokedex) {
-  const mon = Dex.species.get(id)
-  pokemonStream.writeln(`pokemon_def('${mon.id}', ${mon.baseStats.def}).`)
-}
-
-for (const id in pokedex) {
-  const mon = Dex.species.get(id)
-  pokemonStream.writeln(`pokemon_spa('${mon.id}', ${mon.baseStats.spa}).`)
-}
-
-for (const id in pokedex) {
-  const mon = Dex.species.get(id)
-  pokemonStream.writeln(`pokemon_spd('${mon.id}', ${mon.baseStats.spd}).`)
-}
-
-for (const id in pokedex) {
-  const mon = Dex.species.get(id)
-  pokemonStream.writeln(`pokemon_spe('${mon.id}', ${mon.baseStats.spe}).`)
-}
-
-for (const id in pokedex) {
-  const mon = Dex.species.get(id)
-  for (const type of mon.types) {
-    pokemonStream.writeln(`type('${mon.id}', '${type.toLowerCase()}').`)
+function forEachPokemon(predicateFunc) {
+  for (const id in pokedex) {
+    const mon = Dex.species.get(id)
+    writePredicates(pokemonStream, predicateFunc(mon))
   }
 }
 
-for (const id in pokedex) {
-  const mon = Dex.species.get(id)
+writeModuleDeclaration(pokemonStream, 'dex', [
+  ['pokemon', 1], ['type', 2], ['pokemon_ability', 2], ['pokemon_hp', 2], ['pokemon_atk', 2],
+  ['pokemon_def', 2], ['pokemon_spa', 2], ['pokemon_spd', 2], ['pokemon_spe', 2]]
+)
+
+forEachPokemon((mon) => ['pokemon', mon.id])
+forEachPokemon((mon) => ['pokemon_hp', mon.id, mon.baseStats.hp])
+forEachPokemon((mon) => ['pokemon_atk', mon.id, mon.baseStats.atk])
+forEachPokemon((mon) => ['pokemon_def', mon.id, mon.baseStats.def])
+forEachPokemon((mon) => ['pokemon_spa', mon.id, mon.baseStats.spa])
+forEachPokemon((mon) => ['pokemon_spd', mon.id, mon.baseStats.spd])
+forEachPokemon((mon) => ['pokemon_spe', mon.id, mon.baseStats.spe])
+forEachPokemon((mon) => mon.types.map(type => ['type', mon.id, type]))
+forEachPokemon((mon) => {
   const abilities = Object.values(mon.abilities)
-  for (const ability of abilities) {
-    const normalizedAbility = ability.toLowerCase().replace("'", "\\'").replace(' ', '')
-    pokemonStream.writeln(`pokemon_ability('${mon.id}', '${normalizedAbility}').`)
-  }
-}
+  return abilities.map(ability => ['pokemon_ability', mon.id, ability])
+})
 pokemonStream.close()
 
 // Learnsets
@@ -90,62 +59,67 @@ learnsetsStream.writeln(":- module(learnsets, [learns/2]).\n")
 for (const id in pokedex) {
   const mon = Dex.species.get(id)
   const moves = Dex.species.getMovePool(mon, true)
-  for (const move of moves) {
-    if (move !== 'hiddenpower') learnsetsStream.writeln(`learns('${mon.id}', '${move}').`)
-  }
+  moves.forEach(move => {
+    if (move !== 'hiddenpower') writePredicates(learnsetsStream, ['learns', mon.id, move])
+  })
 }
 learnsetsStream.close()
 
 // Moves
 const movesStream = new ModuleFile(MOVES_PL_FILE)
-
 movesStream.writeln(":- module(moves, [move/1, move_type/2, move_power/2, move_accuracy/2, move_category/2, move_boost/3, move_target/2, move_priority/2]).\n")
 
 // Excluding hidden power for now because it's not legal and adds a lot of noise
 const moves = Dex.moves.all().filter(move => move.id !== 'hiddenpower')
 function forEachMove(predicateFunc) {
-  moves.forEach(move => { writePredicate(movesStream, predicateFunc(move)) })
+  moves.forEach(move => { writePredicates(movesStream, predicateFunc(move)) })
   movesStream.writeln()
 }
 
 forEachMove((move) => ['move', move.id])
-
 forEachMove((move) => ['move_type', move.id, move.type])
-
 forEachMove((move) => ['move_power', move.id, move.basePower])
-
 forEachMove((move) => {
   const acc = move.accuracy === true || move.accuracy
   return ['move_accuracy', move.id, acc]
 })
-
 forEachMove((move) => ( ['move_category', move.id, move.category]))
-
-for (const move of moves) {
-  for (const stat in move.boosts) {
-    const id = move.id
-    const boost = move.boosts[stat]
-    movesStream.writeln(`move_boost('${id}', ${stat}, ${boost}).`)
-  }
-}
-movesStream.writeln()
-
+forEachMove((move) => {
+  if (!move.boosts) return
+  const stats = Object.keys(move.boosts)
+  return stats.map(stat => ['move_boost', move.id, stat, move.boosts[stat]])
+})
 forEachMove((move) => ['move_target', move.id, move.target])
 forEachMove((move) => ['move_priority', move.id, move.priority])
 
 movesStream.close()
 
-function writePredicate(stream, predicate) {
-  if (!predicate || predicate.length < 1) return
+function writePredicates(stream, predicates) {
+  if (!predicates || predicates.length < 1) return
+
+  let toWrite = Array.isArray(predicates[0]) ? predicates : [predicates]
+  toWrite.forEach((p) => writeSinglePredicate(stream, p))
+}
+
+function writeSinglePredicate(stream, predicate) {
   const [name, ...args] = predicate
   const argList = args.map(arg => {
     if (typeof arg == 'number' || typeof arg == 'boolean') {
       return arg.toString()
     } else {
-      return `'${arg.toString().toLowerCase()}'`
+      const normalized = arg.toString().toLowerCase().replace("'", "\\'").replace(' ', '')
+      return `'${normalized}'`
     }
   })
   const argString = argList.join(', ')
   stream.writeln(`${name}(${argString}).`)
 }
 
+function writeModuleDeclaration(stream, name, indicators) {
+  stream.writeln(":- module(")
+  stream.writeln(`${name}, [`)
+  const indicatorList = indicators.map(([predicateName, arity]) => `${predicateName}/${arity}`)
+  const indicatorString = indicatorList.join(', ')
+  stream.writeln(indicatorString)
+  stream.writeln("]).\n")
+}
