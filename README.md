@@ -59,7 +59,14 @@ So if you press `a`, you'll see (at the time of this writing):
    Pokemon = mawilemega
 ;  Pokemon = walkingwake
 ;  Pokemon = zapdos
-;  Pokemon = ursaluna.
+;  Pokemon = ursaluna
+;  Pokemon = lokix
+;  Pokemon = alakazam
+;  Pokemon = skarmory
+;  Pokemon = froslass
+;  Pokemon = carbink
+;  Pokemon = dipplin.
+?-
 ```
 
 A couple other queries I've been using:
