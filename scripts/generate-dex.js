@@ -98,44 +98,28 @@ learnsetsStream.close()
 
 // Moves
 const movesStream = new ModuleFile(MOVES_PL_FILE)
+
 movesStream.writeln(":- module(moves, [move/1, move_type/2, move_power/2, move_accuracy/2, move_category/2, move_boost/3, move_target/2, move_priority/2]).\n")
-const moves = Dex.moves.all()
 
-for (const move of moves) {
-  const id = move.id
-  if (id !== 'hiddenpower') movesStream.writeln(`move('${id}').`)
+// Excluding hidden power for now because it's not legal and adds a lot of noise
+const moves = Dex.moves.all().filter(move => move.id !== 'hiddenpower')
+function forEachMove(predicateFunc) {
+  moves.forEach(move => { writePredicate(movesStream, predicateFunc(move)) })
+  movesStream.writeln()
 }
-// movesStream.writeln("move('hiddenpower').\n")
 
-for (const move of moves) {
-  const id = move.id
-  const type = move.type.toLowerCase()
-  movesStream.writeln(`move_type('${id}', '${type}').`)
-}
-movesStream.writeln()
+forEachMove((move) => ['move', move.id])
 
-for (const move of moves) {
-  const id = move.id
-  const power = move.basePower
-  if (id !== 'hiddenpower') movesStream.writeln(`move_power('${id}', ${power}).`)
-}
-movesStream.writeln()
-// movesStream.writeln(`move_power('hiddenpower', ${hiddenpower.basePower}).\n`)
+forEachMove((move) => ['move_type', move.id, move.type])
 
-for (const move of moves) {
-  const id = move.id
-  const accuracy = move.accuracy === true ? 'true' : move.accuracy
-  if (id !== 'hiddenpower') movesStream.writeln(`move_accuracy('${id}', ${accuracy}).`)
-}
-movesStream.writeln()
+forEachMove((move) => ['move_power', move.id, move.basePower])
 
-for (const move of moves) {
-  const id = move.id
-  const category = move.category.toLowerCase()
-  if (id !== 'hiddenpower') movesStream.writeln(`move_category('${id}', ${category}).`)
-}
-movesStream.writeln()
-// movesStream.writeln("move('hiddenpower').\n")
+forEachMove((move) => {
+  const acc = move.accuracy === true || move.accuracy
+  return ['move_accuracy', move.id, acc]
+})
+
+forEachMove((move) => ( ['move_category', move.id, move.category]))
 
 for (const move of moves) {
   for (const stat in move.boosts) {
@@ -146,17 +130,22 @@ for (const move of moves) {
 }
 movesStream.writeln()
 
-for (const move of moves) {
-  const id = move.id
-  const target = move.target.toLowerCase()
-  movesStream.writeln(`move_target('${id}', ${target}).`)
-}
-movesStream.writeln()
+forEachMove((move) => ['move_target', move.id, move.target])
+forEachMove((move) => ['move_priority', move.id, move.priority])
 
-for (const move of moves) {
-  movesStream.writeln(`move_priority('${move.id}', ${move.priority}).`)
-}
-
-
-// movesStream.writeln(`move_accuracy('hiddenpower', ${hiddenpower.accuracy}).`)
 movesStream.close()
+
+function writePredicate(stream, predicate) {
+  if (!predicate || predicate.length < 1) return
+  const [name, ...args] = predicate
+  const argList = args.map(arg => {
+    if (typeof arg == 'number' || typeof arg == 'boolean') {
+      return arg.toString()
+    } else {
+      return `'${arg.toString().toLowerCase()}'`
+    }
+  })
+  const argString = argList.join(', ')
+  stream.writeln(`${name}(${argString}).`)
+}
+
