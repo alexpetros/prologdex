@@ -98,7 +98,7 @@ learnsetsStream.close()
 
 // Moves
 const movesStream = new ModuleFile(MOVES_PL_FILE)
-movesStream.writeln(":- module(moves, [move/1, move_type/2, move_power/2, move_accuracy/2, move_category/2, move_boost/3, move_target/2]).\n")
+movesStream.writeln(":- module(moves, [move/1, move_type/2, move_power/2, move_accuracy/2, move_category/2, move_boost/3, move_target/2, move_priority/2]).\n")
 const moves = Dex.moves.all()
 
 for (const move of moves) {
@@ -151,6 +151,12 @@ for (const move of moves) {
   const target = move.target.toLowerCase()
   movesStream.writeln(`move_target('${id}', ${target}).`)
 }
+movesStream.writeln()
+
+for (const move of moves) {
+  movesStream.writeln(`move_priority('${move.id}', ${move.priority}).`)
+}
+
 
 // movesStream.writeln(`move_accuracy('hiddenpower', ${hiddenpower.accuracy}).`)
 movesStream.close()
