@@ -21,7 +21,7 @@ learns_removal(Mon, Move) :-
   learns(Mon, Move).
 
 learns_hazards(Mon, Move) :-
-  removal_move(Move),
+  hazard_move(Move),
   learns(Mon, Move).
 
 learns_priority(Mon, Move, Priority) :-
