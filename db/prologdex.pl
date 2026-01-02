@@ -24,15 +24,17 @@ learns_hazards(Mon, Move) :-
   hazard_move(Move),
   learns(Mon, Move).
 
-learns_priority(Mon, Move, Priority) :-
-  learns(Mon, Move),
-  damaging_move(Move),
-  move_priority(Move, Priority),
-  Priority #> 0.
-
 damaging_move(Move) :-
   move_category(Move, special);
   move_category(Move, physical).
+
+learns_priority(Mon, Move, Priority) :-
+  learns(Mon, Move),
+  damaging_move(Move),
+  Move \= bide,
+  move_priority(Move, Priority),
+  Priority #> 0.
+
 
 % Only unify once on multiple boosts
 has_boost(Move) :- setof(_, X^Y^move_boost(Move, X, Y), _).
