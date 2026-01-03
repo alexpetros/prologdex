@@ -10,6 +10,7 @@
 
 super_effective_move(Move, Mon) :-
   move(Move),
+  (move_category(Move, special); move_category(Move, physical)),
   move_type(Move, Type),
   mon_type_matchup(Mon, Type, Matchup),
   (Matchup = weak; Matchup = very_weak).
