@@ -34,6 +34,7 @@ const pokemonStream = new ModuleFile(POKEMON_PL_FILE)
 function forEachPokemon(predicateFunc) {
   for (const id in pokedex) {
     const mon = Dex.species.get(id)
+    if (mon.isNonstandard == "CAP") continue // excluded create-a-pokemon mons
     writePredicates(pokemonStream, predicateFunc(mon))
   }
 }
