@@ -1,5 +1,7 @@
 :- use_module(library(lists)).
 :- use_module(library(debug)).
+:- use_module(library(reif)).
+:- use_module(library(dif)).
 
 :- use_module('dex/pokemon.pl').
 :- use_module('dex/learnsets.pl').
@@ -30,11 +32,16 @@ damaging_move(Move) :-
 
 learns_priority(Mon, Move, Priority) :-
   learns(Mon, Move),
-  damaging_move(Move),
-  Move \= bide,
-  move_priority(Move, Priority),
+  \+ doubles_move(Move),
+  \+ protection_move(Move),
+  dif(Move, bide),
+  move_priority(Move, BasePriority),
+  (
+    pokemon_ability(Mon, prankster), move_category(Move, status) ->
+      Priority #= BasePriority + 1
+    ; Priority #= BasePriority
+  ),
   Priority #> 0.
-
 
 % Only unify once on multiple boosts
 has_boost(Move) :- setof(_, X^Y^move_boost(Move, X, Y), _).
@@ -58,4 +65,27 @@ hazard_move(stealthrock).
 hazard_move(spikes).
 hazard_move(toxicspikes).
 hazard_move(stickyweb).
+
+doubles_move(helpinghand).
+doubles_move(afteryou).
+doubles_move(quash).
+doubles_move(allyswitch).
+doubles_move(followme).
+doubles_move(ragepowder).
+doubles_move(aromaticmist).
+doubles_move(holdhands).
+doubles_move(spotlight).
+% Technically these work in singles, but you'd never use them
+doubles_move(craftyshield).
+doubles_move(quickguard).
+doubles_move(wideguard).
+
+protection_move(endure).
+protection_move(detect).
+protection_move(protect).
+protection_move(magiccoat).
+protection_move(kingsshield).
+protection_move(burningbulwark).
+protection_move(spikyshield).
+protection_move(banefulbunker).
 
