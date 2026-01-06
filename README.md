@@ -29,9 +29,6 @@ learns(zapdos, hurricane).
 % and so on
 ```
 
-> [!WARNING]
-> The movesets are not quite correct yet. The JSON that I used from Pokemon Showdown doesn't include egg moves (and a few other things).
-
 You can ask who all the pokemon on Morry's team are with the following query:
 
 ```prolog
