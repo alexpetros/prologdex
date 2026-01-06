@@ -9,11 +9,11 @@ Right now it mostly lets me query facts about my current draft league.
 ## Installation
 
 1. Install the [rust toolchain](https://rust-lang.org/learn/get-started/)
-2. Run `rust install scryer-prolog just`
+2. Run `cargo install scryer-prolog just`
 
 ## Usage
 
-`just dex` starts the prolog engine.
+`just` starts the prolog engine.
 
 Prolog tries to "unify" your queries by coming up with all possible matches for the given variables. Variables are denoted by names that start with uppercase letters, and facts start with lowercase ones.
 The [dex.pl](./dex/dex.pl) database contains facts with basic Pokedex info.
