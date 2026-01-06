@@ -1,7 +1,7 @@
 :- module('type-chart', [super_effective/2, not_very_effective/2, no_damage/2,
                          weak_to/2, strong_against/2, normal_damage/2, type/1,
                          mon_type_matchup/3, mon_type_chart/3, calc_modifier/3,
-                         effectiveness/1, super_effective_move/2
+                         effectiveness/1, super_effective_move/2, type_mult/3
                          ]).
 
 :- use_module('dex/pokemon.pl').
@@ -43,6 +43,10 @@ mon_type_matchup(Mon, Type, Matchup) :-
   findall(MonType, type(Mon, MonType), MonTypes),
   calc_modifier(MonTypes, Type, Modifier),
   effectiveness_modifier(Matchup, Modifier).
+
+type_mult(Defender, MoveType, Mult) :-
+  mon_type_matchup(Defender, MoveType, Matchup),
+  effectiveness_modifier(Matchup, Mult).
 
 mult(L, S0, S) :- S is L * S0.
 calc_modifier(Types, Attacker, Modifier) :-
