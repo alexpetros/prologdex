@@ -315,3 +315,8 @@ result(2, zack, 5).
 result(2, pat, 4).
 result(2, kirk, 3).
 
+result(3, kirk, 2).
+result(3, nic, 6).
+result(3, justin, 3).
+result(3, zack, 3). 
+result(3, mason, 2). 
