@@ -7,6 +7,7 @@ const { Dex } = showdown
 const POKEMON_PL_FILE = "./db/dex/pokemon.pl"
 const LEARNESET_PL_FILE = "./db/dex/learnsets.pl"
 const MOVES_PL_FILE = "./db/dex/moves.pl"
+const DRAFT_PL_FILE = "./db/dex/draft.pl"
 
 class ModuleFile {
   constructor(path) {
@@ -27,6 +28,35 @@ class ModuleFile {
   close() {
     this.stream.close()
   }
+}
+
+function writePredicates(stream, predicates) {
+  if (!predicates || predicates.length < 1) return
+
+  let toWrite = Array.isArray(predicates[0]) ? predicates : [predicates]
+  toWrite.forEach((p) => writeSinglePredicate(stream, p))
+}
+
+function writeSinglePredicate(stream, predicate) {
+  const [name, ...args] = predicate
+  const argList = args.map(arg => {
+    if (typeof arg == 'number' || typeof arg == 'boolean') {
+      return arg.toString()
+    } else {
+      const normalized = arg.toString().toLowerCase().replace("'", "\\'").replace(' ', '')
+      return `'${normalized}'`
+    }
+  })
+  const argString = argList.join(', ')
+  stream.writeln(`${name}(${argString}).`)
+}
+
+function writeModuleDeclaration(stream, name, indicators) {
+  stream.write(":- module(")
+  stream.write(`${name}, [`)
+  const indicatorString = indicators.join(', ')
+  stream.write(indicatorString)
+  stream.writeln("]).\n")
 }
 
 // Pokemon: types and stats
@@ -102,31 +132,40 @@ forEachMove((move) => ['move_priority', move.id, move.priority])
 
 movesStream.close()
 
-function writePredicates(stream, predicates) {
-  if (!predicates || predicates.length < 1) return
 
-  let toWrite = Array.isArray(predicates[0]) ? predicates : [predicates]
-  toWrite.forEach((p) => writeSinglePredicate(stream, p))
+const REMOVAL_MOVES = [ 'rapidspin', 'defog', 'courtchange', 'tidyup' ]
+const HAZARD_MOVES = ['stealthrock', 'spikes', 'toxicspikes', 'stickyweb']
+const DOUBLES_MOVES = ['helpinghand', 'afteryou', 'quash', 'allyswitch', 'followme', 'ragepowder', 'aromaticmist', 'holdhands', 'spotlight', 'craftyshield', 'quickguard', 'wideguard']
+const PROTECTION_MOVES = ['endure', 'detect', 'protect', 'magiccoat', 'kingsshield', 'burningbulwark', 'spikyshield', 'banefulbunker']
+
+const draftStream = new ModuleFile(DRAFT_PL_FILE)
+writeModuleDeclaration(draftStream, 'draft', [
+  'protection_move/1', 'protection_move_t/2',
+  'hazard_move/1', 'hazard_move_t/2',
+  'removal_move/1', 'removal_move_t/2',
+  'doubles_move/1', 'doubles_move_t/2',
+])
+function forEachMoveDraftPreds(predicateFunc) {
+  moves.forEach(move => { writePredicates(draftStream, predicateFunc(move)) })
+  draftStream.writeln()
 }
 
-function writeSinglePredicate(stream, predicate) {
-  const [name, ...args] = predicate
-  const argList = args.map(arg => {
-    if (typeof arg == 'number' || typeof arg == 'boolean') {
-      return arg.toString()
-    } else {
-      const normalized = arg.toString().toLowerCase().replace("'", "\\'").replace(' ', '')
-      return `'${normalized}'`
-    }
-  })
-  const argString = argList.join(', ')
-  stream.writeln(`${name}(${argString}).`)
-}
+draftStream.writeln("protection_move(Move) :- protection_move_t(Move, true).")
+draftStream.writeln("hazard_move(Move) :- hazard_move_t(Move, true).")
+draftStream.writeln("removal_move(Move) :- removal_move_t(Move, true).")
+draftStream.writeln("doubles_move(Move) :- doubles_move_t(Move, true).")
 
-function writeModuleDeclaration(stream, name, indicators) {
-  stream.write(":- module(")
-  stream.write(`${name}, [`)
-  const indicatorString = indicators.join(', ')
-  stream.write(indicatorString)
-  stream.writeln("]).\n")
-}
+forEachMoveDraftPreds((move) =>
+  ['protection_move_t', move.id, PROTECTION_MOVES.includes(move.id)]
+)
+forEachMoveDraftPreds((move) =>
+  ['hazard_move_t', move.id, HAZARD_MOVES.includes(move.id)]
+)
+forEachMoveDraftPreds((move) =>
+  ['removal_move_t', move.id, REMOVAL_MOVES.includes(move.id)]
+)
+forEachMoveDraftPreds((move) =>
+  ['doubles_move_t', move.id, DOUBLES_MOVES.includes(move.id)]
+)
+
+draftStream.close()

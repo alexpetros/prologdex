@@ -6,6 +6,7 @@
 :- use_module('dex/pokemon.pl').
 :- use_module('dex/learnsets.pl').
 :- use_module('dex/moves.pl').
+:- use_module('dex/draft.pl').
 
 :- use_module('type-chart.pl').
 :- use_module('stats.pl').
@@ -30,16 +31,20 @@ damaging_move(Move) :-
   move_category(Move, special);
   move_category(Move, physical).
 
+prankster_mon_using_status(Mon, Move, T) :-
+  pokemon_ability(Mon, prankster), move_category(Move, status), T = true
+; T = false.
+
 learns_priority(Mon, Move, Priority) :-
   learns(Mon, Move),
-  \+ doubles_move(Move),
-  \+ protection_move(Move),
+  doubles_move_t(Move, false),
+  protection_move_t(Move, false),
   dif(Move, bide),
   move_priority(Move, BasePriority),
-  (
-    pokemon_ability(Mon, prankster), move_category(Move, status) ->
-      Priority #= BasePriority + 1
-    ; Priority #= BasePriority
+  if_(
+    prankster_mon_using_status(Mon, Move),
+    Priority #= BasePriority + 1,
+    Priority #= BasePriority
   ),
   Priority #> 0.
 
@@ -55,37 +60,3 @@ boosting_move(Move) :-
     move_target(Move, allyteam);
     move_target(Move, allyside)
   ).
-
-removal_move(rapidspin).
-removal_move(defog).
-removal_move(courtchange).
-removal_move(tidyup).
-
-hazard_move(stealthrock).
-hazard_move(spikes).
-hazard_move(toxicspikes).
-hazard_move(stickyweb).
-
-doubles_move(helpinghand).
-doubles_move(afteryou).
-doubles_move(quash).
-doubles_move(allyswitch).
-doubles_move(followme).
-doubles_move(ragepowder).
-doubles_move(aromaticmist).
-doubles_move(holdhands).
-doubles_move(spotlight).
-% Technically these work in singles, but you'd never use them
-doubles_move(craftyshield).
-doubles_move(quickguard).
-doubles_move(wideguard).
-
-protection_move(endure).
-protection_move(detect).
-protection_move(protect).
-protection_move(magiccoat).
-protection_move(kingsshield).
-protection_move(burningbulwark).
-protection_move(spikyshield).
-protection_move(banefulbunker).
-
