@@ -6,7 +6,6 @@
 :- use_module('dex/pokemon.pl').
 :- use_module('dex/learnsets.pl').
 :- use_module('dex/moves.pl').
-:- use_module('dex/draft.pl').
 
 :- use_module('type-chart.pl').
 :- use_module('stats.pl').
@@ -31,18 +30,15 @@ damaging_move(Move) :-
   move_category(Move, special);
   move_category(Move, physical).
 
-prankster_mon_using_status(Mon, Move, T) :-
-  pokemon_ability(Mon, prankster), move_category(Move, status), T = true
-; T = false.
-
 learns_priority(Mon, Move, Priority) :-
   learns(Mon, Move),
   doubles_move_t(Move, false),
   protection_move_t(Move, false),
   dif(Move, bide),
   move_priority(Move, BasePriority),
+  move_category(Move, Category),
   if_(
-    prankster_mon_using_status(Mon, Move),
+    ','(pokemon_ability_t(Mon, prankster), =(Category, status)),
     Priority #= BasePriority + 1,
     Priority #= BasePriority
   ),
@@ -60,3 +56,38 @@ boosting_move(Move) :-
     move_target(Move, allyteam);
     move_target(Move, allyside)
   ).
+
+
+removal_move_t(Move, T) :- move(Move), removal_moves(Moves), memberd_t(Move, Moves, T).
+removal_moves([rapidspin, defog, courtchange, tidyup]).
+
+hazard_move_t(Move, T) :- move(Move), hazard_moves(Moves), memberd_t(Move, Moves, T).
+hazard_moves([stealthrock, spikes, toxicspikes, stickyweb]).
+
+doubles_move_t(Move, T) :- move(Move), doubles_moves(Moves), memberd_t(Move, Moves, T).
+doubles_moves([
+  helpinghand,
+  afteryou,
+  quash,
+  allyswitch,
+  followme,
+  ragepowder,
+  aromaticmist,
+  holdhands,
+  spotlight,
+  craftyshield,
+  quickguard,
+  wideguard
+]).
+
+protection_move_t(Move, T) :- protection_moves(Moves), memberd_t(Move, Moves, T).
+protection_moves([
+  endure,
+  detect,
+  protect,
+  magiccoat,
+  kingsshield,
+  burningbulwark,
+  spikyshield,
+  banefulbunker
+]).

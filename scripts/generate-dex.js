@@ -7,7 +7,6 @@ const { Dex } = showdown
 const POKEMON_PL_FILE = "./db/dex/pokemon.pl"
 const LEARNESET_PL_FILE = "./db/dex/learnsets.pl"
 const MOVES_PL_FILE = "./db/dex/moves.pl"
-const DRAFT_PL_FILE = "./db/dex/draft.pl"
 
 class ModuleFile {
   constructor(path) {
@@ -40,11 +39,11 @@ function writePredicates(stream, predicates) {
 function writeSinglePredicate(stream, predicate) {
   const [name, ...args] = predicate
   const argList = args.map(arg => {
-    if (typeof arg == 'number' || typeof arg == 'boolean') {
-      return arg.toString()
+    if (Array.isArray(arg)) {
+      const values = arg.map(normalizeArg)
+      return `[${values.join(', ')}]`
     } else {
-      const normalized = arg.toString().toLowerCase().replace("'", "\\'").replace(' ', '')
-      return `'${normalized}'`
+      return normalizeArg(arg)
     }
   })
   const argString = argList.join(', ')
@@ -59,6 +58,16 @@ function writeModuleDeclaration(stream, name, indicators) {
   stream.writeln("]).\n")
 }
 
+function normalizeArg(arg) {
+  const argString = arg.toString()
+  if (typeof arg == 'number' || typeof arg == 'boolean') {
+    return argString
+  } else {
+    const norm = argString.toLowerCase().replaceAll("'", "\\'").replaceAll(' ', '')
+    return `'${norm}'`
+  }
+}
+
 // Pokemon: types and stats
 const pokemonStream = new ModuleFile(POKEMON_PL_FILE)
 function forEachPokemon(predicateFunc) {
@@ -70,9 +79,16 @@ function forEachPokemon(predicateFunc) {
 }
 
 writeModuleDeclaration( pokemonStream, 'dex', [
-  'pokemon/1', 'type/2', 'pokemon_ability/2', 'pokemon_hp/2', 'pokemon_atk/2', 'pokemon_def/2',
+  'pokemon/1', 'type/2',
+  'pokemon_ability/2', 'pokemon_ability_t/3',
+  'pokemon_hp/2', 'pokemon_atk/2', 'pokemon_def/2',
   'pokemon_spa/2', 'pokemon_spd/2', 'pokemon_spe/2'
 ])
+
+pokemonStream.writeln(':- use_module(library(reif)).\n')
+
+pokemonStream.writeln('pokemon_ability(Mon, Ability) :- pokemon_ability_t(Mon, Ability, true).')
+pokemonStream.writeln('pokemon_ability_t(Mon, Ability, T) :- pokemon_abilities(Mon, Abilities), memberd_t(Ability, Abilities, T).\n')
 
 forEachPokemon((mon) => ['pokemon', mon.id])
 forEachPokemon((mon) => ['pokemon_hp', mon.id, mon.baseStats.hp])
@@ -82,10 +98,7 @@ forEachPokemon((mon) => ['pokemon_spa', mon.id, mon.baseStats.spa])
 forEachPokemon((mon) => ['pokemon_spd', mon.id, mon.baseStats.spd])
 forEachPokemon((mon) => ['pokemon_spe', mon.id, mon.baseStats.spe])
 forEachPokemon((mon) => mon.types.map(type => ['type', mon.id, type]))
-forEachPokemon((mon) => {
-  const abilities = Object.values(mon.abilities)
-  return abilities.map(ability => ['pokemon_ability', mon.id, ability])
-})
+forEachPokemon((mon) => ['pokemon_abilities', mon.id, Object.values(mon.abilities)])
 pokemonStream.close()
 
 // Learnsets
@@ -132,40 +145,3 @@ forEachMove((move) => ['move_priority', move.id, move.priority])
 
 movesStream.close()
 
-
-const REMOVAL_MOVES = [ 'rapidspin', 'defog', 'courtchange', 'tidyup' ]
-const HAZARD_MOVES = ['stealthrock', 'spikes', 'toxicspikes', 'stickyweb']
-const DOUBLES_MOVES = ['helpinghand', 'afteryou', 'quash', 'allyswitch', 'followme', 'ragepowder', 'aromaticmist', 'holdhands', 'spotlight', 'craftyshield', 'quickguard', 'wideguard']
-const PROTECTION_MOVES = ['endure', 'detect', 'protect', 'magiccoat', 'kingsshield', 'burningbulwark', 'spikyshield', 'banefulbunker']
-
-const draftStream = new ModuleFile(DRAFT_PL_FILE)
-writeModuleDeclaration(draftStream, 'draft', [
-  'protection_move/1', 'protection_move_t/2',
-  'hazard_move/1', 'hazard_move_t/2',
-  'removal_move/1', 'removal_move_t/2',
-  'doubles_move/1', 'doubles_move_t/2',
-])
-function forEachMoveDraftPreds(predicateFunc) {
-  moves.forEach(move => { writePredicates(draftStream, predicateFunc(move)) })
-  draftStream.writeln()
-}
-
-draftStream.writeln("protection_move(Move) :- protection_move_t(Move, true).")
-draftStream.writeln("hazard_move(Move) :- hazard_move_t(Move, true).")
-draftStream.writeln("removal_move(Move) :- removal_move_t(Move, true).")
-draftStream.writeln("doubles_move(Move) :- doubles_move_t(Move, true).")
-
-forEachMoveDraftPreds((move) =>
-  ['protection_move_t', move.id, PROTECTION_MOVES.includes(move.id)]
-)
-forEachMoveDraftPreds((move) =>
-  ['hazard_move_t', move.id, HAZARD_MOVES.includes(move.id)]
-)
-forEachMoveDraftPreds((move) =>
-  ['removal_move_t', move.id, REMOVAL_MOVES.includes(move.id)]
-)
-forEachMoveDraftPreds((move) =>
-  ['doubles_move_t', move.id, DOUBLES_MOVES.includes(move.id)]
-)
-
-draftStream.close()
