@@ -2,6 +2,7 @@
 :- use_module(library(debug)).
 :- use_module(library(reif)).
 :- use_module(library(dif)).
+:- use_module(library(time)).
 
 :- use_module('dex/pokemon.pl').
 :- use_module('dex/learnsets.pl').

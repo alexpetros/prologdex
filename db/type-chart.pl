@@ -9,9 +9,9 @@
 :- use_module(library(lists)).
 
 super_effective_move(Move, Mon) :-
-  move(Move),
-  (move_category(Move, special); move_category(Move, physical)),
   move_type(Move, Type),
+  move_category(Move, Cat),
+  member(Cat, [physical, special]),
   mon_type_matchup(Mon, Type, Matchup),
   (Matchup = weak; Matchup = very_weak).
 
@@ -36,7 +36,9 @@ mon_type_chart(Mon, T, M) :-
   mon_type_matchup(Mon, T, M).
 
 mon_type_matchup(Mon, Type, immune_via_ability) :-
-  pokemon_ability(Mon, Ability), immunity_ability(Type, Ability).
+  immunity_ability(Type, Ability),
+  pokemon_ability(Mon, Ability).
+
 mon_type_matchup(Mon, Type, Matchup) :-
   pokemon(Mon),
   effectiveness(Matchup),
