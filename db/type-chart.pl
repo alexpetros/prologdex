@@ -7,13 +7,14 @@
 :- use_module('dex/pokemon.pl').
 :- use_module('dex/moves.pl').
 :- use_module(library(lists)).
+:- use_module(library(debug)).
 
 super_effective_move(Move, Mon) :-
   move_type(Move, Type),
   move_category(Move, Cat),
   member(Cat, [physical, special]),
   mon_type_matchup(Mon, Type, Matchup),
-  (Matchup = weak; Matchup = very_weak).
+ (Matchup = weak; Matchup = very_weak).
 
 effectiveness(immune_via_ability).
 effectiveness(immune).

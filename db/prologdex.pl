@@ -20,11 +20,11 @@ is_sorted([First|[Second | Rest]]) :-
   is_sorted(Rest).
 
 learns_removal(Mon, Move) :-
-  removal_move(Move),
+  removal_move_t(Move, true),
   learns(Mon, Move).
 
 learns_hazards(Mon, Move) :-
-  hazard_move(Move),
+  hazard_move_t(Move, true),
   learns(Mon, Move).
 
 damaging_move(Move) :-
