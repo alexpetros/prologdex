@@ -318,5 +318,13 @@ result(2, kirk, 3).
 result(3, kirk, 2).
 result(3, nic, 6).
 result(3, justin, 3).
-result(3, zack, 3). 
-result(3, mason, 2). 
+result(3, zack, 3).
+result(3, mason, 2).
+result(3, morry, 2).
+
+result(4, bird, 2).
+result(4, kevin, 2).
+result(4, kirk, 5).
+result(4, justin, 5).
+result(4, alex, 3).
+result(4, pat, 3).
