@@ -80,10 +80,9 @@ george(tyranitar).
 george(zoroarkhisui).
 george(rotomheat).
 george(ferrothorn).
-george(noivern).
-george(beedrillmega).
 george(gastrodon).
-george(passimian).
+george(medichammega).
+george(incineroar).
 
 nic(tapukoko).
 nic(ironbundle).
@@ -95,13 +94,13 @@ nic(blissey).
 nic(shedinja).
 
 bird(greattusk).
-bird(latiosmega).
-bird(ragingbolt).
-bird(amoonguss).
 bird(quagsire).
 bird(heatran).
 bird(ninetales).
-bird(enamorustherian).
+bird(tangrowth).
+bird(roaringmoon).
+bird(tapubulu).
+bird(houndoommega).
 
 pat(ironvaliant).
 pat(irontreads).
@@ -150,9 +149,8 @@ mason(slowking).
 mason(pidgeotmega).
 mason(infernape).
 mason(basculegion).
-mason(comfey).
 mason(dragalge).
-mason(raichu).
+mason(moltresgalar).
 
 kirk(gholdengo).
 kirk(tapulele).
