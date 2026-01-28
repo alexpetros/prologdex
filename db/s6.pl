@@ -326,3 +326,11 @@ result(4, kirk, 5).
 result(4, justin, 5).
 result(4, alex, 3).
 result(4, pat, 3).
+
+result(5, mason, 4).
+result(5, morry, 3).
+result(5, zack, 4).
+result(5, pat, 2).
+result(5, alex, 4).
+result(5, kirk, 3).
+
