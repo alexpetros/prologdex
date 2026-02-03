@@ -3,10 +3,11 @@
                             print_type_chart/1, standings/0, standings/1]).
 
 :- use_module(library(lists)).
-:- use_module('dex/pokemon.pl').
-:- use_module('s6.pl').
-:- use_module('stats.pl').
-:- use_module('type-chart.pl').
+
+:- use_module('../dex/pokemon.pl').
+:- use_module('../calc/type-chart.pl').
+:- use_module('./s6.pl').
+:- use_module('../calc/stats.pl').
 
 %%% Sandings
 standings_key(Record, Key-Record) :-

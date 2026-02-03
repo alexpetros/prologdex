@@ -2,9 +2,9 @@
 
 :- use_module(library(clpz)).
 :- use_module(library(lists)).
-:- use_module('dex/pokemon.pl').
-:- use_module('dex/moves.pl').
-:- use_module('type-chart.pl').
+:- use_module('../dex/pokemon.pl').
+:- use_module('../dex/moves.pl').
+:- use_module('./type-chart.pl').
 
 rolls([0.85, 0.86, 0.87, 0.88, 0.89, 0.90, 0.91, 0.92, 0.93, 0.94, 0.95, 0.96, 0.97, 0.98, 0.99, 1]).
 

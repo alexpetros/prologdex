@@ -2,7 +2,8 @@
 :- module('stats', [stat/7, max_stat/3, max_speed/2, max_speed/3, speed_tiers/3]).
 
 :- use_module(library(debug)).
-:- use_module('dex/pokemon.pl').
+
+:- use_module('../dex/pokemon.pl').
 
 speed_tiers(Mon, SpeedTier, Speed) :-
   stat_tier(SpeedTier),

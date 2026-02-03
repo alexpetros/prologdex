@@ -9,8 +9,8 @@
 :- use_module(library(dif)).
 :- use_module(library(clpz)).
 
-:- use_module('dex/pokemon.pl').
-:- use_module('draft/natdex.pl').
+:- use_module('../dex/pokemon.pl').
+:- use_module('../draft/natdex.pl').
 
 record(Player, Wins, Losses, KD) :-
   player(Player),

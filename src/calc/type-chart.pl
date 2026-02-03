@@ -4,10 +4,11 @@
                          effectiveness/1, super_effective_move/2, type_mult/3
                          ]).
 
-:- use_module('dex/pokemon.pl').
-:- use_module('dex/moves.pl').
 :- use_module(library(lists)).
 :- use_module(library(debug)).
+
+:- use_module('../dex/pokemon.pl').
+:- use_module('../dex/moves.pl').
 
 super_effective_move(Move, Mon) :-
   move_type(Move, Type),

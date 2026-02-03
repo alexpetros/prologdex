@@ -7,11 +7,10 @@
 :- use_module('dex/moves.pl').
 
 :- use_module('draft/move_labels.pl').
-
-:- use_module('type-chart.pl').
-:- use_module('stats.pl').
-:- use_module('s6.pl').
-:- use_module('summary-sheet.pl').
+:- use_module('calc/type-chart.pl').
+:- use_module('calc/stats.pl').
+:- use_module('tpl/s6.pl').
+:- use_module('tpl/summary-sheet.pl').
 
 is_sorted([]).
 is_sorted([_]).

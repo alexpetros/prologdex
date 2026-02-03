@@ -4,9 +4,9 @@ import pokedex from '../vendor/showdown/pokedex.json' with { type: 'json' }
 
 const { Dex } = showdown
 
-const POKEMON_PL_FILE = "./db/dex/pokemon.pl"
-const LEARNESET_PL_FILE = "./db/dex/learnsets.pl"
-const MOVES_PL_FILE = "./db/dex/moves.pl"
+const POKEMON_PL_FILE = "./src/dex/pokemon.pl"
+const LEARNESET_PL_FILE = "./src/dex/learnsets.pl"
+const MOVES_PL_FILE = "./src/dex/moves.pl"
 
 class ModuleFile {
   constructor(path) {

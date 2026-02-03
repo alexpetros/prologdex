@@ -1,4 +1,4 @@
-PROLOGDEX_FILE := "./db/prologdex.pl"
+PROLOGDEX_FILE := "./src/prologdex.pl"
 TEST_FILE := "./test.pl"
 
 db:
@@ -9,11 +9,11 @@ db:
 test:
   scryer-prolog {{ TEST_FILE }} -g 'run' -t halt
 
-build:
-  wasm-pack build --target web --no-default-features
+# build:
+#   wasm-pack build --target web --no-default-features
 
 serve:
   python3 -m http.server -d www
 
 generate-dex:
-  node ./scripts/generate-dex.js
+  node ./generator/generate-dex.js
