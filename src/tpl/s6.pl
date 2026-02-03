@@ -334,3 +334,10 @@ result(5, pat, 2).
 result(5, alex, 4).
 result(5, kirk, 3).
 
+result(6, morry, 2).
+result(6, nic, 3).
+result(6, kevin, 3).
+result(6, zack, 3).
+result(6, bird, 3).
+result(6, alex, 1).
+
