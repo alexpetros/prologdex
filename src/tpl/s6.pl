@@ -341,3 +341,6 @@ result(6, zack, 3).
 result(6, bird, 3).
 result(6, alex, 1).
 
+result(7, alex, 2).
+result(7, pat, 4).
+
