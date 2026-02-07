@@ -19,18 +19,22 @@ url(S, P) --> url_scheme(S), non_ws(P), ws.
 urls([url(S, P)|Us]) --> url(S, P), urls(Us).
 urls([]) --> [].
 
-
-% Convert the list of the URLs into newline-delimeted URLs with ".log"
-log_url(url(S,P)) --> format_("~s~s.log", [S, P]).
-log_urls([url(S, P) | Us]) --> log_url(url(S,P)), "\n", log_urls(Us).
+% Append .log to all the URLs
+log_url(S, P) --> { phrase(format_("~s~s.log", [S, P]), Ls) }, [Ls].
+log_urls([url(S, P) | Us]) --> log_url(S, P), log_urls(Us).
 log_urls([]) --> [].
+
+fetch_and_write_log(Url) :-
+  http_open(Url, Stream, []),
+  phrase(format_("./logs/first.log", []), Fp),
+  phrase_from_stream(seq(Ls), Stream),
+  phrase_to_file(Ls, Fp).
 
 % Read the URLs from the file and print out all the log URLs
 make_logs(Fp) :-
   phrase_from_file(urls(U), Fp),
-  phrase_to_stream(log_urls(U), user_output).
+  phrase(log_urls(U), [H | _]),
+  fetch_and_write_log(H)
+  .
 
 run :- make_logs("./logs/urls").
-
-% phrase_from_file(url(U), "./logs/urls"),
-% http_open("https://www.example.com", S, [])
