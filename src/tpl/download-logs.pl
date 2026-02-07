@@ -45,4 +45,3 @@ ws --> [W], { char_type(W, whitespace) }, ws.
 ws --> [].
 non_ws([C|Cs]) --> [C], { \+ char_type(C, whitespace) }, non_ws(Cs).
 non_ws([]) --> [].
-
