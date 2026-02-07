@@ -4,25 +4,18 @@
 :- use_module(library(charsio)).
 :- use_module(library(http/http_open)).
 
+replay_origin --> "https://replay.pokemonshowdown.com/".
+
 % Whitespace and non-whitespace sequences
 ws --> [W], { char_type(W, whitespace) }, ws.
 ws --> [].
 non_ws([C|Cs]) --> [C], { \+ char_type(C, whitespace) }, non_ws(Cs).
 non_ws([]) --> [].
 
-% URLs are a scheme ("https://") followed non-whitespace chars (the path)
-url_scheme("https://") --> "https://".
-url_scheme("http://") --> "http://".
-url(S, P) --> url_scheme(S), non_ws(P), ws.
-
-% A list of whitespace-delimited URLs
-urls([url(S, P)|Us]) --> url(S, P), urls(Us).
-urls([]) --> [].
-
-% Append .log to all the URLs
-log_url(S, P) --> { phrase(format_("~s~s.log", [S, P]), Ls) }, [Ls].
-log_urls([url(S, P) | Us]) --> log_url(S, P), log_urls(Us).
-log_urls([]) --> [].
+replay(Id) --> replay_origin, non_ws(Id), ws.
+replays([replay(Id)|Rs]) --> replay(Id), replays(Rs).
+replays([]) --> [].
+replay_url(replay(Id)) --> replay_origin, Id.
 
 fetch_and_write_log(Url) :-
   http_open(Url, Stream, []),
@@ -30,10 +23,16 @@ fetch_and_write_log(Url) :-
   phrase_from_stream(seq(Ls), Stream),
   phrase_to_file(Ls, Fp).
 
+list_replay_urls([R|Rs]) --> replay_url(R), "\n", list_replay_urls(Rs).
+list_replay_urls([]) --> [].
+
+get_replays(Fp, Ls) :-
+  phrase_from_file(replays(Rs), Fp),
+  phrase(list_replay_urls(Rs), Ls).
+
 % Read the URLs from the file and print out all the log URLs
 make_logs(Fp) :-
-  phrase_from_file(urls(U), Fp),
-  phrase(log_urls(U), [H | _]),
+  get_replays(Fp, [H|_]),
   fetch_and_write_log(H)
   .
 
