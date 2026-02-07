@@ -4,28 +4,28 @@
 :- use_module(library(charsio)).
 :- use_module(library(http/http_open)).
 
+% Whitespace and non-whitespace sequences
 ws --> [W], { char_type(W, whitespace) }, ws.
 ws --> [].
+non_ws([C|Cs]) --> [C], { \+ char_type(C, whitespace) }, non_ws(Cs).
+non_ws([]) --> [].
 
-eos([], []).
-line([])     --> ( "\n" | call(eos) ), !.
-line([C|Cs]) --> [C], line(Cs).
-lines([])     --> call(eos), !.
-lines([L|Ls]) --> line(L), lines(Ls).
-
-
+% URLs are a scheme ("https://") followed non-whitespace chars (the path)
 url_scheme("https://") --> "https://".
 url_scheme("http://") --> "http://".
+url(S, P) --> url_scheme(S), non_ws(P), ws.
 
-url(S, U) --> url_scheme(S), line(U), ws.
-urls([url(S, U)|Us]) --> url(S, U), urls(Us).
+% A list of whitespace-delimited URLs
+urls([url(S, P)|Us]) --> url(S, P), urls(Us).
 urls([]) --> [].
 
-log_urls([]) --> [].
-log_urls([url(S, U) | Us]) -->
-  format_("~s~s.log~n", [S, U]),
-  log_urls(Us).
 
+% Convert the list of the URLs into newline-delimeted URLs with ".log"
+log_url(url(S,P)) --> format_("~s~s.log", [S, P]).
+log_urls([url(S, P) | Us]) --> log_url(url(S,P)), "\n", log_urls(Us).
+log_urls([]) --> [].
+
+% Read the URLs from the file and print out all the log URLs
 make_logs(Fp) :-
   phrase_from_file(urls(U), Fp),
   phrase_to_stream(log_urls(U), user_output).
