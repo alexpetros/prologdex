@@ -87,18 +87,18 @@ int_seq([])     --> [].
 print_battle([A|As]) --> print_action(A), !, print_battle(As).
 print_battle([])     --> [].
 
-print_action(joined(PHandle))            --> format_("~s joined~n", [PHandle]).
-print_action(left(PHandle))              --> format_("~s left~n", [PHandle]).
-print_action(turn(T))                    --> format_("~nTurn ~d~n", [T]).
+print_action(joined(PHandle))                                 --> format_("~s joined~n", [PHandle]).
+print_action(left(PHandle))                                   --> format_("~s left~n", [PHandle]).
+print_action(turn(T))                                         --> format_("~nTurn ~d~n", [T]).
 print_action(move(mon(_, Name), Move, target(mon(_, _))))     --> format_("~s used ~s~n", [Name, Move]).
-print_action(move(mon(_, Name), Move, target(none)))     --> format_("~s used ~s, but there was no target~n", [Name, Move]).
-print_action(damage(_, Mon, HP))      --> format_("~s took damage, now has ~s% HP~n", [Mon, HP]).
-print_action(damage(_, Mon, HP, From))      --> format_("~s took damage ~s, now has ~s% HP~n", [Mon, From, HP]).
-print_action(switch(P, Mon, Mon, HP))    --> format_("P~d switched in ~s at ~s HP~n", [P, Mon, HP]).
-print_action(switch(P, Nick, Mon, HP))   -->
-  { dif(Nick, Mon) },
-  format_("Player ~d switched in ~s (~s) at ~s HP~n", [P, Nick, Mon, HP]).
-print_action(_)                          --> [].
+print_action(move(mon(_, Name), Move, target(none)))          --> format_("~s used ~s, but there was no target~n", [Name, Move]).
+print_action(damage(_, Mon, HP))                              --> format_("~s took damage, now has ~s% HP~n", [Mon, HP]).
+print_action(damage(_, Mon, HP, From))                        --> format_("~s took damage ~s, now has ~s% HP~n", [Mon, From, HP]).
+print_action(switch(mon(P, Mon), Mon, HP))                    --> format_("P~d switched in ~s at ~s HP~n", [P, Mon, HP]).
+print_action(switch(mon(P, Name), Mon, HP))                   -->
+  { dif(Name, Mon) },
+  format_("Player ~d switched in ~s (~s) at ~s HP~n", [P, Name, Mon, HP]).
+print_action(_)                                               --> [].
 
 print_unknown_actions([A|As])                      --> print_unknown_action_with_message(A), !, print_unknown_actions(As).
 print_unknown_actions([])                          --> [].
