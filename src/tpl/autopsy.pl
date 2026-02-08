@@ -43,7 +43,7 @@ action(clearpoke)                            --> "|clearpoke\n".
 action(space)                                --> "|\n".
 
 chat_message(html(Message))  --> "/raw ", line(Message).
-chat_message(plain(Message)) --> seq(A), { length(A, 5), A \= "/raw " }, rest(Message), "\n".
+chat_message(plain(Message)) --> seq(A), { length(A, 5), A \= "/raw " }, line(Message).
 
 %% Protocol sub-predicates
 id_mon(Mon, Details) -->
@@ -84,7 +84,9 @@ print_action(switch(P, Nick, Mon, HP))   -->
   format_("Player ~d switched in ~s (~s) at ~s HP~n", [P, Nick, Mon, HP]).
 print_action(_)                          --> [].
 
-print_unknown_actions([A|As]) --> print_unknown_action(A), !, print_unknown_actions(As).
-print_unknown_actions([])     --> [].
-print_unknown_action(u_action(A, _))  --> format_("~s~n", [A]).
-print_unknown_action(_)               --> [].
+print_unknown_actions([A|As])                      --> print_unknown_action(A), !, print_unknown_actions(As).
+print_unknown_actions([])                          --> [].
+print_unknown_action(u_action(A, _))               --> format_("~s~n", [A]).
+print_unknown_action(_)                            --> [].
+print_unknown_action_with_message(u_action(A, M))  --> format_("~s: ~s~n", [A, M]).
+print_unknown_action_with_message(_)               --> [].
