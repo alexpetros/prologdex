@@ -42,8 +42,8 @@ action(move(P, Nick, Move, _))               --> "|move|", battle_mon(P, Nick), 
 action(clearpoke)                            --> "|clearpoke\n".
 action(space)                                --> "|\n".
 
-chat_message(Message) --> "/raw ", line(Message).
-chat_message(Message) --> seq(A), { length(A, 5), A \= "/raw " }, rest(Message), "\n".
+chat_message(html(Message))  --> "/raw ", line(Message).
+chat_message(plain(Message)) --> seq(A), { length(A, 5), A \= "/raw " }, rest(Message), "\n".
 
 %% Protocol sub-predicates
 id_mon(Mon, Details) -->
