@@ -14,7 +14,7 @@ run :-
 
 run(Fp) :-
   phrase_from_file(log_lines(Ls), Fp),
-  phrase_to_stream(print_unknown_actions(Ls), user_output).
+  phrase_to_stream(print_battle(Ls), user_output).
 
 
 log_lines([L|Ls]) --> log(L), log_lines(Ls).
@@ -42,6 +42,10 @@ action(move(P, Nick, Move, _))               --> "|move|", battle_mon(P, Nick), 
 action(clearpoke)                            --> "|clearpoke\n".
 action(space)                                --> "|\n".
 
+% Minor actions
+action(damage(P, Nick, HP, _))   --> "|-damage|", battle_mon(P, Nick), "|", rest(HP), line(_).
+action(damage(P, Nick, HP, From)) --> "|-damage|", battle_mon(P, Nick), "|", rest(HP), "|", rest(From), line(_).
+
 chat_message(html(Message))  --> "/raw ", line(Message).
 chat_message(plain(Message)) --> seq(A), { length(A, 5), A \= "/raw " }, line(Message).
 
@@ -49,7 +53,7 @@ chat_message(plain(Message)) --> seq(A), { length(A, 5), A \= "/raw " }, line(Me
 id_mon(Mon, Details) -->
     (to_comma_or_sep(Mon), "|", { Details = [] })
   | (to_comma_or_sep(Mon), ",", rest(Details), "|").
-battle_mon(P, Nick) --> pos(P, _), ": ", rest(Nick).
+battle_mon(P, Nick) --> pos(P, _), ": ", rest(Nick). % p1a: Glimmora
 
 player(1) --> "p1".
 player(2) --> "p2".
@@ -78,6 +82,7 @@ print_action(joined(PHandle))            --> format_("~s joined~n", [PHandle]).
 print_action(left(PHandle))              --> format_("~s left~n", [PHandle]).
 print_action(turn(T))                    --> format_("~nTurn ~d~n", [T]).
 print_action(move(_, Nick, Move, _))     --> format_("~s used ~s~n", [Nick, Move]).
+print_action(damage(_, Mon, HP, _))      --> format_("~s took damage, now has ~s HP~n", [Mon, HP]).
 print_action(switch(P, Mon, Mon, HP))    --> format_("P~d switched in ~s at ~s HP~n", [P, Mon, HP]).
 print_action(switch(P, Nick, Mon, HP))   -->
   { dif(Nick, Mon) },
