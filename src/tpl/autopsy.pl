@@ -10,21 +10,12 @@
 
 run :-
   argv([Fp|_]),
+  run(Fp).
+
+run(Fp) :-
   phrase_from_file(log_lines(Ls), Fp),
-  phrase_to_stream(print_battle(Ls), user_output).
+  phrase_to_stream(print_unknown_actions(Ls), user_output).
 
-print_battle([A|As]) --> print_action(A), !, print_battle(As).
-print_battle([])     --> [].
-
-print_action(joined(PHandle))            --> format_("~s joined~n", [PHandle]).
-print_action(left(PHandle))              --> format_("~s left~n", [PHandle]).
-print_action(turn(T))                    --> format_("~nTurn ~d~n", [T]).
-print_action(move(_, Nick, Move, _))     --> format_("~s used ~s~n", [Nick, Move]).
-print_action(switch(P, Mon, Mon, HP))    --> format_("P~d switched in ~s at ~s HP~n", [P, Mon, HP]).
-print_action(switch(P, Nick, Mon, HP))   -->
-  { dif(Nick, Mon) },
-  format_("Player ~d switched in ~s (~s) at ~s HP~n", [P, Nick, Mon, HP]).
-print_action(_)                          --> [].
 
 log_lines([L|Ls]) --> log(L), log_lines(Ls).
 log_lines([])     --> [].
@@ -33,6 +24,7 @@ log_lines([])     --> [].
 log(L)               --> action(L), !.
 log(u_action(A, Cs)) --> "|", rest(A), ("|", line(Cs) | "\n", { Cs = [] }).
 
+%% All the actions
 % Meta
 action(joined(PHandle))                      --> "|j|", line(PHandle).
 action(left(PHandle))                        --> "|l|", line(PHandle).
@@ -50,6 +42,7 @@ action(move(P, Nick, Move, _))               --> "|move|", battle_mon(P, Nick), 
 action(clearpoke)                            --> "|clearpoke\n".
 action(space)                                --> "|\n".
 
+%% Protocol sub-predicates
 id_mon(Mon, Details) -->
     (to_comma_or_sep(Mon), "|", { Details = [] })
   | (to_comma_or_sep(Mon), ",", rest(Details), "|").
@@ -61,15 +54,35 @@ player(2) --> "p2".
 pos(1, a) --> "p1a".
 pos(2, a) --> "p2a".
 
+
+%% General parsing predicates
 lines([])     --> call(eos), !.
 lines([L|Ls]) --> line(L), lines(Ls).
 line([])      --> ( "\n" | call(eos) ), !.
 line([C|Cs])  --> [C], line(Cs).
-
+eos([], []).
 
 to_comma_or_sep([C|Cs]) --> [C], { [C] \= "\n", [C] \= "," }, to_comma_or_sep(Cs).
 to_comma_or_sep([])     --> [].
 rest([C|Cs]) --> [C], { [C] \= "|", [C] \= "\n" }, rest(Cs).
 rest([])     --> [].
 
-eos([], []).
+
+%% Playback Predicates
+print_battle([A|As]) --> print_action(A), !, print_battle(As).
+print_battle([])     --> [].
+
+print_action(joined(PHandle))            --> format_("~s joined~n", [PHandle]).
+print_action(left(PHandle))              --> format_("~s left~n", [PHandle]).
+print_action(turn(T))                    --> format_("~nTurn ~d~n", [T]).
+print_action(move(_, Nick, Move, _))     --> format_("~s used ~s~n", [Nick, Move]).
+print_action(switch(P, Mon, Mon, HP))    --> format_("P~d switched in ~s at ~s HP~n", [P, Mon, HP]).
+print_action(switch(P, Nick, Mon, HP))   -->
+  { dif(Nick, Mon) },
+  format_("Player ~d switched in ~s (~s) at ~s HP~n", [P, Nick, Mon, HP]).
+print_action(_)                          --> [].
+
+print_unknown_actions([A|As]) --> print_unknown_action(A), !, print_unknown_actions(As).
+print_unknown_actions([])     --> [].
+print_unknown_action(u_action(A, _))  --> format_("~s~n", [A]).
+print_unknown_action(_)               --> [].
