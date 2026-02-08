@@ -28,7 +28,7 @@ log(u_action(A, Cs)) --> "|", rest(A), ("|", line(Cs) | "\n", { Cs = [] }).
 % Meta
 action(joined(PHandle))                      --> "|j|", line(PHandle).
 action(left(PHandle))                        --> "|l|", line(PHandle).
-action(chat(PHandle, Message))               --> "|c|", rest(PHandle), "|", rest(Message), line(_).
+action(chat(PHandle, Message))               --> "|c|", rest(PHandle), "|", chat_message(Message).
 action(player(P, PHandle))                   --> "|player|", player(P), "|", rest(PHandle), line(_).
 action(poke(P, Mon))                         --> "|poke|", rest(P), "|", id_mon(Mon, _), line(_).
 % Battle actions
@@ -42,6 +42,9 @@ action(move(P, Nick, Move, _))               --> "|move|", battle_mon(P, Nick), 
 action(clearpoke)                            --> "|clearpoke\n".
 action(space)                                --> "|\n".
 
+chat_message(Message) --> "/raw ", line(Message).
+chat_message(Message) --> seq(A), { length(A, 5), A \= "/raw " }, rest(Message), "\n".
+
 %% Protocol sub-predicates
 id_mon(Mon, Details) -->
     (to_comma_or_sep(Mon), "|", { Details = [] })
@@ -54,6 +57,11 @@ player(2) --> "p2".
 pos(1, a) --> "p1a".
 pos(2, a) --> "p2a".
 
+% Log parsing predicated
+to_comma_or_sep([C|Cs]) --> [C], { [C] \= "\n", [C] \= "," }, to_comma_or_sep(Cs).
+to_comma_or_sep([])     --> [].
+rest([C|Cs]) --> [C], { [C] \= "|", [C] \= "\n" }, rest(Cs).
+rest([])     --> [].
 
 %% General parsing predicates
 lines([])     --> call(eos), !.
@@ -61,12 +69,6 @@ lines([L|Ls]) --> line(L), lines(Ls).
 line([])      --> ( "\n" | call(eos) ), !.
 line([C|Cs])  --> [C], line(Cs).
 eos([], []).
-
-to_comma_or_sep([C|Cs]) --> [C], { [C] \= "\n", [C] \= "," }, to_comma_or_sep(Cs).
-to_comma_or_sep([])     --> [].
-rest([C|Cs]) --> [C], { [C] \= "|", [C] \= "\n" }, rest(Cs).
-rest([])     --> [].
-
 
 %% Playback Predicates
 print_battle([A|As]) --> print_action(A), !, print_battle(As).
