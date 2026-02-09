@@ -21,41 +21,62 @@ log(u_action(A, Cs)) --> "|", rest(A), ("|", line(Cs) | "\n", { Cs = [] }).
 
 %% All the actions
 % https://github.com/smogon/pokemon-showdown/blob/df367633bce4d5d20516da8a98e648c508b3767f/sim/SIM-PROTOCOL.md
+
 % Meta
 action(joined(PHandle))                      --> "|j|", line(PHandle).
 action(left(PHandle))                        --> "|l|", line(PHandle).
 action(chat(PHandle, Message))               --> "|c|", rest(PHandle), "|", chat_message(Message).
 action(player(P, PHandle))                   --> "|player|", player(P), "|", rest(PHandle), line(_).
 action(poke(P, Mon))                         --> "|poke|", rest(P), "|", mon_id(Mon, _), line(_).
+action(rule(R))                              --> "|rule|", rest(R), line(_).
 % Battle actions
 action(teampreview)                          --> "|teampreview\n".
 action(start)                                --> "|start\n".
+action(upkeep)                               --> "|upkeep\n".
 action(turn(T))                              --> "|turn|", line(TS), { number_chars(T, TS) }.
 action(timestamp(Timestamp))                 --> "|t:|", line(Timestamp).
-action(switch(mon(P,N), Id, HP))             --> "|switch|", mon(P, N), "|", mon_id(Id, _), hp(HP), line(_).
+action(switch(mon(P,N), Id, HP))             --> "|switch|", mon(P, N), "|", mon_id(Id, _), hp_status(HP, S), line(_).
 action(move(mon(P, N), Move, T, notarget))   --> "|move|", mon(P, N), "|", rest(Move), "|", target(T), "|[notarget]", line(_).
 action(move(mon(P, N), Move, T))             --> "|move|", mon(P, N), "|", rest(Move), "|", target(T), line(_).
+action(faint(mon(P, N)))                     --> "|faint|", mon(P, N), line(_).
 % Control
-action(clearpoke)                            --> "|clearpoke\n".
 action(space)                                --> "|\n".
 
 % Minor actions
-action(damage(P, Name, HP))   --> "|-damage|", mon(P, Name), "|", hp(HP), "\n".
-action(damage(P, Name, HP, F)) --> "|-damage|", mon(P, Name), "|", hp(HP), "|", from(F), line(_).
+action(heal(P, Name, HP))        --> "|-heal|", mon(P, Name), "|", hp_status(HP, S), "\n".
+action(damage(P, Name, HP))      --> "|-damage|", mon(P, Name), "|", hp_status(HP, S), "\n".
+action(damage(P, Name, HP, F))   --> "|-damage|", mon(P, Name), "|", hp_status(HP, S), "|", from(F), line(_).
+action(supereffective(mon(P,N))) --> "|-supereffective|", mon(P, N), line(_).
+action(resisted(mon(P,N)))       --> "|-resisted|", mon(P, N), line(_).
+
+action(ability(mon(P,N), A))          --> "|-ability|", mon(P,N), "|", rest(A), line(_).
+action(status(mon(P,N), S))           --> "|-status|", mon(P,N), "|", rest(S), line(_).
+action(curestatus(mon(P,N), S))       --> "|-curestatus|", mon(P,N), "|", rest(S), line(_).
+action(activate(mon(P,N), A))         --> "|-activate|", mon(P,N), "|", rest(A), line(_).
+action(start(mon(P,N), A))            --> "|-start|", mon(P,N), "|", rest(A), line(_).
+action(fieldstart(Cond))              --> "|-fieldstart|", rest(Cond), line(_). % There's a little more to this
+action(fieldend(Cond))                --> "|-fieldend|", rest(Cond), line(_).
+action(sidestart(side(P,H), Cond))    --> "|-sidestart|", side(P,H), "|", rest(Cond), line(_).
+action(sidend(side(P,H), Cond))       --> "|-sideend|", side(P,H), "|", rest(Cond), line(_).
+
+action(boost(mon(P,N), Stat, Stages)) --> "|-boost|", mon(P, N), "|", rest(Stat), "|", rest(Stages), line(_).
+action(unboost(mon(P,N), Stat, Stages)) --> "|-unboost|", mon(P, N), "|", rest(Stat), "|", rest(Stages), line(_).
 
 %% Protocol sub-predicates
-mon_id(Mon, Details) -->
+mon_id(Mon, Details)  -->
     (to_comma_or_sep(Mon), "|", { Details = [] })
   | (to_comma_or_sep(Mon), ",", rest(Details), "|").
-mon(P, Name) --> pos(P, _), ": ", rest(Name). % p1a: Glimmora
+mon(P, Name)          --> pos(P, _), ": ", rest(Name). % p1a: Glimmora
+side(Player, PHandle) --> player(Player), ": ", rest(PHandle).
 
 from(F) --> "[from] ", rest(F).
 target(mon(P, Name)) --> mon(P, Name).
 chat_message(html(Message))  --> "/raw ", line(Message).
 chat_message(plain(Message)) --> seq_len(A, 5), { A \= "/raw " }, line(Message).
 
-hp(Pct) --> int_seq(Pct), "/", "100".
-hp("0") --> "0 fnt".
+hp_status(Pct, none) --> int_seq(Pct), "/", "100".
+hp_status(Pct, S) --> int_seq(Pct), "/", "100", rest(S).
+hp_status("0", fnt) --> "0 fnt".
 
 player(1) --> "p1".
 player(2) --> "p2".
@@ -90,14 +111,21 @@ print_battle([])     --> [].
 print_action(joined(PHandle))                            --> format_("~s joined~n", [PHandle]).
 print_action(left(PHandle))                              --> format_("~s left~n", [PHandle]).
 print_action(turn(T))                                    --> format_("~nTurn ~d~n", [T]).
+print_action(status(mon(_, Name), S))                --> format_("~s got status ~s~n", [Name, S]).
+print_action(curestatus(mon(_, Name), S))                --> format_("~s lost status ~s~n", [Name, S]).
 print_action(move(mon(_, Name), Move, _))                --> format_("~s used ~s~n", [Name, Move]).
 print_action(move(mon(_, Name), Move, _, notarget))      --> format_("~s used ~s, but there was no target~n", [Name, Move]).
 print_action(damage(_, Mon, HP))                         --> format_("~s took damage, now has ~s% HP~n", [Mon, HP]).
 print_action(damage(_, Mon, HP, From))                   --> format_("~s took damage from ~s, now has ~s% HP~n", [Mon, From, HP]).
+print_action(heal(_, Mon, HP))                         --> format_("~s healed, now has ~s% HP~n", [Mon, HP]).
+print_action(supereffective(_))                         --> "It's super effective!\n".
+print_action(resisted(_))                         --> "It's not very effective...".
+print_action(faint(mon(_, N)))                         --> format_("~s fainted.~n", [N]).
+print_action(unboost(mon(_, N), Stat, Stages))          --> format_("~s's ~s fell by ~s.~n", [N, Stat, Stages]).
 print_action(switch(mon(P, Mon), Mon, HP))               --> format_("P~d switched in ~s at ~s% HP~n", [P, Mon, HP]).
-print_action(switch(mon(P, Name), Mon, HP))              -->
-  { dif(Name, Mon) },
-  format_("Player ~d switched in ~s (~s) at ~s HP~n", [P, Name, Mon, HP]).
+print_action(switch(mon(P, N), Mon, HP))              -->
+  { dif(N, Mon) },
+  format_("Player ~d switched in ~s (~s) at ~s HP~n", [P, N, Mon, HP]).
 print_action(_)                                          --> [].
 
 print_unknown_actions([A|As])                      --> print_unknown_action_with_message(A), !, print_unknown_actions(As).
