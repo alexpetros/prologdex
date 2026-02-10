@@ -1,28 +1,15 @@
 [15:52:03] awp@whaleback $ find ./logs -name '*.log' | xargs -n 1 scryer-prolog autopsy.pl -g run -t halt -- | sort | uniq -c | sort -nr
-1814 -damage
-1095 upkeep
- 436 -heal
  356 -weather
- 308 faint
- 294 rule
  283 inactive
- 252 -supereffective
- 201 -resisted
- 188 -unboost
- 154 -boost
  149 -end
- 120 -ability
- 112 -activate
   99 detailschange
   99 -start
-  89 -sidestart
   80 -status
   78 -enditem
   72 teamsize
   53 -mega
   43 -crit
   42 -singleturn
-  42 -sideend
   36 tier
   36 gen
   36 gametype
@@ -30,10 +17,8 @@
   35 move
   35 -immune
   32 -fail
-  31 -fieldstart
   28 -item
   24 -miss
-  24 -fieldend
   23 cant
   23 -prepare
   19 -hitcount
