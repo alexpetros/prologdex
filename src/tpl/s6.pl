@@ -127,30 +127,29 @@ zack(latias).
 zack(ursalunabloodmoon).
 zack(araquanid).
 zack(forretress).
-zack(bisharp).
-zack(annihilape).
-zack(wyrdeer).
-zack(boltund).
+zack(mamoswine).
+zack(quaquaval).
+zack(rotomfan).
 
 alex(meowscarada).
 alex(weezinggalar).
 alex(swampertmega).
 alex(latios).
 alex(volcarona).
-alex(tornadus).
+alex(chesnaught).
 alex(politoed).
 alex(archaludon).
 alex(beartic).
-alex(dusclops).
+alex(dusknoir).
 
 mason(landorustherian).
 mason(melmetal).
 mason(slowking).
-mason(pidgeotmega).
-mason(infernape).
+mason(ogerponcornerstone).
+mason(chiyu).
 mason(basculegion).
 mason(dragalge).
-mason(moltresgalar).
+mason(glaliemega).
 
 kirk(gholdengo).
 kirk(tapulele).
@@ -173,14 +172,14 @@ kevin(rotomfan).
 kevin(glastrier).
 
 andrew(scizormega).
-andrew(landorus).
-andrew(kyurem).
+andrew(moltres).
+andrew(sandyshocks).
 andrew(slowkinggalar).
 andrew(taurospaldeaaqua).
 andrew(grimmsnarl).
 andrew(salazzle).
 andrew(togetic).
-andrew(aurorus).
+andrew(baxcalibur).
 
 morry(mawilemega).
 morry(walkingwake).
