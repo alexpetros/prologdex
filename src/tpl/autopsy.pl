@@ -46,7 +46,7 @@ action(space)                                --> "|\n".
 action(clearpoke)                            --> "|clearpoke\n".
 
 % Minor actions
-action(heal(P, Name, HP))        --> "|-heal|", mon(P, Name), "|", hp_status(HP, _), rest(_).
+action(heal(P, Name, HP))        --> "|-heal|", mon(P, Name), "|", hp_status(HP, _), line(_).
 action(damage(P, Name, HP))      --> "|-damage|", mon(P, Name), "|", hp_status(HP, _), "\n".
 action(damage(P, Name, HP, F))   --> "|-damage|", mon(P, Name), "|", hp_status(HP, _), "|", from(F), line(_).
 action(supereffective(mon(P,N))) --> "|-supereffective|", mon(P, N), line(_).
