@@ -30,6 +30,7 @@ action(player(P, PHandle))                   --> "|player|", player(P), "|", res
 action(poke(P, Mon))                         --> "|poke|", rest(P), "|", mon_id(Mon, _), line(_).
 action(rule(R))                              --> "|rule|", rest(R), line(_).
 action(win(PHandle))                         --> "|win|", rest(PHandle), line(_).
+action(timer)                                --> "|inactive|", rest(timer), line(_).
 % Battle actions
 action(teampreview)                          --> "|teampreview\n".
 action(start)                                --> "|start\n".
@@ -45,7 +46,7 @@ action(space)                                --> "|\n".
 action(clearpoke)                            --> "|clearpoke\n".
 
 % Minor actions
-action(heal(P, Name, HP))        --> "|-heal|", mon(P, Name), "|", hp_status(HP, _), "\n".
+action(heal(P, Name, HP))        --> "|-heal|", mon(P, Name), "|", hp_status(HP, _), rest(_).
 action(damage(P, Name, HP))      --> "|-damage|", mon(P, Name), "|", hp_status(HP, _), "\n".
 action(damage(P, Name, HP, F))   --> "|-damage|", mon(P, Name), "|", hp_status(HP, _), "|", from(F), line(_).
 action(supereffective(mon(P,N))) --> "|-supereffective|", mon(P, N), line(_).
@@ -54,9 +55,12 @@ action(resisted(mon(P,N)))       --> "|-resisted|", mon(P, N), line(_).
 action(ability(mon(P,N), A))          --> "|-ability|", mon(P,N), "|", rest(A), line(_).
 action(status(mon(P,N), S))           --> "|-status|", mon(P,N), "|", rest(S), line(_).
 action(curestatus(mon(P,N), S))       --> "|-curestatus|", mon(P,N), "|", rest(S), line(_).
+action(immune(mon(P,N)))              --> "|-immune|", mon(P,N), line(_). % TODO [From]
 action(activate(mon(P,N), A))         --> "|-activate|", mon(P,N), "|", rest(A), line(_).
 action(start(mon(P,N), A))            --> "|-start|", mon(P,N), "|", rest(A), line(_).
 
+action(end(mon(P,N), Effect))         --> "|-end|", mon(P,N), "|", rest(Effect), line(_).
+action(enditem(mon(P,N), Item))       --> "|-enditem|", mon(P,N), "|", rest(Item), line(_). % TODO why
 action(weather(W))                    --> "|-weather|", rest(W), line(_). % TODO handle upkeep, chilly
 action(fieldstart(Cond))              --> "|-fieldstart|", rest(Cond), line(_). % There's a little more to this
 action(fieldend(Cond))                --> "|-fieldend|", rest(Cond), line(_).

@@ -1,33 +1,26 @@
-[15:52:03] awp@whaleback $ find ./logs -name '*.log' | xargs -n 1 scryer-prolog autopsy.pl -g run -t halt -- | sort | uniq -c | sort -nr
- 356 -weather
+[21:39:59] awp@whaleback $ find ./logs -name '*.log' | xargs -n 1 scryer-prolog autopsy.pl -g unknown -t halt -- | cut -d : -f 1 | sort | uniq -c | sort -nr
+355 -heal
  283 inactive
- 149 -end
-  99 detailschange
-  99 -start
-  80 -status
-  78 -enditem
+ 100 detailschange
   72 teamsize
-  53 -mega
+  54 -mega
   43 -crit
   42 -singleturn
   36 tier
   36 gen
   36 gametype
-  35 win
-  35 move
-  35 -immune
   32 -fail
+  28 move
   28 -item
+  24 -prepare
   24 -miss
   23 cant
-  23 -prepare
-  19 -hitcount
+  20 -hitcount
   17 inactiveoff
    8 drag
    8 -sethp
+   6 -anim
    5 replace
-   5 -curestatus
-   5 -anim
    2 -singlemove
    2 -hint
    1 n
