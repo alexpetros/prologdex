@@ -7,9 +7,10 @@
 :- use_module(library(charsio)).
 :- use_module(library(http/http_open)).
 
-battle :- argv([Fp|_]), battle(Fp).
+battle :- argv([Fp|_]), (battle(Fp) -> halt(0); halt(1)).
+unknown :- argv([Fp|_]), (unknown(Fp) -> halt(0); halt(1)).
+
 battle(Fp) :- phrase_from_file(log_lines(Ls), Fp), phrase_to_stream(print_battle(Ls), user_output).
-unknown :- argv([Fp|_]), unknown(Fp).
 unknown(Fp) :- phrase_from_file(log_lines(Ls), Fp), phrase_to_stream(print_unknown_actions(Ls), user_output).
 
 log_lines([L|Ls]) --> log(L), log_lines(Ls).
