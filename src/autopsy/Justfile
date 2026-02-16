@@ -1,6 +1,9 @@
 all:
   scryer-prolog autopsy.pl -g print -- ./logs/*.log
 
+download:
+  scryer-prolog ./download-logs.pl -g run -t halt
+
 test:
   ./test.sh
 
