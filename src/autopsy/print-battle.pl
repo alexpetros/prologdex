@@ -8,7 +8,7 @@ print_action(win(PHandle))                               --> format_("~n~s won!~
 print_action(turn(T))                                    --> format_("~nTurn ~d~n", [T]).
 print_action(status(mon(_, Name), S))                    --> format_("~s got status ~s~n", [Name, S]).
 print_action(curestatus(mon(_, Name), S))                --> format_("~s lost status ~s~n", [Name, S]).
-print_action(move(mon(_, Name), Move, _, none))                --> format_("~s used ~s~n", [Name, Move]).
+print_action(move(mon(_, Name), Move, _, none))          --> format_("~s used ~s~n", [Name, Move]).
 print_action(move(mon(_, Name), Move, _, miss))          --> format_("~s used ~s, but it missed.~n", [Name, Move]).
 print_action(move(mon(_, Name), Move, _, still))         --> format_("~s used ~s...~n", [Name, Move]).
 print_action(move(mon(_, Name), Move, _, notarget))      --> format_("~s used ~s, but there was no target~n", [Name, Move]).

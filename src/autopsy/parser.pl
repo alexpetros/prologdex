@@ -42,8 +42,8 @@ action(clearpoke)                            --> "|clearpoke\n".
 % Chat
 action(joined(PHandle))                      --> "|j|", line(PHandle).
 action(left(PHandle))                        --> "|l|", line(PHandle).
+action(name(PHandle, A))                     --> "|n|", rest(PHandle), "|", rest(A), line(_). % idk
 action(chat(PHandle, Message))               --> "|c|", rest(PHandle), "|", chat_message(Message).
-action(name(PHandle, A))                     --> "|n|", rest(PHandle), "|", rest(A). % idk
 
 % Minor actions
 action(heal(P, Name, HP))        --> "|-heal|", mon(P, Name), "|", hp_status(HP, _), line(_).
@@ -94,8 +94,17 @@ side(Player, PHandle) --> player(Player), ": ", rest(PHandle).
 from(F)                      --> "[from] ", rest(F).
 target(mon(P, Name))         --> mon(P, Name).
 target(none)                 --> "". % e.g. failure or two-turn move like Solar Beam
-chat_message(html(Message))  --> "/raw ", line(Message), !.
-chat_message(plain(Message)) --> line(Message).
+
+chat_message(html(Message))  --> "/raw ", line(Message).
+chat_message(plain(Message)) -->
+  line(Message),
+  {
+    length(Message, L),
+    (
+      L #=< 5
+    ; L #> 5, length(Start, 5), append(Start, _, Message), dif(Start, "/raw ")
+    )
+  }.
 
 hp_status(Pct, none) --> int_seq(Pct), "/", "100".
 hp_status(Pct, S) --> int_seq(Pct), "/", "100", rest(S).
