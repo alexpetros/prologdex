@@ -40,6 +40,7 @@ action(turn(T))                              --> "|turn|", line(TS), { number_ch
 action(timestamp(Timestamp))                 --> "|t:|", line(Timestamp).
 action(switch(mon(P,N), Id, HP))             --> "|switch|", mon(P, N), "|", mon_id(Id, _), hp_status(HP, _), line(_).
 action(move(mon(P, N), Move, T, notarget))   --> "|move|", mon(P, N), "|", rest(Move), "|", target(T), "|[notarget]", line(_).
+action(move(mon(P, N), Move, none, still))   --> "|move|", mon(P, N), "|", rest(Move), "||[still]", line(_).
 action(move(mon(P, N), Move, T))             --> "|move|", mon(P, N), "|", rest(Move), "|", target(T), line(_).
 action(faint(mon(P, N)))                     --> "|faint|", mon(P, N), line(_).
 action(detailschange(mon(P,N), To))          --> "|detailschange|", mon(P,N), "|", rest(To), line(_).
@@ -90,6 +91,7 @@ side(Player, PHandle) --> player(Player), ": ", rest(PHandle).
 
 from(F)                      --> "[from] ", rest(F).
 target(mon(P, Name))         --> mon(P, Name).
+target(none)                 --> "". % e.g. failure or two-turn move like Solar Beam
 chat_message(html(Message))  --> "/raw ", line(Message).
 chat_message(plain(Message)) --> seq_len(A, 5), { A \= "/raw " }, line(Message).
 
