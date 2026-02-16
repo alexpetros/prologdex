@@ -28,10 +28,12 @@ action(joined(PHandle))                      --> "|j|", line(PHandle).
 action(left(PHandle))                        --> "|l|", line(PHandle).
 action(chat(PHandle, Message))               --> "|c|", rest(PHandle), "|", chat_message(Message).
 action(player(P, PHandle))                   --> "|player|", player(P), "|", rest(PHandle), line(_).
+action(teamsize(Player, Num))                --> "|teamsize|", rest(Player), "|", rest(Num), line(_).
 action(poke(P, Mon))                         --> "|poke|", rest(P), "|", mon_id(Mon, _), line(_).
 action(rule(R))                              --> "|rule|", rest(R), line(_).
 action(win(PHandle))                         --> "|win|", rest(PHandle), line(_).
-action(timer)                                --> "|inactive|", rest(timer), line(_).
+action(inactive(Msg))                        --> "|inactive|", rest(Msg), line(_).
+action(inactiveoff(Msg))                     --> "|inactiveoff|", rest(Msg), line(_).
 % Battle actions
 action(teampreview)                          --> "|teampreview\n".
 action(start)                                --> "|start\n".
@@ -42,6 +44,7 @@ action(switch(mon(P,N), Id, HP))             --> "|switch|", mon(P, N), "|", mon
 action(move(mon(P, N), Move, T, notarget))   --> "|move|", mon(P, N), "|", rest(Move), "|", target(T), "|[notarget]", line(_).
 action(move(mon(P, N), Move, T))             --> "|move|", mon(P, N), "|", rest(Move), "|", target(T), line(_).
 action(faint(mon(P, N)))                     --> "|faint|", mon(P, N), line(_).
+action(detailschange(mon(P,N), To))          --> "|detailschange|", mon(P,N), "|", rest(To), line(_).
 % Control
 action(space)                                --> "|\n".
 action(clearpoke)                            --> "|clearpoke\n".
