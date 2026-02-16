@@ -24,16 +24,14 @@ log(u_action(A, Cs)) --> "|", rest(A), ("|", line(Cs) | "\n", { Cs = [] }).
 % https://github.com/smogon/pokemon-showdown/blob/df367633bce4d5d20516da8a98e648c508b3767f/sim/SIM-PROTOCOL.md
 
 % Meta
-action(joined(PHandle))                      --> "|j|", line(PHandle).
-action(left(PHandle))                        --> "|l|", line(PHandle).
-action(chat(PHandle, Message))               --> "|c|", rest(PHandle), "|", chat_message(Message).
 action(player(P, PHandle))                   --> "|player|", player(P), "|", rest(PHandle), line(_).
 action(teamsize(Player, Num))                --> "|teamsize|", rest(Player), "|", rest(Num), line(_).
 action(poke(P, Mon))                         --> "|poke|", rest(P), "|", mon_id(Mon, _), line(_).
 action(rule(R))                              --> "|rule|", rest(R), line(_).
 action(win(PHandle))                         --> "|win|", rest(PHandle), line(_).
-action(inactive(Msg))                        --> "|inactive|", rest(Msg), line(_).
-action(inactiveoff(Msg))                     --> "|inactiveoff|", rest(Msg), line(_).
+action(tier(T))                              --> "|tier|", rest(T), line(_).
+action(gen(G))                               --> "|gen|", rest(G), line(_).
+action(gametype(T))                          --> "|gametype|", rest(T), line(_).
 % Battle actions
 action(teampreview)                          --> "|teampreview\n".
 action(start)                                --> "|start\n".
@@ -46,8 +44,14 @@ action(move(mon(P, N), Move, T))             --> "|move|", mon(P, N), "|", rest(
 action(faint(mon(P, N)))                     --> "|faint|", mon(P, N), line(_).
 action(detailschange(mon(P,N), To))          --> "|detailschange|", mon(P,N), "|", rest(To), line(_).
 % Control
+action(inactive(Msg))                        --> "|inactive|", rest(Msg), line(_).
+action(inactiveoff(Msg))                     --> "|inactiveoff|", rest(Msg), line(_).
 action(space)                                --> "|\n".
 action(clearpoke)                            --> "|clearpoke\n".
+% Chat
+action(joined(PHandle))                      --> "|j|", line(PHandle).
+action(left(PHandle))                        --> "|l|", line(PHandle).
+action(chat(PHandle, Message))               --> "|c|", rest(PHandle), "|", chat_message(Message).
 
 % Minor actions
 action(heal(P, Name, HP))        --> "|-heal|", mon(P, Name), "|", hp_status(HP, _), line(_).
@@ -55,13 +59,16 @@ action(damage(P, Name, HP))      --> "|-damage|", mon(P, Name), "|", hp_status(H
 action(damage(P, Name, HP, F))   --> "|-damage|", mon(P, Name), "|", hp_status(HP, _), "|", from(F), line(_).
 action(supereffective(mon(P,N))) --> "|-supereffective|", mon(P, N), line(_).
 action(resisted(mon(P,N)))       --> "|-resisted|", mon(P, N), line(_).
+action(crit(mon(P,N)))           --> "|-crit|", mon(P, N), line(_).
 
 action(ability(mon(P,N), A))          --> "|-ability|", mon(P,N), "|", rest(A), line(_).
 action(status(mon(P,N), S))           --> "|-status|", mon(P,N), "|", rest(S), line(_).
 action(curestatus(mon(P,N), S))       --> "|-curestatus|", mon(P,N), "|", rest(S), line(_).
 action(immune(mon(P,N)))              --> "|-immune|", mon(P,N), line(_). % TODO [From]
-action(activate(mon(P,N), A))         --> "|-activate|", mon(P,N), "|", rest(A), line(_).
+action(singleturn(mon(P,N)))          --> "|-singleturn|", mon(P,N), line(_). % TODO [From]
+action(activate(mon(P,N), Effect))    --> "|-activate|", mon(P,N), "|", rest(Effect), line(_).
 action(start(mon(P,N), A))            --> "|-start|", mon(P,N), "|", rest(A), line(_).
+action(mega(mon(P,N), Species, Item)) --> "|-mega|", mon(P,N), "|", rest(Species), "|", rest(Item), line(_).
 
 action(end(mon(P,N), Effect))         --> "|-end|", mon(P,N), "|", rest(Effect), line(_).
 action(enditem(mon(P,N), Item))       --> "|-enditem|", mon(P,N), "|", rest(Item), line(_). % TODO why
@@ -133,6 +140,7 @@ print_action(damage(_, Mon, HP, From))                   --> format_("~s took da
 print_action(heal(_, Mon, HP))                           --> format_("~s healed, now has ~s% HP~n", [Mon, HP]).
 print_action(supereffective(_))                          --> "It's super effective!\n".
 print_action(resisted(_))                                --> "It's not very effective...".
+print_action(crit(_))                                    --> "A critical hit!\n".
 print_action(faint(mon(_, N)))                           --> format_("~s fainted.~n", [N]).
 print_action(weather(C))                                 --> format_("The weather changed to: ~s~n", [C]).
 
@@ -148,5 +156,5 @@ print_unknown_actions([A|As])                      --> print_unknown_action_with
 print_unknown_actions([])                          --> [].
 print_unknown_action(u_action(A, _))               --> format_("~s~n", [A]).
 print_unknown_action(_)                            --> [].
-print_unknown_action_with_message(u_action(A, M))  --> format_("~s: ~s~n", [A, M]).
+print_unknown_action_with_message(u_action(A, M))  --> format_("~s|~s~n", [A, M]).
 print_unknown_action_with_message(_)               --> [].
