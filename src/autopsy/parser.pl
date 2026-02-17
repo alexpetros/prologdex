@@ -1,3 +1,8 @@
+:- use_module(library(dcgs)).
+:- use_module(library(lists)).
+:- use_module(library(dif)).
+:- use_module(library(charsio)).
+
 log_lines([L|Ls]) --> log(L), log_lines(Ls).
 log_lines([])     --> [].
 

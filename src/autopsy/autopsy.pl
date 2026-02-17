@@ -1,12 +1,9 @@
-:- use_module(library(lists)).
 :- use_module(library(clpz)).
-:- use_module(library(reif)).
 :- use_module(library(os)).
-:- use_module(library(dif)).
 :- use_module(library(debug)).
 :- use_module(library(pio)).
 :- use_module(library(dcgs)).
-:- use_module(library(charsio)).
+:- use_module(library(reif)).
 
 :- use_module('./parser.pl').
 :- use_module('./print-battle.pl').
@@ -21,13 +18,20 @@ unknown(Fp) :- phrase_from_file(log_lines(Ls), Fp), phrase_to_stream(print_unkno
 
 load_log(Fp, Ls) :- phrase_from_file(log_lines(Ls), Fp).
 
-move_stats(Fp, Move, NumU, HitPct) :-
-  setof(Result, move(Fp, Move, none), Hits),
-  setof(Result, move(Fp, Move, miss), Misses),
-  length(Hits, NumH),
-  length(Misses, NumM),
-  NumU #= NumH + NumM,
-  HitPct is NumH/NumU.
+is_move(L, T) :-
+  memberd_t(L, [move(_, _, _, _)], T).
+
+% move_stats(Fp, Move, NumU, HitPct) :-
+%   setof(Result, move(Fp, Move, none), Hits),
+%   setof(Result, move(Fp, Move, miss), Misses),
+%   length(Hits, NumH),
+%   length(Misses, NumM),
+%   NumU #= NumH + NumM,
+%   HitPct is NumH/NumU.
+
+moves(Fp, Moves) :-
+  phrase_from_file(log_lines(Ls), Fp),
+  tfilter(is_move, Ls, Moves).
 
 move(Fp, Move, Result) :-
   phrase_from_file(log_lines(Ls), Fp),
