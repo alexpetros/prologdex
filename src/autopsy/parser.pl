@@ -8,8 +8,9 @@ log_lines([L|Ls]) --> log(L), log_lines(Ls).
 log_lines([])     --> [].
 
 % Keep an eye out for a purer way to express this
-log(action(A, Args)) --> action(A, Args), !.
-log(u_action(A, Cs)) --> "|", rest(A), ("|", line(Cs) | "\n", { Cs = [] }).
+% Arbitrary whitespace is added at the end just in case; sometimes it sneaks into the logs
+log(action(A, Args)) --> action(A, Args), !, ws.
+log(u_action(A, Cs)) --> "|", rest(A), ("|", line(Cs) | "\n", { Cs = [] }), ws.
 
 %% All the actions
 % https://github.com/smogon/pokemon-showdown/blob/df367633bce4d5d20516da8a98e648c508b3767f/sim/SIM-PROTOCOL.md
@@ -136,6 +137,9 @@ lines([L|Ls]) --> line(L), lines(Ls).
 line([])      --> ( "\n" | call(eos) ), !.
 line([C|Cs])  --> [C], line(Cs).
 eos([], []).
+
+ws --> [W], { char_type(W, whitespace) }, ws.
+ws --> [].
 
 seq_len(Cs, L)  --> seq(Cs), { length(Cs, L) }.
 int_seq([C|Cs]) --> [C], { char_type(C, numeric) }, int_seq(Cs).
