@@ -87,8 +87,7 @@ action(sidend, [side(P,H), Cond])       --> "|-sideend|", side(P,H), "|", rest(C
 action(boost, [mon(P,N), Stat, Stages])   --> "|-boost|", mon(P, N), "|", rest(Stat), "|", rest(Stages), line(_).
 action(unboost, [mon(P,N), Stat, Stages]) --> "|-unboost|", mon(P, N), "|", rest(Stat), "|", rest(Stages), line(_).
 action(clearboost, [mon(P,N)])            --> "|-clearboost|", mon(P, N), line(_).
-
-action(hint, [Msg])                            --> "|-hint|", rest(Msg), line(_).
+action(hint, [Msg])                       --> "|-hint|", rest(Msg), line(_).
 
 %% Protocol sub-predicates
 mon_id(Mon, Details)  -->

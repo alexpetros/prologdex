@@ -4,6 +4,7 @@
 :- use_module(library(pio)).
 :- use_module(library(dcgs)).
 :- use_module(library(reif)).
+:- use_module(library(files)).
 
 :- use_module('./parser.pl').
 :- use_module('./print-battle.pl').
@@ -17,6 +18,22 @@ print(Fp) :- phrase_from_file(log_lines(Ls), Fp), phrase_to_stream(print_battle(
 unknown(Fp) :- phrase_from_file(log_lines(Ls), Fp), phrase_to_stream(print_unknown_actions(Ls), user_output).
 
 load_log(Fp, Ls) :- phrase_from_file(log_lines(Ls), Fp).
+
+log_file_t(Ls, false) :- length(Ls, L), L #=< 4.
+log_file_t(Ls, T) :- length(L1, 4), append(_, [_|L1], Ls), =(L1, ".log", T).
+
+append_log(Fp, Ls0, Ls) :-
+  append("./logs/", Fp, RelativePath),
+  phrase_from_file(log_lines(Ls1), RelativePath),
+  append(Ls0, Ls1, Ls).
+
+all_log_files(Dp, LogFiles) :-
+  directory_files(Dp, Files),
+  tfilter(log_file_t, Files, LogFiles).
+
+all_logs(Dp, Ls) :-
+  all_log_files(Dp, LogFiles),
+  foldl(append_log, LogFiles, [], Ls).
 
 % With a lot of help from:
 % https://stackoverflow.com/questions/10776759/how-to-count-number-of-element-occurrences-in-a-list-in-prolog
@@ -39,44 +56,40 @@ hit_or_missed_move(action(move, [_, _, _, Res]), T) :- memberd_t(Res, [none, mis
 missed_move(action(move, [_, _, _, Res]), T) :- =(Res, miss, T).
 extract_move(action(move, [_, Move, _, _]), Move).
 
-moves_count(Fp, Moves) :-
-  phrase_from_file(log_lines(Ls), Fp),
-  tfilter(is_move, Ls, Actions),
-  tfilter(hit_or_missed_move, Actions, MissedMoves),
-  maplist(extract_move, MissedMoves, MovesUncounted),
-  count(MovesUncounted, Moves).
-
-missed_moves_count(Fp, Moves) :-
-  phrase_from_file(log_lines(Ls), Fp),
-  tfilter(is_move, Ls, Actions),
-  tfilter(missed_move, Actions, MissedMoves),
-  maplist(extract_move, MissedMoves, MovesUncounted),
-  count(MovesUncounted, Moves).
-
-miss_pct(UsedMoves, Move-Misses, Move-Pct) :-
+miss_pct(UsedMoves, Move-Misses, move_acc(Move, Usages, Misses, Pct)) :-
   select(Move-Usages, UsedMoves, _),
-  Pct is 1 - (Misses / Usages).
+  Pct is 100 * (1 - (Misses / Usages)).
 
-missed_moves_pct(Fp, Moves) :-
-  moves_count(Fp, UsedMoves),
-  missed_moves_count(Fp, MissedMoves),
+get_moves_with_filter(Ls, Filter, MovesCount) :-
+  tfilter(is_move, Ls, Actions),
+  tfilter(Filter, Actions, FilteredMoves),
+  maplist(extract_move, FilteredMoves, ExtractedMoves),
+  count(ExtractedMoves, MovesCount).
+
+moves_acc(Ls, Moves) :-
+  get_moves_with_filter(Ls, missed_move, MissedMoves),
+  get_moves_with_filter(Ls, hit_or_missed_move, UsedMoves),
   maplist(miss_pct(UsedMoves), MissedMoves, Moves).
 
 move(Fp, Move, Result) :-
   phrase_from_file(log_lines(Ls), Fp),
   member(move(_, Move, _, Result), Ls).
 
-miss_rate(Ls, Move, R) :-
-  move_usages(Ls, Move, U),
-  move_misses(Ls, Move, M),
-  R is M/U.
+moves_acc_key(M, Pct-M) :- M = move_acc(_, _, _, Pct).
+moves_acc_print(Pct-move_acc(Move, Usages, Misses, Pct)) :-
+  Hits #= Usages - Misses,
+  format("~s ~2f% (~d/~d)~n", [Move, Pct, Hits, Usages]).
+moves_acc_summary :-
+  all_logs("./logs", Ls),
+  moves_acc(Ls, Moves),
+  maplist(moves_acc_key, Moves, KeyList),
+  keysort(KeyList, KeyListSorted),
+  reverse(KeyListSorted, List),
+  maplist(moves_acc_print, List).
 
-sorted([], []).
-sorted([], []).
-
-term_expansion(load_game(Fp), Terms) :-
-  phrase_from_file(log_lines(Ls), Fp),
-  sort(Ls, Terms).
+% term_expansion(load_game(Fp), Terms) :-
+%   phrase_from_file(log_lines(Ls), Fp),
+%   sort(Ls, Terms).
 
 % load_game("./logs/gen9natdexdraft-2522811785.log").
 
