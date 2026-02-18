@@ -22,16 +22,22 @@ is_move(action(A, _), T) :- =(A, move, T).
 missed_move(action(move, [_, _, _, Res]), T) :- =(Res, miss, T).
 extract_move(action(move, [_, Move, _, _]), Move).
 
-count([], []).
-count([E|Es], Ls) :- count_([E|Es], [], Ls).
-count_([], Ls, Ls).
-count_([E|Es], Ls0, Ls) :-
-  if_(
-    memberd_t(E-C0, Ls0),
-    ( select(E-C0, Ls0, Ls1), C #= C0 + 1, append(Ls1, [E-C], Ls2) ),
-    append(Ls0, [E-1], Ls2)
+% With a lot of help from:
+% https://stackoverflow.com/questions/10776759/how-to-count-number-of-element-occurrences-in-a-list-in-prolog
+% count_and_remove/5 builds a new list without the Target, while counting the occurences of Target
+count_and_remove([], _, [], N, N).
+count_and_remove([E|Es], Target, Ls0, N0, N) :-
+  if_(dif(E, Target),
+    (Ls0 = [E|Ls], N1 #= N0),
+    (Ls0 = Ls, N1 #= N0 + 1)
   ),
-  count_(Es, Ls2, Ls).
+  count_and_remove(Es, Target, Ls, N1, N).
+
+% count/2 relates a list to a list of E-N terms, where N is the number of occurences of E
+count([], []).
+count([E|Es], [E-N|Ls]) :-
+  count_item(Es, E, Es0, 1, N),
+  count(Es0, Ls).
 
 % count_([E|Es], Ls0, Ls) :-
 %   if_(
