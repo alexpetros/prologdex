@@ -18,20 +18,35 @@ unknown(Fp) :- phrase_from_file(log_lines(Ls), Fp), phrase_to_stream(print_unkno
 
 load_log(Fp, Ls) :- phrase_from_file(log_lines(Ls), Fp).
 
-is_move(L, T) :-
-  memberd_t(L, [move(_, _, _, _)], T).
+is_move(action(A, _), T) :- =(A, move, T).
+missed_move(action(move, [_, _, _, Res]), T) :- =(Res, miss, T).
+extract_move(action(move, [_, Move, _, _]), Move).
 
-% move_stats(Fp, Move, NumU, HitPct) :-
-%   setof(Result, move(Fp, Move, none), Hits),
-%   setof(Result, move(Fp, Move, miss), Misses),
-%   length(Hits, NumH),
-%   length(Misses, NumM),
-%   NumU #= NumH + NumM,
-%   HitPct is NumH/NumU.
+count([], []).
+count([E|Es], Ls) :- count_([E|Es], [], Ls).
+count_([], Ls, Ls).
+count_([E|Es], Ls0, Ls) :-
+  if_(
+    memberd_t(E-C0, Ls0),
+    ( select(E-C0, Ls0, Ls1), C #= C0 + 1, append(Ls1, [E-C], Ls2) ),
+    append(Ls0, [E-1], Ls2)
+  ),
+  count_(Es, Ls2, Ls).
+
+% count_([E|Es], Ls0, Ls) :-
+%   if_(
+%     memberd_t(E-C0, Ls0),
+%     ( select(E-C0, Ls0, Ls1), C #= C0 + 1, append(Ls1, [E-C], Ls2) ),
+%     append(Ls0, [E-1], Ls2)
+%   ),
+%   count_(Es, Ls2, Ls).
 
 moves(Fp, Moves) :-
   phrase_from_file(log_lines(Ls), Fp),
-  tfilter(is_move, Ls, Moves).
+  tfilter(is_move, Ls, Actions),
+  tfilter(missed_move, Actions, MissedMoves),
+  maplist(extract_move, MissedMoves, Moves)
+  .
 
 move(Fp, Move, Result) :-
   phrase_from_file(log_lines(Ls), Fp),
