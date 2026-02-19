@@ -5,6 +5,7 @@
 :- use_module(library(dcgs)).
 :- use_module(library(reif)).
 :- use_module(library(files)).
+:- use_module(library(lambda)).
 
 :- use_module('./parser.pl').
 :- use_module('./print-battle.pl').
@@ -51,25 +52,28 @@ count([E|Es], [E-N|Ls]) :-
   count_and_remove(Es, E, Es0, 1, N),
   count(Es0, Ls).
 
-is_move(action(A, _), T) :- =(A, move, T).
-hit_or_missed_move(action(move, [_, _, _, Res]), T) :- memberd_t(Res, [none, miss], T).
-missed_move(action(move, [_, _, _, Res]), T) :- =(Res, miss, T).
-extract_move(action(move, [_, Move, _, _]), Move).
+filtermap(Filter, Map, Ls0, Ls) :-
+  tfilter(Filter, Ls0, Ls1),
+  maplist(Map, Ls1, Ls).
+
+hit_or_missed_move(action(A, _), false) :- dif(A, move).
+hit_or_missed_move(action(move, [_,_,_,Res]), T) :- memberd_t(Res, [none, miss], T).
+extract_move(action(move, [_,Move,_,Res]), Move-Res).
 
 miss_pct(UsedMoves, Move-Misses, move_acc(Move, Usages, Misses, Pct)) :-
   select(Move-Usages, UsedMoves, _),
   Pct is 100 * (1 - (Misses / Usages)).
+remove_part(M-_, M).
+missed(_-R, T) :- =(R, miss, T).
 
-get_moves_with_filter(Ls, Filter, MovesCount) :-
-  tfilter(is_move, Ls, Actions),
-  tfilter(Filter, Actions, FilteredMoves),
-  maplist(extract_move, FilteredMoves, ExtractedMoves),
-  count(ExtractedMoves, MovesCount).
-
-moves_acc(Ls, Moves) :-
-  get_moves_with_filter(Ls, missed_move, MissedMoves),
-  get_moves_with_filter(Ls, hit_or_missed_move, UsedMoves),
-  maplist(miss_pct(UsedMoves), MissedMoves, Moves).
+moves_acc(Ls, MoveAccs) :-
+  tfilter(hit_or_missed_move, Ls, HitOrMissedMoves),
+  maplist(extract_move, HitOrMissedMoves, Moves),
+  maplist(remove_part, Moves, UsedMoves),
+  count(UsedMoves, UsedMovesC),
+  filtermap(missed, remove_part, Moves, MissedMoves),
+  count(MissedMoves, MissedMovesC),
+  maplist(miss_pct(UsedMovesC), MissedMovesC, MoveAccs).
 
 move(Fp, Move, Result) :-
   phrase_from_file(log_lines(Ls), Fp),
