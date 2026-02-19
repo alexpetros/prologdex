@@ -1,13 +1,14 @@
-:- use_module(library(clpz)).
-:- use_module(library(os)).
 :- use_module(library(debug)).
+:- use_module(library(time)).
+
+:- use_module(library(os)).
 :- use_module(library(pio)).
-:- use_module(library(dcgs)).
+:- use_module(library(clpz)).
 :- use_module(library(reif)).
 :- use_module(library(files)).
-:- use_module(library(lambda)).
 
 :- use_module('./parser.pl').
+:- use_module('./stats.pl').
 :- use_module('./print-battle.pl').
 
 % Top-levels
@@ -28,68 +29,10 @@ append_log(Fp, Ls0, Ls) :-
   phrase_from_file(log_lines(Ls1), RelativePath),
   append(Ls0, Ls1, Ls).
 
-all_log_files(Dp, LogFiles) :-
-  directory_files(Dp, Files),
-  tfilter(log_file_t, Files, LogFiles).
-
 all_logs(Dp, Ls) :-
-  all_log_files(Dp, LogFiles),
+  directory_files(Dp, Files),
+  tfilter(log_file_t, Files, LogFiles),
   foldl(append_log, LogFiles, [], Ls).
-
-% With a lot of help from:
-% https://stackoverflow.com/questions/10776759/how-to-count-number-of-element-occurrences-in-a-list-in-prolog
-% count_and_remove/5 builds a new list without the Target, while counting the occurences of Target
-count_and_remove([], _, [], N, N).
-count_and_remove([E|Es], Target, Ls0, N0, N) :-
-  if_(dif(E, Target),
-    (Ls0 = [E|Ls], N1 #= N0),
-    (Ls0 = Ls, N1 #= N0 + 1)
-  ),
-  count_and_remove(Es, Target, Ls, N1, N).
-% count/2 relates a list to a list of E-N terms, where N is the number of occurences of E
-count([], []).
-count([E|Es], [E-N|Ls]) :-
-  count_and_remove(Es, E, Es0, 1, N),
-  count(Es0, Ls).
-
-filtermap(Filter, Map, Ls0, Ls) :-
-  tfilter(Filter, Ls0, Ls1),
-  maplist(Map, Ls1, Ls).
-
-hit_or_missed_move(action(A, _), false) :- dif(A, move).
-hit_or_missed_move(action(move, [_,_,_,Res]), T) :- memberd_t(Res, [none, miss], T).
-extract_move(action(move, [_,Move,_,Res]), Move-Res).
-
-miss_pct(UsedMoves, Move-Misses, move_acc(Move, Usages, Misses, Pct)) :-
-  select(Move-Usages, UsedMoves, _),
-  Pct is 100 * (1 - (Misses / Usages)).
-remove_part(M-_, M).
-missed(_-R, T) :- =(R, miss, T).
-
-moves_acc(Ls, MoveAccs) :-
-  tfilter(hit_or_missed_move, Ls, HitOrMissedMoves),
-  maplist(extract_move, HitOrMissedMoves, Moves),
-  maplist(remove_part, Moves, UsedMoves),
-  count(UsedMoves, UsedMovesC),
-  filtermap(missed, remove_part, Moves, MissedMoves),
-  count(MissedMoves, MissedMovesC),
-  maplist(miss_pct(UsedMovesC), MissedMovesC, MoveAccs).
-
-move(Fp, Move, Result) :-
-  phrase_from_file(log_lines(Ls), Fp),
-  member(move(_, Move, _, Result), Ls).
-
-moves_acc_key(M, Pct-M) :- M = move_acc(_, _, _, Pct).
-moves_acc_print(Pct-move_acc(Move, Usages, Misses, Pct)) :-
-  Hits #= Usages - Misses,
-  format("~s ~2f% (~d/~d)~n", [Move, Pct, Hits, Usages]).
-moves_acc_summary :-
-  all_logs("./logs", Ls),
-  moves_acc(Ls, Moves),
-  maplist(moves_acc_key, Moves, KeyList),
-  keysort(KeyList, KeyListSorted),
-  reverse(KeyListSorted, List),
-  maplist(moves_acc_print, List).
 
 % term_expansion(load_game(Fp), Terms) :-
 %   phrase_from_file(log_lines(Ls), Fp),
