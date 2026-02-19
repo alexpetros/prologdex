@@ -1,3 +1,5 @@
+:- use_module(library(dcgs)).
+
 % With a lot of help from:
 % https://stackoverflow.com/questions/10776759/how-to-count-number-of-element-occurrences-in-a-list-in-prolog
 % count_and_remove/5 builds a new list without the Target, while counting the occurences of Target
