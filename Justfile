@@ -29,7 +29,7 @@ unknowns:
   find ./logs -name '*.log' | xargs scryer-prolog autopsy.pl -g unknown -- | cut -d '|' -f 1 | sort | uniq -c | sort -nr
 
 print-all:
-  scryer-prolog autopsy.pl -g print -- ./logs/*.log
+  scryer-prolog {{ AUTOPSY_FILE }} -g print -- ./logs/*.log
 
 test-autopsy:
   ./src/autopsy/test.sh

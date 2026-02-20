@@ -18,7 +18,7 @@ log(u_action(A, Cs)) --> "|", rest(A), ("|", line(Cs) | "\n", { Cs = [] }), ws.
 % Meta
 action(player, [P, PHandle])                   --> "|player|", player(P), "|", rest(PHandle), line(_).
 action(teamsize, [Player, Num])                --> "|teamsize|", rest(Player), "|", rest(Num), line(_).
-action(poke, [P, Mon])                         --> "|poke|", rest(P), "|", mon_id(Mon, _), line(_).
+action(poke, [P, M])                           --> "|poke|", player(P), "|", mon_id(M), line(_).
 action(rule, [R])                              --> "|rule|", rest(R), line(_).
 action(win, [PHandle])                         --> "|win|", rest(PHandle), line(_).
 action(tier, [T])                              --> "|tier|", rest(T), line(_).
@@ -30,15 +30,15 @@ action(start, [])                                --> "|start\n".
 action(upkeep, [])                               --> "|upkeep\n".
 action(turn, [T])                              --> "|turn|", line(TS), { number_chars(T, TS) }.
 action(timestamp, [Timestamp])                 --> "|t:|", line(Timestamp).
-action(switch, [mon(P,N), Id, HP])             --> "|switch|", mon(P, N), "|", mon_id(Id, _), hp_status(HP, _), line(_).
-action(drag, [mon(P,N), Id, HP])               --> "|drag|", mon(P, N), "|", mon_id(Id, _), hp_status(HP, _), line(_).
-action(replace, [mon(P,N), Id])                --> "|replace|", mon(P, N), "|", mon_id(Id, _), line(_).
+action(switch, [mon(P,N), M, HP])             --> "|switch|", mon(P, N), "|", mon_id(M), hp_status(HP, _), line(_).
+action(drag, [mon(P,N), M, HP])               --> "|drag|", mon(P, N), "|", mon_id(M), hp_status(HP, _), line(_).
+action(replace, [mon(P,N), M])                --> "|replace|", mon(P, N), "|", mon_id(M), line(_).
 action(move, [mon(P, N), Move, T, miss])       --> "|move|", mon(P, N), "|", rest(Move), "|", target(T), "|[miss]", line(_).
 action(move, [mon(P, N), Move, T, notarget])   --> "|move|", mon(P, N), "|", rest(Move), "|", target(T), "|[notarget]", line(_).
 action(move, [mon(P, N), Move, none, still])   --> "|move|", mon(P, N), "|", rest(Move), "||[still]", line(_).
 action(move, [mon(P, N), Move, T, none])       --> "|move|", mon(P, N), "|", rest(Move), "|", target(T), line(_).
 action(faint, [mon(P, N)])                     --> "|faint|", mon(P, N), line(_).
-action(detailschange, [mon(P,N), To])          --> "|detailschange|", mon(P,N), "|", rest(To), line(_).
+action(detailschange, [mon(P,N), ToId])        --> "|detailschange|", mon(P,N), "|", mon_id(ToId), line(_).
 action(cant, [mon(P,N), Why])                  --> "|cant|", mon(P, N), "|", rest(Why), line(_).
 action(cant, [mon(P,N), Why, What])            --> "|cant|", mon(P, N), "|", rest(Why), "|", rest(What), line(_).
 % Control
@@ -91,9 +91,11 @@ action(clearboost, [mon(P,N)])            --> "|-clearboost|", mon(P, N), line(_
 action(hint, [Msg])                       --> "|-hint|", rest(Msg), line(_).
 
 %% Protocol sub-predicates
-mon_id(Mon, Details)  -->
-    (to_comma_or_sep(Mon), "|", { Details = [] })
-  | (to_comma_or_sep(Mon), ",", rest(Details), ("|" | "\n")).
+id(Species, Details) -->
+  (to_comma_or_sep(Species), "|", { Details = [] })
+  | (to_comma_or_sep(Species), ",", rest(Details), ("|" | "\n")).
+mon_id(id(Species, Details))  --> id(Species, Details).
+
 mon(P, Name)          --> pos(P, _), ": ", rest(Name). % p1a: Glimmora
 side(Player, PHandle) --> player(Player), ": ", rest(PHandle).
 
@@ -116,14 +118,14 @@ hp_status(Pct, none) --> int_seq(Pct), "/", "100".
 hp_status(Pct, S) --> int_seq(Pct), "/", "100", rest(S).
 hp_status("0", fnt) --> "0 fnt".
 
-player(1) --> "p1".
-player(2) --> "p2".
+player(p1) --> "p1".
+player(p2) --> "p2".
 % More positions can be added to support doubles
-pos(1, a) --> "p1a".
-pos(2, a) --> "p2a".
+pos(p1, a) --> "p1a".
+pos(p2, a) --> "p2a".
 % Position "no" is when there's no target
-pos(1, no) --> "p1".
-pos(2, no) --> "p2".
+pos(p1, no) --> "p1".
+pos(p2, no) --> "p2".
 
 % Log parsing predicated
 to_comma_or_sep([C|Cs]) --> [C], { [C] \= "\n", [C] \= "," }, to_comma_or_sep(Cs).

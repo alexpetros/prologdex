@@ -1,11 +1,41 @@
 :- use_module(library(dcgs)).
 :- use_module('../utils.pl').
 
-% mons(S0, S), [S] --> [S0].
-state(Mons0, Mons), [Mons] --> [Mons0].
 
-stats([action(poke, [_,M])|Ls]) --> state(S0, S), { append(S0, [M], S) }, stats(Ls).
-stats([action(A, _)|Ls]) --> { dif(A, poke) }, stats(Ls).
+% mon(Id, Name, Player).
+
+state(S0, S), [S] --> [S0].
+stats([action(poke, [P,Id])|Ls]) -->
+  state(S0, S),
+  {
+    M = mon(Id, none, P, 0, 0),
+    append(S0, [M], S)
+  },
+  stats(Ls).
+stats([action(detailschange, [mon(P,N), Id])|Ls]) -->
+  state(S0, S),
+  {
+    append(S1, [mon(_, N, P, K, D)|S2], S0),
+    append(S1, [mon(Id, N, P, K, D)|S2], S)
+  },
+  stats(Ls).
+stats([action(switch, [mon(P,N), Id, _])|Ls]) -->
+  state(S0, S),
+  {
+    % format("Switched in ~s~n", [N]),
+    append(S1, [mon(Id, _, P, K, 0)|S2], S0),
+    append(S1, [mon(Id, N, P, K, 0)|S2], S)
+  },
+  stats(Ls).
+stats([action(faint, [mon(P, N)])|Ls]) -->
+  state(S0, S),
+  {
+    append(S1, [mon(_, N, P, K, 0)|S2], S0),
+    append(S1, [mon(_, N, P, K, 1)|S2], S)
+  },
+  stats(Ls).
+
+stats([action(A, _)|Ls]) --> { memberd_t(A, [poke, switch, detailschange, faint], false) }, stats(Ls).
 stats([]) --> [].
 
 %% Move accuracy
