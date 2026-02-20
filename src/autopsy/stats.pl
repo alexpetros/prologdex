@@ -1,4 +1,12 @@
+:- use_module(library(dcgs)).
 :- use_module('../utils.pl').
+
+% mons(S0, S), [S] --> [S0].
+state(Mons0, Mons), [Mons] --> [Mons0].
+
+stats([action(poke, [_,M])|Ls]) --> state(S0, S), { append(S0, [M], S) }, stats(Ls).
+stats([action(A, _)|Ls]) --> { dif(A, poke) }, stats(Ls).
+stats([]) --> [].
 
 %% Move accuracy
 hit_or_missed_move(action(A, _), false) :- dif(A, move).

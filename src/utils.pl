@@ -1,4 +1,4 @@
-:- use_module(library(dcgs)).
+:- use_module(library(dif)).
 
 % With a lot of help from:
 % https://stackoverflow.com/questions/10776759/how-to-count-number-of-element-occurrences-in-a-list-in-prolog

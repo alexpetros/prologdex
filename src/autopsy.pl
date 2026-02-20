@@ -7,14 +7,13 @@
 :- use_module(library(reif)).
 :- use_module(library(files)).
 
-:- use_module('./parser.pl').
-:- use_module('./stats.pl').
-:- use_module('./print-battle.pl').
+:- use_module('./autopsy/parser.pl').
+:- use_module('./autopsy/stats.pl').
+:- use_module('./autopsy/print-battle.pl').
 
 % Top-levels
 print :- argv(Fps), (maplist(print, Fps) -> halt(0); halt(1)).
 unknown :- argv(Fps), (maplist(unknown, Fps) -> halt(0); halt(1)).
-% moves :- argv(Fps), (maplist(moves, Fps) -> halt(0); halt(1)).
 
 print(Fp) :- phrase_from_file(log_lines(Ls), Fp), phrase_to_stream(print_battle(Ls), user_output).
 unknown(Fp) :- phrase_from_file(log_lines(Ls), Fp), phrase_to_stream(print_unknown_actions(Ls), user_output).
