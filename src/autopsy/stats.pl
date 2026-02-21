@@ -22,7 +22,7 @@ stats([action(detailschange, [mon(P,N), Id])|Ls]) -->
 stats([action(switch, [mon(P,N), Id, _])|Ls]) -->
   state(S0, S),
   {
-    % format("Switched in ~s~n", [N]),
+    % format("Switched in ~s (~w)~n", [N, Id]),
     append(S1, [mon(Id, _, P, K, 0)|S2], S0),
     append(S1, [mon(Id, N, P, K, 0)|S2], S)
   },
@@ -30,8 +30,8 @@ stats([action(switch, [mon(P,N), Id, _])|Ls]) -->
 stats([action(faint, [mon(P, N)])|Ls]) -->
   state(S0, S),
   {
-    append(S1, [mon(_, N, P, K, 0)|S2], S0),
-    append(S1, [mon(_, N, P, K, 1)|S2], S)
+    append(S1, [mon(Id, N, P, K, 0)|S2], S0),
+    append(S1, [mon(Id, N, P, K, 1)|S2], S)
   },
   stats(Ls).
 
