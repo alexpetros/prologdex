@@ -18,7 +18,7 @@ log(u_action(A, Cs)) --> "|", rest(A), ("|", line(Cs) | "\n", { Cs = [] }), ws.
 % Meta
 action(player, [P, PHandle])                   --> "|player|", player(P), "|", rest(PHandle), line(_).
 action(teamsize, [Player, Num])                --> "|teamsize|", rest(Player), "|", rest(Num), line(_).
-action(poke, [P, M])                           --> "|poke|", player(P), "|", mon_id(M), line(_).
+action(poke, [P, M])                           --> "|poke|", player(P), "|", mon_id(M) ,"|", line(_).
 action(rule, [R])                              --> "|rule|", rest(R), line(_).
 action(win, [PHandle])                         --> "|win|", rest(PHandle), line(_).
 action(tier, [T])                              --> "|tier|", rest(T), line(_).
@@ -30,8 +30,8 @@ action(start, [])                                --> "|start\n".
 action(upkeep, [])                               --> "|upkeep\n".
 action(turn, [T])                              --> "|turn|", line(TS), { number_chars(T, TS) }.
 action(timestamp, [Timestamp])                 --> "|t:|", line(Timestamp).
-action(switch, [mon(P,N), M, HP])             --> "|switch|", mon(P, N), "|", mon_id(M), hp_status(HP, _), line(_).
-action(drag, [mon(P,N), M, HP])               --> "|drag|", mon(P, N), "|", mon_id(M), hp_status(HP, _), line(_).
+action(switch, [mon(P,N), M, HP])             --> "|switch|", mon(P, N), "|", mon_id(M), "|", hp_status(HP, _), line(_).
+action(drag, [mon(P,N), M, HP])               --> "|drag|", mon(P, N), "|", mon_id(M), "|", hp_status(HP, _), line(_).
 action(replace, [mon(P,N), M])                --> "|replace|", mon(P, N), "|", mon_id(M), line(_).
 action(move, [mon(P, N), Move, T, miss])       --> "|move|", mon(P, N), "|", rest(Move), "|", target(T), "|[miss]", line(_).
 action(move, [mon(P, N), Move, T, notarget])   --> "|move|", mon(P, N), "|", rest(Move), "|", target(T), "|[notarget]", line(_).
@@ -92,8 +92,8 @@ action(hint, [Msg])                       --> "|-hint|", rest(Msg), line(_).
 
 %% Protocol sub-predicates
 id(Species, Details) -->
-  (to_comma_or_sep(Species), "|", { Details = [] })
-  | (to_comma_or_sep(Species), ",", rest(Details), ("|" | "\n")).
+  (to_comma_or_sep(Species), { Details = [] })
+  | (to_comma_or_sep(Species), ",", rest(Details)).
 mon_id(id(Species, Details))  --> id(Species, Details).
 
 mon(P, Name)          --> pos(P, _), ": ", rest(Name). % p1a: Glimmora

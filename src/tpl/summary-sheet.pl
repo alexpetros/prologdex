@@ -119,7 +119,3 @@ weakness_count(Team, Type, I, Ia, VS, S, N, W, VW) :-
   matchup_count(Team, Type, weak, W),
   matchup_count(Team, Type, very_weak, VW).
 
-%%% Utils
-printline([]).
-printline(S) :- format("~s~n", [S]).
-
