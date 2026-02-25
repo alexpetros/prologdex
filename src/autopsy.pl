@@ -32,6 +32,7 @@ directory_log_files(Dp, LogFiles) :-
   tfilter(log_file_t, Files, RelativeLogFiles),
   append(Dp, "/", Base),
   maplist(append(Base), RelativeLogFiles, LogFiles).
+
 all_logs(Dp, Lss) :- directory_log_files(Dp, LogFiles), foldl(append_log, LogFiles, [], Lss).
 
 summary_line(kd(S, K, D), Str) :- phrase(format_("~s - ~d|~d", [S, K, D]), Str).
@@ -51,11 +52,11 @@ log_player_opp(Fp, P, Opp) :-
   ( players(Ls, P, Opp) ; players(Ls, Opp, P) ).
 
 log_file(Fp) :-
-  all_log_files("./logs", LogFiles),
+  directory_log_files("./logs", LogFiles),
   member(Fp, LogFiles).
 
 winner(W) :-
-  all_log_files("./logs", LogFiles),
+  directory_log_files("./logs", LogFiles),
   member(Fp, LogFiles),
   load_log(Fp, Ls),
   winner(Ls, W).
