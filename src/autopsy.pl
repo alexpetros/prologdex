@@ -24,14 +24,15 @@ log_file_t(Ls, false) :- length(Ls, L), L #=< 4.
 log_file_t(Ls, T) :- length(L1, 4), append(_, [_|L1], Ls), =(L1, ".log", T).
 
 append_log(Fp, Lss0, Lss) :-
-  append("./logs/", Fp, RelativePath),
-  phrase_from_file(log_lines(Ls1), RelativePath),
+  phrase_from_file(log_lines(Ls1), Fp),
   append(Lss0, [Ls1], Lss).
 
-all_logs(Dp, Lss) :-
+directory_log_files(Dp, LogFiles) :-
   directory_files(Dp, Files),
-  tfilter(log_file_t, Files, LogFiles),
-  foldl(append_log, LogFiles, [], Lss).
+  tfilter(log_file_t, Files, RelativeLogFiles),
+  append(Dp, "/", Base),
+  maplist(append(Base), RelativeLogFiles, LogFiles).
+all_logs(Dp, Lss) :- directory_log_files(Dp, LogFiles), foldl(append_log, LogFiles, [], Lss).
 
 summary_line(kd(S, K, D), Str) :- phrase(format_("~s - ~d|~d", [S, K, D]), Str).
 game_summary(Ls, S) :-
@@ -43,6 +44,17 @@ print_game_summary(Ls) :-
   format("~s vs ~s~n", [P1, P2]),
   game_summary(Ls, S),
   maplist(printline, S).
+
+players(Ls, P1, P2) :- Ls = [action(joined, [['☆'|P1]]), action(joined, [['☆'|P2]])| _].
+
+log_player_opp(Fp, P, Opp) :-
+  log_file(Fp),
+  load_log(Fp, Ls),
+  ( players(Ls, P, Opp) ; players(Ls, Opp, P) ).
+
+log_file(Fp) :-
+  all_log_files("./logs", LogFiles),
+  member(Fp, LogFiles).
 
 all_stats(Lss, Statss) :- maplist(get_stats, Lss, Statss).
 

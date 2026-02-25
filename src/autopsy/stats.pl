@@ -2,18 +2,22 @@
 :- use_module(library(lambda)).
 :- use_module('../utils.pl').
 
-
-get_kd(mon(id(S,_),_,_,K,D), kd(S, K, D)).
+get_kd(stat_line(id(S,_),_,_,K,D), kd(S, K, D)).
 deaths(Ls, Species, D) :-
   phrase(stats(Ls), [[]], [Stats]),
   maplist(get_kd, Stats, AllDeaths),
   select(kd(Species, _, D), AllDeaths, _).
 
 state(S0, S), [S] --> [S0].
+stats([action(turn, [T])|Ls]) -->
+  state(S, S),
+  { format("Turn ~d~n", [T]) },
+  stats(Ls).
+
 stats([action(poke, [P,Id])|Ls]) -->
   state(S0, S),
   {
-    M = mon(Id, none, P, 0, 0),
+    M = stat_line(Id, none, P, 0, 0),
     append(S0, [M], S)
   },
   stats(Ls).
@@ -21,8 +25,8 @@ stats([action(detailschange, [mon(P,N), NewId])|Ls]) -->
   % format("~s", N),
   state(S0, S),
   {
-    append(S1, [mon(_, N, P, K, D)|S2], S0),
-    append(S1, [mon(NewId, N, P, K, D)|S2], S)
+    append(S1, [stat_line(_, N, P, K, D)|S2], S0),
+    append(S1, [stat_line(NewId, N, P, K, D)|S2], S)
   },
   stats(Ls).
 stats([action(A, [mon(P,N), id(Sp,_), _])|Ls]) -->
@@ -30,21 +34,21 @@ stats([action(A, [mon(P,N), id(Sp,_), _])|Ls]) -->
   {
     % format("Switched in ~s (~s)~n", [N, Sp]),
     memberd_t(A, [switch, drag], true),
-    append(S1, [mon(id(Sp,_), _, P, K, 0)|S2], S0),
-    append(S1, [mon(id(Sp,_), N, P, K, 0)|S2], S)
+    append(S1, [stat_line(id(Sp,_), _, P, K, D)|S2], S0),
+    append(S1, [stat_line(id(Sp,_), N, P, K, D)|S2], S)
   },
   stats(Ls).
 stats([action(faint, [mon(P, N)])|Ls]) -->
   state(S0, S),
   {
-    append(S1, [mon(Id, N, P, K, 0)|S2], S0),
-    append(S1, [mon(Id, N, P, K, 1)|S2], S)
+    append(S1, [stat_line(Id, N, P, K, D0)|S2], S0),
+    D #= D0 + 1,
+    append(S1, [stat_line(Id, N, P, K, D)|S2], S)
   },
   stats(Ls).
 
-stats([action(A, _)|Ls]) --> { memberd_t(A, [
-  poke, switch, detailschange, faint, drag
-], false) }, stats(Ls).
+stats([action(A, _)|Ls]) -->
+  { memberd_t(A, [ poke, switch, detailschange, faint, drag, turn], false) }, stats(Ls).
 stats([]) --> [].
 
 %% Move accuracy
