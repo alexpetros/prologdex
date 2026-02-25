@@ -46,7 +46,6 @@ print_game_summary(Ls) :-
   maplist(printline, S).
 
 players(Ls, P1, P2) :- Ls = [action(joined, [['☆'|P1]]), action(joined, [['☆'|P2]])| _].
-
 log_player_opp(Fp, P, Opp) :-
   log_file(Fp),
   load_log(Fp, Ls),

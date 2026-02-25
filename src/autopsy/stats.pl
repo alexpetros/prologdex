@@ -29,11 +29,11 @@ stats([action(detailschange, [mon(P,N), NewId])|Ls]) -->
     append(S1, [stat_line(NewId, N, P, K, D)|S2], S)
   },
   stats(Ls).
-stats([action(A, [mon(P,N), id(Sp,_), _])|Ls]) -->
+stats([action(A, [mon(P,N), id(Sp,_)|_])|Ls]) -->
   state(S0, S),
   {
     % format("Switched in ~s (~s)~n", [N, Sp]),
-    memberd_t(A, [switch, drag], true),
+    memberd_t(A, [switch, drag, replace], true),
     append(S1, [stat_line(id(Sp,_), _, P, K, D)|S2], S0),
     append(S1, [stat_line(id(Sp,_), N, P, K, D)|S2], S)
   },
@@ -48,7 +48,7 @@ stats([action(faint, [mon(P, N)])|Ls]) -->
   stats(Ls).
 
 stats([action(A, _)|Ls]) -->
-  { memberd_t(A, [ poke, switch, detailschange, faint, drag, turn], false) }, stats(Ls).
+  { memberd_t(A, [ poke, switch, detailschange, faint, drag, turn, replace], false) }, stats(Ls).
 stats([]) --> [].
 
 %% Move accuracy
