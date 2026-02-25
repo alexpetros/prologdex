@@ -2,7 +2,13 @@
 :- use_module(library(lambda)).
 :- use_module('../utils.pl').
 
+% TODO handle disconnects
+players(Ls, P1, P2) :- Ls = [action(joined, [['☆'|P1]]), action(joined, [['☆'|P2]])| _].
+
 get_kd(stat_line(id(S,_),_,_,K,D), kd(S, K, D)).
+
+winner(Ls, Player) :- select(action(win, [Player]), Ls, _).
+
 deaths(Ls, Species, D) :-
   phrase(stats(Ls), [[]], [Stats]),
   maplist(get_kd, Stats, AllDeaths),
@@ -11,7 +17,7 @@ deaths(Ls, Species, D) :-
 state(S0, S), [S] --> [S0].
 stats([action(turn, [T])|Ls]) -->
   state(S, S),
-  { format("Turn ~d~n", [T]) },
+  { *format("Turn ~d~n", [T]) },
   stats(Ls).
 
 stats([action(poke, [P,Id])|Ls]) -->

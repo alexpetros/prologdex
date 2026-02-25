@@ -45,7 +45,6 @@ print_game_summary(Ls) :-
   game_summary(Ls, S),
   maplist(printline, S).
 
-players(Ls, P1, P2) :- Ls = [action(joined, [['☆'|P1]]), action(joined, [['☆'|P2]])| _].
 log_player_opp(Fp, P, Opp) :-
   log_file(Fp),
   load_log(Fp, Ls),
@@ -54,6 +53,12 @@ log_player_opp(Fp, P, Opp) :-
 log_file(Fp) :-
   all_log_files("./logs", LogFiles),
   member(Fp, LogFiles).
+
+winner(W) :-
+  all_log_files("./logs", LogFiles),
+  member(Fp, LogFiles),
+  load_log(Fp, Ls),
+  winner(Ls, W).
 
 all_stats(Lss, Statss) :- maplist(get_stats, Lss, Statss).
 
