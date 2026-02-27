@@ -1,6 +1,8 @@
 PROLOGDEX_FILE := "./src/prologdex.pl"
 AUTOPSY_FILE := "./src/autopsy.pl"
 TEST_FILE := "./test.pl"
+LOG_URLS := "./logs/urls"
+LOGS_DIR := "./logs"
 
 db:
   scryer-prolog {{ PROLOGDEX_FILE }}
@@ -22,8 +24,8 @@ serve:
 generate-dex:
   node ./generator/generate-dex.js
 
-download:
-  scryer-prolog ./src/autopsy/download-logs.pl -g run -t halt
+download-logs:
+  scryer-prolog ./src/autopsy/download-logs.pl -g run -t halt -- {{ LOG_URLS }} {{ LOGS_DIR }}
 
 unknowns:
   find ./logs -name '*.log' | xargs scryer-prolog autopsy.pl -g unknown -- | cut -d '|' -f 1 | sort | uniq -c | sort -nr

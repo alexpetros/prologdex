@@ -1,3 +1,7 @@
+/*
+ * download-logs.pl - download a list of whitespace-separated Pokemon Showdown logs
+ */
+:- use_module(library(os)).
 :- use_module(library(lists)).
 :- use_module(library(debug)).
 :- use_module(library(pio)).
@@ -6,10 +10,10 @@
 :- use_module(library(http/http_open)).
 
 % Download the all the logs and write them to the logs directory
-run :- make_logs("./logs/urls", "./logs").
+run :- argv([UrlFp, OutputDir]), download_logs(UrlFp, OutputDir).
 
 % Read the URLs from the file and print out all the log URLs
-make_logs(ReplayUrlsFp, OutputDir) :-
+download_logs(ReplayUrlsFp, OutputDir) :-
   phrase_from_file(replays(Rs), ReplayUrlsFp),
   maplist(fetch_and_write_log(OutputDir), Rs).
 
@@ -37,7 +41,7 @@ log_fp(replay(Id), OutputDir) --> OutputDir, "/", Id, ".log".
 
 % Turn a list of replays into newline-delimeted URLs
 % You can change `replay_url` to `log_url` to get the .log URL
-list_replay_urls([R|Rs]) --> replay_url(R), "\n", list_replay_urls(Rs).
+list_replay_urls([R|Rs]) --> replay_url(R), ws, list_replay_urls(Rs).
 list_replay_urls([]) --> [].
 
 % Whitespace and non-whitespace sequences
