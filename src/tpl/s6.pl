@@ -108,8 +108,9 @@ pat(rotomwash).
 pat(hydrapple).
 pat(talonflame).
 pat(banettemega).
-pat(obstagoon).
+pat(mrmimegalar).
 pat(glimmora).
+pat(bewear).
 
 justin(charizardmegay).
 justin(terapagosterastal).
