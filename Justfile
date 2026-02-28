@@ -28,7 +28,7 @@ download-logs:
   scryer-prolog ./src/autopsy/download-logs.pl -g run -t halt -- {{ LOG_URLS }} {{ LOGS_DIR }}
 
 unknowns:
-  find ./logs -name '*.log' | xargs scryer-prolog autopsy.pl -g unknown -- | cut -d '|' -f 1 | sort | uniq -c | sort -nr
+  find ./logs -name '*.log' | xargs scryer-prolog {{ AUTOPSY_FILE }} -g unknown -- | cut -d '|' -f 1 | sort | uniq -c | sort -nr
 
 print-all:
   scryer-prolog {{ AUTOPSY_FILE }} -g print -- ./logs/*.log

@@ -8,7 +8,7 @@
 :- use_module(library(files)).
 
 :- use_module('./autopsy/parser.pl').
-:- use_module('./autopsy/stats.pl').
+:- use_module('./autopsy/league-stats.pl').
 :- use_module('./autopsy/print-battle.pl').
 
 % Top-levels
@@ -18,22 +18,17 @@ unknown :- argv(Fps), (maplist(unknown, Fps) -> halt(0); halt(1)).
 print(Fp) :- phrase_from_file(log_lines(Ls), Fp), phrase_to_stream(print_battle(Ls), user_output).
 unknown(Fp) :- phrase_from_file(log_lines(Ls), Fp), phrase_to_stream(print_unknown_actions(Ls), user_output).
 
-load_log(Fp, Ls) :- phrase_from_file(log_lines(Ls), Fp).
-
-log_file_t(Ls, false) :- length(Ls, L), L #=< 4.
-log_file_t(Ls, T) :- length(L1, 4), append(_, [_|L1], Ls), =(L1, ".log", T).
-
 append_log(Fp, Lss0, Lss) :-
   phrase_from_file(log_lines(Ls1), Fp),
   append(Lss0, [Ls1], Lss).
 
+log_file_t(Ls, false) :- length(Ls, L), L #=< 4.
+log_file_t(Ls, T) :- length(L1, 4), append(_, [_|L1], Ls), =(L1, ".log", T).
 directory_log_files(Dp, LogFiles) :-
   directory_files(Dp, Files),
   tfilter(log_file_t, Files, RelativeLogFiles),
   append(Dp, "/", Base),
   maplist(append(Base), RelativeLogFiles, LogFiles).
-
-all_logs(Dp, Lss) :- directory_log_files(Dp, LogFiles), foldl(append_log, LogFiles, [], Lss).
 
 summary_line(kd(S, K, D), Str) :- phrase(format_("~s - ~d|~d", [S, K, D]), Str).
 game_summary(Ls, S) :-
@@ -46,19 +41,19 @@ print_game_summary(Ls) :-
   game_summary(Ls, S),
   maplist(printline, S).
 
-log_player_opp(Fp, P, Opp) :-
-  log_file(Fp),
-  load_log(Fp, Ls),
-  ( players(Ls, P, Opp) ; players(Ls, Opp, P) ).
-
 log_file(Fp) :-
   directory_log_files("./logs", LogFiles),
   member(Fp, LogFiles).
 
+log_player_opp(Fp, P, Opp) :-
+  log_file(Fp),
+  phrase_from_file(log_lines(Ls), Fp),
+  ( players(Ls, P, Opp) ; players(Ls, Opp, P) ).
+
 winner(W) :-
   directory_log_files("./logs", LogFiles),
   member(Fp, LogFiles),
-  load_log(Fp, Ls),
+  phrase_from_file(log_lines(Ls), Fp),
   winner(Ls, W).
 
 all_stats(Lss, Statss) :- maplist(get_stats, Lss, Statss).

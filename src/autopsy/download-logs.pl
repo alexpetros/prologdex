@@ -3,7 +3,6 @@
  */
 :- use_module(library(os)).
 :- use_module(library(lists)).
-:- use_module(library(debug)).
 :- use_module(library(pio)).
 :- use_module(library(dcgs)).
 :- use_module(library(charsio)).
@@ -34,7 +33,7 @@ replay(Id) --> replay_origin, non_ws(Id), ws.
 replays([replay(Id)|Rs]) --> replay(Id), replays(Rs).
 replays([]) --> [].
 
-% Terminal descriptions of the replay
+% Replay URL descriptions
 replay_url(replay(Id)) --> replay_origin, Id.
 log_url(replay(Id)) --> replay_origin, Id, ".log".
 log_fp(replay(Id), OutputDir) --> OutputDir, "/", Id, ".log".

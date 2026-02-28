@@ -57,7 +57,8 @@ stats([action(A, _)|Ls]) -->
   { memberd_t(A, [ poke, switch, detailschange, faint, drag, turn, replace], false) }, stats(Ls).
 stats([]) --> [].
 
-%% Move accuracy
+%% Move accuracy analysis                     %%
+%% This is a bit slow and feels wonky to me   %%
 hit_or_missed_move(action(A, _), false) :- dif(A, move).
 hit_or_missed_move(action(move, [_,_,_,Res]), T) :- memberd_t(Res, [none, miss], T).
 extract_move(action(move, [_,Move,_,Res]), Move-Res).
@@ -80,6 +81,8 @@ moves_acc(Ls, MoveAccs) :-
 move(Fp, Move, Result) :-
   phrase_from_file(log_lines(Ls), Fp),
   member(move(_, Move, _, Result), Ls).
+
+all_logs(Dp, Lss) :- directory_log_files(Dp, LogFiles), foldl(append_log, LogFiles, [], Lss).
 
 moves_acc_key(M, Pct-M) :- M = move_acc(_, _, _, Pct).
 moves_acc_print(Pct-move_acc(Move, Usages, Misses, Pct)) :-
